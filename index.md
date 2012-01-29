@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bookmarklets for downloading videos
+title: svnpenn/bm @ GitHub
 ---
 
 # bm
