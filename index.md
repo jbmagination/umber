@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Bookmarklet
+title: Bookmarklet for downloading videos
 ---
-
-# Bookmarklet
 
 *Bookmarklets for downloading videos*
 
@@ -22,8 +20,8 @@ Steven Penny
 Steven Penny (svnpenn@gmail.com)
 
 ## Links
-[source](http://github.com/svnpenn/bookmarklet)  
-[issues](http://github.com/svnpenn/bookmarklet/issues)  
+[source](http://github.com/svnpenn/bm)  
+[issues](http://github.com/svnpenn/bm/issues)  
 
-[y]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bookmarklet/yt.js'})()
-[v]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bookmarklet/vimeo.js'})()
+[y]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/yt.js'})()
+[v]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/vimeo.js'})()
