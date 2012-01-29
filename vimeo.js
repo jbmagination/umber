@@ -1,7 +1,7 @@
 // userscripts.org/scripts/review/77688
 var base = 'http://vimeo.com/moogaloop/';
 var cid = document.getElementById('clip_id').value;
-var x = new XMLHttpRequest;
+var x = new XMLHttpRequest();
 
 // vimeo.com/moogaloop/load/clip:21840676
 x.open('get', base + 'load/clip:' + cid, false);
