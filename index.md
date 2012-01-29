@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bookmarklet for downloading videos
+title: Bookmarklets for downloading videos
 ---
 
 # bm
