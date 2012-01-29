@@ -3,7 +3,7 @@ layout: page
 title: Bookmarklet for downloading videos
 ---
 
-*Bookmarklets for downloading videos*
+# Bookmarklets for downloading videos
 
 ## Install
 
