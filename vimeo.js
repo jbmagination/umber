@@ -4,7 +4,7 @@ var cid = document.getElementById('clip_id').value;
 var x = new XMLHttpRequest;
 
 // vimeo.com/moogaloop/load/clip:21840676
-x.open('GET', base + 'load/clip:' + cid, false);
+x.open('get', base + 'load/clip:' + cid, false);
 
 x.send();
 x = x.responseXML;
