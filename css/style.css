@@ -1,8 +1,5 @@
-.logo {
-    position : absolute;
-    right : 0;
-    width : 200px;
-}
+.right { float: right; }
+.logo { width: 200px; }
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 body {
