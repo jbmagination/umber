@@ -1,3 +1,8 @@
+.logo {
+    position : absolute;
+    right : 0;
+    width : 200px;
+}
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 body {
@@ -22,9 +27,4 @@ h2 {
 h3 {
     text-align: center;
     color: #000912;
-}
-.logo {
-    position : absolute;
-    right : 0;
-    width : 300px;
 }
