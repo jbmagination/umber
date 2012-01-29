@@ -3,7 +3,7 @@ layout: page
 title: Bookmarklet for downloading videos
 ---
 
-# svnpenn/bm
+# bm
 *Bookmarklets for downloading videos* 
 
 ## Install
