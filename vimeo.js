@@ -14,7 +14,7 @@ var rse = x.getElementsByTagName('request_signature_expires')[0].textContent;
 // vimeo.com/moogaloop/play/clip:21840676/76c84c528d236eb7ecbaa7663f46eabb/1327860405
 var url = base + 'play/clip:' + cid + '/' + rs + '/' + rse;
 
-document.getElementById('toolbar').innerHTML =
+document.getElementsByClassName('f')[0].innerHTML =
 '<a href=' + url + '>SD</a>' +
 '<br>' +
 '<a href=' + url + '?q=hd>HD</a>';
