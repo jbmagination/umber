@@ -16,25 +16,25 @@ function get_query_var(querystring, variable) {
 function get_quality(url) {
 	switch (true) {
 		case url.indexOf('itag=5') > 0:
-			return 'H.263 240p';
+			return 'FLV H.263 240p';
 		case url.indexOf('itag=34') > 0:
-			return 'H.264 Main 360p';
+			return 'FLV H.264 Main 360p';
 		case url.indexOf('itag=35') > 0:
-			return 'H.264 Main 480p';
+			return 'FLV H.264 Main 480p';
 		case url.indexOf('itag=18') > 0:
-			return 'H.264 Baseline 360p';
+			return 'MP4 H.264 Baseline 360p';
 		case url.indexOf('itag=22') > 0:
-			return 'H.264 High 720p';
+			return 'MP4 H.264 High 720p';
 		case url.indexOf('itag=37') > 0:
-			return 'H.264 High 1080p';
+			return 'MP4 H.264 High 1080p';
 		case url.indexOf('itag=43') > 0:
-			return 'VP8 360p';
+			return 'WebM VP8 360p';
 		case url.indexOf('itag=44') > 0:
-			return 'VP8 480p';
+			return 'WebM VP8 480p';
 		case url.indexOf('itag=45') > 0:
-			return 'VP8 720p';
+			return 'WebM VP8 720p';
 		case url.indexOf('itag=46') > 0:
-			return 'VP8 1080p';
+			return 'WebM VP8 1080p';
 	}
 }
 
