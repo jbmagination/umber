@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: google
 title: svnpenn/bm @ GitHub
 ---
 
