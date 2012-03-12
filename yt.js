@@ -1,6 +1,6 @@
 /* quirksmode.org/dom/innerhtml.html	
- * stackoverflow.com/questions/267704
- * stackoverflow.com/questions/2090551
+ * stackoverflow.com/q/267704
+ * stackoverflow.com/q/2090551
  * * * */
 function get_query_var(querystring, variable) {
 	// vars is an array of name=value pairs
