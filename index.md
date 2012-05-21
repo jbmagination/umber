@@ -23,5 +23,5 @@ Steven Penny (svnpenn@gmail.com)
 [source](http://github.com/svnpenn/bm)  
 [issues](http://github.com/svnpenn/bm/issues)  
 
-[y]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/yt.js'})()
-[v]:javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/vimeo.js'})()
+[v]:javascript:document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/vimeo.js';void(0)
+[y]:javascript:document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/yt.js';void(0)

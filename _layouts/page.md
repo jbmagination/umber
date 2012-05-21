@@ -9,11 +9,11 @@
 <body>
 
 <div class='right'>
-	<img src='images/blacktocat.png' alt='blacktocat'>
+	<img src='img/blacktocat.png' alt='blacktocat'>
 	<br>
-	<img src='images/youtube.png' alt='youtube'>
+	<img src='img/youtube.png' alt='youtube'>
 	<br>
-	<img src='images/vimeo.png' alt='vimeo'>
+	<img src='img/vimeo.png' alt='vimeo'>
 </div>
 
 <div id='container'>
