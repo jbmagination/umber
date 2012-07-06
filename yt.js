@@ -19,6 +19,7 @@ function get_quality(url) {
     case url.indexOf('itag=22')  > 0: return 'MP4 720p H.264 High';
     case url.indexOf('itag=37')  > 0: return 'MP4 1080p H.264 High';
     case url.indexOf('itag=43')  > 0: return 'WebM 360p VP8';
+    case url.indexOf('itag=100') > 0: return 'WebM 360p VP8 3D';
     case url.indexOf('itag=44')  > 0: return 'WebM 480p VP8';
     case url.indexOf('itag=45')  > 0: return 'WebM 720p VP8';
     case url.indexOf('itag=102') > 0: return 'WebM 720p VP8 3D';
