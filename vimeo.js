@@ -1,5 +1,5 @@
 // userscripts.org/scripts/review/112123
-var player = document.getElementsByClassName('f')[0].getAttribute('id');
+var player = document.getElementsByClassName('player')[0].getAttribute('id');
 player = eval(player.replace("player_", "clip"));
 var time = player.config.request.timestamp;
 var sig = player.config.request.signature;
