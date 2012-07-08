@@ -1,22 +1,21 @@
-// userscripts.org/scripts/review/77688
-var base = 'http://vimeo.com/moogaloop/';
-var cid = document.getElementById('clip_id').value;
-var x = new XMLHttpRequest();
+// userscripts.org/scripts/review/112123
+var player = document.getElementsByClassName("f player")[0].getAttribute("id");
+player = eval(player.replace("player_", "clip"));
+var time = player.config.request.timestamp;
+var sig = player.config.request.signature;
+var clip_id = window.location.href.substring(17);
 
-// vimeo.com/moogaloop/load/clip:21840676
-x.open('get', base + 'load/clip:' + cid, false);
+var url = "http://player.vimeo.com/play_redirect" +
+  "?clip_id=" + clip_id +
+  "&sig=" + sig +
+  "&time=" + time;
 
-x.send();
-x = x.responseXML;
-var rs = x.getElementsByTagName('request_signature')[0].textContent;
-var rse = x.getElementsByTagName('request_signature_expires')[0].textContent;
+var v = document.getElementById('video');
+v.style.backgroundColor = "#fff";
+v.style.fontSize = "9em";
+v.style.height = "1em";
+v.style.lineHeight = "1em";
 
-// vimeo.com/moogaloop/play/clip:21840676/76c84c528d236eb7ecbaa7663f46eabb/1327860405
-var url = base + 'play/clip:' + cid + '/' + rs + '/' + rse;
-
-var f = document.getElementsByClassName('f')[0];
-f.style.fontSize = '9em';
-f.innerHTML =
-'<a href=' + url + '>SD</a>' +
-'<br>' +
-'<a href=' + url + '?q=hd>HD</a>';
+v.innerHTML =
+  '<a href="' + url + '">SD</a>, ' +
+  '<a href="' + url + '&quality=hd">HD</a>';
