@@ -13,7 +13,6 @@ var url = "http://player.vimeo.com/play_redirect" +
 var v = document.getElementById('video');
 v.style.backgroundColor = "#fff";
 v.style.fontSize = "9em";
-v.style.height = "1em";
 v.style.lineHeight = "1em";
 
 v.innerHTML =
