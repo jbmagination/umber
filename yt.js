@@ -12,6 +12,7 @@ function get_query_var(querystring, variable) {
 function get_quality(url) {
   switch (true) {
     case url.indexOf('itag=5')   > 0: return 'FLV 240p H.263';
+    case url.indexOf('itag=17')  > 0: return '3GP 144p';
     case url.indexOf('itag=18')  > 0: return 'MP4 360p H.264 Baseline';
     case url.indexOf('itag=22')  > 0: return 'MP4 720p H.264 High';
     case url.indexOf('itag=34')  > 0: return 'FLV 360p H.264 Main';
