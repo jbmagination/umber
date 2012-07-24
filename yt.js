@@ -3,9 +3,9 @@ function get_query_var(querystring, variable) {
   var vars = querystring.split('&');
   for (var i=0; i<vars.length; i++) {
     var pair = vars[i].split('=');
-      if (pair[0] == variable) {
-        return unescape(pair[1]);
-      }
+    if (pair[0] == variable) {
+      return unescape(pair[1]);
+    }
   }
 }
 
