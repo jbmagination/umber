@@ -1,6 +1,6 @@
 ---
 layout: page
-title: svnpenn/bm @ GitHub
+title: YouTube and Vimeo Bookmarklets
 ---
 
 # bm
