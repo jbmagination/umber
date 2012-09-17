@@ -37,7 +37,9 @@ var a_elements = new Array();
 
 for (var i=0; i<stream_map.length; i++) {
   /* Get URL, IT IS A STRING */
-  var url = get_query_var(stream_map[i], 'url');
+  var url =
+    get_query_var(stream_map[i], 'url') + '&signature=' +
+    get_query_var(stream_map[i], 'sig');
   a_elements.push('<a href=' + url + '>' + get_quality(url) + '</a>');
 }
 
