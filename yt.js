@@ -10,24 +10,27 @@ function get_query_var(querystring, variable) {
 }
 
 function get_quality(url) {
-  switch (true) {
-    case url.indexOf('itag=5')   > 0: return 'FLV 240p H.263';
-    case url.indexOf('itag=17')  > 0: return '3GP 144p';
-    case url.indexOf('itag=18')  > 0: return 'MP4 360p H.264 Baseline';
-    case url.indexOf('itag=22')  > 0: return 'MP4 720p H.264 High';
-    case url.indexOf('itag=34')  > 0: return 'FLV 360p H.264 Main';
-    case url.indexOf('itag=35')  > 0: return 'FLV 480p H.264 Main';
-    case url.indexOf('itag=36')  > 0: return '3GP 240p';
-    case url.indexOf('itag=37')  > 0: return 'MP4 1080p H.264 High';
-    case url.indexOf('itag=43')  > 0: return 'WebM 360p VP8';
-    case url.indexOf('itag=44')  > 0: return 'WebM 480p VP8';
-    case url.indexOf('itag=45')  > 0: return 'WebM 720p VP8';
-    case url.indexOf('itag=46')  > 0: return 'WebM 1080p VP8';
-    case url.indexOf('itag=82')  > 0: return 'MP4 360p H.264 3D';
-    case url.indexOf('itag=84')  > 0: return 'MP4 720p H.264 3D';
-    case url.indexOf('itag=100') > 0: return 'WebM 360p VP8 3D';
-    case url.indexOf('itag=102') > 0: return 'WebM 720p VP8 3D';
-  }
+  var qual = {
+    5: '240p FLV h.263',
+    17: '144p 3GP mpeg4 simple',
+    18: '360p MP4 h.264 baseline',
+    22: '720p MP4 h.264 high',
+    34: '360p FLV h.264 main',
+    35: '480p FLV h.264 main',
+    36: '240p 3GP mpeg4 simple',
+    37: '1080p MP4 h.264 high',
+    43: '360p WebM vp8',
+    44: '480p WebM vp8',
+    45: '720p WebM vp8',
+    46: '1080p WebM vp8',
+    82: '360p MP4 h.264 3D',
+    84: '720p MP4 h.264 3D',
+    100: '360p WebM vp8 3D',
+    102: '720p WebM vp8 3D'
+  };
+  var from = url.indexOf('itag=') + 5;
+  var to = url.indexOf('&', from);
+  return qual[url.substring(from, to)];
 }
 
 var fv = document.getElementById('movie_player').getAttribute('flashvars');
