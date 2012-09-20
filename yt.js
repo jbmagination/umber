@@ -28,9 +28,7 @@ function get_quality(url) {
     100: '360p WebM vp8 3D',
     102: '720p WebM vp8 3D'
   };
-  var from = url.indexOf('itag=') + 5;
-  var to = url.indexOf('&', from);
-  return qual[url.substring(from, to)];
+  return qual[url.match(/itag=(\d+)/)[1]];
 }
 
 var fv = document.getElementById('movie_player').getAttribute('flashvars');
