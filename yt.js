@@ -1,12 +1,6 @@
-function get_query_var(querystring, variable) {
-  // vars is an array of name=value pairs
-  var vars = querystring.split('&');
-  for (var i=0; i<vars.length; i++) {
-    var pair = vars[i].split('=');
-    if (pair[0] == variable) {
-      return unescape(pair[1]);
-    }
-  }
+function get_query_var(querystring, name) {
+  var filter = new RegExp( name + '=([^&]+)' );
+  return unescape( querystring.match(filter)[1] );
 }
 
 function get_quality(url) {
