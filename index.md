@@ -15,8 +15,8 @@ Drag a link to the Bookmarks toolbar.
 
 [Vimeo download][v]
 
-## Authors
+## Author
 Steven Penny
 
-[v]:javascript:document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/vimeo.js';void(0)
-[y]:javascript:document.body.appendChild(document.createElement('script')).src='http://svnpenn.github.com/bm/yt.js';void(0)
+[v]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/vimeo.js";void(0)
+[y]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/yt.js";void(0)
