@@ -10,7 +10,7 @@ var url = "http://player.vimeo.com/play_redirect" +
   "&sig=" + sig +
   "&time=" + time;
 
-var v = document.getElementById("video");
+var v = document.getElementById("header");
 v.style.backgroundColor = "#fff";
 v.style.fontSize = "9em";
 v.style.lineHeight = "1em";
