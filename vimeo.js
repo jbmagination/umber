@@ -10,9 +10,8 @@ var url = "http://player.vimeo.com/play_redirect" +
   "&sig=" + sig +
   "&time=" + time;
 
-var v = document.getElementById("header");
-v.style.backgroundColor = "#fff";
-v.style.fontSize = "9em";
+var v = document.getElementById("menu");
+v.style.fontSize = "4em";
 v.style.lineHeight = "1em";
 
 v.innerHTML =
