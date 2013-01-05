@@ -28,7 +28,7 @@ function get_quality (url)
   return qual[url.match(/itag=(\d+)/)[1]];
 }
 
-var fv = document.getElementById("movie_player").getAttribute("flashvars");
+var fv = document.querySelector("#movie_player").getAttribute("flashvars");
 /* Get url_encoded_fmt_stream_map, IT IS AN ARRAY */
 var stream_map = get_query_var(fv, "url_encoded_fmt_stream_map").split(",");
 var a_elements = new Array();
@@ -42,4 +42,4 @@ for (var i = 0; i < stream_map.length; i++)
   a_elements.push("<a href=" + url + ">" + get_quality(url) + "</a>");
 }
 
-document.getElementById("watch7-player").innerHTML = a_elements.join("<br>");
+document.querySelector("#watch7-player").innerHTML = a_elements.join("<br>");
