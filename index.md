@@ -9,14 +9,18 @@ title: YouTube and Vimeo Bookmarklets
 [View on GitHub](http://github.com/svnpenn/bm)
 
 ## Install
-Drag a link to the Bookmarks toolbar.
+Drag a link to the Bookmarks toolbar
 
-[YouTube download][y]
+or
 
-[Vimeo download][v]
+Right click and select "Bookmark This Link"
+
+[YouTube download][yy]
+
+[Vimeo download][vv]
 
 ## Author
 Steven Penny
 
-[v]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/vimeo.js";void(0)
-[y]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/yt.js";void(0)
+[vv]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/vimeo.js";void(0)
+[yy]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/yt.js";void(0)
