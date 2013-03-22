@@ -42,4 +42,5 @@ for (var i = 0; i < stream_map.length; i++)
   a_elements.push("<a href=" + url + ">" + get_quality(url) + "</a>");
 }
 
-document.querySelector("#watch7-player").innerHTML = a_elements.join("<br>");
+var html = a_elements.join('<br>');
+document.querySelector('body').insertAdjacentHTML('beforebegin', html);
