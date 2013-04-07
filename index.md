@@ -22,5 +22,5 @@ Right click and select "Bookmark This Link"
 ## Author
 Steven Penny
 
-[vv]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/vimeo.js";void(0)
-[yy]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.com/bm/yt.js";void(0)
+[vv]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.io/bm/vimeo.js";void(0)
+[yy]:javascript:document.body.appendChild(document.createElement("script")).src="http://svnpenn.github.io/bm/yt.js";void(0)
