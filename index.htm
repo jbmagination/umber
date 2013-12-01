@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>YouTube and Vimeo Bookmarklets</title>
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<div class="right">
+  <img src="img/blacktocat.png" alt="blacktocat">
+  <br>
+  <img src="img/yt.png" alt="youtube">
+  <br>
+  <img src="img/vimeo.png" alt="vimeo">
+</div>
+
+<div id="container">
+  <h1>bm</h1>
+  <em>Bookmarklets for downloading videos</em>
+  <br>
+  <br>
+  <a href="http://github.com/svnpenn/bm">View on GitHub</a>
+  <h2>Install</h2>
+  <p>Drag a link to the Bookmarks toolbar</p>
+  <p>or</p>
+  <p>Right click and select “Bookmark This Link”</p>
+
+  <a href="javascript:
+    var q = document.createElement('script');
+    q.src='http://svnpenn.github.io/bm/yt.js';
+    document.body.appendChild(q);
+    void(0);
+  ">YouTube download</a>
+
+  <br>
+  <br>
+
+  <a href="javascript:
+    var q = document.createElement('script');
+    q.src='http://svnpenn.github.io/bm/vimeo.js';
+    document.body.appendChild(q);
+    void(0);
+  ">Vimeo download</a>
+
+  <h2>Author</h2>
+  <p>Steven Penny</p>
+</div>
+
+</body>
+</html>
