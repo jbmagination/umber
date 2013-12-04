@@ -20,22 +20,47 @@ function get_quality(url) {
     82: '360p MP4 h.264 3D',
     84: '720p MP4 h.264 3D',
     100: '360p WebM vp8 3D',
-    102: '720p WebM vp8 3D'
+    102: '720p WebM vp8 3D',
+    133: '240p MP4 DASH video',
+    134: '360p MP4 DASH video',
+    135: '480p MP4 DASH video',
+    136: '720p MP4 DASH video',
+    137: '1080p MP4 DASH video',
+    139: '48k M4A DASH audio',
+    140: '128k M4A DASH audio',
+    141: '256k M4A DASH audio',
+    160: '192p MP4 DASH video',
+    171: '128k WebM DASH audio',
+    172: '256k WebM DASH audio'
   };
-  return qual[url.match(/itag=(\d+)/)[1]];
+  var k = url.match(/itag=(\d+)/)[1];
+  return qual[k] || k;
 }
 
-/* Get url_encoded_fmt_stream_map, IT IS AN ARRAY */
-var stream_map = ytplayer.config.args.url_encoded_fmt_stream_map.split(',');
-var a_elements = new Array();
+var z;
+var url;
+var fmts = new Array();
+var urls = new Array();
 
-for (var i = 0; i < stream_map.length; i++) {
-  /* Get URL, IT IS A STRING */
-  var url =
-    get_query_var(stream_map[i], 'url') + '&signature=' +
-    get_query_var(stream_map[i], 'sig');
-  a_elements.push('<a href=' + url + '>' + get_quality(url) + '</a>');
+/* get "url_encoded_fmt_stream_map" querystring */
+fmts = ytplayer.config.args.url_encoded_fmt_stream_map.split(',');
+for (z = 0; z < fmts.length; z++) {
+  /* get "url" querystring */
+  url =
+    get_query_var(fmts[z], 'url') + '&signature=' +
+    get_query_var(fmts[z], 'sig');
+  urls.push('<a href=' + url + '>' + get_quality(url) + '</a>');
 }
 
-var html = a_elements.join('<br>');
-document.body.insertAdjacentHTML('beforebegin', html);
+/* get "adaptive_fmts" querystring */
+fmts = ytplayer.config.args.adaptive_fmts.split(',');
+for (z = 0; z < fmts.length; z++) {
+  /* get "url" querystring */
+  url = get_query_var(fmts[z], 'url');
+  urls.push('<a href=' + url + '>' + get_quality(url) + '</a>');
+}
+
+document.body.insertAdjacentHTML(
+  'beforebegin',
+  urls.join('<br>')
+);
