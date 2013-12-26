@@ -39,11 +39,12 @@ function get_quality(url) {
 
 var z;
 var url;
-var fmts = new Array();
-var urls = new Array();
+var fmts;
+var urls = [];
+var args = ytplayer.config.args;
 
 /* get "url_encoded_fmt_stream_map" querystring */
-fmts = ytplayer.config.args.url_encoded_fmt_stream_map.split(',');
+fmts = args.url_encoded_fmt_stream_map.split(',');
 for (z = 0; z < fmts.length; z++) {
   /* get "url" querystring */
   url =
@@ -53,7 +54,7 @@ for (z = 0; z < fmts.length; z++) {
 }
 
 /* get "adaptive_fmts" querystring */
-fmts = ytplayer.config.args.adaptive_fmts.split(',');
+fmts = (args.adaptive_fmts) ? args.adaptive_fmts.split(',') : '';
 for (z = 0; z < fmts.length; z++) {
   /* get "url" querystring */
   url = get_query_var(fmts[z], 'url');
