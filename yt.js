@@ -54,7 +54,7 @@ for (z = 0; z < fmts.length; z++) {
 }
 
 /* get "adaptive_fmts" querystring */
-fmts = (args.adaptive_fmts) ? args.adaptive_fmts.split(',') : '';
+fmts = args.adaptive_fmts ? args.adaptive_fmts.split(',') : '';
 for (z = 0; z < fmts.length; z++) {
   /* get "url" querystring */
   url = get_query_var(fmts[z], 'url');
