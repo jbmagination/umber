@@ -1,6 +1,6 @@
-function get_query_var(querystring, name) {
-  var filter = new RegExp(name + '=([^&]+)');
-  return unescape(querystring.match(filter)[1]);
+function get_query_val(qs, nm) {
+  var fr = new RegExp(nm + '=([^&]+)');
+  return qs.match(fr) ? unescape(qs.match(fr)[1]) : '';
 }
 
 function get_quality(url) {
@@ -37,30 +37,17 @@ function get_quality(url) {
   return qual[k] || k;
 }
 
-var z;
-var href;
-var qq;
-var fmts;
 var urls = [];
 var args = ytplayer.config.args;
 
-/* get "url_encoded_fmt_stream_map" querystring */
-fmts = args.url_encoded_fmt_stream_map.split(',');
-for (z = 0; z < fmts.length; z++) {
-  qq = get_quality(fmts[z]);
-  href =            get_query_var(fmts[z], 'url') +
-    '&signature=' + get_query_var(fmts[z], 'sig') +
-    '&title='     + args.title + ' ' + qq;
-  urls.push('<a href="' + href + '">' + qq + '</a>');
-}
-
-/* get "adaptive_fmts" querystring */
-fmts = args.adaptive_fmts ? args.adaptive_fmts.split(',') : '';
-for (z = 0; z < fmts.length; z++) {
-  qq = get_quality(fmts[z]);
-  href =        get_query_var(fmts[z], 'url') +
-    '&title=' + args.title + ' ' + qq;
-  urls += '<a href="' + href + '">' + qq + '</a><br>';
+for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
+  for (var z of ft ? ft.split(',') : '') {
+    var qq = get_quality(z);
+    var href = get_query_val(z, 'url') +
+           '&signature=' + get_query_val(z, 'sig') +
+           '&title=' + args.title + ' ' + qq;
+    urls.push('<a href="' + href + '">' + qq + '</a>')
+  }
 }
 
 document.body.insertAdjacentHTML(
