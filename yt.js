@@ -37,20 +37,17 @@ function get_quality(url) {
   return qual[k] || k;
 }
 
-var urls = [];
 var args = ytplayer.config.args;
 
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
     var qq = get_quality(z);
     var href = get_query_val(z, 'url') +
-           '&signature=' + get_query_val(z, 'sig') +
-           '&title=' + args.title + ' ' + qq;
-    urls.push('<a href="' + href + '">' + qq + '</a>')
+               '&signature=' + get_query_val(z, 'sig') +
+               '&title=' + args.title + ' ' + qq;
+    document.body.insertAdjacentHTML(
+      'beforebegin',
+      '<a href="' + href + '">' + qq + '</a><br>'
+    );
   }
 }
-
-document.body.insertAdjacentHTML(
-  'beforebegin',
-  urls.join('<br>')
-);
