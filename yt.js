@@ -38,6 +38,7 @@ function get_quality(url) {
 }
 
 var args = ytplayer.config.args;
+var html = [new Date().toLocaleString()];
 
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
@@ -45,9 +46,16 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
     var href = get_query_val(z, 'url') +
                '&signature=' + get_query_val(z, 'sig') +
                '&title=' + args.title + ' ' + qq;
-    document.body.insertAdjacentHTML(
-      'beforebegin',
-      '<a href="' + href + '">' + qq + '</a><br>'
-    );
+    html.push('<a href="' + href + '">' + qq + '</a>');
   }
 }
+
+var q = document.querySelector('#bm');
+
+if (!q) {
+  q = document.createElement('div');
+  q.id = 'bm';
+  document.body.insertBefore(q, document.body.firstChild);
+}
+
+q.innerHTML = html.join('<br>');
