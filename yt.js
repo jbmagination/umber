@@ -50,12 +50,12 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   }
 }
 
-var q = document.querySelector('#bm');
+var dw = document.querySelector('#bm');
 
-if (!q) {
-  q = document.createElement('div');
-  q.id = 'bm';
-  document.body.insertBefore(q, document.body.firstChild);
+if (!dw) {
+  dw = document.createElement('div');
+  dw.id = 'bm';
+  document.body.insertBefore(dw, document.body.firstChild);
 }
 
-q.innerHTML = html.join('<br>');
+dw.innerHTML = html.join('<br>');
