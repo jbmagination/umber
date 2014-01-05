@@ -21,17 +21,17 @@ function get_quality(url) {
     84: '720p MP4 3D',
     100: '360p WebM 3D',
     102: '720p WebM 3D',
-    133: '240p MP4 DASH',
-    134: '360p MP4 DASH',
-    135: '480p MP4 DASH',
-    136: '720p MP4 DASH',
-    137: '1080p MP4 DASH',
-    139: '48k M4A DASH',
-    140: '128k M4A DASH',
-    141: '256k M4A DASH',
-    160: '192p MP4 DASH',
-    171: '128k WebM DASH',
-    172: '256k WebM DASH'
+    133: '240p DASH h.264',
+    134: '360p DASH h.264',
+    135: '480p DASH h.264',
+    136: '720p DASH h.264',
+    137: '1080p DASH h.264',
+    139: '48k DASH aac',
+    140: '128k DASH aac',
+    141: '256k DASH aac',
+    160: '192p DASH h.264',
+    171: '128k DASH vorbis',
+    172: '256k DASH vorbis'
   };
   var k = url.match(/itag=(\d+)/)[1];
   return qual[k] || k;
