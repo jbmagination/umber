@@ -26,12 +26,10 @@ function get_quality(url) {
     135: '480p DASH h.264',
     136: '720p DASH h.264',
     137: '1080p DASH h.264',
-    139: '48k DASH aac',
-    140: '128k DASH aac',
-    141: '256k DASH aac',
-    160: '192p DASH h.264',
-    171: '128k DASH vorbis',
-    172: '256k DASH vorbis'
+    139: '48k DASH AAC',
+    140: '128k DASH AAC',
+    141: '256k DASH AAC',
+    160: '192p DASH h.264'
   };
   var k = url.match(/itag=(\d+)/)[1];
   return qual[k] || k;
