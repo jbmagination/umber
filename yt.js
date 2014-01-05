@@ -29,7 +29,9 @@ function get_quality(url) {
     139: '48k DASH AAC',
     140: '128k DASH AAC',
     141: '256k DASH AAC',
-    160: '192p DASH h264'
+    160: '192p DASH h264',
+    171: '128k DASH vorbis',
+    172: '192k DASH vorbis'
   };
   var k = url.match(/itag=(\d+)/)[1];
   return qual[k] || k;
