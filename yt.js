@@ -37,16 +37,26 @@ function get_quality(url) {
   return qual[k] || k;
 }
 
+function rp(tx) {
+  return tx.replace('"', '&quot;', 'g');
+}
+
 var args = ytplayer.config.args;
-var html = [new Date().toLocaleString()];
+var html = [
+    new Date().toLocaleString(),
+    'Click to copy the filename, then right click to download'
+];
 
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
     var qq = get_quality(z);
-    var href = get_query_val(z, 'url') +
-               '&signature=' + get_query_val(z, 'sig') +
-               '&title=' + args.title + ' ' + qq;
-    html.push('<a href="' + href + '">' + qq + '</a>');
+    var href = get_query_val(z, 'url');
+    if (!href.match(/signature/))
+        href += '&signature=' + get_query_val(z, 'sig');
+    var onclick = 'prompt("","' + args.title + ' ' + qq + '");return false';
+    html.push(
+      '<a href="' + href + '" onclick="' + rp(onclick) + '">' + qq + '</a>'
+    );
   }
 }
 
