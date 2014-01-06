@@ -36,6 +36,27 @@ function rp(tx) {
   return tx.replace('"', '&quot;', 'g');
 }
 
+function dj(a) {
+  a = a.split('');
+  a = a.slice(2);
+  a = a.reverse();
+  a = a.slice(3);
+  a = ej(a, 9);
+  a = a.slice(3);
+  a = ej(a, 43);
+  a = a.slice(3);
+  a = a.reverse();
+  a = ej(a, 23);
+  return a.join('');
+}
+
+function ej(a, b) {
+  var c = a[0];
+  a[0] = a[b % a.length];
+  a[b] = c;
+  return a;
+}
+
 function dc(frm) {
   var qs = [];
   for (var prs of frm.split('&')) {
@@ -45,8 +66,9 @@ function dc(frm) {
   var furl = qs['url'];
   if (qs['sig'])
     furl += '&signature=' + qs['sig'];
-  if (qs['s'])
-    furl += '&signature=' + qs['s'];
+  if (qs['s']) {
+    furl += '&signature=' + dj(qs['s']);
+  }
   return unescape(furl);
 }
 
