@@ -1,3 +1,12 @@
+function qr(sr) {
+  var qa = [];
+  for (var prs of sr.split('&')) {
+    var pra = prs.split('=');
+    qa[pra[0]] = pra[1];
+  }
+  return qa;
+}
+
 function get_quality(url) {
   var qual = {
     5: '240p FLV h263',
@@ -28,8 +37,9 @@ function get_quality(url) {
     171: '128k DASH vorbis',
     172: '192k DASH vorbis'
   };
-  var k = url.match(/itag=(\d+)/)[1];
-  return qual[k] || k;
+  var qs = qr(url);
+  var itag = qs['itag'];
+  return qual[itag] || itag;
 }
 
 function rp(tx) {
@@ -58,11 +68,7 @@ function ej(a, b) {
 }
 
 function dc(frm) {
-  var qs = [];
-  for (var prs of frm.split('&')) {
-    var pra = prs.split('=');
-    qs[pra[0]] = pra[1];
-  }
+  var qs = qr(frm);
   var furl = qs['url'];
   if (qs['sig'])
     furl += '&signature=' + qs['sig'];
