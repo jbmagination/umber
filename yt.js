@@ -1,8 +1,3 @@
-function get_query_val(qs, nm) {
-  var fr = new RegExp(nm + '=([^&]+)');
-  return qs.match(fr) ? unescape(qs.match(fr)[1]) : '';
-}
-
 function get_quality(url) {
   var qual = {
     5: '240p FLV h263',
@@ -41,6 +36,20 @@ function rp(tx) {
   return tx.replace('"', '&quot;', 'g');
 }
 
+function dc(frm) {
+  var qs = [];
+  for (var prs of frm.split('&')) {
+    var pra = prs.split('=');
+    qs[pra[0]] = pra[1];
+  }
+  var furl = qs['url'];
+  if (qs['sig'])
+    furl += '&signature=' + qs['sig'];
+  if (qs['s'])
+    furl += '&signature=' + qs['s'];
+  return unescape(furl);
+}
+
 var args = ytplayer.config.args;
 var html = [
     new Date().toLocaleString(),
@@ -50,9 +59,7 @@ var html = [
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
     var qq = get_quality(z);
-    var href = get_query_val(z, 'url');
-    if (!href.match(/signature/))
-        href += '&signature=' + get_query_val(z, 'sig');
+    var href = dc(z);
     var onclick = 'prompt("","' + args.title + ' ' + qq + '");return false';
     html.push(
       '<a href="' + href + '" onclick="' + rp(onclick) + '">' + qq + '</a>'
