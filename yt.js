@@ -7,6 +7,27 @@ function qr(sr) {
   return qa;
 }
 
+function Ok(a) {
+  a = a.split('');
+  a = Pk(a, 32);
+  a = a.reverse();
+  a = a.slice(3);
+  a = a.reverse();
+  a = a.slice(1);
+  a = a.reverse();
+  a = Pk(a, 19);
+  a = Pk(a, 24);
+  a = a.slice(3);
+  return a.join('');
+}
+
+function Pk(a, b) {
+  var c = a[0];
+  a[0] = a[b % a.length];
+  a[b] = c;
+  return a;
+}
+
 function get_quality(url) {
   var qual = {
     5: '240p FLV h263',
@@ -46,28 +67,6 @@ function rp(tx) {
   return tx.replace('"', '&quot;', 'g');
 }
 
-function dc(frm) {
-  var qs = qr(frm);
-  var furl = qs['url'];
-  if (qs['sig'])
-    furl += '&signature=' + qs['sig'];
-  if (qs['s']) {
-    var s = qs['s'].split('');
-    switch (s.length) {
-      case 88:
-        furl += '&signature=' +
-                s.slice(66,82).reverse().join('') + s[84] +
-                s.slice(61,65).reverse().join('') + s[65] +
-                s.slice(33,60).reverse().join('') + s[0] +
-                s.slice(1,32).reverse().join('');
-        break;
-      default:
-        alert(s.length + ' key length not supported unable to decrypt');
-    }
-  }
-  return unescape(furl);
-}
-
 var args = ytplayer.config.args;
 var html = [
     new Date().toLocaleString(),
@@ -77,7 +76,12 @@ var html = [
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
     var qq = get_quality(z);
-    var href = dc(z);
+    var qs = qr(z);
+    var href = unescape(qs['url']);
+    if (qs['sig'])
+      href += '&signature=' + qs['sig'];
+    if (qs['s'])
+      href += '&signature=' + Ok(qs['s']);
     var onclick = 'prompt("","' + args.title + ' ' + qq + '");return false';
     html.push(
       '<a href="' + href + '" onclick="' + rp(onclick) + '">' + qq + '</a>'
