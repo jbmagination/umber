@@ -7,6 +7,7 @@ function qr(sr) {
   return qa;
 }
 
+/* ytplayer.config.assets.js */
 function Ok(a) {
   a = a.split('');
   a = Pk(a, 32);
