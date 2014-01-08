@@ -10,15 +10,14 @@ function qr(sr) {
 /* ytplayer.config.assets.js */
 function Ok(a) {
   a = a.split('');
-  a = Pk(a, 32);
-  a = a.reverse();
-  a = a.slice(3);
-  a = a.reverse();
+  a = Pk(a, 25);
   a = a.slice(1);
   a = a.reverse();
-  a = Pk(a, 19);
-  a = Pk(a, 24);
-  a = a.slice(3);
+  a = a.slice(1);
+  a = Pk(a, 27);
+  a = Pk(a, 21);
+  a = a.slice(1);
+  a = Pk(a, 39);
   return a.join('');
 }
 
