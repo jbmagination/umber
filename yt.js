@@ -31,33 +31,33 @@ function Pk(a, b) {
 
 function get_quality(url) {
   var qual = {
-    5: '240p FLV h263',
-    17: '144p 3GP mpeg4',
-    18: '360p MP4 h264',
-    22: '720p MP4 h264',
-    34: '360p FLV h264',
-    35: '480p FLV h264',
-    36: '240p 3GP mpeg4',
-    37: '1080p MP4 h264',
-    43: '360p WebM vp8',
-    44: '480p WebM vp8',
-    45: '720p WebM vp8',
-    46: '1080p WebM vp8',
+    5: '240p FLV H.263',
+    17: '144p 3GP MPEG-4',
+    18: '360p MP4 H.264',
+    22: '720p MP4 H.264',
+    34: '360p FLV H.264',
+    35: '480p FLV H.264',
+    36: '240p 3GP MPEG-4',
+    37: '1080p MP4 H.264',
+    43: '360p WebM VP8',
+    44: '480p WebM VP8',
+    45: '720p WebM VP8',
+    46: '1080p WebM VP8',
     82: '360p MP4 3D',
     84: '720p MP4 3D',
     100: '360p WebM 3D',
     102: '720p WebM 3D',
-    133: '240p DASH h264',
-    134: '360p DASH h264',
-    135: '480p DASH h264',
-    136: '720p DASH h264',
-    137: '1080p DASH h264',
+    133: '240p DASH H.264',
+    134: '360p DASH H.264',
+    135: '480p DASH H.264',
+    136: '720p DASH H.264',
+    137: '1080p DASH H.264',
     139: '48k DASH AAC',
     140: '128k DASH AAC',
     141: '256k DASH AAC',
-    160: '192p DASH h264',
-    171: '128k DASH vorbis',
-    172: '192k DASH vorbis'
+    160: '192p DASH H.264',
+    171: '128k DASH Vorbis',
+    172: '192k DASH Vorbis'
   };
   var qs = qr(url);
   var itag = qs['itag'];
@@ -83,7 +83,11 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
       href += '&signature=' + qs['sig'];
     if (qs['s'])
       href += '&signature=' + Ok(qs['s']);
-    var onclick = 'prompt("","' + args.title + ' ' + qq + '");return false';
+    var fn = (args.title + '-' + qq).toLowerCase()
+             .replace(/ /g,'-')
+             .replace(/\./g,'')
+             .replace(/-+/g,'-');
+    var onclick = 'prompt("","' + fn + '");return false';
     html.push(
       '<a href="' + href + '" onclick="' + rp(onclick) + '">' + qq + '</a>'
     );
