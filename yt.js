@@ -75,7 +75,7 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
     if (qs.s)
       href += '&signature=' + dc(qs.s);
     var fn = (args.title + '-' + qq).toLowerCase()
-             .replace(/["().]/g,'')
+             .replace(/["().|]/g,'')
              .replace(/ /g,'-')
              .replace(/-+/g,'-');
     var onclick = 'prompt("","' + fn + '");return false';
