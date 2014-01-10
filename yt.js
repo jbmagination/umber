@@ -7,27 +7,6 @@ function qr(sr) {
   return qa;
 }
 
-/* ytplayer.config.assets.js */
-function Ok(a) {
-  a = a.split('');
-  a = Pk(a, 25);
-  a = a.slice(1);
-  a = a.reverse();
-  a = a.slice(1);
-  a = Pk(a, 27);
-  a = Pk(a, 21);
-  a = a.slice(1);
-  a = Pk(a, 39);
-  return a.join('');
-}
-
-function Pk(a, b) {
-  var c = a[0];
-  a[0] = a[b % a.length];
-  a[b] = c;
-  return a;
-}
-
 function get_quality(url) {
   var qual = {
     5: '240p FLV H.263',
@@ -59,29 +38,42 @@ function get_quality(url) {
     172: '192k DASH Vorbis'
   };
   var qs = qr(url);
-  var itag = qs['itag'];
-  return qual[itag] || itag;
+  return qual[qs.itag] || itag
 }
 
 function rp(tx) {
   return tx.replace('"', '&quot;', 'g');
 }
 
+function dc(sg) {
+  return eval(fcnm + '("' + sg + '")');
+}
+
 var args = ytplayer.config.args;
 var html = [
-    new Date().toLocaleString(),
-    'Click to copy the filename, then right click to download'
+  new Date().toLocaleString(),
+  'Click to copy the filename, then right click to download'
 ];
+
+var xhr = new XMLHttpRequest();
+/* cors-anywhere.herokuapp.com */
+px = 'allow-any-origin.appspot.com/https:';
+xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
+xhr.send();
+var rpt = xhr.responseText;
+var fcnm = rpt.match(/signature=([^(]+)/)[1];
+var fs = new RegExp('function ' + fcnm + '[^}]+}[^}]+}');
+eval(rpt.match(fs)[0]);
 
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
     var qq = get_quality(z);
     var qs = qr(z);
-    var href = unescape(qs['url']);
-    if (qs['sig'])
-      href += '&signature=' + qs['sig'];
-    if (qs['s'])
-      href += '&signature=' + Ok(qs['s']);
+    var href = unescape(qs.url);
+    if (qs.sig)
+      href += '&signature=' + qs.sig;
+    if (qs.s)
+      href += '&signature=' + dc(qs.s);
     var fn = (args.title + '-' + qq).toLowerCase()
              .replace(/["().]/g,'')
              .replace(/ /g,'-')
