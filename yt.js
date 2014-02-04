@@ -46,6 +46,15 @@ function rp(tx) {
 }
 
 function dc(sg) {
+  var xhr = new XMLHttpRequest();
+  /* cors-anywhere.herokuapp.com */
+  px = 'allow-any-origin.appspot.com/https:';
+  xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
+  xhr.send();
+  var rpt = xhr.responseText;
+  var fcnm = rpt.match(/signature=([^(]+)/)[1];
+  var fs = new RegExp('function ' + fcnm + '[^}]+}[^}]+}');
+  eval(rpt.match(fs)[0]);
   return eval(fcnm + '("' + sg + '")');
 }
 
@@ -54,16 +63,6 @@ var html = [
   new Date().toLocaleString(),
   'Click to copy the filename, then right click to download'
 ];
-
-var xhr = new XMLHttpRequest();
-/* cors-anywhere.herokuapp.com */
-px = 'allow-any-origin.appspot.com/https:';
-xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
-xhr.send();
-var rpt = xhr.responseText;
-var fcnm = rpt.match(/signature=([^(]+)/)[1];
-var fs = new RegExp('function ' + fcnm + '[^}]+}[^}]+}');
-eval(rpt.match(fs)[0]);
 
 for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
   for (var z of ft ? ft.split(',') : '') {
