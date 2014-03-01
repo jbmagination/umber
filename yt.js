@@ -85,11 +85,11 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
 }
 
 var dw = document.querySelector('#bm');
-
 if (!dw) {
   dw = document.createElement('div');
   dw.id = 'bm';
   document.body.insertBefore(dw, document.body.firstChild);
 }
-
 dw.innerHTML = html.join('<br>');
+
+document.querySelector('#masthead-positioner').style.position = 'static';
