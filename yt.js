@@ -31,7 +31,7 @@ function get_quality(url) {
     172: '192k Vorbis',
   };
   var qs = qr(url);
-  return qual[qs.itag] || itag
+  return qual[qs.itag] || qs.itag
 }
 
 function rp(tx) {
