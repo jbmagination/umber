@@ -29,6 +29,11 @@ function get_quality(url) {
     160: '144p H.264',
     171: '128k Vorbis',
     172: '192k Vorbis',
+    242: '240p VP9',
+    243: '360p VP9',
+    244: '480p VP9',
+    247: '720p VP9',
+    248: '1080p VP9'
   };
   var qs = qr(url);
   return qual[qs.itag] || qs.itag
