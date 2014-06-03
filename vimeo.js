@@ -1,7 +1,6 @@
 var src = document.querySelector('[src*=".mp4"]').getAttribute('src');
 
-with (document.querySelector('#menu')) {
-  style.fontSize = '4em';
-  style.lineHeight = '1em';
-  innerHTML = '<a href="' + src + '">Download</a>';
-}
+document.querySelector('#menu').innerHTML =
+  '<a style="font-size: 2em; color: #8a0707" href="' + src + '">' +
+    vimeo.config.clip.title +
+  '</a>';
