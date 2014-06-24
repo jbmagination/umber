@@ -41,8 +41,15 @@ function get_quality(url) {
   return qual[qs.itag] || qs.itag
 }
 
-function rp(tx) {
+function rpc(tx) {
   return tx.replace('"', '&quot;', 'g');
+}
+
+function sprintf(nw) {
+  var i = 0;
+  while (/%s/.test(nw))
+    nw = nw.replace('%s', arguments[++i])
+  return nw;
 }
 
 function dc(sg) {
@@ -53,7 +60,9 @@ function dc(sg) {
   xhr.send();
   var rpt = xhr.responseText;
   var fcnm = rpt.match(/signature=([^(]+)/)[1];
-  var fs = new RegExp('function ' + fcnm + '[^}]+}[^}]+}');
+  var fs = new RegExp(
+    sprintf('function %s[^}]+}[^}]+}', fcnm.replace('$', '\\$'))
+  );
   eval(rpt.match(fs)[0]);
   return eval(fcnm + '("' + sg + '")');
 }
@@ -79,7 +88,7 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
              .replace(/-+/g,'-');
     var onclick = 'prompt("","' + fn + '");return false';
     html.push(
-      '<a href="' + href + '" onclick="' + rp(onclick) + '">' + qq + '</a>'
+      '<a href="' + href + '" onclick="' + rpc(onclick) + '">' + qq + '</a>'
     );
   }
 }
