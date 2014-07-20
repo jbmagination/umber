@@ -52,19 +52,16 @@ function sprintf(nw) {
   return nw;
 }
 
-function dc(sg) {
+function dc(sgn) {
   var xhr = new XMLHttpRequest();
   /* cors-anywhere.herokuapp.com */
   px = 'allow-any-origin.appspot.com/https:';
   xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
   xhr.send();
   var rpt = xhr.responseText;
+  eval(rpt.replace(/(function(){/, '').replace(/})();/, ''));
   var fcnm = rpt.match(/signature=([^(]+)/)[1];
-  var fs = new RegExp(
-    sprintf('function %s[^}]+}[^}]+}', fcnm.replace('$', '\\$'))
-  );
-  eval(rpt.match(fs)[0]);
-  return eval(fcnm + '("' + sg + '")');
+  return eval(sprintf('%s("%s")', fcnm, sgn));
 }
 
 var args = ytplayer.config.args;
