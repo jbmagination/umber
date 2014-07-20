@@ -59,7 +59,7 @@ function dc(sgn) {
   xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
   xhr.send();
   var rpt = xhr.responseText;
-  eval(rpt.replace(/(function(){/, '').replace(/})();/, ''));
+  eval(rpt.replace('(function(){', '').replace('})();', ''));
   var fcnm = rpt.match(/signature=([^(]+)/)[1];
   return eval(sprintf('%s("%s")', fcnm, sgn));
 }
