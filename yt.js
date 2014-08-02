@@ -83,9 +83,9 @@ for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
              .replace(/[!"&'()+.:[\]|]/g,'')
              .replace(/[ /]/g,'-')
              .replace(/-+/g,'-');
-    var onclick = 'prompt("","' + fn + '");return false';
+    var pm = sprintf('prompt("","%s");return false', fn)
     html.push(
-      '<a href="' + href + '" onclick="' + rpc(onclick) + '">' + qq + '</a>'
+      sprintf('<a href="%s" onclick="%s">%s</a>', href, rpc(pm), qq)
     );
   }
 }
