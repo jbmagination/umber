@@ -93,7 +93,7 @@ dw.innerHTML = [
   new Date().toLocaleTimeString(),
   'Click to copy the filename, then right click to download'
 ].concat(
-  keys(qy).map(ky => qy[ky]).filter(vu => /href/.test(vu))
+  Object.keys(qy).map(ky => qy[ky]).filter(vu => /href/.test(vu))
 ).join('<br>');
 
 document.querySelector('#masthead-positioner').style.position = 'static';
