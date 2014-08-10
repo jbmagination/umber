@@ -8,7 +8,7 @@ function qry(sr) {
 }
 
 function rpc(tx) {
-  return tx.replace('"', '&quot;', 'g');
+  return tx.replace(/"/g, '&quot;');
 }
 
 function sprintf(nw) {
@@ -75,13 +75,12 @@ for (var frt of args) {
   }
   var fn = (ytplayer.config.args.title + '-' + qty)
     .toLowerCase()
-    .replace(/[!"&'()+.:[\]|]/g,'')
-    .replace(/[ /]/g,'-')
-    .replace(/-+/g,'-');
-  var pm = sprintf('prompt("","%s");return false', fn)
-  qua['_' + qst.itag] = sprintf(
-    '<a href="%s" onclick="%s">%s</a>', hrf, rpc(pm), qty
-  );
+    .replace(/[!"&'()+.:[\]|]/g, '')
+    .replace(/[ /]/g, '-')
+    .replace(/-+/g, '-');
+  var pm = sprintf('prompt("", "%s"); return false', fn);
+  qua['_' + qst.itag] = sprintf('<a href="%s" onclick="%s">%s</a>',
+    hrf, rpc(pm), qty);
 }
 
 var dw = document.querySelector('#bm');
