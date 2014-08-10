@@ -1,4 +1,4 @@
-function qr(sr) {
+function qry(sr) {
   var qa = [];
   for (var prs of sr.split('&')) {
     var pra = prs.split('=');
@@ -18,19 +18,7 @@ function sprintf(nw) {
   return nw;
 }
 
-function dc(sgn) {
-  var xhr = new XMLHttpRequest();
-  /* cors-anywhere.herokuapp.com */
-  px = 'allow-any-origin.appspot.com/https:';
-  xhr.open('get', 'https://' + px + ytplayer.config.assets.js, false);
-  xhr.send();
-  var rpt = xhr.responseText;
-  eval(rpt.replace('(function(){', '').replace('})();', ''));
-  var fcnm = rpt.match(/signature=([^(]+)/)[1];
-  return eval(sprintf('%s("%s")', fcnm, sgn));
-}
-
-var qy = {
+var qua = {
   _141: '256k AAC',
    _22: '720p H.264 192k AAC',
    _84: '720p 3D 192k AAC',
@@ -62,22 +50,35 @@ var qy = {
 
 var args = ytplayer.config.args;
 
-for (var ft of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
-  for (var z of ft ? ft.split(',') : '') {
-    var qs = qr(z);
-    var qq = qy['_' + qs.itag] || qs.itag;
-    var hf = unescape(qs.url);
-    if (qs.sig)
-      hf += '&signature=' + qs.sig;
-    if (qs.s)
-      hf += '&signature=' + dc(qs.s);
-    var fn = (args.title + '-' + qq).toLowerCase()
-             .replace(/[!"&'()+.:[\]|]/g,'')
-             .replace(/[ /]/g,'-')
-             .replace(/-+/g,'-');
+for (var agm of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
+  for (var frt of agm ? agm.split(',') : '') {
+    var qst = qry(frt);
+    var qty = qua['_' + qst.itag] || qst.itag;
+    var hrf = unescape(qst.url);
+    if (qst.sig)
+      hrf += '&signature=' + qst.sig;
+    if (qst.s) {
+      if (typeof xhr == 'undefined') {
+        var xhr = new XMLHttpRequest();
+        /* cors-anywhere.herokuapp.com */
+        xhr.open('get',
+          'https://allow-any-origin.appspot.com/https:' +
+          ytplayer.config.assets.js, false);
+        xhr.send();
+        var rpt = xhr.responseText;
+        eval(rpt.replace('(function(){', '').replace('})();', ''));
+        var fcnm = /signature=([^(]+)/.exec(rpt)[1];
+      }
+      hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
+    }
+    var fn = (args.title + '-' + qty)
+      .toLowerCase()
+      .replace(/[!"&'()+.:[\]|]/g,'')
+      .replace(/[ /]/g,'-')
+      .replace(/-+/g,'-');
     var pm = sprintf('prompt("","%s");return false', fn)
-    qy['_' + qs.itag] = sprintf(
-      '<a href="%s" onclick="%s">%s</a>', hf, rpc(pm), qq
+    qua['_' + qst.itag] = sprintf(
+      '<a href="%s" onclick="%s">%s</a>', hrf, rpc(pm), qty
     );
   }
 }
@@ -93,7 +94,7 @@ dw.innerHTML = [
   new Date().toLocaleTimeString(),
   'Click to copy the filename, then right click to download'
 ].concat(
-  Object.keys(qy).map(ky => qy[ky]).filter(vu => /href/.test(vu))
+  Object.keys(qua).map(ky => qua[ky]).filter(vu => /href/.test(vu))
 ).join('<br>');
 
 document.querySelector('#masthead-positioner').style.position = 'static';
