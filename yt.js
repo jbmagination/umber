@@ -48,39 +48,40 @@ var qua = {
   _242: '240p VP9'
 };
 
-var args = ytplayer.config.args;
+var args = [
+  ytplayer.config.args.adaptive_fmts,
+  ytplayer.config.args.url_encoded_fmt_stream_map
+].join(',').split(',')
 
-for (var agm of [args.url_encoded_fmt_stream_map, args.adaptive_fmts]) {
-  for (var frt of agm ? agm.split(',') : '') {
-    var qst = qry(frt);
-    var qty = qua['_' + qst.itag] || qst.itag;
-    var hrf = unescape(qst.url);
-    if (qst.sig)
-      hrf += '&signature=' + qst.sig;
-    if (qst.s) {
-      if (typeof xhr == 'undefined') {
-        var xhr = new XMLHttpRequest();
-        /* cors-anywhere.herokuapp.com */
-        xhr.open('get',
-          'https://allow-any-origin.appspot.com/https:' +
-          ytplayer.config.assets.js, false);
-        xhr.send();
-        var rpt = xhr.responseText;
-        eval(rpt.replace('(function(){', '').replace('})();', ''));
-        var fcnm = /signature=([^(]+)/.exec(rpt)[1];
-      }
-      hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
+for (var frt of args) {
+  var qst = qry(frt);
+  var qty = qua['_' + qst.itag] || qst.itag;
+  var hrf = unescape(qst.url);
+  if (qst.sig)
+    hrf += '&signature=' + qst.sig;
+  if (qst.s) {
+    if (typeof xhr == 'undefined') {
+      var xhr = new XMLHttpRequest();
+      /* cors-anywhere.herokuapp.com */
+      xhr.open('get',
+        'https://allow-any-origin.appspot.com/https:' +
+        ytplayer.config.assets.js, false);
+      xhr.send();
+      var rpt = xhr.responseText;
+      eval(rpt.replace('(function(){', '').replace('})();', ''));
+      var fcnm = /signature=([^(]+)/.exec(rpt)[1];
     }
-    var fn = (args.title + '-' + qty)
-      .toLowerCase()
-      .replace(/[!"&'()+.:[\]|]/g,'')
-      .replace(/[ /]/g,'-')
-      .replace(/-+/g,'-');
-    var pm = sprintf('prompt("","%s");return false', fn)
-    qua['_' + qst.itag] = sprintf(
-      '<a href="%s" onclick="%s">%s</a>', hrf, rpc(pm), qty
-    );
+    hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
   }
+  var fn = (ytplayer.config.args.title + '-' + qty)
+    .toLowerCase()
+    .replace(/[!"&'()+.:[\]|]/g,'')
+    .replace(/[ /]/g,'-')
+    .replace(/-+/g,'-');
+  var pm = sprintf('prompt("","%s");return false', fn)
+  qua['_' + qst.itag] = sprintf(
+    '<a href="%s" onclick="%s">%s</a>', hrf, rpc(pm), qty
+  );
 }
 
 var dw = document.querySelector('#bm');
