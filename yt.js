@@ -78,8 +78,8 @@ for (var frt of args) {
   }
   var fn = (ytplayer.config.args.title + '-' + qty)
     .toLowerCase()
-    .replace(/[!"&'()*+,:?@|~]/g, '')
-    .replace(/[ ./[\]]/g, '-')
+    .replace(/[!"&'()*,:?@|~]/g, '')
+    .replace(/[ +./[\]]/g, '-')
     .replace(/-+/g, '-');
   var pm = sprintf('prompt("", "%s"); return false', fn);
   qua['_' + qst.itag] = sprintf('<a href="%s" onclick="%s">%s</a>',
