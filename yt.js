@@ -72,7 +72,7 @@ for (var frt of args) {
       xhr.send();
       var rpt = xhr.responseText;
       eval(rpt.replace('(function(){', '').replace('})();', ''));
-      var fcnm = /signature=([^(]+)/.exec(rpt)[1];
+      var fcnm = /signature\W+(\w+)/.exec(rpt)[1];
     }
     hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
   }
