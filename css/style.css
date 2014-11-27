@@ -12,7 +12,7 @@ a:hover {
   text-decoration: underline;
 }
 body {
-  margin-top: 1.0em;
+  margin: 1em;
   background-color: #fff6ed;
   /* Helvetica is not free superuser.com/q/94992 */
   font-family: Arial, FreeSans, san-serif;
@@ -32,5 +32,8 @@ h3 {
   color: #000912;
 }
 img {
-  width: 15em;
+  max-height: 8em;
+  max-width: 14em;
+  display: block;
+  margin: auto;
 }
