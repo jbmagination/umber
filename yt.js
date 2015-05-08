@@ -105,3 +105,4 @@ dw.innerHTML = [
 ).join('<br>');
 
 document.querySelector('#masthead-positioner').style.position = 'static';
+document.querySelector('.skip-nav').style.display = 'none';
