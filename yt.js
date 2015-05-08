@@ -25,11 +25,12 @@ var qua = {
   _140: '128k AAC',
    _18: '360p H.264 96k AAC',
    _82: '360p 3D 96k AAC',
-  _139: '48k AAC',
    _36: '240p MPEG-4 36k AAC',
    _17: '144p MPEG-4 24k AAC',
+  _251: '160k Opus',
+  _250: '70k Opus',
+  _249: '50k Opus',
     _5: '240p H.263 64k MP3',
-  _172: '192k Vorbis',
   _171: '128k Vorbis',
    _43: '360p VP8 128k Vorbis',
   _100: '360p 3D 128k Vorbis',
@@ -44,17 +45,24 @@ var qua = {
   _271: '1440p VP9',
   _248: '1080p VP9',
   _247: '720p VP9',
-  _246: '480p 1400k VP9',
-  _245: '480p 900k VP9',
   _244: '480p 500k VP9',
   _243: '360p VP9',
-  _242: '240p VP9'
+  _242: '240p VP9',
+  _278: '144p VP9'
 };
 
 var args = [
   ytplayer.config.args.adaptive_fmts,
   ytplayer.config.args.url_encoded_fmt_stream_map
 ].join(',').split(',')
+
+function curl(url) {
+  var xhr = new XMLHttpRequest();
+  /* cors-anywhere.herokuapp.com */
+  xhr.open('get', 'https://allow-any-origin.appspot.com/' + url, false);
+  xhr.send();
+  return xhr.responseText;
+}
 
 for (var frt of args) {
   var qst = qry(frt);
@@ -63,15 +71,10 @@ for (var frt of args) {
   if (qst.sig)
     hrf += '&signature=' + qst.sig;
   if (qst.s) {
-    if (typeof xhr == 'undefined') {
-      var xhr = new XMLHttpRequest();
-      /* cors-anywhere.herokuapp.com */
-      xhr.open('get',
-        'https://allow-any-origin.appspot.com/https:' +
-        ytplayer.config.assets.js, false);
-      xhr.send();
-      var rpt = xhr.responseText;
-      eval(rpt.replace('(function(){', '').replace('})();', ''));
+    if (typeof rpt == 'undefined') {
+      var rpt = curl('https:' + ytplayer.config.assets.js)
+      .replace(/^\(function\(\){/, '').replace(/}\)\(\);\n$/, '');
+      try {eval(rpt)} catch(e) {}
       var fcnm = /signature\W+(\w+)/.exec(rpt)[1];
     }
     hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
