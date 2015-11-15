@@ -4,50 +4,56 @@
 <title>YouTube and Vimeo Bookmarklets</title>
 <link rel="stylesheet" href="css/style.css">
 <body>
-
-<div class="right">
-  <a href="http://github.com">
-    <img src="img/blacktocat.png" alt="blacktocat">
-  </a>
-  <a href="http://youtube.com">
-    <img src="img/yt.png" alt="youtube">
-  </a>
-  <a href="http://vimeo.com">
-    <img src="img/vimeo.png" alt="vimeo">
-  </a>
-</div>
-
 <div id="container">
   <h1>bm</h1>
   <em>Bookmarklets for downloading videos</em>
-  <br>
-  <br>
-  <a href="http://github.com/svnpenn/bm">View on GitHub</a>
+  <p>
+    <a href="http://github.com/svnpenn/bm">View on GitHub</a>
+    <img src="img/blacktocat.png">
+  </p>
   <h2>Install</h2>
-  <p>Drag a link to the Bookmarks toolbar</p>
-  <p>or</p>
-  <p>Right click and select “Bookmark This Link”</p>
-  <!-- need secure URL -->
-  <a href="javascript:
-    var q = document.createElement('script');
-    q.src = 'https://svnpenn.github.io/bm/yt.js';
-    document.body.appendChild(q);
-    void 0;
-  ">YouTube download</a>
-  <br>
-  <br>
-  <a href="javascript:
-    var q = document.createElement('script');
-    q.src = 'http://svnpenn.github.io/bm/vimeo.js';
-    document.body.appendChild(q);
-    void 0;
-  ">Vimeo download</a>
-  <br>
-  <br>
-  <a href="others">Others</a>
+  <p>Drag a link to the Bookmarks toolbar or Right click and select
+  <em>Bookmark This Link</em>.</p>
+  <ul>
+    <li>
+      <!-- need secure URL -->
+      <a href="javascript:
+      var q = document.createElement('script');
+      q.src = 'https://svnpenn.github.io/bm/yt.js';
+      document.body.appendChild(q);
+      void 0;
+      ">YouTube download</a>
+      <img src="img/yt.png">
+    </li>
+    <li>
+      <a href="javascript:
+      var q = document.createElement('script');
+      q.src = 'https://svnpenn.github.io/bm/sort.js';
+      document.body.appendChild(q);
+      void 0;
+      ">YouTube sort results</a>
+    </li>
+    <li>
+      <a href="javascript:
+      var q = document.createElement('script');
+      q.src = 'http://svnpenn.github.io/bm/vimeo.js';
+      document.body.appendChild(q);
+      void 0;
+      ">Vimeo download</a>
+      <img src="img/vimeo.png">
+    </li>
+    <li>
+      <a href="javascript:
+      var q = document.createElement('script');
+      q.src = 'http://svnpenn.github.io/bm/imgur.js';
+      document.body.appendChild(q);
+      void 0;
+      ">Imgur force video</a>
+      <img src="img/imgur.png">
+    </li>
+  </ul>
   <h2>Author</h2>
   <p>Steven Penny</p>
 </div>
-
 </body>
 </html>

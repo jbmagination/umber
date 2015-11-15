@@ -21,19 +21,20 @@ body {
 h1 {
   font-size: 3.8em;
   color: #000912;
-  margin-bottom: 3px;
+  margin: 0;
 }
 h2 {
   font-size: 1.5em;
   color: #000912;
+  margin: 0;
 }
 h3 {
   text-align: center;
   color: #000912;
 }
 img {
-  max-height: 8em;
-  max-width: 14em;
-  display: block;
-  margin: auto;
+  margin: 10px;
+  max-height: 50px;
+  max-width: 100px;
+  vertical-align: middle;
 }
