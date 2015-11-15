@@ -1,8 +1,6 @@
-golf = document.querySelectorAll('[src$=gif]');
-for (hotel of golf) {
-  hotel.style.display = 'none';
-  india = hotel.nextSibling;
-  india.style.display = 'block';
-  india.src = hotel.src.replace('gif', 'mp4');
-  india.removeAttribute('loop');
-}
+golf = document.querySelector('[src$="gif"]');
+hotel = golf.nextSibling;
+hotel.style.display = 'block';
+hotel.src = golf.src.replace('gif', 'mp4');
+hotel.removeAttribute('loop');
+golf.parentNode.removeChild(golf);
