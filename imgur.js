@@ -1,6 +1,15 @@
-golf = document.querySelector('[src$="gif"]');
-hotel = golf.nextSibling;
-hotel.style.display = 'block';
-hotel.src = golf.src.replace('gif', 'mp4');
-hotel.removeAttribute('loop');
-golf.parentNode.removeChild(golf);
+golf = document.querySelectorAll('img[src*=gif], video[style*=width]');
+for (hotel of golf) {
+  india = document.createElement('button');
+  india.innerHTML = 'Replay';
+  india.onclick = function()  {
+    juliet = this.previousSibling;
+    if (juliet.src)
+      juliet.src = juliet.src;
+    else
+      juliet.play();
+  }
+  hotel.parentNode.insertBefore(india, hotel.nextSibling);
+  hotel.style.border = 0;
+  hotel.removeAttribute('loop');
+}
