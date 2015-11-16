@@ -1,4 +1,4 @@
-golf = document.querySelectorAll('video, img[src$=gif]');
+golf = document.querySelectorAll('video, img[src$="gif"]');
 for (hotel of golf) {
   if (hotel.style.display == 'none')
     continue
