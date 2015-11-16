@@ -1,5 +1,7 @@
-golf = document.querySelectorAll('img[src*=gif], video[style*=width]');
+golf = document.querySelectorAll('video, img[src$=gif]');
 for (hotel of golf) {
+  if (hotel.style.display == 'none')
+    continue
   india = document.createElement('button');
   india.innerHTML = 'Replay';
   india.onclick = function()  {
