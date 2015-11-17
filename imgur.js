@@ -5,8 +5,8 @@ for (hotel of golf) {
     hotel.onclick = function(){this.src = this.src};
   }
   else {
+    hotel.className = 'after';
     hotel.removeAttribute('loop');
-    hotel.style.borderRight = '10px solid violet';
     hotel.onclick = function(){this.play()};
   }
 }
