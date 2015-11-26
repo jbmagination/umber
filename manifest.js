@@ -34,17 +34,17 @@ function decrypt_sig(input) {
   return juliet;
 }
 
-var alpha =
+alpha =
   'https://www.youtube.com/get_video_info?&video_id=19GFDljxrY0&el=detailpage';
-var bravo = curl(alpha);
-var charlie = qry(bravo);
-var delta = unescape(charlie.dashmpd);
+bravo = curl(alpha);
+charlie = qry(bravo);
+delta = unescape(charlie.dashmpd);
 
 /* get encrypted sig */
-var foxtrot = RegExp('/s/([^/]+)');
-var november = delta.grep(foxtrot);
+foxtrot = RegExp('/s/([^/]+)');
+november = delta.grep(foxtrot);
 
 /* decrypt */
-var papa = decrypt_sig(november);
-var quebec = delta.replace(foxtrot, '/signature/' + papa);
-var romeo = curl(quebec, 1).querySelector('[id="141"] BaseURL').textContent;
+papa = decrypt_sig(november);
+quebec = delta.replace(foxtrot, '/signature/' + papa);
+romeo = curl(quebec, 1).querySelector('[id="141"] BaseURL').textContent;

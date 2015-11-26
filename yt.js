@@ -18,7 +18,7 @@ function sprintf(nw) {
   return nw;
 }
 
-var qua = {
+qua = {
   _141: '256k AAC',
   _140: '128k AAC',
   _251: '160k Opus',
@@ -53,7 +53,7 @@ var qua = {
   _278: '144p VP9'
 };
 
-var args = [
+args = [
   ytplayer.config.args.adaptive_fmts,
   ytplayer.config.args.url_encoded_fmt_stream_map
 ].join(',').split(',')
@@ -66,33 +66,33 @@ function curl(url) {
   return xhr.responseText;
 }
 
-for (var frt of args) {
-  var qst = qry(frt);
-  var qty = qua['_' + qst.itag] || qst.itag;
-  var hrf = unescape(qst.url);
+for (frt of args) {
+  qst = qry(frt);
+  qty = qua['_' + qst.itag] || qst.itag;
+  hrf = unescape(qst.url);
   if (qst.sig)
     hrf += '&signature=' + qst.sig;
   if (qst.s) {
     if (typeof rpt == 'undefined') {
-      var rpt = curl('https:' + ytplayer.config.assets.js)
+      rpt = curl('https:' + ytplayer.config.assets.js)
       .replace(/^\(function\(\){/, '').replace(/}\)\(\);\n$/, '');
       try {eval(rpt)} catch(e) {}
-      var fcnm = /signature\W+(\w+)/.exec(rpt)[1];
+      fcnm = /signature\W+(\w+)/.exec(rpt)[1];
     }
     hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
   }
-  var fn = (ytplayer.config.args.title + '-' + qty)
+  fn = (ytplayer.config.args.title + '-' + qty)
     .toLowerCase()
     .replace(/[!"#&'()*,:?@|~’]/g, '')
     .replace(/h.264/, 'h264')
     .replace(/[ +./[\]]/g, '-')
     .replace(/-+/g, '-');
-  var pm = sprintf('prompt("", "%s"); return false', fn);
+  pm = sprintf('prompt("", "%s"); return false', fn);
   qua['_' + qst.itag] = sprintf('<a href="%s" onclick="%s">%s</a>',
     hrf, rpc(pm), qty);
 }
 
-var dw = document.querySelector('#bm');
+dw = document.querySelector('#bm');
 if (!dw) {
   dw = document.createElement('div');
   dw.id = 'bm';

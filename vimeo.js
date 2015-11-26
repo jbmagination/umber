@@ -1,7 +1,7 @@
-var src = document.querySelector('[src*=".mp4"]').getAttribute('src');
-var title = vimeo.config.clip.title;
+src = document.querySelector('[src*=".mp4"]').getAttribute('src');
+title = vimeo.config.clip.title;
 
-var html = [
+html = [
   '<p>Click to copy the filename, then right click to download</p>',
   '<a',
   'style="font-size: 2em; color: #8a0707;"',
