@@ -1,12 +1,10 @@
 golf = document.querySelectorAll('video, img[src$="gif"]');
 for (hotel of golf) {
-  hotel.loop = 0;
-  hotel.controls = 1;
   hotel.className = 'aftr';
-  hotel.onclick = function() {
-    if (this.play)
-      this.play();
-    else
-      this.src = this.src;
-  };
+  if (hotel.play) {
+    hotel.loop = 0;
+    hotel.onmousemove = function(){this.controls = 1};
+  }
+  else
+    hotel.onclick = function(){this.src = this.src};
 }
