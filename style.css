@@ -2,9 +2,6 @@
   margin: 0 auto;
   width: 700px;
 }
-.right {
-  float: right;
-}
 a {
   text-decoration: none;
 }
@@ -13,10 +10,10 @@ a:hover {
 }
 body {
   margin: 1em;
+  color: black;
   background-color: #fff6ed;
   /* Helvetica is not free superuser.com/q/94992 */
   font-family: Arial, FreeSans, san-serif;
-  color: #000000;
 }
 h1 {
   font-size: 3.8em;
@@ -27,10 +24,6 @@ h2 {
   font-size: 1.5em;
   color: #000912;
   margin: 0;
-}
-h3 {
-  text-align: center;
-  color: #000912;
 }
 img {
   margin: 10px;
