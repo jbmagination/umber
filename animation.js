@@ -3,6 +3,8 @@ for (hotel of golf) {
   hotel.className = 'aftr';
   if (hotel.play) {
     hotel.loop = 0;
+    hotel.onmousemove = 0;
+    hotel.onmouseleave = 0;
     hotel.onmouseover = function(){this.controls = 1};
   }
   else
