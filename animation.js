@@ -3,6 +3,7 @@ for (hotel of golf) {
   hotel.className = 'aftr';
   if (hotel.play) {
     hotel.loop =
+    hotel.onclick =
     hotel.onmousemove =
     hotel.onmouseenter =
     hotel.onmouseleave = 0;
