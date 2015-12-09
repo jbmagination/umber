@@ -1,10 +1,11 @@
-g = document.querySelectorAll('video[loop], img[src$=gif]');
-for (h of g) {
-  h.className = 'aftr';
-  if (h.play) {
-    h.loop = h.onclick = h.onmousemove = h.onmouseenter = h.onmouseleave = 0;
-    h.onmouseover = function(){this.controls = 1};
+addEventListener('timeupdate', function(x) x.target.loop = 0, true)
+y = document.querySelectorAll('video[loop], img[src$=gif]');
+for (z of y) {
+  z.className = 'aftr';
+  if (z.play) {
+    z.onclick = z.onmousemove = z.onmouseenter = z.onmouseleave = 0;
+    z.onmouseover = function() this.controls = 1;
   }
   else
-    h.onclick = function(){this.src = this.src};
+    z.onclick = function() this.src = this.src;
 }
