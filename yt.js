@@ -7,10 +7,6 @@ function qry(sr) {
   return qa;
 }
 
-function rpc(tx) {
-  return tx.replace(/"/g, '&quot;');
-}
-
 function sprintf(nw) {
   var i = 0;
   while (/%s/.test(nw))
@@ -86,9 +82,9 @@ for (frt of args) {
     .replace(/h.264/, 'h264')
     .replace(/[ +./[\]]/g, '-')
     .replace(/-+/g, '-');
-  pm = sprintf('prompt("", "%s"); return false', fn);
-  qua['_' + qst.itag] = sprintf('<a href="%s" onclick="%s">%s</a>',
-    hrf, rpc(pm), qty);
+  pm = sprintf('prompt("", "%s"); return false', fn).replace(/"/g, '&quot;');
+  qua['_' + qst.itag] =
+    sprintf('<a href="%s" onclick="%s">%s</a>', hrf, pm, qty);
 }
 
 dw = document.querySelector('#bm');
