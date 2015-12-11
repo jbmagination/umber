@@ -74,10 +74,9 @@ for (frt of args) {
     hrf += '&signature=' + qst.sig;
   if (qst.s) {
     if (typeof rpt == 'undefined') {
-      rpt = curl('https:' + ytplayer.config.assets.js)
-      .replace(/^\(function\(\){/, '').replace(/}\)\(\);\n$/, '');
-      try {eval(rpt)} catch(e) {}
-      fcnm = /signature\W+(\w+)/.exec(rpt)[1];
+      rpt = curl('https:' + ytplayer.config.assets.js).match(/\){([^]+)}/)[1];
+      eval(rpt);
+      fcnm = rpt.match(/signature\W+(\w+)/)[1];
     }
     hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
   }
