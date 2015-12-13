@@ -13,3 +13,7 @@ http://imgur.com/FuCfqWZ
 gfycat bullshit
 ---------------
 http://gfycat.com/EcstaticWelllitHarpseal
+
+security.csp.enable
+-------------------
+http://github.com/github/hub/releases/tag/v2.2.2
