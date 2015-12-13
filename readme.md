@@ -11,8 +11,7 @@ Bookmarklets
 
 Note you might need to [disable Content Security Policy][2].
 
-If you are blocking 3rd-party scripts, you will need to whitelist
-`github.io`.
+If you are blocking scripts, you might need to whitelist `github.io`.
 
 [1]:
 http://svnpenn.github.io/bm
