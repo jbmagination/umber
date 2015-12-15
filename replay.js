@@ -4,8 +4,10 @@ for (r of q) {
   r.className = 'aftr';
   if (r.play) {
     r.onmouseover = function() this.controls = 1;
-    r.onclick = function()
+    r.onclick = function() {
       this.parentNode.replaceChild(this.cloneNode(1), this);
+      this.src = '';
+    };
   }
   else
     r.onclick = function() this.src = this.src;

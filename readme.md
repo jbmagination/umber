@@ -5,7 +5,7 @@ Bookmarklets
 
 * YouTube download
 * Vimeo download
-* Animation replay
+* Video replay
 
 [svnpenn.github.io/bm][1]
 

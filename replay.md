@@ -6,13 +6,17 @@ Album
 -----
 http://imgur.com/3ZlrV
 
-Long animation
---------------
+Long video
+----------
 http://imgur.com/FuCfqWZ
 
 gfycat bullshit
 ---------------
 http://gfycat.com/EcstaticWelllitHarpseal
+
+streamable bullshit
+-------------------
+http://streamable.com/pbk7
 
 security.csp.enable
 -------------------
