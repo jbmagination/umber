@@ -5,7 +5,7 @@ p('.right .panel').style.padding =
 p('.left .panel').style.padding = '6px';
 p('.left .panel').style.width = '670px';
 p('#content').style.width = '1022px';
-r = document.querySelectorAll('.cboxElement');
+r = document.querySelectorAll('a[rel=image-list]');
 for (s of r) {
   s.firstChild.style.width =
   s.firstChild.style.height =
