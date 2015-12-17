@@ -4,67 +4,96 @@
 <title>Bookmarklets</title>
 <link rel="stylesheet" href="style.css">
 <body>
+  <div class="right">
+    <img src="img/youtube.png">
+    <img src="img/vimeo.png">
+    <img src="img/blacktocat.png">
+  </div>
   <h1>bm</h1>
   <em>Bookmarklets</em>
-  <p>
-    <a href="http://github.com/svnpenn/bm">View on GitHub</a>
-    <img src="img/blacktocat.png">
-  </p>
+  <p><a href="http://github.com/svnpenn/bm">View on GitHub</a></p>
   <h2>Install</h2>
   <p>Drag a link to the Bookmarks toolbar or Right click and select
   <em>Bookmark This Link</em>.</p>
-  <ul>
-    <!-- need secure URLs -->
-    <li><a href="javascript:
+  <table>
+    <tr>
+      <!-- need secure URLs -->
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
-b.src='https://svnpenn.github.io/bm/yt.js';
+b.src='https://svnpenn.github.io/bm/yt-dl.js';
 a.body.appendChild(b);
 void(0);
-    ">YouTube download</a><img src="img/youtube.png"></li>
-    <li><a href="javascript:
+      ">YT download</a></td>
+      <td>YouTube</td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
-b.src='https://svnpenn.github.io/bm/sort.js';
+b.src='https://svnpenn.github.io/bm/yt-cw.js';
 a.body.appendChild(b);
 void(0);
-    ">YouTube sort results</a></li>
-    <li><a href="javascript:
+      ">YT content warning</a></td>
+      <td>YouTube</td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
+a=document;
+b=a.createElement('script');
+b.src='https://svnpenn.github.io/bm/yt-sort.js';
+a.body.appendChild(b);
+void(0);
+      ">YT sort results</a></td>
+      <td>YouTube</td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
 b.src='https://svnpenn.github.io/bm/vimeo.js';
 a.body.appendChild(b);
 void(0);
-    ">Vimeo download</a><img src="img/vimeo.png"></li>
-    <li><a href="javascript:
+      ">Vimeo download</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
 b.src='https://svnpenn.github.io/bm/replay.js';
 a.body.appendChild(b);
 void(0);
-    ">Media replay</a></li>
-    <li><a href="javascript:
+      ">Media replay</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
 b.src='https://svnpenn.github.io/bm/imgur.js';
 a.body.appendChild(b);
 void(0);
-    ">Imgur images full width</a></li>
-    <li><a href="javascript:
+      ">Imgur images full width</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
 b.src='https://svnpenn.github.io/bm/reddit.js';
 a.body.appendChild(b);
 void(0);
-    ">Reddit dim</a> short comments</li>
-    <li><a href="javascript:
+      ">Reddit dim</a></td>
+      <td>short comments</td>
+    </tr>
+    <tr>
+      <td><a href="javascript:
 a=document;
 b=a.createElement('script');
 b.src='https://svnpenn.github.io/bm/html5.js';
 a.body.appendChild(b);
 void(0);
-    ">HTML5 video</a></li>
-  </ul>
+      ">HTML5 video</a></td>
+    </tr>
+  </table>
   <h2>Author</h2>
   <p>Steven Penny</p>
 </body>
