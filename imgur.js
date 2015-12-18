@@ -1,15 +1,15 @@
-function p(q) {
-  return document.querySelector(q);
+function vi(wh) {
+  return document.querySelector(wh);
 }
-p('.right .panel').style.padding =
-p('.left .panel').style.padding = '6px';
-p('.left .panel').style.width = '670px';
-p('#content').style.width = '1022px';
-r = document.querySelectorAll('a[rel=image-list]');
-for (s of r) {
-  s.firstChild.style.width =
-  s.firstChild.style.height =
-  s.parentNode.style.width =
-  s.parentNode.style.height = 'auto';
-  s.firstChild.src = s.href + 'm.jpg';
+vi('.right .panel').style.padding =
+vi('.left .panel').style.padding = '6px';
+vi('.left .panel').style.width = '670px';
+vi('#content').style.width = '1022px';
+xr = document.querySelectorAll('a[rel=image-list]');
+for (ya of xr) {
+  ya.firstChild.style.width =
+  ya.firstChild.style.height =
+  ya.parentNode.style.width =
+  ya.parentNode.style.height = 'auto';
+  ya.firstChild.src = ya.href + 'm.jpg';
 }
