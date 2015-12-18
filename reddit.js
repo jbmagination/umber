@@ -1,5 +1,5 @@
-golf = document.querySelectorAll('.comment .entry');
-for (hotel of golf) {
-  if (hotel.textContent.length < 300)
-    hotel.style.opacity = .3;
+j = document.querySelectorAll('.comment .entry');
+for (k of j) {
+  if (k.textContent.length < 300)
+    k.style.opacity = .3;
 }
