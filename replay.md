@@ -10,6 +10,10 @@ Long media
 ----------
 http://imgur.com/FuCfqWZ
 
+animated JPG
+------------
+http://imgur.com/SQXB06O.jpg
+
 gfycat bullshit
 ---------------
 http://gfycat.com/EcstaticWelllitHarpseal
