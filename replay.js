@@ -14,8 +14,10 @@ for (ya of xr) {
       this.src = '';
     };
   }
-  else {
+  else if (/gif/.test(ya.src)) {
+    zu.border = 'thick solid green';
     ya.onclick = function() this.src = this.src;
-    zu.border = /gif/.test(ya.src) ? 'thick solid green' : 'thick solid peru'
   }
+  else
+    zu.border = 'thick solid peru';
 }
