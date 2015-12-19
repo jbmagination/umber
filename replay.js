@@ -15,7 +15,7 @@ for (ya of xr) {
     };
   }
   else {
-    zu.border = 'thick solid green';
     ya.onclick = function() this.src = this.src;
+    zu.border = /gif/.test(ya.src) ? 'thick solid green' : 'thick solid peru'
   }
 }
