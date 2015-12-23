@@ -1,7 +1,8 @@
 ju = document.createElement('div');
 ju.style.background = 'white';
 document.body.insertBefore(ju, document.body.firstChild);
-ki = document.querySelectorAll('[href*=.mp4]');
+/* (.) means we have to use quotes */
+ki = document.querySelectorAll('[href*=".mp4"]');
 for (li of ki) {
   mi = document.createElement('p');
   mi.innerHTML = li.href.replace(/.*\/|\?.*/g, '');
