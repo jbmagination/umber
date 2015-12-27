@@ -10,7 +10,7 @@ function qry(sr) {
 function sprintf(nw) {
   var i = 0;
   while (/%s/.test(nw))
-    nw = nw.replace('%s', arguments[++i])
+    nw = nw.replace('%s', arguments[++i]);
   return nw;
 }
 
