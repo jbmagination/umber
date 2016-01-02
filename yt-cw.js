@@ -40,7 +40,7 @@ qysc('#player').className = 'content-alignment watch-small';
 
 qysc('#watch7-sidebar-modules').innerHTML =
   '<ul id="watch-related" class="video-list"></ul>';
-cha = curl('get_video_info?asv=3&video_id=' + alf);
+cha = curl('get_video_info?asv=3&eurl=http://.&video_id=' + alf);
 del = qysg(cha);
 ech = ducr(del.rvs).split(',');
 
