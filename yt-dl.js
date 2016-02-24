@@ -78,7 +78,7 @@ for (frt of args) {
   }
   fn = (ytplayer.config.args.title + '-' + qty)
     .toLowerCase()
-    .replace(/[!"#&'()*,:?@|~’]/g, '')
+    .replace(/[!"#&'()*,:?@|~’”]/g, '')
     .replace(/h.264/, 'h264')
     .replace(/[ +./[\]]/g, '-')
     .replace(/-+/g, '-');
