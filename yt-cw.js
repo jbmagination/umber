@@ -34,6 +34,7 @@ alf = qysc('[itemprop="videoId"]').content;
 bra = document.createElement('iframe');
 bra.src = 'embed/' + alf + '?autoplay=1';
 bra.className = 'player-height player-width';
+bra.setAttribute('allowFullScreen', '');
 qysc('#player-api').appendChild(bra);
 qysc('#player-unavailable').style.display = 'none';
 qysc('#player').className = 'content-alignment watch-small';
