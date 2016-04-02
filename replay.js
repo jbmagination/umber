@@ -6,7 +6,7 @@ for (ya of xr) {
   if (ya.play) {
     zu.border = 'thick solid violet';
     zu.position = 'relative';
-    zu.zIndex = 10;
+    zu.zIndex = 1000;
     if (ya.duration) zu.display = 'block';
     ya.onmouseover = function() this.controls = 1;
     ya.onclick = function() {
