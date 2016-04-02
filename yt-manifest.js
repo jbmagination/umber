@@ -34,9 +34,9 @@ function decrypt_sig(input) {
   return juliet;
 }
 
-alpha =
+alfa =
   'https://www.youtube.com/get_video_info?&video_id=19GFDljxrY0&el=detailpage';
-bravo = curl(alpha);
+bravo = curl(alfa);
 charlie = qry(bravo);
 delta = unescape(charlie.dashmpd);
 
