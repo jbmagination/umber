@@ -53,57 +53,55 @@ qua = {
   _278: '144p VP9'
 };
 
-args = [
-  ytplayer.config.args.adaptive_fmts,
-  ytplayer.config.args.url_encoded_fmt_stream_map
-].join(',').split(',')
-
-function curl(url) {
-  var xhr = new XMLHttpRequest();
-  /* cors-anywhere.herokuapp.com */
-  xhr.open('get', 'https://allow-any-origin.appspot.com/' + url, false);
-  xhr.send();
-  return xhr.responseText;
-}
-
-for (frt of args) {
-  qst = qry(frt);
-  qty = qua['_' + qst.itag] || qst.itag;
-  hrf = unescape(qst.url);
-  if (qst.sig)
-    hrf += '&signature=' + qst.sig;
-  if (qst.s) {
-    if (typeof rpt == 'undefined') {
-      rpt = curl('https:' + ytplayer.config.assets.js).match(/\){([^]+)}/)[1];
-      eval(rpt);
-      fcnm = rpt.match(/signature\W+(\w+)/)[1];
+if (location.host == 'www.youtube.com') {
+  name = JSON.stringify({
+    adaptive_fmts: ytplayer.config.args.adaptive_fmts,
+    fmt_stream_map: ytplayer.config.args.url_encoded_fmt_stream_map,
+    title: ytplayer.config.args.title,
+    js: ytplayer.config.assets.js
+  });
+  alert('run bookmarklet again on next page');
+  location = '//s.ytimg.com';
+} else {
+  alf = JSON.parse(name);
+  z = [alf.adaptive_fmts, alf.fmt_stream_map].join(',').split(',');
+  for (frt of z) {
+    qst = qry(frt);
+    qty = qua['_' + qst.itag] || qst.itag;
+    hrf = unescape(qst.url);
+    if (qst.sig)
+      hrf += '&signature=' + qst.sig;
+    if (qst.s) {
+      if (typeof rpt == 'undefined') {
+        xhr = new XMLHttpRequest();
+        xhr.open('get', alf.js, false);
+        xhr.send();
+        rpt = xhr.responseText.match(/\){([^]+)}/)[1];
+        eval(rpt);
+        fcnm = rpt.match(/signature\W+(\w+)/)[1];
+      }
+      hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
     }
-    hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
+    fn = (alf.title + '-' + qty)
+      .toLowerCase()
+      .replace(/[!"#&'()*,:?@|~’”]/g, '')
+      .replace(/h.264/, 'h264')
+      .replace(/[ +./[\]]/g, '-')
+      .replace(/-+/g, '-');
+    pm = sprintf('prompt("", "%s"); return false', fn).replace(/"/g, '&quot;');
+    qua['_' + qst.itag] =
+      sprintf('<a href="%s" onclick="%s">%s</a>', hrf, pm, qty);
   }
-  fn = (ytplayer.config.args.title + '-' + qty)
-    .toLowerCase()
-    .replace(/[!"#&'()*,:?@|~’”]/g, '')
-    .replace(/h.264/, 'h264')
-    .replace(/[ +./[\]]/g, '-')
-    .replace(/-+/g, '-');
-  pm = sprintf('prompt("", "%s"); return false', fn).replace(/"/g, '&quot;');
-  qua['_' + qst.itag] =
-    sprintf('<a href="%s" onclick="%s">%s</a>', hrf, pm, qty);
+  dw = document.querySelector('#bm');
+  if (!dw) {
+    dw = document.createElement('div');
+    dw.id = 'bm';
+    document.body.insertBefore(dw, document.body.firstChild);
+  }
+  dw.innerHTML = [
+    new Date().toLocaleTimeString(),
+    'Click to copy the filename, then right click to download'
+  ].concat(
+    Object.keys(qua).map(ky => qua[ky]).filter(vu => /href/.test(vu))
+  ).join('<br>');
 }
-
-dw = document.querySelector('#bm');
-if (!dw) {
-  dw = document.createElement('div');
-  dw.id = 'bm';
-  document.body.insertBefore(dw, document.body.firstChild);
-}
-
-dw.innerHTML = [
-  new Date().toLocaleTimeString(),
-  'Click to copy the filename, then right click to download'
-].concat(
-  Object.keys(qua).map(ky => qua[ky]).filter(vu => /href/.test(vu))
-).join('<br>');
-
-document.querySelector('#masthead-positioner').style.position = 'static';
-document.querySelector('.skip-nav').style.display = 'none';
