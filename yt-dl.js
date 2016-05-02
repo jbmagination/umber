@@ -54,17 +54,13 @@ qua = {
 };
 
 if (location.host == 'www.youtube.com') {
-  name = JSON.stringify({
-    adaptive_fmts: ytplayer.config.args.adaptive_fmts,
-    fmt_stream_map: ytplayer.config.args.url_encoded_fmt_stream_map,
-    title: ytplayer.config.args.title,
-    js: ytplayer.config.assets.js
-  });
+  name = JSON.stringify(ytplayer.config);
   alert('run bookmarklet again on next page');
   location = '//s.ytimg.com';
 } else {
   alf = JSON.parse(name);
-  z = [alf.adaptive_fmts, alf.fmt_stream_map].join(',').split(',');
+  z = [alf.args.adaptive_fmts, alf.args.url_encoded_fmt_stream_map]
+    .join(',').split(',');
   for (frt of z) {
     qst = qry(frt);
     qty = qua['_' + qst.itag] || qst.itag;
@@ -74,7 +70,7 @@ if (location.host == 'www.youtube.com') {
     if (qst.s) {
       if (typeof rpt == 'undefined') {
         xhr = new XMLHttpRequest();
-        xhr.open('get', alf.js, false);
+        xhr.open('get', alf.assets.js, false);
         xhr.send();
         rpt = xhr.responseText.match(/\){([^]+)}/)[1];
         eval(rpt);
@@ -82,7 +78,7 @@ if (location.host == 'www.youtube.com') {
       }
       hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
     }
-    fn = (alf.title + '-' + qty)
+    fn = (alf.args.title + '-' + qty)
       .toLowerCase()
       .replace(/[!"#&'()*,:?@|~’”]/g, '')
       .replace(/h.264/, 'h264')
