@@ -72,7 +72,8 @@ if (location.host == 'www.youtube.com') {
         xhr.send();
         rpt = xhr.responseText.match(/\){([^]+)}/)[1];
         eval(rpt);
-        fcnm = rpt.match(/signature\W+(\w+)/)[1];
+        /* "signature",$r(c) */
+        fcnm = rpt.match(/"signature",([^(]+)/)[1];
       }
       hrf += '&signature=' + eval(sprintf('%s("%s")', fcnm, qst.s));
     }
