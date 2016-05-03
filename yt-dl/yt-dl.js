@@ -65,8 +65,6 @@ if (location.host == 'www.youtube.com') {
     qst = qry(frt);
     qty = qua['_' + qst.itag] || qst.itag;
     hrf = unescape(qst.url);
-    if (qst.sig)
-      hrf += '&signature=' + qst.sig;
     if (qst.s) {
       if (typeof rpt == 'undefined') {
         xhr = new XMLHttpRequest();
