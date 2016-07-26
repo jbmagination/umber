@@ -1,4 +1,4 @@
-addEventListener('timeupdate', function(wh) wh.target.loop = 0, 1);
+addEventListener('timeupdate', wh => wh.target.loop = 0, 1);
 xr = document.querySelectorAll('img, video');
 for (ya of xr) {
   zu = ya.style;
