@@ -88,7 +88,7 @@ fdiv.innerHTML = [
   new Date().toLocaleTimeString(),
   'Click to copy the filename, then right click to download'
 ].concat(
-  keys(cfmt).map(z => cfmt[z]).filter(z => /href/.test(z))
+  Object.keys(cfmt).map(z => cfmt[z]).filter(z => /href/.test(z))
 ).join('<br>');
 
 document.querySelector('#masthead-positioner').style.position = 'static';
