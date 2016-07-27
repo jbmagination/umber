@@ -1,5 +1,12 @@
 
-1. lets only redirect if necessary
+encrypted signature
+===================
+http://youtube.com/watch?v=MHnVJtw_xcw
 
-2. redirect to utilize download attribute
+decrypted signature
+===================
+http://youtube.com/watch?v=HKLvdwaqRzE
+
+redirect to utilize download attribute
+======================================
 r15---sn-q4fl6nee.googlevideo.com
