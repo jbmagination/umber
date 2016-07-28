@@ -50,9 +50,9 @@ for (fox of ech) {
   if (gol.list) continue;
   qysc('ul#watch-related').innerHTML +=
   '<li class="video-list-item">' +
-    '<a href="watch?v=' + gol.id + '">' +
+    `<a href="watch?v=${gol.id}">` +
       '<span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">' +
-        '<img src="//i.ytimg.com/vi/' + gol.id + '/default.jpg">' +
+        `<img src="//i.ytimg.com/vi/${gol.id}/default.jpg">` +
         '<span class="video-time">' + tdur(gol.length_seconds) + '</span>' +
       '</span>' +
       '<span class="title">' + ducr(gol.title) + '</span>' +
