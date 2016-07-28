@@ -2,13 +2,6 @@ function uniq(item, pos, self) {
   return self.indexOf(item) == pos;
 }
 
-function sprintf(fstr) {
-  var i = 0;
-  while (/%s/.test(fstr))
-    fstr = fstr.replace('%s', arguments[++i]);
-  return fstr;
-}
-
 cfmt = {
   _141: '256k AAC',
   _140: '128k AAC',
@@ -62,10 +55,9 @@ for (eurl of durl) {
   fnam = (ytplayer.config.args.title + '-' + efmt).toLowerCase()
     .replace(/[!"#&'()*,:?@|~’”]/g, '').replace(/h.264/, 'h264')
     .replace(/[ +./[\]]/g, '-').replace(/-+/g, '-');
-  opro = sprintf('prompt("", "%s"); return false', fnam)
-    .replace(/"/g, '&quot;');
-  cfmt['_' + usp.get('itag')] = sprintf('<a href="%s" onclick="%s">%s</a>',
-    eurl, opro, efmt);
+  opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
+  cfmt['_' + usp.get('itag')] =
+    `<a href="${eurl}" onclick="${opro}">${efmt}</a>`;
 }
 
 fdiv = document.querySelector('#bm');
