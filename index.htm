@@ -64,9 +64,8 @@ q.body.appendChild(q.createElement('script')).src=
 void(0)">Imgur images full width</a></td>
     </tr>
     <tr>
-      <td><a href="javascript:q=document;
-q.body.appendChild(q.createElement('script')).src=
-'//svnpenn.github.io/bm/reddit.js';
+      <td><a href="javascript:q=document.querySelectorAll('.comment .entry');
+for(z of q)if(z.textContent.length<300)z.style.opacity=.3;
 void(0)">Reddit dim</a></td>
       <td>short comments</td>
     </tr>
