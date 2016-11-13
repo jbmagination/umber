@@ -57,7 +57,7 @@ for (eurl of durl) {
     .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ');
   opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + usp.get('itag')] =
-    `<a href="${eurl}" onclick="${opro}">${efmt}</a>`;
+    `<a href="${eurl}&ratebypass" onclick="${opro}">${efmt}</a>`;
 }
 
 fdiv = document.querySelector('#bm');
