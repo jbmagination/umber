@@ -52,9 +52,9 @@ delete gvd;
 for (eurl of durl) {
   usp = new URLSearchParams(eurl.split('?')[1]);
   efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
-  fnam = (ytplayer.config.args.title + '-' + efmt).toLowerCase()
+  fnam = (ytplayer.config.args.title + ' ' + efmt).toLowerCase()
     .replace(/[!"#&'()*,:?@|~’”]/g, '').replace(/h.264/, 'h264')
-    .replace(/[ +./[\]]/g, '-').replace(/-+/g, '-');
+    .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ');
   opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + usp.get('itag')] =
     `<a href="${eurl}" onclick="${opro}">${efmt}</a>`;
