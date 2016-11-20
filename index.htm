@@ -76,9 +76,8 @@ q.body.appendChild(q.createElement('script')).src=
 void(0)">HTML5 video</a></td>
     </tr>
     <tr>
-      <td><a href="javascript:
-mi=location.href.split(/(\d+)/);no=mi.length-2;os=mi[no];mi[no]++;
-mi[no]=new Array(os.length-(mi[no]+'').length+1).join(0)+mi[no];
+      <td><a href="javascript:mi=location.href.split(/(\d+)/);no=mi.length-2;
+os=mi[no];mi[no]++;if((mi[no]+'').length<os.length)mi[no]=os.match(/0+/)+mi[no];
 location.href=mi.join('')">Increment</a></td>
     </tr>
   </table>
