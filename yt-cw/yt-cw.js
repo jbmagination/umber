@@ -1,3 +1,5 @@
+// FIXME use fetch or yt.player.Application.create
+
 function qysc(sctr) {
   return document.querySelector(sctr);
 }
