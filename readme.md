@@ -6,8 +6,7 @@ Bookmarklets
 - YouTube content warning
 - Media replay
 
-If you are blocking scripts, you might need to whitelist
-`githubusercontent.com`.
+If you are blocking scripts, you might need to whitelist `rawgit.com`.
 
 Links
 ---------------
