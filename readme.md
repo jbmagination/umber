@@ -1,19 +1,22 @@
 bm
-==
-
+============
 Bookmarklets
 
-* YouTube download
-* Vimeo download
-* Media replay
+- YouTube download
+- YouTube content warning
+- Media replay
 
-[svnpenn.github.io/bm][1]
+If you are blocking scripts, you might need to whitelist
+`githubusercontent.com`.
 
-Note you might need to [disable Content Security Policy][2].
+Links
+---------------
+- [Website][gh]
+- [Content Security Policy][so]
 
-If you are blocking scripts, you might need to whitelist `github.io`.
+Author
+------------
+Steven Penny
 
-[1]:
-http://svnpenn.github.io/bm
-[2]:
-http://stackoverflow.com/q/27323631/override-content-security-policy-wh#27324485
+[gh]://svnpenn.github.io/bm
+[so]://stackoverflow.com/a/27324485
