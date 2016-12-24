@@ -10,12 +10,17 @@ If you are blocking scripts, you might need to whitelist `rawgit.com`.
 
 Links
 ---------------
-- [Website][gh]
-- [Content Security Policy][so]
+- [Website][sgi]
+- [Content Security Policy][27324485]
 
 Author
 ------------
 Steven Penny
 
-[gh]://svnpenn.github.io/bm
-[so]://stackoverflow.com/a/27324485
+Thanks
+------
+[Resource blocked due to MIME type mismatch][41309463]
+
+[27324485]://stackoverflow.com/a/27324485
+[41309463]://stackoverflow.com/a/41309463
+[sgi]://svnpenn.github.io/bm
