@@ -17,10 +17,5 @@ Author
 ------------
 Steven Penny
 
-Thanks
-------
-[Resource blocked due to MIME type mismatch][41309463]
-
-[27324485]://stackoverflow.com/a/27324485
-[41309463]://stackoverflow.com/a/41309463
+[27324485]://stackoverflow.com/q/27323631#27324485
 [sgi]://svnpenn.github.io/bm
