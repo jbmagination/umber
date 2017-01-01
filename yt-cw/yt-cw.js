@@ -31,34 +31,34 @@ function tdur(s1) {
   return h2 + m2 + ':' + s2;
 }
 
-alf = qysc('[itemprop="videoId"]').content;
+go = qysc('[itemprop="videoId"]').content;
 
-bra = document.createElement('iframe');
-bra.src = 'embed/' + alf + '?autoplay=1';
-bra.className = 'player-height player-width';
-bra.setAttribute('allowFullScreen', '');
-qysc('#player-api').appendChild(bra);
+ju = document.createElement('iframe');
+ju.src = 'embed/' + go + '?autoplay=1';
+ju.className = 'player-height player-width';
+ju.setAttribute('allowFullScreen', '');
+qysc('#player-api').appendChild(ju);
 qysc('#player-unavailable').style.display = 'none';
 qysc('#player').className = 'content-alignment watch-small';
 
 qysc('#watch7-sidebar-modules').innerHTML =
   '<ul id="watch-related" class="video-list"></ul>';
-cha = curl('get_video_info?asv=3&eurl=http://.&video_id=' + alf);
-del = qysg(cha);
-ech = ducr(del.rvs).split(',');
+ki = curl('get_video_info?asv=3&eurl=http://.&video_id=' + go);
+mi = qysg(ki);
+wh = ducr(mi.rvs).split(',');
 
-for (fox of ech) {
-  gol = qysg(fox);
-  if (gol.list) continue;
+for (xr of wh) {
+  zu = qysg(xr);
+  if (zu.list) continue;
   qysc('ul#watch-related').innerHTML +=
   '<li class="video-list-item">' +
-    `<a href="watch?v=${gol.id}">` +
+    `<a href="watch?v=${zu.id}">` +
       '<span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">' +
-        `<img src="//i.ytimg.com/vi/${gol.id}/default.jpg">` +
-        '<span class="video-time">' + tdur(gol.length_seconds) + '</span>' +
+        `<img src="//i.ytimg.com/vi/${zu.id}/default.jpg">` +
+        '<span class="video-time">' + tdur(zu.length_seconds) + '</span>' +
       '</span>' +
-      '<span class="title">' + ducr(gol.title) + '</span>' +
-      '<span class="stat">by ' + ducr(gol.author) + '</span>' +
+      '<span class="title">' + ducr(zu.title) + '</span>' +
+      '<span class="stat">by ' + ducr(zu.author) + '</span>' +
     '</a>' +
   '</li>';
 }
