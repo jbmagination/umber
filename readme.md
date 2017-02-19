@@ -11,11 +11,13 @@ If you are blocking scripts, you might need to whitelist `rawgit.com`.
 Links
 ---------------
 - [Website][sgi]
-- [Content Security Policy][27324485]
+- [Content Security Policy][csp]
 
 Author
 ------------
 Steven Penny
 
-[27324485]://stackoverflow.com/q/27323631#27324485
-[sgi]://svnpenn.github.io/bm
+[sgi]:
+//svnpenn.github.io/bm
+[csp]:
+//github.com/svnpenn/dotfiles/blob/c790d2a/firefox/browser-console.js#L46-L47
