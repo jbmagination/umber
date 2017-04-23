@@ -1,8 +1,30 @@
+'use strict';
+
+function prune(key, holder, depthDecr) {
+  var q, z, partial = [], value = holder[key];
+  switch (typeof value) {
+  case 'string':
+    return '"' + value + '"';
+  case 'object':
+    if (depthDecr <= 0 || seen.indexOf(value) >= 0)
+      return;
+    seen.push(value);
+    for (q in value)
+      if (Object.prototype.hasOwnProperty.call(value, q)) {
+        z = prune(q, value, depthDecr - 1);
+        if (z) {
+          partial.push(q + ':' + z);
+        }
+      }
+    return '{' + partial.join() + '}';
+  }
+}
+
 function uniq(item, pos, self) {
   return self.indexOf(item) == pos;
 }
 
-cfmt = {
+var cfmt = {
   _141: '256k AAC',
   _140: '128k AAC',
   _251: '160k Opus',
@@ -32,35 +54,35 @@ cfmt = {
   _278: '144p VP9'
 };
 
-ypa = yt.player.Application.create('player-api', ytplayer.config);
+var durl, seen = [];
+var ypa = yt.player.Application.create('player-api', ytplayer.config);
 ypa.dispose();
-gvd = JSON.stringify(ypa.getVideoData());
-xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
-ya = xr.filter(z => z.length < 1000);
+var gvd = prune('', {'': ypa}, 9);
+var xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
+var ya = xr.filter(z => z.length < 1000);
 
 if (ya.length) {
-  dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
+  var dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
     .filter(z => z.length > 20).filter(uniq);
   durl = ya.filter(uniq).map((item, pos) => item + '&signature=' + dsig[pos]);
 } else {
   durl = xr.filter(uniq);
 }
 
-delete ypa;
-delete gvd;
+ypa = gvd = null;
 
-for (eurl of durl) {
-  usp = new URLSearchParams(eurl.split('?')[1]);
-  efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
-  fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
+for (var eurl of durl) {
+  var usp = new URLSearchParams(eurl.split('?')[1]);
+  var efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
+  var fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
     .replace(' H.264', '').replace(/[!"#&'()*,:?@|~’”]/g, '')
     .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ').toLowerCase();
-  opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
+  var opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + usp.get('itag')] =
     `<a href="${eurl}&ratebypass" onclick="${opro}">${efmt}</a>`;
 }
 
-fdiv = document.querySelector('#bm');
+var fdiv = document.querySelector('#bm');
 if (!fdiv) {
   fdiv = document.createElement('div');
   fdiv.id = 'bm';
