@@ -4,19 +4,19 @@ for (ya of xr) {
   zu = ya.style;
   zu.boxSizing = 'border-box';
   if (ya.play) {
-    ya.onmouseover = function() this.controls = 1;
+    ya.onmouseover = function () this.controls = 1;
     zu.setProperty('border', 'thick solid violet', 'important');
     if (location.host == 'streamable.com') {
       zu.position = 'relative';
       zu.zIndex = 1000;
-      ya.onclick = function() {
+      ya.onclick = function () {
         this.parentNode.replaceChild(this.cloneNode(1), this);
         this.src = '';
       };
     }
   }
   else {
-    ya.onmouseover = function() this.src = this.src;
+    ya.onmouseover = function () this.src = this.src;
     zu.border = `thick solid ${/\.gif/.test(ya.src) ? 'green' : 'peru'}`
   }
 }
