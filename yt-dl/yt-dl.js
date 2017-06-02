@@ -4,7 +4,7 @@ function prune(key, holder, depthDecr) {
   var q, z, partial = [], value = holder[key];
   switch (typeof value) {
   case 'string':
-    return '"' + value + '"';
+    return '"' + value.replace(/["\\]/g, '\\$&') + '"';
   case 'object':
     if (depthDecr <= 0 || seen.indexOf(value) >= 0)
       return;
@@ -13,7 +13,7 @@ function prune(key, holder, depthDecr) {
       if (Object.prototype.hasOwnProperty.call(value, q)) {
         z = prune(q, value, depthDecr - 1);
         if (z) {
-          partial.push(q + ':' + z);
+          partial.push('"' + q + '":' + z);
         }
       }
     return '{' + partial.join() + '}';
