@@ -51,14 +51,14 @@ for (xr of wh) {
   zu = qysg(xr);
   if (zu.list) continue;
   qysc('ul#watch-related').innerHTML +=
-  '<li class="video-list-item">' +
-    `<a href="watch?v=${zu.id}">` +
-      '<span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">' +
-        `<img src="//i.ytimg.com/vi/${zu.id}/default.jpg">` +
-        '<span class="video-time">' + tdur(zu.length_seconds) + '</span>' +
-      '</span>' +
-      '<span class="title">' + ducr(zu.title) + '</span>' +
-      '<span class="stat">by ' + ducr(zu.author) + '</span>' +
-    '</a>' +
-  '</li>';
+  `<li class="video-list-item">
+    <a href="watch?v=${zu.id}">
+      <span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">
+        <img src="//i.ytimg.com/vi/${zu.id}/default.jpg">
+        <span class="video-time">${tdur(zu.length_seconds)}</span>
+      </span>
+      <span class="title">${ducr(zu.title)}</span>
+      <span class="stat">by ${ducr(zu.author)}</span>
+    </a>
+  </li>`;
 }
