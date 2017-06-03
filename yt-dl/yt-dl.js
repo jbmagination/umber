@@ -1,6 +1,8 @@
 'use strict';
 
-function prune(key, holder, depthDecr) {
+function prune(key, holder, depthDecr, seen) {
+  if (typeof seen == 'undefined')
+    seen = [];
   var q, z, partial = [], value = holder[key];
   switch (typeof value) {
   case 'string':
@@ -11,7 +13,7 @@ function prune(key, holder, depthDecr) {
     seen.push(value);
     for (q in value)
       if (Object.prototype.hasOwnProperty.call(value, q)) {
-        z = prune(q, value, depthDecr - 1);
+        z = prune(q, value, depthDecr - 1, seen);
         if (z) {
           partial.push('"' + q + '":' + z);
         }
@@ -54,12 +56,12 @@ var cfmt = {
   _278: '144p VP9'
 };
 
-var durl, seen = [];
+var durl;
 var ypa = yt.player.Application.create('player-api', ytplayer.config);
 ypa.dispose();
 var gvd = prune('', {'': ypa}, 9);
 var xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
-var ya = xr.filter(z => z.length < 1000);
+var ya = xr.filter(z => !/signature/.test(z));
 
 if (ya.length) {
   var dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
