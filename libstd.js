@@ -10,3 +10,7 @@ function recurse(obc, arr) {
     }
   return arr;
 }
+
+function scalars(arr) {
+  return arr.filter(x => typeof x != 'object');
+}
