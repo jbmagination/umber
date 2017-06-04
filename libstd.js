@@ -1,3 +1,7 @@
+function gsub(pat, rpc, src) {
+  return src.replace(new RegExp(pat, 'g'), rpc);
+}
+
 function recurse(obc, arr, seen) {
   if (typeof arr == 'undefined')
     arr = [obc];
