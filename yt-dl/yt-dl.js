@@ -3,17 +3,17 @@
 function prune(value, depthDecr, seen) {
   if (typeof seen == 'undefined')
     seen = [];
-  var q, z, partial = [];
   switch (typeof value) {
   case 'string':
     return JSON.stringify(value);
   case 'object':
+    var partial = [];
     if (depthDecr <= 0 || seen.indexOf(value) >= 0)
       return;
     seen.push(value);
-    for (q in value)
+    for (var q in value)
       if (Object.prototype.hasOwnProperty.call(value, q)) {
-        z = prune(value[q], depthDecr - 1, seen);
+        var z = prune(value[q], depthDecr - 1, seen);
         if (z) {
           partial.push('"' + q + '":' + z);
         }
