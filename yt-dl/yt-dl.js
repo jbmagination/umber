@@ -11,11 +11,11 @@ function prune(src, depthDecr, seen) {
     if (depthDecr <= 0 || seen.indexOf(src) >= 0)
       return;
     seen.push(src);
-    for (var q in src)
-      if (Object.prototype.hasOwnProperty.call(src, q)) {
-        var z = prune(src[q], depthDecr - 1, seen);
+    for (var k in src)
+      if (Object.prototype.hasOwnProperty.call(src, k)) {
+        var z = prune(src[k], depthDecr - 1, seen);
         if (z) {
-          partial.push('"' + q + '":' + z);
+          partial.push('"' + k + '":' + z);
         }
       }
     return '{' + partial.join() + '}';
