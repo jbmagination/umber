@@ -6,7 +6,7 @@ function prune(key, holder, depthDecr, seen) {
   var q, z, partial = [], value = holder[key];
   switch (typeof value) {
   case 'string':
-    return '"' + value.replace(/["\\]/g, '\\$&') + '"';
+    return JSON.stringify(value);
   case 'object':
     if (depthDecr <= 0 || seen.indexOf(value) >= 0)
       return;
