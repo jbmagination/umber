@@ -11,6 +11,6 @@ function recurse(obc, arr) {
   return arr;
 }
 
-function scalars(arr) {
-  return arr.filter(x => typeof x != 'object');
+function strings(arr) {
+  return arr.filter(x => typeof x == 'string');
 }
