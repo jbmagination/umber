@@ -1,5 +1,7 @@
-function gsub(pat, rpc, src) {
-  return src.replace(new RegExp(pat, 'g'), rpc);
+function gsub(obc, src) {
+  return keys(obc).reduce(
+    (acc, cva) => acc.replace(new RegExp(cva, 'g'), obc[cva]), src
+  );
 }
 
 function recurse(obc, arr, seen) {
