@@ -1,27 +1,25 @@
-function gsub(obc, src) {
-  return keys(obc).reduce(
-    (acc, cva) => acc.replace(new RegExp(cva, 'g'), obc[cva]), src
-  );
-}
-
-function recurse(obc, arr, seen) {
-  if (typeof arr == 'undefined')
-    arr = [obc];
+function unique(src, seen) {
   if (typeof seen == 'undefined')
     seen = [];
-  if (seen.indexOf(obc) >= 0)
-    return;
-  seen.push(obc);
-  for (ya in obc)
-    if (obc.hasOwnProperty(ya)) {
-      arr.push(obc[ya]);
-      if (typeof obc[ya] == 'object') {
-        recurse(obc[ya], arr, seen);
+  switch (typeof src) {
+  case 'function':
+    return 'function';
+  case 'boolean':
+  case 'number':
+  case 'string':
+    return src;
+  case 'object':
+    var partial = {};
+    if (seen.indexOf(src) >= 0)
+      return;
+    seen.push(src);
+    for (var k in src)
+      if (Object.prototype.hasOwnProperty.call(src, k)) {
+        var z = unique(src[k], seen);
+        if (z !== undefined) {
+          partial[k] = z;
+        }
       }
-    }
-  return arr;
-}
-
-function strings(arr) {
-  return arr.filter(x => typeof x == 'string');
+    return partial;
+  }
 }
