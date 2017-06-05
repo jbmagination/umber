@@ -14,9 +14,9 @@ function unique(src, dep, seen) {
     if (src === null)
       return null;
     var partial = {};
-    if (dep <= 0 || seen.get(src) !== undefined)
+    if (dep <= 0 || seen.has(src))
       return;
-    seen.set(src, dep);
+    seen.set(src);
     for (var k in src)
       if (Object.prototype.hasOwnProperty.call(src, k)) {
         var z = unique(src[k], dep - 1, seen);
