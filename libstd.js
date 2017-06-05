@@ -1,5 +1,5 @@
 function unique(src, dep, seen) {
-  if (typeof seen == 'undefined')
+  if (typeof seen === 'undefined')
     seen = [];
   switch (typeof src) {
   case 'undefined':
@@ -11,6 +11,8 @@ function unique(src, dep, seen) {
   case 'string':
     return src;
   case 'object':
+    if (src === null)
+      return null;
     var partial = {};
     if (dep <= 0 || seen.indexOf(src) >= 0)
       return;
