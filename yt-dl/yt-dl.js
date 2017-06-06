@@ -1,19 +1,21 @@
 'use strict';
 
-function prune(src, depthDecr, seen) {
+function prune(src, dep, seen) {
   if (typeof seen == 'undefined')
-    seen = [];
+    seen = new WeakSet();
   switch (typeof src) {
   case 'string':
     return JSON.stringify(src);
   case 'object':
+    if (src == null)
+      return null;
     var partial = [];
-    if (depthDecr <= 0 || seen.indexOf(src) >= 0)
+    if (dep <= 0 || seen.has(src))
       return;
-    seen.push(src);
+    seen.add(src);
     for (var k in src)
       if (Object.prototype.hasOwnProperty.call(src, k)) {
-        var z = prune(src[k], depthDecr - 1, seen);
+        var z = prune(src[k], dep - 1, seen);
         if (z) {
           partial.push('"' + k + '":' + z);
         }
