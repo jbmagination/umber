@@ -1,6 +1,6 @@
 function unique(src, dep, seen) {
   if (typeof seen === 'undefined')
-    seen = new WeakMap();
+    seen = new WeakSet();
   switch (typeof src) {
   case 'undefined':
   case 'symbol':
@@ -16,7 +16,7 @@ function unique(src, dep, seen) {
     var partial = {};
     if (dep <= 0 || seen.has(src))
       return;
-    seen.set(src);
+    seen.add(src);
     for (var k in src)
       if (Object.prototype.hasOwnProperty.call(src, k)) {
         var z = unique(src[k], dep - 1, seen);
