@@ -1,13 +1,13 @@
 'use strict';
 
 function prune(src, dep, seen) {
-  if (typeof seen == 'undefined')
+  if (seen === undefined)
     seen = new WeakSet();
   switch (typeof src) {
   case 'string':
     return JSON.stringify(src);
   case 'object':
-    if (src == null)
+    if (src === null)
       return null;
     var partial = [];
     if (dep <= 0 || seen.has(src))
