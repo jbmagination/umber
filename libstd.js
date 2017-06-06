@@ -1,5 +1,5 @@
 function unique(src, dep, seen) {
-  if (typeof seen === 'undefined')
+  if (seen === undefined)
     seen = new WeakSet();
   switch (typeof src) {
   case 'undefined':
