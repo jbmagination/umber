@@ -1,6 +1,8 @@
-function unique(src, dep, seen) {
+function decycle(src, dep, path, seen) {
+  if (path === undefined)
+    path = [];
   if (seen === undefined)
-    seen = new WeakSet();
+    seen = new WeakMap();
   switch (typeof src) {
   case 'undefined':
   case 'symbol':
@@ -13,15 +15,15 @@ function unique(src, dep, seen) {
   case 'object':
     if (src === null)
       return null;
-    var partial = {};
-    if (dep <= 0 || seen.has(src))
+    if (dep <= 0 || seen.has(src) && seen.get(src).length <= path.length)
       return;
-    seen.add(src);
-    for (var k in src)
-      if (Object.prototype.hasOwnProperty.call(src, k)) {
-        var z = unique(src[k], dep - 1, seen);
-        if (z !== undefined) {
-          partial[k] = z;
+    seen.set(src, path);
+    var partial = {};
+    for (var q in src)
+      if (Object.prototype.hasOwnProperty.call(src, q)) {
+        var x = decycle(src[q], dep - 1, path.concat(q), seen);
+        if (x !== undefined) {
+          partial[q] = x;
         }
       }
     return partial;
