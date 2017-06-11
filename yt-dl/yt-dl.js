@@ -9,17 +9,17 @@ function prune(src, dep, seen) {
   case 'object':
     if (src === null)
       return null;
-    var partial = [];
+    var part = [];
     if (dep <= 0 || seen.has(src))
       return;
     seen.add(src);
     for (var [ky, vu] of Object.entries(src)) {
       var z = prune(vu, dep - 1, seen);
       if (z) {
-        partial.push('"' + ky + '":' + z);
+        part.push('"' + ky + '":' + z);
       }
     }
-    return '{' + partial.join() + '}';
+    return '{' + part.join() + '}';
   }
 }
 

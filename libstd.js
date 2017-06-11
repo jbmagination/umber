@@ -18,10 +18,10 @@ function decycle(src, dep, path, seen) {
     if (dep <= 0 || seen.has(src) && seen.get(src).length <= path.length)
       return;
     seen.set(src, path);
-    var partial = {};
+    var part = {};
     for (var [ky, vu] of Object.entries(src)) {
-      partial[ky] = decycle(vu, dep - 1, path.concat(ky), seen);
+      part[ky] = decycle(vu, dep - 1, path.concat(ky), seen);
     }
-    return partial;
+    return part;
   }
 }
