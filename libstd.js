@@ -19,13 +19,9 @@ function decycle(src, dep, path, seen) {
       return;
     seen.set(src, path);
     var partial = {};
-    for (var q in src)
-      if (Object.prototype.hasOwnProperty.call(src, q)) {
-        var x = decycle(src[q], dep - 1, path.concat(q), seen);
-        if (x !== undefined) {
-          partial[q] = x;
-        }
-      }
+    for (var [ky, vu] of Object.entries(src)) {
+      partial[ky] = decycle(vu, dep - 1, path.concat(ky), seen);
+    }
     return partial;
   }
 }
