@@ -13,13 +13,12 @@ function prune(src, dep, seen) {
     if (dep <= 0 || seen.has(src))
       return;
     seen.add(src);
-    for (var k in src)
-      if (Object.prototype.hasOwnProperty.call(src, k)) {
-        var z = prune(src[k], dep - 1, seen);
-        if (z) {
-          partial.push('"' + k + '":' + z);
-        }
+    for (var [ky, vu] of Object.entries(src)) {
+      var z = prune(vu, dep - 1, seen);
+      if (z) {
+        partial.push('"' + ky + '":' + z);
       }
+    }
     return '{' + partial.join() + '}';
   }
 }
@@ -59,9 +58,7 @@ var cfmt = {
 };
 
 var durl;
-var ypa = yt.player.Application.create('player-api', ytplayer.config);
-ypa.dispose();
-var gvd = prune(ypa, 9);
+var gvd = prune(ytPubsubPubsubInstance, 20);
 var xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
 var ya = xr.filter(z => !/signature/.test(z));
 
@@ -73,7 +70,7 @@ if (ya.length) {
   durl = xr.filter(uniq);
 }
 
-ypa = gvd = null;
+gvd = null;
 
 for (var eurl of durl) {
   var usp = new URLSearchParams(eurl.split('?')[1]);
