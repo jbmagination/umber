@@ -24,7 +24,7 @@ function prune(src, dep, seen) {
 }
 
 function uniq(item, pos, self) {
-  return self.indexOf(item) == pos;
+  return self.indexOf(item) === pos;
 }
 
 var cfmt = {
