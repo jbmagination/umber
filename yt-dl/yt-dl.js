@@ -5,7 +5,7 @@ function prune(src, dep, seen = new WeakSet()) {
   case 'string':
     return JSON.stringify(src);
   case 'object':
-    if (src === null)
+    if (src == null)
       return null;
     var part = [];
     if (dep <= 0 || seen.has(src))
@@ -22,7 +22,7 @@ function prune(src, dep, seen = new WeakSet()) {
 }
 
 function uniq(item, pos, self) {
-  return self.indexOf(item) === pos;
+  return self.indexOf(item) == pos;
 }
 
 var cfmt = {

@@ -9,7 +9,7 @@ function decycle(src, dep, path = [], seen = new WeakMap()) {
   case 'string':
     return src;
   case 'object':
-    if (src === null)
+    if (src == null)
       return null;
     if (dep <= 0 || seen.has(src) && seen.get(src).length <= path.length)
       return;
