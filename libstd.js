@@ -1,8 +1,4 @@
-function decycle(src, dep, path, seen) {
-  if (path === undefined)
-    path = [];
-  if (seen === undefined)
-    seen = new WeakMap();
+function decycle(src, dep, path = [], seen = new WeakMap()) {
   switch (typeof src) {
   case 'undefined':
   case 'symbol':
