@@ -1,8 +1,6 @@
 'use strict';
 
-function prune(src, dep, seen) {
-  if (seen === undefined)
-    seen = new WeakSet();
+function prune(src, dep, seen = new WeakSet()) {
   switch (typeof src) {
   case 'string':
     return JSON.stringify(src);
