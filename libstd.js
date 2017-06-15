@@ -1,23 +1,18 @@
-function decycle(src, dep, path = [], seen = new WeakMap()) {
-  switch (typeof src) {
-  case 'undefined':
-  case 'symbol':
-  case 'function':
-    return null;
-  case 'boolean':
-  case 'number':
-  case 'string':
-    return src;
-  case 'object':
-    if (src == null)
-      return null;
-    if (dep <= 0 || seen.has(src) && seen.get(src).length <= path.length)
-      return;
-    seen.set(src, path);
-    var part = {};
-    for (var [ky, vu] of Object.entries(src)) {
-      part[ky] = decycle(vu, dep - 1, path.concat(ky), seen);
+function flatten(src, path = [], seen = new Map()) {
+  for (let [ky, vu] of Object.entries(src)) {
+    if (typeof vu == 'object' && vu != null) {
+      if (!seen.has(vu) || path.length < seen.get(vu).length) {
+        seen.set(vu, path);
+        flatten(vu, path.concat(ky), seen);
+      }
     }
-    return part;
+  }
+  if (!path.length) {
+    let op = {};
+    for (let [oc, pt] of seen) {
+      keys(oc).filter(x => typeof oc[x] == 'string')
+      .map(x => op[pt.concat(x)] = oc[x]);
+    }
+    return op;
   }
 }
