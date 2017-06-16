@@ -11,7 +11,7 @@ function flatten(src, path = [], seen = new Map()) {
     let op = {};
     for (let [oc, pt] of seen) {
       keys(oc).filter(x => typeof oc[x] == 'string')
-      .map(x => op[pt.concat(x)] = oc[x]);
+      .forEach(x => op[pt.concat(x)] = oc[x]);
     }
     return op;
   }
