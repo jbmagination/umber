@@ -3,7 +3,7 @@ function flatten(src, path = [], seen = new Map()) {
     if (typeof vu == 'object' && vu != null) {
       if (!seen.has(vu) || path.length < seen.get(vu).length) {
         seen.set(vu, path);
-        flatten(vu, path.concat(ky), seen);
+        flatten(vu, [...path, ky], seen);
       }
     }
   }
@@ -11,7 +11,7 @@ function flatten(src, path = [], seen = new Map()) {
     let op = {};
     for (let [oc, pt] of seen) {
       keys(oc).filter(x => typeof oc[x] == 'string')
-      .forEach(x => op[pt.concat(x)] = oc[x]);
+      .forEach(x => op[[...pt, x]] = oc[x]);
     }
     return op;
   }
