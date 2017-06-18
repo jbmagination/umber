@@ -7,12 +7,12 @@ function prune(src, dep, seen = new WeakSet()) {
   case 'object':
     if (src == null)
       return null;
-    var part = [];
+    let part = [];
     if (dep <= 0 || seen.has(src))
       return;
     seen.add(src);
-    for (var [ky, vu] of Object.entries(src)) {
-      var z = prune(vu, dep - 1, seen);
+    for (let [ky, vu] of Object.entries(src)) {
+      let z = prune(vu, dep - 1, seen);
       if (z) {
         part.push('"' + ky + '":' + z);
       }
@@ -25,7 +25,7 @@ function uniq(item, pos, self) {
   return self.indexOf(item) == pos;
 }
 
-var cfmt = {
+let cfmt = {
   _141: '256k AAC',
   _140: '128k AAC',
   _251: '160k Opus',
@@ -55,13 +55,13 @@ var cfmt = {
   _278: '144p VP9'
 };
 
-var durl;
-var gvd = prune(ytPubsubPubsubInstance, 20);
-var xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
-var ya = xr.filter(z => !/signature/.test(z));
+let durl;
+let gvd = prune(ytPubsubPubsubInstance, 20);
+let xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
+let ya = xr.filter(z => !/signature/.test(z));
 
 if (ya.length) {
-  var dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
+  let dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
     .filter(z => z.length > 20).filter(uniq);
   durl = ya.filter(uniq).map((item, pos) => item + '&signature=' + dsig[pos]);
 } else {
@@ -70,18 +70,18 @@ if (ya.length) {
 
 gvd = null;
 
-for (var eurl of durl) {
-  var usp = new URLSearchParams(eurl.split('?')[1]);
-  var efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
-  var fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
+for (let eurl of durl) {
+  let usp = new URLSearchParams(eurl.split('?')[1]);
+  let efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
+  let fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
     .replace(' H.264', '').replace(/[!"#&'()*,:?@|~’”]/g, '')
     .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ').toLowerCase();
-  var opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
+  let opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + usp.get('itag')] =
     `<a href="${eurl}&ratebypass" onclick="${opro}">${efmt}</a>`;
 }
 
-var fdiv = document.querySelector('#bm');
+let fdiv = document.querySelector('#bm');
 if (!fdiv) {
   fdiv = document.createElement('div');
   fdiv.id = 'bm';
