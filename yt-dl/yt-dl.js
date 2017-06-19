@@ -91,7 +91,7 @@ if (!fdiv) {
 fdiv.innerHTML = [
   new Date().toLocaleTimeString(),
   'Click to copy the filename, then right click to download',
-  ...keys(cfmt).map(z => cfmt[z]).filter(z => /href/.test(z))
+  ...values(cfmt).filter(z => /href/.test(z))
 ].join('<br>');
 
 document.querySelector('#masthead-positioner').style.position = 'static';
