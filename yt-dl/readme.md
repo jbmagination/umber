@@ -45,7 +45,3 @@ http://youtube.com/watch?v=ZiDSVrKuV1c
 - itag=250: **signature included**
 - itag=251: **signature included**
 - itag=278: **signature included**
-
-http://r15---sn-q4fl6nee.googlevideo.com
-========================================
-redirect to utilize download attribute
