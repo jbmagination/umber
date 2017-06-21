@@ -71,14 +71,14 @@ if (ya.length) {
 gvd = null;
 
 for (let eurl of durl) {
-  let usp = new URLSearchParams(eurl.split('?')[1]);
+  let usp = new URLSearchParams(eurl);
   let efmt = cfmt['_' + usp.get('itag')] || usp.get('itag');
   let fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
     .replace(' H.264', '').replace(/[!"#&'()*,:?@|~’”]/g, '')
     .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ').toLowerCase();
   let opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + usp.get('itag')] =
-    `<a href="${eurl}&ratebypass" onclick="${opro}">${efmt}</a>`;
+  `<a href="${eurl}&ratebypass" onclick="${opro}">${efmt}</a>`;
 }
 
 let fdiv = document.querySelector('#bm');
