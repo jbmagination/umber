@@ -85,7 +85,7 @@ let fdiv = document.querySelector('#bm');
 if (!fdiv) {
   fdiv = document.createElement('div');
   fdiv.id = 'bm';
-  document.body.insertBefore(fdiv, document.body.firstChild);
+  document.body.prepend(fdiv);
 }
 
 fdiv.innerHTML = [
