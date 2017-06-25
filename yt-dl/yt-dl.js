@@ -1,28 +1,22 @@
 'use strict';
 
-function prune(src, dep, seen = new WeakSet()) {
-  switch (typeof src) {
-  case 'string':
-    return JSON.stringify(src);
-  case 'object':
-    if (src == null)
-      return null;
-    let part = [];
-    if (dep <= 0 || seen.has(src))
-      return;
-    seen.add(src);
-    for (let [ky, vu] of Object.entries(src)) {
-      let z = prune(vu, dep - 1, seen);
-      if (z) {
-        part.push('"' + ky + '":' + z);
+function flatten(src, path = [], seen = new Map()) {
+  for (let [ky, vu] of Object.entries(src)) {
+    if (typeof vu == 'object' && vu != null) {
+      if (!seen.has(vu) || path.length < seen.get(vu).length) {
+        seen.set(vu, path);
+        flatten(vu, [...path, ky], seen);
       }
     }
-    return '{' + part.join() + '}';
   }
-}
-
-function uniq(item, pos, self) {
-  return self.indexOf(item) == pos;
+  if (!path.length) {
+    let op = {};
+    for (let [oc, pt] of seen) {
+      keys(oc).filter(x => typeof oc[x] == 'string')
+      .forEach(x => op[[...pt, x]] = oc[x]);
+    }
+    return op;
+  }
 }
 
 let cfmt = {
@@ -55,25 +49,22 @@ let cfmt = {
   _278: '144p VP9'
 };
 
-let durl;
-let gvd = prune(ytPubsubPubsubInstance, 20);
-let xr = gvd.match(/https:[^"]+videoplayback[^"]+/g);
-let ya = xr.filter(z => !/signature/.test(z));
+let gvd = flatten(ytPubsubPubsubInstance);
 
-if (ya.length) {
-  let dsig = gvd.match(/[0123456789ABCDEF.]+(?=")/g)
-    .filter(z => z.length > 20).filter(uniq);
-  durl = ya.filter(uniq).map((item, pos) => item + '&signature=' + dsig[pos]);
-} else {
-  durl = xr.filter(uniq);
-}
+let durl = values(gvd).filter(
+  x => ~x.indexOf('videoplayback?') && !~x.indexOf('range=')
+);
+let dsig = Array.from(
+  new Set(keys(gvd).filter(x => ~x.indexOf(',signature')).map(x => gvd[x]))
+);
 
 gvd = null;
 
-for (let eurl of durl) {
-  let nurl = new URL(eurl);
+for (let eurl in durl) {
+  let nurl = new URL(durl[eurl]);
   let nusp = nurl.searchParams;
   nusp.set('ratebypass', 'yes');
+  nusp.set('signature', dsig[eurl]);
   let efmt = cfmt['_' + nusp.get('itag')] || nusp.get('itag');
   let fnam = (ytplayer.config.args.title + ' ' + efmt).replace(' AAC', '')
     .replace(' H.264', '').replace(/[!"#&'()*,:?@|~’”]/g, '')
