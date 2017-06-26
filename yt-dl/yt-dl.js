@@ -80,8 +80,7 @@ if (!fdiv) {
   fdiv.id = 'yt-dl';
   Object.assign(fdiv.style, {
     right: 0, bottom: 0, zIndex: 6, width: '10em', padding: '1em',
-    borderRadius: '1em', cursor: 'pointer', position: 'fixed',
-    background: 'plum'
+    borderRadius: '1em', position: 'fixed', background: 'plum'
   });
   document.body.prepend(fdiv);
 }
