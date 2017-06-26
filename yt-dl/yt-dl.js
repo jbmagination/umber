@@ -78,10 +78,8 @@ let fdiv = document.querySelector('#yt-dl');
 if (!fdiv) {
   fdiv = document.createElement('div');
   fdiv.id = 'yt-dl';
-  Object.assign(fdiv.style, {
-    right: 0, bottom: 0, zIndex: 6, width: '10em', padding: '1em',
-    borderRadius: '1em', position: 'fixed', background: 'plum'
-  });
+  fdiv.style = `right: 0; bottom: 0; z-index: 6; width: 10em; padding: 1em;
+    border-radius: 1em; position: fixed; background: plum`;
   document.body.prepend(fdiv);
 }
 
