@@ -71,7 +71,7 @@ for (let eurl in durl) {
     .replace(/[+./[\]]/g, ' ').replace(/ +/g, ' ').toLowerCase();
   let opro = `prompt("", "${fnam}"); return false`.replace(/"/g, '&quot;');
   cfmt['_' + nusp.get('itag')] =
-  `<a href="${nurl.href}" onclick="${opro}">${efmt}</a>`;
+  `<p><a href="${nurl.href}" onclick="${opro}">${efmt}</a></p>`;
 }
 
 let fdiv = document.querySelector('#bm');
@@ -81,11 +81,9 @@ if (!fdiv) {
   document.body.prepend(fdiv);
 }
 
-fdiv.innerHTML = [
-  new Date().toLocaleTimeString(),
-  'Click to copy the filename, then right click to download',
-  ...values(cfmt).filter(z => /href/.test(z))
-].join('<br>');
+fdiv.innerHTML = `${new Date().toLocaleTimeString()}
+  Click to copy the filename, then right click to download
+  ${values(cfmt).filter(z => /href/.test(z)).join('')}`;
 
 document.querySelector('#masthead-positioner').style.position = 'static';
 document.querySelector('.skip-nav').style.display = 'none';
