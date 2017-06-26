@@ -74,16 +74,18 @@ for (let eurl in durl) {
   `<p><a href="${nurl.href}" onclick="${opro}">${efmt}</a></p>`;
 }
 
-let fdiv = document.querySelector('#bm');
+let fdiv = document.querySelector('#yt-dl');
 if (!fdiv) {
   fdiv = document.createElement('div');
-  fdiv.id = 'bm';
+  fdiv.id = 'yt-dl';
+  Object.assign(fdiv.style, {
+    right: 0, bottom: 0, zIndex: 6, width: '10em', padding: '1em',
+    borderRadius: '1em', cursor: 'pointer', position: 'fixed',
+    background: 'plum'
+  });
   document.body.prepend(fdiv);
 }
 
 fdiv.innerHTML = `${new Date().toLocaleTimeString()}
   Click to copy the filename, then right click to download
   ${values(cfmt).filter(z => /href/.test(z)).join('')}`;
-
-document.querySelector('#masthead-positioner').style.position = 'static';
-document.querySelector('.skip-nav').style.display = 'none';
