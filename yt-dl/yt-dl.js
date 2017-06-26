@@ -85,4 +85,4 @@ if (!fdiv) {
 
 fdiv.innerHTML = `${new Date().toLocaleTimeString()}
   Click to copy the filename, then right click to download
-  ${values(cfmt).filter(z => /href/.test(z)).join('')}`;
+  ${values(cfmt).filter(z => z.includes('href')).join('')}`;
