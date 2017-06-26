@@ -17,6 +17,6 @@ for (ya of xr) {
   }
   else {
     ya.onmouseover = function () this.src = this.src;
-    zu.border = `thick solid ${/\.gif/.test(ya.src) ? 'green' : 'peru'}`
+    zu.border = `thick solid ${ya.src.includes('.gif') ? 'green' : 'peru'}`;
   }
 }
