@@ -52,10 +52,10 @@ let cfmt = {
 let gvd = flatten(ytPubsubPubsubInstance);
 
 let durl = values(gvd).filter(
-  x => ~x.indexOf('videoplayback?') && !~x.indexOf('range=')
+  x => x.includes('videoplayback?') && !x.includes('range=')
 );
 let dsig = Array.from(
-  new Set(keys(gvd).filter(x => ~x.indexOf(',signature')).map(x => gvd[x]))
+  new Set(keys(gvd).filter(x => x.includes(',signature')).map(x => gvd[x]))
 );
 
 gvd = null;
