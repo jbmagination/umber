@@ -3,7 +3,7 @@
 function flatten(src, path = [], seen = new Map()) {
   for (let [ky, vu] of Object.entries(src)) {
     if (typeof vu == 'object' && vu != null) {
-      if (!seen.has(vu) || path.length < seen.get(vu).length) {
+      if (!seen.has(vu)) {
         seen.set(vu, path);
         flatten(vu, [...path, ky], seen);
       }
@@ -24,17 +24,17 @@ let ypsi = flatten(ytPubsubPubsubInstance);
 let durl = values(ypsi).filter(
   x => x.includes('videoplayback?') && !x.includes('range=')
 );
-let dsig = Array.from(
-  new Set(keys(ypsi).filter(x => x.includes(',signature')).map(x => ypsi[x]))
-);
+let dsig = new Set(
+  keys(ypsi).filter(x => x.includes(',signature')).map(x => ypsi[x])
+).values();
 
 ypsi = [];
 
-for (let eurl in durl) {
-  let nurl = new URL(durl[eurl]);
+for (let eurl of durl) {
+  let nurl = new URL(eurl);
   let nusp = nurl.searchParams;
   nusp.set('ratebypass', 'yes');
-  nusp.set('signature', dsig[eurl]);
+  nusp.set('signature', dsig.next().value);
   let kbps = ~~(nusp.get('clen') * 8 / (1000 * nusp.get('dur')));
   ypsi.push(`
     <!--${nusp.get('mime') + `${9999 - kbps}`.padStart(4)}-->
