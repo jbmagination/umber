@@ -12,7 +12,7 @@ function flatten(src, path = [], seen = new Map()) {
   if (!path.length) {
     let op = {};
     for (let [oc, pt] of seen) {
-      keys(oc).filter(x => typeof oc[x] == 'string')
+      Object.keys(oc).filter(x => typeof oc[x] == 'string')
       .forEach(x => op[[...pt, x]] = oc[x]);
     }
     return op;
@@ -25,9 +25,9 @@ let durl = values(ypsi).filter(
   x => x.includes('videoplayback?') && !x.includes('range=')
 );
 let dsig = new Set(
-  keys(ypsi).filter(x => x.includes(',signature')).map(x => ypsi[x])
+  Object.keys(ypsi).filter(x => x.includes(',signature')).map(x => ypsi[x])
 ).values();
-let vqua = keys(ypsi).filter(x => x.includes(',qualityLabel'))
+let vqua = Object.keys(ypsi).filter(x => x.includes(',qualityLabel'))
   .map(x => ypsi[x])[Symbol.iterator]();
 
 ypsi = [];
