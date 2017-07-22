@@ -21,7 +21,7 @@ function flatten(src, path = [], seen = new Map()) {
 
 let ypsi = flatten(ytPubsubPubsubInstance);
 
-let durl = values(ypsi).filter(
+let durl = Object.values(ypsi).filter(
   x => x.includes('videoplayback?') && !x.includes('range=')
 );
 let dsig = new Set(
