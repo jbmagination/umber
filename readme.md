@@ -20,4 +20,4 @@ Steven Penny
 [sgi]:
 //svnpenn.github.io/bm
 [csp]:
-//github.com/svnpenn/dotfiles/blob/c790d2a/firefox/browser-console.js#L46-L47
+//github.com/svnpenn/dotfiles/blob/c1516d8/firefox/browser-console.js#L48-L49
