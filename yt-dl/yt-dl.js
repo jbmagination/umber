@@ -36,7 +36,9 @@ for (let eurl of durl) {
   let nurl = new URL(eurl);
   let nusp = nurl.searchParams;
   nusp.set('ratebypass', 'yes');
-  nusp.set('signature', dsig.next().value);
+  if (!nusp.get('signature')) {
+    nusp.set('signature', dsig.next().value);
+  }
   let squa = nusp.get('mime').includes('video') ?
     vqua.next().value :
     ~~(nusp.get('clen') * 8 / (1000 * nusp.get('dur'))) + 'k';
