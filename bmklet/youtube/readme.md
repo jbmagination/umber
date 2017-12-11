@@ -67,3 +67,9 @@ http://youtube.com/watch?v=7SyCXCLoylE
 - itag/139/source/youtube/signature/
 - itag=140&source=youtube&signature=
 - itag/160/source/yt_otf/signature/
+
+Content Warning
+=====================================
+- iframe is better, uses HTML5 player
+- Short example - http://youtube.com/watch?v=2NkugVsgEw4
+- eurl example - http://youtube.com/watch?v=07FYdnEawAQ
