@@ -1,0 +1,20 @@
+{
+  "name": "youtube-pp",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "pp": {
+      "suggested_key": {
+        "default": "MediaPlayPause"
+      }
+    }
+  },
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["pp.js"]
+  }]
+}
