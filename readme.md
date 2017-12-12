@@ -1,23 +1,17 @@
 Umber
 ============================
+![umber.jpg 458 × 360][hero]
+
 WebExtensions & Bookmarklets
 
-- YouTube download
-- YouTube content warning
-- Media replay
-
-If you are blocking scripts, you might need to whitelist `rawgit.com`.
-
-Links
----------------
-- [Website][sgi]
-- [Content Security Policy][csp]
+- YouTube PlayPause
+- YouTube Download
+- YouTube Content Warning
+- Media Replay
 
 Author
 ------------
 Steven Penny
 
-[sgi]:
-//svnpenn.github.io/umber
-[csp]:
-//github.com/svnpenn/dotfiles/blob/c1516d8/firefox/browser-console.js#L48-L49
+[protocol is needed for image to render]::
+[hero]:https://raw.githubusercontent.com/svnpenn/umber/master/umber.jpg
