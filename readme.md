@@ -1,4 +1,4 @@
-bm
+Umber
 ============================
 WebExtensions & Bookmarklets
 
@@ -18,6 +18,6 @@ Author
 Steven Penny
 
 [sgi]:
-//svnpenn.github.io/bm
+//svnpenn.github.io/umber
 [csp]:
 //github.com/svnpenn/dotfiles/blob/c1516d8/firefox/browser-console.js#L48-L49
