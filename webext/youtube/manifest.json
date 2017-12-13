@@ -1,5 +1,5 @@
 {
-  "name": "youtube-pp",
+  "name": "play-pause",
   "version": "1.0.0",
   "manifest_version": 2,
   "permissions": ["tabs"],
@@ -7,7 +7,7 @@
     "scripts": ["background.js"]
   },
   "commands": {
-    "pp": {
+    "play-pause": {
       "suggested_key": {
         "default": "MediaPlayPause"
       }
@@ -15,6 +15,6 @@
   },
   "content_scripts": [{
     "matches": ["https://www.youtube.com/*"],
-    "js": ["pp.js"]
+    "js": ["play-pause.js"]
   }]
 }
