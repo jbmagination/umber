@@ -4,7 +4,7 @@ Umber
 
 WebExtensions & Bookmarklets
 
-- YouTube PlayPause
+- Raspberry WebExtension
 - YouTube Download
 - YouTube Content Warning
 - Media Replay
