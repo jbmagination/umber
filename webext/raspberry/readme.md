@@ -1,12 +1,18 @@
 Current sites
------------------------
-https://www.youtube.com
+------------------
+http://youtube.com
 
 Future sites
-------------------------
-- https://soundcloud.com
-- https://github.com/berrberr/streamkeys/tree/master/code/js/controllers
+---------------------
+http://soundcloud.com
+
+Controllers
+-----------------------------------------------------------------------
+- http://github.com/berrberr/streamkeys/tree/master/code/js/controllers
+- http://github.com/carlin-q-scott/browser-media-players
+- http://github.com/GorkyR/MultimediaControlExtension
+- http://github.com/pranavtad/pause
 
 No longer need this
 --------------------------------------
-https://github.com/randyrants/sharpkeys
+http://github.com/randyrants/sharpkeys
