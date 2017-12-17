@@ -20,6 +20,6 @@
   },
   "content_scripts": [{
     "matches": ["https://www.youtube.com/*"],
-    "js": ["raspberry.js"]
+    "js": ["rb.js"]
   }]
 }
