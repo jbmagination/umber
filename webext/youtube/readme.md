@@ -1,3 +1,12 @@
+Current sites
+-----------------------
+https://www.youtube.com
 
-- http://github.com/berrberr/streamkeys/tree/master/code/js/controllers
-- http://github.com/randyrants/sharpkeys
+Future sites
+------------------------
+- https://soundcloud.com
+- https://github.com/berrberr/streamkeys/tree/master/code/js/controllers
+
+No longer need this
+--------------------------------------
+https://github.com/randyrants/sharpkeys
