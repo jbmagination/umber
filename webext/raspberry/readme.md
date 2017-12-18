@@ -4,10 +4,8 @@ Raspberry
 
 Pause and play media
 
-Sites
---------------------
-- http://youtube.com
-- http://soundcloud.com - soon
+- YouTube
+- SoundCloud - soon
 
 Controllers
 -----------------------------------------------------------------------
