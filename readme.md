@@ -2,12 +2,12 @@ Umber
 ============================
 ![umber.jpg 458 × 360][hero]
 
-WebExtensions & Bookmarklets
-
-- Raspberry WebExtension
-- YouTube Download
-- YouTube Content Warning
-- Media Replay
+Type | Name | Description
+-----|------|------------
+WebExtension | Raspberry | pause and play media
+Bookmarklet | YouTube download | choose quality and mime type
+Bookmarklet | Youtube content warning | bypass
+Bookmarklet | Replay media | stop loops, add border, show controls
 
 Links
 ------------------
