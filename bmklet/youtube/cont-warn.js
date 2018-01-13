@@ -37,7 +37,7 @@ ju = document.createElement('iframe');
 ju.src = 'embed/' + go + '?autoplay=1';
 ju.className = 'player-height player-width';
 ju.setAttribute('allowFullScreen', '');
-qysc('#player-api').appendChild(ju);
+qysc('#player-api').append(ju);
 qysc('#player-unavailable').style.display = 'none';
 qysc('#player').className = 'content-alignment watch-small';
 
