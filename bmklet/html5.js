@@ -4,7 +4,7 @@ document.body.prepend(br);
 document.querySelectorAll('[href*="1080p"],[href*="720p"],[href*="mp4"]')
 .forEach(xr => {
   ya = document.createElement('p');
-  ya.innerHTML = xr.href;
+  ya.textContent = xr.href;
   zu = document.createElement('video');
   zu.controls = 1;
   zu.src = xr.href;
