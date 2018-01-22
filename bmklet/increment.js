@@ -1,8 +1,8 @@
-mi = location.href.split(/(\d+)/);
-no = mi.length - 2;
-os = mi[no];
-mi[no]++;
-if ((mi[no] + '').length < os.length) {
-  mi[no] = os.match(/0+/) + mi[no];
+x = location.href.split(/(\d+)/);
+y = x.length - 2;
+z = x[y];
+x[y]++;
+if ((x[y] + '').length < z.length) {
+  x[y] = z.match(/0+/) + x[y];
 }
-location.href = mi.join('');
+location.href = x.join('');
