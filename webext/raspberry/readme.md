@@ -17,4 +17,5 @@ No longer need this
 --------------------------------------
 http://github.com/randyrants/sharpkeys
 
-[hero]:http://raw.githubusercontent.com/svnpenn/umber/master/webext/raspberry/rb.jpg
+[image needs explicit HTTPS]::
+[hero]:https://raw.githubusercontent.com/svnpenn/umber/master/webext/raspberry/rb.jpg
