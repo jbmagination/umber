@@ -1,12 +1,13 @@
-dc = document;
-br = dc.createElement('div');
-br.style.background = 'white';
-dc.body.prepend(br);
-dc.querySelectorAll(`[href*="1080p"],[href*="720p"],[href*="400p"],
-[href*="mp4"]`).forEach(xr => {
-  ya = dc.createElement('p');
-  zu = dc.createElement('video');
-  zu.controls = zu.style.width = '600px';
-  ya.textContent = zu.src = xr.href;
-  br.append(ya, zu);
+qs = [
+  '[href*="1080p"]', '[href*="720p"]', '[href*="400p"]', '[href*="mp4"]',
+  '[src*="mp4"]'
+];
+dv = document.createElement('div');
+document.querySelectorAll(qs.join()).forEach(fe => {
+  pm = document.createElement('p');
+  vd = document.createElement('video');
+  vd.controls = vd.style.width = '600px';
+  pm.textContent = vd.src = fe.href || fe.src;
+  dv.append(pm, vd);
 });
+document.body.prepend(dv);
