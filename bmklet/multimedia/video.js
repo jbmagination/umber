@@ -10,4 +10,5 @@ document.querySelectorAll(qs.join()).forEach(fe => {
   pm.textContent = vd.src = fe.href || fe.src;
   dv.append(pm, vd);
 });
+document.querySelectorAll('video').forEach(fe => fe.remove());
 document.body.prepend(dv);
