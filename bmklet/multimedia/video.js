@@ -1,14 +1,11 @@
-qs = [
-  '[href*="1080p"]', '[href*="720p"]', '[href*="400p"]', '[href*="mp4"]',
-  '[src*="mp4"]'
-];
-dv = document.createElement('div');
-document.querySelectorAll(qs.join()).forEach(fe => {
+qs = document.querySelectorAll(
+  '[href*="1080p"],[href*="720p"],[href*="400p"],[href*="mp4"],[src*="mp4"]'
+);
+new Set([...qs].map(fe => fe.href || fe.src)).forEach(fe => {
   pm = document.createElement('p');
   vd = document.createElement('video');
   vd.controls = vd.style.width = '600px';
-  pm.textContent = vd.src = fe.href || fe.src;
-  dv.append(pm, vd);
+  pm.textContent = vd.src = fe;
+  document.body.prepend(pm, vd);
 });
-document.querySelectorAll('video').forEach(fe => fe.remove());
-document.body.prepend(dv);
+qs.forEach(fe => fe.remove());
