@@ -1,26 +1,10 @@
-/* FIXME use fetch or yt.player.Application.create */
+'use strict';
 
-function qysc(sctr) {
-  return document.querySelector(sctr);
+function qs(sct) {
+  return document.querySelector(sct);
 }
-function ducr(euri) {
-  return decodeURIComponent(euri).replace(/\+/g, ' ');
-}
-function curl(url) {
-  var xhr = new XMLHttpRequest();
-  xhr.open('get', url, false);
-  xhr.send();
-  return xhr.responseText;
-}
-function qysg(strg) {
-  var qyay = [];
-  for (var prsg of strg.split('&')) {
-    var pray = prsg.split('=');
-    qyay[pray[0]] = pray[1];
-  }
-  return qyay;
-}
-function tdur(s1) {
+
+function dr(s1) {
   var h1 = s1 / (60 * 60) | 0;
   s1 %= 60 * 60;
   var m1 = s1 / 60 | 0;
@@ -31,34 +15,37 @@ function tdur(s1) {
   return h2 + m2 + ':' + s2;
 }
 
-go = qysc('[itemprop="videoId"]').content;
+var vd = qs('[itemprop="videoId"]').content;
+var fm = document.createElement('iframe');
+fm.src = 'embed/' + vd + '?autoplay=1';
+fm.className = 'player-height player-width';
+fm.setAttribute('allowFullScreen', '');
+qs('#player-api').append(fm);
+qs('#player-unavailable').style.display = 'none';
+qs('#player').className = 'content-alignment watch-small';
+qs('#watch7-sidebar-modules').innerHTML =
+'<ul id="watch-related" class="video-list"></ul>';
 
-ju = document.createElement('iframe');
-ju.src = 'embed/' + go + '?autoplay=1';
-ju.className = 'player-height player-width';
-ju.setAttribute('allowFullScreen', '');
-qysc('#player-api').append(ju);
-qysc('#player-unavailable').style.display = 'none';
-qysc('#player').className = 'content-alignment watch-small';
-
-qysc('#watch7-sidebar-modules').innerHTML =
-  '<ul id="watch-related" class="video-list"></ul>';
-ki = curl('get_video_info?asv=3&eurl=http://.&video_id=' + go);
-mi = qysg(ki);
-wh = ducr(mi.rvs).split(',');
-
-for (xr of wh) {
-  zu = qysg(xr);
-  if (zu.list) continue;
-  qysc('ul#watch-related').innerHTML +=
-  `<li class="video-list-item">
-    <a href="watch?v=${zu.id}">
-      <span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">
-        <img src="//i.ytimg.com/vi/${zu.id}/default.jpg">
-        <span class="video-time">${tdur(zu.length_seconds)}</span>
-      </span>
-      <span class="title">${ducr(zu.title)}</span>
-      <span class="stat">by ${ducr(zu.author)}</span>
-    </a>
-  </li>`;
+async function gvi(url) {
+  var ft = await fetch(url);
+  var vn = new URLSearchParams(await ft.text());
+  vn.get('rvs').split(',').forEach(xr => {
+    var qa = new URLSearchParams(xr);
+    if (qa.get('list')) {
+      return;
+    }
+    qs('ul#watch-related').innerHTML +=
+    `<li class="video-list-item">
+      <a href="watch?v=${qa.get('id')}">
+        <span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">
+          <img src="//i.ytimg.com/vi/${qa.get('id')}/default.jpg">
+          <span class="video-time">${dr(qa.get('length_seconds'))}</span>
+        </span>
+        <span class="title">${qa.get('title')}</span>
+        <span class="stat">by ${qa.get('author')}</span>
+      </a>
+    </li>`;
+  });
 }
+
+gvi('get_video_info?asv=3&eurl=http://.&video_id=' + vd);
