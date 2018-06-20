@@ -15,19 +15,18 @@ function dr(s1) {
   return h2 + m2 + ':' + s2;
 }
 
-var vd = qs('[itemprop="videoId"]').content;
-var fm = document.createElement('iframe');
-fm.src = 'embed/' + vd + '?autoplay=1';
-fm.className = 'player-height player-width';
-fm.setAttribute('allowFullScreen', '');
-qs('#player-api').append(fm);
-qs('#player-unavailable').style.display = 'none';
-qs('#player').className = 'content-alignment watch-small';
-qs('#watch7-sidebar-modules').innerHTML =
-'<ul id="watch-related" class="video-list"></ul>';
-
-async function gvi(url) {
-  var ft = await fetch(url);
+async function main() {
+  var vd = qs('[itemprop="videoId"]').content;
+  var fm = document.createElement('iframe');
+  fm.src = 'embed/' + vd + '?autoplay=1';
+  fm.className = 'player-height player-width';
+  fm.setAttribute('allowFullScreen', '');
+  qs('#player-api').append(fm);
+  qs('#player-unavailable').style.display = 'none';
+  qs('#player').className = 'content-alignment watch-small';
+  qs('#watch7-sidebar-modules').innerHTML =
+    '<ul id="watch-related" class="video-list"></ul>';
+  var ft = await fetch('get_video_info?asv=3&eurl=http://.&video_id=' + vd);
   var vn = new URLSearchParams(await ft.text());
   vn.get('rvs').split(',').forEach(xr => {
     var qa = new URLSearchParams(xr);
@@ -48,4 +47,4 @@ async function gvi(url) {
   });
 }
 
-gvi('get_video_info?asv=3&eurl=http://.&video_id=' + vd);
+main();
