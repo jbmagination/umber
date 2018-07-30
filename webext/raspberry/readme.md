@@ -1,6 +1,6 @@
 Raspberry
-=========================
-![rb.jpg 540 × 360][hero]
+======================
+![rb.jpg 540 × 360][1]
 
 Pause and play media
 
@@ -18,4 +18,4 @@ No longer need this
 http://github.com/randyrants/sharpkeys
 
 [image needs explicit HTTPS]::
-[hero]:https://raw.githubusercontent.com/svnpenn/umber/master/webext/raspberry/rb.jpg
+[1]:https://raw.githubusercontent.com/svnpenn/umber/master/webext/raspberry/rb.jpg
