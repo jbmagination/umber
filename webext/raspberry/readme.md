@@ -18,4 +18,4 @@ No longer need this
 http://github.com/randyrants/sharpkeys
 
 [image needs explicit HTTPS]::
-[1]:https://raw.githubusercontent.com/svnpenn/umber/master/webext/raspberry/rb.jpg
+[1]:https://raw.githubusercontent.com/cup/umber/master/webext/raspberry/rb.jpg
