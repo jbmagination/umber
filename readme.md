@@ -1,6 +1,6 @@
 Umber
-============================
-![umber.jpg 458 × 360][hero]
+==========
+![hero][1]
 
 Type | Name | Description
 -----|------|------------
@@ -15,8 +15,7 @@ Steven Penny
 
 External links
 ---------------------
-[The Lute Player][lt]
+[The Lute Player][2]
 
-[protocol is needed for image to render]::
-[hero]:https://raw.githubusercontent.com/cup/umber/master/umber.jpg
-[lt]:https://wikipedia.org/wiki/The_Lute_Player_(Caravaggio)
+[1]:https://github.com/cup/umber/raw/master/image.jpg
+[2]:https://wikipedia.org/wiki/The_Lute_Player_(Caravaggio)
