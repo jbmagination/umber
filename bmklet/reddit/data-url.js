@@ -1,12 +1,12 @@
 'use strict';
-document.querySelectorAll('.link').forEach(b => {
+document.querySelectorAll('.link.thing').forEach(wh => {
   var
-  g = b.querySelector('a.title'),
+  xr = wh.querySelector('a.title'),
   /* cloneNode retains event for some reason */
-  z = document.createElement('a');
-  z.style.border = 'thick solid green';
-  z.className = 'title';
-  z.textContent = g.textContent;
-  z.href = b.dataset.url;
-  g.replaceWith(z);
+  zu = document.createElement('a');
+  zu.style.border = 'thick solid green';
+  zu.className = 'title';
+  zu.textContent = xr.textContent;
+  zu.href = wh.dataset.url;
+  xr.replaceWith(zu);
 });
