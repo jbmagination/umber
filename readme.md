@@ -13,8 +13,9 @@ Author
 ------------
 Steven Penny
 
-External links
----------------------
+References
+----------
+
 [The Lute Player][2]
 
 [1]:https://github.com/cup/umber/raw/master/image.jpg
