@@ -1,24 +1,24 @@
 {
-  "name": "Raspberry",
-  "version": "1.0.0",
-  "manifest_version": 2,
-  "background": {
-    "scripts": ["back.js"]
-  },
-  "commands": {
-    "windows": {
-      "suggested_key": {
-        "default": "MediaPlayPause"
+   "name": "Raspberry",
+   "version": "1.0.0",
+   "manifest_version": 2,
+   "background": {
+      "scripts": ["back.js"]
+   },
+   "commands": {
+      "windows": {
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
+      },
+      "mac": {
+         "suggested_key": {
+            "default": "F8"
+         }
       }
-    },
-    "mac": {
-      "suggested_key": {
-        "default": "F8"
-      }
-    }
-  },
-  "content_scripts": [{
-    "matches": ["https://www.youtube.com/*"],
-    "js": ["cont.js"]
-  }]
+   },
+   "content_scripts": [{
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["cont.js"]
+   }]
 }
