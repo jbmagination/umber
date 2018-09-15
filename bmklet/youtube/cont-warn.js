@@ -1,21 +1,21 @@
 'use strict';
-
-function qs(sct) {
+function qs(sct)
+{
    return document.querySelector(sct);
 }
-
-function dr(s1) {
+function dr(s1)
+{
    var h1 = s1 / (60 * 60) | 0;
    s1 %= 60 * 60;
    var m1 = s1 / 60 | 0;
    s1 %= 60;
-   var h2 = h1 ? h1 + ':' : '',
-         m2 = h1 && m1 < 10 ? '0' + m1 : m1,
-         s2 = s1 < 10 ? '0' + s1 : s1;
+   var h2 = h1 ? h1 + ':' : '';
+   var m2 = h1 && m1 < 10 ? '0' + m1 : m1;
+   var s2 = s1 < 10 ? '0' + s1 : s1;
    return h2 + m2 + ':' + s2;
 }
-
-async function main() {
+async function main()
+{
    var vd = qs('[itemprop="videoId"]').content;
    var fm = document.createElement('iframe');
    fm.src = 'embed/' + vd + '?autoplay=1';
@@ -30,7 +30,8 @@ async function main() {
    var vn = new URLSearchParams(await ft.text());
    vn.get('rvs').split(',').forEach(xr => {
       var qa = new URLSearchParams(xr);
-      if (qa.get('list')) {
+      if (qa.get('list'))
+      {
          return;
       }
       qs('ul#watch-related').innerHTML +=
@@ -46,5 +47,4 @@ async function main() {
       </li>`;
    });
 }
-
 main();
