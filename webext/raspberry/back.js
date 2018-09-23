@@ -1,11 +1,6 @@
 'use strict';
-browser.commands.onCommand.addListener
-(
-   () => browser.tabs.query
-   (
-      {}, tb => tb.forEach
-      (
-         z => browser.tabs.sendMessage(z.id, 1)
-      )
+browser.commands.onCommand.addListener(
+   () => browser.tabs.query(
+      {}, tb => tb.forEach(z => browser.tabs.sendMessage(z.id, 1))
    )
 );

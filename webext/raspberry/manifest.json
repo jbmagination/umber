@@ -17,11 +17,8 @@
          "suggested_key": {"default": "F8"}
       }
    },
-   "content_scripts":
-   [
-      {
-         "matches": ["https://www.youtube.com/*"],
-         "js": ["cont.js"]
-      }
-   ]
+   "content_scripts": [{
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["cont.js"]
+   }]
 }
