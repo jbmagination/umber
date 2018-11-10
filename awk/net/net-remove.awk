@@ -3,7 +3,7 @@
 BEGIN {
    if (ARGC != 2)
    {
-      print "git-remove.awk <file>"
+      print "net-remove.awk <file>"
       exit 1
    }
    a_new(q, "git", "filter-branch", "-f", "--prune-empty",

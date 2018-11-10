@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC < 3)
    {
-      print "variable.awk <length> <file>..."
+      print "var-pick.awk <length> <file>..."
       exit 1
    }
    var_len = a_shift(ARGV)

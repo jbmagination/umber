@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC != 5)
    {
-      print "tryst <from name> <user> <recipient> <URL>"
+      print "tryst.awk <from name> <user> <recipient> <URL>"
       exit 1
    }
    nam = ARGV[1]

@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC != 3)
    {
-      print "tex.awk <tex input> <pdf output>"
+      print "fmt-tex.awk <tex input> <pdf output>"
       exit 1
    }
    "dirname " ARGV[2] | getline ta

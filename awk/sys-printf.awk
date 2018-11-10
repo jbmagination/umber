@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC == 1)
    {
-      print "printf.awk <input>"
+      print "sys-printf.awk <input>"
       exit 1
    }
    a_new(h, "%c", "%d", "%03d", "%'d", "%e", "%E", "%f", "%.0f", "%.8f", "%g",

@@ -3,7 +3,7 @@
 BEGIN {
    if (ARGC != 2)
    {
-      print "not-for-threes.awk <threshold>"
+      print "math-two-five.awk <threshold>"
       exit 1
    }
    for (de = 1; 5 ^ de < ARGV[1]; de++);

@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC != 2)
    {
-      print "mm-split.awk <cue file>"
+      print "fmt-split.awk <cue file>"
       exit 1
    }
 }

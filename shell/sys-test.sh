@@ -1,7 +1,7 @@
 #!/bin/dash -e
 if [ "$#" = 0 ]
 then
-   echo 'test.sh <items>'
+   echo 'sys-test.sh <items>'
    exit 1
 fi
 

@@ -1,7 +1,7 @@
 #!/bin/dash -e
 if [ "$#" != 3 ]
 then
-   echo 'synopsis: warn.sh <machine> <compiler> <infile>
+   echo 'synopsis: exec-warn.sh <machine> <compiler> <infile>
 
 machine:
 - cygwin

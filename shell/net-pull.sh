@@ -2,10 +2,10 @@
 if [ "$#" != 6 ]
 then
    echo 'synopsis:
-   git-pull.sh <repo> <issue> <from user> <from branch> <to user> <to branch>
+   net-pull.sh <repo> <issue> <from user> <from branch> <to user> <to branch>
 
 example:
-   git-pull.sh redis 941 cup patch-1 antirez unstable
+   net-pull.sh redis 941 cup patch-1 antirez unstable
 
 notes:
    need to fork first'

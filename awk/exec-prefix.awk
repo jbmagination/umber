@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC != 2)
    {
-     print a_create("synopsis: prefix.sh <compiler>", "", "compiler:",
+     print a_create("synopsis: exec-prefix.awk <compiler>", "", "compiler:",
      "- gcc", "- x86_64-w64-mingw32-gcc", "", "packages:", "- gcc-core",
      "- mingw64-x86_64-gcc-core")
      exit 1

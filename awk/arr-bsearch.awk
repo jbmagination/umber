@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC != 3)
    {
-      print a_create("synopsis: bsa.awk <good> <bad>", "",
+      print a_create("synopsis: arr-bsearch.awk <good> <bad>", "",
       "notes:", "- for each step use 'g' or 'b'", "- for hex use '0x'")
       exit 1
    }

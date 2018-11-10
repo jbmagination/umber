@@ -1,11 +1,11 @@
 #!/bin/dash -e
 if [ "$#" != 1 ]
 then
-   echo 'synopsis: date.sh <date>
+   echo 'synopsis: time-date.sh <date>
 
 examples:
-- date.sh now
-- date.sh 2015-5-15'
+- time-date.sh now
+- time-date.sh 2015-5-15'
    exit 1
 fi
 

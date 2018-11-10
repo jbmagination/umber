@@ -3,7 +3,7 @@ BEGIN {
    if (ARGC != 5)
    {
       print a_create("synopsis:",
-      "   mm-seq.awk <start> <duration> <frames> <file>", "",
+      "   fmt-seq.awk <start> <duration> <frames> <file>", "",
       "description:", "   make an image sequence from a video", "",
       "frames:", "   key: i frames only", "   all: i, p and b frames")
       exit 1

@@ -1,7 +1,7 @@
 #!/bin/dash -e
 if [ "$#" -lt 3 ]
 then
-   echo 'synopsis: mm-audio.sh <in format> <out format> <in file>...
+   echo 'synopsis: fmt-audio.sh <in format> <out format> <in file>...
 
 format:
 - flac

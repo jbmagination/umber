@@ -2,7 +2,7 @@
 BEGIN {
    if (ARGC == 1)
    {
-      print "include.awk <infile> <mapfile>"
+      print "exec-include.awk <infile> <mapfile>"
       exit 1
    }
 
