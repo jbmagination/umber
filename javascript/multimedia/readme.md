@@ -1,6 +1,7 @@
 Multimedia
-====================================
-http://wikipedia.org/wiki/multimedia
+==========
+
+Bookmarklet to stop loops, add border, show controls
 
 Test | Link
 -----|-----
@@ -11,3 +12,8 @@ animation pop up | http://imgur.com/gallery/e7EEcTj/comment/530794261
 video gfycat | http://gfycat.com/EcstaticWelllitHarpseal
 video long | http://imgur.com/FuCfqWZ
 video streamable | http://streamable.com/pbk7
+
+References
+----------
+
+http://wikipedia.org/wiki/multimedia
