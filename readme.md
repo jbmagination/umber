@@ -1,6 +1,7 @@
 Umber
-==========
-![hero][1]
+=====
+
+![hero](https://github.com/cup/umber/raw/master/image.jpg)
 
 Type | Name | Description
 -----|------|------------
@@ -10,13 +11,11 @@ Bookmarklet | Youtube content warning | bypass
 Bookmarklet | Replay media | stop loops, add border, show controls
 
 Author
-------------
+------
+
 Steven Penny
 
 References
 ----------
 
-[The Lute Player][2]
-
-[1]:https://github.com/cup/umber/raw/master/image.jpg
-[2]:https://wikipedia.org/wiki/The_Lute_Player_(Caravaggio)
+[The Lute Player](//wikipedia.org/wiki/The_Lute_Player_(Caravaggio))
