@@ -9,7 +9,7 @@ operations:
 fi
 case $1 in
 -i)
-   find "$PWD" '(' -name '*.sh' -o -name '*.awk' ')' \
+   find "$PWD"/awk "$PWD"/shell -executable -type f \
    -exec ln -f -s -t /usr/local/bin {} +
    ;;
 -r)
