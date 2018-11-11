@@ -1,5 +1,5 @@
-Tryst
-=====
+[tryst](//github.com/cup/umber/tree/master/awk/tryst)
+=====================================================
 
 ![hero](https://github.com/cup/umber/raw/master/awk/tryst/image.jpg)
 

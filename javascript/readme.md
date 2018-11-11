@@ -4,7 +4,7 @@ JavaScript
 AlternativeTo
 -------------
 
-http://alternativeto.net
+<http://alternativeto.net>
 
 Media
 -----
@@ -24,14 +24,14 @@ video streamable | http://streamable.com/pbk7
 RemixRotation
 -------------
 
-http://remixrotation.com/charts/deep-house.html
+<http://remixrotation.com/charts/deep-house.html>
 
 WebExtensions
 -------------
 
-- http://developer.mozilla.org/Add-ons/WebExtensions/API/tabs/query
-- http://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/commands
-- http://github.com/mdn/webextensions-examples
+- <http://developer.mozilla.org/Add-ons/WebExtensions/API/tabs/query>
+- <http://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/commands>
+- <http://github.com/mdn/webextensions-examples>
 
 YouTube
 -------
@@ -39,13 +39,12 @@ YouTube
 Content Warning: bookmarklet to play video without logging in. iframe is
 better, uses HTML5 player.
 
-- http://youtube.com/watch?v=07FYdnEawAQ
-- http://youtube.com/watch?v=2NkugVsgEw4
+- <http://youtu.be/07FYdnEawAQ>
+- <http://youtu.be/2NkugVsgEw4>
 
 Save: bookmarklet to choose quality and mime type
 
-- http://youtube.com/watch?v=7SyCXCLoylE
-- http://youtube.com/watch?v=crlKlQSMuAc
-- http://youtube.com/watch?v=HKLvdwaqRzE
-- http://youtube.com/watch?v=kWuEvIDRjyc
-- http://youtube.com/watch?v=ZiDSVrKuV1c
+- <http://youtu.be/crlKlQSMuAc>
+- <http://youtu.be/HKLvdwaqRzE>
+- <http://youtu.be/kWuEvIDRjyc>
+- <http://youtu.be/ZiDSVrKuV1c>
