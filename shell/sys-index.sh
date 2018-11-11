@@ -20,3 +20,5 @@ do
    esac
    printf -- '- [`%s`](%s)\n' "$q" "$z"
 done
+
+printf '\n%s\n' '{% include_relative readme.md %}'
