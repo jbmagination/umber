@@ -5,6 +5,11 @@ Umber
 
 Scripts
 
+Tryst
+-----
+
+http://github.com/cup/umber/tree/master/awk/tryst
+
 Author
 ------
 

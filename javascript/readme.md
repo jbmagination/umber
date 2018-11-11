@@ -21,8 +21,6 @@ video gfycat | http://gfycat.com/EcstaticWelllitHarpseal
 video long | http://imgur.com/FuCfqWZ
 video streamable | http://streamable.com/pbk7
 
-http://wikipedia.org/wiki/multimedia
-
 RemixRotation
 -------------
 
