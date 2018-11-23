@@ -38,4 +38,4 @@ foreground:
 Further reading
 ---------------
 
-<http://stackoverflow.com/questions/4528869/-/4529172>
+http://stackoverflow.com/questions/4528869/-/4529172
