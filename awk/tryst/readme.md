@@ -1,5 +1,5 @@
-[tryst](//github.com/cup/umber/tree/master/awk/tryst)
-=====================================================
+Tryst
+=====
 
 ![hero](https://github.com/cup/umber/raw/master/awk/tryst/image.jpg)
 
@@ -12,9 +12,10 @@ Author
 
 Steven Penny
 
-See also
---------
+References
+----------
 
+- [cup/umber](//github.com/cup/umber)
+- [cup/velour](//github.com/cup/velour)
 - [cURL](//curl.haxx.se)
 - [Less secure apps](//myaccount.google.com/lesssecureapps)
-- [Velour](//github.com/cup/velour)
