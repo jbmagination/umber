@@ -51,7 +51,7 @@ BEGIN {
       {
          body = NR + 1
          print "Content-Type: text/plain; charset=utf8; format=flowed" > uf
-         print "User-Agent: Tryst/2.8.0 (cup.github.io/umber/tryst)" > uf
+         print "User-Agent: Tryst/2.8.0 (cup.github.io/umber/awk/tryst)" > uf
          print > uf
       }
    }

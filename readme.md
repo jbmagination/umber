@@ -13,4 +13,5 @@ Steven Penny
 References
 ----------
 
-[The Lute Player](//wikipedia.org/wiki/The_Lute_Player_(Caravaggio))
+- [cup/umber](//github.com/cup/umber)
+- [The Lute Player](//wikipedia.org/wiki/The_Lute_Player_(Caravaggio))

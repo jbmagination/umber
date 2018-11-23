@@ -23,11 +23,12 @@ Result
 ------
 
 ~~~html
-<li><a href="http://example.com">http://example.com</a></li>
+<p><a href="http://example.com">http://example.com</a></p>
 ~~~
 
 References
 ----------
 
+- http://github.com/bryanbraun/anchorjs
 - http://github.com/gettalong/kramdown/issues/306
 - http://github.github.com/gfm#autolinks-extension-

@@ -15,7 +15,6 @@ Steven Penny
 References
 ----------
 
-- [cup/umber](//github.com/cup/umber)
 - [cup/velour](//github.com/cup/velour)
 - [cURL](//curl.haxx.se)
 - [Less secure apps](//myaccount.google.com/lesssecureapps)
