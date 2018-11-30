@@ -12,15 +12,15 @@ BEGIN {
       bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"] bad["dd"]
       bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["od"] bad["pr"]
       bad["ps"] bad["sh"] bad["tr"]
-      for (bd = 1; bd in good; bd++)
+      for (ca = 1; ca in good; ca++)
       {
-         for (ca = 1; ca in good; ca++)
+         for (dh = 1; dh in good; dh++)
          {
-            if (bd == ca || (good[bd] good[ca]) in bad)
+            if (ca == dh || (good[ca] good[dh]) in bad)
             {
                continue
             }
-            out[++dh] = good[bd] good[ca]
+            out[++ef] = good[ca] good[dh]
          }
       }
    }
@@ -31,24 +31,24 @@ BEGIN {
    }
 }
 {
-   for (bd in out)
+   for (ca in out)
    {
-      if (index(tolower($0), out[bd]))
+      if (index(tolower($0), out[ca]))
       {
-         out[bd] = 0
+         out[ca] = 0
       }
    }
 }
 END {
-   for (bd = 1; bd in out; bd++)
+   for (ca = 1; ca in out; ca++)
    {
-      if (!out[bd])
+      if (!out[ca])
       {
          continue
       }
       if (ab == 2)
       {
-         split(out[bd], fs, //)
+         split(out[ca], fs, //)
          if (fs[1] in fir || fs[2] in sec)
          {
             continue
@@ -56,6 +56,6 @@ END {
          fir[fs[1]]
          sec[fs[2]]
       }
-      print out[bd]
+      print out[ca]
    }
 }
