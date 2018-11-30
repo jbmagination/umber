@@ -1,45 +1,61 @@
 #!/usr/bin/awk -f
-# FIXME: single letter variables
 BEGIN {
-   split("a b c d e f h k n o p q r s t v x z", good)
-   bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"] bad["dd"]
-   bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["od"] bad["pr"]
-   bad["ps"] bad["sh"] bad["tr"]
-   for (one = 1; one in good; one++)
+   ab = ARGV[1]
+   delete ARGV[1]
+   if (ab == 1)
    {
-      for (two = 1; two in good; two++)
+      split("a b c d e f g h k m n o p q r s t u v w x z", out)
+   }
+   else if (ab == 2)
+   {
+      split("a b c d e f h k n o p q r s t v x z", good)
+      bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"] bad["dd"]
+      bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["od"] bad["pr"]
+      bad["ps"] bad["sh"] bad["tr"]
+      for (bd = 1; bd in good; bd++)
       {
-         if (one == two || (good[one] good[two]) in bad)
+         for (ca = 1; ca in good; ca++)
          {
-            continue
+            if (bd == ca || (good[bd] good[ca]) in bad)
+            {
+               continue
+            }
+            out[++dh] = good[bd] good[ca]
          }
-         out[++thr] = good[one] good[two]
       }
+   }
+   else
+   {
+      print "var-pick.awk <1|2>"
+      exit 1
    }
 }
 {
-   for (one in out)
+   for (bd in out)
    {
-      if (index(tolower($0), out[one]))
+      if (index(tolower($0), out[bd]))
       {
-         out[one] = 0
+         out[bd] = 0
       }
    }
 }
 END {
-   for (one = 1; one in out; one++)
+   for (bd = 1; bd in out; bd++)
    {
-      if (!out[one])
+      if (!out[bd])
       {
          continue
       }
-      split(out[one], fs, //)
-      if (fs[1] in fir || fs[2] in sec)
+      if (ab == 2)
       {
-         continue
+         split(out[bd], fs, //)
+         if (fs[1] in fir || fs[2] in sec)
+         {
+            continue
+         }
+         fir[fs[1]]
+         sec[fs[2]]
       }
-      fir[fs[1]]
-      sec[fs[2]]
-      print out[one]
+      print out[bd]
    }
 }
