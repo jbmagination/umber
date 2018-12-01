@@ -6,12 +6,12 @@ BEGIN {
    {
       split("a b c d e f g h k m n o p q r s t u v w x z", out)
    }
-   else if (ab == 2)
+   else if (ab == 2 || ab == 3)
    {
       split("a b c d e f h k n o p q r s t v x z", good)
       bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"] bad["dd"]
-      bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["od"] bad["pr"]
-      bad["ps"] bad["sh"] bad["tr"]
+      bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["no"] bad["od"]
+      bad["pr"] bad["ps"] bad["sh"] bad["tr"]
       for (ca = 1; ca in good; ca++)
       {
          for (dh = 1; dh in good; dh++)
@@ -26,7 +26,7 @@ BEGIN {
    }
    else
    {
-      print "var-pick.awk <1|2>"
+      print "var-pick.awk <1|2|3>"
       exit 1
    }
 }
@@ -46,9 +46,18 @@ END {
       {
          continue
       }
+      split(out[ca], fs, //)
       if (ab == 2)
       {
-         split(out[ca], fs, //)
+         if (fs[1] in used || fs[2] in used)
+         {
+            continue
+         }
+         used[fs[1]]
+         used[fs[2]]
+      }
+      if (ab == 3)
+      {
          if (fs[1] in fir || fs[2] in sec)
          {
             continue
