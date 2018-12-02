@@ -7,7 +7,7 @@ BEGIN {
       exit 1
    }
    at = s_gsub(ARGV[2], "&", "%26")
-   sg = s_gsub(ARGV[3], "&", "%26")
+   sg = s_gsub(ARGV[3] "", "&", "%26")
    yt = "youtube.com/results?q="
    gs = "google.com/search?q="
 
