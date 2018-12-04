@@ -1,11 +1,17 @@
 #!/bin/dash -e
-case $1 in
+z=$1
+shift
+
+case $z in
 perl)
-   shift
-   perl -n -E 'say "=> ", eval' - "$@"
+   perl -E '
+   while (<STDIN>)
+   {
+      say "=> ", eval
+   }
+   ' "$@"
    ;;
 php)
-   shift
    exec php -r '
    while ($_q = fgets(STDIN))
    {
@@ -13,11 +19,19 @@ php)
    }
    ' "$@"
    ;;
+python)
+   python3 -i - "$@"
+   ;;
+ruby)
+   ripl - "$@"
+   ;;
 *)
    echo 'synopsis: exec-repl.sh <language> [arguments]
 
 language:
 - perl
-- php'
+- php
+- python
+- ruby'
    exit 1
 esac
