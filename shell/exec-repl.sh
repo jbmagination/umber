@@ -1,10 +1,21 @@
 #!/bin/dash -e
+if [ "$#" = 0 ]
+then
+   echo 'synopsis: exec-repl.sh <language> [arguments]
+
+language:
+- perl
+- php
+- python
+- ruby'
+   exit 1
+fi
 z=$1
 shift
 
 case $z in
 perl)
-   perl -E '
+   exec perl -E '
    while (<STDIN>)
    {
       say "=> ", eval
@@ -20,18 +31,8 @@ php)
    ' "$@"
    ;;
 python)
-   python3 -i - "$@"
+   exec python3 -i - "$@"
    ;;
 ruby)
-   ripl - "$@"
-   ;;
-*)
-   echo 'synopsis: exec-repl.sh <language> [arguments]
-
-language:
-- perl
-- php
-- python
-- ruby'
-   exit 1
+   exec ruby -r ripl -e Ripl::Runner.run - "$@"
 esac
