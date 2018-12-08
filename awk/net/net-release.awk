@@ -1,12 +1,12 @@
 #!/usr/local/bin/velour -f
-function tg(mix,   br, ec)
+function tg(mix,   ab, cf)
 {
-   for (br = 100; br >= 1; br /= 10)
+   for (ab = 100; ab >= 1; ab /= 10)
    {
-      a_push(ec, m_div(mix, br))
-      mix %= br
+      a_push(cf, m_div(mix, ab))
+      mix %= ab
    }
-   return a_join(ec, ".")
+   return a_join(cf, ".")
 }
 BEGIN {
    if (k_system("[ -d .git ]"))
@@ -16,31 +16,31 @@ BEGIN {
       "   1: push commits", "   2: push release")
       exit 1
    }
-   "git mktree </dev/null" | getline go
+   "git mktree </dev/null" | getline dh
    "git for-each-ref --sort -refname" | getline
-   ju = $1
-   ki = s_gsub($3, "[^[:digit:]]", "")
-   while ("git diff-tree --numstat " go " " ju | getline)
+   ek = $1
+   np = s_gsub($3, "[^[:digit:]]", "")
+   while ("git diff-tree --numstat " dh " " ek | getline)
    {
       if (!/license/)
       {
-         pa += $1
+         oq += $1
       }
    }
-   while ("git diff-tree --numstat " ju " @" | getline)
+   while ("git diff-tree --numstat " ek " @" | getline)
    {
       if (!/license/)
       {
-         xr[1] += $1
-         xr[2] += $2
+         rv[1] += $1
+         rv[2] += $2
       }
    }
-   ya = a_max(xr) / pa * 100
-   zu = ya < 100 ? ya < 10 ? 1 : 10 : 100
-   printf "old tag = %s\n", tg(ki)
-   printf "old tag lines = %d\n", pa
-   printf "new tag insertions = %d\n", xr[1]
-   printf "new tag deletions = %d\n", xr[2]
-   printf "\33[1;33m%d/%d = %d%\33[m\n", a_max(xr), pa, ya
-   printf "new tag = %s\n", tg(zu * m_div(zu + ki, zu))
+   sx = a_max(rv) / oq * 100
+   tz = sx < 100 ? sx < 10 ? 1 : 10 : 100
+   printf "old tag = %s\n", tg(np)
+   printf "old tag lines = %d\n", oq
+   printf "new tag insertions = %d\n", rv[1]
+   printf "new tag deletions = %d\n", rv[2]
+   printf "\33[1;33m%d/%d = %d%\33[m\n", a_max(rv), oq, sx
+   printf "new tag = %s\n", tg(tz * m_div(tz + np, tz))
 }
