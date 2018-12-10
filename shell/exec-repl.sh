@@ -16,6 +16,9 @@ shift
 case $z in
 perl)
    exec perl -E '
+   use English;
+   use open qw(:std :utf8);
+   $LIST_SEPARATOR = "\n";
    while (<STDIN>)
    {
       say "=> ", eval
