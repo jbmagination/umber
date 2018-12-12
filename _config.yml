@@ -1,4 +1,5 @@
 layouts_dir: .
+markdown: CommonMarkGhPages
 plugins:
 - jekyll-octicons
 title: Umber
