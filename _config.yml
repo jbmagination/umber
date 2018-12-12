@@ -1,3 +1,6 @@
+commonmark:
+   extensions:
+   - autolink
 layouts_dir: .
 markdown: CommonMarkGhPages
 plugins:
