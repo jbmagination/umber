@@ -1,34 +1,44 @@
 #!/bin/dash
 # some commands are supposed to fail
-q=2,4,8,20,80,100,200,400,1000,2000,4000,8000,10000,40000,100000
-v=10,40,800,20000
+ab=2,4,8,20,80,100,200,400,1000,2000,4000,8000,10000,40000,100000
+cf=10,40,800,20000
 
-if [ "$1" = 2 ]
+if [ "$2" = 2 ]
 then
-   q=$q,$v
-elif [ "$1" != 1 ]
+   ab=$ab,$cf
+elif [ "$2" != 1 ]
 then
-   echo "synopsis: sys-trace.sh <mask> <file>...
+   echo "synopsis: sys-trace.sh <language> <mask> <file>...
+
+language:
+- awk
+- bash
+- dash
+
 mask:
-   1: $q
-   2: $q,
-      $v"
+   1: $ab
+   2: $ab,
+      $cf"
    exit 1
 fi
-shift
+de=$1
+shift 2
 
-for z
+for hk
 do
-   case ${z##*.} in
+   case $de in
    awk)
-      strace -m "$q" -o "$z".log gawk -f "$z"
+      strace -m "$ab" -o "$hk".log gawk -f "$hk"
       ;;
-   sh)
-      strace -m "$q" -o "$z".log dash "$z"
+   bash)
+      strace -m "$ab" -o "$hk".log bash "$hk"
+      ;;
+   dash)
+      strace -m "$ab" -o "$hk".log dash "$hk"
    esac
    echo
    shift
-   set "$@" "$z".log
+   set "$@" "$hk".log
 done
 
 wc -l "$@"
