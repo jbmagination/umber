@@ -15,6 +15,6 @@ Steven Penny
 References
 ----------
 
-- [cup/velour](//github.com/cup/velour)
-- [cURL](//curl.haxx.se)
-- [Less secure apps](//myaccount.google.com/lesssecureapps)
+- [cup/velour](https://github.com/cup/velour)
+- [cURL](https://curl.haxx.se)
+- [Less secure apps](https://myaccount.google.com/lesssecureapps)

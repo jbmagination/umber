@@ -1,7 +1,7 @@
 Raspberry
 =========
 
-![hero][1]
+![hero]
 
 WebExtension to pause and play media
 
@@ -11,13 +11,13 @@ WebExtension to pause and play media
 No longer need this
 -------------------
 
-http://github.com/randyrants/sharpkeys
+https://github.com/randyrants/sharpkeys
 
 References
 ----------
 
-- http://github.com/berrberr/streamkeys/tree/master/code/js/controllers
-- http://github.com/carlin-q-scott/browser-media-players
-- http://github.com/GorkyR/MultimediaControlExtension
+- https://github.com/berrberr/streamkeys/tree/master/code/js/controllers
+- https://github.com/carlin-q-scott/browser-media-players
+- https://github.com/GorkyR/MultimediaControlExtension
 
-[1]:https://github.com/cup/umber/raw/master/javascript/raspberry/image.jpg
+[hero]:https://github.com/cup/umber/raw/master/javascript/raspberry/image.jpg

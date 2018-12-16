@@ -4,4 +4,4 @@ Awk
 References
 ----------
 
-http://help.github.com/articles/remove-sensitive-data
+https://help.github.com/articles/removing-sensitive-data-from-a-repository

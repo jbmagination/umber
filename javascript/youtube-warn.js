@@ -26,7 +26,7 @@ async function main()
    qs('#player').className = 'content-alignment watch-small';
    qs('#watch7-sidebar-modules').innerHTML =
       '<ul id="watch-related" class="video-list"></ul>';
-   var ft = await fetch('get_video_info?asv=3&eurl=http://.&video_id=' + vd);
+   var ft = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vd);
    var vn = new URLSearchParams(await ft.text());
    vn.get('rvs').split(',').forEach(xr => {
       var qa = new URLSearchParams(xr);

@@ -17,7 +17,7 @@ BEGIN {
    for (xr in qu)
    {
       s_split(qu[xr], zu, "/")
-      qu[xr] = sprintf("http://%s/questions/%s%s",
+      qu[xr] = sprintf("https://%s/questions/%s%s",
       zu[3], zu[5], zu[7] ? "/-/" zu[7] : "")
    }
    k_puts(qu)
