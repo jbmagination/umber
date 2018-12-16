@@ -1,9 +1,13 @@
-/* cloneNode retains event for some reason */
 'use strict';
-document.querySelectorAll('.comments, .deepthread a').forEach(xr => {
-   var zu = document.createElement('a');
-   zu.style.border = 'medium solid';
-   zu.textContent = xr.textContent;
-   zu.href = xr.href + '?depth=3';
-   xr.replaceWith(zu);
+/* we cant match the <ul> because they are fucked */
+document.querySelectorAll('.first').forEach(ab => {
+   let cf = ab.parentNode;
+   /* replace embed */
+   let dh = cf.querySelector('.embed-comment, .post-sharing-button');
+   let ek = document.createElement('a');
+   ek.textContent = 'depth';
+   ek.href = ab.querySelector('.bylink').href + '?depth=3';
+   dh.replaceWith(ek);
+   /* remove give award */
+   cf.querySelector('.give-gold-button').remove();
 });
