@@ -8,7 +8,7 @@ then
    ab=$ab,$cf
 elif [ "$2" != 1 ]
 then
-   echo "synopsis: sys-trace.sh <language> <mask> <file>...
+   echo "synopsis: sys-trace.sh <language> <mask> <script>...
 
 language:
 - awk
@@ -18,7 +18,9 @@ language:
 mask:
    1: $ab
    2: $ab,
-      $cf"
+      $cf
+
+note: if a file 'input.txt' is found, it will be used with Awk"
    exit 1
 fi
 de=$1
@@ -28,7 +30,12 @@ for hk
 do
    case $de in
    awk)
-      strace -m "$ab" -o "$hk".log gawk -f "$hk"
+      if [ -f input.txt ]
+      then
+         strace -m "$ab" -o "$hk".log gawk -f "$hk" input.txt
+      else
+         strace -m "$ab" -o "$hk".log gawk -f "$hk"
+      fi
       ;;
    bash)
       strace -m "$ab" -o "$hk".log bash "$hk"
