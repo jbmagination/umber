@@ -1,6 +1,11 @@
 Shell
 =====
 
+net-pull
+--------
+
+https://stackoverflow.com/questions/4528869/-/4529172
+
 rsync
 -----
 
@@ -34,8 +39,3 @@ foreground:
    white: 37
    yellow: 33
 ~~~
-
-Further reading
----------------
-
-https://stackoverflow.com/questions/4528869/-/4529172
