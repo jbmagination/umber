@@ -5,7 +5,7 @@ document.querySelectorAll('.first').forEach(ab => {
    /* replace embed */
    let dh = cf.querySelector('.embed-comment, .post-sharing-button');
    let ek = document.createElement('a');
-   ek.textContent = 'depth';
+   ek.textContent = 'DEPTH';
    ek.href = ab.querySelector('.bylink').href + '?depth=3';
    dh.replaceWith(ek);
    /* remove give award */
