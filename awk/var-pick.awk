@@ -9,9 +9,9 @@ BEGIN {
    else if (ab == 2 || ab == 3)
    {
       split("a b c d e f h k n o p q r s t v x z", good)
-      bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"] bad["dd"]
-      bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["no"] bad["od"]
-      bad["pr"] bad["ps"] bad["sh"] bad["tr"]
+      bad["ad"] bad["ar"] bad["bc"] bad["cc"] bad["cd"] bad["cp"] bad["dc"]
+      bad["dd"] bad["df"] bad["do"] bad["ed"] bad["ex"] bad["fc"] bad["no"]
+      bad["od"] bad["pr"] bad["ps"] bad["sh"] bad["tr"]
       for (ca = 1; ca in good; ca++)
       {
          for (dh = 1; dh in good; dh++)
