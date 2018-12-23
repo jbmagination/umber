@@ -14,7 +14,7 @@ z=$1
 shift
 
 case $z in
-perl)
+pl|perl)
    exec perl -e '
    use English;
    use feature say;
@@ -34,9 +34,9 @@ php)
    }
    ' "$@"
    ;;
-python)
+py|python)
    exec python3 -i - "$@"
    ;;
-ruby)
+rb|ruby)
    exec ruby -r ripl -e Ripl::Runner.run - "$@"
 esac
