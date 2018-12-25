@@ -1,21 +1,23 @@
 'use strict';
 async function main()
 {
-   let ab = document.getElementById('figures');
+   let ab = new URLSearchParams(location.search);
    let ce = new URL('https://www.googleapis.com/youtube/v3/search');
-
-   ce.search = location.search;
-   ce.searchParams.set('part', 'snippet');
    ce.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
+   ce.searchParams.set('maxResults', 12);
+   ce.searchParams.set('order', 'date');
+   ce.searchParams.set('part', 'snippet');
+
    ['channelId', 'publishedBefore'].forEach(dh => {
-      if (!ce.searchParams.get(dh)) ce.searchParams.delete(dh)
+      if (ab.get(dh)) {
+         ce.searchParams.set(dh, ab.get(dh));
+      }
    });
 
-   let fk = await (await fetch(ce)).json();
-   fk.items.forEach(dh => {
-      let np = document.createElement('img');
-      np.src = dh.snippet.thumbnails.medium.url;
-      ab.append(np);
+   (await (await fetch(ce)).json()).items.forEach(dh => {
+      let ab = document.createElement('img');
+      ab.src = dh.snippet.thumbnails.medium.url;
+      document.getElementById('figures').append(ab);
    });
 }
 main();
