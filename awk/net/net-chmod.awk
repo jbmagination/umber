@@ -31,7 +31,7 @@ BEGIN {
    {
       if ($1 != q[io_ext($NF)])
       {
-         printf "git update-index --chmod=%s %s\n",
+         printf "chmod %s %s\n",
          $1 == 100644 ? "+x" : "-x", $NF
       }
    }

@@ -11,6 +11,7 @@ async function main()
    ['channelId', 'publishedBefore'].forEach(dh => {
       if (ab.get(dh)) {
          ce.searchParams.set(dh, ab.get(dh));
+         document.getElementById(dh).value = ab.get(dh);
       }
    });
 
@@ -18,15 +19,13 @@ async function main()
       let e_fu = document.createElement('figure');
       let e_a = document.createElement('a');
       let e_i = document.createElement('img');
+      let e_p = document.createElement('p');
       let e_fc = document.createElement('figcaption');
-      let e_p1 = document.createElement('p');
-      let e_p2 = document.createElement('p');
       e_a.href = 'https://www.youtube.com/watch?v=' + dh.id.videoId;
       e_i.src = dh.snippet.thumbnails.medium.url;
-      e_p1.textContent = dh.snippet.title;
-      e_p2.textContent = dh.snippet.publishedAt;
-      e_a.append(e_i);
-      e_fc.append(e_p1, e_p2);
+      e_p.textContent = dh.snippet.title;
+      e_fc.textContent = dh.snippet.publishedAt;
+      e_a.append(e_i, e_p);
       e_fu.append(e_a, e_fc);
       document.getElementById('figures').append(e_fu);
    });

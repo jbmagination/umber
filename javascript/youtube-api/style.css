@@ -1,6 +1,19 @@
+@font-face
+{
+   font-family: "Open Sans";
+   src: url("open-sans.woff2");
+}
+a
+{
+   text-decoration: none;
+}
 body
 {
    background: lavenderblush;
+}
+main
+{
+   font-family: "Open Sans";
 }
 p
 {
