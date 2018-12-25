@@ -11,8 +11,14 @@ body
 {
    background: lavenderblush;
 }
+figure
+{
+   flex-basis: 320px;
+}
 main
 {
+   display: flex;
+   flex-wrap: wrap;
    font-family: "Open Sans";
 }
 p
