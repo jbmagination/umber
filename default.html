@@ -11,9 +11,9 @@
    <div class="container-lg markdown-body my-5 px-3">
 {% if page.url != '/' %}
    {% if page.url == page.dir %}
-      <p>{% octicon arrow-up height:20 %} <a href="..">Up</a></p>
+      <p><img src="arrow-up.svg" height="20"> <a href="..">Up</a></p>
    {% else %}
-      <p>{% octicon arrow-up height:20 %} <a href=".">Up</a></p>
+      <p><img src="arrow-up.svg" height="20"> <a href=".">Up</a></p>
    {% endif %}
 {% endif %}
 {% if page.url == page.dir %}
@@ -21,13 +21,14 @@
    {%- for each in site.html_pages -%}
       {%- assign dn2 = '.' | append: each.url | split: '/' | pop -%}
       {%- if dn2 == dn1 -%}
+      <p>
          {% if each.url == each.dir %}
-      <p>{% octicon file-directory %}
-      <a href="/mauve{{ each.url }}">{{ each.title }}</a></p>
+         <img src="file-directory.svg">
          {% else %}
-      <p>{% octicon file %}
-      <a href="/mauve{{ each.url }}">{{ each.title }}</a></p>
+         <img src="file.svg">
          {% endif %}
+         <a href="/mauve{{ each.url }}">{{ each.title }}</a>
+      </p>
       {%- endif -%}
    {%- endfor -%}
 {% endif %}

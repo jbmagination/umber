@@ -1,5 +1,5 @@
-YouTube API
-===========
+Violet
+======
 
 When you delete a project, it disables the API and deletes the credentials.
 

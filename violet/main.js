@@ -4,7 +4,7 @@ async function main()
    let ab = new URLSearchParams(location.search);
    let ce = new URL('https://www.googleapis.com/youtube/v3/search');
    ce.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
-   ce.searchParams.set('maxResults', 12);
+   ce.searchParams.set('maxResults', 24);
    ce.searchParams.set('order', 'date');
    ce.searchParams.set('part', 'snippet');
 
@@ -15,7 +15,9 @@ async function main()
       }
    });
 
-   (await (await fetch(ce)).json()).items.forEach(dh => {
+   ab = await (await fetch(ce)).json();
+   document.title = ab.items[0].snippet.channelTitle + ' | Violet';
+   ab.items.forEach(dh => {
       let e_fu = document.createElement('figure');
       let e_a = document.createElement('a');
       let e_i = document.createElement('img');

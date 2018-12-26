@@ -3,6 +3,4 @@ commonmark:
    - autolink
 layouts_dir: .
 markdown: CommonMarkGhPages
-plugins:
-- jekyll-octicons
 title: Mauve
