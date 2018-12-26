@@ -1,23 +1,20 @@
 Raspberry
 =========
 
-![hero]
+![hero](image.jpg)
 
-WebExtension to pause and play media
+WebExtension to pause and play YouTube 
 
-- YouTube
-- SoundCloud - soon
+See also
+--------
 
-No longer need this
--------------------
-
-https://github.com/randyrants/sharpkeys
+- https://github.com/berrberr/streamkeys/tree/master/code/js/controllers
+- https://github.com/GorkyR/MultimediaControlExtension
+- https://github.com/mdn/webextensions-examples
+- https://github.com/randyrants/sharpkeys
 
 References
 ----------
 
-- https://github.com/berrberr/streamkeys/tree/master/code/js/controllers
-- https://github.com/carlin-q-scott/browser-media-players
-- https://github.com/GorkyR/MultimediaControlExtension
-
-[hero]:https://github.com/cup/umber/raw/master/javascript/raspberry/image.jpg
+- https://developer.mozilla.org/Add-ons/WebExtensions/API/tabs/query
+- https://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/commands

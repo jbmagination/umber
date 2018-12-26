@@ -80,7 +80,7 @@ async function main()
    let end = begin + step;
 
    // both sides of the test can contain uppercase on mobile
-   let result = (await (await fetch('mauve.json')).json()).filter(
+   let result = (await (await fetch('magenta.json')).json()).filter(
       z => RegExp(query, 'i').test(z[1] + z[3])
    );
    document.getElementById('figures').append(

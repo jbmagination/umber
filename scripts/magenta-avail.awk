@@ -2,10 +2,10 @@
 BEGIN {
    if (ARGC != 2)
    {
-      print "mauve-avail.awk <artist>"
+      print "magenta-avail.awk <artist>"
       exit 1
    }
-   while (getline qu < "/usr/local/share/mauve.json" > 0)
+   while (getline qu < "/usr/local/share/magenta.json" > 0)
    {
       split(qu, xr, /\"/)
       if (tolower(xr[4]) ~ ARGV[1])

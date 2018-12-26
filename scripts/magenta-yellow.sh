@@ -1,7 +1,7 @@
 #!/bin/dash -e
 if [ "$#" != 2 ]
 then
-   echo 'mauve-yellow.sh <directory> <letter>'
+   echo 'magenta-yellow.sh <directory> <letter>'
    exit 1
 fi
 dr=$1
