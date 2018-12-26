@@ -12,9 +12,9 @@
    <div class="container-lg markdown-body my-5 px-3">
 {% if page.url != '/' %}
    {% if page.url == page.dir %}
-      <p><img src="arrow-up.svg"> <a href="..">Up</a></p>
+      <p><img src="/mauve/assets/arrow-up.svg"> <a href="..">Up</a></p>
    {% else %}
-      <p><img src="arrow-up.svg"> <a href=".">Up</a></p>
+      <p><img src="/mauve/assets/arrow-up.svg"> <a href=".">Up</a></p>
    {% endif %}
 {% endif %}
 {% if page.url == page.dir %}
@@ -24,9 +24,9 @@
       {%- if dn2 == dn1 -%}
       <p>
          {% if each.url == each.dir %}
-         <img src="file-directory.svg">
+         <img src="/mauve/assets/file-directory.svg">
          {% else %}
-         <img src="file.svg">
+         <img src="/mauve/assets/file.svg">
          {% endif %}
          <a href="/mauve{{ each.url }}">{{ each.title }}</a>
       </p>
