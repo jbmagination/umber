@@ -4,7 +4,7 @@ async function main()
    let ab = new URLSearchParams(location.search);
    let ce = new URL('https://www.googleapis.com/youtube/v3/search');
    ce.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
-   ce.searchParams.set('maxResults', 24);
+   ce.searchParams.set('maxResults', 50);
    ce.searchParams.set('order', 'date');
    ce.searchParams.set('part', 'snippet');
 
