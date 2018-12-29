@@ -1,8 +1,3 @@
-@font-face
-{
-   font-family: "Open Sans";
-   src: url("open-sans.woff2");
-}
 a
 {
    text-decoration: none;
@@ -10,6 +5,7 @@ a
 body
 {
    background: lavenderblush;
+   font-family: Arial;
 }
 figure
 {
@@ -19,7 +15,7 @@ main
 {
    display: flex;
    flex-wrap: wrap;
-   font-family: "Open Sans";
+   font-weight: 500;
 }
 p
 {

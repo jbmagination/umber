@@ -50,10 +50,10 @@ for (var eurl of durl)
    var squa = nusp.get('mime').includes('video') ?
       vqua.next().value :
       ~~(nusp.get('clen') * 8 / (1000 * nusp.get('dur'))) + 'k';
-   ypsi.push(
-      `<!--${nusp.get('mime') + `${9999 - parseInt(squa)}`.padStart(4)}-->
-      <p><a href="${nurl.href}">${squa} ${nusp.get('mime')}</a></p>`
-   );
+   ypsi.push(`
+      <!--${nusp.get('mime') + String(9999 - parseInt(squa)).padStart(4)}-->
+      <p><a href="${nurl.href}">${squa} ${nusp.get('mime')}</a></p>
+   `);
 }
 var fdiv = document.querySelector('#yt-dl');
 if (!fdiv)
