@@ -1,6 +1,6 @@
 Daft Punk:
    Alive 2007:
-      @: &U youtu.be/D8K90hX4PrE
+      $: &U youtu.be/D8K90hX4PrE
       $VPY: &gr 4,295,035
       Robot Rock / Oh Yeah:
       Touch It / Technologic:
@@ -16,17 +16,17 @@ Daft Punk:
       Superheroes / Human After All / Rock’n Roll:
       Human After All/Together/One More Time/Music Sounds Better With You: gd
    Discovery:
-      @: youtu.be/PsO6ZnUZI0g
+      $: youtu.be/PsO6ZnUZI0g
       $VPY: 31,730,630
       Digital Love:
       Harder Better Faster Stronger:
       One More Time:
    Homework:
-      @: youtu.be/yca6UsllwYs
+      $: youtu.be/yca6UsllwYs
       $VPY: 11,461,864
       Around the World:
    Human After All:
-      @: *U
+      $: *U
       $VPY: *gr
       Human After All:
       The Prime Time of Your Life:
@@ -39,13 +39,13 @@ Daft Punk:
       Technologic:
       Emotion:
    Random Access Memories:
-      @: youtu.be/5NV6Rdv1a3I
+      $: youtu.be/5NV6Rdv1a3I
       $VPY: 71,108,096
       Get Lucky:
       Instant Crush:
       Lose Yourself to Dance:
    TRON Legacy:
-      @: *U
+      $: *U
       $VPY: *gr
       Overture: sh
       The Grid: sh
@@ -71,7 +71,7 @@ Daft Punk:
       Finale:
 Daniel Lanois:
    Acadie:
-      @: youtu.be/mt0LDopjNbg
+      $: youtu.be/mt0LDopjNbg
       $VPY: 99,070
       Still Water:
       The Maker:
@@ -87,7 +87,7 @@ Daniel Lanois:
       Amazing Grace:
 Dave Matthews Band:
    Crash:
-      @: &U youtu.be/k7in-9E3ImQ
+      $: &U youtu.be/k7in-9E3ImQ
       $VPY: &gr 1,697,059
       So Much to Say: gd
       Two Step:
@@ -102,7 +102,7 @@ Dave Matthews Band:
       Tripping Billies:
       Proudest Monkey:
    Stand Up:
-      @: *U
+      $: *U
       $VPY: *gr
       Dreamgirl:
       Old Dirt Hill (Bring That Beat Back):
@@ -119,7 +119,7 @@ Dave Matthews Band:
       Steady as We Go:
       Hunger for the Great Light:
    Under the Table and Dreaming:
-      @: *U
+      $: *U
       $VPY: *gr
       The Best of What’s Around:
       What Would You Say:
@@ -135,15 +135,15 @@ Dave Matthews Band:
       34:
 Depeche Mode:
    Delta Machine:
-      @: youtu.be/Fy7FzXLin7o
+      $: youtu.be/Fy7FzXLin7o
       $VPY: 5,964,654
       Heaven:
    Music for the Masses:
-      @: youtu.be/JIrm0dHbCDU
+      $: youtu.be/JIrm0dHbCDU
       $VPY: 6,144,165
       Strangelove:
    Ultra:
-      @: youtu.be/stpaq27-V70
+      $: youtu.be/stpaq27-V70
       $VPY: 4,085,095
       Barrel of a Gun: bd
       The Love Thieves: bd
@@ -158,12 +158,12 @@ Depeche Mode:
       Insight: bd
       Junior Painkiller: sh
    Violator:
-      @: youtu.be/u1xrNaTO1bI
+      $: youtu.be/u1xrNaTO1bI
       $VPY: 8,734,250
       Personal Jesus:
 Dirty Projectors:
    Bitte Orca:
-      @: youtu.be/YMPF6lpM0XM
+      $: youtu.be/YMPF6lpM0XM
       $VPY: 336,674
       Cannibal Resource: gd
       Temecula Sunrise: gd
@@ -176,7 +176,7 @@ Dirty Projectors:
       Fluorescent Half Dome:
 Disturbed:
    Evolution:
-      @: youtu.be/t4382UVl0oc
+      $: youtu.be/t4382UVl0oc
       $VPY: 31,233,298
       A Reason to Fight:
       Are You Ready:
@@ -188,15 +188,15 @@ Disturbed:
       The Light:
       The Vengeful One:
    Immortalized:
-      @: youtu.be/u9Dg-g7t2l4
+      $: youtu.be/u9Dg-g7t2l4
       $VPY: 154,655,253
       The Sound of Silence:
    Ten Thousand Fists:
-      @: youtu.be/3moLkjvhEu0
+      $: youtu.be/3moLkjvhEu0
       $VPY: 6,580,771
       Stricken:
    The Sickness:
-      @: youtu.be/09LTT0xwdfw
+      $: youtu.be/09LTT0xwdfw
       $VPY: 8,954,705
       Down With the Sickness:
       Stupify:
@@ -204,7 +204,7 @@ Disturbed:
       Voices:
 DJ Doboy:
    Vocal Edition 19:
-      @: &U youtu.be/XqPN68BIxyI
+      $: &U youtu.be/XqPN68BIxyI
       $VPY: &gr 7,203
       dave masters - who are you:
       gabriel and dresden feat molly bancroft - tracking treasure down (g&d club mix):
@@ -221,7 +221,7 @@ DJ Doboy:
       blank & jones - perfect silence (martin roth hard trance mix): gd
       the thrillseekers feat gina dootson - by your side (martin roth vocal remix): gd
    Vocal Edition 20:
-      @: *U
+      $: *U
       $VPY: *gr
       markus schulz ft anita kelsey - travelling light (original mix): gd
       filo and peri ft fisher - closer now (mike foyle remix): gd
@@ -237,7 +237,7 @@ DJ Doboy:
       robert nickson ft elsa hill - close your eyes (vocal mix):
       darren tate vs jono grant - let the light shine in shine:
    Vocal Edition 21:
-      @: *U
+      $: *U
       $VPY: *gr
       niyaz - dilruba (junkie xl remix): gd
       above & beyond - for all i care:
@@ -253,7 +253,7 @@ DJ Doboy:
       maxi feat tiff lacey - moon love (original mix):
       late night alumni - empty streets (seamus haji & paul emmanuel remix): gd
    Vocal Edition 22:
-      @: *U
+      $: *U
       $VPY: *gr
       delerium - angelicus (redanka): gd
       mark norman pres celine - colour my eyes (original mix): gd
@@ -268,7 +268,7 @@ DJ Doboy:
       lowell hales - move me (kaste remix): gd
       cosmic culture - northern star (original mix):
    Vocal Edition 23:
-      @: *U
+      $: *U
       $VPY: *gr
       simon and garfunkel - the sound of silence (shane 54 mix): bd
       karen overton - your loving arms (menno de jong durban ’06 mix): gd
@@ -283,7 +283,7 @@ DJ Doboy:
       andy moor - halcyon (alex morph remix): gd
       duderstadt feat anita kelsey - smile (duende dub mix): gd
    Vocal Edition 24:
-      @: *U
+      $: *U
       $VPY: *gr
       york - on the beach (2007 sandhoppers remix): gd
       chicane - saltwater (original): gd
@@ -299,7 +299,7 @@ DJ Doboy:
       edvika - sometimes (fire and ice remix): gd
 Doe Paoro:
    After:
-      @: youtu.be/HuRU2v6Moak
+      $: youtu.be/HuRU2v6Moak
       $VPY: 44,669
       Traveling: gd
       Nostalgia: bd
@@ -313,7 +313,7 @@ Doe Paoro:
       Wake Up in Nowhere:
 Don Henley:
    I Can’t Stand Still:
-      @: youtu.be/YHimia_Fxzs
+      $: youtu.be/YHimia_Fxzs
       $VPY: 231,472
       I Can’t Stand Still:
       You Better Hang Up:
@@ -328,13 +328,13 @@ Don Henley:
       The Unclouded Day:
 Dr. Dre:
    2001:
-      @: youtu.be/_CL6n0FJZpk
+      $: youtu.be/_CL6n0FJZpk
       $VPY: 78,813,845
       Forgot About Dre:
       Still D.R.E:
       The Next Episode:
    The Chronic:
-      @: youtu.be/0F0CAEoF4XM
+      $: youtu.be/0F0CAEoF4XM
       $VPY: 4,208,038
       The Chronic (intro): sh
       Fuck Wit Dre Day (And Everybody’s Celebratin’):
@@ -354,7 +354,7 @@ Dr. Dre:
       Bitches Ain’t Shit:
 Duke Ellington:
    First Time! The Count Meets the Duke:
-      @: &U youtu.be/qDQpZT3GhDg
+      $: &U youtu.be/qDQpZT3GhDg
       $VPY: &gr 906,561
       Battle Royal:
       To You: gd
@@ -365,7 +365,7 @@ Duke Ellington:
       B D B:
       Jumpin’ at the Woodside:
    Money Jungle:
-      @: *U
+      $: *U
       $VPY: *gr
       Money Jungle:
       Fleurette Africaine: gd
@@ -376,7 +376,7 @@ Duke Ellington:
       Solitude: gd
 Duran Duran:
    Notorious:
-      @: youtu.be/6Uxc9eFcZyM
+      $: youtu.be/6Uxc9eFcZyM
       $VPY: 4,150,973
       Notorious: bd
       American Science: bd
@@ -389,29 +389,29 @@ Duran Duran:
       Winter Marches On: bd
       Proposition: bd
    The Wedding Album:
-      @: youtu.be/Epj84QVw2rc
+      $: youtu.be/Epj84QVw2rc
       $VPY: 18,836,105
       Come Undone:
 Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
-      @: &U youtu.be/gvM1a72Dcqw
+      $: &U youtu.be/gvM1a72Dcqw
       $VPY: &gr 52,096
       Can’t Give It Up: sh
       Figure It Out (Night Edit): gd
    Last Chance to Dance:
-      @: *U
-      @: *gr
+      $: *U
+      $: *gr
       Last Chance to Dance: gd
       Holiday Blues (demo):
       Ex-Change (demo): sh
       Only U 4 Me (demo): sh
 Eli & Fur:
    Illusions:
-      @: youtu.be/3GEqdbh8sFI
+      $: youtu.be/3GEqdbh8sFI
       $VPY: 33,667,352
       You’re So High:
    Night Blooming Jasmine:
-      @: youtu.be/lE0uR6hsZtk
+      $: youtu.be/lE0uR6hsZtk
       $VPY: 43,015
       Night Blooming Jasmine: gd
       Something Was Real:
@@ -420,7 +420,7 @@ Eli & Fur:
       Parfume (extended mix):
 Emilíana Torrini:
    Fisherman’s Woman:
-      @: &U youtu.be/iZ9vkd7Rp-g
+      $: &U youtu.be/iZ9vkd7Rp-g
       $VPY: &gr 2,120,419
       Nothing Brings Me Down: bd
       Sunny Road: gd
@@ -435,7 +435,7 @@ Emilíana Torrini:
       Thinking Out Loud:
       Serenade:
    Love in the Time of Science:
-      @: *U
+      $: *U
       $VPY: *gr
       To Be Free:
       Wednesday’s Child: gd
@@ -449,7 +449,7 @@ Emilíana Torrini:
       Summerbreeze:
       Sea People: sh
    Me and Armini:
-      @: *U
+      $: *U
       $VPY: *gr
       Fireheads:
       Me and Armini: gd
@@ -465,7 +465,7 @@ Emilíana Torrini:
       Bleeder:
 Empress Of:
    Me:
-      @: &U youtu.be/iwo_HeW4G-Q
+      $: &U youtu.be/iwo_HeW4G-Q
       $VPY: &gr 200,617
       Everything Is You: bd
       Water Water: bd
@@ -478,7 +478,7 @@ Empress Of:
       Threat: bd
       Icon: bd
    Systems:
-      @: *U
+      $: *U
       $VPY: *gr
       Hat Trick: bd
       No Means No: bd
@@ -486,12 +486,12 @@ Empress Of:
       Camisa Favorita: bd
 Enya:
    A Day Without Rain:
-      @: youtu.be/7wfYIMyS_dI
+      $: youtu.be/7wfYIMyS_dI
       $VPY: 11,630,928
       Only Time:
 Everything but the Girl:
    Amplified Heart:
-      @: &U youtu.be/Q4sPkS8b62Q
+      $: &U youtu.be/Q4sPkS8b62Q
       $VPY: &gr 2,678,591
       Rollercoaster:
       Troubled Mind:
@@ -504,7 +504,7 @@ Everything but the Girl:
       25th December:
       Disenchanted: sh
    Temperamental:
-      @: *U
+      $: *U
       $VPY: *gr
       Five Fathoms: gd
       Low Tide of the Night:
@@ -517,7 +517,7 @@ Everything but the Girl:
       No Difference:
       The Future of the Future (Stay Gold):
    The Language of Life:
-      @: *U
+      $: *U
       $VPY: *gr
       Driving: gd
       Get Back Together:
@@ -530,7 +530,7 @@ Everything but the Girl:
       My Baby Don’t Love Me:
       The Road:
    Worldwide:
-      @: *U
+      $: *U
       $VPY: *gr
       Old Friends:
       Understanding:
@@ -545,7 +545,7 @@ Everything but the Girl:
       Feel Alright: sh
 Fatboy Slim:
    Better Living Through Chemistry:
-      @: &U youtu.be/so9DBHCo64Q
+      $: &U youtu.be/so9DBHCo64Q
       $VPY: &gr 2,543,938
       Song for Lindy: gd
       Santa Cruz:
@@ -558,7 +558,7 @@ Fatboy Slim:
       Punk to Funk:
       The Sound of Milwaukee:
    Halfway Between the Gutter and the Stars:
-      @: *U
+      $: *U
       $VPY: *gr
       Talking Bout My Baby: gd
       Star 69: bd
@@ -572,7 +572,7 @@ Fatboy Slim:
       Demons: bd
       Song for Shelter: gd
    You’ve Come a Long Way, Baby:
-      @: *U
+      $: *U
       $VPY: *gr
       Right Here, Right Now: gd
       The Rockafeller Skank: gd
@@ -587,7 +587,7 @@ Fatboy Slim:
       Acid 8000:
 Filter:
    Title of Record:
-      @: youtu.be/o9mJ82x_l-E
+      $: youtu.be/o9mJ82x_l-E
       $VPY: 1,006,260
       Sand: sh
       Welcome to the Fold:
@@ -602,7 +602,7 @@ Filter:
       Miss Blue:
 Flamingosis:
    Great Hair:
-      @: &U youtu.be/1hJKhiew2O0
+      $: &U youtu.be/1hJKhiew2O0
       $VPY: &gr 2,137,585
       Hidden Attraction: sh
       Frugal Livin’: sh
@@ -618,7 +618,7 @@ Flamingosis:
       Snacks on Snacks:
       Elevator Pass: sh
    Pleasure Palette:
-      @: *U
+      $: *U
       $VPY: *gr
       Pleasure Palette: sh
       Down For The Fifth Time: gd
@@ -634,11 +634,11 @@ Flamingosis:
       Football Head: gd
 Fleet Foxes:
    Fleet Foxes:
-      @: youtu.be/o10drRI3VQ0
+      $: youtu.be/o10drRI3VQ0
       $VPY: 17,467,044
       White Winter Hymnal:
    Sun Giant:
-      @: youtu.be/DT-dxG4WWf4
+      $: youtu.be/DT-dxG4WWf4
       $VPY: 1,466,746
       Sun Giant: sh
       Drops in the River: gd
@@ -647,12 +647,12 @@ Fleet Foxes:
       Innocent Son: bd
 Fleetwood Mac:
    Fleetwood Mac:
-      @: youtu.be/x--yddOolRQ
+      $: youtu.be/x--yddOolRQ
       $VPY: 6,940,905
       Landslide:
       Rhiannon:
    Mirage:
-      @: &U youtu.be/Xr9Oubxw1gA
+      $: &U youtu.be/Xr9Oubxw1gA
       $VPY: &gr 1,506,270
       Love in Store:
       Can’t Go Back: sh
@@ -667,13 +667,13 @@ Fleetwood Mac:
       Eyes of the World:
       Wish You Were Here:
    Rumours:
-      @: youtu.be/6ul-cZyuYq4
+      $: youtu.be/6ul-cZyuYq4
       $VPY: 12,175,355
       Dreams:
       Go Your Own Way:
       The Chain:
    Tango in the Night:
-      @: *U
+      $: *U
       $VPY: *gr
       Big Love:
       Seven Wonders:
@@ -689,7 +689,7 @@ Fleetwood Mac:
       You and I, Part II: sh
 Floating Points:
    Elaenia:
-      @: &U youtu.be/1LtsjqgF6fw
+      $: &U youtu.be/1LtsjqgF6fw
       $VPY: &gr 610,878
       Nespole: gd
       Silhouettes (I, II & III):
@@ -700,12 +700,12 @@ Floating Points:
       Peroration Six:
       Precursor:
    Kuiper:
-      @: *U
+      $: *U
       $VPY: *gr
       Kuiper:
       For Marmish Part II: gd
    Reflections - Mojave Desert:
-      @: *U
+      $: *U
       $VPY: *gr
       Mojave Desert: sh
       Silurian Blue: gd
@@ -713,7 +713,7 @@ Floating Points:
       Kelso Dunes: gd
       Lucerne Valley: bd
    Shadows EP:
-      @: *U
+      $: *U
       $VPY: *gr
       Myrtle Avenue: gd
       Obfuse: bd
@@ -722,50 +722,50 @@ Floating Points:
       Sais: bd
 Foo Fighters:
    Concrete and Gold:
-      @: youtu.be/TRqiFPpw2fY
+      $: youtu.be/TRqiFPpw2fY
       $VPY: 34,356,075
       Run:
       The Sky Is a Neighborhood:
    Echoes, Silence, Patience & Grace:
-      @: youtu.be/SBjQ9tuuTJQ
+      $: youtu.be/SBjQ9tuuTJQ
       $VPY: 37,578,019
       The Pretender:
    In Your Honor:
-      @: youtu.be/h_L4Rixya64
+      $: youtu.be/h_L4Rixya64
       $VPY: 15,558,134
       Best of You:
    One by One:
-      @: youtu.be/xQ04WbgI9rg
+      $: youtu.be/xQ04WbgI9rg
       $VPY: 7,041,058
       All My Life:
    Sonic Highways:
-      @: youtu.be/V_YlZ1JdcVk
+      $: youtu.be/V_YlZ1JdcVk
       $VPY: 7,571,556
       Something From Nothing:
    The Colour and the Shape:
-      @: youtu.be/eBG7P-K-r1Y
+      $: youtu.be/eBG7P-K-r1Y
       $VPY: 15,017,002
       Everlong:
    There Is Nothing Left to Lose:
-      @: youtu.be/1VQ_3sBZEm0
+      $: youtu.be/1VQ_3sBZEm0
       $VPY: 11,593,671
       Learn to Fly:
    Wasting Light:
-      @: youtu.be/4PkcfQtibmU
+      $: youtu.be/4PkcfQtibmU
       $VPY: 12,060,557
       These Days:
       Walk:
 Foreigner:
    4:
-      @: youtu.be/Wln6NX0V4AQ
+      $: youtu.be/Wln6NX0V4AQ
       $VPY: 9,159,916
       Waiting for a Girl Like You:
    Agent Provocateur:
-      @: youtu.be/raNGeq3_DtM
+      $: youtu.be/raNGeq3_DtM
       $VPY: 12,578,918
       I Want To Know What Love Is:
    Foreigner:
-      @: youtu.be/8Tl-kOcnn1U
+      $: youtu.be/8Tl-kOcnn1U
       $VPY: 269,102
       Feels Like the First Time:
       Cold as Ice: gd
@@ -779,7 +779,7 @@ Foreigner:
       I Need You:
 Four Tet:
    Dialogue:
-      @: &U youtu.be/Tpe4id7cLnU
+      $: &U youtu.be/Tpe4id7cLnU
       $VPY: &gr 294,231
       The Space of Two Weeks: gd
       Chiron: bd
@@ -791,7 +791,7 @@ Four Tet:
       Calamine: gd
       The Butterfly Effect:
    Pause:
-      @: *U
+      $: *U
       $VPY: *gr
       Glue of the World: gd
       Twenty Three: bd
@@ -805,14 +805,14 @@ Four Tet:
       You Could Ruin My Day: gd
       Hilarious Movie of the 90’s: bd
    Ringer:
-      @: *U
+      $: *U
       $VPY: *gr
       Ringer: bd
       Ribbons: gd
       Swimmer: gd
       Wing Body Wing: bd
    Rounds:
-      @: *U
+      $: *U
       $VPY: *gr
       Hands: gd
       She Moves She: gd
@@ -825,7 +825,7 @@ Four Tet:
       And They All Look Broken Hearted: gd
       Slow Jam: bd
    There Is Love in You:
-      @: *U
+      $: *U
       $VPY: *gr
       Angel Echoes:
       Love Cry:
@@ -838,23 +838,23 @@ Four Tet:
       She Just Likes to Fight: gd
 Four Tet + Burial:
    Moth / Wolf Cub:
-      @: &U youtu.be/Tpe4id7cLnU
+      $: &U youtu.be/Tpe4id7cLnU
       $VPY: &gr 294,231
       Moth: gd
       Wolf Cub: gd
    Nova:
-      @: *U
+      $: *U
       $VPY: *gr
       Nova: gd
 Foy Vance:
    Live at Bangor Abbey:
-      @: youtu.be/hD5hIqeKNVE
+      $: youtu.be/hD5hIqeKNVE
       $VPY: 8,441,739
       Be the Song:
       Make It Rain:
 Frankie Rose:
    Cage Tropical:
-      @: &U youtu.be/VE56wTNj7J0
+      $: &U youtu.be/VE56wTNj7J0
       $VPY: &gr 31,597
       Love in Rockets:
       Dyson Sphere:
@@ -867,7 +867,7 @@ Frankie Rose:
       Epic Slack: sh
       Decontrol:
    Interstellar:
-      @: *U
+      $: *U
       $VPY: *gr
       Interstellar:
       Know Me: sh
@@ -881,19 +881,19 @@ Frankie Rose:
       The Fall: gd
 Franz Ferdinand:
    Franz Ferdinand:
-      @: youtu.be/Ijk4j-r7qPA
+      $: youtu.be/Ijk4j-r7qPA
       $VPY: 5,482,391
       Take Me Out:
 Fugees:
    The Score:
-      @: youtu.be/aIXyKmElvv8
+      $: youtu.be/aIXyKmElvv8
       $VPY: 14,232,736
       Fu-Gee-La:
       Killing Me Softly with His Song:
       Ready or Not:
 Funkadelic:
    Maggot Brain:
-      @: youtu.be/dh3bleXWaCk
+      $: youtu.be/dh3bleXWaCk
       $VPY: 708,285
       Maggot Brain: gd
       Can You Get to That: sh
@@ -904,7 +904,7 @@ Funkadelic:
       Wars of Armageddon:
 Funki Porcini:
    Fast Asleep:
-      @: &U youtu.be/-ebWfAw1eug
+      $: &U youtu.be/-ebWfAw1eug
       $VPY: &gr 27,251
       What Are You Looking At?:
       The Big Sea: gd
@@ -921,7 +921,7 @@ Funki Porcini:
       Offshore Birmingham: sh
       Back Home:
    Love, Pussycats & Carwrecks:
-      @: *U
+      $: *U
       $VPY: *gr
       Purrfect: bd
       Groover: bd
@@ -937,7 +937,7 @@ Funki Porcini:
       Going Down: gd
 Genesis:
    Invisible Touch:
-      @: youtu.be/QHmH1xQ2Pf4
+      $: youtu.be/QHmH1xQ2Pf4
       $VPY: 446,525
       Invisible Touch:
       Tonight, Tonight, Tonight:
@@ -949,7 +949,7 @@ Genesis:
       The Brazilian:
 Gnarls Barkley:
    St. Elsewhere:
-      @: &U youtu.be/Qe500eIK1oA
+      $: &U youtu.be/Qe500eIK1oA
       $VPY: &gr 3,539,846
       Go‐Go Gadget Gospel: sh
       Crazy: gd
@@ -966,7 +966,7 @@ Gnarls Barkley:
       Storm Coming:
       The Last Time:
    The Odd Couple:
-      @: *U
+      $: *U
       $VPY: *gr
       Charity Case:
       Who’s Gonna Save My Soul: gd
@@ -983,7 +983,7 @@ Gnarls Barkley:
       A Little Better:
 Goldfrapp:
    Black Cherry:
-      @: &U youtu.be/uco-2V4ytYQ
+      $: &U youtu.be/uco-2V4ytYQ
       $VPY: &gr 1,063,979
       Crystalline Green: bd
       Train: bd
@@ -996,7 +996,7 @@ Goldfrapp:
       Forever: bd
       Slippage: bd
    Felt Mountain:
-      @: *U
+      $: *U
       $VPY: *gr
       Lovely Head: gd
       Paper Bag: gd
@@ -1015,7 +1015,7 @@ Goldfrapp:
       Human (Massey’s Cro-Magnon mix):
       Utopia (Tom Middleton’s Cosmos vocal mix): gd
    Silver Eye:
-      @: *U
+      $: *U
       $VPY: *gr
       Anymore: bd
       Systemagic: bd
@@ -1028,7 +1028,7 @@ Goldfrapp:
       Moon in Your Mouth: bd
       Ocean: gd
    Supernature:
-      @: *U
+      $: *U
       $VPY: *gr
       Ooh La La: gd
       Lovely 2 C U: gd
@@ -1043,7 +1043,7 @@ Goldfrapp:
       Number 1: bd
 Goo Goo Dolls:
    A Boy Named Goo:
-      @: youtu.be/LyG3wkwKXro
+      $: youtu.be/LyG3wkwKXro
       $VPY: 1,126,677
       Long Way Down: gd
       Burnin’ Up: sh
@@ -1059,18 +1059,18 @@ Goo Goo Dolls:
       Disconnected:
       Slave Girl: sh
    Dizzy Up the Girl:
-      @: youtu.be/NdYWuo9OFAw
+      $: youtu.be/NdYWuo9OFAw
       $VPY: 17,275,396
       Iris:
       Slide:
 Gorillaz:
    Demon Days:
-      @: youtu.be/HyHNuVaZJ-k
+      $: youtu.be/HyHNuVaZJ-k
       $VPY: 93,782,007
       Feel Good Inc:
 Gotan Project:
    La revancha del tango:
-      @: &U youtu.be/tqLh6rQqkoA
+      $: &U youtu.be/tqLh6rQqkoA
       $VPY: &gr 1,988,865
       Queremos paz: gd
       Época: bd
@@ -1083,7 +1083,7 @@ Gotan Project:
       La del ruso:
       Vuelvo al sur:
    Lunático:
-      @: *U
+      $: *U
       $VPY: *gr
       Amor Porteño:
       Notas:
@@ -1098,7 +1098,7 @@ Gotan Project:
       Domingo:
       Paris, Texas: gd
    Tango 3.0:
-      @: *U
+      $: *U
       $VPY: *gr
       Tango Square: gd
       Rayuela: bd
@@ -1113,29 +1113,29 @@ Gotan Project:
       Érase una vez:
 Green Day:
    21st Century Breakdown:
-      @: youtu.be/r00ikilDxW4
+      $: youtu.be/r00ikilDxW4
       $VPY: 23,615,358
       21 Guns:
    American Idiot:
-      @: youtu.be/Soa3gO7tL-c
+      $: youtu.be/Soa3gO7tL-c
       $VPY: 44,361,647
       Boulevard Of Broken Dreams:
    Dookie:
-      @: youtu.be/NUTGr5t3MoY
+      $: youtu.be/NUTGr5t3MoY
       $VPY: 18,232,355
       Basket Case:
       When I Come Around:
    Nimrod:
-      @: youtu.be/CnQ8N1KacJc
+      $: youtu.be/CnQ8N1KacJc
       $VPY: 5,980,630
       Good Riddance (Time Of Your Life):
    Uno:
-      @: youtu.be/IWwMqa-_210
+      $: youtu.be/IWwMqa-_210
       $VPY: 5,587,086
       Oh Love:
 Grizzly Bear:
    Painted Ruins:
-      @: &U youtu.be/tjecYugTbIQ
+      $: &U youtu.be/tjecYugTbIQ
       $VPY: &gr 1,375,012
       Wasted Acres: sh
       Mourning Sound:
@@ -1149,7 +1149,7 @@ Grizzly Bear:
       Systole:
       Sky Took Hold:
    Shields Expanded:
-      @: *U
+      $: *U
       $VPY: *gr
       Sleeping Ute: gd
       Speak in Rounds:
@@ -1170,7 +1170,7 @@ Grizzly Bear:
       A Simple Answer (Liars remix):
       Gun-Shy (Lindstrøm remix):
    Veckatimest:
-      @: *U
+      $: *U
       $VPY: *gr
       Southern Point: gd
       Two Weeks: gd
@@ -1185,7 +1185,7 @@ Grizzly Bear:
       I Live With You: gd
       Foreground: gd
    Yellow House:
-      @: *U
+      $: *U
       $VPY: *gr
       Easier: gd
       Lullabye: bd
@@ -1199,7 +1199,7 @@ Grizzly Bear:
       Colorado: gd
 Groove Armada:
    Lovebox:
-      @: &U youtu.be/_kE0pxRkMtQ
+      $: &U youtu.be/_kE0pxRkMtQ
       $VPY: &gr 2,485,950
       Purple Haze:
       Groove Is On:
@@ -1214,7 +1214,7 @@ Groove Armada:
       Lovebox: gd
       But I Feel Good:
    Soundboy Rock:
-      @: *U
+      $: *U
       $VPY: *gr
       Hasta Luego Mr. Fab (interlude): gd
       Get Down:
@@ -1233,23 +1233,23 @@ Groove Armada:
       What’s Your Version? (reprise): sh
 Guns N’ Roses:
    Appetite for Destruction:
-      @: youtu.be/1w7OgIMMRc4
+      $: youtu.be/1w7OgIMMRc4
       $VPY: 86,924,643
       Sweet Child O’ Mine:
    G N’ R Lies:
-      @: youtu.be/ErvgV4P6Fzc
+      $: youtu.be/ErvgV4P6Fzc
       $VPY: 38,754,294
       Patience:
    Use Your Illusion I:
-      @: youtu.be/8SbUC-UaAxE
+      $: youtu.be/8SbUC-UaAxE
       $VPY: 118,044,031
       November Rain:
    Use Your Illusion II:
-      @: youtu.be/NDOPlpH6NZM
+      $: youtu.be/NDOPlpH6NZM
       $VPY: 7,108,034
       Yesterdays:
 Gwen Stefani:
    Love. Angel. Music. Baby.:
-      @: youtu.be/Kgjkth6BRRY
+      $: youtu.be/Kgjkth6BRRY
       $VPY: 19,273,377
       Hollaback Girl:
