@@ -52,10 +52,10 @@ Sort
 3. Sort red tracks by track name
 4. Sort green tracks by track number
 
-VPY
------
+Views per year
+--------------
 
-1. Red VPYs need to match album
-2. Green VPYs only need to match artist
-3. Green VPY is first green result after last red result
-4. File under album as `$URL:` and `$VPY:` or `$URL: &U` and `$VPY: &V`
+1. Red views per year need to match album
+2. Green views per year only need to match artist
+3. Green views per year is first green result after last red result
+4. File under album as `$:` or `$: &gr` or `$: &rd`
