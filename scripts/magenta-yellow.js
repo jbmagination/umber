@@ -16,8 +16,8 @@ if (dp)
       var tx = document.createElement('textarea');
       tx.cols = 50;
       tx.style.font = '2ex Consolas';
-      tx.textContent = '      $URL: http://youtu.be/' +
-         qs('[itemprop=videoId]').content + '\n      $VPY: ' + nf(vw / yr);
+      tx.textContent = '      $: ' + nf(vw / yr) +
+         ' youtu.be/' + qs('[itemprop=videoId]').content;
       qs('#watch7-sidebar').prepend(tx);
    }
 }
