@@ -4,15 +4,15 @@ Yellow
 Legend
 ------
 
-key | value
-----|------
-@   | views per year and URL
-bd  | bad
-gd  | good
-gr  | green
-rd  | red
-ri  | reissue
-sh  | short
+key  | value
+-----|------
+`$`  | views per year and URL
+`bd` | bad
+`gd` | good
+`gr` | green
+`rd` | red
+`ri` | reissue
+`sh` | short
 
 Query
 -----
