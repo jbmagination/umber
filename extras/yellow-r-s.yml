@@ -8,7 +8,7 @@ Radiohead:
       The Numbers:
    Amnesiac:
       @: &U youtu.be/GoLJJRIWCLU
-      $VPY: &V 1,342,289
+      $VPY: &gr 1,342,289
       Packt Like Sardines in a Crushd Tin Box:
       Pyramid Song: gd
       Pulk/Pull Revolving Doors:
@@ -22,7 +22,7 @@ Radiohead:
       Life in a Glasshouse:
    Hail to the Thief:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       2 + 2 = 5:
       Sit Down. Stand Up.:
       Sail to the Moon.: gd
@@ -39,7 +39,7 @@ Radiohead:
       A Wolf at the Door.:
    In Rainbows:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       15 Step:
       Bodysnatchers:
       Nude:
@@ -52,7 +52,7 @@ Radiohead:
       Videotape:
    Kid A:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Everything in Its Right Place: gd
       Kid A:
       The National Anthem: gd
@@ -123,7 +123,7 @@ Rage Against the Machine:
 Ratatat:
    Classics:
       @: &U youtu.be/xlcywgEMuGI
-      $VPY: &V 2,788,323
+      $VPY: &gr 2,788,323
       Montanita: bd
       Lex: gd
       Gettysburg: bd
@@ -136,7 +136,7 @@ Ratatat:
       Tacobel Canon:
    LP3:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Shiller: gd
       Falcon Jab: gd
       Mi Viejo: S
@@ -203,7 +203,7 @@ Red Hot Chili Peppers:
 R.E.M.:
    Green:
       @: &U youtu.be/5rOiW_xY-kc
-      $VPY: &V 4,984,746
+      $VPY: &gr 4,984,746
       Pop Song 89:
       Get Up: S
       You Are the Everything:
@@ -216,7 +216,7 @@ R.E.M.:
       I Remember California:
    Monster:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       What’s the Frequency, Kenneth?: gd
       Crush With Eyeliner:
       King of Comedy:
@@ -266,14 +266,14 @@ Róisín Murphy:
 Roosevelt:
    Elliot:
       @: &U youtu.be/UBS6MM05KdY
-      $VPY: &V 1,089,466
+      $VPY: &gr 1,089,466
       Elliot: gd
       Around You:
       Montreal:
       Sea:
    Roosevelt:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Intro: S
       Wait Up:
       Night Moves: gd
@@ -319,7 +319,7 @@ Sade:
       By Your Side:
    Promise:
       @: &U youtu.be/kcPc18SG6uA
-      $VPY: &V 5,022,173
+      $VPY: &gr 5,022,173
       Is It a Crime: gd
       The Sweetest Taboo: gd
       War of the Hearts:
@@ -333,7 +333,7 @@ Sade:
       Maureen:
    Soldier of Love:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       The Moon and the Sky:
       Soldier of Love: gd
       Morning Bird:
@@ -346,7 +346,7 @@ Sade:
       The Safest Place: S
    Stronger Than Pride:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Love Is Stronger Than Pride:
       Paradise: gd
       Nothing Can Come Between Us: gd
@@ -360,7 +360,7 @@ Sade:
 Saint Etienne:
    Foxbase Alpha:
       @: &U youtu.be/vZAajrxvDs4
-      $VPY: &V 412,330
+      $VPY: &gr 412,330
       This Is Radio Etienne: S
       Only Love Can Break Your Heart: gd
       Wilson: S
@@ -376,7 +376,7 @@ Saint Etienne:
       Dilworth’s Theme: S
    Tales From Turnpike House:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Side Streets: S
       A Good Thing: bd
       Sun in My Morning: S
@@ -392,7 +392,7 @@ Saint Etienne:
       Goodnight: gd
    Tiger Bay:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Urban Clearway:
       Former Lover: gd
       Hug My Soul:
@@ -408,7 +408,7 @@ Saint Etienne:
 Samaris:
    Black Lights:
       @: &U youtu.be/_pKuzdMFE8k
-      $VPY: &V 65,891
+      $VPY: &gr 65,891
       Wanted 2 Say:
       Black Lights:
       Gradient Sky: S
@@ -420,7 +420,7 @@ Samaris:
       In Deep: gd
    Silkidrangar:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Nótt: gd
       Ég vildi fegin verða:
       Lífsins ólgusjór:
@@ -447,7 +447,7 @@ Savath & Savalas:
 Seal:
    Seal:
       @: &U youtu.be/AMD2TwRvuoU
-      $VPY: &V 3,670,592
+      $VPY: &gr 3,670,592
       The Beginning:
       Deep Water:
       Crazy: gd
@@ -459,7 +459,7 @@ Seal:
       Violet:
    Seal II:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Bring It On:
       Prayer for the Dying:
       Dreaming in Metaphors:
@@ -535,7 +535,7 @@ Sigur Rós:
 Simian Mobile Disco:
    Attack Decay Sustain Release:
       @: &U youtu.be/c0Bf6YGbc1c
-      $VPY: &V 292,223
+      $VPY: &gr 292,223
       Sleep Deprivation:
       I Got This Down:
       It’s the Beat:
@@ -554,7 +554,7 @@ Simian Mobile Disco:
       Wooden (uncut):
    Unpatterns:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       I Waited for You:
       Cerulean:
       Seraphim: gd
@@ -586,7 +586,7 @@ Simple Minds:
 Solar Fields:
    GREEN:
       @: &U youtu.be/C0EgzJ0KGxg
-      $VPY: &V 416,654
+      $VPY: &gr 416,654
       Level Out:
       Magic Eye (remix):
       Sol (remix): gd
@@ -599,7 +599,7 @@ Solar Fields:
       Third Time (T version):
    Mirror’s Edge Catalyst:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Faith:
       Release:
       Birdman: S
@@ -674,7 +674,7 @@ Spandau Ballet:
 Squarepusher:
    Hard Normal Daddy:
       @: &U youtu.be/XvLAKrVbCBM
-      $VPY: &V 255,290
+      $VPY: &gr 255,290
       Coopers World:
       Beep Street: gd
       Rustic Raver:
@@ -689,7 +689,7 @@ Squarepusher:
       Rebus: S
    Numbers Lucent:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Zounds Perspex: bd
       Paradise Garage: bd
       Heliacal Torch: bd
@@ -698,7 +698,7 @@ Squarepusher:
       Illegal Dustbin: bd
    Solo Electric Bass 1:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       SEB-1.01: S
       SEB-1.09: gd
       SEB-1.10: S
@@ -713,7 +713,7 @@ Squarepusher:
       SEB-1.12:
    Ultravisitor:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Ultravisitor:
       I Fulcrum:
       Iambic 9 Poetry: gd
@@ -732,7 +732,7 @@ Squarepusher:
 St. Germain:
    Boulevard The Complete Series:
       @: &U youtu.be/H_F3FOcnQ3Y
-      $VPY: &V 547,101
+      $VPY: &gr 547,101
       Deep in It:
       Thank U Mum (4 Everything You Did): gd
       Street Scene (4 Shazz):
@@ -743,7 +743,7 @@ St. Germain:
       Forget It:
    Tourist:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Rose Rouge: gd
       Montego Bay Spleen:
       So Flute:
@@ -796,7 +796,7 @@ Steve Roach:
 Stone Temple Pilots:
    Core:
       @: &U youtu.be/V5UOC0C0x8Q
-      $VPY: &V 3,025,540
+      $VPY: &gr 3,025,540
       Dead & Bloated:
       Sex Type Thing:
       Wicked Garden:
@@ -811,7 +811,7 @@ Stone Temple Pilots:
       Where the River Goes:
    Purple:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Meatplow:
       Vasoline: S
       Lounge Fly:
@@ -838,7 +838,7 @@ Stwo:
 Suzanne Vega:
    Days of Open Hand:
       @: &U youtu.be/VZt7J0iaUD0
-      $VPY: &V 4,514,971
+      $VPY: &gr 4,514,971
       Tired of Sleeping: bd
       Men in a War: bd
       Rusted Pipe: bd
@@ -852,7 +852,7 @@ Suzanne Vega:
       Pilgrimage: gd
    Suzanne Vega:
       @: *U
-      $VPY: *V
+      $VPY: *gr
       Cracking: S
       Freeze Tag: S
       Marlene on the Wall: bd
