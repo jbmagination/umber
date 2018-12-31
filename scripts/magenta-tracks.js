@@ -2,7 +2,7 @@
 var qs = (sc, pn = document) => pn.querySelector(sc);
 var sn = tn => tn.replace(/[#:]/g, '').replace(/'/g, '’');
 var rls = [
-'   ' + sn(qs('bdi').textContent) + ':\n      $URL: *U\n      $VPY: *V'
+   '   ' + sn(qs('bdi').textContent) + ':\n      $: *gr'
 ];
 /* tracklist */
 for (var z of document.querySelectorAll('tr[id]'))
