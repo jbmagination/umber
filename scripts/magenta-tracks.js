@@ -9,7 +9,7 @@ for (var z of document.querySelectorAll('tr[id]'))
 {
    var minutes = qs('.treleases', z).textContent.split(':')[0];
    var title = qs('td > :first-child bdi', z).textContent;
-   rls.push('      ' + sn(title) + (minutes < 3 ? ': S' : ':'));
+   rls.push('      ' + sn(title) + (minutes < 3 ? ': sh' : ':'));
 }
 var tx = qs('textarea') || document.createElement('textarea');
 tx.cols = 42;
