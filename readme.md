@@ -1,7 +1,7 @@
 Mauve
 =====
 
-![hero](assets/image.jpg)
+![hero](/assets/image.jpg)
 
 Multimedia
 

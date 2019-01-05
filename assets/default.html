@@ -4,38 +4,44 @@
    {% seo %}
    <link rel="icon" href="/mauve/assets/image.jpg?">
    <link rel="stylesheet" href="/mauve/assets/css/style.css">
+   <link rel="stylesheet" href="/mauve/assets/font-awesome.css">
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
    <meta property="og:image"
    content="https://cup.github.io/mauve/assets/image.jpg">
 </head>
 <body>
    <div class="container-lg markdown-body my-5 px-3">
-{% if page.url != '/' %}
+      <ul class="fa-ul">
+{% if page.url != "/" %}
+         <li>
+            <a class="fa fa-arrow-up fa-li"></a>
    {% if page.url == page.dir %}
-      <p><img src="/mauve/assets/arrow-up.svg"> <a href="..">Up</a></p>
+            <a href="..">Up</a>
    {% else %}
-      <p><img src="/mauve/assets/arrow-up.svg"> <a href=".">Up</a></p>
+            <a href=".">Up</a>
    {% endif %}
+         </li>
 {% endif %}
 {% if page.url == page.dir %}
-   {% assign dn1 = '.' | append: page.url | split: '/' %}
+   {% assign dn1 = "." | append: page.url | split: "/" %}
    {%- for each in site.html_pages -%}
-      {%- assign dn2 = '.' | append: each.url | split: '/' | pop -%}
+      {%- assign dn2 = "." | append: each.url | split: "/" | pop -%}
       {%- if dn2 == dn1 -%}
-      <p>
+         <li>
          {% if each.url == each.dir %}
-         <img src="/mauve/assets/file-directory.svg">
+            <a class="fa fa-folder-o fa-li"></a>
          {% else %}
-         <img src="/mauve/assets/file.svg">
+            <a class="fa fa-file-text-o fa-li"></a>
          {% endif %}
-         <a href="/mauve{{ each.url }}">{{ each.title }}</a>
-      </p>
+            <a href="/mauve{{ each.url }}">{{ each.title }}</a>
+         </li>
       {%- endif -%}
    {%- endfor -%}
 {% endif %}
+      </ul>
 {{ content }}
    </div>
-   <script src="//cdn.jsdelivr.net/npm/anchor-js@4.1.1/anchor.min.js"></script>
-   <script>anchors.add();</script>
+   <script src="/mauve/assets/font-awesome.js"></script>
 </body>
 </html>

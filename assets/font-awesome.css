@@ -1,0 +1,46 @@
+@font-face {
+   font-family: FontAwesome;
+   src: url("/mauve/assets/fontawesome-webfont.woff2");
+}
+
+.fa {
+   font-family: FontAwesome;
+}
+.fa-li {
+  left: -2.14285714em;
+  position: absolute;
+  text-align: center;
+  top: 0.14285714em;
+  width: 2.14285714em;
+}
+.fa-link {
+   font-weight: normal;
+   visibility: hidden;
+   text-decoration: none !important;
+}
+.fa-pull-right {
+   margin-left: .3em;
+}
+.fa-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+:hover > .fa-link {
+   visibility: visible;
+}
+
+.fa-arrow-up:before {
+   content: "\f062";
+}
+.fa-file-text-o:before {
+   content: "\f0f6";
+}
+.fa-folder-o:before {
+   content: "\f114";
+}
+.fa-link:before {
+   content: "\f0c1";
+}
