@@ -47,9 +47,8 @@ for (var eurl of durl)
    {
       nusp.set('signature', dsig.next().value);
    }
-   var squa = nusp.get('mime').includes('video') ?
-      vqua.next().value :
-      ~~(nusp.get('clen') * 8 / (1000 * nusp.get('dur'))) + 'k';
+   var squa = nusp.get('mime').includes('video') ? vqua.next().value :
+      Math.floor(nusp.get('clen') * 8 / (1000 * nusp.get('dur'))) + 'k';
    ypsi.push(`
       <!--${nusp.get('mime') + String(9999 - parseInt(squa)).padStart(4)}-->
       <p><a href="${nurl.href}">${squa} ${nusp.get('mime')}</a></p>

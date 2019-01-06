@@ -1,6 +1,7 @@
 commonmark:
    extensions:
    - autolink
+   - table
 layouts_dir: assets
 markdown: CommonMarkGhPages
 title: Mauve

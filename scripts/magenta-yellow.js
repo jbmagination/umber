@@ -8,15 +8,13 @@ if (dp)
    var vw = qs('[itemprop=interactionCount]').content;
    /* get years */
    var yr = (Date.now() - Date.parse(dp.content)) / Date.parse(1971);
-   /* format */
-   var nf = nm => (~~nm).toLocaleString();
    /* prepend */
    if (!qs('textarea'))
    {
       var tx = document.createElement('textarea');
       tx.cols = 50;
       tx.style.font = '2ex Consolas';
-      tx.textContent = '      $: ' + nf(vw / yr) +
+      tx.textContent = '      $: ' + Math.floor(vw / yr).toLocaleString() +
          ' youtu.be/' + qs('[itemprop=videoId]').content;
       qs('#watch7-sidebar').prepend(tx);
    }

@@ -1,6 +1,6 @@
 'use strict';
 document.querySelector('.watch-title-container').style.width = 'auto';
-var dn = ~~(Date.now() / 1000);
+var dn = Math.floor(new Date / 1000);
 /* needs to work in playlist view */
 var vd = new URL(location).searchParams.get('v');
 /* innerHTML leaves HTML entities. textContent destroys breaks. */

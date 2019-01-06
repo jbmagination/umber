@@ -7,11 +7,10 @@
    font-family: FontAwesome;
 }
 .fa-li {
-  left: -2.14285714em;
+  left: calc(15em / -7);
   position: absolute;
   text-align: center;
-  top: 0.14285714em;
-  width: 2.14285714em;
+  width: calc(15em / 7);
 }
 .fa-link {
    font-weight: normal;
