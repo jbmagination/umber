@@ -25,7 +25,7 @@ function fgr(vid)
       url = new URL('https://www.reddit.com/mediaembed/' + py[1]);
       break;
    case 's':
-      ie.src = 'https://i1.sndcdn.com/artworks-' + py[2] + '-t500x500.jpg';
+      ie.src = 'https://i1.sndcdn.com/' + py[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
       url.searchParams.set('url', 'api.soundcloud.com/tracks/' + py[1]);
       // ignored on mobile
@@ -80,9 +80,9 @@ async function main()
    let end = begin + step;
 
    // both sides of the test can contain uppercase on mobile
-   let result = (await (await fetch('magenta.json')).json()).filter(
-      z => RegExp(query, 'i').test(z[1] + z[3])
-   );
+   let result = (await (
+      await fetch('/mauve/magenta/magenta.json')
+   ).json()).filter(z => RegExp(query, 'i').test(z[1] + z[3]));
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(z => fgr(z))
    );
