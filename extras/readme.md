@@ -1,61 +1,58 @@
-Extras
-======
+Scripts
+=======
 
-Legend
-------
+alternativeto-disco.js
+----------------------
 
-key  | value
------|------
-`$`  | views per year and URL
-`bd` | bad
-`gd` | good
-`gr` | green
-`rd` | red
-`ri` | reissue
-`sh` | short
+https://alternativeto.net
 
-Query
------
+magenta-avail.awk
+---------------
 
-artist      | total | true red | true green | query
-------------|-------|----------|------------|------------------
-home        | 2     | 1        | 1          | home band
-home        | 1     | 1        | 0          | home music
-home        | 1     | 1        | 0          | home artist
-home        | 1     | 1        | 0          | home
-home        | 0     | 0        | 0          | home songs
-home        | 0     | 0        | 0          | home song
-home        | 0     | 0        | 0          | home group
-beck        | 28    | 3        | 25         | beck music
-beck        | 28    | 3        | 25         | beck
-beck        | 25    | 2        | 23         | beck song
-beck        | 24    | 2        | 22         | beck songs
-beck        | 15    | 2        | 13         | beck band
-beck        | 10    | 3        | 7          | beck artist
-beck        | 0     | 0        | 0          | beck group
-beach house | 34    | 1        | 33         | beach house artist
-beach house | 33    | 2        | 31         | beach house group
-beach house | 33    | 2        | 31         | beach house band
-beach house | 28    | 1        | 27         | beach house songs
-beach house | 26    | 2        | 24         | beach house song
-beach house | 17    | 2        | 15         | beach house music
-beach house | 17    | 2        | 15         | beach house
+- [blocked](https://youtu.be/by312WRuwfQ)
+- [not available](https://youtu.be/B2zfFK34dII)
+- [premium](https://youtu.be/O_WNbnIk0Kk)
+- [unlisted](https://youtu.be/k7h4sdyQMyo)
 
-We cannot sort by view count because it will introduce ambiguous results. We
-can check next page as long as current page has at least 1 true red.
+magenta-insert.js
+-----------------
 
-Sort
------
+- [use topic page](https://youtu.be/TUADigaeFs4)
+- [year ℗](https://youtu.be/hEyWX6yspOM)
+- [year released on](https://youtu.be/szAqQG7LDvI)
 
-1. Sort artists by artist name
-2. Sort albums by album name
-3. Sort red tracks by track name
-4. Sort green tracks by track number
+magenta-tracks.js
+-----------------
 
-Views per year
---------------
+[`:first-child` and release comment][1]
 
-1. Red views per year need to match album
-2. Green views per year only need to match artist
-3. Green views per year is first green result after last red result
-4. File under album as `$:` or `$: &gr` or `$: &rd`
+[1]:https://musicbrainz.org/release/970b9400-e10f-4070-b92a-b38d08c02d28
+
+magenta-yellow.js
+-----------------
+
+[green](https://youtu.be/kcPc18SG6uA)
+
+remixrotation-next.js
+---------------------
+
+http://remixrotation.com/charts/deep-house.html
+
+youtube-save.js
+---------------
+
+bookmarklet to choose quality and mime type
+
+- https://youtu.be/crlKlQSMuAc
+- https://youtu.be/HKLvdwaqRzE
+- https://youtu.be/kWuEvIDRjyc
+- https://youtu.be/ZiDSVrKuV1c
+
+youtube-warn.js
+---------------
+
+Content Warning: bookmarklet to play video without logging in. iframe is
+better, uses HTML5 player.
+
+- https://youtu.be/07FYdnEawAQ
+- https://youtu.be/2NkugVsgEw4

@@ -17,6 +17,9 @@
    visibility: hidden;
    text-decoration: none !important;
 }
+.fa-pull-left {
+   margin-right: .3em;
+}
 .fa-pull-right {
    margin-left: .3em;
 }
