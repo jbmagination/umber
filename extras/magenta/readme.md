@@ -1,6 +1,3 @@
-Magenta
-=======
-
 magenta-avail.awk
 ---------------
 
