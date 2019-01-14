@@ -5,12 +5,12 @@ commonmark:
 defaults:
 -
    scope:
-      path: assets/magenta
+      path: assets/magenta/index.html
    values:
       permalink: /mauve/magenta
 -
    scope:
-      path: assets/violet
+      path: assets/violet/index.html
    values:
       permalink: /mauve/violet
 layouts_dir: assets
