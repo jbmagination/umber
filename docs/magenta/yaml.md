@@ -1,5 +1,5 @@
-Extras
-======
+YAML
+=====
 
 Legend
 ------
@@ -13,6 +13,23 @@ key  | value
 `rd` | red
 `ri` | reissue
 `sh` | short
+
+MusicBrainz
+-----------
+
+When adding musicbrainz release, make sure to include:
+
+- release title
+- artist
+- type
+- status
+- date
+- country
+- label
+- release link
+- format
+- track titles
+- track lengths
 
 Query
 -----
@@ -48,7 +65,7 @@ Sort
 -----
 
 1. Sort artists by artist name
-2. Sort albums by album name
+2. Sort albums in reverse chronological order
 3. Sort red tracks by track name
 4. Sort green tracks by track number
 
