@@ -1,7 +1,7 @@
 #!/bin/dash -e
 if [ "$#" != 1 ]
 then
-   echo 'synopsis: action.sh <operation>
+   echo 'synopsis: setup.sh <operation>
 operations:
    -i: install
    -r: remove'
