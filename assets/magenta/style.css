@@ -1,12 +1,12 @@
 @font-face
 {
-   font-family: 'Miller Display Italic';
-   src: url(miller-display-italic.woff2);
+   font-family: "Miller Display Italic";
+   src: url("/mauve/assets/miller-display-italic.woff2");
 }
 @font-face
 {
-   font-family: 'Open Sans';
-   src: url(open-sans.woff2);
+   font-family: "Open Sans";
+   src: url("/mauve/assets/open-sans.woff2");
 }
 #next, #prev, .header
 {
@@ -18,7 +18,7 @@
 }
 .header, footer, main
 {
-   font-family: 'Open Sans';
+   font-family: "Open Sans";
 }
 .header, h1
 {
@@ -58,7 +58,7 @@ footer, header, main
 h1
 {
    color: rebeccapurple;
-   font-family: 'Miller Display Italic';
+   font-family: "Miller Display Italic";
    font-size: 9ex;
 }
 header

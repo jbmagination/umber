@@ -2,6 +2,17 @@ commonmark:
    extensions:
    - autolink
    - table
+defaults:
+-
+   scope:
+      path: assets/magenta
+   values:
+      permalink: /mauve/magenta
+-
+   scope:
+      path: assets/violet
+   values:
+      permalink: /mauve/violet
 layouts_dir: assets
 markdown: CommonMarkGhPages
 title: Mauve
