@@ -1,11 +1,6 @@
 Extras
 ======
 
-remixrotation-next.js
----------------------
-
-http://remixrotation.com/charts/deep-house.html
-
 youtube-save.js
 ---------------
 
