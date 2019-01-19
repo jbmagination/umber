@@ -6,7 +6,7 @@ document.querySelectorAll('.first').forEach(ab => {
    let dh = cf.querySelector('.embed-comment, .post-sharing-button');
    let ek = document.createElement('a');
    ek.textContent = 'depth';
-   ek.href = ab.querySelector('.bylink').href + '?depth=3';
+   ek.href = ab.querySelector('.bylink').href + '?depth=3&sort=confidence';
    ek.style.color = '#BF1449';
    ek.style.fontWeight = 'bold';
    dh.replaceWith(ek);
