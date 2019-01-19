@@ -1,5 +1,5 @@
-JavaScript
-==========
+Main
+=====
 
 "img" over "iframe"
 -------------------
@@ -11,11 +11,11 @@ JavaScript
 - Not all links can be embedded
 - Using embeds breaks keyboard shortcuts
 
-Bandcamp
---------
+Bandcamp & SoundCloud
+---------------------
 
 No way to autoplay on mobile. Also MP3 transparency is at 175 kbit/s, and
-Bandcamp only uses 128:
+these only uses 128:
 
 ~~~
 $ youtube-dl -F http://fourtet.bandcamp.com/track/the-space-of-two-weeks
@@ -24,13 +24,6 @@ $ youtube-dl -F http://fourtet.bandcamp.com/track/the-space-of-two-weeks
 format code  extension  resolution note
 mp3-128      mp3        audio only mp3  @128k
 ~~~
-
-
-SoundCloud
-----------
-
-No way to autoplay on mobile. Also, MP3 transparency is at 175 kbit/s,
-SoundCloud only uses 128:
 
 ~~~
 $ youtube-dl -F soundcloud.com/wyeoak/mary-is-mary
@@ -47,4 +40,3 @@ https://soundcloud.com/ideoforms/windows-95-startup-sound
 "avatars" image:
 
 https://soundcloud.com/pdis_inpartmaint/harold-budd-perhaps-moss
-

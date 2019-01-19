@@ -1,5 +1,5 @@
-magenta-avail.awk
----------------
+Available
+=========
 
 - [blocked](https://youtu.be/by312WRuwfQ)
 - [not available](https://youtu.be/B2zfFK34dII)
