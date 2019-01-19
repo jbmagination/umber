@@ -25,7 +25,7 @@ function fgr(vid)
       url = new URL('https://www.reddit.com/mediaembed/' + py[1]);
       break;
    case 's':
-      ie.src = 'https://i1.sndcdn.com/' + py[2] + '-t500x500.jpg';
+      ie.src = 'https://i1.sndcdn.com/artworks-' + py[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
       url.searchParams.set('url', 'api.soundcloud.com/tracks/' + py[1]);
       // ignored on mobile

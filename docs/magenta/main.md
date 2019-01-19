@@ -32,11 +32,3 @@ $ youtube-dl -F soundcloud.com/wyeoak/mary-is-mary
 format code       extension  resolution note
 hls_mp3_128_url   mp3        audio only audio@128k
 ~~~
-
-"artworks" image:
-
-https://soundcloud.com/ideoforms/windows-95-startup-sound
-
-"avatars" image:
-
-https://soundcloud.com/pdis_inpartmaint/harold-budd-perhaps-moss

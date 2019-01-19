@@ -18,3 +18,4 @@ References
 
 - https://developer.mozilla.org/Add-ons/WebExtensions/API/tabs/query
 - https://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/commands
+- https://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/content_scripts
