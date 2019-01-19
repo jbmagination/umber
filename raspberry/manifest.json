@@ -4,7 +4,7 @@
    "manifest_version": 2,
    "background":
    {
-      "scripts": ["back.js"]
+      "scripts": ["background.js"]
    },
    "commands":
    {
@@ -19,6 +19,6 @@
    },
    "content_scripts": [{
       "matches": ["https://www.youtube.com/*"],
-      "js": ["cont.js"]
+      "js": ["content.js"]
    }]
 }
