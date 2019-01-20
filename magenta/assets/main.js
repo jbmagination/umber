@@ -24,8 +24,7 @@ function fgr(vid)
       ie.src = 'https://i.redd.it/' + py[2] + '.jpg';
       // we need the trailing slash to maintain HTTPS
       url = new URL(location.origin + '/mauve/watch/');
-      url.searchParams.set('s', py[1]);
-      url.searchParams.set('p', py[2]);
+      url.searchParams.set('v', vid[0]);
       break;
    case 's':
       ie.src = 'https://i1.sndcdn.com/artworks-' + py[2] + '-t500x500.jpg';
@@ -84,7 +83,7 @@ async function main()
 
    // both sides of the test can contain uppercase on mobile
    let result = (await (
-      await fetch('/mauve/magenta/assets/data.json')
+      await fetch('/mauve/assets/data.json')
    ).json()).filter(z => RegExp(query, 'i').test(z[1] + z[3]));
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(z => fgr(z))
