@@ -22,7 +22,8 @@ function fgr(vid)
       break;
    case 'r':
       ie.src = 'https://i.redd.it/' + py[2] + '.jpg';
-      url = new URL(location.origin + '/mauve/watch');
+      // we need the trailing slash to maintain HTTPS
+      url = new URL(location.origin + '/mauve/watch/');
       url.searchParams.set('s', py[1]);
       url.searchParams.set('p', py[2]);
       break;
