@@ -22,7 +22,9 @@ function fgr(vid)
       break;
    case 'r':
       ie.src = 'https://i.redd.it/' + py[2] + '.jpg';
-      url = new URL('https://www.reddit.com/mediaembed/' + py[1]);
+      url = new URL(location.origin + '/mauve/watch');
+      url.searchParams.set('s', py[1]);
+      url.searchParams.set('p', py[2]);
       break;
    case 's':
       ie.src = 'https://i1.sndcdn.com/artworks-' + py[2] + '-t500x500.jpg';
