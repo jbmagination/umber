@@ -8,19 +8,24 @@ action:
    exit 1
 fi
 
+slug()
+{
+   awk '
+   BEGIN {
+      gsub(ARGV[2], "", ARGV[1])
+      gsub(/[().\47]/, "", ARGV[1])
+      gsub(/ ?[,-] /, "-", ARGV[1])
+      gsub(/ /, "-", ARGV[1])
+      print tolower(ARGV[1]) ARGV[3]
+   }
+   ' "$@"
+}
+
 for q in *
 do
    case $q in
    *.mp3)
-      z=$(awk '
-      BEGIN {
-         gsub(/\.mp3$/, "", ARGV[1])
-         gsub(/[().\47]/, "", ARGV[1])
-         gsub(/, /, "-", ARGV[1])
-         gsub(/ /, "-", ARGV[1])
-         print tolower(ARGV[1]) ".mp3"
-      }
-      ' "$q")
+      z=$(slug "$q" '\.mp3$' .mp3)
       ;;
    *.jpg)
       z=image.jpg
@@ -37,3 +42,5 @@ do
       mv "$q" "$z"
    esac
 done
+
+slug "$PWD"

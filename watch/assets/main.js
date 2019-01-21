@@ -12,7 +12,7 @@ async function main()
    switch (attr[0]) {
    case 'g':
       plyr.src = 'https://github.com/cup/mauve/releases/download/' +
-      attr[1] + '/' + attr[2] + '.m4a';
+      attr[1] + '/' + attr[2];
       plyr.poster = 'https://github.com/cup/mauve/releases/download/' +
       attr[1] + '/image.jpg';
       break;
