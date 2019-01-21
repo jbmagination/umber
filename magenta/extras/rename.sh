@@ -13,8 +13,8 @@ slug()
    awk '
    BEGIN {
       gsub(ARGV[2], "", ARGV[1])
-      gsub(/[().\47]/, "", ARGV[1])
-      gsub(/ ?[,-] /, "-", ARGV[1])
+      gsub(/[]().[\47]/, "", ARGV[1])
+      gsub(/ ?[-&,] /, "-", ARGV[1])
       gsub(/ /, "-", ARGV[1])
       print tolower(ARGV[1]) ARGV[3]
    }
@@ -24,11 +24,11 @@ slug()
 for q in *
 do
    case $q in
+   *.m4a)
+      z=$(slug "$q" '\.m4a$' .m4a)
+      ;;
    *.mp3)
       z=$(slug "$q" '\.mp3$' .mp3)
-      ;;
-   *.jpg)
-      z=image.jpg
       ;;
    *)
       continue

@@ -5,7 +5,6 @@ Main
 -------------------
 
 - `iframe` requires embedly in some cases
-- I did not utilize embeds on Reddit even though they are offered
 - Killing embeds makes loading faster
 - Links will allow use of CSS `:focus` or `:active`
 - Not all links can be embedded

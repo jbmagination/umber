@@ -8,7 +8,7 @@ async function main()
    ).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );
-   let attr = vdeo[2].split(',');
+   let attr = vdeo[2].split('/');
    switch (attr[0]) {
    case 'g':
       plyr.src = 'https://github.com/cup/mauve/releases/download/' +

@@ -19,7 +19,7 @@ function fgr(vid)
    let ie = document.createElement('img');
    let url;
 
-   let attr = vid[2].split(',');
+   let attr = vid[2].split('/');
    switch (attr[0]) {
    case 'b':
       ie.src = 'https://f4.bcbits.com/img/' + attr[2] + '.jpg';
