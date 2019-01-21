@@ -1,4 +1,16 @@
 'use strict';
+
+function slug(txt)
+{
+   // slug is not required, but it will allow for history search
+   return [
+      [/\b(to|the) /gi, ''],
+      [/ ?[&,-] /g, '-'],
+      [/[ /]/g, '-'],
+      [/[%().]/g, '']
+   ].reduce((af, bd) => af.replace(...bd), txt).toLowerCase();
+}
+
 function fgr(vid)
 {
    let ae = document.createElement('a');
@@ -7,13 +19,14 @@ function fgr(vid)
    let ie = document.createElement('img');
    let url;
 
-   let py = vid[2].split(',');
-   switch (py[0]) {
+   let attr = vid[2].split(',');
+   switch (attr[0]) {
    case 'b':
-      ie.src = 'https://f4.bcbits.com/img/' + py[2] + '.jpg';
+      ie.src = 'https://f4.bcbits.com/img/' + attr[2] + '.jpg';
       // case sensitive
       url = new URL('https://bandcamp.com/EmbeddedPlayer');
-      url.searchParams.set('track', py[1]);
+      url.hash = slug(vid[3]);
+      url.searchParams.set('track', attr[1]);
       // required when protocol is not "file:"
       url.searchParams.set('ref', '');
       // these are not required, but they look nicer
@@ -21,15 +34,16 @@ function fgr(vid)
       url.searchParams.set('size', 'large');
       break;
    case 'r':
-      ie.src = 'https://i.redd.it/' + py[2] + '.jpg';
+      ie.src = 'https://i.redd.it/' + attr[2] + '.jpg';
       // we need the trailing slash to maintain HTTPS
       url = new URL(location.origin + '/mauve/watch/');
       url.searchParams.set('v', vid[0]);
       break;
    case 's':
-      ie.src = 'https://i1.sndcdn.com/artworks-' + py[2] + '-t500x500.jpg';
+      ie.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
-      url.searchParams.set('url', 'api.soundcloud.com/tracks/' + py[1]);
+      url.hash = slug(vid[3]);
+      url.searchParams.set('url', 'api.soundcloud.com/tracks/' + attr[1]);
       // ignored on mobile
       url.searchParams.set('auto_play', true);
       // accepts "true" but not "1"
@@ -39,31 +53,26 @@ function fgr(vid)
       url.searchParams.set('visual', true);
       break;
    case 'v':
-      ie.src = 'https://i.vimeocdn.com/video/' + py[2] + '_1280x720.jpg';
+      ie.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
       // player.vimeo.com/video/101914072: this video cannot be played here
-      url = new URL('https://vimeo.com/' + py[1]);
+      url = new URL('https://vimeo.com/' + attr[1]);
+      url.hash = slug(vid[3]);
       url.searchParams.set('autoplay', 1);
       break;
    default:
-      ie.src = 'https://i.ytimg.com/vi/' + py[0] + '/';
-      if (py[1])
+      ie.src = 'https://i.ytimg.com/vi/' + attr[0] + '/';
+      if (attr[1])
       {
-         ie.src += py[1] + '.jpg';
+         ie.src += attr[1] + '.jpg';
       }
       else
       {
          ie.src += 'maxresdefault.jpg';
       }
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
-      url = new URL('https://www.youtube.com/watch?v=' + py[0]);
+      url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
+      url.hash = slug(vid[3]);
    }
-   // slug is not required, but it will allow for history search
-   url.hash = [
-      [/\b(to|the) /gi, ''],
-      [/ ?[&,-] /g, '-'],
-      [/[ /]/g, '-'],
-      [/[%().]/g, '']
-   ].reduce((x, z) => x.replace(...z), vid[3]).toLowerCase();
    ae.href = url.href;
    fce.textContent = vid[3] + ' (' + vid[1] + ')';
    ae.append(ie);
@@ -73,10 +82,10 @@ function fgr(vid)
 async function main()
 {
    let step = 12;
-   let urlsp = new URLSearchParams(location.search);
+   let urlp = new URLSearchParams(location.search);
 
-   let page = +urlsp.get('p') || 1;
-   let query = urlsp.get('q') || '';
+   let page = +urlp.get('p') || 1;
+   let query = urlp.get('q') || '';
 
    let begin = (page - 1) * step;
    let end = begin + step;
@@ -84,9 +93,9 @@ async function main()
    // both sides of the test can contain uppercase on mobile
    let result = (await (
       await fetch('/mauve/assets/data.json')
-   ).json()).filter(z => RegExp(query, 'i').test(z[1] + z[3]));
+   ).json()).filter(af => RegExp(query, 'i').test(af[1] + af[3]));
    document.getElementById('figures').append(
-      ...result.slice(begin, end).map(z => fgr(z))
+      ...result.slice(begin, end).map(af => fgr(af))
    );
    if (page == 1)
    {
@@ -94,17 +103,18 @@ async function main()
    }
    else
    {
-      urlsp.set('p', page - 1);
-      document.getElementById('prev').href = '?' + urlsp.toString();
+      urlp.set('p', page - 1);
+      document.getElementById('prev').href = '?' + urlp.toString();
    }
    if (result[end])
    {
-      urlsp.set('p', page + 1);
-      document.getElementById('next').href = '?' + urlsp.toString();
+      urlp.set('p', page + 1);
+      document.getElementById('next').href = '?' + urlp.toString();
    }
    else
    {
       document.getElementById('next').style.display = 'none';
    }
 }
+
 main();
