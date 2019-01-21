@@ -5,7 +5,7 @@ BEGIN {
       print "available.awk <artist>"
       exit 1
    }
-   while (getline ac < "/usr/local/share/mauve/data.json" > 0)
+   while (getline ac < "/usr/local/share/magenta/data.json" > 0)
    {
       split(ac, bd, /\"/)
       if (tolower(bd[4]) ~ ARGV[1])

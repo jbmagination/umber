@@ -1,15 +1,25 @@
 'use strict';
-let urlp = new URLSearchParams(location.search);
 let plyr = document.getElementById('player');
-plyr.autoplay = 1;
 
 async function main()
 {
-   let trks = await (await fetch('/mauve/assets/data.json')).json();
-   let vdeo = trks.find(trck => trck[0] == urlp.get('v'));
+   let vdeo = (await (
+      await fetch('/mauve/magenta/assets/data.json')
+   ).json()).find(
+      trck => trck[0] == new URLSearchParams(location.search).get('v')
+   );
    let attr = vdeo[2].split(',');
-   plyr.src = 'https://v.redd.it/' + attr[1] + '/audio';
-   plyr.poster = 'https://i.redd.it/' + attr[2] + '.jpg';
+   switch (attr[0]) {
+   case 'g':
+      plyr.src = 'https://github.com/cup/mauve/releases/download/' +
+      attr[1] + '/' + attr[2] + '.m4a';
+      plyr.poster = 'https://github.com/cup/mauve/releases/download/' +
+      attr[1] + '/image.jpg';
+      break;
+   case 'r':
+      plyr.src = 'https://v.redd.it/' + attr[1] + '/audio';
+      plyr.poster = 'https://i.redd.it/' + attr[2] + '.jpg';
+   }
    document.getElementById('header').textContent = vdeo[3];
    document.title = vdeo[3] + ' | Mauve';
 }

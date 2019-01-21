@@ -1,4 +1,9 @@
+body
+{
+   background: radial-gradient(lavender 60%, thistle);
+}
 video
 {
+   max-height: 480px;
    max-width: 100%;
 }

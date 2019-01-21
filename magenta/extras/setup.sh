@@ -1,10 +1,14 @@
 #!/bin/dash -e
 case $1 in
 -i)
-   ln -f -s "$PWD"/yellow.sh /usr/local/bin
+   mkdir -p /usr/local/share/magenta
+   ln -f -s "$PWD"/../assets/data.json /usr/local/share/magenta
+   ln -f -s "$PWD"/available.awk "$PWD"/rename.sh "$PWD"/yellow.sh \
+   /usr/local/bin
    ;;
 -r)
-   rm -f /usr/local/bin/yellow.sh
+   cd /usr/local
+   rm -f -r bin/available.awk bin/rename.sh bin/yellow.sh share/magenta
    ;;
 *)
    echo 'synopsis: setup.sh <operation>
