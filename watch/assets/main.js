@@ -1,14 +1,14 @@
 'use strict';
-let plyr = document.getElementById('player');
+const plyr = document.getElementById('player');
 
 async function main()
 {
-   let vdeo = (await (
+   const vdeo = (await (
       await fetch('/mauve/magenta/assets/data.json')
    ).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );
-   let attr = vdeo[2].split('/');
+   const attr = vdeo[2].split('/');
    switch (attr[0]) {
    case 'g':
       plyr.src = 'https://github.com/cup/mauve/releases/download/' +

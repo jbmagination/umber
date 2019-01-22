@@ -1,23 +1,26 @@
 'use strict';
+
 function qs(sct)
 {
    return document.querySelector(sct);
 }
+
 function dr(s1)
 {
-   var h1 = s1 / (60 * 60) | 0;
+   const h1 = s1 / (60 * 60) | 0;
    s1 %= 60 * 60;
-   var m1 = s1 / 60 | 0;
+   const m1 = s1 / 60 | 0;
    s1 %= 60;
-   var h2 = h1 ? h1 + ':' : '';
-   var m2 = h1 && m1 < 10 ? '0' + m1 : m1;
-   var s2 = s1 < 10 ? '0' + s1 : s1;
+   const h2 = h1 ? h1 + ':' : '';
+   const m2 = h1 && m1 < 10 ? '0' + m1 : m1;
+   const s2 = s1 < 10 ? '0' + s1 : s1;
    return h2 + m2 + ':' + s2;
 }
+
 async function main()
 {
-   var vd = qs('[itemprop="videoId"]').content;
-   var fm = document.createElement('iframe');
+   const vd = qs('[itemprop="videoId"]').content;
+   const fm = document.createElement('iframe');
    fm.src = 'embed/' + vd + '?autoplay=1';
    fm.className = 'player-height player-width';
    fm.setAttribute('allowFullScreen', '');
@@ -26,10 +29,10 @@ async function main()
    qs('#player').className = 'content-alignment watch-small';
    qs('#watch7-sidebar-modules').innerHTML =
       '<ul id="watch-related" class="video-list"></ul>';
-   var ft = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vd);
-   var vn = new URLSearchParams(await ft.text());
+   const ft = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vd);
+   const vn = new URLSearchParams(await ft.text());
    vn.get('rvs').split(',').forEach(xr => {
-      var qa = new URLSearchParams(xr);
+      const qa = new URLSearchParams(xr);
       if (qa.get('list'))
       {
          return;
@@ -47,4 +50,5 @@ async function main()
       </li>`;
    });
 }
+
 main();

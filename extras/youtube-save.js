@@ -1,5 +1,6 @@
 'use strict';
-function flatten(src, path = [], seen = new Map())
+
+function flatten(src, path = [], seen = new Map)
 {
    for (var [ky, vu] of Object.entries(src))
    {
@@ -23,6 +24,7 @@ function flatten(src, path = [], seen = new Map())
       return op;
    }
 }
+
 var ypsi = flatten(ytPubsubPubsubInstance);
 
 var durl = Object.values(ypsi).filter(
@@ -38,6 +40,7 @@ var vqua = Object.keys(ypsi).filter(
 ).map(x => ypsi[x])[Symbol.iterator]();
 
 ypsi = [];
+
 for (var eurl of durl)
 {
    var nurl = new URL(eurl);
@@ -54,7 +57,9 @@ for (var eurl of durl)
       <p><a href="${nurl.href}">${squa} ${nusp.get('mime')}</a></p>
    `);
 }
+
 var fdiv = document.querySelector('#yt-dl');
+
 if (!fdiv)
 {
    fdiv = document.createElement('div');
@@ -70,4 +75,5 @@ if (!fdiv)
 
    document.body.prepend(fdiv);
 }
+
 fdiv.innerHTML = ypsi.sort().join('');
