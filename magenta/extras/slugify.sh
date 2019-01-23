@@ -8,7 +8,7 @@ action:
    exit 1
 fi
 
-slug()
+slugify()
 {
    awk '
    BEGIN {
@@ -25,10 +25,10 @@ for q in *
 do
    case $q in
    *.m4a)
-      z=$(slug "$q" '\.m4a$' .m4a)
+      z=$(slugify "$q" '\.m4a$' .m4a)
       ;;
    *.mp3)
-      z=$(slug "$q" '\.mp3$' .mp3)
+      z=$(slugify "$q" '\.mp3$' .mp3)
       ;;
    *)
       continue
@@ -43,4 +43,4 @@ do
    esac
 done
 
-slug "$PWD"
+slugify "$PWD"
