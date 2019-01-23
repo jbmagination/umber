@@ -20,8 +20,8 @@ async function main()
       plyr.src = 'https://v.redd.it/' + attr[1] + '/audio';
       plyr.poster = 'https://i.redd.it/' + attr[2] + '.jpg';
    }
-   document.getElementById('header').textContent = vdeo[3];
-   document.title = vdeo[3] + ' | Mauve';
+   document.getElementById('header').textContent = `${vdeo[3]} (${vdeo[1]})`;
+   document.title = `${vdeo[3]} (${vdeo[1]}) - Mauve`;
 }
 
 main();
