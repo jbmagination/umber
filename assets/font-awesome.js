@@ -1,5 +1,5 @@
 'use strict';
-document.querySelectorAll('h2, h4').forEach(z => {
+document.querySelectorAll('h2').forEach(z => {
    const e_a = document.createElement('a');
    e_a.className = 'fa fa-link fa-pull-right';
    e_a.href = '#' + z.id;
