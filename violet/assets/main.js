@@ -1,4 +1,5 @@
 'use strict';
+
 async function main()
 {
    let ab = new URLSearchParams(location.search);
@@ -32,4 +33,5 @@ async function main()
       document.getElementById('figures').append(e_fu);
    });
 }
+
 main();
