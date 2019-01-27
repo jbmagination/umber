@@ -1,7 +1,7 @@
 Raspberry
 =========
 
-![hero](/raspberry/image.jpg)
+![hero](assets/image.jpg)
 
 WebExtension to pause and play YouTube
 
