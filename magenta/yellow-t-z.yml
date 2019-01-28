@@ -1431,20 +1431,17 @@ U2:
       Surrender:
       40: sh
 Ulrich Schnauss:
-   Goodbye:
-      $: &gr 61,568 youtu.be/yLNM-rJi1mM
-      Never Be the Same: bd
-      Shine: bd
-      Stars: bd
-      Einfeld: bd
-      In Between the Years: bd
-      Here Today, Gone Tomorrow: bd
-      A Song About Hope: bd
-      Medusa: bd
-      Goodbye: gd
-      For Good: bd
-Ulrich Schnauss & Jonas Munk:
-   Passage:
+   Synthwaves (2017):
+      $: *gr
+      Main Theme:
+      Rain on Dry Concrete:
+      Slow Life: gd
+      Cats and Dogs:
+      A Calm but Steady Flow:
+      Thirst: gd
+      Flare:
+      Prism:
+   Passage (2017):
       $: *gr
       Amaris: bd
       Genau Wie Damals: bd
@@ -1457,17 +1454,29 @@ Ulrich Schnauss & Jonas Munk:
       Caffeine Blues: bd
       Intervention Måne: sh
       Coastal Path: gd
-Ulrich Schnauss & Thorsten Quaeschning:
-   Synthwaves:
-      $: *gr
-      Main Theme:
-      Rain on Dry Concrete:
-      Slow Life: gd
-      Cats and Dogs:
-      A Calm but Steady Flow:
-      Thirst: gd
-      Flare:
-      Prism:
+   No Further Ahead Than Today (2016):
+   Tomorrow Is Another Day (2013):
+   A Long Way to Fall (2013):
+   Underrated Silence (2012):
+   Ulrich Schnauss & Jonas Munk (2011):
+   Frozen in Time (2011):
+   Epic (2010):
+   Goodbye (2007):
+      $: &gr 61,568 youtu.be/yLNM-rJi1mM
+      Never Be the Same: bd
+      Shine: bd
+      Stars: bd
+      Einfeld: bd
+      In Between the Years: bd
+      Here Today, Gone Tomorrow: bd
+      A Song About Hope: bd
+      Medusa: bd
+      Goodbye: gd
+      For Good: bd
+   A Strangely Isolated Place (2003):
+   Far Away Trains Passing By (2001):
+   Landscapes (1999):
+   The 7th Seal (1997):
 Underworld:
    Dubnobasswithmyheadman:
       $: &gr 1,501,433 youtu.be/TlLWFa1b1Bc
