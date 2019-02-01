@@ -1443,7 +1443,9 @@ U2:
       40: sh
 Ulrich Schnauss:
    Synthwaves (2017):
-      $: *gr
+      $: &gr
+         URL: https://youtu.be/yLNM-rJi1mM
+         VPY: 61,568
       Main Theme:
       Rain on Dry Concrete:
       Slow Life: gd
@@ -1473,7 +1475,7 @@ Ulrich Schnauss:
    Frozen in Time (2011):
    Epic (2010):
    Goodbye (2007):
-      $: &gr 61,568 youtu.be/yLNM-rJi1mM
+      $: *gr
       Never Be the Same: bd
       Shine: bd
       Stars: bd
@@ -1485,6 +1487,15 @@ Ulrich Schnauss:
       Goodbye: gd
       For Good: bd
    A Strangely Isolated Place (2003):
+      $: *gr
+      Gone Forever: bd
+      On My Own: bd
+      A Letter From Home: bd
+      Monday - Paracetamol: gd
+      Clear Day:
+      Blumenthal:
+      In All the Wrong Places:
+      A Strangely Isolated Place:
    Far Away Trains Passing By (2001):
    Landscapes (1999):
    The 7th Seal (1997):
@@ -1692,8 +1703,43 @@ Yppah:
       It’s Not the Same: sh
       Longtime: bd
 Zero 7:
+   <updated: 2019-2-1
+   Yeah Ghost:
+      <year: 2009
+   The Garden:
+      <year: 2006
+      <<: &gr
+         <url: https://youtu.be/INn1C6ImJKg
+         <vpy: 544,309
+      Futures:
+      Throw It All Away: gd
+      Seeing Things:
+      The Pageant of the Bizarre:
+      You’re My Flame:
+      Left Behind: sh
+      Today:
+      This Fine Social Scene:
+      Your Place:
+      If I Can’t Have You:
+      Crosses: gd
+      Waiting to Die:
+   When It Falls:
+      <year: 2004
+      <<: *gr
+      Warm Sound:
+      Home:
+      Somersault:
+      Passing By:
+      Over Our Heads:
+      When It Falls:
+      The Space Between:
+      Speed Dial No. 2:
+      Look Up: gd
+      In Time:
+      Morning Song:
    Simple Things:
-      $: &gr 544,309 youtu.be/INn1C6ImJKg
+      <year: 2001
+      <<: *gr
       I Have Seen: bd
       Polaris: gd
       Destiny: gd
@@ -1708,30 +1754,3 @@ Zero 7:
       End Theme: bd
       Spinning Dub: bd
       Salt Water Sound: gd
-   The Garden:
-      $: *gr
-      Futures:
-      Throw It All Away: gd
-      Seeing Things:
-      The Pageant of the Bizarre:
-      You’re My Flame:
-      Left Behind: sh
-      Today:
-      This Fine Social Scene:
-      Your Place:
-      If I Can’t Have You:
-      Crosses: gd
-      Waiting to Die:
-   When It Falls:
-      $: *gr
-      Warm Sound:
-      Home:
-      Somersault:
-      Passing By:
-      Over Our Heads:
-      When It Falls:
-      The Space Between:
-      Speed Dial No. 2:
-      Look Up: gd
-      In Time:
-      Morning Song:
