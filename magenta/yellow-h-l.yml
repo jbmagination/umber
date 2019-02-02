@@ -1,6 +1,6 @@
 Harold Budd:
    Jane 12-21 (2014):
-      <flow: &gr 88,887 youtu.be/hQKGP3J6Q9s
+      <flow: &low 88,887 youtu.be/hQKGP3J6Q9s
       Jane 12: bd
       Jane 13: bd
       Jane 14: bd
@@ -12,7 +12,7 @@ Harold Budd:
       Jane 20: bd
       Jane 21: len
    Jane 1-11 (2013):
-      <flow: *gr
+      <flow: *low
       Jane 1: bd
       Jane 2: gd
       Jane 3: gd
@@ -29,7 +29,7 @@ Harold Budd:
    Winter Garden (2011):
    In the Mist (2011):
    Bordeaux (2011):
-      <flow: *gr
+      <flow: *low
       Gaze:
       Deva C:
       The Names of Those Never Here: gd
@@ -43,7 +43,7 @@ Harold Budd:
    Candylion (2009):
    A Song for Lost Blossoms (2008):
    Before the Day Breaks (2007):
-      <flow: *gr
+      <flow: *low
       How Close Your Soul: gd
       A Formless Path: gd
       A Minute, a Day, No More: gd
@@ -54,7 +54,7 @@ Harold Budd:
       My Monochrome Vision:
       Turn On the Moon:
    After the Night Falls (2007):
-      <flow: *gr
+      <flow: *low
       How Distant Your Heart: bd
       Avenue of Shapes: gd
       Seven Thousand Sunny Years: bd
@@ -65,7 +65,7 @@ Harold Budd:
       The Girl With Colorful Thoughts: bd
       Turn Off the Sun: bd
    Perhaps (2007):
-      <flow: *gr
+      <flow: *low
       Templar: bd
       Tong War: bd
       Quandari: bd
@@ -89,7 +89,7 @@ Harold Budd:
    Glyph (1995):
    She Is a Phantom (1994):
    Through the Hill (1994):
-      <flow: *gr
+      <flow: *low
       Hand 19: len
       Through the Hill: gd
       Great Valley of Gongs: gd
@@ -112,7 +112,7 @@ Harold Budd:
    By the Dawn’s Early Light (1991):
    The Serpent (In Quicksilver) / Abandoned Cities (1989):
    The White Arcades (1988):
-      <flow: *gr
+      <flow: *low
       The White Arcades: bd
       Balthus Bemused by Color: bd
       The Child With a Lion: bd
@@ -127,7 +127,7 @@ Harold Budd:
    Abandoned Cities (1984):
    The Pearl (1984):
    The Pearl:
-      <flow: *gr
+      <flow: *low
       Late October:
       A Stream With Bright Fish:
       The Silver Ball:
@@ -147,7 +147,7 @@ Heart:
       <flow: 16,073,551 youtu.be/1Cw1ng75KP0
       Alone:
    Dog & Butterfly:
-      <flow: &gr 3,468,808 youtu.be/41P8UxneDJE
+      <flow: &low 3,468,808 youtu.be/41P8UxneDJE
       Cook With Fire:
       High Time:
       Hijinx:
@@ -157,7 +157,7 @@ Heart:
       Nada One:
       Mistral Wind:
    Little Queen:
-      <flow: *gr
+      <flow: *low
       Barracuda: gd
       Love Alive:
       Sylvan Song: len
@@ -203,7 +203,7 @@ Hope Sandoval & The Warm Inventions:
 Hudson Mohawke:
    $updated: 2018-7-19
    Butter:
-      <flow: &gr 1,316,767 youtu.be/6HzyUHxmkg0
+      <flow: &low 1,316,767 youtu.be/6HzyUHxmkg0
       Shower Melody: len
       Gluetooth: gd
       Joy Fantastic: bd
@@ -223,7 +223,7 @@ Hudson Mohawke:
       Allhot: len
       Black n Red: len
    Lantern:
-      <flow: *gr
+      <flow: *low
       Lantern: len
       Very First Breath: bd
       Ryderz: len
@@ -241,7 +241,7 @@ Hudson Mohawke:
 Imogen Heap:
    Sparks (2014):
    Ellipse (2009):
-      <flow: &gr 484,658 youtu.be/13WAhlE02ew
+      <flow: &low 484,658 youtu.be/13WAhlE02ew
       First Train Home: bd
       Wait It Out: bd
       Earth: bd
@@ -259,7 +259,7 @@ Imogen Heap:
       <flow: 26,954,103 youtu.be/pBI3lc18k8Q
       Hide and Seek:
    Details (2002) (Frou Frou):
-      <flow: *gr
+      <flow: *low
       Let Go: gd
       Breathe In:
       It’s Good to Be in Love:
@@ -272,7 +272,7 @@ Imogen Heap:
       Flicks:
       The Dumbing Down of Love:
    i Megaphone (1998):
-      <flow: *gr
+      <flow: *low
       Getting Scared: bd
       Sweet Religion: bd
       Oh Me, Oh My: bd
@@ -288,7 +288,7 @@ Incubus:
    8 (2017):
    If Not Now, When? (2011):
    Light Grenades (2006):
-      <flow: &gr 4,831,802 youtu.be/8295rOMvtQI
+      <flow: &low 4,831,802 youtu.be/8295rOMvtQI
       Quicksand: len
       A Kiss to Send Us Off:
       Dig: gd
@@ -306,7 +306,7 @@ Incubus:
       Look Alive:
    A Crow Left of the Murder… (2004):
    Morning View (2001):
-      <flow: *gr
+      <flow: *low
       Nice to Know You: gd
       Circles: gd
       Wish You Were Here: gd
@@ -327,7 +327,7 @@ Incubus:
    Fungus Amongus (1995):
 Interpol:
    Antics:
-      <flow: &gr 3,226,641 youtu.be/-u6DvRyyKGU
+      <flow: &low 3,226,641 youtu.be/-u6DvRyyKGU
       Next Exit:
       Evil:
       NARC: gd
@@ -347,7 +347,7 @@ Interpol:
       Evil:
       Slow Hands:
    El Pintor:
-      <flow: *gr
+      <flow: *low
       All the Rage Back Home: gd
       My Desire: gd
       Anywhere:
@@ -363,7 +363,7 @@ Interpol:
       If You Really Love Nothing:
       The Rover:
    Our Love to Admire:
-      <flow: *gr
+      <flow: *low
       Pioneer to the Falls: gd
       No I in Threesome: gd
       The Scale: gd
@@ -376,7 +376,7 @@ Interpol:
       Wrecking Ball:
       The Lighthouse: gd
    Turn On the Bright Lights:
-      <flow: *gr
+      <flow: *low
       Untitled:
       Obstacle 1: gd
       NYC:
@@ -394,7 +394,7 @@ INXS:
       Never Tear Us Apart:
 Isan:
    Beautronics:
-      <flow: &gr 15,594 youtu.be/XLfiCRanawQ
+      <flow: &low 15,594 youtu.be/XLfiCRanawQ
       Vosill: gd
       Tint1-Barely Barley: len
       Paintchart: bd
@@ -412,7 +412,7 @@ Isan:
       Sublimation:
       Anklet:
    Lucky Cat:
-      <flow: *gr
+      <flow: *low
       Cutlery Favours: bd
       Table of Deciduous Species: bd
       Fueled: bd
@@ -426,7 +426,7 @@ Isan:
       Scraph: bd
       You Can Use Bamboo as a Ruler: bd
    Meet Next Life:
-      <flow: *gr
+      <flow: *low
       Birds Over Barges:
       First Date - Jumble Sale:
       One Man Abandon:
@@ -507,7 +507,7 @@ James Blake:
       To the Last:
       Our Love Comes Back:
    James Blake (2011):
-      <flow: *gr
+      <flow: *low
       Unluck:
       The Wilhelm Scream: gd
       I Never Learnt to Share:
@@ -545,7 +545,7 @@ Janet Jackson:
       <flow: 18,435,567 youtu.be/VbaKMVk4kcw
       Would You Mind:
    The Velvet Rope (1997):
-      <flow: &gr 673,978 youtu.be/r9uizdKZAGE
+      <flow: &low 673,978 youtu.be/r9uizdKZAGE
       Interlude Twisted Elegance: len
       Velvet Rope:
       You:
@@ -569,7 +569,7 @@ Janet Jackson:
       Interlude Sad: len
       Special:
    janet. (1993):
-      <flow: *gr
+      <flow: *low
       Morning: len
       That’s the Way Love Goes: gd
       You Know...: len
@@ -744,7 +744,7 @@ Jessie Ware:
       Wildest Moments:
 Jessy Lanza:
    Pull My Hair Back:
-      <flow: &gr 120,088 youtu.be/ZF2lZesYZo0
+      <flow: &low 120,088 youtu.be/ZF2lZesYZo0
       Giddy:
       5785021:
       Kathy Lee:
@@ -755,14 +755,14 @@ Jessy Lanza:
       As If:
       Strange Emotion: gd
    You Never Show Your Love:
-      <flow: *gr
+      <flow: *low
       You Never Show Your Love: gd
       You Never Show Your Love (instrumental):
       You Never Show Your Love (Teklife mix):
       Fuck Diamond (Bambounou remix):
 John Frusciante:
    Curtains:
-      <flow: &gr 826,721 youtu.be/4v9CfE90Sts
+      <flow: &low 826,721 youtu.be/4v9CfE90Sts
       The Past Recedes:
       Lever Pulled: len
       Anne:
@@ -776,7 +776,7 @@ John Frusciante:
       Leap Your Bar: len
 John Frusciante & Omar Rodriguez Lopez:
    Omar Rodriguez Lopez & John Frusciante:
-      <flow: *gr
+      <flow: *low
       417 am:
       0=2: gd
       LOE:
@@ -811,7 +811,7 @@ Joy Division:
       I Remember Nothing:
 Julia Holter:
    Have You in My Wilderness:
-      <flow: &gr 386,435 youtu.be/X2JgMniIpRM
+      <flow: &low 386,435 youtu.be/X2JgMniIpRM
       Feel You: gd
       Silhouette:
       How Long?:
@@ -823,7 +823,7 @@ Julia Holter:
       Vasquez:
       Have You in My Wilderness:
    Loud City Song:
-      <flow: *gr
+      <flow: *low
       World:
       Maxim’s I:
       Horns Surrounding Me: gd
@@ -834,7 +834,7 @@ Julia Holter:
       This Is a True Heart:
       City Appearing:
    Tragedy:
-      <flow: *gr
+      <flow: *low
       Introduction: bd
       Try to Make Yourself a Work of Art: bd
       The Falling Age: bd
@@ -884,7 +884,7 @@ Justin Timberlake:
       TKO:
 Kammerflimmer Kollektief:
    Cicadidae:
-      <flow: &gr 6,591 youtu.be/OBNvfFFYBQA
+      <flow: &low 6,591 youtu.be/OBNvfFFYBQA
       Neumond inselhin: gd
       Sie tranken Regen: len
       Über die Wasserscheide: gd
@@ -896,7 +896,7 @@ Kammerflimmer Kollektief:
       Irgendwann Frühling: bd
       There’s a Weight on You, but You Can’t Feel It.: gd
    Désarroi:
-      <flow: *gr
+      <flow: *low
       Mayhem!: bd
       grundstürzend: gd
       Free Form Freak-Out: bd
@@ -907,7 +907,7 @@ Kammerflimmer Kollektief:
       Zurück zum Beton (version): bd
       Mayhem! (reprise): bd
    There Are Actions Which We Have Neglected and Which Never Cease to Call Us:
-      <flow: *gr
+      <flow: *low
       Action 1 Lucid, Imperial Beach: bd
       Action 2 Discharged, Quauhnáhuac: bd
       Action 3 Thoughtless, Hamburg: bd
@@ -916,7 +916,7 @@ Kammerflimmer Kollektief:
       Action 6 Vigilant, Jerichow: len
       Action 7 Blessed, Ermenonville:
    Wildling:
-      <flow: *gr
+      <flow: *low
       Move Right In: gd
       Silver Chords: gd
       Aum a Go-Go: len
@@ -951,7 +951,7 @@ Kacey Musgraves:
       It Is What It Is: bd
 Kate Bush:
    Hounds of Love:
-      <flow: &gr 3,230,338 youtu.be/BW3gKKiTvjs
+      <flow: &low 3,230,338 youtu.be/BW3gKKiTvjs
       Running Up That Hill: gd
       Hounds of Love: bd
       The Big Sky: bd
@@ -965,7 +965,7 @@ Kate Bush:
       Hello Earth: bd
       The Morning Fog: len
    The Kick Inside:
-      <flow: *gr
+      <flow: *low
       Moving: bd
       The Saxophone Song: bd
       Strange Phenomena: len
@@ -1008,7 +1008,7 @@ Koda:
       Waking: gd
 Koji Kondo:
    The Legend of Zelda Ocarina of Time:
-      <flow: &gr 788,113 youtu.be/-uInmFU6JkU
+      <flow: &low 788,113 youtu.be/-uInmFU6JkU
       Title Theme: len
       Deku Tree: len
       Fairy Flying: len
@@ -1045,7 +1045,7 @@ Koji Kondo:
       Prelude of Light: len
       Requiem of Spirit: len
    The Legend of Zelda The Wind Waker:
-      <flow: *gr
+      <flow: *low
       Title: len
       Menu Select: len
       The Legendary Hero:
@@ -1144,7 +1144,7 @@ Laurel Halo:
 Led Zeppelin:
    Coda (1982):
    In Through the Out Door (1979):
-      <flow: &gr 5,999,659 youtu.be/sfR_HWMzgyc
+      <flow: &low 5,999,659 youtu.be/sfR_HWMzgyc
       In the Evening:
       South Bound Saurez:
       Fool in the Rain: gd
@@ -1157,7 +1157,7 @@ Led Zeppelin:
       <flow: 7,367,630 youtu.be/PD-MdiUm1_Y
       Kashmir:
    Houses of the Holy (1973):
-      <flow: *gr
+      <flow: *low
       The Song Remains the Same:
       The Rain Song:
       Over the Hills and Far Away: gd
@@ -1167,8 +1167,8 @@ Led Zeppelin:
       No Quarter:
       The Ocean:
    '[Led Zeppelin IV]':
-      <url: https://youtu.be/D9ioyEvdggk
-      <vpy: 78,163,234
+      <flow: 78,163,234
+      <link: https://youtu.be/D9ioyEvdggk
       <year: 1971
       Black Dog:
       Rock and Roll:
@@ -1207,11 +1207,11 @@ Lenny Kravitz:
       The Chamber:
 Leon Vynehall:
    Midnight on Rainbow Road:
-      <flow: &gr 635,809 youtu.be/XpIrFglZfQU
+      <flow: &low 635,809 youtu.be/XpIrFglZfQU
       Midnight on Rainbow Road (Beat Edit): bd
       Midnight on Rainbow Road: gd
    Music for the Uninvited:
-      <flow: *gr
+      <flow: *low
       Inside the Deku Tree: gd
       Goodthing:
       Be Brave, Clench Fists: gd
@@ -1220,7 +1220,7 @@ Leon Vynehall:
       Christ Air:
       St. Sinclair:
    Rojus:
-      <flow: *gr
+      <flow: *low
       Beyond This:
       Saxony:
       Beau Sovereign:
@@ -1278,7 +1278,7 @@ Linkin Park:
       Until It’s Gone:
 Lisa Loeb:
    Hello Lisa (2002):
-      <flow: &gr 554,934 youtu.be/ka9mCmx9Jhs
+      <flow: &low 554,934 youtu.be/ka9mCmx9Jhs
       Did That: bd
       Underdog: bd
       You Don’t Know Me: bd
@@ -1292,7 +1292,7 @@ Lisa Loeb:
       Take Me Back:
       What Am I Supposed to Say (acoustic):
    Firecracker (1997):
-      <flow: *gr
+      <flow: *low
       I Do: gd
       Falling in Love:
       Truthfully: len
@@ -1306,7 +1306,7 @@ Lisa Loeb:
       Split Second: len
       Firecracker:
    Tails (1995):
-      <flow: *gr
+      <flow: *low
       It’s Over:
       Snow Day: gd
       Taffy:
@@ -1369,7 +1369,7 @@ Luke Slater (The 7th Plain):
       Grace:
 Lykke Li:
    I Never Learn:
-      <flow: &gr 3,537,837 youtu.be/5dT312CDPJI
+      <flow: &low 3,537,837 youtu.be/5dT312CDPJI
       I Never Learn: bd
       No Rest for the Wicked: bd
       Just Like a Dream: bd
@@ -1384,7 +1384,7 @@ Lykke Li:
       I Follow Rivers:
       Sadness Is a Blessing:
    Youth Novels:
-      <flow: *gr
+      <flow: *low
       Melodies & Desires: gd
       Dance, Dance, Dance: bd
       I’m Good, I’m Gone: bd

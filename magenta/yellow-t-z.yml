@@ -11,7 +11,7 @@ Tangerine Dream:
    Le Parc (1985):
    Hyperborea (1983):
    Risky Business (1983):
-      <flow: &gr 197,024 youtu.be/2w8VsvJ40sM
+      <flow: &low 197,024 youtu.be/2w8VsvJ40sM
       The Dream Is Always the Same: bd
       No Future (Get off the Babysitter): len
       Guido the Killer Pimp: bd
@@ -21,7 +21,7 @@ Tangerine Dream:
    Exit (1981):
    Tangram (1980):
    Force Majeure (1979):
-      <flow: *gr
+      <flow: *low
       Force Majeure: bd
       Cloudburst Flight: gd
       Thru Metamorphic Rocks: bd
@@ -53,7 +53,7 @@ Tears for Fears:
    The Hurting (1983):
 The Black Dog:
    Further Vexations:
-      <flow: &gr 12,602 youtu.be/NZznxCVwzrk
+      <flow: &low 12,602 youtu.be/NZznxCVwzrk
       Biomantric L-if-e: gd
       0093:
       Phil Because Ov, Indeed: len
@@ -70,14 +70,14 @@ The Black Dog:
       Later Vexations:
       Kissing Someone Else’s D.O.G:
    Peel Session:
-      <flow: *gr
+      <flow: *low
       Shadehead: gd
       Rise Up:
       Simperton:
       Rue:
       Psycosyin:
    Radio Scarecrow:
-      <flow: *gr
+      <flow: *low
       Transmission Start: len
       Train by the Autobahn, Part 1: gd
       Train by the Autobahn, Part 2: gd
@@ -96,7 +96,7 @@ The Black Dog:
       Ghost Vexations: gd
       Dials & Dialers 2: len
    Silenced:
-      <flow: *gr
+      <flow: *low
       Trojan Horus, Part 1:
       Trojan Horus, Part 2: len
       Lam Vril:
@@ -116,7 +116,7 @@ The Black Dog:
       4 3s 555, Part 1: len
       4 3s 555, Part 2:
    Spanners:
-      <flow: *gr
+      <flow: *low
       Raxmus: gd
       Barbola Work: bd
       Psil-Cosyin: bd
@@ -162,7 +162,7 @@ The Cars:
       Think It Over: bd
       Maybe Baby: bd
    The Cars:
-      <flow: *gr
+      <flow: *low
       Good Times Roll: bd
       My Best Friend’s Girl: bd
       Just What I Needed: bd
@@ -174,7 +174,7 @@ The Cars:
       All Mixed Up:
 The Cinematic Orchestra:
    Every Day:
-      <flow: &gr 3,468,989 youtu.be/QB0ordd2nOI
+      <flow: &low 3,468,989 youtu.be/QB0ordd2nOI
       All That You Give: gd
       Burn Out:
       Flite:
@@ -185,7 +185,7 @@ The Cinematic Orchestra:
       Oregon: gd
       Semblance: len
    Live at the Royal Albert Hall:
-      <flow: *gr
+      <flow: *low
       All That You Give:
       Child Song: gd
       Flite:
@@ -196,7 +196,7 @@ The Cinematic Orchestra:
       Man With the Movie Camera:
       Time and Space: gd
    Ma fleur:
-      <flow: *gr
+      <flow: *low
       To Build a Home:
       Familiar Ground:
       Child Song:
@@ -209,7 +209,7 @@ The Cinematic Orchestra:
       That Home: len
       Time & Space:
    Man With a Movie Camera:
-      <flow: *gr
+      <flow: *low
       The Projectionist: len
       Melody: len
       Dawn: gd
@@ -228,7 +228,7 @@ The Cinematic Orchestra:
       The Animated Tripod: len
       All Things: gd
    Motion:
-      <flow: *gr
+      <flow: *low
       Durian:
       Ode to the Big Sea:
       Night of the Iguana:
@@ -308,7 +308,7 @@ The Cranberries:
       When You’re Gone:
 The Crystal Method:
    Legion of Boom:
-      <flow: &gr 296,927 youtu.be/A12-KN5UijA
+      <flow: &low 296,927 youtu.be/A12-KN5UijA
       Starting Over:
       Born Too Slow:
       True Grit: gd
@@ -322,7 +322,7 @@ The Crystal Method:
       High and Low:
       Wide Open:
    London Original Motion Picture Soundtrack:
-      <flow: *gr
+      <flow: *low
       London: len
       Smoked:
       Fire to Me:
@@ -333,7 +333,7 @@ The Crystal Method:
       Glass Breaker:
       I Luv U: len
    Tweekend:
-      <flow: *gr
+      <flow: *low
       PHD: gd
       Wild, Sweet and Cool: gd
       Roll It Up: gd
@@ -346,7 +346,7 @@ The Crystal Method:
       Blowout:
       Tough Guy:
    Vegas:
-      <flow: *gr
+      <flow: *low
       Trip Like I Do: gd
       Busy Child: gd
       Cherry Twist: gd
@@ -372,7 +372,7 @@ The Cure:
       Untitled:
 The Dave Brubeck Quartet:
    Time Further Out:
-      <flow: &gr 4,829,881 youtu.be/vmDDOFXSgAs
+      <flow: &low 4,829,881 youtu.be/vmDDOFXSgAs
       It’s a Raggy Waltz:
       Bluette:
       Charles Matthew Hallelujah: len
@@ -383,7 +383,7 @@ The Dave Brubeck Quartet:
       Bru’s Boogie Woogie: len
       Blue Shadows in the Street:
    Time Out:
-      <flow: *gr
+      <flow: *low
       Blue Rondo à la Turk:
       Strange Meadow Lark:
       Take Five: gd
@@ -459,7 +459,7 @@ The Kinks:
       Going Solo:
 The Mars Volta:
    Noctourniquet (2012):
-      <flow: &gr 641,567 youtu.be/VUBQLnEGHNk
+      <flow: &low 641,567 youtu.be/VUBQLnEGHNk
       The Whip Hand: bd
       Aegis: bd
       Dyslexicon: bd
@@ -474,7 +474,7 @@ The Mars Volta:
       Noctourniquet:
       Zed and Two Naughts:
    Octahedron (2009):
-      <flow: *gr
+      <flow: *low
       Since We’ve Been Wrong: gd
       Teflon: gd
       Halo of Nembutals: bd
@@ -484,7 +484,7 @@ The Mars Volta:
       Copernicus: gd
       Luciforms:
    The Bedlam in Goliath (2007):
-      <flow: *gr
+      <flow: *low
       Aberinkula:
       Metatron: gd
       Ilyena: gd
@@ -498,7 +498,7 @@ The Mars Volta:
       Soothsayer: gd
       Conjugal Burns:
    Amputechture (2006):
-      <flow: *gr
+      <flow: *low
       Vicarious Atonement: gd
       Tetragrammaton: gd
       Vermicide:
@@ -508,14 +508,14 @@ The Mars Volta:
       Day of the Baphomets:
       El Ciervo Vulnerado:
    Frances the Mute (2005):
-      <flow: *gr
+      <flow: *low
       Cygnus....Vismund Cygnus: gd
       The Widow: gd
       L’Via L’Viaquez:
       Miranda That Ghost Just Isn’t Holy Anymore:
       Cassandra Gemini: gd
    De‐Loused in the Comatorium (2003):
-      <flow: *gr
+      <flow: *low
       Son et lumiere: len
       Inertiatic ESP: gd
       Roulette Dares (The Haunt Of):
@@ -527,13 +527,13 @@ The Mars Volta:
       Televators:
       Take the Veil Cerpin Taxt:
    Tremulant EP (2002):
-      <flow: *gr
+      <flow: *low
       Cut That City: bd
       Concertina: bd
       Eunuch Provocateur: gd
 The Midnight:
    Days of Thunder (the instrumentals):
-      <flow: &gr 793,013 youtu.be/_pUL7u-mYqA
+      <flow: &low 793,013 youtu.be/_pUL7u-mYqA
       The Years (prologue) (instrumental):
       Gloria (instrumental):
       WeMoveForward (instrumental):
@@ -541,7 +541,7 @@ The Midnight:
       Kick Drums & Red Wine (instrumental):
       Los Angeles (instrumental):
    Endless Summer:
-      <flow: *gr
+      <flow: *low
       Endless Summer:
       Sunset: gd
       Daytona:
@@ -555,7 +555,7 @@ The Midnight:
       Lonely City:
       Memories:
    Nocturnal:
-      <flow: *gr
+      <flow: *low
       Shadows:
       Crystalline:
       Collateral: gd
@@ -568,7 +568,7 @@ The Police:
       <flow: 7,880,139 youtu.be/3T1c7GkzRQQ
       Roxanne:
    Reggatta de Blanc:
-      <flow: &gr 5,239,976 youtu.be/MbXWrmQW-OE
+      <flow: &low 5,239,976 youtu.be/MbXWrmQW-OE
       Message in a Bottle: gd
       Reggatta de Blanc:
       It’s Alright for You:
@@ -584,7 +584,7 @@ The Police:
       <flow: 66,446,987 youtu.be/OMOGaugKpzs
       Every Breath You Take:
    Zenyattà Mondatta:
-      <flow: *gr
+      <flow: *low
       Don’t Stand So Close to Me:
       Driven to Tears: gd
       When the World Is Running Down, You Make the Best of What’s Still Around:
@@ -639,7 +639,7 @@ The Rolling Stones:
       <flow: 12,516,457 youtu.be/qEuV82GqQnE
       Ride ’em on Down:
    Bridges to Babylon:
-      <flow: &gr 5,060,555 youtu.be/BinwuzZVjnE
+      <flow: &low 5,060,555 youtu.be/BinwuzZVjnE
       Flip the Switch:
       Anybody Seen My Baby?: gd
       Low Down:
@@ -663,7 +663,7 @@ The Rolling Stones:
       <flow: 16,613,615 youtu.be/nrIPxlFzDi0
       (I Can’t Get No) Satisfaction:
    Some Girls:
-      <flow: *gr
+      <flow: *low
       Miss You: gd
       When the Whip Comes Down:
       Just My Imagination (Running Away With Me):
@@ -675,7 +675,7 @@ The Rolling Stones:
       Beast of Burden:
       Shattered:
    Sticky Fingers:
-      <flow: *gr
+      <flow: *low
       Brown Sugar:
       Sway:
       Wild Horses: gd
@@ -688,7 +688,7 @@ The Rolling Stones:
       Moonlight Mile: gd
 The Smiths:
    Meat Is Murder:
-      <flow: &gr 2,538,862 youtu.be/hnpILIIo9ek
+      <flow: &low 2,538,862 youtu.be/hnpILIIo9ek
       The Headmaster Ritual:
       Rusholme Ruffians:
       I Want the One I Can’t Have:
@@ -700,7 +700,7 @@ The Smiths:
       Barbarism Begins at Home: gd
       Meat Is Murder:
    Strangeways, Here We Come:
-      <flow: *gr
+      <flow: *low
       A Rush and a Push and the Land Is Ours: gd
       I Started Something I Couldn’t Finish:
       Death of a Disco Dancer:
@@ -733,7 +733,7 @@ The Stranglers:
       La Folie:
 The Sundays:
    Static & Silence (1997):
-      <flow: &gr 572,322 youtu.be/BiyCkSOF1pc
+      <flow: &low 572,322 youtu.be/BiyCkSOF1pc
       Summertime:
       Homeward:
       Folk Song: gd
@@ -746,7 +746,7 @@ The Sundays:
       Cry:
       Monochrome:
    Blind (1992):
-      <flow: *gr
+      <flow: *low
       I Feel:
       Goodbye: gd
       Life & Soul: len
@@ -760,7 +760,7 @@ The Sundays:
       Medicine:
       Wild Horses: gd
    Reading, Writing and Arithmetic (1990):
-      <flow: *gr
+      <flow: *low
       Skin & Bones: bd
       Here’s Where the Story Ends: gd
       Can’t Be Sure:
@@ -804,7 +804,7 @@ The xx:
       VCR:
 Thievery Corporation:
    Culture of Fear:
-      <flow: &gr 2,667,045 youtu.be/uN9tulBHr8Y
+      <flow: &low 2,667,045 youtu.be/uN9tulBHr8Y
       Web of Deception:
       Culture of Fear:
       Take My Soul:
@@ -819,7 +819,7 @@ Thievery Corporation:
       Overstand:
       Free:
    Radio Retaliation:
-      <flow: *gr
+      <flow: *low
       Sound the Alarm:
       Mandala:
       Radio Retaliation:
@@ -836,7 +836,7 @@ Thievery Corporation:
       Blasting Through the City:
       Sweet Tides:
    The Cosmic Game:
-      <flow: *gr
+      <flow: *low
       Marching the Hate Machines (Into the Sun): gd
       Warning Shots:
       Revolution Solution:
@@ -854,7 +854,7 @@ Thievery Corporation:
       The Time We Lost Our Way: gd
       A Gentle Dissolve: len
    The Mirror Conspiracy:
-      <flow: *gr
+      <flow: *low
       Treasures: len
       Le Monde: gd
       Indra: gd
@@ -869,7 +869,7 @@ Thievery Corporation:
       The Mirror Conspiracy:
       Tomorrow: gd
    The Richest Man in Babylon:
-      <flow: *gr
+      <flow: *low
       Heaven’s Gonna Burn Your Eyes:
       Facing East:
       The Outernationalist:
@@ -890,7 +890,7 @@ Third Eye Blind:
    Ursa Major (2009):
    Out of the Vein (2003):
    Blue (1999):
-      <flow: &gr 3,023,934 youtu.be/QdgCajndgNw
+      <flow: &low 3,023,934 youtu.be/QdgCajndgNw
       Anything: len
       Wounded: bd
       10 Days Late: bd
@@ -905,7 +905,7 @@ Third Eye Blind:
       Darkness:
       Darwin / The Red Summer Sun (extended coda):
    Third Eye Blind (1997):
-      <flow: *gr
+      <flow: *low
       Losing a Whole Year:
       Narcolepsy:
       Semi‐Charmed Life:
@@ -922,7 +922,7 @@ Third Eye Blind:
       God of Wine:
 Thunderball:
    Cinescope:
-      <flow: &gr 4,036 youtu.be/uF1-yW79tw4
+      <flow: &low 4,036 youtu.be/uF1-yW79tw4
       The Road to Benares:
       Electric Shaka (feat. Afrika Bambataaa):
       Return of the Panther (feat. Mustafa Akbar):
@@ -936,7 +936,7 @@ Thunderball:
       Elevated States (feat. Mustafa Akbar):
       Last Flight Out: gd
    Scorpio Rising:
-      <flow: *gr
+      <flow: *low
       Heart of the Hustler:
       Domino: gd
       Vai Vai:
@@ -1005,7 +1005,7 @@ Toadies:
       I Burn:
 Tom Waits:
    Bad as Me:
-      <flow: &gr 1,402,774 youtu.be/EtLVXBqfqBY
+      <flow: &low 1,402,774 youtu.be/EtLVXBqfqBY
       Chicago: len
       Raised Right Men:
       Talking at the Same Time:
@@ -1020,7 +1020,7 @@ Tom Waits:
       Hell Broke Luce:
       New Year’s Eve:
    Blue Valentine:
-      <flow: *gr
+      <flow: *low
       Somewhere (from ’West Side Story’):
       Red Shoes by the Drugstore:
       Christmas Card From a Hooker in Minneapolis:
@@ -1032,7 +1032,7 @@ Tom Waits:
       A Sweet Little Bullet From a Pretty Blue Gun:
       Blue Valentines: gd
    Bone Machine:
-      <flow: *gr
+      <flow: *low
       Earth Died Screaming:
       Dirt in the Ground:
       Such a Scream: len
@@ -1050,7 +1050,7 @@ Tom Waits:
       Let Me Get Up on It: len
       That Feel:
    Foreign Affairs:
-      <flow: *gr
+      <flow: *low
       Cinny’s Waltz: len
       Muriel: bd
       I Never Talk to Strangers: gd
@@ -1061,7 +1061,7 @@ Tom Waits:
       Barber Shop: bd
       Foreign Affair: gd
    Nighthawks at the Diner:
-      <flow: *gr
+      <flow: *low
       Emotional Weather Report:
       On a Foggy Night:
       Eggs and Sausage (In a Cadillac With Susan Michelson): gd
@@ -1074,7 +1074,7 @@ Tom Waits:
       Big Joe and Phantom 309:
       Spare Parts II and Closing:
    Rain Dogs:
-      <flow: *gr
+      <flow: *low
       Singapore: len
       Clap Hands: gd
       Cemetery Polka: len
@@ -1095,7 +1095,7 @@ Tom Waits:
       Bride Of Rain Dog (Instrumental): len
       Anywhere I Lay My Head: len
    Real Gone:
-      <flow: *gr
+      <flow: *low
       Top of the Hill:
       Hoist That Rag: gd
       Sins of My Father: gd
@@ -1113,7 +1113,7 @@ Tom Waits:
       Day After Tomorrow:
       A-Chick-a-Boom: len
    Swordfishtrombones:
-      <flow: *gr
+      <flow: *low
       Underground: len
       Shore Leave:
       Dave the Butcher: len
@@ -1162,7 +1162,7 @@ Tool:
    Undertow (1993):
 Tori Amos:
    Boys for Pele:
-      <flow: &gr 222,624 youtu.be/_gZzkGvyqzc
+      <flow: &low 222,624 youtu.be/_gZzkGvyqzc
       Beauty Queen/Horses:
       Blood Roses:
       Father Lucifer:
@@ -1182,7 +1182,7 @@ Tori Amos:
       Putting the Damage On:
       Twinkle:
    Little Earthquakes:
-      <flow: *gr
+      <flow: *low
       Crucify:
       Girl:
       Silent All These Years:
@@ -1196,7 +1196,7 @@ Tori Amos:
       Me and a Gun:
       Little Earthquakes:
    The Beekeeper:
-      <flow: *gr
+      <flow: *low
       Parasol:
       Sweet the Sting: bd
       The Power of Orange Knickers: bd
@@ -1217,7 +1217,7 @@ Tori Amos:
       Marys of the Sea: bd
       Toast: gd
    Under the Pink:
-      <flow: *gr
+      <flow: *low
       Pretty Good Year: bd
       God: bd
       Bells for Her: gd
@@ -1232,7 +1232,7 @@ Tori Amos:
       Yes, Anastasia: bd
 Toro y Moi:
    Anything in Return:
-      <flow: &gr 1,081,039 youtu.be/O0_ardwzTrA
+      <flow: &low 1,081,039 youtu.be/O0_ardwzTrA
       Harm in Change:
       Say That: gd
       So Many Details: gd
@@ -1247,7 +1247,7 @@ Toro y Moi:
       Never Matter:
       How’s It Wrong:
    Boo Boo:
-      <flow: *gr
+      <flow: *low
       Mirage: gd
       No Show: gd
       Mona Lisa:
@@ -1262,7 +1262,7 @@ Toro y Moi:
       W.I.W.W.T.W.:
 Tosca:
    Dehli9:
-      <flow: &gr 292,526 youtu.be/mNk9cbJqtjs
+      <flow: &low 292,526 youtu.be/mNk9cbJqtjs
       Oscar: gd
       Me & Yoko Ono:
       Gute Laune:
@@ -1286,7 +1286,7 @@ Tosca:
       2504 / 1 (Session 11):
       Piano 1 (Session 12):
    Suzuki:
-      <flow: *gr
+      <flow: *low
       Pearl In: len
       Suzuki:
       Annanas:
@@ -1315,7 +1315,7 @@ TV on the Radio:
       Lover’s Day:
 Tycho:
    Epoch (2016):
-      <flow: &gr 2,862,988 youtu.be/mehLx_Fjv_c
+      <flow: &low 2,862,988 youtu.be/mehLx_Fjv_c
       Glider: bd
       Horizon: bd
       Slack: bd
@@ -1328,7 +1328,7 @@ Tycho:
       Continuum: len
       Field: len
    Awake (2014):
-      <flow: *gr
+      <flow: *low
       Awake: gd
       Montana:
       L:
@@ -1338,7 +1338,7 @@ Tycho:
       Spectre:
       Plains:
    Dive (2011):
-      <flow: *gr
+      <flow: *low
       A Walk:
       Hours:
       Daydream:
@@ -1350,7 +1350,7 @@ Tycho:
       Epigram: len
       Elegy: gd
    Past Is Prologue (2006):
-      <flow: *gr
+      <flow: *low
       From Home: gd
       Sunrise Projector: dup
       Dictaphone’s Lament: dup
@@ -1361,7 +1361,7 @@ Tycho:
       Past Is Prologue: dup
       Cloud Generator: dup
    Sunrise Projector (2004):
-      <flow: *gr
+      <flow: *low
       Sunrise Projector: bd
       Dictaphone’s Lament:
       PBS/KAE:
@@ -1375,7 +1375,7 @@ Tycho:
       Cloud Generator: gd
       Sunrise Calendar:
    The Science of Patterns (2002):
-      <flow: *gr
+      <flow: *low
       Dream as a Memory:
       Human Condition:
       Red Bridge:
@@ -1390,7 +1390,7 @@ U2:
       Beautiful Day:
       Stuck in a Moment You Can’t Get Out Of:
    Boy:
-      <flow: &gr 1,308,362 youtu.be/vdLuk2Agamk
+      <flow: &low 1,308,362 youtu.be/vdLuk2Agamk
       I Will Follow: gd
       Twilight:
       An Cat Dubh:
@@ -1403,7 +1403,7 @@ U2:
       The Electric Co.:
       Shadows and Tall Trees / [untitled]:
    October:
-      <flow: *gr
+      <flow: *low
       Gloria:
       I Fall Down:
       I Threw a Brick Through a Window:
@@ -1430,7 +1430,7 @@ U2:
       Bad:
       Pride:
    War:
-      <flow: *gr
+      <flow: *low
       Sunday Bloody Sunday:
       Seconds:
       New Year’s Day: gd
@@ -1443,9 +1443,9 @@ U2:
       40: len
 Ulrich Schnauss:
    Synthwaves (2017):
-      <flow: &gr
-         URL: https://youtu.be/yLNM-rJi1mM
-         VPY: 61,568
+      <flow: &low
+         <flow: 61,568
+         <link: https://youtu.be/yLNM-rJi1mM
       Main Theme:
       Rain on Dry Concrete:
       Slow Life: gd
@@ -1455,7 +1455,7 @@ Ulrich Schnauss:
       Flare:
       Prism:
    Passage (2017):
-      <flow: *gr
+      <flow: *low
       Amaris: bd
       Genau Wie Damals: bd
       Anywhere but Here: gd
@@ -1475,7 +1475,7 @@ Ulrich Schnauss:
    Frozen in Time (2011):
    Epic (2010):
    Goodbye (2007):
-      <flow: *gr
+      <flow: *low
       Never Be the Same: bd
       Shine: bd
       Stars: bd
@@ -1487,7 +1487,7 @@ Ulrich Schnauss:
       Goodbye: gd
       For Good: bd
    A Strangely Isolated Place (2003):
-      <flow: *gr
+      <flow: *low
       Gone Forever: bd
       On My Own: bd
       A Letter From Home: bd
@@ -1501,7 +1501,7 @@ Ulrich Schnauss:
    The 7th Seal (1997):
 Underworld:
    Dubnobasswithmyheadman:
-      <flow: &gr 1,501,433 youtu.be/TlLWFa1b1Bc
+      <flow: &low 1,501,433 youtu.be/TlLWFa1b1Bc
       Dark & Long: gd
       Mmm Skyscraper I Love You:
       Surfboy: bd
@@ -1512,7 +1512,7 @@ Underworld:
       River of Bass:
       M.E.:
    Second Toughest in the Infants:
-      <flow: *gr
+      <flow: *low
       Juanita / Kiteless / To Dream of Love: bd
       Banstyle / Sappys Curry: bd
       Confusion the Waitress: bd
@@ -1574,7 +1574,7 @@ Van Halen:
       On Fire:
 Van Morrison:
    Astral Weeks:
-      <flow: &gr 4,957,211 youtu.be/UfmkgQRmmeE
+      <flow: &low 4,957,211 youtu.be/UfmkgQRmmeE
       Astral Weeks:
       Beside You:
       Sweet Thing:
@@ -1584,7 +1584,7 @@ Van Morrison:
       Ballerina:
       Slim Slow Slider: gd
    Moondance:
-      <flow: *gr
+      <flow: *low
       And It Stoned Me:
       Moondance: gd
       Crazy Love: len
@@ -1627,7 +1627,7 @@ Will Smith:
       Gettin’ Jiggy Wit It:
 Wye Oak:
    Civilian:
-      <flow: &gr 1,087,111 youtu.be/Mssm8Ml5sOo
+      <flow: &low 1,087,111 youtu.be/Mssm8Ml5sOo
       Two Small Deaths:
       The Alter:
       Holy Holy:
@@ -1639,7 +1639,7 @@ Wye Oak:
       We Were Wealth:
       Doubt: len
    The Knot:
-      <flow: *gr
+      <flow: *low
       Milk and Honey: len
       For Prayer:
       Take It In:
@@ -1652,7 +1652,7 @@ Wye Oak:
       Sight, Flight:
 Yeah Yeah Yeahs:
    Fever to Tell:
-      <flow: &gr 5,214,766 youtu.be/oIIxlgcuQRU
+      <flow: &low 5,214,766 youtu.be/oIIxlgcuQRU
       Rich: gd
       Date With the Night: len
       Man: len
@@ -1668,7 +1668,7 @@ Yeah Yeah Yeahs:
       <flow: 14,100,164 youtu.be/or3U2rXxvQw
       Heads Will Roll:
    Show Your Bones:
-      <flow: *gr
+      <flow: *low
       Gold Lion:
       Way Out: len
       Fancy:
@@ -1682,14 +1682,14 @@ Yeah Yeah Yeahs:
       Turn Into:
 Yppah:
    Gumball Machine Weekend:
-      <flow: &gr 90,286 youtu.be/NqfAj1C7rPc
+      <flow: &low 90,286 youtu.be/NqfAj1C7rPc
       Gumball Machine Weekend:
       Shutter Speed: gd
       They Know What Ghost Know:
       Gumball Machine Weekend (Pollination Remix):
       The Drag:
    You Are Beautiful at All Times:
-      <flow: *gr
+      <flow: *low
       Ending With You: bd
       I’ll Hit the Breaks: bd
       Again With the Subtitles: len
@@ -1708,9 +1708,9 @@ Zero 7:
       <year: 2009
    The Garden:
       <year: 2006
-      <<: &gr
-         <url: https://youtu.be/INn1C6ImJKg
-         <vpy: 544,309
+      <<: &low
+         <flow: 544,309
+         <link: https://youtu.be/INn1C6ImJKg
       Futures:
       Throw It All Away: gd
       Seeing Things:
@@ -1725,7 +1725,7 @@ Zero 7:
       Waiting to Die:
    When It Falls:
       <year: 2004
-      <<: *gr
+      <<: *low
       Warm Sound:
       Home:
       Somersault:
@@ -1739,7 +1739,7 @@ Zero 7:
       Morning Song:
    Simple Things:
       <year: 2001
-      <<: *gr
+      <<: *low
       I Have Seen: bd
       Polaris: gd
       Destiny: gd

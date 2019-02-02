@@ -1,6 +1,6 @@
 M83:
    Junk (2016):
-      <flow: &gr 2,746,085 youtu.be/1mkUp1V3ys0
+      <flow: &low 2,746,085 youtu.be/1mkUp1V3ys0
       Do It, Try It: bd
       Go!: bd
       Walkway Blues: bd
@@ -17,7 +17,7 @@ M83:
       Ludivine: len
       Sunday Night 1987:
    Oblivion Original Motion Picture Soundtrack (2013):
-      <flow: *gr
+      <flow: *low
       Jack’s Dream: len
       Waking Up:
       Tech 49:
@@ -41,7 +41,7 @@ M83:
       Reunion:
       Wait:
    Saturdays = Youth (2008):
-      <flow: *gr
+      <flow: *low
       You, Appearing: gd
       Kim & Jessie: gd
       Skin of the Night: gd
@@ -54,7 +54,7 @@ M83:
       Dark Moves of Love:
       Midnight Souls Still Remain:
    Digital Shades, Volume 1 (2007):
-      <flow: *gr
+      <flow: *low
       Waves, Waves, Waves: len
       Coloring the Void:
       Sister, Part 1: len
@@ -66,7 +66,7 @@ M83:
       Space Fertilizer: len
       The Highest Journey: gd
    Before the Dawn Heals Us (2005):
-      <flow: *gr
+      <flow: *low
       Moon Child: gd
       Don’t Save Us From the Flames: gd
       In the Cold I’m Standing: gd
@@ -83,7 +83,7 @@ M83:
       A Guitar and a Heart:
       Lower Your Eyelids to Die With the Sun:
    Dead Cities, Red Seas & Lost Ghosts (2003):
-      <flow: *gr
+      <flow: *low
       Birds: len
       Unrecorded: gd
       Run Into Flowers: gd
@@ -102,7 +102,7 @@ M83:
       Gone (live): bd
       Dead Cities, Red Seas & Lost Ghosts:
    M83 (2001):
-      <flow: *gr
+      <flow: *low
       Last Saturday: len
       Night:
       At the Party: len
@@ -141,7 +141,7 @@ Madonna:
       <flow: 9,665,181 youtu.be/GuJQSAiODqI
       Vogue:
    Justify My Love:
-      <flow: *gr
+      <flow: *low
       Justify My Love (William Orbit remix):
       Justify My Love: gd
       Express Yourself (Shep’s ’Spressin’ Himself Re-remix):
@@ -161,7 +161,7 @@ Madonna:
       Pretender:
       Stay:
    Madonna:
-      <flow: *gr
+      <flow: *low
       Lucky Star: gd
       Borderline:
       Burning Up:
@@ -175,7 +175,7 @@ Madonna:
       Girl Gone Wild:
       Give Me All Your Luvin’:
    Music:
-      <flow: *gr
+      <flow: *low
       Music: gd
       Impressive Instant: bd
       Runaway Lover: bd
@@ -197,7 +197,7 @@ Madonna:
       Ghosttown:
       Living for Love:
    Something to Remember:
-      <flow: *gr
+      <flow: *low
       I Want You: gd
       I’ll Remember:
       Take a Bow: dup
@@ -277,7 +277,7 @@ Mark Morrison:
       Home, Part II (interlude): len
 Massive Attack:
    Heligoland (2010):
-      <flow: &gr 1,210,406 youtu.be/Vi76bxT7K6U
+      <flow: &low 1,210,406 youtu.be/Vi76bxT7K6U
       Pray for Rain:
       Babel:
       Splitting the Atom:
@@ -291,7 +291,7 @@ Massive Attack:
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): bd
       United Snakes:
    100th Window (2003):
-      <flow: *gr
+      <flow: *low
       Future Proof: gd
       What Your Soul Sings:
       Everywhen:
@@ -305,7 +305,7 @@ Massive Attack:
       <flow: 6,276,905 youtu.be/u7K72X4eo_s
       Teardrop:
    Protection (1994):
-      <flow: *gr
+      <flow: *low
       Protection: gd
       Karmacoma: gd
       Three: gd
@@ -316,7 +316,7 @@ Massive Attack:
       Sly: gd
       Heat Miser: bd
    Blue Lines (1991):
-      <flow: *gr
+      <flow: *low
       Safe From Harm: gd
       One Love: bd
       Blue Lines: bd
@@ -332,22 +332,22 @@ Matchbox Twenty:
       3AM:
 Matt Lange:
    I Can’t Forgive / Inverse / This Is How It Is:
-      <flow: &gr 66,740 youtu.be/7uIEtL8Ui9U
+      <flow: &low 66,740 youtu.be/7uIEtL8Ui9U
       I Can’t Forgive (original mix): gd
       Inverse (original mix): gd
       This Is How It Is (original mix): gd
    Rift:
-      <flow: *gr
+      <flow: *low
       Rift (original mix): gd
       Rift (Andrew Bayer remix):
       Rift (Kerry Leva undo):
    Staccato:
-      <flow: *gr
+      <flow: *low
       Staccato (original mix):
       Ether (original mix):
       Underscore (original mix): gd
    Way You Know / Only You:
-      <flow: *gr
+      <flow: *low
       Way You Know: gd
       Only You:
 Mazzy Star:
@@ -454,7 +454,7 @@ Michael McDonald:
       Believe in It:
 Moby:
    18:
-      <flow: &gr 2,514,348 youtu.be/QhZnEagfjTQ
+      <flow: &low 2,514,348 youtu.be/QhZnEagfjTQ
       We Are All Made of Stars:
       In This World:
       In My Heart:
@@ -474,7 +474,7 @@ Moby:
       The Rafters:
       I’m Not Worried at All:
    Play:
-      <flow: *gr
+      <flow: *low
       Honey:
       Find My Baby:
       Porcelain: gd
@@ -540,7 +540,7 @@ Mr Mister:
       Midwinter Log:
 My Brightest Diamond:
    A Thousand Shark’s Teeth:
-      <flow: &gr 91,990 youtu.be/u1p9kj-odnU
+      <flow: &low 91,990 youtu.be/u1p9kj-odnU
       Inside a Boy:
       Ice & The Storm:
       If I Were Queen: len
@@ -553,7 +553,7 @@ My Brightest Diamond:
       Like a Sieve:
       The Diamond:
    Bring Me the Workhorse:
-      <flow: *gr
+      <flow: *low
       Something of an End:
       Golden Star: gd
       Gone Away:
@@ -580,7 +580,7 @@ My Morning Jacket:
       Dondante:
 Nada Surf:
    High/Low:
-      <flow: &gr 525,726 youtu.be/2ulU08Se7Qs
+      <flow: &low 525,726 youtu.be/2ulU08Se7Qs
       Deeper Well: bd
       The Plan: bd
       Popular: gd
@@ -592,7 +592,7 @@ Nada Surf:
       Hollywood: len
       Zen Brain: bd
    Let Go:
-      <flow: *gr
+      <flow: *low
       Blizzard of ’77: len
       The Way You Wear Your Head: bd
       Fruit Fly: bd
@@ -632,7 +632,7 @@ Natalie Imbruglia:
       Come September:
 Natalie Merchant:
    Ophelia:
-      <flow: &gr 506,673 youtu.be/VQ_Wqtnlv4U
+      <flow: &low 506,673 youtu.be/VQ_Wqtnlv4U
       Ophelia:
       Life Is Sweet:
       Kind & Generous: gd
@@ -645,7 +645,7 @@ Natalie Merchant:
       The Living:
       When They Ring the Golden Bells:
    Tigerlily:
-      <flow: *gr
+      <flow: *low
       San Andreas Fault:
       Wonder:
       Beloved Wife:
@@ -667,7 +667,7 @@ Nena:
       99 Luftballons:
 New Order:
    Low‐Life:
-      <flow: &gr 1,904,765 youtu.be/9-NFosnfd2c
+      <flow: &low 1,904,765 youtu.be/9-NFosnfd2c
       Love Vigilantes:
       The Perfect Kiss:
       This Time of Night:
@@ -680,7 +680,7 @@ New Order:
       <flow: 12,819,152 youtu.be/FYH8DsU2WCk
       Blue Monday:
    Technique:
-      <flow: *gr
+      <flow: *low
       Fine Time:
       All the Way:
       Love Less:
@@ -691,7 +691,7 @@ New Order:
       Vanishing Point:
       Dream Attack:
    True Faith:
-      <flow: *gr
+      <flow: *low
       True Faith: gd
       1963:
 New Radicals:
@@ -700,12 +700,12 @@ New Radicals:
       You Get What You Give:
 Nicolas Jaar:
    Love You Gotta Lose Again:
-      <flow: &gr 4,464,045 youtu.be/1Upj_Ib30K4
+      <flow: &low 4,464,045 youtu.be/1Upj_Ib30K4
       WOUH: gd
       Love You Gotta Lose Again:
       Don’t Believe the Hype: len
    Nymphs:
-      <flow: *gr
+      <flow: *low
       Don’t Break My Love:
       Why Didn’t You Save Me:
       The Three Sides of Audrey and Why She’s All Alone Now:
@@ -714,7 +714,7 @@ Nicolas Jaar:
       Mistress: gd
       Fight:
    Sirens:
-      <flow: *gr
+      <flow: *low
       Mirrors:
       Killing Time: gd
       Sirens: len
@@ -726,7 +726,7 @@ Nicolas Jaar:
       History Lesson:
 Nightmares on Wax:
    Carboot Soul:
-      <flow: &gr 1,379,695 youtu.be/Q692lHFaLVM
+      <flow: &low 1,379,695 youtu.be/Q692lHFaLVM
       Les Nuits: gd
       Morse: gd
       Ethnic Majority: gd
@@ -738,13 +738,13 @@ Nightmares on Wax:
       Survival: bd
       Capumcap: bd
    Ground Floor:
-      <flow: *gr
+      <flow: *low
       World Inside: bd
       Scratch That!:
       Reclaim the Balcony:
       Dirty Triumphant:
    In a Space Outta Sound:
-      <flow: *gr
+      <flow: *low
       Passion: gd
       The Sweetest: bd
       Flip Ya Lid: gd
@@ -758,7 +758,7 @@ Nightmares on Wax:
       Soul Purpose: gd
       African Pirates: bd
    Shape the Future:
-      <flow: *gr
+      <flow: *low
       Back to Nature: gd
       Tell My Vision: bd
       Shape the Future: bd
@@ -771,7 +771,7 @@ Nightmares on Wax:
       Gotta Smile: bd
       The Othership: gd
    Smokers Delight:
-      <flow: *gr
+      <flow: *low
       Nights Introlude: gd
       Dreddoverboard: bd
       Pipes Honour: gd
@@ -789,7 +789,7 @@ Nightmares on Wax:
       Rise (reprise): len
       Gambia via Vagator Beach: gd
    Thought So…:
-      <flow: *gr
+      <flow: *low
       Intro: len
       Da Feelin: bd
       195lbs: bd
@@ -871,7 +871,7 @@ On-the-Go:
       Fall Asleep:
 Oneohtrix Point Never:
    Age Of (2018):
-      <flow: &gr 107,064 youtu.be/hiwi7d0f91Y
+      <flow: &low 107,064 youtu.be/hiwi7d0f91Y
       Age Of:
       Babylon: bd
       Manifold: len
@@ -887,7 +887,7 @@ Oneohtrix Point Never:
       Last Known Image of a Song:
    Garden of Delete (2015):
    R Plus Seven (2013):
-      <flow: *gr
+      <flow: *low
       Boring Angel: bd
       Americans: bd
       He She: len
@@ -900,7 +900,7 @@ Oneohtrix Point Never:
       Chrome Country: gd
       Gone: len
    Rifts (2012):
-      <flow: *gr
+      <flow: *low
       Woe Is the Transgression I:
       Behind the Bank: len
       Eyeballs: len
@@ -935,7 +935,7 @@ Oneohtrix Point Never:
       Memory Vague:
       KGB Nights:
    Replica (2011):
-      <flow: *gr
+      <flow: *low
       Andro:
       Power of Persuasion: gd
       Sleep Dealer:
@@ -947,7 +947,7 @@ Oneohtrix Point Never:
       Child Soldier:
       Explain:
    Returnal (2010):
-      <flow: *gr
+      <flow: *low
       Nil Admirari:
       Describing Bodies:
       Stress Waves: gd
@@ -1104,7 +1104,7 @@ Pink Floyd:
       Wish You Were Here:
 Pizzicato Five:
    Bellissima!:
-      <flow: &gr 126,656 youtu.be/saHMRnVgEhM
+      <flow: &low 126,656 youtu.be/saHMRnVgEhM
       Planets:
       Temptation Talk: gd
       Holy Triangle:
@@ -1116,7 +1116,7 @@ Pizzicato Five:
       This Can’t Be Love:
       The Work of God:
    Bossa Nova 2001:
-      <flow: *gr
+      <flow: *low
       Rock’n’roll: len
       Sweet Soul Revue: gd
       Magic Carpet Ride:
@@ -1134,7 +1134,7 @@ Pizzicato Five:
       Playback 2001: len
       Cleopatra 2001:
    By Her Majesty’s Request:
-      <flow: *gr
+      <flow: *low
       Holiday for Audrey H: len
       Introduction J.B. et Vietnam: len
       Bellissima ’90:
@@ -1153,7 +1153,7 @@ Pizzicato Five:
       God Save the Queen:
       Let’s Spend The Night Together:
    couples:
-      <flow: *gr
+      <flow: *low
       magical connection: len
       summertime, summertime: gd
       they all laughed:
@@ -1167,7 +1167,7 @@ Pizzicato Five:
       two sleepy people:
       everytime we say goodbye: len
    Overdose:
-      <flow: *gr
+      <flow: *low
       Overture: len
       Airplane: bd
       Statue of Liberty: bd
@@ -1182,7 +1182,7 @@ Pizzicato Five:
       Questions: bd
       On the Sunny Side of the Street: bd
    Romantique 96:
-      <flow: *gr
+      <flow: *low
       Potpourri: len
       The Awakening: len
       Welcome to the Circus:
@@ -1200,7 +1200,7 @@ Pizzicato Five:
       Triste: gd
       Coda: len
    Sister Freedom Tapes:
-      <flow: *gr
+      <flow: *low
       Airplane ’96:
       Domino Konishi: len
       Snowflakes: len
@@ -1211,7 +1211,7 @@ Pizzicato Five:
       To Our Children’s Children’s Children:
       Passing By: len
    Soft Landing on the Moon:
-      <flow: *gr
+      <flow: *low
       Party Joke: len
       Bellissima ’90: dup
       Temptation Talk: dup
@@ -1235,7 +1235,7 @@ Pizzicato Five:
       God Save the Queen: len
       Couples: dup
    Sweet Pizzicato Five:
-      <flow: *gr
+      <flow: *low
       Tout va bien:
       Flower Drum Song:
       Catchy: gd
@@ -1246,7 +1246,7 @@ Pizzicato Five:
       Funky Lovechild:
       Cosmic Blues:
    This Year’s Girl:
-      <flow: *gr
+      <flow: *low
       This Year’s Girl 4: len
       I (all about me): len
       Ohayô:
@@ -1273,7 +1273,7 @@ Plaid:
    Spokes (2003):
    Double Figure (2001):
    Rest Proof Clockwork (1999):
-      <flow: &gr 55,939 youtu.be/eH1IMB8KJok
+      <flow: &low 55,939 youtu.be/eH1IMB8KJok
       Shackbu:
       Ralome: gd
       Little People:
@@ -1290,7 +1290,7 @@ Plaid:
       Churn Maiden: len
       Air Locked / Face Me:
    Not for Threes (1997):
-      <flow: *gr
+      <flow: *low
       Abla Eedio: bd
       Kortisin: bd
       Headspin: bd
@@ -1311,7 +1311,7 @@ Plaid:
    Mbuki Mvuki (1991):
 Portishead:
    Dummy:
-      <flow: &gr 3,492,041 youtu.be/Vg1jyL3cr60
+      <flow: &low 3,492,041 youtu.be/Vg1jyL3cr60
       Mysterons: gd
       Sour Times: gd
       Strangers: gd
@@ -1324,7 +1324,7 @@ Portishead:
       Biscuit:
       Glory Box: gd
    Portishead:
-      <flow: *gr
+      <flow: *low
       Cowboys: gd
       All Mine: gd
       Undenied: gd
@@ -1337,7 +1337,7 @@ Portishead:
       Elysium:
       Western Eyes: gd
    Third:
-      <flow: *gr
+      <flow: *low
       Silence: gd
       Hunter: gd
       Nylon Smile: gd
@@ -1373,7 +1373,7 @@ Portugal. The Man:
       Live in the Moment:
 Prefuse 73:
    One Word Extinguisher:
-      <flow: &gr 55,940 youtu.be/fJY7BMzx7Iw
+      <flow: &low 55,940 youtu.be/fJY7BMzx7Iw
       The Wrong Side of Reflection (intro): len
       The End of Biters - International: len
       Plastic: len
@@ -1398,7 +1398,7 @@ Prefuse 73:
       Esta: len
       Pentagram: gd
    Surrounded by Silence:
-      <flow: *gr
+      <flow: *low
       I’ve Said All I Need to Say About Them Intro:
       Hide Ya Face:
       Bad Memory Interlude One: len
@@ -1421,7 +1421,7 @@ Prefuse 73:
       Rain Edit Interlude: len
       And I’m Gone: len
    Vocal Studies + Uprock Narratives:
-      <flow: *gr
+      <flow: *low
       Radio Attack:
       Nuno:
       Life Death:
