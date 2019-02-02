@@ -64,4 +64,18 @@ Views per year
 1. High views per year need to match album
 2. Low views per year only need to match artist
 3. Low views per year is first low result after last high result
-4. File under album as `$:` or `$: &gr` or `$: &rd`
+4. File under album using one of the following methods
+
+~~~yml
+<flow: 654,321
+~~~
+
+~~~yml
+<<: &low
+   <flow: 654,321
+~~~
+
+~~~yml
+<<: &high
+   <flow: 7,654,321
+~~~

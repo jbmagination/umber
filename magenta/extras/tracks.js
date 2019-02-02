@@ -15,9 +15,13 @@ dh.track.forEach(ae => {
    np.push('      ' + cf(ae.name) + (minutes < 3 ? ': len' : ':'));
 });
 
-var oq = $('textarea') || document.createElement('textarea');
+var oq = document.createElement('textarea');
 oq.cols = 42;
 oq.rows = 30;
-oq.style.font = '2.5ex Consolas';
+oq.style.bottom = oq.style.right = 0;
+oq.style.font = 'medium Consolas';
+oq.style.position = 'fixed';
+oq.style.zIndex = 6;
 oq.textContent = np.join('\n');
-$('#sidebar').prepend(oq);
+
+document.body.append(oq);

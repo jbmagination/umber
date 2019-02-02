@@ -11,9 +11,13 @@ $$('tr', $('tbody')).forEach(bf => {
    );
 });
 
-var oq = $('textarea') || document.createElement('textarea');
+var oq = document.createElement('textarea');
 oq.cols = 40;
 oq.rows = 20;
-oq.style.font = '2.5ex Consolas';
+oq.style.bottom = oq.style.right = 0;
+oq.style.font = 'medium Consolas';
+oq.style.position = 'fixed';
+oq.style.zIndex = 6;
 oq.textContent = dh.join('\n');
-$('#sidebar').prepend(oq);
+
+document.body.append(oq);
