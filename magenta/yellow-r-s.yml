@@ -1,12 +1,12 @@
 Radiohead:
    A Moon Shaped Pool:
-      $: 18,418,862 youtu.be/TTAU7lLDZYU
+      <flow: 18,418,862 youtu.be/TTAU7lLDZYU
       Burn the Witch:
       Daydreaming:
       Present Tense:
       The Numbers:
    Amnesiac:
-      $: &gr 1,342,289 youtu.be/GoLJJRIWCLU
+      <flow: &gr 1,342,289 youtu.be/GoLJJRIWCLU
       Packt Like Sardines in a Crushd Tin Box:
       Pyramid Song: gd
       Pulk/Pull Revolving Doors:
@@ -19,7 +19,7 @@ Radiohead:
       Like Spinning Plates:
       Life in a Glasshouse:
    Hail to the Thief:
-      $: *gr
+      <flow: *gr
       2 + 2 = 5:
       Sit Down. Stand Up.:
       Sail to the Moon.: gd
@@ -35,7 +35,7 @@ Radiohead:
       Scatterbrain.:
       A Wolf at the Door.:
    In Rainbows:
-      $: *gr
+      <flow: *gr
       15 Step:
       Bodysnatchers:
       Nude:
@@ -47,7 +47,7 @@ Radiohead:
       Jigsaw Falling Into Place:
       Videotape:
    Kid A:
-      $: *gr
+      <flow: *gr
       Everything in Its Right Place: gd
       Kid A:
       The National Anthem: gd
@@ -59,26 +59,26 @@ Radiohead:
       Morning Bell:
       Motion Picture Soundtrack:
    OK Computer:
-      $: 8,115,612 youtu.be/u5CVsCnxyXg
+      <flow: 8,115,612 youtu.be/u5CVsCnxyXg
       I Promise:
       Karma Police:
       Lift:
       No Surprises:
       Paranoid Android:
    Pablo Honey:
-      $: 28,322,103 youtu.be/XFkzRNyygfk
+      <flow: 28,322,103 youtu.be/XFkzRNyygfk
       Creep:
    The Bends:
-      $: 6,436,109 youtu.be/n5h0qHwNrHk
+      <flow: 6,436,109 youtu.be/n5h0qHwNrHk
       Fake Plastic Trees:
       High & Dry:
       Street Spirit:
    The King of Limbs:
-      $: 6,945,897 youtu.be/cfOa1a8hYP8
+      <flow: 6,945,897 youtu.be/cfOa1a8hYP8
       Lotus Flower:
 Rage Against the Machine:
    Evil Empire:
-      $: 5,401,703 youtu.be/3L4YrGaR8E4
+      <flow: 5,401,703 youtu.be/3L4YrGaR8E4
       People of the Sun: sh
       Bulls on Parade: gd
       Vietnow:
@@ -91,10 +91,10 @@ Rage Against the Machine:
       Roll Right:
       Year of tha Boomerang:
    Rage Against the Machine:
-      $: 11,734,496 youtu.be/bWXazVhlyxQ
+      <flow: 11,734,496 youtu.be/bWXazVhlyxQ
       Killing in the Name:
    The Battle of Los Angeles:
-      $: 2,377,422 youtu.be/w211KOQ5BMI
+      <flow: 2,377,422 youtu.be/w211KOQ5BMI
       Testify: gd
       Guerrilla Radio: gd
       Calm Like a Bomb:
@@ -110,7 +110,7 @@ Rage Against the Machine:
       No Shelter:
 Ratatat:
    Classics:
-      $: &gr 2,788,323 youtu.be/xlcywgEMuGI
+      <flow: &gr 2,788,323 youtu.be/xlcywgEMuGI
       Montanita: bd
       Lex: gd
       Gettysburg: bd
@@ -122,7 +122,7 @@ Ratatat:
       Nostrand:
       Tacobel Canon:
    LP3:
-      $: *gr
+      <flow: *gr
       Shiller: gd
       Falcon Jab: gd
       Mi Viejo: sh
@@ -138,26 +138,26 @@ Ratatat:
       Black Heroes:
 Red Hot Chili Peppers:
    Blood Sugar Sex Magik:
-      $: 14,897,786 youtu.be/GLvohMXgcBo
+      <flow: 14,897,786 youtu.be/GLvohMXgcBo
       Give It Away:
       Under the Bridge:
    By the Way:
-      $: 14,626,966 youtu.be/JnfyjwChuNU
+      <flow: 14,626,966 youtu.be/JnfyjwChuNU
       By the Way:
       Can’t Stop:
       The Zephyr Song:
       Venice Queen:
    Californication:
-      $: 57,918,746 youtu.be/YlUKcNNmywk
+      <flow: 57,918,746 youtu.be/YlUKcNNmywk
       Around the World:
       Californication:
       Otherside:
       Scar Tissue:
    I’m with You:
-      $: 16,902,140 youtu.be/RtBbinpK5XI
+      <flow: 16,902,140 youtu.be/RtBbinpK5XI
       The Adventures of Rain Dance Maggie:
    One Hot Minute:
-      $: 3,776,176 youtu.be/0kT5w27YxyI
+      <flow: 3,776,176 youtu.be/0kT5w27YxyI
       Warped:
       Aeroplane: gd
       Deep Kick:
@@ -172,16 +172,16 @@ Red Hot Chili Peppers:
       Shallow Be Thy Game:
       Transcending:
    Stadium Arcadium:
-      $: 18,797,479 youtu.be/Sb5aq5HcS1A
+      <flow: 18,797,479 youtu.be/Sb5aq5HcS1A
       Dani California:
       Snow:
       Tell Me Baby:
    The Getaway:
-      $: 66,709,600 youtu.be/Q0oIoR9mLwc
+      <flow: 66,709,600 youtu.be/Q0oIoR9mLwc
       Dark Necessities:
 R.E.M.:
    Monster (1994):
-      $: &gr 4,984,746 youtu.be/5rOiW_xY-kc
+      <flow: &gr 4,984,746 youtu.be/5rOiW_xY-kc
       What’s the Frequency, Kenneth?: gd
       Crush With Eyeliner:
       King of Comedy:
@@ -195,14 +195,14 @@ R.E.M.:
       Circus Envy:
       You:
    Automatic for the People (1992):
-      $: 8,698,473 youtu.be/dLxpNiF0YKs
+      <flow: 8,698,473 youtu.be/dLxpNiF0YKs
       Man on the Moon:
    Out of Time (1991):
-      $: 69,706,118 youtu.be/xwtdhWltSIg
+      <flow: 69,706,118 youtu.be/xwtdhWltSIg
       Losing My Religion:
       Shiny Happy People:
    Green (1988):
-      $: *gr
+      <flow: *gr
       Pop Song 89:
       Get Up: sh
       You Are the Everything:
@@ -220,7 +220,7 @@ R.E.M.:
    Murmur (1983):
 Richard D. James:
    26 Mixes for Cash:
-      $: &gr 480,422 https://youtu.be/7MBaEEODzU0
+      <flow: &gr 480,422 https://youtu.be/7MBaEEODzU0
       Time to Find Me (AFX Fast mix): gd
       Raising the Titanic (Big Drum mix): gd
       Journey (Aphex Twin Care mix): gd
@@ -248,7 +248,7 @@ Richard D. James:
       Spotlight (Aphex Twin mix):
       Debase (Soft Palate):
    Drukqs:
-      $: *gr
+      <flow: *gr
       Jynweythek: sh
       Vordhosbn:
       Kladfvgbung Micshk: sh
@@ -280,19 +280,19 @@ Richard D. James:
       Beskhu3epnm: sh
       Nanou 2: gd
    On:
-      $: *gr
+      <flow: *gr
       On: gd
       73-Yips:
       D-Scape:
       Xepha:
    On Remixes:
-      $: *gr
+      <flow: *gr
       On (D-Scape mix):
       On (Reload mix): gd
       On (μ-Ziq mix): gd
       On (28 mix):
    Richard D. James Album:
-      $: *gr
+      <flow: *gr
       4: gd
       Cornish Acid: sh
       Peek 824545201:
@@ -304,7 +304,7 @@ Richard D. James:
       Girl/Boy Song: gd
       Logan Rock Witch:
    Selected Ambient Works 85–92:
-      $: *gr
+      <flow: *gr
       Xtal: gd
       Tha: gd
       Pulsewidth:
@@ -319,7 +319,7 @@ Richard D. James:
       Delphium:
       Actium:
    Selected Ambient Works, Volume II:
-      $: *gr
+      <flow: *gr
       '[Cliffs]': gd
       '[Radiator]':
       '[Rhubarb]': gd
@@ -346,14 +346,14 @@ Richard D. James:
       '[White Blur 2]':
       '[Matchsticks]':
    Windowlicker:
-      $: *gr
+      <flow: *gr
       Windowlicker: gd
       Formula:
       Nannou:
 
 Robin Guthrie:
    Emeralds:
-      $: 21,402 youtu.be/qngc--zwGxY
+      <flow: 21,402 youtu.be/qngc--zwGxY
       Digging for Gold:
       Radiola:
       Wishing:
@@ -366,7 +366,7 @@ Robin Guthrie:
       The Little Light Fades: sh
 Róisín Murphy:
    Overpowered:
-      $: 1,481,572 youtu.be/kl8mpAvTm_Y
+      <flow: 1,481,572 youtu.be/kl8mpAvTm_Y
       Overpowered: gd
       You Know Me Better: gd
       Checkin’ on Me: gd
@@ -380,13 +380,13 @@ Róisín Murphy:
       Scarlet Ribbons:
 Roosevelt:
    Elliot:
-      $: &gr 1,089,466 youtu.be/UBS6MM05KdY
+      <flow: &gr 1,089,466 youtu.be/UBS6MM05KdY
       Elliot: gd
       Around You:
       Montreal:
       Sea:
    Roosevelt:
-      $: *gr
+      <flow: *gr
       Intro: sh
       Wait Up:
       Night Moves: gd
@@ -401,7 +401,7 @@ Roosevelt:
       Close:
 Röyksopp:
    Melody A.M.:
-      $: 1,295,940 youtu.be/KLpkXtM-VI8
+      <flow: 1,295,940 youtu.be/KLpkXtM-VI8
       So Easy:
       Eple: gd
       Sparks: gd
@@ -413,12 +413,12 @@ Röyksopp:
       She’s So:
       40 Years Back\Come:
    The Inevitable End:
-      $: 22,014,442 youtu.be/rFI4JfbgOSY
+      <flow: 22,014,442 youtu.be/rFI4JfbgOSY
       Here She Comes Again:
       Monument:
 Sade:
    Soldier of Love (2010):
-      $: &gr 5,275,250 youtu.be/kcPc18SG6uA
+      <flow: &gr 5,275,250 youtu.be/kcPc18SG6uA
       The Moon and the Sky:
       Soldier of Love: gd
       Morning Bird:
@@ -430,16 +430,16 @@ Sade:
       Skin:
       The Safest Place: sh
    Lovers Rock (1999):
-      $: 7,016,331 youtu.be/C8QJmI_V3j4
+      <flow: 7,016,331 youtu.be/C8QJmI_V3j4
       By Your Side:
    Love Deluxe (1992):
-      $: 8,472,474 youtu.be/_WcWHZc8s2I
+      <flow: 8,472,474 youtu.be/_WcWHZc8s2I
       Cherish the Day:
       Kiss of Life:
       No Ordinary Love:
       Pearls:
    Stronger Than Pride (1988):
-      $: *gr
+      <flow: *gr
       Love Is Stronger Than Pride:
       Paradise: gd
       Nothing Can Come Between Us: gd
@@ -451,7 +451,7 @@ Sade:
       I Never Thought I’d See the Day:
       Siempre Hay Esperanza:
    Promise (1985):
-      $: *gr
+      <flow: *gr
       Is It a Crime: gd
       The Sweetest Taboo: gd
       War of the Hearts:
@@ -464,7 +464,7 @@ Sade:
       Tar Baby:
       Maureen:
    Diamond Life (1984):
-      $: *gr
+      <flow: *gr
       Smooth Operator:
       Your Love Is King: gd
       Hang on to Your Love:
@@ -476,7 +476,7 @@ Sade:
       Why Can’t We Live Together?:
 Saint Etienne:
    Foxbase Alpha:
-      $: &gr 412,330 youtu.be/vZAajrxvDs4
+      <flow: &gr 412,330 youtu.be/vZAajrxvDs4
       This Is Radio Etienne: sh
       Only Love Can Break Your Heart: gd
       Wilson: sh
@@ -491,7 +491,7 @@ Saint Etienne:
       Like the Swallow:
       Dilworth’s Theme: sh
    Tales From Turnpike House:
-      $: *gr
+      <flow: *gr
       Side Streets: sh
       A Good Thing: bd
       Sun in My Morning: sh
@@ -506,7 +506,7 @@ Saint Etienne:
       Teenage Winter:
       Goodnight: gd
    Tiger Bay:
-      $: *gr
+      <flow: *gr
       Urban Clearway:
       Former Lover: gd
       Hug My Soul:
@@ -521,7 +521,7 @@ Saint Etienne:
       The Boy Scouts of America: sh
 Samaris:
    Black Lights:
-      $: &gr 65,891 youtu.be/_pKuzdMFE8k
+      <flow: &gr 65,891 youtu.be/_pKuzdMFE8k
       Wanted 2 Say:
       Black Lights:
       Gradient Sky: sh
@@ -532,7 +532,7 @@ Samaris:
       T4ngled:
       In Deep: gd
    Silkidrangar:
-      $: *gr
+      <flow: *gr
       Nótt: gd
       Ég vildi fegin verða:
       Lífsins ólgusjór:
@@ -545,7 +545,7 @@ Samaris:
       Vögguljóð:
 Savath & Savalas:
    Folk Songs for Trains, Trees and Honey:
-      $: 3,928 youtu.be/p7WCGiM02KU
+      <flow: 3,928 youtu.be/p7WCGiM02KU
       Beginning: sh
       Transportation Theme: gd
       Binoculars: gd
@@ -557,7 +557,7 @@ Savath & Savalas:
       Slabulas: gd
 Seal:
    Seal:
-      $: &gr 3,670,592 youtu.be/AMD2TwRvuoU
+      <flow: &gr 3,670,592 youtu.be/AMD2TwRvuoU
       The Beginning:
       Deep Water:
       Crazy: gd
@@ -568,7 +568,7 @@ Seal:
       Show Me:
       Violet:
    Seal II:
-      $: *gr
+      <flow: *gr
       Bring It On:
       Prayer for the Dying:
       Dreaming in Metaphors:
@@ -582,7 +582,7 @@ Seal:
       Bring It On (reprise): sh
 Secret Sun:
    Cold Coast:
-      $: 4,093 youtu.be/WRLlc36hsoU
+      <flow: 4,093 youtu.be/WRLlc36hsoU
       Passing Cars:
       Cold Coast: gd
       Can’t You See:
@@ -595,7 +595,7 @@ Secret Sun:
       Crashing Waves:
 Shanice:
    Inner Child:
-      $: 601,350 youtu.be/QGXxcSdsXJ4
+      <flow: 601,350 youtu.be/QGXxcSdsXJ4
       Keep Your Inner Child Alive (interlude): sh
       I Love Your Smile: gd
       Forever in Your Love:
@@ -613,7 +613,7 @@ Shanice:
       Goodnight (interlude): sh
 She Keeps Bees:
    Minisink Hotel:
-      $: 85,364 youtu.be/gyTKyFlos1w
+      <flow: 85,364 youtu.be/gyTKyFlos1w
       Stand Where I Can See You: sh
       CageMatch: sh
       Lucille: sh
@@ -626,7 +626,7 @@ She Keeps Bees:
       Revival: sh
 Sigur Rós:
    Ágætis byrjun:
-      $: 1,568,438 youtu.be/8LeQN249Jqw
+      <flow: 1,568,438 youtu.be/8LeQN249Jqw
       Intro: sh
       Svefn-g-englar: gd
       Starálfur: gd
@@ -639,7 +639,7 @@ Sigur Rós:
       Avalon:
 Simian Mobile Disco:
    Attack Decay Sustain Release:
-      $: &gr 292,223 youtu.be/c0Bf6YGbc1c
+      <flow: &gr 292,223 youtu.be/c0Bf6YGbc1c
       Sleep Deprivation:
       I Got This Down:
       It’s the Beat:
@@ -657,7 +657,7 @@ Simian Mobile Disco:
       Hot Dub:
       Wooden (uncut):
    Unpatterns:
-      $: *gr
+      <flow: *gr
       I Waited for You:
       Cerulean:
       Seraphim: gd
@@ -669,10 +669,10 @@ Simian Mobile Disco:
       Pareidolia:
 Simple Minds:
    Don’t You (Forget About Me):
-      $: 14,148,335 youtu.be/CdqoNKCCt7A
+      <flow: 14,148,335 youtu.be/CdqoNKCCt7A
       Don’t You (Forget About Me):
    Street Fighting Years:
-      $: 1,106,625 youtu.be/7vhhTvcLoRw
+      <flow: 1,106,625 youtu.be/7vhhTvcLoRw
       Street Fighting Years:
       Soul Crying Out: bd
       Wall of Love: bd
@@ -686,7 +686,7 @@ Simple Minds:
       When Spirits Rise: sh
 Solar Fields:
    GREEN:
-      $: &gr 416,654 youtu.be/C0EgzJ0KGxg
+      <flow: &gr 416,654 youtu.be/C0EgzJ0KGxg
       Level Out:
       Magic Eye (remix):
       Sol (remix): gd
@@ -698,7 +698,7 @@ Solar Fields:
       The Sight Is White:
       Third Time (T version):
    Mirror’s Edge Catalyst:
-      $: *gr
+      <flow: *gr
       Faith:
       Release:
       Birdman: sh
@@ -733,7 +733,7 @@ Solar Fields:
       Catalyst:
 Soul for Real:
    Candy Rain:
-      $: 5,622,162 youtu.be/Cx0xzO73Amo
+      <flow: 5,622,162 youtu.be/Cx0xzO73Amo
       Candy Rain:
       Every Little Thing I Do: gd
       All in My Mind:
@@ -747,12 +747,12 @@ Soul for Real:
       Piano Interlude: sh
 Soundgarden:
    Superunknown:
-      $: 15,157,201 youtu.be/3mbBbFH9fAg
+      <flow: 15,157,201 youtu.be/3mbBbFH9fAg
       Black Hole Sun:
       Fell On Black Days:
 Spandau Ballet:
    Through the Barricades:
-      $: 1,713,616 youtu.be/yn7HXmzxqV8
+      <flow: 1,713,616 youtu.be/yn7HXmzxqV8
       Barricades – Introduction: sh
       Cross the Line: gd
       Man in Chains: gd
@@ -763,12 +763,12 @@ Spandau Ballet:
       Snakes and Lovers: gd
       Through the Barricades: gd
    True:
-      $: 9,607,656 youtu.be/AR8D2yqgQ1U
+      <flow: 9,607,656 youtu.be/AR8D2yqgQ1U
       Gold:
       True:
 Squarepusher:
    Hard Normal Daddy:
-      $: &gr 255,290 youtu.be/XvLAKrVbCBM
+      <flow: &gr 255,290 youtu.be/XvLAKrVbCBM
       Coopers World:
       Beep Street: gd
       Rustic Raver:
@@ -782,7 +782,7 @@ Squarepusher:
       Rat/P’s and Q’s:
       Rebus: sh
    Numbers Lucent:
-      $: *gr
+      <flow: *gr
       Zounds Perspex: bd
       Paradise Garage: bd
       Heliacal Torch: bd
@@ -790,7 +790,7 @@ Squarepusher:
       Arterial Fantasy: bd
       Illegal Dustbin: bd
    Solo Electric Bass 1:
-      $: *gr
+      <flow: *gr
       SEB-1.01: sh
       SEB-1.09: gd
       SEB-1.10: sh
@@ -804,7 +804,7 @@ Squarepusher:
       SEB-1.11: sh
       SEB-1.12:
    Ultravisitor:
-      $: *gr
+      <flow: *gr
       Ultravisitor:
       I Fulcrum:
       Iambic 9 Poetry: gd
@@ -822,7 +822,7 @@ Squarepusher:
       Every Day I Love: sh
 St. Germain:
    Boulevard The Complete Series:
-      $: &gr 547,101 youtu.be/H_F3FOcnQ3Y
+      <flow: &gr 547,101 youtu.be/H_F3FOcnQ3Y
       Deep in It:
       Thank U Mum (4 Everything You Did): gd
       Street Scene (4 Shazz):
@@ -832,7 +832,7 @@ St. Germain:
       Dub Experience II:
       Forget It:
    Tourist:
-      $: *gr
+      <flow: *gr
       Rose Rouge: gd
       Montego Bay Spleen:
       So Flute:
@@ -844,7 +844,7 @@ St. Germain:
       What You Think About:
 St. Vincent:
    Actor:
-      $: 1,646,105 youtu.be/mVAxUMuhz98
+      <flow: 1,646,105 youtu.be/mVAxUMuhz98
       The Strangers:
       Save Me From What I Want:
       The Neighbors:
@@ -858,7 +858,7 @@ St. Vincent:
       The Sequel: sh
 Stereo MCs:
    Connected:
-      $: 256,016 youtu.be/LMGdRgtblmk
+      <flow: 256,016 youtu.be/LMGdRgtblmk
       Connected: gd
       Ground Level:
       Everything:
@@ -873,7 +873,7 @@ Stereo MCs:
       The End:
 Steve Roach:
    Desert Solitaire (1989):
-      $: 23,686 youtu.be/QYJsKMvlujo
+      <flow: 23,686 youtu.be/QYJsKMvlujo
       Flatlands: bd
       Labyrinth: bd
       Specter:
@@ -889,7 +889,7 @@ Steve Roach:
    The Leaving Time (1988):
    Quiet Music 3 (1986):
    Quiet Music 2 (1986):
-      $: *gr
+      <flow: *gr
       See Things:
       Towards the Blue:
       Something in Tears:
@@ -897,7 +897,7 @@ Steve Roach:
       Air and Light:
 Stone Temple Pilots:
    Core:
-      $: &gr 3,025,540 youtu.be/V5UOC0C0x8Q
+      <flow: &gr 3,025,540 youtu.be/V5UOC0C0x8Q
       Dead & Bloated:
       Sex Type Thing:
       Wicked Garden:
@@ -911,7 +911,7 @@ Stone Temple Pilots:
       Crackerman:
       Where the River Goes:
    Purple:
-      $: *gr
+      <flow: *gr
       Meatplow:
       Vasoline: sh
       Lounge Fly:
@@ -925,7 +925,7 @@ Stone Temple Pilots:
       Kitchenware & Candybars / My Second Album:
 Stwo:
    D.T.S.N.T.:
-      $: 462,814 youtu.be/77-nRiju8CU
+      <flow: 462,814 youtu.be/77-nRiju8CU
       Far from Home: sh
       Haunted: gd
       Insecure:
@@ -936,7 +936,7 @@ Stwo:
       Blue Sky:
 Suzanne Vega:
    Days of Open Hand:
-      $: &gr 4,514,971 youtu.be/VZt7J0iaUD0
+      <flow: &gr 4,514,971 youtu.be/VZt7J0iaUD0
       Tired of Sleeping: bd
       Men in a War: bd
       Rusted Pipe: bd
@@ -949,7 +949,7 @@ Suzanne Vega:
       Fifty-Fifty Chance: sh
       Pilgrimage: gd
    Suzanne Vega:
-      $: *gr
+      <flow: *gr
       Cracking: sh
       Freeze Tag: sh
       Marlene on the Wall: bd
@@ -962,19 +962,19 @@ Suzanne Vega:
       Neighborhood Girls:
 System of a Down:
    Hypnotize:
-      $: 21,401,583 youtu.be/DnGdoEa1tPg
+      <flow: 21,401,583 youtu.be/DnGdoEa1tPg
       Hypnotize:
       Lonely Day:
    Mezmerize:
-      $: 29,761,688 youtu.be/zUzd9KyIDrM
+      <flow: 29,761,688 youtu.be/zUzd9KyIDrM
       B.Y.O.B.:
       Question!:
    System of a Down:
-      $: 10,410,721 youtu.be/5vBGOrI6yBk
+      <flow: 10,410,721 youtu.be/5vBGOrI6yBk
       Spiders:
       Sugar:
    Toxicity:
-      $: 83,415,926 youtu.be/CSvFpBOe8eY
+      <flow: 83,415,926 youtu.be/CSvFpBOe8eY
       Aerials:
       Chop Suey!:
       Toxicity:
