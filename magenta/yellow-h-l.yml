@@ -5,7 +5,7 @@ Harold Budd:
       Jane 13: no
       Jane 14: no
       Jane 15: len
-      Jane 16 (For Pale Saints): gd
+      Jane 16 (For Pale Saints): yes
       Jane 17: len
       Jane 18: len
       Jane 19: no
@@ -14,13 +14,13 @@ Harold Budd:
    Jane 1-11 (2013):
       <flow: *low
       Jane 1: no
-      Jane 2: gd
-      Jane 3: gd
-      Jane 4: gd
+      Jane 2: yes
+      Jane 3: yes
+      Jane 4: yes
       Jane 5:
       Jane 6:
       Jane 7:
-      Jane 8: gd
+      Jane 8: yes
       Jane 9: len
       Jane 10:
       Jane 11:
@@ -32,11 +32,11 @@ Harold Budd:
       <flow: *low
       Gaze:
       Deva C:
-      The Names of Those Never Here: gd
+      The Names of Those Never Here: yes
       So Many Short Years Ago:
       The Belles of Saint Andrew:
       Radiant City:
-      L’Aventure: gd
+      L’Aventure: yes
       Smiling Apart:
       Southern Shore:
    Little Windows (2010):
@@ -44,9 +44,9 @@ Harold Budd:
    A Song for Lost Blossoms (2008):
    Before the Day Breaks (2007):
       <flow: *low
-      How Close Your Soul: gd
-      A Formless Path: gd
-      A Minute, a Day, No More: gd
+      How Close Your Soul: yes
+      A Formless Path: yes
+      A Minute, a Day, No More: yes
       She Is My Weakness:
       Outside, Silence:
       Hidden Message:
@@ -56,11 +56,11 @@ Harold Budd:
    After the Night Falls (2007):
       <flow: *low
       How Distant Your Heart: no
-      Avenue of Shapes: gd
+      Avenue of Shapes: yes
       Seven Thousand Sunny Years: no
       She Is My Strength: len
       Inside, a Golden Echo: no
-      Open Book: gd
+      Open Book: yes
       And Then I Turned Away: no
       The Girl With Colorful Thoughts: no
       Turn Off the Sun: no
@@ -71,7 +71,7 @@ Harold Budd:
       Quandari: no
       Vari: no
       Nec Spero: len
-      Moss Landing: gd
+      Moss Landing: yes
       Chualar: len
       Atl Atl: len
       Nec Metus: no
@@ -91,8 +91,8 @@ Harold Budd:
    Through the Hill (1994):
       <flow: *low
       Hand 19: len
-      Through the Hill: gd
-      Great Valley of Gongs: gd
+      Through the Hill: yes
+      Great Valley of Gongs: yes
       Western Island of Apples:
       Anima Mundi:
       Hand 20:
@@ -117,7 +117,7 @@ Harold Budd:
       Balthus Bemused by Color: no
       The Child With a Lion: no
       The Real Dream of Sails: no
-      Algebra of Darkness: gd
+      Algebra of Darkness: yes
       Totems of the Red-Sleeved Warrior: no
       The Room: no
       Coyote: len
@@ -131,7 +131,7 @@ Harold Budd:
       Late October:
       A Stream With Bright Fish:
       The Silver Ball:
-      Against the Sky: gd
+      Against the Sky: yes
       Lost in the Humming Air:
       Dark-Eyed Sister:
       Their Memories: len
@@ -151,14 +151,14 @@ Heart:
       Cook With Fire:
       High Time:
       Hijinx:
-      Straight On: gd
+      Straight On: yes
       Dog & Butterfly:
       Lighter Touch:
       Nada One:
       Mistral Wind:
    Little Queen:
       <flow: *low
-      Barracuda: gd
+      Barracuda: yes
       Love Alive:
       Sylvan Song: len
       Dream of the Archer:
@@ -176,7 +176,7 @@ Hem:
       Things Are Not Perfect in Our Yard: len
       The Seed: len
       The Jack Pine:
-      Tourniquet: gd
+      Tourniquet: yes
       Seven Angels: len
       Gently Down the Stream:
       Bird Song: len
@@ -190,7 +190,7 @@ Henrik Schwarz:
       Walk Music Four:
       Marvin Two:
       Cloud Three:
-      Leave My Head Alone Brain Seven: gd
+      Leave My Head Alone Brain Seven: yes
       Wamims:
       In Björndal: len
       I Exist Because Of You Two:
@@ -199,27 +199,27 @@ Hope Sandoval & The Warm Inventions:
       <flow: 4,622,818 youtu.be/jEgX64n3T7g
       Sleep:
       Son of a Lady:
-      Let Me Get There (acoustic): gd
+      Let Me Get There (acoustic): yes
 Hudson Mohawke:
    $updated: 2018-7-19
    Butter:
       <flow: &low 1,316,767 youtu.be/6HzyUHxmkg0
       Shower Melody: len
-      Gluetooth: gd
+      Gluetooth: yes
       Joy Fantastic: no
       3.30: len
       Trykk: len
       Fruit Touch: no
       ZOo00OOm: len
       Acoustic Lady: len
-      Rising 5: gd
+      Rising 5: yes
       Twistclip Loop: len
       Just Decided: no
       No One Could Ever: len
       Velvet Peel: len
       Tell Me What You Want From Me: len
-      FUSE: gd
-      Star Crackout: gd
+      FUSE: yes
+      Star Crackout: yes
       Allhot: len
       Black n Red: len
    Lantern:
@@ -228,13 +228,13 @@ Hudson Mohawke:
       Very First Breath: no
       Ryderz: len
       Warriors: no
-      Kettles: gd
+      Kettles: yes
       Scud Books: no
       Indian Steps: no
       Lil Djembe: len
       Deepspace: no
       Shadows: len
-      Resistance: gd
+      Resistance: yes
       Portrait of Luci: no
       System: no
       Brand New World: no
@@ -249,18 +249,18 @@ Imogen Heap:
       Swoon: no
       Tidal: no
       Between Sheets: len
-      2-1: gd
+      2-1: yes
       Bad Body Double: no
       Aha!: len
       The Fire: len
-      Canvas: gd
+      Canvas: yes
       Half Life:
    Speak for Yourself (2005):
       <flow: 26,954,103 youtu.be/pBI3lc18k8Q
       Hide and Seek:
    Details (2002) (Frou Frou):
       <flow: *low
-      Let Go: gd
+      Let Go: yes
       Breathe In:
       It’s Good to Be in Love:
       Must Be Dreaming:
@@ -279,7 +279,7 @@ Imogen Heap:
       Shine: no
       Whatever: no
       Angry Angel: no
-      Candlelight: gd
+      Candlelight: yes
       Rake It In:
       Come Here Boy:
       Useless:
@@ -291,7 +291,7 @@ Incubus:
       <flow: &low 4,831,802 youtu.be/8295rOMvtQI
       Quicksand: len
       A Kiss to Send Us Off:
-      Dig: gd
+      Dig: yes
       Anna Molly:
       Love Hurts:
       Light Grenades: len
@@ -307,19 +307,19 @@ Incubus:
    A Crow Left of the Murder… (2004):
    Morning View (2001):
       <flow: *low
-      Nice to Know You: gd
-      Circles: gd
-      Wish You Were Here: gd
-      Just a Phase: gd
-      11am: gd
+      Nice to Know You: yes
+      Circles: yes
+      Wish You Were Here: yes
+      Just a Phase: yes
+      11am: yes
       Blood on the Ground:
       Mexico:
       Warning:
-      Echo: gd
+      Echo: yes
       Have You Ever:
-      Are You In?: gd
+      Are You In?: yes
       Under My Umbrella:
-      Aqueous Transmission: gd
+      Aqueous Transmission: yes
    Make Yourself (1999):
       <flow: 9,726,771 youtu.be/fgT9zGkiLig
       Drive:
@@ -330,30 +330,30 @@ Interpol:
       <flow: &low 3,226,641 youtu.be/-u6DvRyyKGU
       Next Exit:
       Evil:
-      NARC: gd
-      Take You on a Cruise: gd
+      NARC: yes
+      Take You on a Cruise: yes
       Slow Hands:
       Not Even Jail:
       Public Pervert:
       C’mere:
       Length of Love:
       A Time to Be So Small:
-      Song Seven: gd
+      Song Seven: yes
       NARC (Paul Banks remix): len
       Not Even Jail (Daniel Kessler remix):
       Fog vs. Mould for the Length of Love:
-      Public Pervert (Carlos D. remix): gd
+      Public Pervert (Carlos D. remix): yes
       C’mere:
       Evil:
       Slow Hands:
    El Pintor:
       <flow: *low
-      All the Rage Back Home: gd
-      My Desire: gd
+      All the Rage Back Home: yes
+      My Desire: yes
       Anywhere:
       Same Town, New Story:
       My Blue Supreme:
-      Everything Is Wrong: gd
+      Everything Is Wrong: yes
       Breaker 1:
       Ancient Ways:
       Tidal Wave:
@@ -364,27 +364,27 @@ Interpol:
       The Rover:
    Our Love to Admire:
       <flow: *low
-      Pioneer to the Falls: gd
-      No I in Threesome: gd
-      The Scale: gd
+      Pioneer to the Falls: yes
+      No I in Threesome: yes
+      The Scale: yes
       The Heinrich Maneuver:
       Mammoth:
-      Pace Is the Trick: gd
+      Pace Is the Trick: yes
       All Fired Up:
-      Rest My Chemistry: gd
+      Rest My Chemistry: yes
       Who Do You Think:
       Wrecking Ball:
-      The Lighthouse: gd
+      The Lighthouse: yes
    Turn On the Bright Lights:
       <flow: *low
       Untitled:
-      Obstacle 1: gd
+      Obstacle 1: yes
       NYC:
       PDA:
-      Say Hello to the Angels: gd
-      Hands Away: gd
+      Say Hello to the Angels: yes
+      Hands Away: yes
       Obstacle 2:
-      Stella Was a Diver and She Was Always Down: gd
+      Stella Was a Diver and She Was Always Down: yes
       Roland:
       The New:
       Leif Erikson:
@@ -395,7 +395,7 @@ INXS:
 Isan:
    Beautronics:
       <flow: &low 15,594 youtu.be/XLfiCRanawQ
-      Vosill: gd
+      Vosill: yes
       Tint1-Barely Barley: len
       Paintchart: no
       Tint2-Rosy Apples: len
@@ -417,12 +417,12 @@ Isan:
       Table of Deciduous Species: no
       Fueled: no
       Recently in the Sahara: no
-      What This Button Did: gd
+      What This Button Did: yes
       Anteaters Eat Ants: no
       Kittenplan A: no
       Read Again: no
       Cathart: no
-      Caddis: gd
+      Caddis: yes
       Scraph: no
       You Can Use Bamboo as a Ruler: no
    Meet Next Life:
@@ -432,7 +432,7 @@ Isan:
       One Man Abandon:
       Gurnard:
       The Race to Be First Home:
-      Gunnera: gd
+      Gunnera: yes
       Iron Eyes:
       Snowdrops and Phlox:
       Willowy:
@@ -443,7 +443,7 @@ Jabberwocky:
    Lunar Lane:
       <flow: 1,848,381 youtu.be/BJWoFagy4Bc
       Maze: len
-      Fog: gd
+      Fog: yes
       Photomaton:
       Alastor:
       Interlude: len
@@ -460,7 +460,7 @@ Jackson C. Frank:
       Blues Run the Game:
       Kimbie:
       Here Come the Blues:
-      Milk and Honey: gd
+      Milk and Honey: yes
       My Name Is Carnival:
       Dialogue (I Want to Be Alone):
       You Never Wanted Me:
@@ -471,7 +471,7 @@ Jackson C. Frank:
       In the Pines:
       John Henry’s Hammer:
       Jesse James:
-      Marlene: gd
+      Marlene: yes
       Marcy’s Song:
       Madonna of Swans:
       Relations:
@@ -480,7 +480,7 @@ Jackson C. Frank:
       The Visit:
       Juliette:
       China Blue:
-      Box Canyon: gd
+      Box Canyon: yes
       Spanish Moss (Rude sessions):
       Blues Run the Game (Peel sessions):
       My Name Is Carnival (Peel sessions):
@@ -496,11 +496,11 @@ James Blake:
    The Colour in Anything (2016):
    Overgrown (2013):
       <flow: 2,932,325 youtu.be/oOT2-OTebx0
-      Overgrown: gd
+      Overgrown: yes
       I Am Sold:
       Life Round Here:
       Take a Fall for Me:
-      Retrograde: gd
+      Retrograde: yes
       DLM: len
       Digital Lion:
       Voyeur:
@@ -509,11 +509,11 @@ James Blake:
    James Blake (2011):
       <flow: *low
       Unluck:
-      The Wilhelm Scream: gd
+      The Wilhelm Scream: yes
       I Never Learnt to Share:
       Lindisfarne I: len
       Lindisfarne II:
-      Limit to Your Love: gd
+      Limit to Your Love: yes
       Give Me My Month: len
       To Care (Like You):
       Why Don’t You Call Me: len
@@ -532,7 +532,7 @@ Jamie xx:
       Loud Places:
       I Know There’s Gonna Be (Good Times):
       The Rest Is Noise:
-      Girl: gd
+      Girl: yes
 Janet Jackson:
    Unbreakable (2015):
       <flow: 6,202,758 youtu.be/2_t0ffY3JvE
@@ -553,7 +553,7 @@ Janet Jackson:
       Interlude Speaker Phone: len
       My Need:
       Interlude Fasten Your Seatbelts: len
-      Go Deep: gd
+      Go Deep: yes
       Free Xone:
       Interlude Memory: len
       Together Again:
@@ -563,7 +563,7 @@ Janet Jackson:
       What About:
       Every Time:
       Tonight’s the Night:
-      I Get Lonely: gd
+      I Get Lonely: yes
       Rope Burn:
       Anything:
       Interlude Sad: len
@@ -571,11 +571,11 @@ Janet Jackson:
    janet. (1993):
       <flow: *low
       Morning: len
-      That’s the Way Love Goes: gd
+      That’s the Way Love Goes: yes
       You Know...: len
       You Want This:
       Be a Good Boy...: len
-      If: gd
+      If: yes
       Back: len
       This Time:
       Go On Miss Janet: len
@@ -605,10 +605,10 @@ JAWS:
    Simplicity:
       <flow: 70,385 youtu.be/RQCt3afJCzg
       Just a Boy: no
-      What We Haven’t Got Yet: gd
-      Right in Front of Me: gd
-      17: gd
-      Cast: gd
+      What We Haven’t Got Yet: yes
+      Right in Front of Me: yes
+      17: yes
+      Cast: yes
       Interlude: len
       On the Sunshine:
       Work It Out:
@@ -638,7 +638,7 @@ Jay-Z:
       A Dream:
       Hovi Baby:
       The Watcher 2:
-      ’03 Bonnie & Clyde: gd
+      ’03 Bonnie & Clyde: yes
       Excuse Me Miss:
       What They Gonna Do:
       All Around the World:
@@ -669,7 +669,7 @@ Jekka:
    City of Night:
       <flow: 7,720 youtu.be/tOjrQmVkJp4
       Midnight Hour:
-      City of Night: gd
+      City of Night: yes
       Hero:
       On and On:
 Jennifer Lopez:
@@ -695,37 +695,37 @@ Jeremy Soule:
    The Elder Scrolls IV Oblivion:
       <flow: 1,684,726 youtu.be/aQeIYVM3YBM
       Reign of the Septims: len
-      Through the Valleys: gd
+      Through the Valleys: yes
       Death Knell: len
-      Harvest Dawn: gd
+      Harvest Dawn: yes
       Wind From the Depths: len
-      King and Country: gd
+      King and Country: yes
       Fall of the Hammer: len
-      Wings of Kynareth: gd
-      Alls Well: gd
+      Wings of Kynareth: yes
+      Alls Well: yes
       Tension: len
       March of the Marauders: len
-      Watchman’s Ease: gd
-      Glory of Cyrodiil: gd
+      Watchman’s Ease: yes
+      Glory of Cyrodiil: yes
       Defending the Gate: len
       Bloody Blades: len
-      Minstrel’s Lament: gd
+      Minstrel’s Lament: yes
       Ancient Sorrow: len
-      Auriel’s Ascension: gd
+      Auriel’s Ascension: yes
       Daedra in Flight: len
       Unmarked Stone: len
       Bloodlust: len
-      Sunrise of Flutes: gd
+      Sunrise of Flutes: yes
       Churl’s Revenge: len
       Deep Waters: len
-      Dusk at the Market: gd
-      Peace of Akatosh: gd
+      Dusk at the Market: yes
+      Peace of Akatosh: yes
 Jessie Ware:
    Glasshouse (2017):
       <flow: 5,755,837 youtu.be/3zrZE68Qrrg
       Midnight: no
       Thinking About You: no
-      Stay Awake, Wait for Me: gd
+      Stay Awake, Wait for Me: yes
       Your Domino: no
       Alone: no
       Selfish Love: no
@@ -753,10 +753,10 @@ Jessy Lanza:
       Against the Wall:
       Pull My Hair Back:
       As If:
-      Strange Emotion: gd
+      Strange Emotion: yes
    You Never Show Your Love:
       <flow: *low
-      You Never Show Your Love: gd
+      You Never Show Your Love: yes
       You Never Show Your Love (instrumental):
       You Never Show Your Love (Teklife mix):
       Fuck Diamond (Bambounou remix):
@@ -768,7 +768,7 @@ John Frusciante:
       Anne:
       The Real:
       A Name: len
-      Control: gd
+      Control: yes
       Your Warning:
       Hope: len
       Ascension: len
@@ -778,7 +778,7 @@ John Frusciante & Omar Rodriguez Lopez:
    Omar Rodriguez Lopez & John Frusciante:
       <flow: *low
       417 am:
-      0=2: gd
+      0=2: yes
       LOE:
       ZIM:
       VTA:
@@ -787,7 +787,7 @@ John Frusciante & Omar Rodriguez Lopez:
 Joss Stone:
    Super Duper Love:
       <flow: 618,854 youtu.be/h__d0RMFOkQ
-      It’s a Man’s Man’s World (live): gd
+      It’s a Man’s Man’s World (live): yes
       Super Duper Love (Are You Diggin’ on Me?), Part 1:
    The Soul Sessions Vol. 2:
       <flow: 5,412,766 youtu.be/bLIYbabLJds
@@ -799,20 +799,20 @@ Joy Division:
       These Days:
    Unknown Pleasures:
       <flow: 2,141,879 youtu.be/wVvoQIdD80U
-      Disorder: gd
-      Day of the Lords: gd
+      Disorder: yes
+      Day of the Lords: yes
       Candidate:
       Insight:
-      New Dawn Fades: gd
+      New Dawn Fades: yes
       She’s Lost Control:
-      Shadowplay: gd
+      Shadowplay: yes
       Wilderness: len
       Interzone: len
       I Remember Nothing:
 Julia Holter:
    Have You in My Wilderness:
       <flow: &low 386,435 youtu.be/X2JgMniIpRM
-      Feel You: gd
+      Feel You: yes
       Silhouette:
       How Long?:
       Lucette Stranded on the Island:
@@ -826,9 +826,9 @@ Julia Holter:
       <flow: *low
       World:
       Maxim’s I:
-      Horns Surrounding Me: gd
+      Horns Surrounding Me: yes
       In the Green Wild:
-      Hello Stranger: gd
+      Hello Stranger: yes
       Maxim’s II:
       He’s Running Through My Eyes: len
       This Is a True Heart:
@@ -850,7 +850,7 @@ Julianna Barwick:
       The Harbinger:
       One Half:
       Look Into Your Own Mind:
-      Pyrrhic: gd
+      Pyrrhic: yes
       Labyrinthine:
       Forever:
       Adventurer of the Family: len
@@ -885,23 +885,23 @@ Justin Timberlake:
 Kammerflimmer Kollektief:
    Cicadidae:
       <flow: &low 6,591 youtu.be/OBNvfFFYBQA
-      Neumond inselhin: gd
+      Neumond inselhin: yes
       Sie tranken Regen: len
-      Über die Wasserscheide: gd
+      Über die Wasserscheide: yes
       Blood: len
-      ...denn Nacht ist jetzt schon bald!: gd
+      ...denn Nacht ist jetzt schon bald!: yes
       Sie tranken Regen (version): no
-      Mantra: gd
+      Mantra: yes
       Eiderdaunen (gerupft): no
       Irgendwann Frühling: no
-      There’s a Weight on You, but You Can’t Feel It.: gd
+      There’s a Weight on You, but You Can’t Feel It.: yes
    Désarroi:
       <flow: *low
       Mayhem!: no
-      grundstürzend: gd
+      grundstürzend: yes
       Free Form Freak-Out: no
       Evol Jam (edit): no
-      Burned: gd
+      Burned: yes
       unlösbar: no
       saumselig: len
       Zurück zum Beton (version): no
@@ -911,20 +911,20 @@ Kammerflimmer Kollektief:
       Action 1 Lucid, Imperial Beach: no
       Action 2 Discharged, Quauhnáhuac: no
       Action 3 Thoughtless, Hamburg: no
-      Action 4 Wasted, Ivano-Frankivsk: gd
+      Action 4 Wasted, Ivano-Frankivsk: yes
       Action 5 Resplendent, Bolinas:
       Action 6 Vigilant, Jerichow: len
       Action 7 Blessed, Ermenonville:
    Wildling:
       <flow: *low
-      Move Right In: gd
-      Silver Chords: gd
+      Move Right In: yes
+      Silver Chords: yes
       Aum a Go-Go: len
       In Transition (version):
       Spookin’ the Horse:
       Blind: len
       Rotwelsch:
-      Time Is the Fire in Which We Burn: gd
+      Time Is the Fire in Which We Burn: yes
       Cry Tuff:
       We Paint the Town Beige:
       There’s a Crack in Everything:
@@ -952,11 +952,11 @@ Kacey Musgraves:
 Kate Bush:
    Hounds of Love:
       <flow: &low 3,230,338 youtu.be/BW3gKKiTvjs
-      Running Up That Hill: gd
+      Running Up That Hill: yes
       Hounds of Love: no
       The Big Sky: no
       Mother Stands for Comfort: no
-      Cloudbusting: gd
+      Cloudbusting: yes
       And Dream of Sheep: len
       Under Ice: len
       Waking the Witch: no
@@ -984,15 +984,15 @@ King Crimson:
       <flow: 2,776,127 youtu.be/FhKJgqxNDD8
       21st Century Schizoid Man (including Mirrors):
       I Talk to the Wind:
-      Epitaph (including March for No Reason and Tomorrow and Tomorrow): gd
+      Epitaph (including March for No Reason and Tomorrow and Tomorrow): yes
       Moonchild (including The Dream and The Illusion):
       The Court of the Crimson King:
 Kings of Convenience:
    Riot on an Empty Street:
       <flow: 1,696,988 youtu.be/WOxE7IRizjI
       Homesick:
-      Misread: gd
-      Cayman Islands: gd
+      Misread: yes
+      Cayman Islands: yes
       Stay Out of Trouble:
       Know-How:
       Sorry or Please:
@@ -1000,12 +1000,12 @@ Kings of Convenience:
       I’d Rather Dance With You:
       Live Long: len
       Surprise Ice:
-      Gold in the Air of Summer: gd
+      Gold in the Air of Summer: yes
       The Build-Up:
 Koda:
    Waking:
       <flow: 662,516 youtu.be/cIzM9p3dUm8
-      Waking: gd
+      Waking: yes
 Koji Kondo:
    The Legend of Zelda Ocarina of Time:
       <flow: &low 788,113 youtu.be/-uInmFU6JkU
@@ -1024,16 +1024,16 @@ Koji Kondo:
       Ocarina Songs: len
       Ocarina of Time: len
       Lon Lon Ranch:
-      Kakariko Village: gd
+      Kakariko Village: yes
       Lost Woods: len
-      Zora’s Domain: gd
-      Great Fairy’s Fountain: gd
+      Zora’s Domain: yes
+      Great Fairy’s Fountain: yes
       Temple of Time: len
       Chamber of the Sages: len
       Horse Race: len
       Kakariko Village (orchestra version):
-      Windmill Hut: gd
-      Gerudo Valley: gd
+      Windmill Hut: yes
+      Gerudo Valley: yes
       Ganondorf Battle: len
       Last Battle:
       Zelda’s Ocarina: len
@@ -1061,7 +1061,7 @@ Koji Kondo:
       Open Treasure Box: len
       Get Item: len
       Get Small Item: len
-      Dragon Roost Island: gd
+      Dragon Roost Island: yes
       Mini-Boss: len
       Gohma Appears: len
       Gohma Battle First Half: len
@@ -1127,7 +1127,7 @@ Laraaji:
       The Dance 2: no
       The Dance 3: no
       Meditation 1: no
-      Meditation 2: gd
+      Meditation 2: yes
 Laurel Halo:
    Dust (2017):
    Chance of Rain (2013):
@@ -1136,7 +1136,7 @@ Laurel Halo:
    Hour Logic (2011):
       <flow: 86,554 youtu.be/IrjeMN_U1hw
       Aquifer:
-      Constant Index: gd
+      Constant Index: yes
       Head:
       Speed of Rain:
       Hour Logic:
@@ -1147,7 +1147,7 @@ Led Zeppelin:
       <flow: &low 5,999,659 youtu.be/sfR_HWMzgyc
       In the Evening:
       South Bound Saurez:
-      Fool in the Rain: gd
+      Fool in the Rain: yes
       Hot Dog:
       Carouselambra:
       All My Love:
@@ -1160,7 +1160,7 @@ Led Zeppelin:
       <flow: *low
       The Song Remains the Same:
       The Rain Song:
-      Over the Hills and Far Away: gd
+      Over the Hills and Far Away: yes
       The Crunge:
       Dancing Days:
       D’yer Mak’er:
@@ -1191,7 +1191,7 @@ Lenny Kravitz:
       Again:
    Are You Gonna Go My Way:
       <flow: 2,370,300 youtu.be/zLDIcIrZO8Y
-      Are You Gonna Go My Way: gd
+      Are You Gonna Go My Way: yes
       Believe:
       Come on and Love Me:
       Heaven Help:
@@ -1209,12 +1209,12 @@ Leon Vynehall:
    Midnight on Rainbow Road:
       <flow: &low 635,809 youtu.be/XpIrFglZfQU
       Midnight on Rainbow Road (Beat Edit): no
-      Midnight on Rainbow Road: gd
+      Midnight on Rainbow Road: yes
    Music for the Uninvited:
       <flow: *low
-      Inside the Deku Tree: gd
+      Inside the Deku Tree: yes
       Goodthing:
-      Be Brave, Clench Fists: gd
+      Be Brave, Clench Fists: yes
       Pier Children:
       It’s Just (House of Dupree):
       Christ Air:
@@ -1227,7 +1227,7 @@ Leon Vynehall:
       Paradisea:
       Wahness:
       Blush:
-      Kiburu’s: gd
+      Kiburu’s: yes
       There Is You:
 Linkin Park:
    A Thousand Suns:
@@ -1293,7 +1293,7 @@ Lisa Loeb:
       What Am I Supposed to Say (acoustic):
    Firecracker (1997):
       <flow: *low
-      I Do: gd
+      I Do: yes
       Falling in Love:
       Truthfully: len
       Let’s Forget About It: len
@@ -1308,10 +1308,10 @@ Lisa Loeb:
    Tails (1995):
       <flow: *low
       It’s Over:
-      Snow Day: gd
+      Snow Day: yes
       Taffy:
       When All the Stars Were Falling: len
-      Do You Sleep?: gd
+      Do You Sleep?: yes
       Hurricane:
       Rose-Colored Times:
       Sandalwood: len
@@ -1319,7 +1319,7 @@ Lisa Loeb:
       Waiting for Wednesday:
       Lisa Listen:
       Garden of Delights: len
-      Stay: gd
+      Stay: yes
 Lisa Stansfield:
    Affection:
       <flow: 3,452,550 youtu.be/JVuuatjHGnY
@@ -1327,7 +1327,7 @@ Lisa Stansfield:
       Mighty Love:
       Sincerity:
       The Love in Me:
-      All Around the World: gd
+      All Around the World: yes
       What Did I Do to You?:
       Live Together:
       You Can’t Deny It:
@@ -1343,7 +1343,7 @@ Live:
       Selling the Drama:
       I Alone:
       Iris:
-      Lightning Crashes: gd
+      Lightning Crashes: yes
       Top: len
       All Over You:
       Shit Towne:
@@ -1358,9 +1358,9 @@ Luke Slater (The 7th Plain):
       <flow: 13,434 youtu.be/KPc19-o4wEw
       Time Melts:
       Reality of Space:
-      Surface Bound: gd
+      Surface Bound: yes
       Lost:
-      The Needs of the Many: gd
+      The Needs of the Many: yes
       7th Plain:
       Astra Naut-E:
       Trite:
@@ -1385,13 +1385,13 @@ Lykke Li:
       Sadness Is a Blessing:
    Youth Novels:
       <flow: *low
-      Melodies & Desires: gd
+      Melodies & Desires: yes
       Dance, Dance, Dance: no
       I’m Good, I’m Gone: no
       Let It Fall: len
       My Love: no
       Tonight:
-      Little Bit: gd
+      Little Bit: yes
       Hanging High: no
       This Trumpet in My Head: len
       Complaint Department: no

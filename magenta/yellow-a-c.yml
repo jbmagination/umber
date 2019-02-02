@@ -1334,20 +1334,25 @@ Coldplay:
       <flow: 80,172,619 https://youtu.be/RB-RcX5DS5A
       The Scientist:
 Com Truise:
-   Galactic Melt:
-      <flow: &low 881,676 https://youtu.be/yergWdn968o
-      Terminal: len
-      VHS Sex: no
-      Cathode Girls: no
-      Air Cal: no
-      Flightwave: no
-      Hyperlips: yes
-      Brokendate:
-      Glawio:
-      Ether Drift:
-      Futureworld:
-      Karova:
+   Iteration:
+      <year: 2017
+      <<: &low
+         <flow: 881,676
+         <link: https://youtu.be/yergWdn968o
+      Of Your Fake Dimension: no
+      Ephemeron: no
+      Dryswch:
+      Isostasy:
+      Memory:
+      Propagation:
+      Vacuume:
+      Ternary:
+      Usurper:
+      Syrthio:
+      When Will You Find the Limit:
+      Iteration:
    In Decay:
+      <year: 2012
       <flow: *low
       Open:
       84’ Dreamin:
@@ -1362,6 +1367,20 @@ Com Truise:
       Video Arkade:
       Data Kiss:
       Closed:
+   Galactic Melt:
+      <year: 2011
+      <flow: *low
+      Terminal: len
+      VHS Sex: no
+      Cathode Girls: no
+      Air Cal: no
+      Flightwave: no
+      Hyperlips: yes
+      Brokendate:
+      Glawio:
+      Ether Drift:
+      Futureworld:
+      Karova:
 Conjure One:
    Conjure One:
       <flow: 163,821 https://youtu.be/4w0hHxrj7do
