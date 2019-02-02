@@ -12,7 +12,7 @@ Harold Budd:
       Jane 20: no
       Jane 21: len
    Jane 1-11 (2013):
-      <flow: *low
+      <<: *low
       Jane 1: no
       Jane 2: yes
       Jane 3: yes
@@ -29,7 +29,7 @@ Harold Budd:
    Winter Garden (2011):
    In the Mist (2011):
    Bordeaux (2011):
-      <flow: *low
+      <<: *low
       Gaze:
       Deva C:
       The Names of Those Never Here: yes
@@ -43,7 +43,7 @@ Harold Budd:
    Candylion (2009):
    A Song for Lost Blossoms (2008):
    Before the Day Breaks (2007):
-      <flow: *low
+      <<: *low
       How Close Your Soul: yes
       A Formless Path: yes
       A Minute, a Day, No More: yes
@@ -54,7 +54,7 @@ Harold Budd:
       My Monochrome Vision:
       Turn On the Moon:
    After the Night Falls (2007):
-      <flow: *low
+      <<: *low
       How Distant Your Heart: no
       Avenue of Shapes: yes
       Seven Thousand Sunny Years: no
@@ -65,7 +65,7 @@ Harold Budd:
       The Girl With Colorful Thoughts: no
       Turn Off the Sun: no
    Perhaps (2007):
-      <flow: *low
+      <<: *low
       Templar: no
       Tong War: no
       Quandari: no
@@ -89,7 +89,7 @@ Harold Budd:
    Glyph (1995):
    She Is a Phantom (1994):
    Through the Hill (1994):
-      <flow: *low
+      <<: *low
       Hand 19: len
       Through the Hill: yes
       Great Valley of Gongs: yes
@@ -112,7 +112,7 @@ Harold Budd:
    By the Dawn’s Early Light (1991):
    The Serpent (In Quicksilver) / Abandoned Cities (1989):
    The White Arcades (1988):
-      <flow: *low
+      <<: *low
       The White Arcades: no
       Balthus Bemused by Color: no
       The Child With a Lion: no
@@ -127,7 +127,7 @@ Harold Budd:
    Abandoned Cities (1984):
    The Pearl (1984):
    The Pearl:
-      <flow: *low
+      <<: *low
       Late October:
       A Stream With Bright Fish:
       The Silver Ball:
@@ -157,7 +157,7 @@ Heart:
       Nada One:
       Mistral Wind:
    Little Queen:
-      <flow: *low
+      <<: *low
       Barracuda: yes
       Love Alive:
       Sylvan Song: len
@@ -223,7 +223,7 @@ Hudson Mohawke:
       Allhot: len
       Black n Red: len
    Lantern:
-      <flow: *low
+      <<: *low
       Lantern: len
       Very First Breath: no
       Ryderz: len
@@ -259,7 +259,7 @@ Imogen Heap:
       <flow: 26,954,103 https://youtu.be/pBI3lc18k8Q
       Hide and Seek:
    Details (2002) (Frou Frou):
-      <flow: *low
+      <<: *low
       Let Go: yes
       Breathe In:
       It’s Good to Be in Love:
@@ -272,7 +272,7 @@ Imogen Heap:
       Flicks:
       The Dumbing Down of Love:
    i Megaphone (1998):
-      <flow: *low
+      <<: *low
       Getting Scared: no
       Sweet Religion: no
       Oh Me, Oh My: no
@@ -309,7 +309,7 @@ Incubus:
       <year: 2004
    Morning View:
       <year: 2001
-      <flow: *low
+      <<: *low
       Nice to Know You: yes
       Circles: yes
       Wish You Were Here: yes
@@ -350,7 +350,7 @@ Interpol:
       Evil:
       Slow Hands:
    El Pintor:
-      <flow: *low
+      <<: *low
       All the Rage Back Home: yes
       My Desire: yes
       Anywhere:
@@ -366,7 +366,7 @@ Interpol:
       If You Really Love Nothing:
       The Rover:
    Our Love to Admire:
-      <flow: *low
+      <<: *low
       Pioneer to the Falls: yes
       No I in Threesome: yes
       The Scale: yes
@@ -379,7 +379,7 @@ Interpol:
       Wrecking Ball:
       The Lighthouse: yes
    Turn On the Bright Lights:
-      <flow: *low
+      <<: *low
       Untitled:
       Obstacle 1: yes
       NYC:
@@ -436,7 +436,7 @@ Isan:
       Sublimation:
       Anklet:
    Lucky Cat:
-      <flow: *low
+      <<: *low
       Cutlery Favours: no
       Table of Deciduous Species: no
       Fueled: no
@@ -450,7 +450,7 @@ Isan:
       Scraph: no
       You Can Use Bamboo as a Ruler: no
    Meet Next Life:
-      <flow: *low
+      <<: *low
       Birds Over Barges:
       First Date - Jumble Sale:
       One Man Abandon:
@@ -531,7 +531,7 @@ James Blake:
       To the Last:
       Our Love Comes Back:
    James Blake (2011):
-      <flow: *low
+      <<: *low
       Unluck:
       The Wilhelm Scream: yes
       I Never Learnt to Share:
@@ -593,7 +593,7 @@ Janet Jackson:
       Interlude Sad: len
       Special:
    janet. (1993):
-      <flow: *low
+      <<: *low
       Morning: len
       That’s the Way Love Goes: yes
       You Know...: len
@@ -779,7 +779,7 @@ Jessy Lanza:
       As If:
       Strange Emotion: yes
    You Never Show Your Love:
-      <flow: *low
+      <<: *low
       You Never Show Your Love: yes
       You Never Show Your Love (instrumental):
       You Never Show Your Love (Teklife mix):
@@ -800,7 +800,7 @@ John Frusciante:
       Leap Your Bar: len
 John Frusciante & Omar Rodriguez Lopez:
    Omar Rodriguez Lopez & John Frusciante:
-      <flow: *low
+      <<: *low
       417 am:
       0=2: yes
       LOE:
@@ -847,7 +847,7 @@ Julia Holter:
       Vasquez:
       Have You in My Wilderness:
    Loud City Song:
-      <flow: *low
+      <<: *low
       World:
       Maxim’s I:
       Horns Surrounding Me: yes
@@ -858,7 +858,7 @@ Julia Holter:
       This Is a True Heart:
       City Appearing:
    Tragedy:
-      <flow: *low
+      <<: *low
       Introduction: no
       Try to Make Yourself a Work of Art: no
       The Falling Age: no
@@ -919,7 +919,7 @@ Kammerflimmer Kollektief:
       Action 7 Blessed, Ermenonville:
    Désarroi:
       <year: 2015
-      <flow: *low
+      <<: *low
       Mayhem!: no
       grundstürzend: yes
       Free Form Freak-Out: no
@@ -933,7 +933,7 @@ Kammerflimmer Kollektief:
       <year: 2011
    Wildling:
       <year: 2010
-      <flow: *low
+      <<: *low
       Move Right In: yes
       Silver Chords: yes
       Aum a Go-Go: len
@@ -954,7 +954,7 @@ Kammerflimmer Kollektief:
       <year: 2005
    Cicadidae:
       <year: 2003
-      <flow: *low
+      <<: *low
       Neumond inselhin: yes
       Sie tranken Regen: len
       Über die Wasserscheide: yes
@@ -1007,7 +1007,7 @@ Kate Bush:
       Hello Earth: no
       The Morning Fog: len
    The Kick Inside:
-      <flow: *low
+      <<: *low
       Moving: no
       The Saxophone Song: no
       Strange Phenomena: len
@@ -1087,7 +1087,7 @@ Koji Kondo:
       Prelude of Light: len
       Requiem of Spirit: len
    The Legend of Zelda The Wind Waker:
-      <flow: *low
+      <<: *low
       Title: len
       Menu Select: len
       The Legendary Hero:
@@ -1199,7 +1199,7 @@ Led Zeppelin:
       <flow: 7,367,630 https://youtu.be/PD-MdiUm1_Y
       Kashmir:
    Houses of the Holy (1973):
-      <flow: *low
+      <<: *low
       The Song Remains the Same:
       The Rain Song:
       Over the Hills and Far Away: yes
@@ -1253,7 +1253,7 @@ Leon Vynehall:
       Midnight on Rainbow Road (Beat Edit): no
       Midnight on Rainbow Road: yes
    Music for the Uninvited:
-      <flow: *low
+      <<: *low
       Inside the Deku Tree: yes
       Goodthing:
       Be Brave, Clench Fists: yes
@@ -1262,7 +1262,7 @@ Leon Vynehall:
       Christ Air:
       St. Sinclair:
    Rojus:
-      <flow: *low
+      <<: *low
       Beyond This:
       Saxony:
       Beau Sovereign:
@@ -1334,7 +1334,7 @@ Lisa Loeb:
       Take Me Back:
       What Am I Supposed to Say (acoustic):
    Firecracker (1997):
-      <flow: *low
+      <<: *low
       I Do: yes
       Falling in Love:
       Truthfully: len
@@ -1348,7 +1348,7 @@ Lisa Loeb:
       Split Second: len
       Firecracker:
    Tails (1995):
-      <flow: *low
+      <<: *low
       It’s Over:
       Snow Day: yes
       Taffy:
@@ -1426,7 +1426,7 @@ Lykke Li:
       I Follow Rivers:
       Sadness Is a Blessing:
    Youth Novels:
-      <flow: *low
+      <<: *low
       Melodies & Desires: yes
       Dance, Dance, Dance: no
       I’m Good, I’m Gone: no

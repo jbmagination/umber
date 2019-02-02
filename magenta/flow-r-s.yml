@@ -19,7 +19,7 @@ Radiohead:
       Like Spinning Plates:
       Life in a Glasshouse:
    Hail to the Thief:
-      <flow: *low
+      <<: *low
       2 + 2 = 5:
       Sit Down. Stand Up.:
       Sail to the Moon.: yes
@@ -35,7 +35,7 @@ Radiohead:
       Scatterbrain.:
       A Wolf at the Door.:
    In Rainbows:
-      <flow: *low
+      <<: *low
       15 Step:
       Bodysnatchers:
       Nude:
@@ -47,7 +47,7 @@ Radiohead:
       Jigsaw Falling Into Place:
       Videotape:
    Kid A:
-      <flow: *low
+      <<: *low
       Everything in Its Right Place: yes
       Kid A:
       The National Anthem: yes
@@ -122,7 +122,7 @@ Ratatat:
       Nostrand:
       Tacobel Canon:
    LP3:
-      <flow: *low
+      <<: *low
       Shiller: yes
       Falcon Jab: yes
       Mi Viejo: len
@@ -202,7 +202,7 @@ R.E.M.:
       Losing My Religion:
       Shiny Happy People:
    Green (1988):
-      <flow: *low
+      <<: *low
       Pop Song 89:
       Get Up: len
       You Are the Everything:
@@ -248,7 +248,7 @@ Richard D. James:
       Spotlight (Aphex Twin mix):
       Debase (Soft Palate):
    Drukqs:
-      <flow: *low
+      <<: *low
       Jynweythek: len
       Vordhosbn:
       Kladfvgbung Micshk: len
@@ -280,19 +280,19 @@ Richard D. James:
       Beskhu3epnm: len
       Nanou 2: yes
    On:
-      <flow: *low
+      <<: *low
       On: yes
       73-Yips:
       D-Scape:
       Xepha:
    On Remixes:
-      <flow: *low
+      <<: *low
       On (D-Scape mix):
       On (Reload mix): yes
       On (μ-Ziq mix): yes
       On (28 mix):
    Richard D. James Album:
-      <flow: *low
+      <<: *low
       4: yes
       Cornish Acid: len
       Peek 824545201:
@@ -304,7 +304,7 @@ Richard D. James:
       Girl/Boy Song: yes
       Logan Rock Witch:
    Selected Ambient Works 85–92:
-      <flow: *low
+      <<: *low
       Xtal: yes
       Tha: yes
       Pulsewidth:
@@ -319,7 +319,7 @@ Richard D. James:
       Delphium:
       Actium:
    Selected Ambient Works, Volume II:
-      <flow: *low
+      <<: *low
       '[Cliffs]': yes
       '[Radiator]':
       '[Rhubarb]': yes
@@ -346,7 +346,7 @@ Richard D. James:
       '[White Blur 2]':
       '[Matchsticks]':
    Windowlicker:
-      <flow: *low
+      <<: *low
       Windowlicker: yes
       Formula:
       Nannou:
@@ -386,7 +386,7 @@ Roosevelt:
       Montreal:
       Sea:
    Roosevelt:
-      <flow: *low
+      <<: *low
       Intro: len
       Wait Up:
       Night Moves: yes
@@ -439,7 +439,7 @@ Sade:
       No Ordinary Love:
       Pearls:
    Stronger Than Pride (1988):
-      <flow: *low
+      <<: *low
       Love Is Stronger Than Pride:
       Paradise: yes
       Nothing Can Come Between Us: yes
@@ -451,7 +451,7 @@ Sade:
       I Never Thought I’d See the Day:
       Siempre Hay Esperanza:
    Promise (1985):
-      <flow: *low
+      <<: *low
       Is It a Crime: yes
       The Sweetest Taboo: yes
       War of the Hearts:
@@ -464,7 +464,7 @@ Sade:
       Tar Baby:
       Maureen:
    Diamond Life (1984):
-      <flow: *low
+      <<: *low
       Smooth Operator:
       Your Love Is King: yes
       Hang on to Your Love:
@@ -491,7 +491,7 @@ Saint Etienne:
       Like the Swallow:
       Dilworth’s Theme: len
    Tales From Turnpike House:
-      <flow: *low
+      <<: *low
       Side Streets: len
       A Good Thing: no
       Sun in My Morning: len
@@ -506,7 +506,7 @@ Saint Etienne:
       Teenage Winter:
       Goodnight: yes
    Tiger Bay:
-      <flow: *low
+      <<: *low
       Urban Clearway:
       Former Lover: yes
       Hug My Soul:
@@ -532,7 +532,7 @@ Samaris:
       T4ngled:
       In Deep: yes
    Silkidrangar:
-      <flow: *low
+      <<: *low
       Nótt: yes
       Ég vildi fegin verða:
       Lífsins ólgusjór:
@@ -568,7 +568,7 @@ Seal:
       Show Me:
       Violet:
    Seal II:
-      <flow: *low
+      <<: *low
       Bring It On:
       Prayer for the Dying:
       Dreaming in Metaphors:
@@ -657,7 +657,7 @@ Simian Mobile Disco:
       Hot Dub:
       Wooden (uncut):
    Unpatterns:
-      <flow: *low
+      <<: *low
       I Waited for You:
       Cerulean:
       Seraphim: yes
@@ -698,7 +698,7 @@ Solar Fields:
       The Sight Is White:
       Third Time (T version):
    Mirror’s Edge Catalyst:
-      <flow: *low
+      <<: *low
       Faith:
       Release:
       Birdman: len
@@ -782,7 +782,7 @@ Squarepusher:
       Rat/P’s and Q’s:
       Rebus: len
    Numbers Lucent:
-      <flow: *low
+      <<: *low
       Zounds Perspex: no
       Paradise Garage: no
       Heliacal Torch: no
@@ -790,7 +790,7 @@ Squarepusher:
       Arterial Fantasy: no
       Illegal Dustbin: no
    Solo Electric Bass 1:
-      <flow: *low
+      <<: *low
       SEB-1.01: len
       SEB-1.09: yes
       SEB-1.10: len
@@ -804,7 +804,7 @@ Squarepusher:
       SEB-1.11: len
       SEB-1.12:
    Ultravisitor:
-      <flow: *low
+      <<: *low
       Ultravisitor:
       I Fulcrum:
       Iambic 9 Poetry: yes
@@ -832,7 +832,7 @@ St. Germain:
       Dub Experience II:
       Forget It:
    Tourist:
-      <flow: *low
+      <<: *low
       Rose Rouge: yes
       Montego Bay Spleen:
       So Flute:
@@ -889,7 +889,7 @@ Steve Roach:
    The Leaving Time (1988):
    Quiet Music 3 (1986):
    Quiet Music 2 (1986):
-      <flow: *low
+      <<: *low
       See Things:
       Towards the Blue:
       Something in Tears:
@@ -911,7 +911,7 @@ Stone Temple Pilots:
       Crackerman:
       Where the River Goes:
    Purple:
-      <flow: *low
+      <<: *low
       Meatplow:
       Vasoline: len
       Lounge Fly:
@@ -949,7 +949,7 @@ Suzanne Vega:
       Fifty-Fifty Chance: len
       Pilgrimage: yes
    Suzanne Vega:
-      <flow: *low
+      <<: *low
       Cracking: len
       Freeze Tag: len
       Marlene on the Wall: no

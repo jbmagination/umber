@@ -40,7 +40,7 @@
       Free D: len
       Slow Plus:
    Sweet Jones (2003):
-      <flow: *low
+      <<: *low
       The Woodworm: yes
       Code 3: no
       Sunday Monday: yes
@@ -55,7 +55,7 @@
       The Last of the West:
    The Herb (1995):
    Electric Lazyland (1994):
-      <flow: *low
+      <<: *low
       Life Goes On & On: no
       Electric Lazyland: no
       Skarakesh:
@@ -74,7 +74,7 @@
       Roughport Invention:
       Golden Oldie: len
    Paradise Blown (1994):
-      <flow: *low
+      <<: *low
       500 am: yes
       Shak: no
       Turn Me Loose: no
@@ -169,7 +169,7 @@ Air:
       You Can Tell It to Everybody:
       African Velvet: yes
    Pocket Symphony (2006):
-      <flow: *low
+      <<: *low
       Space Maker:
       Once Upon a Time:
       One Hell of a Party:
@@ -184,7 +184,7 @@ Air:
       Night Sight:
       Time Capsule:
    Talkie Walkie (2004):
-      <flow: *low
+      <<: *low
       Venus:
       Cherry Blossom Girl:
       Run:
@@ -197,7 +197,7 @@ Air:
       Alone in Kyoto: yes
       Easy Going Woman:
    10 000 Hz Legend (2001):
-      <flow: *low
+      <<: *low
       Electronic Performers: no
       How Does It Make You Feel?: no
       Radio 1: no
@@ -210,7 +210,7 @@ Air:
       Don’t Be Light:
       Caramel Prisoner:
    Moon Safari (1998):
-      <flow: *low
+      <<: *low
       La Femme d’argent: yes
       Sexy Boy:
       All I Need:
@@ -222,7 +222,7 @@ Air:
       New Star in the Sky (Chanson pour Solal):
       Le Voyage de Pénélope: yes
    Premiers Symptômes (1997):
-      <flow: *low
+      <<: *low
       Modular Mix: yes
       Casanova 70: yes
       Les Professionnels: yes
@@ -263,7 +263,7 @@ Alice in Chains:
    Black Gives Way to Blue (2009):
    Alice in Chains (1995):
    Jar of Flies (1994):
-      <flow: *low
+      <<: *low
       Rotten Apple: yes
       Nutshell: yes
       I Stay Away: yes
@@ -317,7 +317,7 @@ Amon Tobin:
       One Small Step:
       Mission:
    Foley Room:
-      <flow: *low
+      <<: *low
       Bloodstone: yes
       Esther’s:
       Keep Your Distance:
@@ -331,7 +331,7 @@ Amon Tobin:
       Straight Psyche: yes
       At the End of the Day:
    Out From Out Where:
-      <flow: *low
+      <<: *low
       Back From Space: no
       Verbal: no
       Chronic Tronic: no
@@ -344,7 +344,7 @@ Amon Tobin:
       Proper Hoodidge: no
       Mighty Micro People: yes
    Permutation:
-      <flow: *low
+      <<: *low
       Like Regular Chickens:
       Bridge: yes
       Reanimator:
@@ -358,7 +358,7 @@ Amon Tobin:
       Toys:
       Nova: yes
    Supermodified:
-      <flow: *low
+      <<: *low
       Get Your Snack On: yes
       Four Ton Mantis: yes
       Slowly: yes
@@ -409,7 +409,7 @@ Autechre:
       Nil: yes
       Teartear: no
    Draft 7.30:
-      <flow: *low
+      <<: *low
       Xylin Room:
       IV VV IV VV VIII:
       6IE.CR:
@@ -421,7 +421,7 @@ Autechre:
       V-PROC:
       Reniform Puls:
    EP7:
-      <flow: *low
+      <<: *low
       Rpeg:
       Ccec:
       Squeller:
@@ -434,7 +434,7 @@ Autechre:
       Netlon Sentinel:
       Pir:
    Exai:
-      <flow: *low
+      <<: *low
       FLeure: no
       irlite (get 0): no
       prac-f: no
@@ -453,7 +453,7 @@ Autechre:
       recks on: no
       YJY UX: no
    Incunabula:
-      <flow: *low
+      <<: *low
       Kalpol Introl: yes
       Bike: yes
       Autriche: yes
@@ -466,7 +466,7 @@ Autechre:
       Lowride:
       444: yes
    Oversteps:
-      <flow: *low
+      <<: *low
       r ess: yes
       ilanders:
       known(1):
@@ -482,7 +482,7 @@ Autechre:
       krYlon:
       Yuop: yes
    Quaristice:
-      <flow: *low
+      <<: *low
       Altibzz: yes
       The Plc: no
       IO: no
@@ -504,7 +504,7 @@ Autechre:
       Notwo: yes
       Outh9X: no
    Tri Repetae:
-      <flow: *low
+      <<: *low
       Dael:
       Clipper:
       Leterel:
@@ -555,7 +555,7 @@ Bat for Lashes:
       Daniel (live):
       Lonely (live): yes
    Fur and Gold (2006):
-      <flow: *low
+      <<: *low
       Horse and I:
       Trophy: no
       Tahiti: yes
@@ -619,7 +619,7 @@ Beck:
       Country Down:
       Waking Light:
    Odelay:
-      <flow: *low
+      <<: *low
       Devil’s Haircut: no
       Hotwax: no
       Lord Only Knows:
@@ -698,7 +698,7 @@ Bibio:
       Cry! Baby!:
       Dwrcan:
    Silver Wilkinson:
-      <flow: *low
+      <<: *low
       The First Daffodils: len
       Dye the Water Green: yes
       Wulf: len
@@ -768,7 +768,7 @@ Björk:
       The Anchor Song: yes
       Play Dead: yes
    Homogenic:
-      <flow: *low
+      <<: *low
       Hunter: yes
       Jóga: yes
       Unravel: yes
@@ -780,7 +780,7 @@ Björk:
       Pluto: no
       All Is Full of Love: yes
    Post:
-      <flow: *low
+      <<: *low
       Army of Me: yes
       Hyper‐Ballad: no
       The Modern Things: no
@@ -831,7 +831,7 @@ Blood Orange:
       Minetta Creek: len
       Smoke: no
    Freetown Sound (2016):
-      <flow: *low
+      <<: *low
       By Ourselves: len
       Augustine: no
       Chance: len
@@ -850,7 +850,7 @@ Blood Orange:
       I Know:
       Better Numb:
    Cupid Deluxe (2013):
-      <flow: *low
+      <<: *low
       Chamakay: yes
       You’re Not Good Enough: yes
       Uncle ACE: yes
@@ -863,7 +863,7 @@ Blood Orange:
       High Street: len
       Time Will Tell:
    Coastal Grooves (2011):
-      <flow: *low
+      <<: *low
       Forget It: no
       Sutphin Boulevard: yes
       I’m Sorry We Lied: yes
@@ -894,7 +894,7 @@ Boards of Canada:
       Original Nlogax: len
       Whitewater: no
    Geogaddi:
-      <flow: *low
+      <<: *low
       Ready Lets Go: len
       Music Is Math: yes
       Beware the Friendly Stranger: len
@@ -919,13 +919,13 @@ Boards of Canada:
       Corsair: len
       Magic Window: len
    In a Beautiful Place Out in the Country:
-      <flow: *low
+      <<: *low
       Kid for Today: yes
       Amo Bishop Roden: yes
       In a Beautiful Place Out in the Country: yes
       Zoetrope: no
    Music Has the Right to Children:
-      <flow: *low
+      <<: *low
       Wildlife Analysis: len
       An Eagle in Your Mind: yes
       The Color of the Fire: len
@@ -944,7 +944,7 @@ Boards of Canada:
       Open the Light: yes
       One Very Important Thought: len
    The Campfire Headphase:
-      <flow: *low
+      <<: *low
       Into the Rainbow Vein: len
       Chromakey Dreamcoat: yes
       Satellite Anthem Icarus: yes
@@ -961,7 +961,7 @@ Boards of Canada:
       Tears From the Compound Eye: yes
       Farewell Fire: no
    Tomorrow’s Harvest:
-      <flow: *low
+      <<: *low
       Gemini: len
       Reach for the Dead: yes
       White Cyclosa: yes
@@ -980,7 +980,7 @@ Boards of Canada:
       Come to Dust:
       Semena Mertvykh:
    Trans Canada Highway:
-      <flow: *low
+      <<: *low
       Left Side Drive: yes
       Heard From Telegraph Lines: len
       Skyliner:
@@ -999,7 +999,7 @@ Bonobo:
       Sugar Rhyme: no
       Silver: yes
    Black Sands:
-      <flow: *low
+      <<: *low
       Prelude: len
       Kiara: yes
       Kong: no
@@ -1013,7 +1013,7 @@ Bonobo:
       Animals: yes
       Black Sands: yes
    Days to Come:
-      <flow: *low
+      <<: *low
       Intro: len
       Days to Come: yes
       Between the Lines:
@@ -1033,7 +1033,7 @@ Bonobo:
       Walk in the Sky (instrumental): yes
       Hatoa: yes
    Dial ’M’ for Monkey:
-      <flow: *low
+      <<: *low
       Noctuary: no
       Flutter: yes
       D Song: yes
@@ -1044,14 +1044,14 @@ Bonobo:
       Nothing Owed: yes
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
-      <flow: *low
+      <<: *low
       Dismantling Frank: yes
       The Sicilian:
       The Shark:
       Magicman: yes
       Scuba: yes
    The North Borders:
-      <flow: *low
+      <<: *low
       First Fires:
       Emkay:
       Cirrus:
@@ -1087,7 +1087,7 @@ Boz Scaggs:
    Fade Into Light (1996):
    Some Change (1994):
    Other Roads (1988):
-      <flow: *low
+      <<: *low
       What’s Number One?: no
       Claudia:
       Heart of Mine:
@@ -1164,7 +1164,7 @@ Bush:
       X‐Girlfriend: len
       Comedown (acoustic):
    The Science of Things:
-      <flow: *low
+      <<: *low
       Warm Machine: no
       Jesus Online: no
       The Chemicals Between Us: yes
@@ -1246,7 +1246,7 @@ Chicago:
       <year: 1973
    Chicago V:
       <year: 1972
-      <flow: *low
+      <<: *low
       A Hit by Varèse:
       All Is Well:
       Now That You’ve Gone:
@@ -1261,7 +1261,7 @@ Chicago:
       <year: 1971
    Chicago II:
       <year: 1969
-      <flow: *low
+      <<: *low
       Movin’ In:
       The Road:
       Poem for the People:
@@ -1299,7 +1299,7 @@ Chicane:
       Saltwater (The Thrillseekers remix): yes
       Andromeda: no
    Far From the Maddening Crowds:
-      <flow: *low
+      <<: *low
       Early:
       Already There: len
       Offshore (original mix):
@@ -1370,7 +1370,7 @@ Cocteau Twins:
    Heaven or Las Vegas (1990):
    Blue Bell Knoll (1988):
    Victorialand (1986):
-      <flow: *low
+      <<: *low
       Lazy Calm: yes
       Fluffy Tufts:
       Throughout the Dark Months of April and May: yes
@@ -1381,13 +1381,13 @@ Cocteau Twins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
    Tiny Dynamine (1985):
-      <flow: *low
+      <<: *low
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
    Treasure (1984):
-      <flow: *low
+      <<: *low
       Ivo: yes
       Lorelei: no
       Beatrix:
@@ -1399,13 +1399,13 @@ Cocteau Twins:
       Otterley: yes
       Donimo:
    Sunburst and Snowblind (1983):
-      <flow: *low
+      <<: *low
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
    Head Over Heels (1983):
-      <flow: *low
+      <<: *low
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
       Sugar Hiccup: no
@@ -1417,7 +1417,7 @@ Cocteau Twins:
       My Love Paramour:
       Musette and Drums:
    Garlands (1982):
-      <flow: *low
+      <<: *low
       Blood Bitch: no
       Wax and Wane: no
       But I’m Not: len
@@ -1450,7 +1450,7 @@ Com Truise:
       Iteration:
    In Decay:
       <year: 2012
-      <flow: *low
+      <<: *low
       Open:
       84’ Dreamin:
       Dreambender:
@@ -1466,7 +1466,7 @@ Com Truise:
       Closed:
    Galactic Melt:
       <year: 2011
-      <flow: *low
+      <<: *low
       Terminal: len
       VHS Sex: no
       Cathode Girls: no

@@ -21,7 +21,7 @@ Tangerine Dream:
    Exit (1981):
    Tangram (1980):
    Force Majeure (1979):
-      <flow: *low
+      <<: *low
       Force Majeure: no
       Cloudburst Flight: yes
       Thru Metamorphic Rocks: no
@@ -70,14 +70,14 @@ The Black Dog:
       Later Vexations:
       Kissing Someone Else’s D.O.G:
    Peel Session:
-      <flow: *low
+      <<: *low
       Shadehead: yes
       Rise Up:
       Simperton:
       Rue:
       Psycosyin:
    Radio Scarecrow:
-      <flow: *low
+      <<: *low
       Transmission Start: len
       Train by the Autobahn, Part 1: yes
       Train by the Autobahn, Part 2: yes
@@ -96,7 +96,7 @@ The Black Dog:
       Ghost Vexations: yes
       Dials & Dialers 2: len
    Silenced:
-      <flow: *low
+      <<: *low
       Trojan Horus, Part 1:
       Trojan Horus, Part 2: len
       Lam Vril:
@@ -116,7 +116,7 @@ The Black Dog:
       4 3s 555, Part 1: len
       4 3s 555, Part 2:
    Spanners:
-      <flow: *low
+      <<: *low
       Raxmus: yes
       Barbola Work: no
       Psil-Cosyin: no
@@ -162,7 +162,7 @@ The Cars:
       Think It Over: no
       Maybe Baby: no
    The Cars:
-      <flow: *low
+      <<: *low
       Good Times Roll: no
       My Best Friend’s Girl: no
       Just What I Needed: no
@@ -185,7 +185,7 @@ The Cinematic Orchestra:
       Oregon: yes
       Semblance: len
    Live at the Royal Albert Hall:
-      <flow: *low
+      <<: *low
       All That You Give:
       Child Song: yes
       Flite:
@@ -196,7 +196,7 @@ The Cinematic Orchestra:
       Man With the Movie Camera:
       Time and Space: yes
    Ma fleur:
-      <flow: *low
+      <<: *low
       To Build a Home:
       Familiar Ground:
       Child Song:
@@ -209,7 +209,7 @@ The Cinematic Orchestra:
       That Home: len
       Time & Space:
    Man With a Movie Camera:
-      <flow: *low
+      <<: *low
       The Projectionist: len
       Melody: len
       Dawn: yes
@@ -228,7 +228,7 @@ The Cinematic Orchestra:
       The Animated Tripod: len
       All Things: yes
    Motion:
-      <flow: *low
+      <<: *low
       Durian:
       Ode to the Big Sea:
       Night of the Iguana:
@@ -322,7 +322,7 @@ The Crystal Method:
       High and Low:
       Wide Open:
    London Original Motion Picture Soundtrack:
-      <flow: *low
+      <<: *low
       London: len
       Smoked:
       Fire to Me:
@@ -333,7 +333,7 @@ The Crystal Method:
       Glass Breaker:
       I Luv U: len
    Tweekend:
-      <flow: *low
+      <<: *low
       PHD: yes
       Wild, Sweet and Cool: yes
       Roll It Up: yes
@@ -346,7 +346,7 @@ The Crystal Method:
       Blowout:
       Tough Guy:
    Vegas:
-      <flow: *low
+      <<: *low
       Trip Like I Do: yes
       Busy Child: yes
       Cherry Twist: yes
@@ -383,7 +383,7 @@ The Dave Brubeck Quartet:
       Bru’s Boogie Woogie: len
       Blue Shadows in the Street:
    Time Out:
-      <flow: *low
+      <<: *low
       Blue Rondo à la Turk:
       Strange Meadow Lark:
       Take Five: yes
@@ -484,7 +484,7 @@ The Mars Volta:
       Noctourniquet:
       Zed and Two Naughts:
    Octahedron (2009):
-      <flow: *low
+      <<: *low
       Since We’ve Been Wrong: yes
       Teflon: yes
       Halo of Nembutals: no
@@ -494,7 +494,7 @@ The Mars Volta:
       Copernicus: yes
       Luciforms:
    The Bedlam in Goliath (2007):
-      <flow: *low
+      <<: *low
       Aberinkula:
       Metatron: yes
       Ilyena: yes
@@ -508,7 +508,7 @@ The Mars Volta:
       Soothsayer: yes
       Conjugal Burns:
    Amputechture (2006):
-      <flow: *low
+      <<: *low
       Vicarious Atonement: yes
       Tetragrammaton: yes
       Vermicide:
@@ -518,14 +518,14 @@ The Mars Volta:
       Day of the Baphomets:
       El Ciervo Vulnerado:
    Frances the Mute (2005):
-      <flow: *low
+      <<: *low
       Cygnus....Vismund Cygnus: yes
       The Widow: yes
       L’Via L’Viaquez:
       Miranda That Ghost Just Isn’t Holy Anymore:
       Cassandra Gemini: yes
    De‐Loused in the Comatorium (2003):
-      <flow: *low
+      <<: *low
       Son et lumiere: len
       Inertiatic ESP: yes
       Roulette Dares (The Haunt Of):
@@ -537,7 +537,7 @@ The Mars Volta:
       Televators:
       Take the Veil Cerpin Taxt:
    Tremulant EP (2002):
-      <flow: *low
+      <<: *low
       Cut That City: no
       Concertina: no
       Eunuch Provocateur: yes
@@ -551,7 +551,7 @@ The Midnight:
       Kick Drums & Red Wine (instrumental):
       Los Angeles (instrumental):
    Endless Summer:
-      <flow: *low
+      <<: *low
       Endless Summer:
       Sunset: yes
       Daytona:
@@ -565,7 +565,7 @@ The Midnight:
       Lonely City:
       Memories:
    Nocturnal:
-      <flow: *low
+      <<: *low
       Shadows:
       Crystalline:
       Collateral: yes
@@ -608,7 +608,7 @@ The Police:
       <flow: 66,446,987 https://youtu.be/OMOGaugKpzs
       Every Breath You Take:
    Zenyattà Mondatta:
-      <flow: *low
+      <<: *low
       Don’t Stand So Close to Me:
       Driven to Tears: yes
       When the World Is Running Down, You Make the Best of What’s Still Around:
@@ -687,7 +687,7 @@ The Rolling Stones:
       <flow: 16,613,615 https://youtu.be/nrIPxlFzDi0
       (I Can’t Get No) Satisfaction:
    Some Girls:
-      <flow: *low
+      <<: *low
       Miss You: yes
       When the Whip Comes Down:
       Just My Imagination (Running Away With Me):
@@ -699,7 +699,7 @@ The Rolling Stones:
       Beast of Burden:
       Shattered:
    Sticky Fingers:
-      <flow: *low
+      <<: *low
       Brown Sugar:
       Sway:
       Wild Horses: yes
@@ -724,7 +724,7 @@ The Smiths:
       Barbarism Begins at Home: yes
       Meat Is Murder:
    Strangeways, Here We Come:
-      <flow: *low
+      <<: *low
       A Rush and a Push and the Land Is Ours: yes
       I Started Something I Couldn’t Finish:
       Death of a Disco Dancer:
@@ -770,7 +770,7 @@ The Sundays:
       Cry:
       Monochrome:
    Blind (1992):
-      <flow: *low
+      <<: *low
       I Feel:
       Goodbye: yes
       Life & Soul: len
@@ -784,7 +784,7 @@ The Sundays:
       Medicine:
       Wild Horses: yes
    Reading, Writing and Arithmetic (1990):
-      <flow: *low
+      <<: *low
       Skin & Bones: no
       Here’s Where the Story Ends: yes
       Can’t Be Sure:
@@ -843,7 +843,7 @@ Thievery Corporation:
       Overstand:
       Free:
    Radio Retaliation:
-      <flow: *low
+      <<: *low
       Sound the Alarm:
       Mandala:
       Radio Retaliation:
@@ -860,7 +860,7 @@ Thievery Corporation:
       Blasting Through the City:
       Sweet Tides:
    The Cosmic Game:
-      <flow: *low
+      <<: *low
       Marching the Hate Machines (Into the Sun): yes
       Warning Shots:
       Revolution Solution:
@@ -878,7 +878,7 @@ Thievery Corporation:
       The Time We Lost Our Way: yes
       A Gentle Dissolve: len
    The Mirror Conspiracy:
-      <flow: *low
+      <<: *low
       Treasures: len
       Le Monde: yes
       Indra: yes
@@ -893,7 +893,7 @@ Thievery Corporation:
       The Mirror Conspiracy:
       Tomorrow: yes
    The Richest Man in Babylon:
-      <flow: *low
+      <<: *low
       Heaven’s Gonna Burn Your Eyes:
       Facing East:
       The Outernationalist:
@@ -929,7 +929,7 @@ Third Eye Blind:
       Darkness:
       Darwin / The Red Summer Sun (extended coda):
    Third Eye Blind (1997):
-      <flow: *low
+      <<: *low
       Losing a Whole Year:
       Narcolepsy:
       Semi‐Charmed Life:
@@ -960,7 +960,7 @@ Thunderball:
       Elevated States (feat. Mustafa Akbar):
       Last Flight Out: yes
    Scorpio Rising:
-      <flow: *low
+      <<: *low
       Heart of the Hustler:
       Domino: yes
       Vai Vai:
@@ -1044,7 +1044,7 @@ Tom Waits:
       Hell Broke Luce:
       New Year’s Eve:
    Blue Valentine:
-      <flow: *low
+      <<: *low
       Somewhere (from ’West Side Story’):
       Red Shoes by the Drugstore:
       Christmas Card From a Hooker in Minneapolis:
@@ -1056,7 +1056,7 @@ Tom Waits:
       A Sweet Little Bullet From a Pretty Blue Gun:
       Blue Valentines: yes
    Bone Machine:
-      <flow: *low
+      <<: *low
       Earth Died Screaming:
       Dirt in the Ground:
       Such a Scream: len
@@ -1074,7 +1074,7 @@ Tom Waits:
       Let Me Get Up on It: len
       That Feel:
    Foreign Affairs:
-      <flow: *low
+      <<: *low
       Cinny’s Waltz: len
       Muriel: no
       I Never Talk to Strangers: yes
@@ -1085,7 +1085,7 @@ Tom Waits:
       Barber Shop: no
       Foreign Affair: yes
    Nighthawks at the Diner:
-      <flow: *low
+      <<: *low
       Emotional Weather Report:
       On a Foggy Night:
       Eggs and Sausage (In a Cadillac With Susan Michelson): yes
@@ -1098,7 +1098,7 @@ Tom Waits:
       Big Joe and Phantom 309:
       Spare Parts II and Closing:
    Rain Dogs:
-      <flow: *low
+      <<: *low
       Singapore: len
       Clap Hands: yes
       Cemetery Polka: len
@@ -1119,7 +1119,7 @@ Tom Waits:
       Bride Of Rain Dog (Instrumental): len
       Anywhere I Lay My Head: len
    Real Gone:
-      <flow: *low
+      <<: *low
       Top of the Hill:
       Hoist That Rag: yes
       Sins of My Father: yes
@@ -1137,7 +1137,7 @@ Tom Waits:
       Day After Tomorrow:
       A-Chick-a-Boom: len
    Swordfishtrombones:
-      <flow: *low
+      <<: *low
       Underground: len
       Shore Leave:
       Dave the Butcher: len
@@ -1206,7 +1206,7 @@ Tori Amos:
       Putting the Damage On:
       Twinkle:
    Little Earthquakes:
-      <flow: *low
+      <<: *low
       Crucify:
       Girl:
       Silent All These Years:
@@ -1220,7 +1220,7 @@ Tori Amos:
       Me and a Gun:
       Little Earthquakes:
    The Beekeeper:
-      <flow: *low
+      <<: *low
       Parasol:
       Sweet the Sting: no
       The Power of Orange Knickers: no
@@ -1241,7 +1241,7 @@ Tori Amos:
       Marys of the Sea: no
       Toast: yes
    Under the Pink:
-      <flow: *low
+      <<: *low
       Pretty Good Year: no
       God: no
       Bells for Her: yes
@@ -1271,7 +1271,7 @@ Toro y Moi:
       Never Matter:
       How’s It Wrong:
    Boo Boo:
-      <flow: *low
+      <<: *low
       Mirage: yes
       No Show: yes
       Mona Lisa:
@@ -1310,7 +1310,7 @@ Tosca:
       2504 / 1 (Session 11):
       Piano 1 (Session 12):
    Suzuki:
-      <flow: *low
+      <<: *low
       Pearl In: len
       Suzuki:
       Annanas:
@@ -1352,7 +1352,7 @@ Tycho:
       Continuum: len
       Field: len
    Awake (2014):
-      <flow: *low
+      <<: *low
       Awake: yes
       Montana:
       L:
@@ -1362,7 +1362,7 @@ Tycho:
       Spectre:
       Plains:
    Dive (2011):
-      <flow: *low
+      <<: *low
       A Walk:
       Hours:
       Daydream:
@@ -1374,7 +1374,7 @@ Tycho:
       Epigram: len
       Elegy: yes
    Past Is Prologue (2006):
-      <flow: *low
+      <<: *low
       From Home: yes
       Sunrise Projector: dup
       Dictaphone’s Lament: dup
@@ -1385,7 +1385,7 @@ Tycho:
       Past Is Prologue: dup
       Cloud Generator: dup
    Sunrise Projector (2004):
-      <flow: *low
+      <<: *low
       Sunrise Projector: no
       Dictaphone’s Lament:
       PBS/KAE:
@@ -1399,7 +1399,7 @@ Tycho:
       Cloud Generator: yes
       Sunrise Calendar:
    The Science of Patterns (2002):
-      <flow: *low
+      <<: *low
       Dream as a Memory:
       Human Condition:
       Red Bridge:
@@ -1427,7 +1427,7 @@ U2:
       The Electric Co.:
       Shadows and Tall Trees / [untitled]:
    October:
-      <flow: *low
+      <<: *low
       Gloria:
       I Fall Down:
       I Threw a Brick Through a Window:
@@ -1454,7 +1454,7 @@ U2:
       Bad:
       Pride:
    War:
-      <flow: *low
+      <<: *low
       Sunday Bloody Sunday:
       Seconds:
       New Year’s Day: yes
@@ -1466,8 +1466,9 @@ U2:
       Surrender:
       40: len
 Ulrich Schnauss:
-   Synthwaves (2017):
-      <flow: &low
+   Synthwaves:
+      <year: 2017
+      <<: &low
          <flow: 61,568
          <link: https://youtu.be/yLNM-rJi1mM
       Main Theme:
@@ -1478,8 +1479,9 @@ Ulrich Schnauss:
       Thirst: yes
       Flare:
       Prism:
-   Passage (2017):
-      <flow: *low
+   Passage:
+      <year: 2017
+      <<: *low
       Amaris: no
       Genau Wie Damals: no
       Anywhere but Here: yes
@@ -1491,15 +1493,23 @@ Ulrich Schnauss:
       Caffeine Blues: no
       Intervention Måne: len
       Coastal Path: yes
-   No Further Ahead Than Today (2016):
-   Tomorrow Is Another Day (2013):
-   A Long Way to Fall (2013):
-   Underrated Silence (2012):
-   Ulrich Schnauss & Jonas Munk (2011):
-   Frozen in Time (2011):
-   Epic (2010):
-   Goodbye (2007):
-      <flow: *low
+   No Further Ahead Than Today:
+      <year: 2016
+   Tomorrow Is Another Day:
+      <year: 2013
+   A Long Way to Fall:
+      <year: 2013
+   Underrated Silence:
+      <year: 2012
+   Ulrich Schnauss & Jonas Munk:
+      <year: 2011
+   Frozen in Time:
+      <year: 2011
+   Epic:
+      <year: 2010
+   Goodbye:
+      <year: 2007
+      <<: *low
       Never Be the Same: no
       Shine: no
       Stars: no
@@ -1510,8 +1520,24 @@ Ulrich Schnauss:
       Medusa: no
       Goodbye: yes
       For Good: no
-   A Strangely Isolated Place (2003):
-      <flow: *low
+   Far Away Trains Passing By:
+      <year: 2005
+      <<: *low
+      Knuddelmaus: no
+      Between Us and Them: no
+      Passing By: no
+      Blumenwiese neben Autobahn:
+      Nobody’s Home:
+      Molfsee:
+      Sunday Evening in Your Street:
+      Suddenly the Trees Are Giving Way:
+      Nothing Happens in June:
+      As If You’ve Never Been Away:
+      Crazy for You:
+      Wherever You Are:
+   A Strangely Isolated Place:
+      <year: 2003
+      <<: *low
       Gone Forever: no
       On My Own: no
       A Letter From Home: no
@@ -1520,9 +1546,6 @@ Ulrich Schnauss:
       Blumenthal:
       In All the Wrong Places:
       A Strangely Isolated Place:
-   Far Away Trains Passing By (2001):
-   Landscapes (1999):
-   The 7th Seal (1997):
 Underworld:
    Dubnobasswithmyheadman:
       <flow: &low 1,501,433 https://youtu.be/TlLWFa1b1Bc
@@ -1536,7 +1559,7 @@ Underworld:
       River of Bass:
       M.E.:
    Second Toughest in the Infants:
-      <flow: *low
+      <<: *low
       Juanita / Kiteless / To Dream of Love: no
       Banstyle / Sappys Curry: no
       Confusion the Waitress: no
@@ -1608,7 +1631,7 @@ Van Morrison:
       Ballerina:
       Slim Slow Slider: yes
    Moondance:
-      <flow: *low
+      <<: *low
       And It Stoned Me:
       Moondance: yes
       Crazy Love: len
@@ -1663,7 +1686,7 @@ Wye Oak:
       We Were Wealth:
       Doubt: len
    The Knot:
-      <flow: *low
+      <<: *low
       Milk and Honey: len
       For Prayer:
       Take It In:
@@ -1692,7 +1715,7 @@ Yeah Yeah Yeahs:
       <flow: 14,100,164 https://youtu.be/or3U2rXxvQw
       Heads Will Roll:
    Show Your Bones:
-      <flow: *low
+      <<: *low
       Gold Lion:
       Way Out: len
       Fancy:
@@ -1713,7 +1736,7 @@ Yppah:
       Gumball Machine Weekend (Pollination Remix):
       The Drag:
    You Are Beautiful at All Times:
-      <flow: *low
+      <<: *low
       Ending With You: no
       I’ll Hit the Breaks: no
       Again With the Subtitles: len

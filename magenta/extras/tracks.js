@@ -6,7 +6,7 @@ var dh = JSON.parse($('[type="application/ld+json"]').innerText);
 var np = [
    cf(dh.name) + ':',
    '   <year: ' + new Date(dh.hasReleaseRegion[0].releaseDate).getFullYear(),
-   '   <flow: *low'
+   '   <<: *low'
 ].map(ae => '   ' + ae);
 
 /* tracklist */

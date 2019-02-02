@@ -17,7 +17,7 @@ M83:
       Ludivine: len
       Sunday Night 1987:
    Oblivion Original Motion Picture Soundtrack (2013):
-      <flow: *low
+      <<: *low
       Jack’s Dream: len
       Waking Up:
       Tech 49:
@@ -41,7 +41,7 @@ M83:
       Reunion:
       Wait:
    Saturdays = Youth (2008):
-      <flow: *low
+      <<: *low
       You, Appearing: yes
       Kim & Jessie: yes
       Skin of the Night: yes
@@ -54,7 +54,7 @@ M83:
       Dark Moves of Love:
       Midnight Souls Still Remain:
    Digital Shades, Volume 1 (2007):
-      <flow: *low
+      <<: *low
       Waves, Waves, Waves: len
       Coloring the Void:
       Sister, Part 1: len
@@ -66,7 +66,7 @@ M83:
       Space Fertilizer: len
       The Highest Journey: yes
    Before the Dawn Heals Us (2005):
-      <flow: *low
+      <<: *low
       Moon Child: yes
       Don’t Save Us From the Flames: yes
       In the Cold I’m Standing: yes
@@ -83,7 +83,7 @@ M83:
       A Guitar and a Heart:
       Lower Your Eyelids to Die With the Sun:
    Dead Cities, Red Seas & Lost Ghosts (2003):
-      <flow: *low
+      <<: *low
       Birds: len
       Unrecorded: yes
       Run Into Flowers: yes
@@ -102,7 +102,7 @@ M83:
       Gone (live): no
       Dead Cities, Red Seas & Lost Ghosts:
    M83 (2001):
-      <flow: *low
+      <<: *low
       Last Saturday: len
       Night:
       At the Party: len
@@ -141,7 +141,7 @@ Madonna:
       <flow: 9,665,181 https://youtu.be/GuJQSAiODqI
       Vogue:
    Justify My Love:
-      <flow: *low
+      <<: *low
       Justify My Love (William Orbit remix):
       Justify My Love: yes
       Express Yourself (Shep’s ’Spressin’ Himself Re-remix):
@@ -161,7 +161,7 @@ Madonna:
       Pretender:
       Stay:
    Madonna:
-      <flow: *low
+      <<: *low
       Lucky Star: yes
       Borderline:
       Burning Up:
@@ -175,7 +175,7 @@ Madonna:
       Girl Gone Wild:
       Give Me All Your Luvin’:
    Music:
-      <flow: *low
+      <<: *low
       Music: yes
       Impressive Instant: no
       Runaway Lover: no
@@ -197,7 +197,7 @@ Madonna:
       Ghosttown:
       Living for Love:
    Something to Remember:
-      <flow: *low
+      <<: *low
       I Want You: yes
       I’ll Remember:
       Take a Bow: dup
@@ -291,7 +291,7 @@ Massive Attack:
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): no
       United Snakes:
    100th Window (2003):
-      <flow: *low
+      <<: *low
       Future Proof: yes
       What Your Soul Sings:
       Everywhen:
@@ -305,7 +305,7 @@ Massive Attack:
       <flow: 6,276,905 https://youtu.be/u7K72X4eo_s
       Teardrop:
    Protection (1994):
-      <flow: *low
+      <<: *low
       Protection: yes
       Karmacoma: yes
       Three: yes
@@ -316,7 +316,7 @@ Massive Attack:
       Sly: yes
       Heat Miser: no
    Blue Lines (1991):
-      <flow: *low
+      <<: *low
       Safe From Harm: yes
       One Love: no
       Blue Lines: no
@@ -337,17 +337,17 @@ Matt Lange:
       Inverse (original mix): yes
       This Is How It Is (original mix): yes
    Rift:
-      <flow: *low
+      <<: *low
       Rift (original mix): yes
       Rift (Andrew Bayer remix):
       Rift (Kerry Leva undo):
    Staccato:
-      <flow: *low
+      <<: *low
       Staccato (original mix):
       Ether (original mix):
       Underscore (original mix): yes
    Way You Know / Only You:
-      <flow: *low
+      <<: *low
       Way You Know: yes
       Only You:
 Mazzy Star:
@@ -474,7 +474,7 @@ Moby:
       The Rafters:
       I’m Not Worried at All:
    Play:
-      <flow: *low
+      <<: *low
       Honey:
       Find My Baby:
       Porcelain: yes
@@ -553,7 +553,7 @@ My Brightest Diamond:
       Like a Sieve:
       The Diamond:
    Bring Me the Workhorse:
-      <flow: *low
+      <<: *low
       Something of an End:
       Golden Star: yes
       Gone Away:
@@ -592,7 +592,7 @@ Nada Surf:
       Hollywood: len
       Zen Brain: no
    Let Go:
-      <flow: *low
+      <<: *low
       Blizzard of ’77: len
       The Way You Wear Your Head: no
       Fruit Fly: no
@@ -645,7 +645,7 @@ Natalie Merchant:
       The Living:
       When They Ring the Golden Bells:
    Tigerlily:
-      <flow: *low
+      <<: *low
       San Andreas Fault:
       Wonder:
       Beloved Wife:
@@ -680,7 +680,7 @@ New Order:
       <flow: 12,819,152 https://youtu.be/FYH8DsU2WCk
       Blue Monday:
    Technique:
-      <flow: *low
+      <<: *low
       Fine Time:
       All the Way:
       Love Less:
@@ -691,7 +691,7 @@ New Order:
       Vanishing Point:
       Dream Attack:
    True Faith:
-      <flow: *low
+      <<: *low
       True Faith: yes
       1963:
 New Radicals:
@@ -705,7 +705,7 @@ Nicolas Jaar:
       Love You Gotta Lose Again:
       Don’t Believe the Hype: len
    Nymphs:
-      <flow: *low
+      <<: *low
       Don’t Break My Love:
       Why Didn’t You Save Me:
       The Three Sides of Audrey and Why She’s All Alone Now:
@@ -714,7 +714,7 @@ Nicolas Jaar:
       Mistress: yes
       Fight:
    Sirens:
-      <flow: *low
+      <<: *low
       Mirrors:
       Killing Time: yes
       Sirens: len
@@ -738,13 +738,13 @@ Nightmares on Wax:
       Survival: no
       Capumcap: no
    Ground Floor:
-      <flow: *low
+      <<: *low
       World Inside: no
       Scratch That!:
       Reclaim the Balcony:
       Dirty Triumphant:
    In a Space Outta Sound:
-      <flow: *low
+      <<: *low
       Passion: yes
       The Sweetest: no
       Flip Ya Lid: yes
@@ -758,7 +758,7 @@ Nightmares on Wax:
       Soul Purpose: yes
       African Pirates: no
    Shape the Future:
-      <flow: *low
+      <<: *low
       Back to Nature: yes
       Tell My Vision: no
       Shape the Future: no
@@ -771,7 +771,7 @@ Nightmares on Wax:
       Gotta Smile: no
       The Othership: yes
    Smokers Delight:
-      <flow: *low
+      <<: *low
       Nights Introlude: yes
       Dreddoverboard: no
       Pipes Honour: yes
@@ -789,7 +789,7 @@ Nightmares on Wax:
       Rise (reprise): len
       Gambia via Vagator Beach: yes
    Thought So…:
-      <flow: *low
+      <<: *low
       Intro: len
       Da Feelin: no
       195lbs: no
@@ -819,10 +819,10 @@ Norah Jones:
       <flow: &high 6,821,193 https://youtu.be/MjoqJ60mDHM
       Cold Cold Heart:
    Day Breaks:
-      <flow: *high
+      <<: *high
       Carry On:
    Feels Like Home:
-      <flow: *high
+      <<: *high
       Sunrise:
    Not Too Late:
       <flow: 1,316,129 https://youtu.be/nchSZswc21w
@@ -840,7 +840,7 @@ Norah Jones:
       Rosie’s Lullaby: no
       Not Too Late: no
    The Fall:
-      <flow: *high
+      <<: *high
       December:
 Odesza:
    In Return:
@@ -887,7 +887,7 @@ Oneohtrix Point Never:
       Last Known Image of a Song:
    Garden of Delete (2015):
    R Plus Seven (2013):
-      <flow: *low
+      <<: *low
       Boring Angel: no
       Americans: no
       He She: len
@@ -900,7 +900,7 @@ Oneohtrix Point Never:
       Chrome Country: yes
       Gone: len
    Rifts (2012):
-      <flow: *low
+      <<: *low
       Woe Is the Transgression I:
       Behind the Bank: len
       Eyeballs: len
@@ -935,7 +935,7 @@ Oneohtrix Point Never:
       Memory Vague:
       KGB Nights:
    Replica (2011):
-      <flow: *low
+      <<: *low
       Andro:
       Power of Persuasion: yes
       Sleep Dealer:
@@ -947,7 +947,7 @@ Oneohtrix Point Never:
       Child Soldier:
       Explain:
    Returnal (2010):
-      <flow: *low
+      <<: *low
       Nil Admirari:
       Describing Bodies:
       Stress Waves: yes
@@ -1116,7 +1116,7 @@ Pizzicato Five:
       This Can’t Be Love:
       The Work of God:
    Bossa Nova 2001:
-      <flow: *low
+      <<: *low
       Rock’n’roll: len
       Sweet Soul Revue: yes
       Magic Carpet Ride:
@@ -1134,7 +1134,7 @@ Pizzicato Five:
       Playback 2001: len
       Cleopatra 2001:
    By Her Majesty’s Request:
-      <flow: *low
+      <<: *low
       Holiday for Audrey H: len
       Introduction J.B. et Vietnam: len
       Bellissima ’90:
@@ -1153,7 +1153,7 @@ Pizzicato Five:
       God Save the Queen:
       Let’s Spend The Night Together:
    couples:
-      <flow: *low
+      <<: *low
       magical connection: len
       summertime, summertime: yes
       they all laughed:
@@ -1167,7 +1167,7 @@ Pizzicato Five:
       two sleepy people:
       everytime we say goodbye: len
    Overdose:
-      <flow: *low
+      <<: *low
       Overture: len
       Airplane: no
       Statue of Liberty: no
@@ -1182,7 +1182,7 @@ Pizzicato Five:
       Questions: no
       On the Sunny Side of the Street: no
    Romantique 96:
-      <flow: *low
+      <<: *low
       Potpourri: len
       The Awakening: len
       Welcome to the Circus:
@@ -1200,7 +1200,7 @@ Pizzicato Five:
       Triste: yes
       Coda: len
    Sister Freedom Tapes:
-      <flow: *low
+      <<: *low
       Airplane ’96:
       Domino Konishi: len
       Snowflakes: len
@@ -1211,7 +1211,7 @@ Pizzicato Five:
       To Our Children’s Children’s Children:
       Passing By: len
    Soft Landing on the Moon:
-      <flow: *low
+      <<: *low
       Party Joke: len
       Bellissima ’90: dup
       Temptation Talk: dup
@@ -1235,7 +1235,7 @@ Pizzicato Five:
       God Save the Queen: len
       Couples: dup
    Sweet Pizzicato Five:
-      <flow: *low
+      <<: *low
       Tout va bien:
       Flower Drum Song:
       Catchy: yes
@@ -1246,7 +1246,7 @@ Pizzicato Five:
       Funky Lovechild:
       Cosmic Blues:
    This Year’s Girl:
-      <flow: *low
+      <<: *low
       This Year’s Girl 4: len
       I (all about me): len
       Ohayô:
@@ -1290,7 +1290,7 @@ Plaid:
       Churn Maiden: len
       Air Locked / Face Me:
    Not for Threes (1997):
-      <flow: *low
+      <<: *low
       Abla Eedio: no
       Kortisin: no
       Headspin: no
@@ -1324,7 +1324,7 @@ Portishead:
       Biscuit:
       Glory Box: yes
    Portishead:
-      <flow: *low
+      <<: *low
       Cowboys: yes
       All Mine: yes
       Undenied: yes
@@ -1337,7 +1337,7 @@ Portishead:
       Elysium:
       Western Eyes: yes
    Third:
-      <flow: *low
+      <<: *low
       Silence: yes
       Hunter: yes
       Nylon Smile: yes
@@ -1398,7 +1398,7 @@ Prefuse 73:
       Esta: len
       Pentagram: yes
    Surrounded by Silence:
-      <flow: *low
+      <<: *low
       I’ve Said All I Need to Say About Them Intro:
       Hide Ya Face:
       Bad Memory Interlude One: len
@@ -1421,7 +1421,7 @@ Prefuse 73:
       Rain Edit Interlude: len
       And I’m Gone: len
    Vocal Studies + Uprock Narratives:
-      <flow: *low
+      <<: *low
       Radio Attack:
       Nuno:
       Life Death:
