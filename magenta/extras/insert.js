@@ -17,7 +17,8 @@ var xc = document.createElement('textarea');
 xc.cols = 70;
 xc.style.font = 'medium Consolas';
 xc.style.position = 'fixed';
-xc.style.right = xc.style.top = 0;
+xc.style.right = 0;
+xc.style.top = '50px';
 xc.style.zIndex = 6;
 document.body.append(xc);
 
