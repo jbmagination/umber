@@ -1,24 +1,31 @@
 2Pac:
    All Eyez on Me:
-      <flow: 32,946,485 https://youtu.be/5wBTdfAkqGU
+      <flow: 32,946,485
+      <link: https://youtu.be/5wBTdfAkqGU
       2 of Amerikaz Most Wanted:
       California Love:
       Life Goes On:
    Loyal to the Game:
-      <flow: 15,367,852 https://youtu.be/Do5MMmEygsY
+      <flow: 15,367,852
+      <link: https://youtu.be/Do5MMmEygsY
       Ghetto Gospel:
    Me Against the World:
-      <flow: 25,438,271 https://youtu.be/Mb1ZvUDvLDY
+      <flow: 25,438,271
+      <link: https://youtu.be/Mb1ZvUDvLDY
       Dear Mama:
    Strictly 4 My N.I.G.G.A.Z.:
-      <flow: 7,276,027 https://youtu.be/YqJAnQTwmJs
+      <flow: 7,276,027
+      <link: https://youtu.be/YqJAnQTwmJs
       I Get Around:
    The Don Killuminati The 7 Day Theory:
-      <flow: 14,194,540 https://youtu.be/nkJA6SYwa94
+      <flow: 14,194,540
+      <link: https://youtu.be/nkJA6SYwa94
       Hail Mary:
 9 Lazy 9:
    Bedsofaland (2009):
-      <flow: &low 10,137 https://youtu.be/A6S_vJ7G0R0
+      <<: &low
+         <flow: 10,137
+         <link: https://youtu.be/A6S_vJ7G0R0
       Hotwire: len
       Russian Spring: len
       Endless:
@@ -87,7 +94,8 @@
       Lotto Jisco: no
 Aaliyah:
    Aaliyah:
-      <flow: 4,349,375 https://youtu.be/VKbWF1jwMhE
+      <flow: 4,349,375
+      <link: https://youtu.be/VKbWF1jwMhE
       We Need a Resolution: yes
       Loose Rap:
       Rock the Boat:
@@ -103,24 +111,47 @@ Aaliyah:
       Those Were the Days:
       What If:
 Aerosmith:
-   Aerosmith:
-      <flow: 26,294,294 https://youtu.be/O0oQCmnvvl0
-      Dream On:
+   Nine Lives:
+      <year: 1997
+      <flow: 5,780,080
+      <link: https://youtu.be/HaC0s-FP-r4
+      Hole in My Soul:
    Get a Grip:
-      <flow: 49,978,170 https://youtu.be/NMNgbISmF4I
+      <year: 1993
+      <flow: 49,978,170
+      <link: https://youtu.be/NMNgbISmF4I
       Amazing:
       Crazy:
       Livin’ on the Edge:
-   Nine Lives:
-      <flow: 5,780,080 https://youtu.be/HaC0s-FP-r4
-      Hole in My Soul:
-   Permanent Vacation:
-      <flow: 10,682,975 https://youtu.be/CBTOGVb_cQg
-      Angel:
    Pump:
+      <year: 1989
       <flow: 23,700,907 https://youtu.be/qfNmyxV2Ncw
       Cryin’:
       Janie’s Got a Gun:
+   Permanent Vacation:
+      <year: 1987
+      <flow: 10,682,975
+      <link: https://youtu.be/CBTOGVb_cQg
+      Angel:
+   Done With Mirrors:
+      <year: 1985
+   Rock in a Hard Place:
+      <year: 1982
+   Night in the Ruts:
+      <year: 1979
+   Draw the Line:
+      <year: 1977
+   Rocks:
+      <year: 1976
+   Toys in the Attic:
+      <year: 1975
+   Get Your Wings:
+      <year: 1974
+   Aerosmith:
+      <year: 1973
+      <flow: 26,294,294
+      <link: https://youtu.be/O0oQCmnvvl0
+      Dream On:
 Air:
    Music for Museum (2014):
    Love 2 (2009):

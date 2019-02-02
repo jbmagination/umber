@@ -15,9 +15,9 @@ var dn = Math.floor(new Date / 1000);
 
 var xc = document.createElement('textarea');
 xc.cols = 70;
-xc.style.bottom = xc.style.right = 0;
 xc.style.font = 'medium Consolas';
 xc.style.position = 'fixed';
+xc.style.right = xc.style.top = 0;
 xc.style.zIndex = 6;
 document.body.append(xc);
 

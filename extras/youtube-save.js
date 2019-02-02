@@ -58,22 +58,13 @@ for (var eurl of durl)
    `);
 }
 
-var fdiv = document.querySelector('#yt-dl');
-
-if (!fdiv)
-{
-   fdiv = document.createElement('div');
-   fdiv.id = 'yt-dl';
-   fdiv.style.background = 'plum';
-   fdiv.style.borderRadius = '2ex';
-   fdiv.style.bottom = 0;
-   fdiv.style.padding = '2ex';
-   fdiv.style.position = 'fixed';
-   fdiv.style.right = 0;
-   fdiv.style.width = '25ex';
-   fdiv.style.zIndex = 6;
-
-   document.body.prepend(fdiv);
-}
-
+fdiv = document.createElement('div');
 fdiv.innerHTML = ypsi.sort().join('');
+fdiv.style.background = 'plum';
+fdiv.style.borderRadius = fdiv.style.padding = '2ex';
+fdiv.style.position = 'fixed';
+fdiv.style.right = fdiv.style.top = 0;
+fdiv.style.width = '25ex';
+fdiv.style.zIndex = 6;
+
+document.body.append(fdiv);

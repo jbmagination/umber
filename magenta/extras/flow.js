@@ -20,9 +20,10 @@ if (dp)
 
    var xc = document.createElement('textarea');
    xc.cols = 50;
-   xc.style.bottom = xc.style.right = 0;
    xc.style.font = 'medium Consolas';
    xc.style.position = 'fixed';
+   xc.style.right = 0;
+   xc.style.top = '50px';
    xc.style.zIndex = 6;
    xc.textContent = [
       '<flow: ' + Math.floor(vw / yr).toLocaleString(),
