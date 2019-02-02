@@ -1,19 +1,19 @@
 'use strict';
-var $ = (ae, bd = document) => bd.querySelector(ae);
-var $$ = (ae, bd = document) => bd.querySelectorAll(ae);
-var cf = [];
+var $ = (ae, bf = document) => bf.querySelector(ae);
+var $$ = (ae, bf = document) => bf.querySelectorAll(ae);
+var dh = [];
 
-$$('tr', $('tbody')).forEach(bd => {
-   var hk = $$('td', bd);
-   cf.unshift(
-      '   ' + hk[1].textContent + ':',
-      '      <year: ' + hk[0].textContent
+$$('tr', $('tbody')).forEach(bf => {
+   var np = $$('td', bf);
+   dh.unshift(
+      '   ' + np[1].textContent + ':',
+      '      <year: ' + np[0].textContent
    );
 });
 
-var np = $('textarea') || document.createElement('textarea');
-np.cols = 40;
-np.rows = 20;
-np.style.font = '2.5ex Consolas';
-np.textContent = cf.join('\n');
-$('#sidebar').prepend(np);
+var oq = $('textarea') || document.createElement('textarea');
+oq.cols = 40;
+oq.rows = 20;
+oq.style.font = '2.5ex Consolas';
+oq.textContent = dh.join('\n');
+$('#sidebar').prepend(oq);
