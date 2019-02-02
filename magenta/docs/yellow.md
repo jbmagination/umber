@@ -11,14 +11,14 @@ Legend
 
 key  | value
 -----|-------
-bad  | rating
 dup  | reissue
 flow | views per year
-good | rating
-high | greater or equal to 6 million views per year
+high | flow at or above threshold
 len  | length less than 3 minutes
 link | URL
-low  | less than 6 million views per year
+low  | flow under threshold
+no   | rating bad
+yes  | rating good
 
 Query
 -----
