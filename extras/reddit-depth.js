@@ -1,17 +1,18 @@
 'use strict';
-var ab = document;
+var $ = (ae, bd = document) => bd.querySelector(ae);
+var $$ = (ae, bd = document) => bd.querySelectorAll(ae);
+
 /* we cant match the <ul> */
-ab.querySelectorAll('.first').forEach(cf => {
-   var dh = new URL(cf.querySelector('.bylink').href);
-   dh.hostname = 'www.reddit.com';
-   dh.searchParams.set('depth', 3);
-   dh.searchParams.set('sort', 'confidence');
-   var ek = ab.createElement('a');
-   ek.href = dh.href;
-   ek.style.color = '#BF1449';
-   ek.style.fontWeight = 'bold';
-   ek.textContent = 'depth';
-   cf.parentNode.querySelector(
-      '.embed-comment, .post-sharing-button'
-   ).replaceWith(ek);
+$$('.first').forEach(ae => {
+   var cf = new URL($('.bylink', ae).href);
+   cf.hostname = 'www.reddit.com';
+   cf.searchParams.set('depth', 3);
+   cf.searchParams.set('sort', 'confidence');
+
+   var np = document.createElement('a');
+   np.href = cf.href;
+   np.style.color = '#BF1449';
+   np.style.fontWeight = 'bold';
+   np.textContent = 'depth';
+   $('.embed-comment, .post-sharing-button', ae.parentNode).replaceWith(np);
 });

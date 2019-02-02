@@ -1,15 +1,21 @@
-rm = document.querySelectorAll('video');
-new Set([...document.querySelectorAll([
+'use strict';
+var $$ = ae => document.querySelectorAll(ae);
+
+var dh = [
    '[href*="1080p"]',
    '[href*="400p"]',
    '[href*="720p"]',
    '[href*="mp4"]',
    '[src*="mp4"]'
-].join())].map(fe => fe.href || fe.src)).forEach(fe => {
-   pm = document.createElement('p');
-   vd = document.createElement('video');
-   vd.controls = vd.style.width = '600px';
-   pm.textContent = vd.src = fe;
-   document.body.prepend(pm, vd);
+];
+
+/* inner quotes are required */
+new Set([...$$(dh.join())].map(ae => ae.href || ae.src)).forEach(ae => {
+   var fk = document.createElement('p');
+   var np = document.createElement('video');
+   np.controls = np.style.width = '600px';
+   fk.textContent = np.src = ae;
+   document.body.prepend(fk, np);
 });
-rm.forEach(fe => fe.remove());
+
+$$('video').forEach(ae => ae.remove());
