@@ -66,8 +66,8 @@ else
          ul.style.border = 'thick solid yellow';
       }
       /* we need to base this number on the watch page and not the result page
-      for accuracy. this will give us some false reds but that is better than
-      false greens. */
+      for accuracy. this will give us some false highs but that is better than
+      false lows. */
       else if (ratio < 6000000)
       {
          ul.style.border = 'thick solid green';
