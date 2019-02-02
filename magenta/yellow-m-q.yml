@@ -5,25 +5,25 @@ M83:
       Go!: bd
       Walkway Blues: bd
       Bibi the Dog: bd
-      Moon Crystal: sh
+      Moon Crystal: len
       For the Kids: bd
       Solitude:
-      The Wizard: sh
+      The Wizard: len
       Laser Gun:
       Road Blaster:
-      Tension: sh
+      Tension: len
       Atlantique Sud:
       Time Wind:
-      Ludivine: sh
+      Ludivine: len
       Sunday Night 1987:
    Oblivion Original Motion Picture Soundtrack (2013):
       <flow: *gr
-      Jack’s Dream: sh
+      Jack’s Dream: len
       Waking Up:
       Tech 49:
       StarWaves:
       Odyssey Rescue:
-      Earth 2077: sh
+      Earth 2077: len
       Losing Control:
       Canyon Battle:
       Radiation Zone:
@@ -33,7 +33,7 @@ M83:
       Ashes of Our Fathers:
       Temples of Our Gods:
       Fearful Odds:
-      Undimmed by Time, Unbound by Death: sh
+      Undimmed by Time, Unbound by Death: len
       Oblivion: gd
    Hurry Up, We’re Dreaming (2011):
       <flow: 33,682,222 youtu.be/dX3k_QDnzHE
@@ -55,15 +55,15 @@ M83:
       Midnight Souls Still Remain:
    Digital Shades, Volume 1 (2007):
       <flow: *gr
-      Waves, Waves, Waves: sh
+      Waves, Waves, Waves: len
       Coloring the Void:
-      Sister, Part 1: sh
-      Strong and Wasted: sh
+      Sister, Part 1: len
+      Strong and Wasted: len
       My Own Strange Path:
       Dancing Mountains: gd
-      Sister, Part 2: sh
+      Sister, Part 2: len
       By the Kiss: gd
-      Space Fertilizer: sh
+      Space Fertilizer: len
       The Highest Journey: gd
    Before the Dawn Heals Us (2005):
       <flow: *gr
@@ -71,20 +71,20 @@ M83:
       Don’t Save Us From the Flames: gd
       In the Cold I’m Standing: gd
       Farewell / Goodbye:
-      Fields, Shorelines and Hunters: sh
-      '*': sh
+      Fields, Shorelines and Hunters: len
+      '*': len
       I Guess I’m Floating: gd
       Teen Angst: gd
-      Can’t Stop: sh
+      Can’t Stop: len
       Safe:
-      Let Men Burn Stars: sh
+      Let Men Burn Stars: len
       Car Chase Terror:
-      Slight Night Shiver: sh
+      Slight Night Shiver: len
       A Guitar and a Heart:
       Lower Your Eyelids to Die With the Sun:
    Dead Cities, Red Seas & Lost Ghosts (2003):
       <flow: *gr
-      Birds: sh
+      Birds: len
       Unrecorded: gd
       Run Into Flowers: gd
       In Church: gd
@@ -103,18 +103,18 @@ M83:
       Dead Cities, Red Seas & Lost Ghosts:
    M83 (2001):
       <flow: *gr
-      Last Saturday: sh
+      Last Saturday: len
       Night:
-      At the Party: sh
+      At the Party: len
       Kelly:
       Sitting:
       Facing That: gd
       Violet Tree:
-      Staring at Me: sh
+      Staring at Me: len
       I’m Getting Closer:
       She Stands Up:
       Carresses:
-      My Face: sh
+      My Face: len
       I’m Happy, She Said:
 Madonna:
    Bedtime Stories:
@@ -262,7 +262,7 @@ Mariah Carey:
 Mark Morrison:
    Return of the Mack:
       <flow: 5,911,536 youtu.be/uB1D9wWxd2w
-      Home, Part I (interlude): sh
+      Home, Part I (interlude): len
       Crazy:
       Let’s Get Down:
       Get High With Me:
@@ -274,7 +274,7 @@ Mark Morrison:
       Horny:
       I Really Love You:
       Crazy (D-Influence mix):
-      Home, Part II (interlude): sh
+      Home, Part II (interlude): len
 Massive Attack:
    Heligoland (2010):
       <flow: &gr 1,210,406 youtu.be/Vi76bxT7K6U
@@ -446,7 +446,7 @@ Michael McDonald:
       I Keep Forgettin’ (Every Time You’re Near): gd
       Love Lies:
       I Gotta Try:
-      I Can Let Go Now: sh
+      I Can Let Go Now: len
       That’s Why:
       If That’s What It Takes:
       No Such Luck:
@@ -458,11 +458,11 @@ Moby:
       We Are All Made of Stars:
       In This World:
       In My Heart:
-      Great Escape: sh
+      Great Escape: len
       Signs of Love:
       One of These Mornings:
       Another Woman:
-      Fireworks: sh
+      Fireworks: len
       Extreme Ways: gd
       Jam for the Ladies:
       Sunday (The Day Before My Birthday):
@@ -470,7 +470,7 @@ Moby:
       Sleep Alone:
       At Least We Tried:
       Harbour:
-      Look Back In: sh
+      Look Back In: len
       The Rafters:
       I’m Not Worried at All:
    Play:
@@ -484,13 +484,13 @@ Moby:
       Bodyrock:
       Natural Blues:
       Machete:
-      7: sh
+      7: len
       Run On:
-      Down Slow: sh
+      Down Slow: len
       If Things Were Perfect:
       Everloving:
       Inside:
-      Guitar Flute & String: sh
+      Guitar Flute & String: len
       The Sky Is Broken:
       My Weakness:
 Modest Mouse:
@@ -503,7 +503,7 @@ Modest Mouse:
       March Into the Sea: bd
       Dashboard: bd
       Fire It Up: bd
-      Florida: sh
+      Florida: len
       Parting of the Sensory: bd
       Missed the Boat: bd
       We’ve Got Everything: bd
@@ -543,8 +543,8 @@ My Brightest Diamond:
       <flow: &gr 91,990 youtu.be/u1p9kj-odnU
       Inside a Boy:
       Ice & The Storm:
-      If I Were Queen: sh
-      Apples: sh
+      If I Were Queen: len
+      Apples: len
       From the Top of the World: gd
       Black & Costaud: gd
       To Pluto’s Moon:
@@ -559,7 +559,7 @@ My Brightest Diamond:
       Gone Away:
       Dragonfly:
       Freak Out:
-      We Were Sparkling: sh
+      We Were Sparkling: len
       Disappear:
       The Robin’s Jar:
       Magic Rabbit:
@@ -571,7 +571,7 @@ My Morning Jacket:
       Wordless Chorus:
       It Beats 4 U: gd
       Gideon:
-      What a Wonderful Man: sh
+      What a Wonderful Man: len
       Off the Record:
       Into the Woods:
       Anytime:
@@ -586,14 +586,14 @@ Nada Surf:
       Popular: gd
       Sleep: bd
       Stalemate: bd
-      Treehouse: sh
+      Treehouse: len
       Icebox: bd
       Psychic Caramel: bd
-      Hollywood: sh
+      Hollywood: len
       Zen Brain: bd
    Let Go:
       <flow: *gr
-      Blizzard of ’77: sh
+      Blizzard of ’77: len
       The Way You Wear Your Head: bd
       Fruit Fly: bd
       Blonde on Blonde: bd
@@ -641,7 +641,7 @@ Natalie Merchant:
       Break Your Heart:
       King of May:
       Thick as Thieves:
-      Effigy: sh
+      Effigy: len
       The Living:
       When They Ring the Golden Bells:
    Tigerlily:
@@ -652,9 +652,9 @@ Natalie Merchant:
       River:
       Carnival: gd
       I May Know the Word:
-      The Letter: sh
+      The Letter: len
       Cowboy Romance:
-      Jealousy: sh
+      Jealousy: len
       Where I Go:
       Seven Years:
 Nelly Furtado:
@@ -703,7 +703,7 @@ Nicolas Jaar:
       <flow: &gr 4,464,045 youtu.be/1Upj_Ib30K4
       WOUH: gd
       Love You Gotta Lose Again:
-      Don’t Believe the Hype: sh
+      Don’t Believe the Hype: len
    Nymphs:
       <flow: *gr
       Don’t Break My Love:
@@ -717,7 +717,7 @@ Nicolas Jaar:
       <flow: *gr
       Mirrors:
       Killing Time: gd
-      Sirens: sh
+      Sirens: len
       Wildflowers:
       The Governor:
       Leaves:
@@ -730,7 +730,7 @@ Nightmares on Wax:
       Les Nuits: gd
       Morse: gd
       Ethnic Majority: gd
-      Jorgé: sh
+      Jorgé: len
       Finer: gd
       Ease Jimi: bd
       Argha Noah: gd
@@ -752,7 +752,7 @@ Nightmares on Wax:
       Damn: gd
       You Wish: gd
       Deepdown: bd
-      Chime Out: sh
+      Chime Out: len
       Me!: gd
       I Am You: bd
       Soul Purpose: gd
@@ -765,7 +765,7 @@ Nightmares on Wax:
       On It Maestro: bd
       Tomorrow: gd
       Typical: bd
-      Tenor Fly: sh
+      Tenor Fly: len
       Citizen Kane: bd
       Deep Shadows:
       Gotta Smile: bd
@@ -775,22 +775,22 @@ Nightmares on Wax:
       Nights Introlude: gd
       Dreddoverboard: bd
       Pipes Honour: gd
-      Me + You: sh
+      Me + You: len
       Stars: gd
-      Wait a Minute / Prayin’ for a Jeepbeat: sh
+      Wait a Minute / Prayin’ for a Jeepbeat: len
       Groove St.: bd
-      Time (to Listen): sh
+      Time (to Listen): len
       (Man) Tha Journey: bd
       Bless My Soul: bd
       Cruise (Don’t Stop): bd
-      Mission Venice: sh
-      What I’m Feelin’ (Good): sh
+      Mission Venice: len
+      What I’m Feelin’ (Good): len
       Rise: gd
-      Rise (reprise): sh
+      Rise (reprise): len
       Gambia via Vagator Beach: gd
    Thought So…:
       <flow: *gr
-      Intro: sh
+      Intro: len
       Da Feelin: bd
       195lbs: bd
       Be There: bd
@@ -816,31 +816,31 @@ Nirvana:
       Smells Like Teen Spirit:
 Norah Jones:
    Come Away with Me:
-      <flow: &rd 6,821,193 youtu.be/MjoqJ60mDHM
+      <flow: &high 6,821,193 youtu.be/MjoqJ60mDHM
       Cold Cold Heart:
    Day Breaks:
-      <flow: *rd
+      <flow: *high
       Carry On:
    Feels Like Home:
-      <flow: *rd
+      <flow: *high
       Sunrise:
    Not Too Late:
       <flow: 1,316,129 youtu.be/nchSZswc21w
       Wish I Could: bd
       Sinkin’ Soon: bd
-      The Sun Doesn’t Like You: sh
+      The Sun Doesn’t Like You: len
       Until the End: bd
-      Not My Friend: sh
+      Not My Friend: len
       Thinking About You: bd
       Broken: bd
       My Dear Country: bd
-      Wake Me Up: sh
+      Wake Me Up: len
       Be My Somebody: bd
-      Little Room: sh
+      Little Room: len
       Rosie’s Lullaby: bd
       Not Too Late: bd
    The Fall:
-      <flow: *rd
+      <flow: *high
       December:
 Odesza:
    In Return:
@@ -874,14 +874,14 @@ Oneohtrix Point Never:
       <flow: &gr 107,064 youtu.be/hiwi7d0f91Y
       Age Of:
       Babylon: bd
-      Manifold: sh
+      Manifold: len
       The Station: bd
       Toys 2: bd
       Black Snow: bd
-      myriad.industries: sh
-      Warning: sh
+      myriad.industries: len
+      Warning: len
       We’ll Take It: bd
-      Same: sh
+      Same: len
       RayCats: gd
       Still Stuff That Doesn’t Happen:
       Last Known Image of a Song:
@@ -890,20 +890,20 @@ Oneohtrix Point Never:
       <flow: *gr
       Boring Angel: bd
       Americans: bd
-      He She: sh
+      He She: len
       Inside World: bd
       Zebra: bd
       Along: gd
       Problem Areas: bd
-      Cryo: sh
+      Cryo: len
       Still Life: gd
       Chrome Country: gd
-      Gone: sh
+      Gone: len
    Rifts (2012):
       <flow: *gr
       Woe Is the Transgression I:
-      Behind the Bank: sh
-      Eyeballs: sh
+      Behind the Bank: len
+      Eyeballs: len
       Betrayed in the Octagon:
       Woe Is the Transgression II:
       Parallel Minds:
@@ -913,21 +913,21 @@ Oneohtrix Point Never:
       Transmat Memories:
       A Pact Between Strangers:
       When I Get Back From New York:
-      Computer Vision: sh
+      Computer Vision: len
       Format & Journey North:
       Zones Without People:
       Learning to Control Myself:
-      Disconnecting Entirely: sh
+      Disconnecting Entirely: len
       Emil Cioran:
       Hyperdawn:
-      Lovergirls Precinct: sh
-      I Know It’s Taking Pictures From Another Plane (Inside Your Sun): sh
+      Lovergirls Precinct: len
+      I Know It’s Taking Pictures From Another Plane (Inside Your Sun): len
       Blue Drive: gd
       The Trouble With Being Born:
       Sand Partina:
       Months:
       Physical Memory:
-      Grief and Repetition: sh
+      Grief and Repetition: len
       Russian Mind:
       Time Decanted:
       Immanence:
@@ -954,7 +954,7 @@ Oneohtrix Point Never:
       Returnal: gd
       Pelham Island Road:
       Where Does Time Go:
-      Ouroboros: sh
+      Ouroboros: len
       Preyouandi:
    Russian Mind (2009):
    Zones Without People (2009):
@@ -962,15 +962,15 @@ Oneohtrix Point Never:
 OutKast:
    ATLiens:
       <flow: 4,413,491 youtu.be/-JfEJq56IwI
-      You May Die (intro): sh
-      Two Dope Boyz (in a Cadillac): sh
+      You May Die (intro): len
+      Two Dope Boyz (in a Cadillac): len
       ATLiens:
       Wheelz of Steel:
       Jazzy Belle:
       Elevators (Me & You): gd
       Ova da Wudz:
       Babylon:
-      Wailin’: sh
+      Wailin’: len
       Mainstream:
       Decatur Psalm:
       Millennium:
@@ -1024,12 +1024,12 @@ Pearl Jam:
    Vs.:
       <flow: 929,164 youtu.be/RiqgTPmkfek
       Go:
-      Animal: sh
+      Animal: len
       Daughter: gd
       Glorified G:
       Dissident: gd
       W.M.A.:
-      Blood: sh
+      Blood: len
       Rearviewmirror:
       Rats:
       Elderly Woman Behind the Counter in a Small Town:
@@ -1038,7 +1038,7 @@ Pearl Jam:
 Pendulum:
    Hold Your Colour:
       <flow: 4,335,083 youtu.be/ogMNV33AhCY
-      Prelude: sh
+      Prelude: len
       Slam: gd
       Plasticworld: gd
       Fasten Your Seatbelt: gd
@@ -1117,61 +1117,61 @@ Pizzicato Five:
       The Work of God:
    Bossa Nova 2001:
       <flow: *gr
-      Rock’n’roll: sh
+      Rock’n’roll: len
       Sweet Soul Revue: gd
       Magic Carpet Ride:
       Groovy Is My Name:
-      Sophisticated Catchy: sh
+      Sophisticated Catchy: len
       Peace Music:
       Strawberry Sleighride:
       Sleeper:
       Sweet Thursday:
       Rain Song:
       Go Go Dancer:
-      Eclipse: sh
+      Eclipse: len
       Saga:
       Hallelujah Hare Krishna:
-      Playback 2001: sh
+      Playback 2001: len
       Cleopatra 2001:
    By Her Majesty’s Request:
       <flow: *gr
-      Holiday for Audrey H: sh
-      Introduction J.B. et Vietnam: sh
+      Holiday for Audrey H: len
+      Introduction J.B. et Vietnam: len
       Bellissima ’90:
       T.V.A.G.:
       Lip Service: gd
-      Spy Vs. Spy (from Erotica Operation): sh
-      Swedish Girl: sh
-      I Confess (from Erotica Operation): sh
-      Feint Operation: sh
+      Spy Vs. Spy (from Erotica Operation): len
+      Swedish Girl: len
+      I Confess (from Erotica Operation): len
+      Feint Operation: len
       Top Secrets:
       Bananas:
-      Top 40: sh
+      Top 40: len
       Homesick Blues:
       Satelite Hour:
-      You’ll Never Get to Heaven: sh
+      You’ll Never Get to Heaven: len
       God Save the Queen:
       Let’s Spend The Night Together:
    couples:
       <flow: *gr
-      magical connection: sh
+      magical connection: len
       summertime, summertime: gd
       they all laughed:
       serial stories:
       the apartment:
       what now our love:
-      seven o’clock news: sh
+      seven o’clock news: len
       odd couple and the others:
       my blue heaven:
-      party joke: sh
+      party joke: len
       two sleepy people:
-      everytime we say goodbye: sh
+      everytime we say goodbye: len
    Overdose:
       <flow: *gr
-      Overture: sh
+      Overture: len
       Airplane: bd
       Statue of Liberty: bd
-      Readymade FM: sh
+      Readymade FM: len
       Happy Sad: bd
       Superstar: bd
       If I Were a Groupie: bd
@@ -1183,56 +1183,56 @@ Pizzicato Five:
       On the Sunny Side of the Street: bd
    Romantique 96:
       <flow: *gr
-      Potpourri: sh
-      The Awakening: sh
+      Potpourri: len
+      The Awakening: len
       Welcome to the Circus:
       Flying High:
-      Romantique 96: sh
+      Romantique 96: len
       Icecream Meltin’ Mellow:
       The Sound of Music:
       Contact:
-      Nata di marzo: sh
+      Nata di marzo: len
       The Secret Garden:
       Catwalk:
       Good:
-      Variation: sh
+      Variation: len
       Tokyo, Mon Amour:
       Triste: gd
-      Coda: sh
+      Coda: len
    Sister Freedom Tapes:
       <flow: *gr
       Airplane ’96:
-      Domino Konishi: sh
-      Snowflakes: sh
+      Domino Konishi: len
+      Snowflakes: len
       Chicken Curry: gd
-      Mini Cooper: sh
-      Holger and Marcus: sh
-      Cornflakes: sh
+      Mini Cooper: len
+      Holger and Marcus: len
+      Cornflakes: len
       To Our Children’s Children’s Children:
-      Passing By: sh
+      Passing By: len
    Soft Landing on the Moon:
       <flow: *gr
-      Party Joke: sh
+      Party Joke: len
       Bellissima ’90: dup
       Temptation Talk: dup
-      Satellite Hour: sh
+      Satellite Hour: len
       They All Laughed:
       Yubikiri: gd
       Let’s Go Away for a While:
-      Let’s Go Away for a While (reprise): sh
+      Let’s Go Away for a While (reprise): len
       Sex Machine:
       Lip Service: dup
-      Boy Meets Girl: sh
+      Boy Meets Girl: len
       Two Sleepy People:
-      Satellite Hour (version 2): sh
+      Satellite Hour (version 2): len
       Planets: dup
       World Standard: dup
-      Top 40: sh
-      Intermission: sh
+      Top 40: len
+      Intermission: len
       Medley The Swim / Boogaloo in Action:
       Aloha de Blues:
       Let’s Spend the Night Together:
-      God Save the Queen: sh
+      God Save the Queen: len
       Couples: dup
    Sweet Pizzicato Five:
       <flow: *gr
@@ -1241,21 +1241,21 @@ Pizzicato Five:
       Catchy: gd
       Telepathy:
       Shock Treatment:
-      CDJ: sh
+      CDJ: len
       KDD:
       Funky Lovechild:
       Cosmic Blues:
    This Year’s Girl:
       <flow: *gr
-      This Year’s Girl 4: sh
-      I (all about me): sh
+      This Year’s Girl 4: len
+      I (all about me): len
       Ohayô:
       Thank You:
       Let’s Be Adult:
-      This Year’s Girl 5: sh
+      This Year’s Girl 5: len
       Baby Love Child:
-      Twiggy Twiggy: sh
-      Twiggy vs. James Bond: sh
+      Twiggy Twiggy: len
+      Twiggy vs. James Bond: len
       Gifted:
       Party:
       Shiritori O Suru Koibito Tachi: gd
@@ -1264,7 +1264,7 @@ Pizzicato Five:
       xxxxxxxxxman:
       Tokyo’s Coolest Sound:
       Birth of Cool:
-      This Year’s Girl 6: sh
+      This Year’s Girl 6: len
 Plaid:
    The Digging Remedy (2016):
    Reachy Prints (2014):
@@ -1277,17 +1277,17 @@ Plaid:
       Shackbu:
       Ralome: gd
       Little People:
-      3 Recurring: sh
+      3 Recurring: len
       Buddy:
       Dead Sea:
       Gel Lab:
-      Tearisci: sh
+      Tearisci: len
       Dang Spot:
       Pino Pomo:
       Last Remembered Thing:
-      Lambs Eye: sh
+      Lambs Eye: len
       New Bass Hippo:
-      Churn Maiden: sh
+      Churn Maiden: len
       Air Locked / Face Me:
    Not for Threes (1997):
       <flow: *gr
@@ -1295,17 +1295,17 @@ Plaid:
       Kortisin: bd
       Headspin: bd
       Myopia: bd
-      Lat: sh
+      Lat: len
       Extork: bd
       Prague Radio: bd
       Fer: bd
       Ladyburst: bd
       Rakimou: gd
       Ol: bd
-      Seph: sh
+      Seph: len
       Lilith: bd
-      Forever: sh
-      Getting: sh
+      Forever: len
+      Getting: len
       Milh: gd
    Mind Over Rhythm Meets the Men From Plaid on the Planet Luv (1995):
    Mbuki Mvuki (1991):
@@ -1344,7 +1344,7 @@ Portishead:
       The Rip: gd
       Plastic:
       We Carry On:
-      Deep Water: sh
+      Deep Water: len
       Machine Gun: gd
       Small:
       Magic Doors:
@@ -1356,17 +1356,17 @@ Portugal. The Man:
       Colors:
       And I:
       Salt: gd
-      Created: sh
+      Created: len
       Out and in and in and Out:
-      Intermission: sh
+      Intermission: len
       New Orleans: gd
       Never Pleased:
-      Sit Back and Dream: sh
-      Hard Times: sh
-      Our Times: sh
+      Sit Back and Dream: len
+      Hard Times: len
+      Our Times: len
       All Mine:
       1989:
-      Our Way: sh
+      Our Way: len
    Woodstock:
       <flow: 112,747,939 youtu.be/pBkHHoOIIn8
       Feel It Still:
@@ -1374,66 +1374,66 @@ Portugal. The Man:
 Prefuse 73:
    One Word Extinguisher:
       <flow: &gr 55,940 youtu.be/fJY7BMzx7Iw
-      The Wrong Side of Reflection (intro): sh
-      The End of Biters - International: sh
-      Plastic: sh
+      The Wrong Side of Reflection (intro): len
+      The End of Biters - International: len
+      Plastic: len
       Uprock and Invigorate: bd
-      The Color of Tempo: sh
-      Dave’s Bonus Beats: sh
+      The Color of Tempo: len
+      Dave’s Bonus Beats: len
       Detchibe: gd
-      Altoid Addiction (interlude): sh
-      Busy Signal (Make You Go Bombing mix): sh
+      Altoid Addiction (interlude): len
+      Busy Signal (Make You Go Bombing mix): len
       One Word Extinguisher: gd
       90% of My Mind Is With You: bd
-      Huevos With Jeff and Rani: sh
-      Female Demands: sh
-      Why I Love You: sh
-      Southerners (interlude): sh
+      Huevos With Jeff and Rani: len
+      Female Demands: len
+      Why I Love You: len
+      Southerners (interlude): len
       Perverted Undertone: gd
-      Invigorate (interlude): sh
+      Invigorate (interlude): len
       Choking You: gd
       Storm Returns: gd
-      Trains on Top of the Game (interlude): sh
+      Trains on Top of the Game (interlude): len
       Styles That Fade Away With a Collonade Reprise: gd
-      Esta: sh
+      Esta: len
       Pentagram: gd
    Surrounded by Silence:
       <flow: *gr
       I’ve Said All I Need to Say About Them Intro:
       Hide Ya Face:
-      Bad Memory Interlude One: sh
+      Bad Memory Interlude One: len
       Ty versus Detchibe:
       Expressing Views Is Obviously Illegal:
       Pastel Assassins:
-      Pagina dos: sh
-      Silence Interlude: sh
-      Now You’re Leaving: sh
+      Pagina dos: len
+      Silence Interlude: len
+      Now You’re Leaving: len
       Gratis: gd
       We Go Our Own Way: gd
-      Mantra: sh
-      Sabbatical With Options: sh
+      Mantra: len
+      Sabbatical With Options: len
       It’s Crowded: gd
       Just the Thought:
       La Correcion Exchange:
-      Hide Ya Face (Reminder version): sh
-      Morale Crusher: sh
+      Hide Ya Face (Reminder version): len
+      Morale Crusher: len
       Minutes Away Without You:
-      Rain Edit Interlude: sh
-      And I’m Gone: sh
+      Rain Edit Interlude: len
+      And I’m Gone: len
    Vocal Studies + Uprock Narratives:
       <flow: *gr
       Radio Attack:
       Nuno:
       Life Death:
-      Smile in Your Face: sh
+      Smile in Your Face: len
       Point to B:
       Five Minutes Away: gd
-      Living Life: sh
+      Living Life: len
       Eve of Dextruction:
       Last Night: gd
-      Cliché Intro: sh
-      Back in Time: sh
-      Hot Winter’s Day: sh
+      Cliché Intro: len
+      Back in Time: len
+      Hot Winter’s Day: len
       Black List:
       Afternoon Love In: gd
       7th Message:

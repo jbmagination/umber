@@ -30,7 +30,7 @@ Daft Punk:
       Steam Machine:
       Make Love: gd
       The Brainwasher:
-      On/Off: sh
+      On/Off: len
       Television Rules the Nation:
       Technologic:
       Emotion:
@@ -41,25 +41,25 @@ Daft Punk:
       Lose Yourself to Dance:
    TRON Legacy:
       <flow: *gr
-      Overture: sh
-      The Grid: sh
-      The Son of Flynn: sh
-      Recognizer: sh
-      Armory: sh
-      Arena: sh
-      Rinzler: sh
+      Overture: len
+      The Grid: len
+      The Son of Flynn: len
+      Recognizer: len
+      Armory: len
+      Arena: len
+      Rinzler: len
       The Game Has Changed: gd
-      Outlands: sh
+      Outlands: len
       Adagio for TRON:
-      Nocturne: sh
-      End of Line: sh
-      Derezzed: sh
-      Fall: sh
-      Solar Sailer: sh
-      Rectifier: sh
+      Nocturne: len
+      End of Line: len
+      Derezzed: len
+      Fall: len
+      Solar Sailer: len
+      Rectifier: len
       Disc Wars:
       C.L.U.:
-      Arrival: sh
+      Arrival: len
       Flynn Lives:
       TRON Legacy (End Titles):
       Finale:
@@ -69,10 +69,10 @@ Daniel Lanois:
       Still Water:
       The Maker:
       O Marie:
-      Jolie Louise: sh
-      Fisherman’s Daughter: sh
+      Jolie Louise: len
+      Fisherman’s Daughter: len
       White Mustang II: gd
-      Under a Stormy Sky: sh
+      Under a Stormy Sky: len
       Where the Hawkwind Kills:
       Silium’s Hill:
       Ice:
@@ -98,9 +98,9 @@ Dave Matthews Band:
       Dreamgirl:
       Old Dirt Hill (Bring That Beat Back):
       Stand Up (for It):
-      American Baby Intro: sh
+      American Baby Intro: len
       American Baby:
-      Smooth Rider: sh
+      Smooth Rider: len
       Everybody Wake Up (Our Finest Hour Arrives):
       Out of My Hands:
       Hello Again:
@@ -136,14 +136,14 @@ Depeche Mode:
       The Love Thieves: bd
       Home: bd
       It’s No Good: bd
-      Uselink: sh
+      Uselink: len
       Useless: bd
       Sister of Night: bd
-      Jazz Thieves: sh
+      Jazz Thieves: len
       Freestate: bd
       The Bottom Line: bd
       Insight: bd
-      Junior Painkiller: sh
+      Junior Painkiller: len
    Violator:
       <flow: 8,734,250 youtu.be/u1xrNaTO1bI
       Personal Jesus:
@@ -152,7 +152,7 @@ Dirty Projectors:
       <flow: 336,674 youtu.be/YMPF6lpM0XM
       Cannibal Resource: gd
       Temecula Sunrise: gd
-      The Bride: sh
+      The Bride: len
       Stillness Is the Move: gd
       Two Doves: gd
       Useful Chamber:
@@ -299,7 +299,7 @@ Don Henley:
       Dirty Laundry: gd
       Johnny Can’t Read:
       Them and Us:
-      La Eile: sh
+      La Eile: len
       Lilah:
       The Unclouded Day:
 Dr. Dre:
@@ -310,7 +310,7 @@ Dr. Dre:
       The Next Episode:
    The Chronic:
       <flow: 4,208,038 youtu.be/0F0CAEoF4XM
-      The Chronic (intro): sh
+      The Chronic (intro): len
       Fuck Wit Dre Day (And Everybody’s Celebratin’):
       Let Me Ride:
       The Day the Niggaz Took Over:
@@ -319,10 +319,10 @@ Dr. Dre:
       Lil’ Ghetto Boy:
       A Nigga Witta Gun:
       Rat-Tat-Tat-Tat:
-      The $20 Sack Pyramid: sh
+      The $20 Sack Pyramid: len
       Lyrical Gangbang:
-      High Powered: sh
-      The Doctor’s Office: sh
+      High Powered: len
+      The Doctor’s Office: len
       Stranded on Death Row:
       The Roach (The Chronic Outro):
       Bitches Ain’t Shit:
@@ -365,14 +365,14 @@ Duran Duran:
 Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
       <flow: &gr 52,096 youtu.be/gvM1a72Dcqw
-      Can’t Give It Up: sh
+      Can’t Give It Up: len
       Figure It Out (Night Edit): gd
    Last Chance to Dance:
       <flow: *gr
       Last Chance to Dance: gd
       Holiday Blues (demo):
-      Ex-Change (demo): sh
-      Only U 4 Me (demo): sh
+      Ex-Change (demo): len
+      Only U 4 Me (demo): len
 Eli & Fur:
    Illusions:
       <flow: 33,667,352 youtu.be/3GEqdbh8sFI
@@ -389,14 +389,14 @@ Emilíana Torrini:
       <flow: &gr 2,120,419 youtu.be/iZ9vkd7Rp-g
       Nothing Brings Me Down: bd
       Sunny Road: gd
-      Snow: sh
+      Snow: len
       Lifesaver: gd
       Honeymoon Child: bd
       Today Has Been OK: bd
       Next Time Around: bd
       Heartstopper: bd
       At Least It Was: gd
-      Fisherman’s Woman: sh
+      Fisherman’s Woman: len
       Thinking Out Loud:
       Serenade:
    Love in the Time of Science:
@@ -411,7 +411,7 @@ Emilíana Torrini:
       Telepathy:
       Tuna Fish:
       Summerbreeze:
-      Sea People: sh
+      Sea People: len
    Me and Armini:
       <flow: *gr
       Fireheads:
@@ -420,10 +420,10 @@ Emilíana Torrini:
       Heard It All Before:
       Ha Ha:
       Big Jumps:
-      Jungle Drum: sh
-      Hold Heart: sh
+      Jungle Drum: len
+      Hold Heart: len
       Gun:
-      Beggar’s Prayer: sh
+      Beggar’s Prayer: len
       Dead Duck:
       Bleeder:
 Empress Of:
@@ -433,8 +433,8 @@ Empress Of:
       Water Water: bd
       Standard: gd
       How Do You Do It: bd
-      To Get By: sh
-      Kitty Kat: sh
+      To Get By: len
+      Kitty Kat: len
       Need Myself: bd
       Make Up: bd
       Threat: bd
@@ -474,7 +474,7 @@ Everything but the Girl:
       Two Star:
       We Walk the Same Line:
       25th December:
-      Disenchanted: sh
+      Disenchanted: len
    Acoustic (1992):
    Worldwide (1991):
       <flow: *gr
@@ -488,7 +488,7 @@ Everything but the Girl:
       One Place:
       Politics Aside:
       Boxing and Pop Music:
-      Feel Alright: sh
+      Feel Alright: len
    The Language of Life (1990):
       <flow: *gr
       Driving: gd
@@ -547,7 +547,7 @@ Fatboy Slim:
 Filter:
    Title of Record:
       <flow: 1,006,260 youtu.be/o9mJ82x_l-E
-      Sand: sh
+      Sand: len
       Welcome to the Fold:
       Captain Bligh: bd
       It’s Gonna Kill Me: bd
@@ -561,32 +561,32 @@ Filter:
 Flamingosis:
    Great Hair:
       <flow: &gr 2,137,585 youtu.be/1hJKhiew2O0
-      Hidden Attraction: sh
-      Frugal Livin’: sh
+      Hidden Attraction: len
+      Frugal Livin’: len
       Riding the L:
       Getting Close to You: gd
       I Met a Funky Lady:
       Saturday Night Fever:
-      Momento: sh
+      Momento: len
       I’ll Be There:
-      Oakland: sh
+      Oakland: len
       Sun Whisperer:
-      Breakfast Poutine: sh
+      Breakfast Poutine: len
       Snacks on Snacks:
-      Elevator Pass: sh
+      Elevator Pass: len
    Pleasure Palette:
       <flow: *gr
-      Pleasure Palette: sh
+      Pleasure Palette: len
       Down For The Fifth Time: gd
-      Finesse (Hey Baby): sh
+      Finesse (Hey Baby): len
       A Beautiful Soul (Feat. BeRod):
       On a Cloud (Feat. Beatmachinearon):
-      love me in the evening: sh
+      love me in the evening: len
       Now Or Never (Feat. Macross 82-99):
       Transparency:
       I don’t really care:
-      Wearing a Smile: sh
-      Little Fling: sh
+      Wearing a Smile: len
+      Little Fling: len
       Football Head: gd
 Fleet Foxes:
    Fleet Foxes:
@@ -594,7 +594,7 @@ Fleet Foxes:
       White Winter Hymnal:
    Sun Giant:
       <flow: 1,466,746 youtu.be/DT-dxG4WWf4
-      Sun Giant: sh
+      Sun Giant: len
       Drops in the River: gd
       English House: gd
       Mykonos: gd
@@ -607,15 +607,15 @@ Fleetwood Mac:
    Mirage:
       <flow: &gr 1,506,270 youtu.be/Xr9Oubxw1gA
       Love in Store:
-      Can’t Go Back: sh
+      Can’t Go Back: len
       That’s Alright:
       Book of Love:
       Gypsy: gd
       Only Over You:
-      Empire State: sh
+      Empire State: len
       Straight Back:
       Hold Me:
-      Oh Diane: sh
+      Oh Diane: len
       Eyes of the World:
       Wish You Were Here:
    Rumours:
@@ -636,7 +636,7 @@ Fleetwood Mac:
       Welcome to the Room… Sara:
       Isn’t It Midnight:
       When I See You Again:
-      You and I, Part II: sh
+      You and I, Part II: len
 Floating Points:
    Elaenia:
       <flow: &gr 610,878 youtu.be/1LtsjqgF6fw
@@ -654,7 +654,7 @@ Floating Points:
       For Marmish Part II: gd
    Reflections - Mojave Desert:
       <flow: *gr
-      Mojave Desert: sh
+      Mojave Desert: len
       Silurian Blue: gd
       Kites: bd
       Kelso Dunes: gd
@@ -707,7 +707,7 @@ Foreigner:
       Starrider:
       Headknocker:
       The Damage Is Done:
-      Long, Long Way From Home: sh
+      Long, Long Way From Home: len
       Woman Oh Woman:
       At War With the World:
       Fool for You Anyway:
@@ -717,7 +717,7 @@ Four Tet:
       <flow: &gr 294,231 youtu.be/Tpe4id7cLnU
       The Space of Two Weeks: gd
       Chiron: bd
-      Alambradas: sh
+      Alambradas: len
       3.3 Degrees From the Pole: bd
       Misnomer:
       Liquefaction: bd
@@ -728,11 +728,11 @@ Four Tet:
       <flow: *gr
       Glue of the World: gd
       Twenty Three: bd
-      Harmony One: sh
+      Harmony One: len
       Parks: gd
-      Leila Came Round and We Watched a Video: sh
+      Leila Came Round and We Watched a Video: len
       Untangle: bd
-      Everything Is Alright: sh
+      Everything Is Alright: len
       No More Mosquitoes: bd
       Tangle: bd
       You Could Ruin My Day: gd
@@ -747,11 +747,11 @@ Four Tet:
       <flow: *gr
       Hands: gd
       She Moves She: gd
-      First Thing: sh
+      First Thing: len
       My Angel Rocks Back and Forth: bd
       Spirit Fingers: bd
       Unspoken: gd
-      Chia: sh
+      Chia: len
       As Serious as Your Life: bd
       And They All Look Broken Hearted: gd
       Slow Jam: bd
@@ -760,10 +760,10 @@ Four Tet:
       Angel Echoes:
       Love Cry:
       Circling:
-      Pablo’s Heart: sh
+      Pablo’s Heart: len
       Sing:
       This Unfolds:
-      Reversing: sh
+      Reversing: len
       Plastic People:
       She Just Likes to Fight: gd
 Four Tet + Burial:
@@ -785,22 +785,22 @@ Frankie Rose:
       Love in Rockets:
       Dyson Sphere:
       Trouble:
-      Art Bell: sh
+      Art Bell: len
       Dancing Down the Hall:
       Cage Tropical: gd
       Game to Play:
       Red Museum:
-      Epic Slack: sh
+      Epic Slack: len
       Decontrol:
    Interstellar:
       <flow: *gr
       Interstellar:
-      Know Me: sh
+      Know Me: len
       Gospel/Grace:
-      Daylight Sky: sh
+      Daylight Sky: len
       Pair of Wings:
       Had We Had It:
-      Night Swim: sh
+      Night Swim: len
       Apples for the Sun:
       Moon in My Mind:
       The Fall: gd
@@ -818,11 +818,11 @@ Funkadelic:
    Maggot Brain:
       <flow: 708,285 youtu.be/dh3bleXWaCk
       Maggot Brain: gd
-      Can You Get to That: sh
+      Can You Get to That: len
       Hit It and Quit It:
       You and Your Folks, Me and My Folks:
       Super Stupid:
-      Back in Our Minds: sh
+      Back in Our Minds: len
       Wars of Armageddon:
 Funki Porcini:
    Fast Asleep:
@@ -831,22 +831,22 @@ Funki Porcini:
       The Big Sea: gd
       We’re Out of Here:
       50,000 Ft Freefall:
-      Sleepy: sh
+      Sleepy: len
       The Great Drive By: gd
-      Last Night Over Norway: sh
+      Last Night Over Norway: len
       New Dope:
       16 Megatons:
       Tokyosaka Train:
-      Terminal C3 UK: sh
+      Terminal C3 UK: len
       Weow:
-      Offshore Birmingham: sh
+      Offshore Birmingham: len
       Back Home:
    Love, Pussycats & Carwrecks:
       <flow: *gr
       Purrfect: bd
       Groover: bd
       The Last Song: bd
-      Snip & Lick: sh
+      Snip & Lick: len
       Carwreck: bd
       The Afterlife: bd
       12 Points Off Your Licence: bd
@@ -869,32 +869,32 @@ Genesis:
 Gnarls Barkley:
    St. Elsewhere:
       <flow: &gr 3,539,846 youtu.be/Qe500eIK1oA
-      Go‐Go Gadget Gospel: sh
+      Go‐Go Gadget Gospel: len
       Crazy: gd
-      St. Elsewhere: sh
-      Gone Daddy Gone: sh
+      St. Elsewhere: len
+      Gone Daddy Gone: len
       Smiley Faces:
-      The Boogie Monster: sh
-      Feng Shui: sh
+      The Boogie Monster: len
+      Feng Shui: len
       Just a Thought:
-      Transformer: sh
-      Who Cares?: sh
-      On Line: sh
-      Necromancer: sh
+      Transformer: len
+      Who Cares?: len
+      On Line: len
+      Necromancer: len
       Storm Coming:
       The Last Time:
    The Odd Couple:
       <flow: *gr
       Charity Case:
       Who’s Gonna Save My Soul: gd
-      Going On: sh
-      Run (I’m a Natural Disaster): sh
-      Would Be Killer: sh
+      Going On: len
+      Run (I’m a Natural Disaster): len
+      Would Be Killer: len
       Open Book:
-      Whatever: sh
+      Whatever: len
       Surprise:
-      No Time Soon: sh
-      She Knows: sh
+      No Time Soon: len
+      She Knows: len
       Blind Mary:
       Neighbors:
       A Little Better:
@@ -961,18 +961,18 @@ Goo Goo Dolls:
    A Boy Named Goo:
       <flow: 1,126,677 youtu.be/LyG3wkwKXro
       Long Way Down: gd
-      Burnin’ Up: sh
+      Burnin’ Up: len
       Naked:
       Flat Top:
-      Impersonality: sh
+      Impersonality: len
       Name: gd
       Only One:
-      Somethin’ Bad: sh
+      Somethin’ Bad: len
       Ain’t That Unusual:
-      So Long: sh
+      So Long: len
       Eyes Wide Open:
       Disconnected:
-      Slave Girl: sh
+      Slave Girl: len
    Dizzy Up the Girl:
       <flow: 17,275,396 youtu.be/NdYWuo9OFAw
       Iris:
@@ -1018,7 +1018,7 @@ Gotan Project:
       Mil millones: gd
       Tu misterio:
       De hombre a hombre:
-      El mensajero: sh
+      El mensajero: len
       Panamericana:
       Érase una vez:
 Green Day:
@@ -1041,7 +1041,7 @@ Green Day:
 Grizzly Bear:
    Painted Ruins (2017):
       <flow: &gr 1,375,012 youtu.be/tjecYugTbIQ
-      Wasted Acres: sh
+      Wasted Acres: len
       Mourning Sound:
       Four Cypresses:
       Three Rings: gd
@@ -1056,7 +1056,7 @@ Grizzly Bear:
       <flow: *gr
       Sleeping Ute: gd
       Speak in Rounds:
-      Adelma: sh
+      Adelma: len
       Yet Again:
       The Hunt:
       A Simple Answer:
@@ -1067,7 +1067,7 @@ Grizzly Bear:
       Smothering Green:
       Taken Down (Marfa demo):
       Listen and Wait:
-      Everyone I Know (Marfa demo): sh
+      Everyone I Know (Marfa demo): len
       Will Calls (Marfa demo): gd
       Sleeping Ute (Nicolas Jaar remix):
       A Simple Answer (Liars remix):
@@ -1082,7 +1082,7 @@ Grizzly Bear:
       Dory:
       Ready, Able: gd
       About Face:
-      Hold Still: sh
+      Hold Still: len
       While You Wait for the Others: gd
       I Live With You: gd
       Foreground: gd
@@ -1130,7 +1130,7 @@ Groove Armada:
       Song 4 Mutya (Out of Control):
       From the Rooftops: gd
       See What You Get:
-      What’s Your Version? (reprise): sh
+      What’s Your Version? (reprise): len
 Guns N’ Roses:
    Appetite for Destruction:
       <flow: 86,924,643 youtu.be/1w7OgIMMRc4
