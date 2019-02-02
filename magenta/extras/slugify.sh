@@ -13,9 +13,9 @@ slugify()
    awk '
    BEGIN {
       gsub(ARGV[2], "", ARGV[1])
-      gsub(/[]().[\47]/, "", ARGV[1])
-      gsub(/ ?[-&,] /, "-", ARGV[1])
-      gsub(/ /, "-", ARGV[1])
+      gsub(/[]().[_+\47]/, "", ARGV[1])
+      gsub(/ ?[&,-] /, "-", ARGV[1])
+      gsub(/ +/, "-", ARGV[1])
       print tolower(ARGV[1]) ARGV[3]
    }
    ' "$@"
