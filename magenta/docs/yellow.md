@@ -10,14 +10,15 @@ Legend
 ------
 
 key  | value
------|------
-`$`  | views per year and URL
-`bd` | bad
-`gd` | good
-`gr` | green
-`rd` | red
-`ri` | reissue
-`sh` | short
+-----|-------
+bad  | rating
+dup  | reissue
+flow | views per year
+good | rating
+high | greater or equal to 6 million views per year
+len  | length less than 3 minutes
+link | URL
+low  | less than 6 million views per year
 
 Query
 -----

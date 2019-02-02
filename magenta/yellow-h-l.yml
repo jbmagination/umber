@@ -1144,7 +1144,7 @@ Laurel Halo:
 Led Zeppelin:
    Coda (1982):
    In Through the Out Door (1979):
-      $: 5,999,659 youtu.be/sfR_HWMzgyc
+      $: &gr 5,999,659 youtu.be/sfR_HWMzgyc
       In the Evening:
       South Bound Saurez:
       Fool in the Rain: gd
@@ -1166,8 +1166,10 @@ Led Zeppelin:
       D’yer Mak’er:
       No Quarter:
       The Ocean:
-   [Led Zeppelin IV] (1971):
-      $: 78,163,234 youtu.be/D9ioyEvdggk
+   '[Led Zeppelin IV]':
+      <url: https://youtu.be/D9ioyEvdggk
+      <vpy: 78,163,234
+      <year: 1971
       Black Dog:
       Rock and Roll:
       Stairway to Heaven:
