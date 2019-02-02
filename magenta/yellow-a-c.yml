@@ -18,7 +18,7 @@
       Hail Mary:
 9 Lazy 9:
    Bedsofaland (2009):
-      $: &gr 10,137 https://youtu.be/A6S_vJ7G0R0
+      $: &low 10,137 https://youtu.be/A6S_vJ7G0R0
       Hotwire: len
       Russian Spring: len
       Endless:
@@ -33,9 +33,9 @@
       Free D: len
       Slow Plus:
    Sweet Jones (2003):
-      $: *gr
+      $: *low
       The Woodworm: yes
-      Code 3: bd
+      Code 3: no
       Sunday Monday: yes
       Poundstretcher: yes
       Keep Going Daddy:
@@ -48,9 +48,9 @@
       The Last of the West:
    The Herb (1995):
    Electric Lazyland (1994):
-      $: *gr
-      Life Goes On & On: bd
-      Electric Lazyland: bd
+      $: *low
+      Life Goes On & On: no
+      Electric Lazyland: no
       Skarakesh:
       B Hip & Shop:
       No. 2:
@@ -67,24 +67,24 @@
       Roughport Invention:
       Golden Oldie: len
    Paradise Blown (1994):
-      $: *gr
+      $: *low
       500 am: yes
-      Shak: bd
-      Turn Me Loose: bd
+      Shak: no
+      Turn Me Loose: no
       Edit: len
       Black Jesus:
-      All Aboard: bd
+      All Aboard: no
       Summer: yes
-      The Herb: bd
-      Brothers of the Red: bd
-      Take Nine: bd
+      The Herb: no
+      Brothers of the Red: no
+      Take Nine: no
       Spoonful of Slow: len
-      Bad Boy: bd
-      Not Nice: bd
+      Bad Boy: no
+      Not Nice: no
       Interleud: len
-      It’s Late: bd
+      It’s Late: no
       Gossip / Bad Boy: len
-      Lotto Jisco: bd
+      Lotto Jisco: no
 Aaliyah:
    Aaliyah:
       $: 4,349,375 https://youtu.be/VKbWF1jwMhE
@@ -124,7 +124,7 @@ Aerosmith:
 Air:
    Music for Museum (2014):
    Love 2 (2009):
-      $: &gr 1,402,647 https://youtu.be/XUjAtYQkFm8
+      $: &low 1,402,647 https://youtu.be/XUjAtYQkFm8
       Do the Joy:
       Love: len
       So Light Is Her Footfall:
@@ -138,7 +138,7 @@ Air:
       You Can Tell It to Everybody:
       African Velvet: yes
    Pocket Symphony (2006):
-      $: *gr
+      $: *low
       Space Maker:
       Once Upon a Time:
       One Hell of a Party:
@@ -153,7 +153,7 @@ Air:
       Night Sight:
       Time Capsule:
    Talkie Walkie (2004):
-      $: *gr
+      $: *low
       Venus:
       Cherry Blossom Girl:
       Run:
@@ -166,12 +166,12 @@ Air:
       Alone in Kyoto: yes
       Easy Going Woman:
    10 000 Hz Legend (2001):
-      $: *gr
-      Electronic Performers: bd
-      How Does It Make You Feel?: bd
-      Radio 1: bd
-      The Vagabond: bd
-      Radian: bd
+      $: *low
+      Electronic Performers: no
+      How Does It Make You Feel?: no
+      Radio 1: no
+      The Vagabond: no
+      Radian: no
       Lucky and Unhappy:
       Sex Born Poison:
       People in the City:
@@ -179,7 +179,7 @@ Air:
       Don’t Be Light:
       Caramel Prisoner:
    Moon Safari (1998):
-      $: *gr
+      $: *low
       La Femme d’argent: yes
       Sexy Boy:
       All I Need:
@@ -191,7 +191,7 @@ Air:
       New Star in the Sky (Chanson pour Solal):
       Le Voyage de Pénélope: yes
    Premiers Symptômes (1997):
-      $: *gr
+      $: *low
       Modular Mix: yes
       Casanova 70: yes
       Les Professionnels: yes
@@ -226,13 +226,13 @@ Aleksi Perälä:
    The Colundi Sequence Level 3 (2013):
 Alice in Chains:
    Rainier Fog (2018):
-      $: &gr 5,293,687 https://youtu.be/352RBWh6ViU
+      $: &low 5,293,687 https://youtu.be/352RBWh6ViU
       The One You Know:
    The Devil Put Dinosaurs Here (2013):
    Black Gives Way to Blue (2009):
    Alice in Chains (1995):
    Jar of Flies (1994):
-      $: *gr
+      $: *low
       Rotten Apple: yes
       Nutshell: yes
       I Stay Away: yes
@@ -270,7 +270,7 @@ America:
       Pigeon Song: len
 Amon Tobin:
    Bricolage:
-      $: &gr 184,337 https://youtu.be/1jaRA6nGyUg
+      $: &low 184,337 https://youtu.be/1jaRA6nGyUg
       Stoney Street: yes
       Easy Muffin: yes
       Yasawas:
@@ -286,7 +286,7 @@ Amon Tobin:
       One Small Step:
       Mission:
    Foley Room:
-      $: *gr
+      $: *low
       Bloodstone: yes
       Esther’s:
       Keep Your Distance:
@@ -300,20 +300,20 @@ Amon Tobin:
       Straight Psyche: yes
       At the End of the Day:
    Out From Out Where:
-      $: *gr
-      Back From Space: bd
-      Verbal: bd
-      Chronic Tronic: bd
+      $: *low
+      Back From Space: no
+      Verbal: no
+      Chronic Tronic: no
       Searchers: yes
       Hey Blondie: yes
       Rosies: yes
-      Cosmo Retro Intro Outro: bd
-      Triple Science: bd
+      Cosmo Retro Intro Outro: no
+      Triple Science: no
       El Wraith: yes
-      Proper Hoodidge: bd
+      Proper Hoodidge: no
       Mighty Micro People: yes
    Permutation:
-      $: *gr
+      $: *low
       Like Regular Chickens:
       Bridge: yes
       Reanimator:
@@ -327,11 +327,11 @@ Amon Tobin:
       Toys:
       Nova: yes
    Supermodified:
-      $: *gr
+      $: *low
       Get Your Snack On: yes
       Four Ton Mantis: yes
       Slowly: yes
-      Marine Machines: bd
+      Marine Machines: no
       Golfer vrs Boxer: yes
       Deo: yes
       Precursor:
@@ -365,20 +365,20 @@ Audioslave:
       Be Yourself:
 Autechre:
    Amber:
-      $: &gr 111,359 https://youtu.be/hWGUnrIiOoI
-      Foil: bd
-      Montreal: bd
-      Silverside: bd
-      Slip: bd
-      Glitch: bd
-      Piezo: bd
+      $: &low 111,359 https://youtu.be/hWGUnrIiOoI
+      Foil: no
+      Montreal: no
+      Silverside: no
+      Slip: no
+      Glitch: no
+      Piezo: no
       Nine: yes
-      Further: bd
+      Further: no
       Yulquen: yes
       Nil: yes
-      Teartear: bd
+      Teartear: no
    Draft 7.30:
-      $: *gr
+      $: *low
       Xylin Room:
       IV VV IV VV VIII:
       6IE.CR:
@@ -390,7 +390,7 @@ Autechre:
       V-PROC:
       Reniform Puls:
    EP7:
-      $: *gr
+      $: *low
       Rpeg:
       Ccec:
       Squeller:
@@ -403,26 +403,26 @@ Autechre:
       Netlon Sentinel:
       Pir:
    Exai:
-      $: *gr
-      FLeure: bd
-      irlite (get 0): bd
-      prac-f: bd
-      jatevee C: bd
-      T ess xi: bd
-      vekoS: bd
-      Flep: bd
-      tuinorizn: bd
-      bladelores: bd
-      1 1 is: bd
-      nodezsh: bd
-      runrepik: bd
-      spl9: bd
-      cloudline: bd
-      deco Loc: bd
-      recks on: bd
-      YJY UX: bd
+      $: *low
+      FLeure: no
+      irlite (get 0): no
+      prac-f: no
+      jatevee C: no
+      T ess xi: no
+      vekoS: no
+      Flep: no
+      tuinorizn: no
+      bladelores: no
+      1 1 is: no
+      nodezsh: no
+      runrepik: no
+      spl9: no
+      cloudline: no
+      deco Loc: no
+      recks on: no
+      YJY UX: no
    Incunabula:
-      $: *gr
+      $: *low
       Kalpol Introl: yes
       Bike: yes
       Autriche: yes
@@ -435,7 +435,7 @@ Autechre:
       Lowride:
       444: yes
    Oversteps:
-      $: *gr
+      $: *low
       r ess: yes
       ilanders:
       known(1):
@@ -451,29 +451,29 @@ Autechre:
       krYlon:
       Yuop: yes
    Quaristice:
-      $: *gr
+      $: *low
       Altibzz: yes
-      The Plc: bd
-      IO: bd
+      The Plc: no
+      IO: no
       plyPhon: len
-      Perlence: bd
+      Perlence: no
       SonDEremawe: len
       Simmm: yes
       paralel Suns: yes
       Steels: len
-      Tankakern: bd
-      rale: bd
-      Fol3: bd
+      Tankakern: no
+      rale: no
+      Fol3: no
       fwzE: len
-      90101-5l-l: bd
+      90101-5l-l: no
       bnc Castl: len
       Theswere: len
-      WNSN: bd
-      chenc9: bd
+      WNSN: no
+      chenc9: no
       Notwo: yes
-      Outh9X: bd
+      Outh9X: no
    Tri Repetae:
-      $: *gr
+      $: *low
       Dael:
       Clipper:
       Leterel:
@@ -503,7 +503,7 @@ Bat for Lashes:
    The Bride (2016):
    The Haunted Man (2012):
    Two Suns (2009):
-      $: &gr 927,413 https://youtu.be/UznHTBZIa8E
+      $: &low 927,413 https://youtu.be/UznHTBZIa8E
       Glass: yes
       Sleep Alone:
       Moon and Moon:
@@ -524,9 +524,9 @@ Bat for Lashes:
       Daniel (live):
       Lonely (live): yes
    Fur and Gold (2006):
-      $: *gr
+      $: *low
       Horse and I:
-      Trophy: bd
+      Trophy: no
       Tahiti: yes
       What’s a Girl to Do?: len
       Sad Eyes:
@@ -559,21 +559,21 @@ Beach House:
 Beck:
    Colors:
       $: 4,179,410 https://youtu.be/WRCA_Fo0rWA
-      Colors: bd
-      Seventh Heaven: bd
-      I’m So Free: bd
-      Dear Life: bd
-      No Distraction: bd
-      Dreams: bd
-      Wow: bd
-      Up All Night: bd
+      Colors: no
+      Seventh Heaven: no
+      I’m So Free: no
+      Dear Life: no
+      No Distraction: no
+      Dreams: no
+      Wow: no
+      Up All Night: no
       Square One: len
-      Fix Me: bd
+      Fix Me: no
    Mellow Gold:
       $: 10,576,977 https://youtu.be/YgSPaXgAdzE
       Loser:
    Morning Phase:
-      $: &gr 931,366 https://youtu.be/VkCg-3nxT8E
+      $: &low 931,366 https://youtu.be/VkCg-3nxT8E
       Cycle: len
       Morning:
       Heart Is a Drum:
@@ -588,9 +588,9 @@ Beck:
       Country Down:
       Waking Light:
    Odelay:
-      $: *gr
-      Devil’s Haircut: bd
-      Hotwax: bd
+      $: *low
+      Devil’s Haircut: no
+      Hotwax: no
       Lord Only Knows:
       The New Pollution:
       Derelict:
@@ -653,7 +653,7 @@ Ben Howard:
       Promise: yes
 Bibio:
    Ambivalence Avenue:
-      $: &gr 102,143 https://youtu.be/jgrgCaSo8e4
+      $: &low 102,143 https://youtu.be/jgrgCaSo8e4
       Ambivalence Avenue:
       Jealous of Roses: len
       All the Flowers: len
@@ -667,7 +667,7 @@ Bibio:
       Cry! Baby!:
       Dwrcan:
    Silver Wilkinson:
-      $: *gr
+      $: *low
       The First Daffodils: len
       Dye the Water Green: yes
       Wulf: len
@@ -723,44 +723,44 @@ Big Boi:
       Back Up Plan:
 Björk:
    Debut:
-      $: &gr 1,040,474 https://youtu.be/htobTBlCvUU
-      Human Behaviour: bd
-      Crying: bd
+      $: &low 1,040,474 https://youtu.be/htobTBlCvUU
+      Human Behaviour: no
+      Crying: no
       Venus as a Boy: yes
-      There’s More to Life Than This: bd
+      There’s More to Life Than This: no
       Like Someone in Love: yes
-      Big Time Sensuality: bd
-      One Day: bd
-      Aeroplane: bd
+      Big Time Sensuality: no
+      One Day: no
+      Aeroplane: no
       Come to Me: yes
-      Violently Happy: bd
+      Violently Happy: no
       The Anchor Song: yes
       Play Dead: yes
    Homogenic:
-      $: *gr
+      $: *low
       Hunter: yes
       Jóga: yes
       Unravel: yes
       Bachelorette: yes
-      All Neon Like: bd
-      5 Years: bd
+      All Neon Like: no
+      5 Years: no
       Immature: yes
-      Alarm Call: bd
-      Pluto: bd
+      Alarm Call: no
+      Pluto: no
       All Is Full of Love: yes
    Post:
-      $: *gr
+      $: *low
       Army of Me: yes
-      Hyper‐Ballad: bd
-      The Modern Things: bd
+      Hyper‐Ballad: no
+      The Modern Things: no
       It’s Oh So Quiet: yes
-      Enjoy: bd
+      Enjoy: no
       You’ve Been Flirting Again: len
       Isobel: yes
-      Possibly Maybe: bd
-      I Miss You: bd
+      Possibly Maybe: no
+      I Miss You: no
       Cover Me: len
-      Headphones: bd
+      Headphones: no
 Blink 182:
    Blink-182:
       $: 21,749,165 https://youtu.be/s1tAYmMjLdY
@@ -782,27 +782,27 @@ Blink 182:
       The Rock Show:
 Blood Orange:
    Negro Swan (2018):
-      $: &gr 2,214,523 https://youtu.be/mVH_wxk9ZtE
+      $: &low 2,214,523 https://youtu.be/mVH_wxk9ZtE
       Orlando:
       Saint:
       Take Your Time: len
-      Hope: bd
-      Jewelry: bd
+      Hope: no
+      Jewelry: no
       Family: len
-      Charcoal Baby: bd
+      Charcoal Baby: no
       Vulture Baby: len
-      Chewing Gum: bd
-      Holy Will: bd
+      Chewing Gum: no
+      Holy Will: no
       Dagenham Dream: len
       Nappy Wonder: len
-      Runnin’: bd
+      Runnin’: no
       Out of Your League: len
       Minetta Creek: len
-      Smoke: bd
+      Smoke: no
    Freetown Sound (2016):
-      $: *gr
+      $: *low
       By Ourselves: len
-      Augustine: bd
+      Augustine: no
       Chance: len
       Best to You: yes
       With Him: len
@@ -819,7 +819,7 @@ Blood Orange:
       I Know:
       Better Numb:
    Cupid Deluxe (2013):
-      $: *gr
+      $: *low
       Chamakay: yes
       You’re Not Good Enough: yes
       Uncle ACE: yes
@@ -832,8 +832,8 @@ Blood Orange:
       High Street: len
       Time Will Tell:
    Coastal Grooves (2011):
-      $: *gr
-      Forget It: bd
+      $: *low
+      Forget It: no
       Sutphin Boulevard: yes
       I’m Sorry We Lied: yes
       Can We Go Inside Now?: yes
@@ -845,35 +845,35 @@ Blood Orange:
       Champagne Coast:
 Boards of Canada:
    Boc Maxima:
-      $: &gr 745,274 https://youtu.be/dQEmaj9C6ko
-      Chinook: bd
+      $: &low 745,274 https://youtu.be/dQEmaj9C6ko
+      Chinook: no
       Rodox Video: len
       Everything You Do Is a Balloon: yes
       Boc Maxima: len
       Nova Scotia Robots: len
-      June 9th: bd
+      June 9th: no
       Niagara: len
       Skimming Stones: len
-      Sixtyniner: bd
-      Red Moss: bd
+      Sixtyniner: no
+      Red Moss: no
       Concourse: len
       Carcan: len
-      Nlogax: bd
-      M9: bd
+      Nlogax: no
+      M9: no
       Original Nlogax: len
-      Whitewater: bd
+      Whitewater: no
    Geogaddi:
-      $: *gr
+      $: *low
       Ready Lets Go: len
       Music Is Math: yes
       Beware the Friendly Stranger: len
-      Gyroscope: bd
+      Gyroscope: no
       Dandelion: len
       Sunshine Recorder: yes
       In the Annexe: len
-      Julie and Candy: bd
+      Julie and Candy: no
       The Smallest Weird Number: len
-      1969: bd
+      1969: no
       Energy Warning: len
       The Beach at Redpoint: yes
       Opening the Mouth: len
@@ -884,41 +884,41 @@ Boards of Canada:
       Over the Horizon Radar: len
       Dawn Chorus: yes
       Diving Station: len
-      You Could Feel the Sky: bd
+      You Could Feel the Sky: no
       Corsair: len
       Magic Window: len
    In a Beautiful Place Out in the Country:
-      $: *gr
+      $: *low
       Kid for Today: yes
       Amo Bishop Roden: yes
       In a Beautiful Place Out in the Country: yes
-      Zoetrope: bd
+      Zoetrope: no
    Music Has the Right to Children:
-      $: *gr
+      $: *low
       Wildlife Analysis: len
       An Eagle in Your Mind: yes
       The Color of the Fire: len
-      Telephasic Workshop: bd
+      Telephasic Workshop: no
       Triangles & Rhombuses: len
-      Sixtyten: bd
+      Sixtyten: no
       Turquoise Hexagon Sun: yes
       Kaini Industries: len
       Bocuma: len
       Roygbiv: len
-      Rue the Whirl: bd
-      Aquarius: bd
+      Rue the Whirl: no
+      Aquarius: no
       Olson: len
-      Pete Standing Alone: bd
-      Smokes Quantity: bd
+      Pete Standing Alone: no
+      Smokes Quantity: no
       Open the Light: yes
       One Very Important Thought: len
    The Campfire Headphase:
-      $: *gr
+      $: *low
       Into the Rainbow Vein: len
       Chromakey Dreamcoat: yes
       Satellite Anthem Icarus: yes
-      Peacock Tail: bd
-      Dayvan Cowboy: bd
+      Peacock Tail: no
+      Dayvan Cowboy: no
       A Moment of Clarity: len
       ’84 Pontiac Dream: yes
       Sherbet Head: len
@@ -928,9 +928,9 @@ Boards of Canada:
       Constants Are Changing: len
       Slow This Bird Down: yes
       Tears From the Compound Eye: yes
-      Farewell Fire: bd
+      Farewell Fire: no
    Tomorrow’s Harvest:
-      $: *gr
+      $: *low
       Gemini: len
       Reach for the Dead: yes
       White Cyclosa: yes
@@ -949,40 +949,40 @@ Boards of Canada:
       Come to Dust:
       Semena Mertvykh:
    Trans Canada Highway:
-      $: *gr
+      $: *low
       Left Side Drive: yes
       Heard From Telegraph Lines: len
       Skyliner:
       Under the Coke Sign: len
 Bonobo:
    Animal Magic:
-      $: &gr 1,668,464 https://youtu.be/N7m86aMNjlQ
+      $: &low 1,668,464 https://youtu.be/N7m86aMNjlQ
       Intro: len
       Sleepy Seven: yes
-      Dinosaurs: bd
+      Dinosaurs: no
       Kota: yes
       Terrapin: yes
       The Plug: yes
       Shadowtricks: yes
-      Gypsy: bd
-      Sugar Rhyme: bd
+      Gypsy: no
+      Sugar Rhyme: no
       Silver: yes
    Black Sands:
-      $: *gr
+      $: *low
       Prelude: len
       Kiara: yes
-      Kong: bd
+      Kong: no
       Eyesdown: yes
       El Toro: yes
       We Could Forever: yes
       1009: yes
-      All in Forms: bd
-      The Keeper: bd
+      All in Forms: no
+      The Keeper: no
       Stay the Same: yes
       Animals: yes
       Black Sands: yes
    Days to Come:
-      $: *gr
+      $: *low
       Intro: len
       Days to Come: yes
       Between the Lines:
@@ -1002,8 +1002,8 @@ Bonobo:
       Walk in the Sky (instrumental): yes
       Hatoa: yes
    Dial ’M’ for Monkey:
-      $: *gr
-      Noctuary: bd
+      $: *low
+      Noctuary: no
       Flutter: yes
       D Song: yes
       Change Down: yes
@@ -1013,14 +1013,14 @@ Bonobo:
       Nothing Owed: yes
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
-      $: *gr
+      $: *low
       Dismantling Frank: yes
       The Sicilian:
       The Shark:
       Magicman: yes
       Scuba: yes
    The North Borders:
-      $: *gr
+      $: *low
       First Fires:
       Emkay:
       Cirrus:
@@ -1056,8 +1056,8 @@ Boz Scaggs:
    Fade Into Light (1996):
    Some Change (1994):
    Other Roads (1988):
-      $: *gr
-      What’s Number One?: bd
+      $: *low
+      What’s Number One?: no
       Claudia:
       Heart of Mine:
       Right Out of My Head:
@@ -1104,7 +1104,7 @@ Bryan Adams:
 Burial:
    Untrue:
       $: 96,060 https://youtu.be/E2qLD9c3Gq4
-      Archangel: bd
+      Archangel: no
       Near Dark:
       Ghost Hardware: yes
       Endorphin:
@@ -1118,7 +1118,7 @@ Burial:
       Raver:
 Bush:
    Sixteen Stone:
-      $: &gr 3,384,979 https://youtu.be/hOllF3TgAsM
+      $: &low 3,384,979 https://youtu.be/hOllF3TgAsM
       Everything Zen: yes
       Swim:
       Bomb:
@@ -1133,19 +1133,19 @@ Bush:
       X‐Girlfriend: len
       Comedown (acoustic):
    The Science of Things:
-      $: *gr
-      Warm Machine: bd
-      Jesus Online: bd
+      $: *low
+      Warm Machine: no
+      Jesus Online: no
       The Chemicals Between Us: yes
-      English Fire: bd
-      Spacetravel: bd
-      40 Miles From the Sun: bd
-      Prizefighter: bd
-      The Disease of the Dancing Cats: bd
-      Altered States: bd
-      Dead Meat: bd
-      Letting the Cables Sleep: bd
-      Mindchanger: bd
+      English Fire: no
+      Spacetravel: no
+      40 Miles From the Sun: no
+      Prizefighter: no
+      The Disease of the Dancing Cats: no
+      Altered States: no
+      Dead Meat: no
+      Letting the Cables Sleep: no
+      Mindchanger: no
 Cake:
    Fashion Nugget:
       $: 865,813 https://youtu.be/u7aDstrDMf0
@@ -1190,19 +1190,19 @@ Chet Faker:
       No Diggity:
 Chicane:
    Behind the Sun:
-      $: &gr 2,624,489 https://youtu.be/ET1-6Bef9xU
+      $: &low 2,624,489 https://youtu.be/ET1-6Bef9xU
       Overture: yes
       Low Sun: yes
-      No Ordinary Morning: bd
+      No Ordinary Morning: no
       Saltwater (original mix): yes
-      Halcyon: bd
-      Autumn Tactics: bd
-      Overlap: bd
-      Don’t Give Up: bd
+      Halcyon: no
+      Autumn Tactics: no
+      Overlap: no
+      Don’t Give Up: no
       Saltwater (The Thrillseekers remix): yes
-      Andromeda: bd
+      Andromeda: no
    Far From the Maddening Crowds:
-      $: *gr
+      $: *low
       Early:
       Already There: len
       Offshore (original mix):
@@ -1226,9 +1226,9 @@ Childish Gambino:
       Telegraph Ave:
    Camp (2011):
       $: 2,720,472 https://youtu.be/ayLiAVJ6vTM
-      Outside: bd
-      Fire Fly: bd
-      Bonfire: bd
+      Outside: no
+      Fire Fly: no
+      Bonfire: no
       All the Shine:
       Letter Home: len
       Heartbeat:
@@ -1259,7 +1259,7 @@ Chris Isaak:
 Cocteau Twins:
    Milk & Kisses (1996):
    Four-Calendar Café (1993):
-      $: &gr 202,206 https://youtu.be/6KnYw4EwYGc
+      $: &low 202,206 https://youtu.be/6KnYw4EwYGc
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:
@@ -1273,7 +1273,7 @@ Cocteau Twins:
    Heaven or Las Vegas (1990):
    Blue Bell Knoll (1988):
    Victorialand (1986):
-      $: *gr
+      $: *low
       Lazy Calm: yes
       Fluffy Tufts:
       Throughout the Dark Months of April and May: yes
@@ -1284,15 +1284,15 @@ Cocteau Twins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
    Tiny Dynamine (1985):
-      $: *gr
+      $: *low
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
    Treasure (1984):
-      $: *gr
+      $: *low
       Ivo: yes
-      Lorelei: bd
+      Lorelei: no
       Beatrix:
       Persephone: yes
       Pandora (For Cindy): yes
@@ -1302,16 +1302,16 @@ Cocteau Twins:
       Otterley: yes
       Donimo:
    Sunburst and Snowblind (1983):
-      $: *gr
-      Sugar Hiccup: ri
+      $: *low
+      Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
    Head Over Heels (1983):
-      $: *gr
+      $: *low
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
-      Sugar Hiccup: bd
+      Sugar Hiccup: no
       In Our Angelhood: yes
       Glass Candle Grenades: len
       In the Gold Dust Rush:
@@ -1320,27 +1320,27 @@ Cocteau Twins:
       My Love Paramour:
       Musette and Drums:
    Garlands (1982):
-      $: *gr
-      Blood Bitch: bd
-      Wax and Wane: bd
+      $: *low
+      Blood Bitch: no
+      Wax and Wane: no
       But I’m Not: len
-      Blind Dumb Deaf: bd
-      Shallow Then Halo: bd
-      The Hollow Men: bd
-      Garlands: bd
-      Grail Overfloweth: bd
+      Blind Dumb Deaf: no
+      Shallow Then Halo: no
+      The Hollow Men: no
+      Garlands: no
+      Grail Overfloweth: no
 Coldplay:
    A Rush of Blood to the Head:
       $: 80,172,619 https://youtu.be/RB-RcX5DS5A
       The Scientist:
 Com Truise:
    Galactic Melt:
-      $: &gr 881,676 https://youtu.be/yergWdn968o
+      $: &low 881,676 https://youtu.be/yergWdn968o
       Terminal: len
-      VHS Sex: bd
-      Cathode Girls: bd
-      Air Cal: bd
-      Flightwave: bd
+      VHS Sex: no
+      Cathode Girls: no
+      Air Cal: no
+      Flightwave: no
       Hyperlips: yes
       Brokendate:
       Glawio:
@@ -1348,7 +1348,7 @@ Com Truise:
       Futureworld:
       Karova:
    In Decay:
-      $: *gr
+      $: *low
       Open:
       84’ Dreamin:
       Dreambender:
