@@ -445,7 +445,9 @@ The Handsome Family:
       If the World Should End in Ice: len
 The Kinks:
    Word of Mouth:
-      <flow: 4,504,328 youtu.be/LemG0cvc4oU
+      <year: 1984
+      <flow: 4,504,328
+      <link: youtu.be/LemG0cvc4oU
       Do It Again:
       Word of Mouth:
       Good Day:
@@ -457,6 +459,14 @@ The Kinks:
       Missing Persons: len
       Summer’s Gone:
       Going Solo:
+   State of Confusion:
+      <year: 1983
+   Give the People What They Want:
+      <year: 1981
+   Low Budget:
+      <year: 1979
+   Misfits:
+      <year: 1978
 The Mars Volta:
    Noctourniquet (2012):
       <flow: &low 641,567 youtu.be/VUBQLnEGHNk

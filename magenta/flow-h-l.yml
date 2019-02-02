@@ -285,10 +285,11 @@ Imogen Heap:
       Useless:
       Sleep:
 Incubus:
-   8 (2017):
-   If Not Now, When? (2011):
-   Light Grenades (2006):
-      <flow: &low 4,831,802 youtu.be/8295rOMvtQI
+   Light Grenades:
+      <year: 2006
+      <<: &low
+         <flow: 4,831,802
+         <link: youtu.be/8295rOMvtQI
       Quicksand: len
       A Kiss to Send Us Off:
       Dig: yes
@@ -304,8 +305,10 @@ Incubus:
       Earth to Bella, Part II: len
       Punch-Drunk:
       Look Alive:
-   A Crow Left of the Murder… (2004):
-   Morning View (2001):
+   A Crow Left of the Murder:
+      <year: 2004
+   Morning View:
+      <year: 2001
       <flow: *low
       Nice to Know You: yes
       Circles: yes
@@ -320,11 +323,11 @@ Incubus:
       Are You In?: yes
       Under My Umbrella:
       Aqueous Transmission: yes
-   Make Yourself (1999):
-      <flow: 9,726,771 youtu.be/fgT9zGkiLig
+   Make Yourself:
+      <year: 1999
+      <flow: 9,726,771
+      <link: youtu.be/fgT9zGkiLig
       Drive:
-   S.C.I.E.N.C.E. (1997):
-   Fungus Amongus (1995):
 Interpol:
    Antics:
       <flow: &low 3,226,641 youtu.be/-u6DvRyyKGU
