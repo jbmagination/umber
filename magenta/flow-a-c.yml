@@ -22,7 +22,8 @@
       <link: https://youtu.be/nkJA6SYwa94
       Hail Mary:
 9 Lazy 9:
-   Bedsofaland (2009):
+   Bedsofaland:
+      <year: 2009
       <<: &low
          <flow: 10,137
          <link: https://youtu.be/A6S_vJ7G0R0
@@ -39,7 +40,8 @@
       Blasè:
       Free D: len
       Slow Plus:
-   Sweet Jones (2003):
+   Sweet Jones:
+      <year: 2003
       <<: *low
       The Woodworm: yes
       Code 3: no
@@ -53,8 +55,10 @@
       Carborante: yes
       The Flying Nun:
       The Last of the West:
-   The Herb (1995):
-   Electric Lazyland (1994):
+   The Herb:
+      <year: 1995
+   Electric Lazyland:
+      <year: 1994
       <<: *low
       Life Goes On & On: no
       Electric Lazyland: no
@@ -73,7 +77,8 @@
       Meet the Voda: len
       Roughport Invention:
       Golden Oldie: len
-   Paradise Blown (1994):
+   Paradise Blown:
+      <year: 1994
       <<: *low
       500 am: yes
       Shak: no
@@ -154,8 +159,10 @@ Aerosmith:
       <link: https://youtu.be/O0oQCmnvvl0
       Dream On:
 Air:
-   Music for Museum (2014):
-   Love 2 (2009):
+   Music for Museum:
+      <year: 2014
+   Love 2:
+      <year: 2009
       <<: &low
          <flow: 1,402,647
          <link: https://youtu.be/XUjAtYQkFm8
@@ -171,7 +178,8 @@ Air:
       Eat My Beat: len
       You Can Tell It to Everybody:
       African Velvet: yes
-   Pocket Symphony (2006):
+   Pocket Symphony:
+      <year: 2006
       <<: *low
       Space Maker:
       Once Upon a Time:
@@ -186,7 +194,8 @@ Air:
       Redhead Girl:
       Night Sight:
       Time Capsule:
-   Talkie Walkie (2004):
+   Talkie Walkie:
+      <year: 2004
       <<: *low
       Venus:
       Cherry Blossom Girl:
@@ -199,7 +208,8 @@ Air:
       Biological:
       Alone in Kyoto: yes
       Easy Going Woman:
-   10 000 Hz Legend (2001):
+   10 000 Hz Legend:
+      <year: 2001
       <<: *low
       Electronic Performers: no
       How Does It Make You Feel?: no
@@ -212,7 +222,8 @@ Air:
       Wonder Milky Bitch:
       Don’t Be Light:
       Caramel Prisoner:
-   Moon Safari (1998):
+   Moon Safari:
+      <year: 1998
       <<: *low
       La Femme d’argent: yes
       Sexy Boy:
@@ -224,7 +235,8 @@ Air:
       Ce matin-là:
       New Star in the Sky (Chanson pour Solal):
       Le Voyage de Pénélope: yes
-   Premiers Symptômes (1997):
+   Premiers Symptômes:
+      <year: 1997
       <<: *low
       Modular Mix: yes
       Casanova 70: yes
@@ -239,11 +251,16 @@ Alannah Myles:
       <link: https://youtu.be/tT4d1LQy4es
       Black Velvet:
 Aleksi Perälä:
-   Mental Union 2 (2014):
-   The Colundi Sequence Level 4 (2014):
-   The Colundi Sequence Level 2 (2014):
-   The Colundi Sequence Level 1 (2014):
-   Ovuca Bonus (2014):
+   Mental Union 2:
+      <year: 2014
+   The Colundi Sequence Level 4:
+      <year: 2014
+   The Colundi Sequence Level 2:
+      <year: 2014
+   The Colundi Sequence Level 1:
+      <year: 2014
+   Ovuca Bonus:
+      <year: 2014
       <flow: 8,996
       <link: https://youtu.be/hs342lcjGAk
       Transport Phenomenon:
@@ -257,19 +274,27 @@ Aleksi Perälä:
       Biogenesis: len
       Dynamic Light Scattering:
       Brownian Motion:
-   Mental Union 4 (2014):
-   The Colundi Sequence Level 5 (2014):
-   The Colundi Sequence Level 3 (2013):
+   Mental Union 4:
+      <year: 2014
+   The Colundi Sequence Level 5:
+      <year: 2014
+   The Colundi Sequence Level 3:
+      <year: 2013
 Alice in Chains:
-   Rainier Fog (2018):
+   Rainier Fog:
+      <year: 2018
       <<: &low
          <flow: 5,293,687
          <link: https://youtu.be/352RBWh6ViU
       The One You Know:
-   The Devil Put Dinosaurs Here (2013):
-   Black Gives Way to Blue (2009):
-   Alice in Chains (1995):
-   Jar of Flies (1994):
+   The Devil Put Dinosaurs Here:
+      <year: 2013
+   Black Gives Way to Blue:
+      <year: 2009
+   Alice in Chains:
+      <year: 1995
+   Jar of Flies:
+      <year: 1994
       <<: *low
       Rotten Apple: yes
       Nutshell: yes
@@ -278,14 +303,16 @@ Alice in Chains:
       Whale & Wasp: len
       Don’t Follow:
       Swing on This:
-   Dirt (1992):
+   Dirt:
+      <year: 1992
       <flow: 7,027,889
       <link: https://youtu.be/Nco_kh8xJDs
       Down in a Hole:
       Rooster:
       Them Bones:
       Would?:
-   Facelift (1990):
+   Facelift:
+      <year: 1990
       <flow: 8,302,402
       <link: https://youtu.be/TAqZb52sgpU
       Man in the Box:
@@ -568,9 +595,12 @@ Bananarama:
    Deep Sea Skiving:
       <year: 1983
 Bat for Lashes:
-   The Bride (2016):
-   The Haunted Man (2012):
-   Two Suns (2009):
+   The Bride:
+      <year: 2016
+   The Haunted Man:
+      <year: 2012
+   Two Suns:
+      <year: 2009
       <<: &low
          <flow: 927,413
          <link: https://youtu.be/UznHTBZIa8E
@@ -593,7 +623,8 @@ Bat for Lashes:
       Good Love (live):
       Daniel (live):
       Lonely (live): yes
-   Fur and Gold (2006):
+   Fur and Gold:
+      <year: 2006
       <<: *low
       Horse and I:
       Trophy: no
@@ -684,10 +715,14 @@ Beck:
       Inferno:
       Gold Chains:
 Beirut:
-   Gallipoli (2019):
-   No No No (2015):
-   The Rip Tide (2011):
-   The Flying Club Cup (2007):
+   Gallipoli:
+      <year: 2019
+   No No No:
+      <year: 2015
+   The Rip Tide:
+      <year: 2011
+   The Flying Club Cup:
+      <year: 2007
       <flow: 2,371,023
       <link: https://youtu.be/SWSz_PAfgNc
       A Call to Arms: len
@@ -703,7 +738,8 @@ Beirut:
       Cherbourg: yes
       St. Apollonia: len
       The Flying Club Cup:
-   Gulag Orkestar (2005):
+   Gulag Orkestar:
+      <year: 2005
 Bell Biv DeVoe:
    Poison:
       <flow: 1,351,460
@@ -873,7 +909,8 @@ Blink 182:
       Stay Together for the Kids:
       The Rock Show:
 Blood Orange:
-   Negro Swan (2018):
+   Negro Swan:
+      <year: 2018
       <<: &low
          <flow: 2,214,523
          <link: https://youtu.be/mVH_wxk9ZtE
@@ -893,7 +930,8 @@ Blood Orange:
       Out of Your League: len
       Minetta Creek: len
       Smoke: no
-   Freetown Sound (2016):
+   Freetown Sound:
+      <year: 2016
       <<: *low
       By Ourselves: len
       Augustine: no
@@ -912,7 +950,8 @@ Blood Orange:
       Thank You: yes
       I Know:
       Better Numb:
-   Cupid Deluxe (2013):
+   Cupid Deluxe:
+      <year: 2013
       <<: *low
       Chamakay: yes
       You’re Not Good Enough: yes
@@ -925,7 +964,8 @@ Blood Orange:
       On the Line: yes
       High Street: len
       Time Will Tell:
-   Coastal Grooves (2011):
+   Coastal Grooves:
+      <year: 2011
       <<: *low
       Forget It: no
       Sutphin Boulevard: yes
@@ -1138,7 +1178,8 @@ Boyz II Men:
       <link: https://youtu.be/zDKO6XYXioc
       End Of The Road:
 Boz Scaggs:
-   Dig (2001):
+   Dig:
+      <year: 2001
       <flow: 1,517,370
       <link: https://youtu.be/I-hKBmTAADo
       Payday:
@@ -1152,10 +1193,14 @@ Boz Scaggs:
       You’re Not:
       Vanishing Point:
       Thanks to You: yes
-   Come On Home (1997):
-   Fade Into Light (1996):
-   Some Change (1994):
-   Other Roads (1988):
+   Come On Home:
+      <year: 1997
+   Fade Into Light:
+      <year: 1996
+   Some Change:
+      <year: 1994
+   Other Roads:
+      <year: 1988
       <<: *low
       What’s Number One?: no
       Claudia:
@@ -1395,18 +1440,21 @@ Chicane:
       Offshore ’97: yes
       The Drive Home:
 Childish Gambino:
-   Awaken, My Love! (2016):
+   Awaken, My Love!:
+      <year: 2016
       <flow: 130,783,298
       <link: https://youtu.be/Kp7eSUU9oy8
       Me and Your Mama:
       Redbone:
-   Because the Internet (2013):
+   Because the Internet:
+      <year: 2013
       <flow: 25,128,289
       <link: https://youtu.be/ExVtrghW5Y4
       3005:
       Sweatpants:
       Telegraph Ave:
-   Camp (2011):
+   Camp:
+      <year: 2011
       <flow: 2,720,472
       <link: https://youtu.be/ayLiAVJ6vTM
       Outside: no
@@ -1442,8 +1490,10 @@ Chris Isaak:
       <link: https://youtu.be/fQyG6Ctsks4
       Wicked Game:
 Cocteau Twins:
-   Milk & Kisses (1996):
-   Four-Calendar Café (1993):
+   Milk & Kisses:
+      <year: 1996
+   Four-Calendar Café:
+      <year: 1993
       <<: &low
          <flow: 202,206
          <link: https://youtu.be/6KnYw4EwYGc
@@ -1457,9 +1507,12 @@ Cocteau Twins:
       Essence:
       Summerhead: yes
       Pur:
-   Heaven or Las Vegas (1990):
-   Blue Bell Knoll (1988):
-   Victorialand (1986):
+   Heaven or Las Vegas:
+      <year: 1990
+   Blue Bell Knoll:
+      <year: 1988
+   Victorialand:
+      <year: 1986
       <<: *low
       Lazy Calm: yes
       Fluffy Tufts:
@@ -1470,13 +1523,15 @@ Cocteau Twins:
       Feet-Like Fins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
-   Tiny Dynamine (1985):
+   Tiny Dynamine:
+      <year: 1985
       <<: *low
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
-   Treasure (1984):
+   Treasure:
+      <year: 1984
       <<: *low
       Ivo: yes
       Lorelei: no
@@ -1488,13 +1543,15 @@ Cocteau Twins:
       Cicely:
       Otterley: yes
       Donimo:
-   Sunburst and Snowblind (1983):
+   Sunburst and Snowblind:
+      <year: 1983
       <<: *low
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
-   Head Over Heels (1983):
+   Head Over Heels:
+      <year: 1983
       <<: *low
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
@@ -1506,7 +1563,8 @@ Cocteau Twins:
       Multifoiled: len
       My Love Paramour:
       Musette and Drums:
-   Garlands (1982):
+   Garlands:
+      <year: 1982
       <<: *low
       Blood Bitch: no
       Wax and Wane: no
