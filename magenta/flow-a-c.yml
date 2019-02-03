@@ -609,13 +609,16 @@ Bat for Lashes:
       I’m on Fire:
 Beach House:
    Bloom:
-      <flow: 9,745,854 https://youtu.be/3lIyDxfUhxM
+      <flow: 9,745,854
+      <link: https://youtu.be/3lIyDxfUhxM
       Myth:
    Depression Cherry:
-      <flow: 6,452,708 https://youtu.be/f9X1C7pTu-M
+      <flow: 6,452,708
+      <link: https://youtu.be/f9X1C7pTu-M
       Space Song:
    Teen Dream:
-      <flow: 20,509 https://youtu.be/XSuViWLfmjM
+      <flow: 20,509
+      <link: https://youtu.be/XSuViWLfmjM
       Zebra: yes
       Silver Soul:
       Norway: yes
@@ -628,7 +631,8 @@ Beach House:
       Take Care: yes
 Beck:
    Colors:
-      <flow: 4,179,410 https://youtu.be/WRCA_Fo0rWA
+      <flow: 4,179,410
+      <link: https://youtu.be/WRCA_Fo0rWA
       Colors: no
       Seventh Heaven: no
       I’m So Free: no
@@ -640,7 +644,8 @@ Beck:
       Square One: len
       Fix Me: no
    Mellow Gold:
-      <flow: 10,576,977 https://youtu.be/YgSPaXgAdzE
+      <flow: 10,576,977
+      <link: https://youtu.be/YgSPaXgAdzE
       Loser:
    Morning Phase:
       <<: &low
@@ -683,7 +688,8 @@ Beirut:
    No No No (2015):
    The Rip Tide (2011):
    The Flying Club Cup (2007):
-      <flow: 2,371,023 https://youtu.be/SWSz_PAfgNc
+      <flow: 2,371,023
+      <link: https://youtu.be/SWSz_PAfgNc
       A Call to Arms: len
       Nantes:
       A Sunday Smile:
@@ -700,7 +706,8 @@ Beirut:
    Gulag Orkestar (2005):
 Bell Biv DeVoe:
    Poison:
-      <flow: 1,351,460 https://youtu.be/sb2np1HGqxg
+      <flow: 1,351,460
+      <link: https://youtu.be/sb2np1HGqxg
       Dope!:
       B.B.D. (I Thought It Was Me)?:
       Let Me Know Something?!:
@@ -712,7 +719,8 @@ Bell Biv DeVoe:
       I Do Need You.:
 Ben Howard:
    Every Kingdom:
-      <flow: 5,103,551 https://youtu.be/CVUOTzoVeZA
+      <flow: 5,103,551
+      <link: https://youtu.be/CVUOTzoVeZA
       Old Pine:
       Diamonds:
       The Wolves:
@@ -755,7 +763,8 @@ Bibio:
       You Won’t Remember...:
 Bicep:
    Bicep:
-      <flow: 5,275,555 https://youtu.be/A7ZxRs45tTg
+      <flow: 5,275,555
+      <link: https://youtu.be/A7ZxRs45tTg
       Orca:
       Glue: yes
       Kites:
@@ -769,17 +778,20 @@ Bicep:
       Vale:
       Aura:
    Dahlia:
-      <flow: 37,737 https://youtu.be/l74tKdEslZA
+      <flow: 37,737
+      <link: https://youtu.be/l74tKdEslZA
       Dahlia: yes
       Rays:
       Seagulls:
 Big Boi:
    Boomiverse:
-      <flow: 11,499,682 https://youtu.be/QxTgr11ncJo
+      <flow: 11,499,682
+      <link: https://youtu.be/QxTgr11ncJo
       All Night:
       Kill Jill:
    Sir Lucious Left Foot... The Son of Chico Dusty:
-      <flow: 1,237,121 https://youtu.be/rWsvkW6rKkQ
+      <flow: 1,237,121
+      <link: https://youtu.be/rWsvkW6rKkQ
       Feel Me (intro): len
       Daddy Fat Sax: len
       Turns Me On:
@@ -839,20 +851,24 @@ Björk:
       Headphones: no
 Blink 182:
    Blink-182:
-      <flow: 21,749,165 https://youtu.be/s1tAYmMjLdY
+      <flow: 21,749,165
+      <link: https://youtu.be/s1tAYmMjLdY
       Always:
       I Miss You:
    California:
-      <flow: 7,762,070 https://youtu.be/krpm0v_486k
+      <flow: 7,762,070
+      <link: https://youtu.be/krpm0v_486k
       Bored to Death:
       She’s Out Of Her Mind:
    Enema of the State:
-      <flow: 21,774,492 https://youtu.be/9Ht5RZpzPqw
+      <flow: 21,774,492
+      <link: https://youtu.be/9Ht5RZpzPqw
       Adam’s Song:
       All the Small Things:
       What’s My Age Again?:
    Take Off Your Pants and Jacket:
-      <flow: 13,177,324 https://youtu.be/vVy9Lgpg1m8
+      <flow: 13,177,324
+      <link: https://youtu.be/vVy9Lgpg1m8
       First Date:
       Stay Together for the Kids:
       The Rock Show:
@@ -1118,11 +1134,13 @@ Bonobo:
       Pieces:
 Boyz II Men:
    Cooleyhighharmony:
-      <flow: 13,061,094 https://youtu.be/zDKO6XYXioc
+      <flow: 13,061,094
+      <link: https://youtu.be/zDKO6XYXioc
       End Of The Road:
 Boz Scaggs:
    Dig (2001):
-      <flow: 1,517,370 https://youtu.be/I-hKBmTAADo
+      <flow: 1,517,370
+      <link: https://youtu.be/I-hKBmTAADo
       Payday:
       Sarah:
       Miss Riddle:
@@ -1152,11 +1170,13 @@ Boz Scaggs:
       The Night of Van Gogh:
 Britney Spears:
    Blackout:
-      <flow: 7,008,738 https://youtu.be/eQFIKP9rGhQ
+      <flow: 7,008,738
+      <link: https://youtu.be/eQFIKP9rGhQ
       Break The Ice:
 Bruce Hornsby:
    Harbor Lights:
-      <flow: 3,449,438 https://youtu.be/cOeKidp-iWo
+      <flow: 3,449,438
+      <link: https://youtu.be/cOeKidp-iWo
       Harbor Lights:
       Talk of the Town:
       Long Tall Cool One:
@@ -1169,7 +1189,8 @@ Bruce Hornsby:
       Pastures of Plenty:
 Bruce Hornsby & The Range:
    The Way It Is:
-      <flow: 3,449,438 https://youtu.be/cOeKidp-iWo
+      <flow: 3,449,438
+      <link: https://youtu.be/cOeKidp-iWo
       On the Western Skyline:
       Every Little Kiss:
       Mandolin Rain:
@@ -1181,11 +1202,13 @@ Bruce Hornsby & The Range:
       The Red Plains:
 Bryan Adams:
    18 til I Die:
-      <flow: 7,291,025 https://youtu.be/hq2KgzKETBw
+      <flow: 7,291,025
+      <link: https://youtu.be/hq2KgzKETBw
       Have You Ever Really Loved A Woman?:
 Burial:
    Untrue:
-      <flow: 96,060 https://youtu.be/E2qLD9c3Gq4
+      <flow: 96,060
+      <link: https://youtu.be/E2qLD9c3Gq4
       Archangel: no
       Near Dark:
       Ghost Hardware: yes
@@ -1232,7 +1255,8 @@ Bush:
       Mindchanger: no
 Cake:
    Fashion Nugget:
-      <flow: 865,813 https://youtu.be/u7aDstrDMf0
+      <flow: 865,813
+      <link: https://youtu.be/u7aDstrDMf0
       Frank Sinatra: yes
       The Distance:
       Friend Is a Four Letter Word:
@@ -1249,7 +1273,8 @@ Cake:
       Sad Songs and Waltzes:
 Can:
    Ege Bamyasi:
-      <flow: 183,424 https://youtu.be/9a1NhRbNJ_Y
+      <flow: 183,424
+      <link: https://youtu.be/9a1NhRbNJ_Y
       Pinch:
       Sing Swan Song:
       One More Night:
@@ -1259,17 +1284,20 @@ Can:
       Spoon:
 Cassie:
    Cassie:
-      <flow: 13,310,019 https://youtu.be/zVJ5gsLeCSM
+      <flow: 13,310,019
+      <link: https://youtu.be/zVJ5gsLeCSM
       Long Way 2 Go:
       Me & U:
 Chet Faker:
    Built on Glass:
-      <flow: 37,498,008 https://youtu.be/hi4pzKvuEQM
+      <flow: 37,498,008
+      <link: https://youtu.be/hi4pzKvuEQM
       1998:
       Gold:
       Talk Is Cheap:
    Thinking in Textures:
-      <flow: 11,379,891 https://youtu.be/uPy5igZJnVw
+      <flow: 11,379,891
+      <link: https://youtu.be/uPy5igZJnVw
       I’m Into You:
       No Diggity:
 Chicago:
@@ -1368,16 +1396,19 @@ Chicane:
       The Drive Home:
 Childish Gambino:
    Awaken, My Love! (2016):
-      <flow: 130,783,298 https://youtu.be/Kp7eSUU9oy8
+      <flow: 130,783,298
+      <link: https://youtu.be/Kp7eSUU9oy8
       Me and Your Mama:
       Redbone:
    Because the Internet (2013):
-      <flow: 25,128,289 https://youtu.be/ExVtrghW5Y4
+      <flow: 25,128,289
+      <link: https://youtu.be/ExVtrghW5Y4
       3005:
       Sweatpants:
       Telegraph Ave:
    Camp (2011):
-      <flow: 2,720,472 https://youtu.be/ayLiAVJ6vTM
+      <flow: 2,720,472
+      <link: https://youtu.be/ayLiAVJ6vTM
       Outside: no
       Fire Fly: no
       Bonfire: no
@@ -1393,7 +1424,8 @@ Childish Gambino:
       That Power:
 Chris Isaak:
    Chris Isaak:
-      <flow: 265,711 https://youtu.be/IHHC3XVudjY
+      <flow: 265,711
+      <link: https://youtu.be/IHHC3XVudjY
       You Owe Me Some Kind of Love: yes
       Heart Full of Soul:
       Blue Hotel:
@@ -1406,7 +1438,8 @@ Chris Isaak:
       Lovers Game: len
       Waiting for the Rain to Fall:
    Heart Shaped World:
-      <flow: 6,619,316 https://youtu.be/fQyG6Ctsks4
+      <flow: 6,619,316
+      <link: https://youtu.be/fQyG6Ctsks4
       Wicked Game:
 Cocteau Twins:
    Milk & Kisses (1996):
@@ -1485,7 +1518,8 @@ Cocteau Twins:
       Grail Overfloweth: no
 Coldplay:
    A Rush of Blood to the Head:
-      <flow: 80,172,619 https://youtu.be/RB-RcX5DS5A
+      <flow: 80,172,619
+      <link: https://youtu.be/RB-RcX5DS5A
       The Scientist:
 Com Truise:
    Iteration:
@@ -1537,7 +1571,8 @@ Com Truise:
       Karova:
 Conjure One:
    Conjure One:
-      <flow: 163,821 https://youtu.be/4w0hHxrj7do
+      <flow: 163,821
+      <link: https://youtu.be/4w0hHxrj7do
       Damascus: len
       Center of the Sun:
       Tears From the Moon:
@@ -1551,7 +1586,8 @@ Conjure One:
       Premonition (reprise):
 Curve:
    Cuckoo:
-      <flow: 35,814 https://youtu.be/moAIaLbcKb0
+      <flow: 35,814
+      <link: https://youtu.be/moAIaLbcKb0
       Missing Link:
       Crystal:
       Men Are From Mars, Women Are From Venus: yes
