@@ -155,7 +155,9 @@ Aerosmith:
 Air:
    Music for Museum (2014):
    Love 2 (2009):
-      <flow: &low 1,402,647 https://youtu.be/XUjAtYQkFm8
+      <<: &low
+         <flow: 1,402,647
+         <link: https://youtu.be/XUjAtYQkFm8
       Do the Joy:
       Love: len
       So Light Is Her Footfall:
@@ -257,7 +259,9 @@ Aleksi Perälä:
    The Colundi Sequence Level 3 (2013):
 Alice in Chains:
    Rainier Fog (2018):
-      <flow: &low 5,293,687 https://youtu.be/352RBWh6ViU
+      <<: &low
+         <flow: 5,293,687
+         <link: https://youtu.be/352RBWh6ViU
       The One You Know:
    The Devil Put Dinosaurs Here (2013):
    Black Gives Way to Blue (2009):
@@ -301,7 +305,9 @@ America:
       Pigeon Song: len
 Amon Tobin:
    Bricolage:
-      <flow: &low 184,337 https://youtu.be/1jaRA6nGyUg
+      <<: &low
+         <flow: 184,337
+         <link: https://youtu.be/1jaRA6nGyUg
       Stoney Street: yes
       Easy Muffin: yes
       Yasawas:
@@ -396,7 +402,9 @@ Audioslave:
       Be Yourself:
 Autechre:
    Amber:
-      <flow: &low 111,359 https://youtu.be/hWGUnrIiOoI
+      <<: &low
+         <flow: 111,359
+         <link: https://youtu.be/hWGUnrIiOoI
       Foil: no
       Montreal: no
       Silverside: no
@@ -534,7 +542,9 @@ Bat for Lashes:
    The Bride (2016):
    The Haunted Man (2012):
    Two Suns (2009):
-      <flow: &low 927,413 https://youtu.be/UznHTBZIa8E
+      <<: &low
+         <flow: 927,413
+         <link: https://youtu.be/UznHTBZIa8E
       Glass: yes
       Sleep Alone:
       Moon and Moon:
@@ -604,7 +614,9 @@ Beck:
       <flow: 10,576,977 https://youtu.be/YgSPaXgAdzE
       Loser:
    Morning Phase:
-      <flow: &low 931,366 https://youtu.be/VkCg-3nxT8E
+      <<: &low
+         <flow: 931,366
+         <link: https://youtu.be/VkCg-3nxT8E
       Cycle: len
       Morning:
       Heart Is a Drum:
@@ -684,7 +696,9 @@ Ben Howard:
       Promise: yes
 Bibio:
    Ambivalence Avenue:
-      <flow: &low 102,143 https://youtu.be/jgrgCaSo8e4
+      <<: &low
+         <flow: 102,143
+         <link: https://youtu.be/jgrgCaSo8e4
       Ambivalence Avenue:
       Jealous of Roses: len
       All the Flowers: len
@@ -754,7 +768,9 @@ Big Boi:
       Back Up Plan:
 Björk:
    Debut:
-      <flow: &low 1,040,474 https://youtu.be/htobTBlCvUU
+      <<: &low
+         <flow: 1,040,474
+         <link: https://youtu.be/htobTBlCvUU
       Human Behaviour: no
       Crying: no
       Venus as a Boy: yes
@@ -813,7 +829,9 @@ Blink 182:
       The Rock Show:
 Blood Orange:
    Negro Swan (2018):
-      <flow: &low 2,214,523 https://youtu.be/mVH_wxk9ZtE
+      <<: &low
+         <flow: 2,214,523
+         <link: https://youtu.be/mVH_wxk9ZtE
       Orlando:
       Saint:
       Take Your Time: len
@@ -876,7 +894,9 @@ Blood Orange:
       Champagne Coast:
 Boards of Canada:
    Boc Maxima:
-      <flow: &low 745,274 https://youtu.be/dQEmaj9C6ko
+      <<: &low
+         <flow: 745,274
+         <link: https://youtu.be/dQEmaj9C6ko
       Chinook: no
       Rodox Video: len
       Everything You Do Is a Balloon: yes
@@ -987,7 +1007,9 @@ Boards of Canada:
       Under the Coke Sign: len
 Bonobo:
    Animal Magic:
-      <flow: &low 1,668,464 https://youtu.be/N7m86aMNjlQ
+      <<: &low
+         <flow: 1,668,464
+         <link: https://youtu.be/N7m86aMNjlQ
       Intro: len
       Sleepy Seven: yes
       Dinosaurs: no
@@ -1149,7 +1171,9 @@ Burial:
       Raver:
 Bush:
    Sixteen Stone:
-      <flow: &low 3,384,979 https://youtu.be/hOllF3TgAsM
+      <<: &low
+         <flow: 3,384,979
+         <link: https://youtu.be/hOllF3TgAsM
       Everything Zen: yes
       Swim:
       Bomb:
@@ -1287,7 +1311,9 @@ Chicago:
       Where Do We Go From Here: len
 Chicane:
    Behind the Sun:
-      <flow: &low 2,624,489 https://youtu.be/ET1-6Bef9xU
+      <<: &low
+         <flow: 2,624,489
+         <link: https://youtu.be/ET1-6Bef9xU
       Overture: yes
       Low Sun: yes
       No Ordinary Morning: no
@@ -1356,7 +1382,9 @@ Chris Isaak:
 Cocteau Twins:
    Milk & Kisses (1996):
    Four-Calendar Café (1993):
-      <flow: &low 202,206 https://youtu.be/6KnYw4EwYGc
+      <<: &low
+         <flow: 202,206
+         <link: https://youtu.be/6KnYw4EwYGc
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:

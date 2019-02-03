@@ -17,7 +17,7 @@ dh.track.forEach(ae => {
 
 var oq = document.createElement('textarea');
 oq.cols = 42;
-oq.rows = 30;
+oq.rows = 28;
 oq.style.font = 'medium Consolas';
 oq.style.position = 'fixed';
 oq.style.right = oq.style.top = 0;
