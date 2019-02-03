@@ -173,7 +173,8 @@ Dirty Projectors:
       Remade Horizon:
       Fluorescent Half Dome:
 Disturbed:
-   Evolution (2018):
+   Evolution:
+      <year: 2018
       <flow: 19,973,794
       <link: https://youtu.be/t4382UVl0oc
       A Reason to Fight:
@@ -185,18 +186,24 @@ Disturbed:
       The Best Ones Lie:
       The Light:
       The Vengeful One:
-   Immortalized (2015):
+   Immortalized:
+      <year: 2015
       <flow: 154,099,448
       <link: https://youtu.be/u9Dg-g7t2l4
       The Sound of Silence:
-   Asylum (2010):
-   Indestructible (2008):
-   Ten Thousand Fists (2005):
+   Asylum:
+      <year: 2010
+   Indestructible:
+      <year: 2008
+   Ten Thousand Fists:
+      <year: 2005
       <flow: 6,540,689
       <link: https://youtu.be/3moLkjvhEu0
       Stricken:
-   Believe (2002):
-   The Sickness (2000):
+   Believe:
+      <year: 2002
+   The Sickness:
+      <year: 2000
       <flow: 9,240,995
       <link: https://youtu.be/09LTT0xwdfw
       Down With the Sickness:
@@ -503,7 +510,8 @@ Enya:
       <link: https://youtu.be/7wfYIMyS_dI
       Only Time:
 Everything but the Girl:
-   Temperamental (1999):
+   Temperamental:
+      <year: 1999
       <<: &low
          <flow: 2,678,591
          <link: https://youtu.be/Q4sPkS8b62Q
@@ -517,8 +525,10 @@ Everything but the Girl:
       Lullaby of Clubland:
       No Difference:
       The Future of the Future (Stay Gold):
-   Walking Wounded (1996):
-   Amplified Heart (1994):
+   Walking Wounded:
+      <year: 1996
+   Amplified Heart:
+      <year: 1994
       <<: *low
       Rollercoaster:
       Troubled Mind:
@@ -530,8 +540,10 @@ Everything but the Girl:
       We Walk the Same Line:
       25th December:
       Disenchanted: len
-   Acoustic (1992):
-   Worldwide (1991):
+   Acoustic:
+      <year: 1992
+   Worldwide:
+      <year: 1991
       <<: *low
       Old Friends:
       Understanding:
@@ -544,7 +556,8 @@ Everything but the Girl:
       Politics Aside:
       Boxing and Pop Music:
       Feel Alright: len
-   The Language of Life (1990):
+   The Language of Life:
+      <year: 1990
       <<: *low
       Driving: yes
       Get Back Together:
@@ -556,10 +569,14 @@ Everything but the Girl:
       Letting Love Go:
       My Baby Don’t Love Me:
       The Road:
-   Idlewild (1988):
-   Baby, the Stars Shine Bright (1986):
-   Love Not Money (1985):
-   Everything but the Girl (1984):
+   Idlewild:
+      <year: 1988
+   Baby, the Stars Shine Bright:
+      <year: 1986
+   Love Not Money:
+      <year: 1985
+   Everything but the Girl:
+      <year: 1984
 Fatboy Slim:
    Better Living Through Chemistry:
       <<: &low
@@ -1174,7 +1191,8 @@ Green Day:
       <link: https://youtu.be/IWwMqa-_210
       Oh Love:
 Grizzly Bear:
-   Painted Ruins (2017):
+   Painted Ruins:
+      <year: 2017
       <<: &low
          <flow: 1,375,012
          <link: https://youtu.be/tjecYugTbIQ
@@ -1189,7 +1207,8 @@ Grizzly Bear:
       Neighbors:
       Systole:
       Sky Took Hold:
-   Shields (2012):
+   Shields:
+      <year: 2012
       <<: *low
       Sleeping Ute: yes
       Speak in Rounds:
@@ -1209,7 +1228,8 @@ Grizzly Bear:
       Sleeping Ute (Nicolas Jaar remix):
       A Simple Answer (Liars remix):
       Gun-Shy (Lindstrøm remix):
-   Veckatimest (2009):
+   Veckatimest:
+      <year: 2009
       <<: *low
       Southern Point: yes
       Two Weeks: yes
@@ -1223,7 +1243,8 @@ Grizzly Bear:
       While You Wait for the Others: yes
       I Live With You: yes
       Foreground: yes
-   Yellow House (2006):
+   Yellow House:
+      <year: 2006
       <<: *low
       Easier: yes
       Lullabye: no
@@ -1235,7 +1256,8 @@ Grizzly Bear:
       On a Neck, on a Spit: yes
       Reprise: yes
       Colorado: yes
-   Horn of Plenty (2004):
+   Horn of Plenty:
+      <year: 2004
 Groove Armada:
    Lovebox:
       <<: &low
