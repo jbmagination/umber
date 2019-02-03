@@ -17,12 +17,14 @@ Daft Punk:
       Superheroes / Human After All / Rock’n Roll:
       Human After All/Together/One More Time/Music Sounds Better With You: yes
    Discovery:
-      <flow: 31,730,630 https://youtu.be/PsO6ZnUZI0g
+      <flow: 31,730,630
+      <link: https://youtu.be/PsO6ZnUZI0g
       Digital Love:
       Harder Better Faster Stronger:
       One More Time:
    Homework:
-      <flow: 11,461,864 https://youtu.be/yca6UsllwYs
+      <flow: 11,461,864
+      <link: https://youtu.be/yca6UsllwYs
       Around the World:
    Human After All:
       <<: *low
@@ -37,7 +39,8 @@ Daft Punk:
       Technologic:
       Emotion:
    Random Access Memories:
-      <flow: 71,108,096 https://youtu.be/5NV6Rdv1a3I
+      <flow: 71,108,096
+      <link: https://youtu.be/5NV6Rdv1a3I
       Get Lucky:
       Instant Crush:
       Lose Yourself to Dance:
@@ -67,7 +70,8 @@ Daft Punk:
       Finale:
 Daniel Lanois:
    Acadie:
-      <flow: 99,070 https://youtu.be/mt0LDopjNbg
+      <flow: 99,070
+      <link: https://youtu.be/mt0LDopjNbg
       Still Water:
       The Maker:
       O Marie:
@@ -129,13 +133,16 @@ Dave Matthews Band:
       34:
 Depeche Mode:
    Delta Machine:
-      <flow: 5,964,654 https://youtu.be/Fy7FzXLin7o
+      <flow: 5,964,654
+      <link: https://youtu.be/Fy7FzXLin7o
       Heaven:
    Music for the Masses:
-      <flow: 6,144,165 https://youtu.be/JIrm0dHbCDU
+      <flow: 6,144,165
+      <link: https://youtu.be/JIrm0dHbCDU
       Strangelove:
    Ultra:
-      <flow: 4,085,095 https://youtu.be/stpaq27-V70
+      <flow: 4,085,095
+      <link: https://youtu.be/stpaq27-V70
       Barrel of a Gun: no
       The Love Thieves: no
       Home: no
@@ -149,11 +156,13 @@ Depeche Mode:
       Insight: no
       Junior Painkiller: len
    Violator:
-      <flow: 8,734,250 https://youtu.be/u1xrNaTO1bI
+      <flow: 8,734,250
+      <link: https://youtu.be/u1xrNaTO1bI
       Personal Jesus:
 Dirty Projectors:
    Bitte Orca:
-      <flow: 336,674 https://youtu.be/YMPF6lpM0XM
+      <flow: 336,674
+      <link: https://youtu.be/YMPF6lpM0XM
       Cannibal Resource: yes
       Temecula Sunrise: yes
       The Bride: len
@@ -165,7 +174,8 @@ Dirty Projectors:
       Fluorescent Half Dome:
 Disturbed:
    Evolution (2018):
-      <flow: 19,973,794 https://youtu.be/t4382UVl0oc
+      <flow: 19,973,794
+      <link: https://youtu.be/t4382UVl0oc
       A Reason to Fight:
       Are You Ready:
       Hold on to Memories:
@@ -176,16 +186,19 @@ Disturbed:
       The Light:
       The Vengeful One:
    Immortalized (2015):
-      <flow: 154,099,448 https://youtu.be/u9Dg-g7t2l4
+      <flow: 154,099,448
+      <link: https://youtu.be/u9Dg-g7t2l4
       The Sound of Silence:
    Asylum (2010):
    Indestructible (2008):
    Ten Thousand Fists (2005):
-      <flow: 6,540,689 https://youtu.be/3moLkjvhEu0
+      <flow: 6,540,689
+      <link: https://youtu.be/3moLkjvhEu0
       Stricken:
    Believe (2002):
    The Sickness (2000):
-      <flow: 9,240,995 https://youtu.be/09LTT0xwdfw
+      <flow: 9,240,995
+      <link: https://youtu.be/09LTT0xwdfw
       Down With the Sickness:
       Stupify:
       The Game:
@@ -283,7 +296,8 @@ DJ Doboy:
       edvika - sometimes (fire and ice remix): yes
 Doe Paoro:
    After:
-      <flow: 44,669 https://youtu.be/HuRU2v6Moak
+      <flow: 44,669
+      <link: https://youtu.be/HuRU2v6Moak
       Traveling: yes
       Nostalgia: no
       Growth/Decay: yes
@@ -296,7 +310,8 @@ Doe Paoro:
       Wake Up in Nowhere:
 Don Henley:
    I Can’t Stand Still:
-      <flow: 231,472 https://youtu.be/YHimia_Fxzs
+      <flow: 231,472
+      <link: https://youtu.be/YHimia_Fxzs
       I Can’t Stand Still:
       You Better Hang Up:
       Long Way Home:
@@ -310,12 +325,14 @@ Don Henley:
       The Unclouded Day:
 Dr. Dre:
    2001:
-      <flow: 78,813,845 https://youtu.be/_CL6n0FJZpk
+      <flow: 78,813,845
+      <link: https://youtu.be/_CL6n0FJZpk
       Forgot About Dre:
       Still D.R.E:
       The Next Episode:
    The Chronic:
-      <flow: 4,208,038 https://youtu.be/0F0CAEoF4XM
+      <flow: 4,208,038
+      <link: https://youtu.be/0F0CAEoF4XM
       The Chronic (intro): len
       Fuck Wit Dre Day (And Everybody’s Celebratin’):
       Let Me Ride:
@@ -356,7 +373,8 @@ Duke Ellington:
       Solitude: yes
 Duran Duran:
    Notorious:
-      <flow: 4,150,973 https://youtu.be/6Uxc9eFcZyM
+      <flow: 4,150,973
+      <link: https://youtu.be/6Uxc9eFcZyM
       Notorious: no
       American Science: no
       Skin Trade: no
@@ -368,7 +386,8 @@ Duran Duran:
       Winter Marches On: no
       Proposition: no
    The Wedding Album:
-      <flow: 18,836,105 https://youtu.be/Epj84QVw2rc
+      <flow: 18,836,105
+      <link: https://youtu.be/Epj84QVw2rc
       Come Undone:
 Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
@@ -385,10 +404,12 @@ Ekkah:
       Only U 4 Me (demo): len
 Eli & Fur:
    Illusions:
-      <flow: 33,667,352 https://youtu.be/3GEqdbh8sFI
+      <flow: 33,667,352
+      <link: https://youtu.be/3GEqdbh8sFI
       You’re So High:
    Night Blooming Jasmine:
-      <flow: 43,015 https://youtu.be/lE0uR6hsZtk
+      <flow: 43,015
+      <link: https://youtu.be/lE0uR6hsZtk
       Night Blooming Jasmine: yes
       Something Was Real:
       Parfume:
@@ -478,7 +499,8 @@ Empress Of:
       Camisa Favorita: no
 Enya:
    A Day Without Rain:
-      <flow: 11,630,928 https://youtu.be/7wfYIMyS_dI
+      <flow: 11,630,928
+      <link: https://youtu.be/7wfYIMyS_dI
       Only Time:
 Everything but the Girl:
    Temperamental (1999):
@@ -581,7 +603,8 @@ Fatboy Slim:
       Acid 8000:
 Filter:
    Title of Record:
-      <flow: 1,006,260 https://youtu.be/o9mJ82x_l-E
+      <flow: 1,006,260
+      <link: https://youtu.be/o9mJ82x_l-E
       Sand: len
       Welcome to the Fold:
       Captain Bligh: no
@@ -627,10 +650,12 @@ Flamingosis:
       Football Head: yes
 Fleet Foxes:
    Fleet Foxes:
-      <flow: 17,467,044 https://youtu.be/o10drRI3VQ0
+      <flow: 17,467,044
+      <link: https://youtu.be/o10drRI3VQ0
       White Winter Hymnal:
    Sun Giant:
-      <flow: 1,466,746 https://youtu.be/DT-dxG4WWf4
+      <flow: 1,466,746
+      <link: https://youtu.be/DT-dxG4WWf4
       Sun Giant: len
       Drops in the River: yes
       English House: yes
@@ -638,7 +663,8 @@ Fleet Foxes:
       Innocent Son: no
 Fleetwood Mac:
    Fleetwood Mac:
-      <flow: 6,940,905 https://youtu.be/x--yddOolRQ
+      <flow: 6,940,905
+      <link: https://youtu.be/x--yddOolRQ
       Landslide:
       Rhiannon:
    Mirage:
@@ -658,7 +684,8 @@ Fleetwood Mac:
       Eyes of the World:
       Wish You Were Here:
    Rumours:
-      <flow: 12,175,355 https://youtu.be/6ul-cZyuYq4
+      <flow: 12,175,355
+      <link: https://youtu.be/6ul-cZyuYq4
       Dreams:
       Go Your Own Way:
       The Chain:
@@ -678,7 +705,9 @@ Fleetwood Mac:
       You and I, Part II: len
 Floating Points:
    Elaenia:
-      <flow: &low 610,878 https://youtu.be/1LtsjqgF6fw
+      <<: &low
+         <flow: 610,878
+         <link: https://youtu.be/1LtsjqgF6fw
       Nespole: yes
       Silhouettes (I, II & III):
       Elaenia:
@@ -707,40 +736,51 @@ Floating Points:
       Sais: no
 Foo Fighters:
    Concrete and Gold:
-      <flow: 34,356,075 https://youtu.be/TRqiFPpw2fY
+      <flow: 34,356,075
+      <link: https://youtu.be/TRqiFPpw2fY
       Run:
       The Sky Is a Neighborhood:
    Echoes, Silence, Patience & Grace:
-      <flow: 37,578,019 https://youtu.be/SBjQ9tuuTJQ
+      <flow: 37,578,019
+      <link: https://youtu.be/SBjQ9tuuTJQ
       The Pretender:
    In Your Honor:
-      <flow: 15,558,134 https://youtu.be/h_L4Rixya64
+      <flow: 15,558,134
+      <link: https://youtu.be/h_L4Rixya64
       Best of You:
    One by One:
-      <flow: 7,041,058 https://youtu.be/xQ04WbgI9rg
+      <flow: 7,041,058
+      <link: https://youtu.be/xQ04WbgI9rg
       All My Life:
    Sonic Highways:
-      <flow: 7,571,556 https://youtu.be/V_YlZ1JdcVk
+      <flow: 7,571,556
+      <link: https://youtu.be/V_YlZ1JdcVk
       Something From Nothing:
    The Colour and the Shape:
-      <flow: 15,017,002 https://youtu.be/eBG7P-K-r1Y
+      <flow: 15,017,002
+      <link: https://youtu.be/eBG7P-K-r1Y
       Everlong:
    There Is Nothing Left to Lose:
-      <flow: 11,593,671 https://youtu.be/1VQ_3sBZEm0
+      <flow: 11,593,671
+      <link: https://youtu.be/1VQ_3sBZEm0
       Learn to Fly:
    Wasting Light:
-      <flow: 12,060,557 https://youtu.be/4PkcfQtibmU
+      <flow: 12,060,557
+      <link: https://youtu.be/4PkcfQtibmU
       These Days:
       Walk:
 Foreigner:
    4:
-      <flow: 9,159,916 https://youtu.be/Wln6NX0V4AQ
+      <flow: 9,159,916
+      <link: https://youtu.be/Wln6NX0V4AQ
       Waiting for a Girl Like You:
    Agent Provocateur:
-      <flow: 12,578,918 https://youtu.be/raNGeq3_DtM
+      <flow: 12,578,918
+      <link: https://youtu.be/raNGeq3_DtM
       I Want To Know What Love Is:
    Foreigner:
-      <flow: 269,102 https://youtu.be/8Tl-kOcnn1U
+      <flow: 269,102
+      <link: https://youtu.be/8Tl-kOcnn1U
       Feels Like the First Time:
       Cold as Ice: yes
       Starrider:
@@ -770,7 +810,9 @@ Four Tet:
       She Just Likes to Fight: yes
    Moth / Wolf Cub:
       <year: 2009
-      <flow: &low 294,231 https://youtu.be/Tpe4id7cLnU
+      <<: &low
+         <flow: 294,231
+         <link: https://youtu.be/Tpe4id7cLnU
       Moth: yes
       Wolf Cub: yes
    Ringer:
@@ -811,7 +853,9 @@ Four Tet:
       Hilarious Movie of the 90’s: no
    Dialogue:
       <year: 1999
-      <flow: &low 294,231 https://youtu.be/Tpe4id7cLnU
+      <<: &low
+         <flow: 294,231
+         <link: https://youtu.be/Tpe4id7cLnU
       The Space of Two Weeks: yes
       Chiron: no
       Alambradas: len
@@ -829,7 +873,9 @@ Foy Vance:
       Make It Rain:
 Frankie Rose:
    Cage Tropical:
-      <flow: &low 31,597 https://youtu.be/VE56wTNj7J0
+      <<: &low
+         <flow: 31,597
+         <link: https://youtu.be/VE56wTNj7J0
       Love in Rockets:
       Dyson Sphere:
       Trouble:
@@ -854,17 +900,20 @@ Frankie Rose:
       The Fall: yes
 Franz Ferdinand:
    Franz Ferdinand:
-      <flow: 5,482,391 https://youtu.be/Ijk4j-r7qPA
+      <flow: 5,482,391
+      <link: https://youtu.be/Ijk4j-r7qPA
       Take Me Out:
 Fugees:
    The Score:
-      <flow: 14,232,736 https://youtu.be/aIXyKmElvv8
+      <flow: 14,232,736
+      <link: https://youtu.be/aIXyKmElvv8
       Fu-Gee-La:
       Killing Me Softly with His Song:
       Ready or Not:
 Funkadelic:
    Maggot Brain:
-      <flow: 708,285 https://youtu.be/dh3bleXWaCk
+      <flow: 708,285
+      <link: https://youtu.be/dh3bleXWaCk
       Maggot Brain: yes
       Can You Get to That: len
       Hit It and Quit It:
@@ -874,7 +923,9 @@ Funkadelic:
       Wars of Armageddon:
 Funki Porcini:
    Fast Asleep:
-      <flow: &low 27,251 https://youtu.be/-ebWfAw1eug
+      <<: &low
+         <flow: 27,251
+         <link: https://youtu.be/-ebWfAw1eug
       What Are You Looking At?:
       The Big Sea: yes
       We’re Out of Here:
@@ -905,7 +956,8 @@ Funki Porcini:
       Going Down: yes
 Genesis:
    Invisible Touch:
-      <flow: 446,525 https://youtu.be/QHmH1xQ2Pf4
+      <flow: 446,525
+      <link: https://youtu.be/QHmH1xQ2Pf4
       Invisible Touch:
       Tonight, Tonight, Tonight:
       Land of Confusion: yes
@@ -916,7 +968,9 @@ Genesis:
       The Brazilian:
 Gnarls Barkley:
    St. Elsewhere:
-      <flow: &low 3,539,846 https://youtu.be/Qe500eIK1oA
+      <<: &low
+         <flow: 3,539,846
+         <link: https://youtu.be/Qe500eIK1oA
       Go‐Go Gadget Gospel: len
       Crazy: yes
       St. Elsewhere: len
@@ -1027,7 +1081,8 @@ Goldfrapp:
       Utopia (Tom Middleton’s Cosmos vocal mix): yes
 Goo Goo Dolls:
    A Boy Named Goo:
-      <flow: 1,126,677 https://youtu.be/LyG3wkwKXro
+      <flow: 1,126,677
+      <link: https://youtu.be/LyG3wkwKXro
       Long Way Down: yes
       Burnin’ Up: len
       Naked:
@@ -1042,12 +1097,14 @@ Goo Goo Dolls:
       Disconnected:
       Slave Girl: len
    Dizzy Up the Girl:
-      <flow: 17,275,396 https://youtu.be/NdYWuo9OFAw
+      <flow: 17,275,396
+      <link: https://youtu.be/NdYWuo9OFAw
       Iris:
       Slide:
 Gorillaz:
    Demon Days:
-      <flow: 93,782,007 https://youtu.be/HyHNuVaZJ-k
+      <flow: 93,782,007
+      <link: https://youtu.be/HyHNuVaZJ-k
       Feel Good Inc:
 Gotan Project:
    Tango 3.0:
@@ -1096,24 +1153,31 @@ Gotan Project:
       Vuelvo al sur:
 Green Day:
    21st Century Breakdown:
-      <flow: 23,615,358 https://youtu.be/r00ikilDxW4
+      <flow: 23,615,358
+      <link: https://youtu.be/r00ikilDxW4
       21 Guns:
    American Idiot:
-      <flow: 44,361,647 https://youtu.be/Soa3gO7tL-c
+      <flow: 44,361,647
+      <link: https://youtu.be/Soa3gO7tL-c
       Boulevard Of Broken Dreams:
    Dookie:
-      <flow: 18,232,355 https://youtu.be/NUTGr5t3MoY
+      <flow: 18,232,355
+      <link: https://youtu.be/NUTGr5t3MoY
       Basket Case:
       When I Come Around:
    Nimrod:
-      <flow: 5,980,630 https://youtu.be/CnQ8N1KacJc
+      <flow: 5,980,630
+      <link: https://youtu.be/CnQ8N1KacJc
       Good Riddance (Time Of Your Life):
    Uno:
-      <flow: 5,587,086 https://youtu.be/IWwMqa-_210
+      <flow: 5,587,086
+      <link: https://youtu.be/IWwMqa-_210
       Oh Love:
 Grizzly Bear:
    Painted Ruins (2017):
-      <flow: &low 1,375,012 https://youtu.be/tjecYugTbIQ
+      <<: &low
+         <flow: 1,375,012
+         <link: https://youtu.be/tjecYugTbIQ
       Wasted Acres: len
       Mourning Sound:
       Four Cypresses:
@@ -1174,7 +1238,9 @@ Grizzly Bear:
    Horn of Plenty (2004):
 Groove Armada:
    Lovebox:
-      <flow: &low 2,485,950 https://youtu.be/_kE0pxRkMtQ
+      <<: &low
+         <flow: 2,485,950
+         <link: https://youtu.be/_kE0pxRkMtQ
       Purple Haze:
       Groove Is On:
       Remember:
@@ -1206,18 +1272,23 @@ Groove Armada:
       What’s Your Version? (reprise): len
 Guns N’ Roses:
    Appetite for Destruction:
-      <flow: 86,924,643 https://youtu.be/1w7OgIMMRc4
+      <flow: 86,924,643
+      <link: https://youtu.be/1w7OgIMMRc4
       Sweet Child O’ Mine:
    G N’ R Lies:
-      <flow: 38,754,294 https://youtu.be/ErvgV4P6Fzc
+      <flow: 38,754,294
+      <link: https://youtu.be/ErvgV4P6Fzc
       Patience:
    Use Your Illusion I:
-      <flow: 118,044,031 https://youtu.be/8SbUC-UaAxE
+      <flow: 118,044,031
+      <link: https://youtu.be/8SbUC-UaAxE
       November Rain:
    Use Your Illusion II:
-      <flow: 7,108,034 https://youtu.be/NDOPlpH6NZM
+      <flow: 7,108,034
+      <link: https://youtu.be/NDOPlpH6NZM
       Yesterdays:
 Gwen Stefani:
    Love. Angel. Music. Baby.:
-      <flow: 19,273,377 https://youtu.be/Kgjkth6BRRY
+      <flow: 19,273,377
+      <link: https://youtu.be/Kgjkth6BRRY
       Hollaback Girl:
