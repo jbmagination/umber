@@ -1,6 +1,8 @@
 Daft Punk:
    Alive 2007:
-      <flow: &low 4,295,035 https://youtu.be/D8K90hX4PrE
+      <<: &low
+         <flow: 4,295,035
+         <link: https://youtu.be/D8K90hX4PrE
       Robot Rock / Oh Yeah:
       Touch It / Technologic:
       Television Rules the Nation / Crescendolls:
@@ -80,7 +82,9 @@ Daniel Lanois:
       Amazing Grace:
 Dave Matthews Band:
    Crash:
-      <flow: &low 1,697,059 https://youtu.be/k7in-9E3ImQ
+      <<: &low
+         <flow: 1,697,059
+         <link: https://youtu.be/k7in-9E3ImQ
       So Much to Say: yes
       Two Step:
       Crash Into Me: yes
@@ -188,7 +192,9 @@ Disturbed:
       Voices:
 DJ Doboy:
    Vocal Edition 19:
-      <flow: &low 7,203 https://youtu.be/XqPN68BIxyI
+      <<: &low
+         <flow: 7,203
+         <link: https://youtu.be/XqPN68BIxyI
       dave masters - who are you:
       gabriel and dresden feat molly bancroft - tracking treasure down (g&d club mix):
       atb - you’re not alone (2nd clubb):
@@ -328,7 +334,9 @@ Dr. Dre:
       Bitches Ain’t Shit:
 Duke Ellington:
    First Time! The Count Meets the Duke:
-      <flow: &low 906,561 https://youtu.be/qDQpZT3GhDg
+      <<: &low
+         <flow: 906,561
+         <link: https://youtu.be/qDQpZT3GhDg
       Battle Royal:
       To You: yes
       Take the “A” Train:
@@ -364,7 +372,9 @@ Duran Duran:
       Come Undone:
 Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
-      <flow: &low 52,096 https://youtu.be/gvM1a72Dcqw
+      <<: &low
+         <flow: 52,096
+         <link: https://youtu.be/gvM1a72Dcqw
       Can’t Give It Up: len
       Figure It Out (Night Edit): yes
    Last Chance to Dance:
@@ -386,7 +396,9 @@ Eli & Fur:
       Parfume (extended mix):
 Emilíana Torrini:
    Fisherman’s Woman:
-      <flow: &low 2,120,419 https://youtu.be/iZ9vkd7Rp-g
+      <<: &low
+         <flow: 2,120,419
+         <link: https://youtu.be/iZ9vkd7Rp-g
       Nothing Brings Me Down: no
       Sunny Road: yes
       Snow: len
@@ -428,7 +440,9 @@ Emilíana Torrini:
       Bleeder:
 Empress Of:
    Me:
-      <flow: &low 200,617 https://youtu.be/iwo_HeW4G-Q
+      <<: &low
+         <flow: 200,617
+         <link: https://youtu.be/iwo_HeW4G-Q
       Everything Is You: no
       Water Water: no
       Standard: yes
@@ -451,7 +465,9 @@ Enya:
       Only Time:
 Everything but the Girl:
    Temperamental (1999):
-      <flow: &low 2,678,591 https://youtu.be/Q4sPkS8b62Q
+      <<: &low
+         <flow: 2,678,591
+         <link: https://youtu.be/Q4sPkS8b62Q
       Five Fathoms: yes
       Low Tide of the Night:
       Blame:
@@ -507,7 +523,9 @@ Everything but the Girl:
    Everything but the Girl (1984):
 Fatboy Slim:
    Better Living Through Chemistry:
-      <flow: &low 2,543,938 https://youtu.be/so9DBHCo64Q
+      <<: &low
+         <flow: 2,543,938
+         <link: https://youtu.be/so9DBHCo64Q
       Song for Lindy: yes
       Santa Cruz:
       Going Out of My Head:
@@ -560,7 +578,9 @@ Filter:
       Miss Blue:
 Flamingosis:
    Great Hair:
-      <flow: &low 2,137,585 https://youtu.be/1hJKhiew2O0
+      <<: &low
+         <flow: 2,137,585
+         <link: https://youtu.be/1hJKhiew2O0
       Hidden Attraction: len
       Frugal Livin’: len
       Riding the L:
@@ -605,7 +625,9 @@ Fleetwood Mac:
       Landslide:
       Rhiannon:
    Mirage:
-      <flow: &low 1,506,270 https://youtu.be/Xr9Oubxw1gA
+      <<: &low
+         <flow: 1,506,270
+         <link: https://youtu.be/Xr9Oubxw1gA
       Love in Store:
       Can’t Go Back: len
       That’s Alright:
@@ -899,8 +921,11 @@ Gnarls Barkley:
       Neighbors:
       A Little Better:
 Goldfrapp:
-   Silver Eye (2017):
-      <flow: &low 1,063,979 https://youtu.be/uco-2V4ytYQ
+   Silver Eye:
+      <year: 2017
+      <<: &low
+         <flow: 1,063,979
+         <link: https://youtu.be/uco-2V4ytYQ
       Anymore: no
       Systemagic: no
       Tigerman: yes
@@ -911,10 +936,25 @@ Goldfrapp:
       Everything Is Never Enough: no
       Moon in Your Mouth: no
       Ocean: yes
-   Tales of Us (2013):
-   Head First (2010):
-   Seventh Tree (2008):
-   Supernature (2005):
+   Tales of Us:
+      <year: 2013
+      <<: *low
+      Jo: yes
+      Annabel:
+      Drew:
+      Ulla:
+      Alvar:
+      Thea:
+      Simone:
+      Stranger:
+      Laurel:
+      Clay:
+   Head First:
+      <year: 2010
+   Seventh Tree:
+      <year: 2008
+   Supernature:
+      <year: 2005
       <<: *low
       Ooh La La: yes
       Lovely 2 C U: yes
@@ -927,7 +967,8 @@ Goldfrapp:
       Satin Chic: no
       Time Out From the World: yes
       Number 1: no
-   Black Cherry (2003):
+   Black Cherry:
+      <year: 2003
       <<: *low
       Crystalline Green: no
       Train: no
@@ -939,7 +980,8 @@ Goldfrapp:
       Strict Machine: no
       Forever: no
       Slippage: no
-   Felt Mountain (2000):
+   Felt Mountain:
+      <year: 2000
       <<: *low
       Lovely Head: yes
       Paper Bag: yes

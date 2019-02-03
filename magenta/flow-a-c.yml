@@ -125,7 +125,8 @@ Aerosmith:
       Livin’ on the Edge:
    Pump:
       <year: 1989
-      <flow: 23,700,907 https://youtu.be/qfNmyxV2Ncw
+      <flow: 23,700,907
+      <link: https://youtu.be/qfNmyxV2Ncw
       Cryin’:
       Janie’s Got a Gun:
    Permanent Vacation:
@@ -234,7 +235,8 @@ Air:
       Gordini Mix (Brakes On mix): yes
 Alannah Myles:
    Alannah Myles:
-      <flow: 9,350,914 https://youtu.be/tT4d1LQy4es
+      <flow: 9,350,914
+      <link: https://youtu.be/tT4d1LQy4es
       Black Velvet:
 Aleksi Perälä:
    Mental Union 2 (2014):
@@ -242,7 +244,8 @@ Aleksi Perälä:
    The Colundi Sequence Level 2 (2014):
    The Colundi Sequence Level 1 (2014):
    Ovuca Bonus (2014):
-      <flow: 8,996 https://youtu.be/hs342lcjGAk
+      <flow: 8,996
+      <link: https://youtu.be/hs342lcjGAk
       Transport Phenomenon:
       Mean Squared Displacement:
       Kinetic Theory:
@@ -276,21 +279,25 @@ Alice in Chains:
       Don’t Follow:
       Swing on This:
    Dirt (1992):
-      <flow: 7,027,889 https://youtu.be/Nco_kh8xJDs
+      <flow: 7,027,889
+      <link: https://youtu.be/Nco_kh8xJDs
       Down in a Hole:
       Rooster:
       Them Bones:
       Would?:
    Facelift (1990):
-      <flow: 8,302,402 https://youtu.be/TAqZb52sgpU
+      <flow: 8,302,402
+      <link: https://youtu.be/TAqZb52sgpU
       Man in the Box:
 Alicia Keys:
    Songs in A Minor:
-      <flow: 17,037,786 https://youtu.be/Urdlvw0SSEc
+      <flow: 17,037,786
+      <link: https://youtu.be/Urdlvw0SSEc
       Fallin’:
 America:
    America:
-      <flow: 4,145,926 https://youtu.be/zSAJ0l4OBHM
+      <flow: 4,145,926
+      <link: https://youtu.be/zSAJ0l4OBHM
       Riverside:
       Sandman:
       Three Roses:
@@ -379,7 +386,8 @@ Amon Tobin:
       Natureland: yes
 Amy Grant:
    Heart in Motion:
-      <flow: 857,822 https://youtu.be/vMXuuYnoRdI
+      <flow: 857,822
+      <link: https://youtu.be/vMXuuYnoRdI
       Good for Me:
       Baby Baby: yes
       Every Heartbeat:
@@ -393,12 +401,14 @@ Amy Grant:
       Hope Set High: len
 Audioslave:
    Audioslave:
-      <flow: 47,408,565 https://youtu.be/7QU1nvuxaMA
+      <flow: 47,408,565
+      <link: https://youtu.be/7QU1nvuxaMA
       Cochise:
       Like a Stone:
       Show Me How to Live:
    Out of Exile:
-      <flow: 13,241,812 https://youtu.be/WC5FdFlUcl0
+      <flow: 13,241,812
+      <link: https://youtu.be/WC5FdFlUcl0
       Be Yourself:
 Autechre:
    Amber:
@@ -525,7 +535,8 @@ Autechre:
       Rsdio:
 Bad Company:
    Bad Company:
-      <flow: 3,524,989 https://youtu.be/ww5GXbk58R0
+      <flow: 3,524,989
+      <link: https://youtu.be/ww5GXbk58R0
       Can’t Get Enough:
       Rock Steady:
       Ready for Love:
@@ -535,9 +546,27 @@ Bad Company:
       Movin’ On:
       Seagull:
 Bananarama:
+   Pop Life:
+      <year: 1991
+   Wow!:
+      <year: 1987
+   True Confessions:
+      <year: 1986
    Bananarama:
-      <flow: 5,505,081 https://youtu.be/l9ml3nyww80
-      Cruel Summer:
+      <year: 1984
+      <flow: 5,505,081
+      <link: https://youtu.be/l9ml3nyww80
+      Cruel Summer: yes
+      Rough Justice:
+      King of the Jungle:
+      Dream Baby:
+      Link: len
+      Hot Line to Heaven:
+      State I’m In: len
+      Robert De Niro’s Waiting:
+      Through a Child’s Eye:
+   Deep Sea Skiving:
+      <year: 1983
 Bat for Lashes:
    The Bride (2016):
    The Haunted Man (2012):
