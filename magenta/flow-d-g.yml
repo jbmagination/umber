@@ -1050,19 +1050,24 @@ Gorillaz:
       <flow: 93,782,007 https://youtu.be/HyHNuVaZJ-k
       Feel Good Inc:
 Gotan Project:
-   La revancha del tango:
-      <flow: &low 1,988,865 https://youtu.be/tqLh6rQqkoA
-      Queremos paz: yes
-      Época: no
-      Chunga’s Revenge:
-      Tríptico:
-      Santa María (del Buen Ayre):
-      Una música brutal:
-      El capitalismo foráneo: yes
-      Last Tango in Paris:
-      La del ruso:
-      Vuelvo al sur:
+   Tango 3.0:
+      <year: 2010
+      <<: &low
+         <flow: 1,988,865
+         <link: https://youtu.be/tqLh6rQqkoA
+      Tango Square: yes
+      Rayuela: no
+      Desilusión: no
+      Peligro: no
+      La gloria: no
+      Mil millones: yes
+      Tu misterio:
+      De hombre a hombre:
+      El mensajero: len
+      Panamericana:
+      Érase una vez:
    Lunático:
+      <year: 2006
       <<: *low
       Amor Porteño:
       Notas:
@@ -1076,19 +1081,19 @@ Gotan Project:
       Arrabal:
       Domingo:
       Paris, Texas: yes
-   Tango 3.0:
+   La revancha del tango:
+      <year: 2001
       <<: *low
-      Tango Square: yes
-      Rayuela: no
-      Desilusión: no
-      Peligro: no
-      La gloria: no
-      Mil millones: yes
-      Tu misterio:
-      De hombre a hombre:
-      El mensajero: len
-      Panamericana:
-      Érase una vez:
+      Queremos paz: yes
+      Época: no
+      Chunga’s Revenge: no
+      Tríptico: no
+      Santa María (del Buen Ayre):
+      Una música brutal:
+      El capitalismo foráneo: yes
+      Last Tango in Paris:
+      La del ruso:
+      Vuelvo al sur:
 Green Day:
    21st Century Breakdown:
       <flow: 23,615,358 https://youtu.be/r00ikilDxW4
