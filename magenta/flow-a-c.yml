@@ -978,27 +978,53 @@ Blood Orange:
       Are You Sure You’re Really Busy?:
       Champagne Coast:
 Boards of Canada:
-   Boc Maxima:
-      <<: &low
-         <flow: 745,274
-         <link: https://youtu.be/dQEmaj9C6ko
-      Chinook: no
-      Rodox Video: len
-      Everything You Do Is a Balloon: yes
-      Boc Maxima: len
-      Nova Scotia Robots: len
-      June 9th: no
-      Niagara: len
-      Skimming Stones: len
-      Sixtyniner: no
-      Red Moss: no
-      Concourse: len
-      Carcan: len
-      Nlogax: no
-      M9: no
-      Original Nlogax: len
-      Whitewater: no
+   Tomorrow’s Harvest:
+      <year: 2013
+      <<: *low
+      Gemini: len
+      Reach for the Dead: yes
+      White Cyclosa: yes
+      Jacquard Causeway:
+      Telepath: len
+      Cold Earth:
+      Transmisiones Ferox: len
+      Sick Times:
+      Collapse: len
+      Palace Posy:
+      Split Your Infinities:
+      Uritual: len
+      Nothing Is Real:
+      Sundown: len
+      New Seeds:
+      Come to Dust:
+      Semena Mertvykh:
+   Trans Canada Highway:
+      <year: 2006
+      <<: *low
+      Left Side Drive: yes
+      Heard From Telegraph Lines: len
+      Skyliner:
+      Under the Coke Sign: len
+   The Campfire Headphase:
+      <year: 2005
+      <<: *low
+      Into the Rainbow Vein: len
+      Chromakey Dreamcoat: yes
+      Satellite Anthem Icarus: yes
+      Peacock Tail: no
+      Dayvan Cowboy: no
+      A Moment of Clarity: len
+      ’84 Pontiac Dream: yes
+      Sherbet Head: len
+      Oscar See Through Red Eye: yes
+      Ataronchronon: len
+      Hey Saturday Sun: yes
+      Constants Are Changing: len
+      Slow This Bird Down: yes
+      Tears From the Compound Eye: yes
+      Farewell Fire: no
    Geogaddi:
+      <year: 2002
       <<: *low
       Ready Lets Go: len
       Music Is Math: yes
@@ -1024,12 +1050,14 @@ Boards of Canada:
       Corsair: len
       Magic Window: len
    In a Beautiful Place Out in the Country:
+      <year: 2000
       <<: *low
       Kid for Today: yes
       Amo Bishop Roden: yes
       In a Beautiful Place Out in the Country: yes
       Zoetrope: no
    Music Has the Right to Children:
+      <year: 1998
       <<: *low
       Wildlife Analysis: len
       An Eagle in Your Mind: yes
@@ -1048,48 +1076,27 @@ Boards of Canada:
       Smokes Quantity: no
       Open the Light: yes
       One Very Important Thought: len
-   The Campfire Headphase:
-      <<: *low
-      Into the Rainbow Vein: len
-      Chromakey Dreamcoat: yes
-      Satellite Anthem Icarus: yes
-      Peacock Tail: no
-      Dayvan Cowboy: no
-      A Moment of Clarity: len
-      ’84 Pontiac Dream: yes
-      Sherbet Head: len
-      Oscar See Through Red Eye: yes
-      Ataronchronon: len
-      Hey Saturday Sun: yes
-      Constants Are Changing: len
-      Slow This Bird Down: yes
-      Tears From the Compound Eye: yes
-      Farewell Fire: no
-   Tomorrow’s Harvest:
-      <<: *low
-      Gemini: len
-      Reach for the Dead: yes
-      White Cyclosa: yes
-      Jacquard Causeway:
-      Telepath: len
-      Cold Earth:
-      Transmisiones Ferox: len
-      Sick Times:
-      Collapse: len
-      Palace Posy:
-      Split Your Infinities:
-      Uritual: len
-      Nothing Is Real:
-      Sundown: len
-      New Seeds:
-      Come to Dust:
-      Semena Mertvykh:
-   Trans Canada Highway:
-      <<: *low
-      Left Side Drive: yes
-      Heard From Telegraph Lines: len
-      Skyliner:
-      Under the Coke Sign: len
+   Boc Maxima:
+      <year: 1996
+      <<: &low
+         <flow: 745,274
+         <link: https://youtu.be/dQEmaj9C6ko
+      Chinook: no
+      Rodox Video: len
+      Everything You Do Is a Balloon: yes
+      Boc Maxima: len
+      Nova Scotia Robots: len
+      June 9th: no
+      Niagara: len
+      Skimming Stones: len
+      Sixtyniner: no
+      Red Moss: no
+      Concourse: len
+      Carcan: len
+      Nlogax: no
+      M9: no
+      Original Nlogax: len
+      Whitewater: no
 Bonobo:
    Animal Magic:
       <<: &low
