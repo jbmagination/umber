@@ -395,36 +395,22 @@ Eli & Fur:
       Honest:
       Parfume (extended mix):
 Emilíana Torrini:
-   Fisherman’s Woman:
+   Tookah:
+      <year: 2013
       <<: &low
          <flow: 2,120,419
          <link: https://youtu.be/iZ9vkd7Rp-g
-      Nothing Brings Me Down: no
-      Sunny Road: yes
-      Snow: len
-      Lifesaver: yes
-      Honeymoon Child: no
-      Today Has Been OK: no
-      Next Time Around: no
-      Heartstopper: no
-      At Least It Was: yes
-      Fisherman’s Woman: len
-      Thinking Out Loud:
-      Serenade:
-   Love in the Time of Science:
-      <<: *low
-      To Be Free:
-      Wednesday’s Child: yes
-      Baby Blue:
-      Dead Things:
-      Unemployed in Summertime:
-      Easy:
-      Fingertips:
-      Telepathy:
-      Tuna Fish:
-      Summerbreeze:
-      Sea People: len
+      Tookah: no
+      Caterpillar: no
+      Autumn Sun: no
+      Home: no
+      Elísabet: no
+      Animal Games: len
+      Speed of Dark:
+      Blood Red:
+      When Fever Breaks:
    Me and Armini:
+      <year: 2008
       <<: *low
       Fireheads:
       Me and Armini: yes
@@ -438,6 +424,37 @@ Emilíana Torrini:
       Beggar’s Prayer: len
       Dead Duck:
       Bleeder:
+   Fisherman’s Woman:
+      <year: 2005
+      <<: *low
+      Nothing Brings Me Down: no
+      Sunny Road: yes
+      Snow: len
+      Lifesaver: yes
+      Honeymoon Child: no
+      Today Has Been OK: no
+      Next Time Around: no
+      Heartstopper: no
+      At Least It Was: yes
+      Fisherman’s Woman: len
+      Thinking Out Loud:
+      Serenade:
+   Love in the Time of Science:
+      <year: 1999
+      <<: *low
+      To Be Free:
+      Wednesday’s Child: yes
+      Baby Blue:
+      Dead Things:
+      Unemployed in Summertime:
+      Easy:
+      Fingertips:
+      Telepathy:
+      Tuna Fish:
+      Summerbreeze:
+      Sea People: len
+   Merman:
+      <year: 1996
 Empress Of:
    Me:
       <<: &low
