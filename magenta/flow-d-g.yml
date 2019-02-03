@@ -578,22 +578,11 @@ Everything but the Girl:
    Everything but the Girl:
       <year: 1984
 Fatboy Slim:
-   Better Living Through Chemistry:
+   Halfway Between the Gutter and the Stars:
+      <year: 2000
       <<: &low
          <flow: 2,543,938
          <link: https://youtu.be/so9DBHCo64Q
-      Song for Lindy: yes
-      Santa Cruz:
-      Going Out of My Head:
-      The Weekend Starts Here:
-      Everybody Needs a 303:
-      Give the Po’ Man a Break:
-      10th and Crenshaw:
-      First Down:
-      Punk to Funk:
-      The Sound of Milwaukee:
-   Halfway Between the Gutter and the Stars:
-      <<: *low
       Talking Bout My Baby: yes
       Star 69: no
       Sunset (Bird of Prey): yes
@@ -606,6 +595,7 @@ Fatboy Slim:
       Demons: no
       Song for Shelter: yes
    You’ve Come a Long Way, Baby:
+      <year: 1998
       <<: *low
       Right Here, Right Now: yes
       The Rockafeller Skank: yes
@@ -618,6 +608,19 @@ Fatboy Slim:
       Praise You: yes
       Love Island: yes
       Acid 8000:
+   Better Living Through Chemistry:
+      <year: 1996
+      <<: *low
+      Song for Lindy: yes
+      Santa Cruz:
+      Going Out of My Head:
+      The Weekend Starts Here:
+      Everybody Needs a 303:
+      Give the Po’ Man a Break:
+      10th and Crenshaw:
+      First Down:
+      Punk to Funk:
+      The Sound of Milwaukee:
 Filter:
    Title of Record:
       <flow: 1,006,260
