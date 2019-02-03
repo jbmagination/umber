@@ -1,5 +1,6 @@
 Harold Budd:
-   Jane 12-21 (2014):
+   Jane 12-21:
+      <year: 2014
       <<: &low
          <flow: 88,887
          <link: https://youtu.be/hQKGP3J6Q9s
@@ -13,7 +14,8 @@ Harold Budd:
       Jane 19: no
       Jane 20: no
       Jane 21: len
-   Jane 1-11 (2013):
+   Jane 1-11:
+      <year: 2013
       <<: *low
       Jane 1: no
       Jane 2: yes
@@ -26,11 +28,16 @@ Harold Budd:
       Jane 9: len
       Jane 10:
       Jane 11:
-   Bandits of Stature (2012):
-   Nighthawks, Translucence and Drift Music (2011):
-   Winter Garden (2011):
-   In the Mist (2011):
-   Bordeaux (2011):
+   Bandits of Stature:
+      <year: 2012
+   Nighthawks, Translucence and Drift Music:
+      <year: 2011
+   Winter Garden:
+      <year: 2011
+   In the Mist:
+      <year: 2011
+   Bordeaux:
+      <year: 2011
       <<: *low
       Gaze:
       Deva C:
@@ -41,10 +48,14 @@ Harold Budd:
       L’Aventure: yes
       Smiling Apart:
       Southern Shore:
-   Little Windows (2010):
-   Candylion (2009):
-   A Song for Lost Blossoms (2008):
-   Before the Day Breaks (2007):
+   Little Windows:
+      <year: 2010
+   Candylion:
+      <year: 2009
+   A Song for Lost Blossoms:
+      <year: 2008
+   Before the Day Breaks:
+      <year: 2007
       <<: *low
       How Close Your Soul: yes
       A Formless Path: yes
@@ -55,7 +66,8 @@ Harold Budd:
       I Returned Her Glance:
       My Monochrome Vision:
       Turn On the Moon:
-   After the Night Falls (2007):
+   After the Night Falls:
+      <year: 2007
       <<: *low
       How Distant Your Heart: no
       Avenue of Shapes: yes
@@ -66,7 +78,8 @@ Harold Budd:
       And Then I Turned Away: no
       The Girl With Colorful Thoughts: no
       Turn Off the Sun: no
-   Perhaps (2007):
+   Perhaps:
+      <year: 2007
       <<: *low
       Templar: no
       Tong War: no
@@ -81,16 +94,26 @@ Harold Budd:
       Monument: no
       Reini: no
       Ghost Cloud: len
-   Music for 'Fragments From the Inside' (2005):
-   Avalon Sutra (2005):
-   La Bella Vista (2003):
-   Translucence + Drift Music (2003):
-   The Room (2000):
-   Walk Into My Voice (American Beat Poetry) (1998):
-   Luxa (1996):
-   Glyph (1995):
-   She Is a Phantom (1994):
-   Through the Hill (1994):
+   Music for 'Fragments From the Inside':
+      <year: 2005
+   Avalon Sutra:
+      <year: 2005
+   La Bella Vista:
+      <year: 2003
+   Translucence + Drift Music:
+      <year: 2003
+   The Room:
+      <year: 2000
+   Walk Into My Voice (American Beat Poetry):
+      <year: 1998
+   Luxa:
+      <year: 1996
+   Glyph:
+      <year: 1995
+   She Is a Phantom:
+      <year: 1994
+   Through the Hill:
+      <year: 1994
       <<: *low
       Hand 19: len
       Through the Hill: yes
@@ -110,10 +133,14 @@ Harold Budd:
       Hand 22: len
       Bosch: len
       Bruegel: len
-   Music for 3 Pianos (1992):
-   By the Dawn’s Early Light (1991):
-   The Serpent (In Quicksilver) / Abandoned Cities (1989):
-   The White Arcades (1988):
+   Music for 3 Pianos:
+      <year: 1992
+   By the Dawn’s Early Light:
+      <year: 1991
+   The Serpent (In Quicksilver) / Abandoned Cities:
+      <year: 1989
+   The White Arcades:
+      <year: 1988
       <<: *low
       The White Arcades: no
       Balthus Bemused by Color: no
@@ -124,10 +151,14 @@ Harold Budd:
       The Room: no
       Coyote: len
       The Kiss: no
-   The Moon and the Melodies (1986):
-   Lovely Thunder (1986):
-   Abandoned Cities (1984):
-   The Pearl (1984):
+   The Moon and the Melodies:
+      <year: 1986
+   Lovely Thunder:
+      <year: 1986
+   Abandoned Cities:
+      <year: 1984
+   The Pearl:
+      <year: 1984
    The Pearl:
       <<: *low
       Late October:
@@ -141,9 +172,12 @@ Harold Budd:
       Foreshadowed:
       An Echo of Night: len
       Still Return:
-   Ambient 2 The Plateaux of Mirror (1980):
-   The Pavilion of Dreams (1978):
-   The Oak of the Golden Dreams (1971):
+   Ambient 2 The Plateaux of Mirror:
+      <year: 1980
+   The Pavilion of Dreams:
+      <year: 1978
+   The Oak of the Golden Dreams:
+      <year: 1971
 Heart:
    Bad Animals:
       <flow: 16,073,551
@@ -249,8 +283,10 @@ Hudson Mohawke:
       System: no
       Brand New World: no
 Imogen Heap:
-   Sparks (2014):
-   Ellipse (2009):
+   Sparks:
+      <year: 2014
+   Ellipse:
+      <year: 2009
       <<: &low
          <flow: 484,658
          <link: https://youtu.be/13WAhlE02ew
@@ -267,7 +303,8 @@ Imogen Heap:
       The Fire: len
       Canvas: yes
       Half Life:
-   Speak for Yourself (2005):
+   Speak for Yourself:
+      <year: 2005
       <flow: 26,954,103
       <link: https://youtu.be/pBI3lc18k8Q
       Hide and Seek:
@@ -284,7 +321,8 @@ Imogen Heap:
       Maddening Shroud:
       Flicks:
       The Dumbing Down of Love:
-   i Megaphone (1998):
+   i Megaphone:
+      <year: 1998
       <<: *low
       Getting Scared: no
       Sweet Religion: no
@@ -536,9 +574,12 @@ Jackson C. Frank:
       October:
       In the Pines (version 2):
 James Blake:
-   Assume Form (2019):
-   The Colour in Anything (2016):
-   Overgrown (2013):
+   Assume Form:
+      <year: 2019
+   The Colour in Anything:
+      <year: 2016
+   Overgrown:
+      <year: 2013
       <flow: 2,932,325
       <link: https://youtu.be/oOT2-OTebx0
       Overgrown: yes
@@ -551,7 +592,8 @@ James Blake:
       Voyeur:
       To the Last:
       Our Love Comes Back:
-   James Blake (2011):
+   James Blake:
+      <year: 2011
       <<: *low
       Unluck:
       The Wilhelm Scream: yes
@@ -580,19 +622,25 @@ Jamie xx:
       The Rest Is Noise:
       Girl: yes
 Janet Jackson:
-   Unbreakable (2015):
+   Unbreakable:
+      <year: 2015
       <flow: 6,202,758
       <link: https://youtu.be/2_t0ffY3JvE
       BURNITUP:
       No Sleeep:
-   Discipline (2008):
-   20 Y.O. (2006):
-   Damita Jo (2004):
-   All for You (2001):
+   Discipline:
+      <year: 2008
+   20 Y.O.:
+      <year: 2006
+   Damita Jo:
+      <year: 2004
+   All for You:
+      <year: 2001
       <flow: 18,435,567
       <link: https://youtu.be/VbaKMVk4kcw
       Would You Mind:
-   The Velvet Rope (1997):
+   The Velvet Rope:
+      <year: 1997
       <<: &low
          <flow: 673,978
          <link: https://youtu.be/r9uizdKZAGE
@@ -618,7 +666,8 @@ Janet Jackson:
       Anything:
       Interlude Sad: len
       Special:
-   janet. (1993):
+   janet.:
+      <year: 1993
       <<: *low
       Morning: len
       That’s the Way Love Goes: yes
@@ -647,10 +696,14 @@ Janet Jackson:
       Any Time, Any Place:
       Are You Still Up: len
       Sweet Dreams / Whoops Now:
-   Rhythm Nation 1814 (1989):
-   Control (1986):
-   Dream Street (1984):
-   Janet Jackson (1982):
+   Rhythm Nation 1814:
+      <year: 1989
+   Control:
+      <year: 1986
+   Dream Street:
+      <year: 1984
+   Janet Jackson:
+      <year: 1982
 JAWS:
    Simplicity:
       <flow: 70,385
@@ -667,26 +720,36 @@ JAWS:
       A Brief Escape From Life:
       The Invisible Sleep:
 Jay-Z:
-   444 (2017):
+   444:
+      <year: 2017
       <flow: 53,436,231
       <link: https://youtu.be/RM7lw0Ovzq0
       444:
       Bam:
       Family Feud:
       The Story of O.J.:
-   Run the Map (2016):
-   Magna Carta… Holy Grail (2013):
-   Watch the Throne (2011):
+   Run the Map:
+      <year: 2016
+   Magna Carta… Holy Grail:
+      <year: 2013
+   Watch the Throne:
+      <year: 2011
       <flow: 33,875,349
       <link: https://youtu.be/gG_dA32oH44
       Niggas in Paris:
       Otis:
-   The Blueprint 3 (2009):
-   American Gangster (2007):
-   Kingdom Come (2006):
-   Unfinished Business (2004):
-   The Black Album (2003):
-   The Blueprint² The Gift & The Curse (2002):
+   The Blueprint 3:
+      <year: 2009
+   American Gangster:
+      <year: 2007
+   Kingdom Come:
+      <year: 2006
+   Unfinished Business:
+      <year: 2004
+   The Black Album:
+      <year: 2003
+   The Blueprint² The Gift & The Curse:
+      <year: 2002
       <flow: 4,099,242
       <link: https://youtu.be/tnDh0JhmaFw
       A Dream:
@@ -729,26 +792,31 @@ Jekka:
       Hero:
       On and On:
 Jennifer Lopez:
-   A.K.A. (2014):
+   A.K.A.:
+      <year: 2014
       <flow: 71,756,764
       <link: https://youtu.be/nxtIRArhVD4
       Booty:
-   LOVE? (2011):
+   LOVE?:
+      <year: 2011
       <flow: 166,748,514
       <link: https://youtu.be/t4H_Zoh7G5A
       On the Floor:
       Papi:
-   Rebirth (2005):
+   Rebirth:
+      <year: 2005
       <flow: 11,423,788
       <link: https://youtu.be/1WIsnC-h1d0
       Get Right:
-   J.Lo (2001):
+   J.Lo:
+      <year: 2001
       <flow: 11,755,864
       <link: https://youtu.be/4kGvlESGvbs
       I’m Gonna Be Alright:
       I’m Real:
       Love Don’t Cost a Thing:
-   On the 6 (1999):
+   On the 6:
+      <year: 1999
       <flow: 10,097,211
       <link: https://youtu.be/lYfkl-HXfuU
       If You Had My Love:
@@ -783,7 +851,8 @@ Jeremy Soule:
       Dusk at the Market: yes
       Peace of Akatosh: yes
 Jessie Ware:
-   Glasshouse (2017):
+   Glasshouse:
+      <year: 2017
       <flow: 5,755,837
       <link: https://youtu.be/3zrZE68Qrrg
       Midnight: no
@@ -798,12 +867,14 @@ Jessie Ware:
       Finish What We Started: no
       Last of the True Believers: no
       Sam: no
-   Tough Love (2014):
+   Tough Love:
+      <year: 2014
       <flow: 24,027,680
       <link: https://youtu.be/DAMM8JVbr8g
       Kind of…Sometimes…Maybe:
       Say You Love Me:
-   Devotion (2012):
+   Devotion:
+      <year: 2012
       <flow: 7,405,825
       <link: https://youtu.be/bMJkddvJ4L4
       Wildest Moments:
@@ -1244,11 +1315,16 @@ Laraaji:
       Meditation 1: no
       Meditation 2: yes
 Laurel Halo:
-   Dust (2017):
-   Chance of Rain (2013):
-   Quarantine (2012):
-   FRKWYS, Volume 7 (2011):
-   Hour Logic (2011):
+   Dust:
+      <year: 2017
+   Chance of Rain:
+      <year: 2013
+   Quarantine:
+      <year: 2012
+   FRKWYS, Volume 7:
+      <year: 2011
+   Hour Logic:
+      <year: 2011
       <flow: 86,554
       <link: https://youtu.be/IrjeMN_U1hw
       Aquifer:
@@ -1258,8 +1334,10 @@ Laurel Halo:
       Hour Logic:
       Strength in Free Space:
 Led Zeppelin:
-   Coda (1982):
-   In Through the Out Door (1979):
+   Coda:
+      <year: 1982
+   In Through the Out Door:
+      <year: 1979
       <<: &low
          <flow: 5,999,659
          <link: https://youtu.be/sfR_HWMzgyc
@@ -1270,12 +1348,15 @@ Led Zeppelin:
       Carouselambra:
       All My Love:
       I’m Gonna Crawl:
-   Presence (1976):
-   Physical Graffiti (1975):
+   Presence:
+      <year: 1976
+   Physical Graffiti:
+      <year: 1975
       <flow: 7,367,630
       <link: https://youtu.be/PD-MdiUm1_Y
       Kashmir:
-   Houses of the Holy (1973):
+   Houses of the Holy:
+      <year: 1973
       <<: *low
       The Song Remains the Same:
       The Rain Song:
@@ -1292,16 +1373,19 @@ Led Zeppelin:
       Black Dog:
       Rock and Roll:
       Stairway to Heaven:
-   Led Zeppelin III (1970):
+   Led Zeppelin III:
+      <year: 1970
       <flow: 6,847,898
       <link: https://youtu.be/RlNhD0oS5pk
       Celebration Day:
       Immigrant Song:
-   Led Zeppelin II (1969):
+   Led Zeppelin II:
+      <year: 1969
       <flow: 6,754,335
       <link: https://youtu.be/HQmmM_qwG4k
       Whole Lotta Love:
-   Led Zeppelin (1969):
+   Led Zeppelin:
+      <year: 1969
 Lenny Kravitz:
    5:
       <flow: 5,685,189
@@ -1411,7 +1495,8 @@ Linkin Park:
       Final Masquerade:
       Until It’s Gone:
 Lisa Loeb:
-   Hello Lisa (2002):
+   Hello Lisa:
+      <year: 2002
       <<: &low
          <flow: 554,934
          <link: https://youtu.be/ka9mCmx9Jhs
@@ -1427,7 +1512,8 @@ Lisa Loeb:
       Payback:
       Take Me Back:
       What Am I Supposed to Say (acoustic):
-   Firecracker (1997):
+   Firecracker:
+      <year: 1997
       <<: *low
       I Do: yes
       Falling in Love:
@@ -1441,7 +1527,8 @@ Lisa Loeb:
       This:
       Split Second: len
       Firecracker:
-   Tails (1995):
+   Tails:
+      <year: 1995
       <<: *low
       It’s Over:
       Snow Day: yes
