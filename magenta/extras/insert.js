@@ -1,11 +1,9 @@
 'use strict';
-var $ = ae => document.querySelector(ae);
-
 /* needs to work in playlist view */
 var vd = new URL(location).searchParams.get('v');
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
-var dc = $('#eow-description').innerText;
+var dc = document.getElementById('eow-description').innerText;
 
 /* dont combine this with other variable declarations as it will be temping to
 alphabetize them. just because it has year doesnt mean its a "topic" video */

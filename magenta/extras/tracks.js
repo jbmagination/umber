@@ -1,7 +1,9 @@
 'use strict';
-var $ = ae => document.querySelector(ae);
 var cf = ae => ae.replace(/[#:]/g, '').replace(/'/g, '’');
-var dh = JSON.parse($('[type="application/ld+json"]').innerText);
+
+var dh = JSON.parse(
+   document.querySelector('[type="application/ld+json"]').innerText
+);
 
 var np = [
    cf(dh.name) + ':',

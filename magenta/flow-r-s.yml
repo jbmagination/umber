@@ -199,7 +199,8 @@ Red Hot Chili Peppers:
       <link: https://youtu.be/Q0oIoR9mLwc
       Dark Necessities:
 R.E.M.:
-   Monster (1994):
+   Monster:
+      <year: 1994
       <<: &low
          <flow: 4,984,746
          <link: https://youtu.be/5rOiW_xY-kc
@@ -215,16 +216,19 @@ R.E.M.:
       Let Me In:
       Circus Envy:
       You:
-   Automatic for the People (1992):
+   Automatic for the People:
+      <year: 1992
       <flow: 8,698,473
       <link: https://youtu.be/dLxpNiF0YKs
       Man on the Moon:
-   Out of Time (1991):
+   Out of Time:
+      <year: 1991
       <flow: 69,706,118
       <link: https://youtu.be/xwtdhWltSIg
       Losing My Religion:
       Shiny Happy People:
-   Green (1988):
+   Green:
+      <year: 1988
       <<: *low
       Pop Song 89:
       Get Up: len
@@ -236,11 +240,16 @@ R.E.M.:
       Turn You Inside‐Out:
       Hairshirt:
       I Remember California:
-   Document (1987):
-   Lifes Rich Pageant (1986):
-   Fables of the Reconstruction (1985):
-   Reckoning (1984):
-   Murmur (1983):
+   Document:
+      <year: 1987
+   Lifes Rich Pageant:
+      <year: 1986
+   Fables of the Reconstruction:
+      <year: 1985
+   Reckoning:
+      <year: 1984
+   Murmur:
+      <year: 1983
 Richard D. James:
    26 Mixes for Cash:
       <<: &low
@@ -448,7 +457,8 @@ Röyksopp:
       Here She Comes Again:
       Monument:
 Sade:
-   Soldier of Love (2010):
+   Soldier of Love:
+      <year: 2010
       <<: &low
          <flow: 5,275,250
          <link: https://youtu.be/kcPc18SG6uA
@@ -462,18 +472,21 @@ Sade:
       In Another Time:
       Skin:
       The Safest Place: len
-   Lovers Rock (1999):
+   Lovers Rock:
+      <year: 1999
       <flow: 7,016,331
       <link: https://youtu.be/C8QJmI_V3j4
       By Your Side:
-   Love Deluxe (1992):
+   Love Deluxe:
+      <year: 1992
       <flow: 8,472,474
       <link: https://youtu.be/_WcWHZc8s2I
       Cherish the Day:
       Kiss of Life:
       No Ordinary Love:
       Pearls:
-   Stronger Than Pride (1988):
+   Stronger Than Pride:
+      <year: 1988
       <<: *low
       Love Is Stronger Than Pride:
       Paradise: yes
@@ -485,7 +498,8 @@ Sade:
       Give It Up:
       I Never Thought I’d See the Day:
       Siempre Hay Esperanza:
-   Promise (1985):
+   Promise:
+      <year: 1985
       <<: *low
       Is It a Crime: yes
       The Sweetest Taboo: yes
@@ -498,7 +512,8 @@ Sade:
       Fear:
       Tar Baby:
       Maureen:
-   Diamond Life (1984):
+   Diamond Life:
+      <year: 1984
       <<: *low
       Smooth Operator:
       Your Love Is King: yes
@@ -934,7 +949,8 @@ Stereo MCs:
       Creation:
       The End:
 Steve Roach:
-   Desert Solitaire (1989):
+   Desert Solitaire:
+      <year: 1989
       <flow: 23,686
       <link: https://youtu.be/QYJsKMvlujo
       Flatlands: no
@@ -948,10 +964,14 @@ Steve Roach:
       Empty Time:
       From the Heart of Darkness:
       Desert Solitaire:
-   Dreamtime Return (1988):
-   The Leaving Time (1988):
-   Quiet Music 3 (1986):
-   Quiet Music 2 (1986):
+   Dreamtime Return:
+      <year: 1988
+   The Leaving Time:
+      <year: 1988
+   Quiet Music 3:
+      <year: 1986
+   Quiet Music 2:
+      <year: 1986
       <<: *low
       See Things:
       Towards the Blue:
