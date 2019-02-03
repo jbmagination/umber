@@ -752,18 +752,51 @@ Foreigner:
       Fool for You Anyway:
       I Need You:
 Four Tet:
-   Dialogue:
+   Nova:
+      <year: 2012
+      <<: *low
+      Nova: yes
+   There Is Love in You:
+      <year: 2010
+      <<: *low
+      Angel Echoes:
+      Love Cry:
+      Circling:
+      Pablo’s Heart: len
+      Sing:
+      This Unfolds:
+      Reversing: len
+      Plastic People:
+      She Just Likes to Fight: yes
+   Moth / Wolf Cub:
+      <year: 2009
       <flow: &low 294,231 https://youtu.be/Tpe4id7cLnU
-      The Space of Two Weeks: yes
-      Chiron: no
-      Alambradas: len
-      3.3 Degrees From the Pole: no
-      Misnomer:
-      Liquefaction: no
-      She Scanned:
-      Calamine: yes
-      The Butterfly Effect:
+      Moth: yes
+      Wolf Cub: yes
+   Ringer:
+      <year: 2008
+      <<: *low
+      Ringer: no
+      Ribbons: yes
+      Swimmer: yes
+      Wing Body Wing: no
+   Everything Ecstatic:
+      <year: 2005
+   Rounds:
+      <year: 2003
+      <<: *low
+      Hands: yes
+      She Moves She: yes
+      First Thing: len
+      My Angel Rocks Back and Forth: no
+      Spirit Fingers: no
+      Unspoken: yes
+      Chia: len
+      As Serious as Your Life: no
+      And They All Look Broken Hearted: yes
+      Slow Jam: no
    Pause:
+      <year: 2001
       <<: *low
       Glue of the World: yes
       Twenty Three: no
@@ -776,46 +809,22 @@ Four Tet:
       Tangle: no
       You Could Ruin My Day: yes
       Hilarious Movie of the 90’s: no
-   Ringer:
-      <<: *low
-      Ringer: no
-      Ribbons: yes
-      Swimmer: yes
-      Wing Body Wing: no
-   Rounds:
-      <<: *low
-      Hands: yes
-      She Moves She: yes
-      First Thing: len
-      My Angel Rocks Back and Forth: no
-      Spirit Fingers: no
-      Unspoken: yes
-      Chia: len
-      As Serious as Your Life: no
-      And They All Look Broken Hearted: yes
-      Slow Jam: no
-   There Is Love in You:
-      <<: *low
-      Angel Echoes:
-      Love Cry:
-      Circling:
-      Pablo’s Heart: len
-      Sing:
-      This Unfolds:
-      Reversing: len
-      Plastic People:
-      She Just Likes to Fight: yes
-Four Tet + Burial:
-   Moth / Wolf Cub:
+   Dialogue:
+      <year: 1999
       <flow: &low 294,231 https://youtu.be/Tpe4id7cLnU
-      Moth: yes
-      Wolf Cub: yes
-   Nova:
-      <<: *low
-      Nova: yes
+      The Space of Two Weeks: yes
+      Chiron: no
+      Alambradas: len
+      3.3 Degrees From the Pole: no
+      Misnomer:
+      Liquefaction: no
+      She Scanned:
+      Calamine: yes
+      The Butterfly Effect:
 Foy Vance:
    Live at Bangor Abbey:
-      <flow: 8,441,739 https://youtu.be/hD5hIqeKNVE
+      <flow: 8,153,028
+      <link: https://youtu.be/hD5hIqeKNVE
       Be the Song:
       Make It Rain:
 Frankie Rose:
