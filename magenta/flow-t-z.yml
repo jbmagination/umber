@@ -8,11 +8,16 @@ Talking Heads:
       <link: https://youtu.be/O52jAYa4Pm8
       Psycho Killer:
 Tangerine Dream:
-   Underwater Sunlight (1986):
-   Green Desert (1986):
-   Le Parc (1985):
-   Hyperborea (1983):
-   Risky Business (1983):
+   Underwater Sunlight:
+      <year: 1986
+   Green Desert:
+      <year: 1986
+   Le Parc:
+      <year: 1985
+   Hyperborea:
+      <year: 1983
+   Risky Business:
+      <year: 1983
       <<: &low
          <flow: 197,024
          <link: https://youtu.be/2w8VsvJ40sM
@@ -21,21 +26,31 @@ Tangerine Dream:
       Guido the Killer Pimp: no
       Lana: no
       Love on a Real Train (Risky Business): yes
-   White Eagle (1982):
-   Exit (1981):
-   Tangram (1980):
-   Force Majeure (1979):
+   White Eagle:
+      <year: 1982
+   Exit:
+      <year: 1981
+   Tangram:
+      <year: 1980
+   Force Majeure:
+      <year: 1979
       <<: *low
       Force Majeure: no
       Cloudburst Flight: yes
       Thru Metamorphic Rocks: no
-   Cyclone (1978):
-   Stratosfear (1976):
-   Rubycon (1975):
-   Phaedra (1974):
+   Cyclone:
+      <year: 1978
+   Stratosfear:
+      <year: 1976
+   Rubycon:
+      <year: 1975
+   Phaedra:
+      <year: 1974
 Tears for Fears:
-   Everybody Loves a Happy Ending (2004):
-   Raoul and the Kings of Spain (1995):
+   Everybody Loves a Happy Ending:
+      <year: 2004
+   Raoul and the Kings of Spain:
+      <year: 1995
       <flow: 1,392,594
       <link: https://youtu.be/aI9lo5BRJmg
       Raoul and the Kings of Spain: no
@@ -50,13 +65,17 @@ Tears for Fears:
       Don’t Drink the Water: no
       Me and My Big Ideas: no
       Los reyes Católicos (reprise): no
-   Elemental (1993):
-   The Seeds of Love (1989):
-   Songs From the Big Chair (1985):
+   Elemental:
+      <year: 1993
+   The Seeds of Love:
+      <year: 1989
+   Songs From the Big Chair:
+      <year: 1985
       <flow: 9,048,812
       <link: https://youtu.be/ST86JM1RPl0
       Everybody Wants to Rule the World:
-   The Hurting (1983):
+   The Hurting:
+      <year: 1983
 The Black Dog:
    Further Vexations:
       <<: &low
@@ -498,7 +517,8 @@ The Kinks:
    Misfits:
       <year: 1978
 The Mars Volta:
-   Noctourniquet (2012):
+   Noctourniquet:
+      <year: 2012
       <<: &low
          <flow: 641,567
          <link: https://youtu.be/VUBQLnEGHNk
@@ -515,7 +535,8 @@ The Mars Volta:
       Vedamalady:
       Noctourniquet:
       Zed and Two Naughts:
-   Octahedron (2009):
+   Octahedron:
+      <year: 2009
       <<: *low
       Since We’ve Been Wrong: yes
       Teflon: yes
@@ -525,7 +546,8 @@ The Mars Volta:
       Desperate Graves:
       Copernicus: yes
       Luciforms:
-   The Bedlam in Goliath (2007):
+   The Bedlam in Goliath:
+      <year: 2007
       <<: *low
       Aberinkula:
       Metatron: yes
@@ -539,7 +561,8 @@ The Mars Volta:
       Ouroborous:
       Soothsayer: yes
       Conjugal Burns:
-   Amputechture (2006):
+   Amputechture:
+      <year: 2006
       <<: *low
       Vicarious Atonement: yes
       Tetragrammaton: yes
@@ -549,14 +572,16 @@ The Mars Volta:
       Viscera Eyes:
       Day of the Baphomets:
       El Ciervo Vulnerado:
-   Frances the Mute (2005):
+   Frances the Mute:
+      <year: 2005
       <<: *low
       Cygnus....Vismund Cygnus: yes
       The Widow: yes
       L’Via L’Viaquez:
       Miranda That Ghost Just Isn’t Holy Anymore:
       Cassandra Gemini: yes
-   De‐Loused in the Comatorium (2003):
+   De‐Loused in the Comatorium:
+      <year: 2003
       <<: *low
       Son et lumiere: len
       Inertiatic ESP: yes
@@ -568,7 +593,8 @@ The Mars Volta:
       This Apparatus Must Be Unearthed:
       Televators:
       Take the Veil Cerpin Taxt:
-   Tremulant EP (2002):
+   Tremulant EP:
+      <year: 2002
       <<: *low
       Cut That City: no
       Concertina: no
@@ -809,7 +835,8 @@ The Stranglers:
       How to Find True Love and Happiness in the Present Day:
       La Folie:
 The Sundays:
-   Static & Silence (1997):
+   Static & Silence:
+      <year: 1997
       <<: &low
          <flow: 572,322
          <link: https://youtu.be/BiyCkSOF1pc
@@ -824,7 +851,8 @@ The Sundays:
       Your Eyes: len
       Cry:
       Monochrome:
-   Blind (1992):
+   Blind:
+      <year: 1992
       <<: *low
       I Feel:
       Goodbye: yes
@@ -838,7 +866,8 @@ The Sundays:
       Blood on My Hands:
       Medicine:
       Wild Horses: yes
-   Reading, Writing and Arithmetic (1990):
+   Reading, Writing and Arithmetic:
+      <year: 1990
       <<: *low
       Skin & Bones: no
       Here’s Where the Story Ends: yes
@@ -869,16 +898,19 @@ The Who:
       Behind Blue Eyes: yes
       Won’t Get Fooled Again:
 The xx:
-   I See You (2017):
+   I See You:
+      <year: 2017
       <flow: 20,194,256
       <link: https://youtu.be/qqflFMhkqHM
       I Dare You:
       On Hold:
-   Coexist (2012):
+   Coexist:
+      <year: 2012
       <flow: 10,086,605
       <link: https://youtu.be/_nW5AF0m9Zw
       Angels:
-   xx (2009):
+   xx:
+      <year: 2009
       <flow: 6,109,403
       <link: https://youtu.be/Pib8eYDSFEI
       Basic Space:
@@ -972,10 +1004,14 @@ Thievery Corporation:
       Until the Morning: yes
       Resolution: yes
 Third Eye Blind:
-   Dopamine (2015):
-   Ursa Major (2009):
-   Out of the Vein (2003):
-   Blue (1999):
+   Dopamine:
+      <year: 2015
+   Ursa Major:
+      <year: 2009
+   Out of the Vein:
+      <year: 2003
+   Blue:
+      <year: 1999
       <<: &low
          <flow: 3,023,934
          <link: https://youtu.be/QdgCajndgNw
@@ -992,7 +1028,8 @@ Third Eye Blind:
       Slow Motion:
       Darkness:
       Darwin / The Red Summer Sun (extended coda):
-   Third Eye Blind (1997):
+   Third Eye Blind:
+      <year: 1997
       <<: *low
       Losing a Whole Year:
       Narcolepsy:
@@ -1242,8 +1279,10 @@ Toni Braxton:
       <link: https://youtu.be/wpaR3wzTlvo
       Just Be a Man About It:
 Tool:
-   10,000 Days (2006):
-   Lateralus (2001):
+   10,000 Days:
+      <year: 2006
+   Lateralus:
+      <year: 2001
       <flow: 3,719,915
       <link: https://youtu.be/_yNAABKD4IA
       The Grudge:
@@ -1259,8 +1298,10 @@ Tool:
       Reflection: yes
       Triad:
       Faaip de Oiad: len
-   Ænima (1996):
-   Undertow (1993):
+   Ænima:
+      <year: 1996
+   Undertow:
+      <year: 1993
 Tori Amos:
    Boys for Pele:
       <<: &low
@@ -1422,7 +1463,8 @@ TV on the Radio:
       DLZ: yes
       Lover’s Day:
 Tycho:
-   Epoch (2016):
+   Epoch:
+      <year: 2016
       <<: &low
          <flow: 2,862,988
          <link: https://youtu.be/mehLx_Fjv_c
@@ -1437,7 +1479,8 @@ Tycho:
       Rings:
       Continuum: len
       Field: len
-   Awake (2014):
+   Awake:
+      <year: 2014
       <<: *low
       Awake: yes
       Montana:
@@ -1447,7 +1490,8 @@ Tycho:
       Apogee:
       Spectre:
       Plains:
-   Dive (2011):
+   Dive:
+      <year: 2011
       <<: *low
       A Walk:
       Hours:
@@ -1459,7 +1503,8 @@ Tycho:
       Adrift:
       Epigram: len
       Elegy: yes
-   Past Is Prologue (2006):
+   Past Is Prologue:
+      <year: 2006
       <<: *low
       From Home: yes
       Sunrise Projector: dup
@@ -1470,7 +1515,8 @@ Tycho:
       A Circular Reeducation: dup
       Past Is Prologue: dup
       Cloud Generator: dup
-   Sunrise Projector (2004):
+   Sunrise Projector:
+      <year: 2004
       <<: *low
       Sunrise Projector: no
       Dictaphone’s Lament:
@@ -1484,7 +1530,8 @@ Tycho:
       A Circular Reeducation: yes
       Cloud Generator: yes
       Sunrise Calendar:
-   The Science of Patterns (2002):
+   The Science of Patterns:
+      <year: 2002
       <<: *low
       Dream as a Memory:
       Human Condition:
@@ -1697,29 +1744,41 @@ Us3:
       Make Tracks:
       The Darkside:
 Usher:
-   “A” (2018):
-   Hard II Love (2016):
-   Looking 4 Myself (2012):
+   “A”:
+      <year: 2018
+   Hard II Love:
+      <year: 2016
+   Looking 4 Myself:
+      <year: 2012
       <flow: 11,441,786
       <link: https://youtu.be/nNTyfVh3nmU
       Climax:
-   Versus (2010):
-   Raymond v. Raymond (2010):
-   Here I Stand (2008):
-   You Make Me Wanna (2004):
-   Sex Appeal (2004):
-   Confessions (2004):
+   Versus:
+      <year: 2010
+   Raymond v. Raymond:
+      <year: 2010
+   Here I Stand:
+      <year: 2008
+   You Make Me Wanna:
+      <year: 2004
+   Sex Appeal:
+      <year: 2004
+   Confessions:
+      <year: 2004
       <flow: 67,359,945
       <link: https://youtu.be/GxBSyx85Kp8
       Burn:
       Confessions, Pt. II:
       Yeah!:
-   8701 (2001):
+   8701:
+      <year: 2001
       <flow: 19,764,570
       <link: https://youtu.be/o3IWTfcks4k
       U Got It Bad:
-   My Way (1997):
-   Usher (1994):
+   My Way:
+      <year: 1997
+   Usher:
+      <year: 1994
 Van Halen:
    Van Halen:
       <flow: 4,541,679
@@ -1787,10 +1846,14 @@ Wilco:
       Whole Love:
       One Sunday Morning:
 Will Smith:
-   Lost and Found (2005):
-   Born to Reign (2002):
-   Willennium (1999):
-   Big Willie Style (1997):
+   Lost and Found:
+      <year: 2005
+   Born to Reign:
+      <year: 2002
+   Willennium:
+      <year: 1999
+   Big Willie Style:
+      <year: 1997
       <flow: 6,208,236
       <link: https://youtu.be/3JcmQONgXJM
       Gettin’ Jiggy Wit It:
