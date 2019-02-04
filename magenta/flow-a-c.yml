@@ -1098,21 +1098,26 @@ Boards of Canada:
       Original Nlogax: len
       Whitewater: no
 Bonobo:
-   Animal Magic:
+   The North Borders:
+      <year: 2013
       <<: &low
          <flow: 1,668,464
          <link: https://youtu.be/N7m86aMNjlQ
-      Intro: len
-      Sleepy Seven: yes
-      Dinosaurs: no
-      Kota: yes
-      Terrapin: yes
-      The Plug: yes
-      Shadowtricks: yes
-      Gypsy: no
-      Sugar Rhyme: no
-      Silver: yes
+      First Fires:
+      Emkay:
+      Cirrus:
+      Heaven for the Sinner:
+      Sapphire: yes
+      Jets:
+      Towers:
+      Don’t Wait:
+      Know You:
+      Antenna:
+      Ten Tigers:
+      Transits:
+      Pieces:
    Black Sands:
+      <year: 2010
       <<: *low
       Prelude: len
       Kiara: yes
@@ -1127,6 +1132,7 @@ Bonobo:
       Animals: yes
       Black Sands: yes
    Days to Come:
+      <year: 2006
       <<: *low
       Intro: len
       Days to Come: yes
@@ -1146,7 +1152,8 @@ Bonobo:
       If You Stayed Over (reprise): len
       Walk in the Sky (instrumental): yes
       Hatoa: yes
-   Dial ’M’ for Monkey:
+   Dial 'M' for Monkey:
+      <year: 2003
       <<: *low
       Noctuary: no
       Flutter: yes
@@ -1158,27 +1165,26 @@ Bonobo:
       Nothing Owed: yes
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
+      <year: 2002
       <<: *low
       Dismantling Frank: yes
       The Sicilian:
       The Shark:
       Magicman: yes
       Scuba: yes
-   The North Borders:
+   Animal Magic:
+      <year: 2000
       <<: *low
-      First Fires:
-      Emkay:
-      Cirrus:
-      Heaven for the Sinner:
-      Sapphire: yes
-      Jets:
-      Towers:
-      Don’t Wait:
-      Know You:
-      Antenna:
-      Ten Tigers:
-      Transits:
-      Pieces:
+      Intro: len
+      Sleepy Seven: yes
+      Dinosaurs: no
+      Kota: yes
+      Terrapin: yes
+      The Plug: yes
+      Shadowtricks: yes
+      Gypsy: no
+      Sugar Rhyme: no
+      Silver: yes
 Boyz II Men:
    Cooleyhighharmony:
       <flow: 13,061,094

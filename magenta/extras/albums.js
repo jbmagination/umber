@@ -1,23 +1,27 @@
 'use strict';
 var bc = (ae, df = document) => df.querySelector(ae);
-var cb = (ae, df = document) => df.querySelectorAll(ae);
-var dh = [];
+var cb = (ae, df = document) => [...df.querySelectorAll(ae)];
+var np = [];
 
-cb('tr', bc('tbody')).forEach(bf => {
-   var np = cb('td', bf);
-   dh.unshift(
-      '   ' + np[1].textContent + ':',
-      '      <year: ' + np[0].textContent
+cb('tr', bc('tbody')).forEach(ae => {
+   /* if you are logged in a column is prepended with checkboxes. also and
+   "Artist" column may or may not exist. To resolve, get index of first column
+   with a "class" */
+   var oq = cb('td', ae);
+   var rv = oq.findIndex(ae => ae.className);
+   np.unshift(
+      '   ' + oq[rv + 1].textContent + ':',
+      '      <year: ' + oq[rv].textContent
    );
 });
 
-var oq = document.createElement('textarea');
-oq.cols = 40;
-oq.rows = 20;
-oq.style.font = 'medium Consolas';
-oq.style.position = 'fixed';
-oq.style.right = oq.style.top = 0;
-oq.style.zIndex = 6;
-oq.textContent = dh.join('\n');
+var sx = document.createElement('textarea');
+sx.cols = 40;
+sx.rows = 20;
+sx.style.font = 'medium Consolas';
+sx.style.position = 'fixed';
+sx.style.right = sx.style.top = 0;
+sx.style.zIndex = 6;
+sx.textContent = np.join('\n');
 
-document.body.append(oq);
+document.body.append(sx);
