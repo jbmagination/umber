@@ -1503,8 +1503,6 @@ Chris Isaak:
       <link: https://youtu.be/fQyG6Ctsks4
       Wicked Game:
 Cocteau Twins:
-   Milk & Kisses:
-      <year: 1996
    Four-Calendar Café:
       <year: 1993
       <<: &low
@@ -1522,6 +1520,17 @@ Cocteau Twins:
       Pur:
    Heaven or Las Vegas:
       <year: 1990
+      <<: *low
+      Cherry-Coloured Funk: no
+      Pitch the Baby: no
+      Iceblink Luck: no
+      Fifty-Fifty Clown: no
+      Heaven or Las Vegas: no
+      I Wear Your Ring:
+      Fotzepolitic:
+      Wolf in the Breast:
+      Road, River and Rail:
+      Frou-Frou Foxes in Midsummer Fires:
    Blue Bell Knoll:
       <year: 1988
    Victorialand:
