@@ -302,7 +302,10 @@ DJ Doboy:
       bissen ft victoria jane - melting (alex morph b2b woody van eyden remix): yes
       edvika - sometimes (fire and ice remix): yes
 Doe Paoro:
+   Soft Power:
+      <year: 2018
    After:
+      <year: 2015
       <flow: 44,669
       <link: https://youtu.be/HuRU2v6Moak
       Traveling: yes
@@ -315,6 +318,18 @@ Doe Paoro:
       Nobody:
       Regret:
       Wake Up in Nowhere:
+   Slow to Love:
+      <year: 2012
+      <<: *low
+      Intro: len
+      Born Whole: no
+      I’ll Go Blind: no
+      Can’t Leave You: no
+      Trying to Impress: no
+      Body Games: len
+      Slow to Love: len
+      Follow You Til: len
+      Soft but Strong: len
 Don Henley:
    I Can’t Stand Still:
       <flow: 231,472
@@ -1262,24 +1277,11 @@ Grizzly Bear:
    Horn of Plenty:
       <year: 2004
 Groove Armada:
-   Lovebox:
+   Soundboy Rock:
+      <year: 2007
       <<: &low
          <flow: 2,485,950
          <link: https://youtu.be/_kE0pxRkMtQ
-      Purple Haze:
-      Groove Is On:
-      Remember:
-      Madder:
-      Think Twice...:
-      Final Shakedown:
-      Be Careful What You Say:
-      Hands of Time:
-      Tuning In (rewritten):
-      Easy:
-      Lovebox: yes
-      But I Feel Good:
-   Soundboy Rock:
-      <<: *low
       Hasta Luego Mr. Fab (interlude): yes
       Get Down:
       The Things That We Could Share:
@@ -1295,6 +1297,37 @@ Groove Armada:
       From the Rooftops: yes
       See What You Get:
       What’s Your Version? (reprise): len
+   Lovebox:
+      <year: 2002
+      <<: *low
+      Purple Haze:
+      Groove Is On:
+      Remember:
+      Madder:
+      Think Twice:
+      Final Shakedown:
+      Be Careful What You Say:
+      Hands of Time:
+      Tuning In (rewritten):
+      Easy:
+      Lovebox: yes
+      But I Feel Good:
+   Goodbye Country (Hello Nightclub):
+      <year: 2001
+      <<: *low
+      Suntoucher: no
+      Superstylin’: no
+      Drifted: no
+      Little by Little: no
+      Fogma: no
+      My Friend:
+      Lazy Moon:
+      Raisin’ the Stakes:
+      Healing:
+      Edge Hill:
+      Tuning In (dub mix):
+      Join Hands:
+      Likwid:
 Guns N’ Roses:
    Appetite for Destruction:
       <flow: 86,924,643

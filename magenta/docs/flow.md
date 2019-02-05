@@ -20,6 +20,11 @@ low  | flow under threshold
 no   | rating bad
 yes  | rating good
 
+Merge
+-----
+
+https://yaml.org/type/merge
+
 Query
 -----
 
