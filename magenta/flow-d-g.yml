@@ -739,10 +739,24 @@ Fleetwood Mac:
       When I See You Again:
       You and I, Part II: len
 Floating Points:
-   Elaenia:
+   Reflections - Mojave Desert:
+      <year: 2017
       <<: &low
          <flow: 610,878
          <link: https://youtu.be/1LtsjqgF6fw
+      Mojave Desert: len
+      Silurian Blue: yes
+      Kites: no
+      Kelso Dunes: yes
+      Lucerne Valley: no
+   Kuiper:
+      <year: 2016
+      <<: *low
+      Kuiper:
+      For Marmish Part II: yes
+   Elaenia:
+      <year: 2015
+      <<: *low
       Nespole: yes
       Silhouettes (I, II & III):
       Elaenia:
@@ -751,18 +765,8 @@ Floating Points:
       For Marmish: yes
       Peroration Six:
       Precursor:
-   Kuiper:
-      <<: *low
-      Kuiper:
-      For Marmish Part II: yes
-   Reflections - Mojave Desert:
-      <<: *low
-      Mojave Desert: len
-      Silurian Blue: yes
-      Kites: no
-      Kelso Dunes: yes
-      Lucerne Valley: no
    Shadows EP:
+      <year: 2011
       <<: *low
       Myrtle Avenue: yes
       Obfuse: no
