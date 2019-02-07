@@ -845,31 +845,8 @@ Spandau Ballet:
       Gold:
       True:
 Squarepusher:
-   Hard Normal Daddy:
-      <<: &low
-         <flow: 255,290
-         <link: https://youtu.be/XvLAKrVbCBM
-      Coopers World:
-      Beep Street: yes
-      Rustic Raver:
-      Anirog D9: len
-      Chin Hippy:
-      Papalon: yes
-      E8 Boogie:
-      Fat Controller:
-      Vic Acid:
-      Male Pill Part 13:
-      Rat/P’s and Q’s:
-      Rebus: len
-   Numbers Lucent:
-      <<: *low
-      Zounds Perspex: no
-      Paradise Garage: no
-      Heliacal Torch: no
-      Star Time 1: no
-      Arterial Fantasy: no
-      Illegal Dustbin: no
    Solo Electric Bass 1:
+      <year: 2009
       <<: *low
       SEB-1.01: len
       SEB-1.09: yes
@@ -883,7 +860,21 @@ Squarepusher:
       SEB-1.08:
       SEB-1.11: len
       SEB-1.12:
+   Numbers Lucent:
+      <year: 2009
+      <<: *low
+      Zounds Perspex: no
+      Paradise Garage: no
+      Heliacal Torch: no
+      Star Time 1: no
+      Arterial Fantasy: no
+      Illegal Dustbin: no
+   Just a Souvenir:
+      <year: 2008
+   Hello Everything:
+      <year: 2006
    Ultravisitor:
+      <year: 2004
       <<: *low
       Ultravisitor:
       I Fulcrum:
@@ -900,6 +891,31 @@ Squarepusher:
       Tetra-Sync:
       Tommib Help Buss: len
       Every Day I Love: len
+   Do You Know Squarepusher:
+      <year: 2002
+   Go Plastic:
+      <year: 2001
+   Selection Sixteen:
+      <year: 1999
+   Music Is Rotted One Note:
+      <year: 1998
+   Hard Normal Daddy:
+      <year: 1997
+      <<: &low
+         <flow: 255,290
+         <link: https://youtu.be/XvLAKrVbCBM
+      Coopers World:
+      Beep Street: yes
+      Rustic Raver:
+      Anirog D9: len
+      Chin Hippy:
+      Papalon: yes
+      E8 Boogie:
+      Fat Controller:
+      Vic Acid:
+      Male Pill Part 13:
+      Rat/P’s and Q’s:
+      Rebus: len
 St. Germain:
    Boulevard The Complete Series:
       <<: &low
