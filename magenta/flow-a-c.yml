@@ -1533,6 +1533,17 @@ Cocteau Twins:
       Frou-Frou Foxes in Midsummer Fires:
    Blue Bell Knoll:
       <year: 1988
+      <<: *low
+      Blue Bell Knoll:
+      Athol-Brose: no
+      Carolyn’s Fingers:
+      For Phoebe Still a Baby: no
+      The Itchy Glowbo Blow: yes
+      Cico Buff:
+      Suckling the Mender:
+      Spooning Good Singing Gum:
+      A Kissed Out Red Floatboat:
+      Ella Megalast Burls Forever:
    Victorialand:
       <year: 1986
       <<: *low
