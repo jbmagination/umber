@@ -138,17 +138,24 @@ Dave Matthews Band:
       Pay for What You Get:
       34:
 Depeche Mode:
+   Spirit:
+      <year: 2017
+      <flow: 8,644,886
+      <link: https://youtu.be/jsCR05oKROA
+      Where’s the Revolution:
    Delta Machine:
-      <flow: 5,964,654
-      <link: https://youtu.be/Fy7FzXLin7o
-      Heaven:
-   Music for the Masses:
-      <flow: 6,144,165
-      <link: https://youtu.be/JIrm0dHbCDU
-      Strangelove:
+      <year: 2013
+   Sounds of the Universe:
+      <year: 2009
+   Playing the Angel:
+      <year: 2005
+   Exciter:
+      <year: 2001
    Ultra:
-      <flow: 4,085,095
-      <link: https://youtu.be/stpaq27-V70
+      <year: 1997
+      <<: &low
+         <flow: 4,085,095
+         <link: https://youtu.be/stpaq27-V70
       Barrel of a Gun: no
       The Love Thieves: no
       Home: no
@@ -161,10 +168,41 @@ Depeche Mode:
       The Bottom Line: no
       Insight: no
       Junior Painkiller: len
+   Songs of Faith and Devotion:
+      <year: 1993
    Violator:
-      <flow: 8,734,250
+      <year: 1990
+      <flow: 9,201,885
       <link: https://youtu.be/u1xrNaTO1bI
+      Enjoy The Silence:
       Personal Jesus:
+   Music for the Masses:
+      <year: 1987
+      <flow: 6,304,879
+      <link: https://youtu.be/JIrm0dHbCDU
+      Strangelove:
+   Black Celebration:
+      <year: 1986
+   Some Great Reward:
+      <year: 1984
+   Construction Time Again:
+      <year: 1983
+   A Broken Frame:
+      <year: 1982
+   Speak & Spell:
+      <year: 1981
+      <<: *low
+      New Life: no
+      Puppets: no
+      Dreaming of Me: no
+      Boys Say Go!: no
+      Nodisco: no
+      What’s Your Name?: len
+      Photographic:
+      Tora! Tora! Tora!:
+      Big Muff:
+      Any Second Now (Voices): len
+      Just Can’t Get Enough:
 Dirty Projectors:
    Bitte Orca:
       <flow: 336,674

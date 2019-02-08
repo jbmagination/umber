@@ -408,8 +408,10 @@ Robin Guthrie:
       The Little Light Fades: len
 Róisín Murphy:
    Overpowered:
-      <flow: 1,481,572
-      <link: https://youtu.be/kl8mpAvTm_Y
+      <year: 2007
+      <<: &low
+         <flow: 1,481,572
+         <link: https://youtu.be/kl8mpAvTm_Y
       Overpowered: yes
       You Know Me Better: yes
       Checkin’ on Me: yes
@@ -421,6 +423,22 @@ Róisín Murphy:
       Cry Baby:
       Tell Everybody:
       Scarlet Ribbons:
+   Ruby Blue:
+      <year: 2005
+   Statues:
+      <year: 2003
+      <group: Moloko
+      <<: *low
+      Familiar Feeling: yes
+      Come On:
+      Cannot Contain This:
+      Statues:
+      Forever More:
+      Blow X Blow:
+      100%:
+      The Only Ones:
+      I Want You:
+      Over & Over:
 Roosevelt:
    Elliot:
       <<: &low
