@@ -595,15 +595,25 @@ Bananarama:
    Deep Sea Skiving:
       <year: 1983
 Bat for Lashes:
-   The Bride:
-      <year: 2016
    The Haunted Man:
       <year: 2012
-   Two Suns:
-      <year: 2009
       <<: &low
          <flow: 927,413
          <link: https://youtu.be/UznHTBZIa8E
+      Lilies: no
+      All Your Gold: no
+      Horses of the Sun: no
+      Oh Yeah: no
+      Laura: no
+      Winter Fields:
+      The Haunted Man:
+      Marilyn:
+      A Wall:
+      Rest Your Head:
+      Deep Sea Diver:
+   Two Suns:
+      <year: 2009
+      <<: *low
       Glass: yes
       Sleep Alone:
       Moon and Moon:
