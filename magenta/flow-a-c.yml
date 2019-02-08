@@ -980,7 +980,9 @@ Blood Orange:
 Boards of Canada:
    Tomorrow’s Harvest:
       <year: 2013
-      <<: *low
+      <<: &low
+         <flow: 745,274
+         <link: https://youtu.be/dQEmaj9C6ko
       Gemini: len
       Reach for the Dead: yes
       White Cyclosa: yes
@@ -1078,9 +1080,7 @@ Boards of Canada:
       One Very Important Thought: len
    Boc Maxima:
       <year: 1996
-      <<: &low
-         <flow: 745,274
-         <link: https://youtu.be/dQEmaj9C6ko
+      <<: *low
       Chinook: no
       Rodox Video: len
       Everything You Do Is a Balloon: yes

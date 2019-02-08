@@ -1,51 +1,16 @@
 Daft Punk:
-   Alive 2007:
-      <<: &low
-         <flow: 4,295,035
-         <link: https://youtu.be/D8K90hX4PrE
-      Robot Rock / Oh Yeah:
-      Touch It / Technologic:
-      Television Rules the Nation / Crescendolls:
-      Too Long / Steam Machine: yes
-      Around the World / Harder Better Faster Stronger: yes
-      Burnin’ / Too Long:
-      Face to Face / Short Circuit:
-      One More Time / Aerodynamic: yes
-      Aerodynamic Beats / Forget About the World: yes
-      Prime Time of Your Life / Brainwasher / Rollin’ and Scratchin’ / Alive:
-      Da Funk / Daftendirekt: yes
-      Superheroes / Human After All / Rock’n Roll:
-      Human After All/Together/One More Time/Music Sounds Better With You: yes
-   Discovery:
-      <flow: 31,730,630
-      <link: https://youtu.be/PsO6ZnUZI0g
-      Digital Love:
-      Harder Better Faster Stronger:
-      One More Time:
-   Homework:
-      <flow: 11,461,864
-      <link: https://youtu.be/yca6UsllwYs
-      Around the World:
-   Human After All:
-      <<: *low
-      Human After All:
-      The Prime Time of Your Life:
-      Robot Rock:
-      Steam Machine:
-      Make Love: yes
-      The Brainwasher:
-      On/Off: len
-      Television Rules the Nation:
-      Technologic:
-      Emotion:
    Random Access Memories:
+      <year: 2013
       <flow: 71,108,096
       <link: https://youtu.be/5NV6Rdv1a3I
       Get Lucky:
       Instant Crush:
       Lose Yourself to Dance:
    TRON Legacy:
-      <<: *low
+      <year: 2010
+      <<: &low
+         <flow: 4,295,035
+         <link: https://youtu.be/D8K90hX4PrE
       Overture: len
       The Grid: len
       The Son of Flynn: len
@@ -68,6 +33,47 @@ Daft Punk:
       Flynn Lives:
       TRON Legacy (End Titles):
       Finale:
+   Alive 2007:
+      <year: 2007
+      <<: *low
+      Robot Rock / Oh Yeah:
+      Touch It / Technologic:
+      Television Rules the Nation / Crescendolls:
+      Too Long / Steam Machine: yes
+      Around the World / Harder Better Faster Stronger: yes
+      Burnin’ / Too Long:
+      Face to Face / Short Circuit:
+      One More Time / Aerodynamic: yes
+      Aerodynamic Beats / Forget About the World: yes
+      Prime Time of Your Life / Brainwasher / Rollin’ and Scratchin’ / Alive:
+      Da Funk / Daftendirekt: yes
+      Superheroes / Human After All / Rock’n Roll:
+      Human After All/Together/One More Time/Music Sounds Better With You: yes
+   Human After All:
+      <year: 2005
+      <<: *low
+      Human After All:
+      The Prime Time of Your Life:
+      Robot Rock:
+      Steam Machine:
+      Make Love: yes
+      The Brainwasher:
+      On/Off: len
+      Television Rules the Nation:
+      Technologic:
+      Emotion:
+   Discovery:
+      <year: 2001
+      <flow: 31,730,630
+      <link: https://youtu.be/PsO6ZnUZI0g
+      Digital Love:
+      Harder Better Faster Stronger:
+      One More Time:
+   Homework:
+      <year: 1997
+      <flow: 11,461,864
+      <link: https://youtu.be/yca6UsllwYs
+      Around the World:
 Daniel Lanois:
    Acadie:
       <flow: 99,070
