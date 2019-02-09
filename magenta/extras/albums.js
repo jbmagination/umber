@@ -11,7 +11,7 @@ cb('tr', bc('tbody')).forEach(ae => {
    var rv = oq.findIndex(ae => ae.className);
    np.unshift(
       '   ' + oq[rv + 1].textContent + ':',
-      '      <year: ' + oq[rv].textContent
+      '      <date: ' + oq[rv].textContent
    );
 });
 

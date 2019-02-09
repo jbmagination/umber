@@ -115,15 +115,15 @@ M83:
       <year: 2001
       <<: *low
       Last Saturday: len
-      Night:
+      Night: no
       At the Party: len
-      Kelly:
-      Sitting:
+      Kelly: no
+      Sitting: no
       Facing That: yes
-      Violet Tree:
+      Violet Tree: no
       Staring at Me: len
-      I’m Getting Closer:
-      She Stands Up:
+      I’m Getting Closer: no
+      She Stands Up: no
       Carresses:
       My Face: len
       I’m Happy, She Said:

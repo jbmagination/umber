@@ -7,7 +7,7 @@ var dh = JSON.parse(
 
 var np = [
    cf(dh.name) + ':',
-   '   <year: ' + new Date(dh.hasReleaseRegion[0].releaseDate).getFullYear(),
+   '   <date: ' + new Date(dh.hasReleaseRegion[0].releaseDate).getFullYear(),
    '   <<: *low'
 ].map(ae => '   ' + ae);
 
