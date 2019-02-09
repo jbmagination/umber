@@ -1471,23 +1471,11 @@ Lenny Kravitz:
       <link: https://youtu.be/jAHlQ77lm10
       The Chamber:
 Leon Vynehall:
-   Midnight on Rainbow Road:
+   Rojus:
+      <date: 2016-04-01
       <<: &low
          <flow: 635,809
          <link: https://youtu.be/XpIrFglZfQU
-      Midnight on Rainbow Road (Beat Edit): no
-      Midnight on Rainbow Road: yes
-   Music for the Uninvited:
-      <<: *low
-      Inside the Deku Tree: yes
-      Goodthing:
-      Be Brave, Clench Fists: yes
-      Pier Children:
-      It’s Just (House of Dupree):
-      Christ Air:
-      St. Sinclair:
-   Rojus:
-      <<: *low
       Beyond This:
       Saxony:
       Beau Sovereign:
@@ -1496,6 +1484,21 @@ Leon Vynehall:
       Blush:
       Kiburu’s: yes
       There Is You:
+   Midnight on Rainbow Road:
+      <date: 2016-02-26
+      <<: *low
+      Midnight on Rainbow Road (Beat Edit): no
+      Midnight on Rainbow Road: yes
+   Music for the Uninvited:
+      <date: 2014
+      <<: *low
+      Inside the Deku Tree: yes
+      Goodthing:
+      Be Brave, Clench Fists: yes
+      Pier Children:
+      It’s Just (House of Dupree):
+      Christ Air:
+      St. Sinclair:
 Linkin Park:
    A Thousand Suns:
       <flow: 39,767,490
