@@ -1036,8 +1036,10 @@ Julia Holter:
       Finale: no
 Julianna Barwick:
    Nepenthe:
-      <flow: 46,827
-      <link: https://youtu.be/kIQVjRCL6jI
+      <date: 2013
+      <<: &low
+         <flow: 46,827
+         <link: https://youtu.be/kIQVjRCL6jI
       Offing:
       The Harbinger:
       One Half:
@@ -1048,6 +1050,18 @@ Julianna Barwick:
       Adventurer of the Family: len
       Crystal Lake:
       Waving to You: len
+   The Magic Place:
+      <date: 2011
+      <<: *low
+      Envelop: no
+      Keep Up the Good Work: no
+      The Magic Place: no
+      Cloak: no
+      White Flag: no
+      Vow:
+      Bob in Your Gait:
+      Prizewinning:
+      Flown:
 Justin Timberlake:
    FutureSex/LoveSounds:
       <flow: 30,938,737

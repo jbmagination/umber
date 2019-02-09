@@ -62,6 +62,7 @@ Tears for Fears:
       <date: 1983
 The Black Dog:
    Further Vexations:
+      <date: 2009
       <<: &low
          <flow: 12,602
          <link: https://youtu.be/NZznxCVwzrk
@@ -80,14 +81,8 @@ The Black Dog:
       Tunnels Ov Set:
       Later Vexations:
       Kissing Someone Else’s D.O.G:
-   Peel Session:
-      <<: *low
-      Shadehead: yes
-      Rise Up:
-      Simperton:
-      Rue:
-      Psycosyin:
    Radio Scarecrow:
+      <date: 2008
       <<: *low
       Transmission Start: len
       Train by the Autobahn, Part 1: yes
@@ -107,6 +102,7 @@ The Black Dog:
       Ghost Vexations: yes
       Dials & Dialers 2: len
    Silenced:
+      <date: 2005
       <<: *low
       Trojan Horus, Part 1:
       Trojan Horus, Part 2: len
@@ -126,7 +122,47 @@ The Black Dog:
       Sudden Intake: yes
       4 3s 555, Part 1: len
       4 3s 555, Part 2:
+   Unsavoury Products:
+      <date: 2002
+   Peel Session:
+      <date: 1999
+      <<: *low
+      Shadehead: yes
+      Rise Up:
+      Simperton:
+      Rue:
+      Psycosyin:
+   Music for Adverts (and Short Films):
+      <date: 1996
+      <<: *low
+      Dumb & Dumber: len
+      The Wind Spirit: len
+      Jordan: len
+      Tzaddi: no
+      Pod1: len
+      No Lamers: no
+      Edgar Allan: no
+      Harpo: len
+      Strange Hill: no
+      The Big Issue: no
+      Crayola: len
+      Horny: len
+      AGW: len
+      Seti: len
+      Darkness: len
+      Euthanasia:
+      Gerry Noman: len
+      Meditation No. 4:
+      Stratus: len
+      Dissidence: len
+      As Clouds Go By: len
+      Disench: len
+      Minour:
+      Mo:
+      Wot: len
+      Kheprit:
    Spanners:
+      <date: 1995
       <<: *low
       Raxmus: yes
       Barbola Work: no
