@@ -869,24 +869,11 @@ Big Boi:
       The Train, Part 2 (Sir Lucious Left Foot Saves the Day):
       Back Up Plan:
 Björk:
-   Debut:
+   Homogenic:
+      <date: 1997
       <<: &low
          <flow: 1,040,474
          <link: https://youtu.be/htobTBlCvUU
-      Human Behaviour: no
-      Crying: no
-      Venus as a Boy: yes
-      There’s More to Life Than This: no
-      Like Someone in Love: yes
-      Big Time Sensuality: no
-      One Day: no
-      Aeroplane: no
-      Come to Me: yes
-      Violently Happy: no
-      The Anchor Song: yes
-      Play Dead: yes
-   Homogenic:
-      <<: *low
       Hunter: yes
       Jóga: yes
       Unravel: yes
@@ -898,6 +885,7 @@ Björk:
       Pluto: no
       All Is Full of Love: yes
    Post:
+      <date: 1995
       <<: *low
       Army of Me: yes
       Hyper‐Ballad: no
@@ -910,6 +898,21 @@ Björk:
       I Miss You: no
       Cover Me: len
       Headphones: no
+   Debut:
+      <date: 1993
+      <<: *low
+      Human Behaviour: no
+      Crying: no
+      Venus as a Boy: yes
+      There’s More to Life Than This: no
+      Like Someone in Love: yes
+      Big Time Sensuality: no
+      One Day: no
+      Aeroplane: no
+      Come to Me: yes
+      Violently Happy: no
+      The Anchor Song: yes
+      Play Dead: yes
 Blink 182:
    Blink-182:
       <flow: 21,749,165

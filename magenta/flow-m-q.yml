@@ -1,6 +1,6 @@
 M83:
    Junk:
-      <year: 2016
+      <date: 2016
       <<: &low
          <flow: 2,746,085
          <link: https://youtu.be/1mkUp1V3ys0
@@ -20,7 +20,7 @@ M83:
       Ludivine: len
       Sunday Night 1987:
    Oblivion Original Motion Picture Soundtrack:
-      <year: 2013
+      <date: 2013
       <<: *low
       Jack’s Dream: len
       Waking Up:
@@ -40,14 +40,14 @@ M83:
       Undimmed by Time, Unbound by Death: len
       Oblivion: yes
    Hurry Up, We’re Dreaming:
-      <year: 2011
+      <date: 2011
       <flow: 33,682,222
       <link: https://youtu.be/dX3k_QDnzHE
       Midnight City:
       Reunion:
       Wait:
    Saturdays = Youth:
-      <year: 2008
+      <date: 2008
       <<: *low
       You, Appearing: yes
       Kim & Jessie: yes
@@ -61,7 +61,7 @@ M83:
       Dark Moves of Love:
       Midnight Souls Still Remain:
    Digital Shades, Volume 1:
-      <year: 2007
+      <date: 2007
       <<: *low
       Waves, Waves, Waves: len
       Coloring the Void:
@@ -74,7 +74,7 @@ M83:
       Space Fertilizer: len
       The Highest Journey: yes
    Before the Dawn Heals Us:
-      <year: 2005
+      <date: 2005
       <<: *low
       Moon Child: yes
       Don’t Save Us From the Flames: yes
@@ -92,7 +92,7 @@ M83:
       A Guitar and a Heart:
       Lower Your Eyelids to Die With the Sun:
    Dead Cities, Red Seas & Lost Ghosts:
-      <year: 2003
+      <date: 2003
       <<: *low
       Birds: len
       Unrecorded: yes
@@ -112,7 +112,7 @@ M83:
       Gone (live): no
       Dead Cities, Red Seas & Lost Ghosts:
    M83:
-      <year: 2001
+      <date: 2001
       <<: *low
       Last Saturday: len
       Night: no
@@ -307,7 +307,7 @@ Mark Morrison:
       Home, Part II (interlude): len
 Massive Attack:
    Heligoland:
-      <year: 2010
+      <date: 2010
       <<: &low
          <flow: 1,210,406
          <link: https://youtu.be/Vi76bxT7K6U
@@ -324,7 +324,7 @@ Massive Attack:
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): no
       United Snakes:
    100th Window:
-      <year: 2003
+      <date: 2003
       <<: *low
       Future Proof: yes
       What Your Soul Sings:
@@ -336,12 +336,12 @@ Massive Attack:
       Name Taken: yes
       Antistar:
    Mezzanine:
-      <year: 1998
+      <date: 1998
       <flow: 6,276,905
       <link: https://youtu.be/u7K72X4eo_s
       Teardrop:
    Protection:
-      <year: 1994
+      <date: 1994
       <<: *low
       Protection: yes
       Karmacoma: yes
@@ -353,7 +353,7 @@ Massive Attack:
       Sly: yes
       Heat Miser: no
    Blue Lines:
-      <year: 1991
+      <date: 1991
       <<: *low
       Safe From Harm: yes
       One Love: no
@@ -409,25 +409,25 @@ Mazzy Star:
       Look on Down From the Bridge: yes
 Metallica:
    Hardwired… to Self‐Destruct:
-      <year: 2016
+      <date: 2016
       <flow: 19,542,067
       <link: https://youtu.be/uhBHL3v4d3I
       Now That We’re Dead:
    Lulu:
-      <year: 2011
+      <date: 2011
    Death Magnetic:
-      <year: 2008
+      <date: 2008
    St. Anger:
-      <year: 2003
+      <date: 2003
    Garage Inc.:
-      <year: 1998
+      <date: 1998
       <flow: 9,103,191
       <link: https://youtu.be/boanuwUMNNQ
       Whiskey in the Jar:
    Reload:
-      <year: 1997
+      <date: 1997
    Load:
-      <year: 1996
+      <date: 1996
       <flow: 4,469,113
       <link: https://youtu.be/4FKYsUEuvIo
       Ain’t My Bitch:
@@ -445,7 +445,7 @@ Metallica:
       Ronnie:
       The Outlaw Torn:
    Metallica (Black Album):
-      <year: 1991
+      <date: 1991
       <flow: 47,478,622
       <link: https://youtu.be/tAGnKpE4NCI
       Enter Sandman:
@@ -453,23 +453,23 @@ Metallica:
       The Unforgiven:
       Wherever I May Roam:
    and Justice for All:
-      <year: 1988
+      <date: 1988
       <flow: 14,220,628
       <link: https://youtu.be/EzgGTTtR0kc
       One:
    Master of Puppets:
-      <year: 1986
+      <date: 1986
       <flow: 11,413,325
       <link: https://youtu.be/xnKhsTXoKCI
       Master of Puppets:
    Ride the Lightning:
-      <year: 1984
+      <date: 1984
       <flow: 8,371,394
       <link: https://youtu.be/WEQnzs8wl6E
       Fade to Black:
       For Whom the Bell Tolls:
    Kill ’em All:
-      <year: 1983
+      <date: 1983
 Michael Bublé:
    It’s Time:
       <flow: 10,964,283
@@ -955,9 +955,9 @@ Odesza:
       Say My Name:
 Olive:
    Trickle:
-      <year: 2000
+      <date: 2000
    Extra Virgin:
-      <year: 1997
+      <date: 1997
       <flow: 99,301
       <link: https://youtu.be/s4oZdUV-G-Y
       Miracle: yes
@@ -982,7 +982,7 @@ On-the-Go:
       Fall Asleep:
 Oneohtrix Point Never:
    Age Of:
-      <year: 2018
+      <date: 2018
       <<: &low
          <flow: 107,064
          <link: https://youtu.be/hiwi7d0f91Y
@@ -1000,9 +1000,9 @@ Oneohtrix Point Never:
       Still Stuff That Doesn’t Happen:
       Last Known Image of a Song:
    Garden of Delete:
-      <year: 2015
+      <date: 2015
    R Plus Seven:
-      <year: 2013
+      <date: 2013
       <<: *low
       Boring Angel: no
       Americans: no
@@ -1016,7 +1016,7 @@ Oneohtrix Point Never:
       Chrome Country: yes
       Gone: len
    Rifts:
-      <year: 2012
+      <date: 2012
       <<: *low
       Woe Is the Transgression I:
       Behind the Bank: len
@@ -1052,7 +1052,7 @@ Oneohtrix Point Never:
       Memory Vague:
       KGB Nights:
    Replica:
-      <year: 2011
+      <date: 2011
       <<: *low
       Andro:
       Power of Persuasion: yes
@@ -1065,7 +1065,7 @@ Oneohtrix Point Never:
       Child Soldier:
       Explain:
    Returnal:
-      <year: 2010
+      <date: 2010
       <<: *low
       Nil Admirari:
       Describing Bodies:
@@ -1076,11 +1076,11 @@ Oneohtrix Point Never:
       Ouroboros: len
       Preyouandi:
    Russian Mind:
-      <year: 2009
+      <date: 2009
    Zones Without People:
-      <year: 2009
+      <date: 2009
    Memory Vague:
-      <year: 2009
+      <date: 2009
 OutKast:
    ATLiens:
       <flow: 4,413,491
@@ -1185,15 +1185,15 @@ Pendulum:
       Still Grey: yes
 Pet Shop Boys:
    Very:
-      <year: 1993
+      <date: 1993
    Behaviour:
-      <year: 1990
+      <date: 1990
    Introspective:
-      <year: 1988
+      <date: 1988
    Actually:
-      <year: 1987
+      <date: 1987
    Please:
-      <year: 1986
+      <date: 1986
       <flow: 6,380,825
       <link: https://youtu.be/p3j2NYZ8FKs
       West End Girls:
@@ -1415,19 +1415,19 @@ Pizzicato Five:
       This Year’s Girl 6: len
 Plaid:
    The Digging Remedy:
-      <year: 2016
+      <date: 2016
    Reachy Prints:
-      <year: 2014
+      <date: 2014
    Scintilli:
-      <year: 2011
+      <date: 2011
    Greedy Baby:
-      <year: 2006
+      <date: 2006
    Spokes:
-      <year: 2003
+      <date: 2003
    Double Figure:
-      <year: 2001
+      <date: 2001
    Rest Proof Clockwork:
-      <year: 1999
+      <date: 1999
       <<: &low
          <flow: 55,939
          <link: https://youtu.be/eH1IMB8KJok
@@ -1447,7 +1447,7 @@ Plaid:
       Churn Maiden: len
       Air Locked / Face Me:
    Not for Threes:
-      <year: 1997
+      <date: 1997
       <<: *low
       Abla Eedio: no
       Kortisin: no
@@ -1466,9 +1466,9 @@ Plaid:
       Getting: len
       Milh: yes
    Mind Over Rhythm Meets the Men From Plaid on the Planet Luv:
-      <year: 1995
+      <date: 1995
    Mbuki Mvuki:
-      <year: 1991
+      <date: 1991
 Portishead:
    Dummy:
       <<: &low
