@@ -376,10 +376,56 @@ Incubus:
       <link: https://youtu.be/fgT9zGkiLig
       Drive:
 Interpol:
-   Antics:
+   Marauder:
+      <date: 2018
       <<: &low
-         <flow: 3,226,641
-         <link: https://youtu.be/-u6DvRyyKGU
+         <flow: 5,226,727
+         <link: https://youtu.be/gLk8i2zw2jU
+      If You Really Love Nothing:
+      The Rover:
+      Complications:
+      Flight of Fancy:
+      Stay in Touch:
+      Interlude 1: len
+      Mountain Child:
+      NYSMAW:
+      Surveillance:
+      Number 10:
+      Party’s Over:
+      Interlude 2: len
+      It Probably Matters:
+   El Pintor:
+      <date: 2014
+      <<: *low
+      All the Rage Back Home: yes
+      My Desire: yes
+      Anywhere:
+      Same Town, New Story:
+      My Blue Supreme:
+      Everything Is Wrong: yes
+      Breaker 1:
+      Ancient Ways:
+      Tidal Wave:
+      Twice as Hard:
+   Interpol:
+      <date: 2010
+   Our Love to Admire:
+      <date: 2007
+      <<: *low
+      Pioneer to the Falls: yes
+      No I in Threesome: yes
+      The Scale: yes
+      The Heinrich Maneuver:
+      Mammoth:
+      Pace Is the Trick: yes
+      All Fired Up:
+      Rest My Chemistry: yes
+      Who Do You Think:
+      Wrecking Ball:
+      The Lighthouse: yes
+   Antics:
+      <date: 2004
+      <<: *low
       Next Exit:
       Evil:
       NARC: yes
@@ -398,37 +444,8 @@ Interpol:
       C’mere:
       Evil:
       Slow Hands:
-   El Pintor:
-      <<: *low
-      All the Rage Back Home: yes
-      My Desire: yes
-      Anywhere:
-      Same Town, New Story:
-      My Blue Supreme:
-      Everything Is Wrong: yes
-      Breaker 1:
-      Ancient Ways:
-      Tidal Wave:
-      Twice as Hard:
-   Marauder:
-      <flow: 9,690,407
-      <link: https://youtu.be/gLk8i2zw2jU
-      If You Really Love Nothing:
-      The Rover:
-   Our Love to Admire:
-      <<: *low
-      Pioneer to the Falls: yes
-      No I in Threesome: yes
-      The Scale: yes
-      The Heinrich Maneuver:
-      Mammoth:
-      Pace Is the Trick: yes
-      All Fired Up:
-      Rest My Chemistry: yes
-      Who Do You Think:
-      Wrecking Ball:
-      The Lighthouse: yes
    Turn On the Bright Lights:
+      <date: 2002
       <<: *low
       Untitled:
       Obstacle 1: yes
