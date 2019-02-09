@@ -67,7 +67,7 @@ U2:
       40: len
 Ulrich Schnauss:
    Synthwaves:
-      <year: 2017
+      <date: 2017
       <<: &low
          <flow: 61,568
          <link: https://youtu.be/yLNM-rJi1mM
@@ -80,7 +80,7 @@ Ulrich Schnauss:
       Flare:
       Prism:
    Passage:
-      <year: 2017
+      <date: 2017
       <<: *low
       Amaris: no
       Genau Wie Damals: no
@@ -94,21 +94,21 @@ Ulrich Schnauss:
       Intervention Måne: len
       Coastal Path: yes
    No Further Ahead Than Today:
-      <year: 2016
+      <date: 2016
    Tomorrow Is Another Day:
-      <year: 2013
+      <date: 2013
    A Long Way to Fall:
-      <year: 2013
+      <date: 2013
    Underrated Silence:
-      <year: 2012
+      <date: 2012
    Ulrich Schnauss & Jonas Munk:
-      <year: 2011
+      <date: 2011
    Frozen in Time:
-      <year: 2011
+      <date: 2011
    Epic:
-      <year: 2010
+      <date: 2010
    Goodbye:
-      <year: 2007
+      <date: 2007
       <<: *low
       Never Be the Same: no
       Shine: no
@@ -121,7 +121,7 @@ Ulrich Schnauss:
       Goodbye: yes
       For Good: no
    Far Away Trains Passing By:
-      <year: 2005
+      <date: 2005
       <<: *low
       Knuddelmaus: no
       Between Us and Them: no
@@ -136,7 +136,7 @@ Ulrich Schnauss:
       Crazy for You:
       Wherever You Are:
    A Strangely Isolated Place:
-      <year: 2003
+      <date: 2003
       <<: *low
       Gone Forever: no
       On My Own: no
@@ -148,7 +148,7 @@ Ulrich Schnauss:
       A Strangely Isolated Place:
 Underworld:
    Beaucoup Fish:
-      <year: 1999
+      <date: 1999
       <<: &low
          <flow: 1,501,433
          <link: https://youtu.be/TlLWFa1b1Bc
@@ -164,7 +164,7 @@ Underworld:
       Something Like a Mama:
       Moaner:
    Second Toughest in the Infants:
-      <year: 1996
+      <date: 1996
       <<: *low
       Juanita / Kiteless / To Dream of Love: no
       Banstyle / Sappys Curry: no
@@ -175,7 +175,7 @@ Underworld:
       Blueski: len
       Stagger: yes
    Dubnobasswithmyheadman:
-      <year: 1993
+      <date: 1993
       <<: *low
       Dark & Long: yes
       Mmm Skyscraper I Love You:
@@ -205,40 +205,40 @@ Us3:
       The Darkside:
 Usher:
    “A”:
-      <year: 2018
+      <date: 2018
    Hard II Love:
-      <year: 2016
+      <date: 2016
    Looking 4 Myself:
-      <year: 2012
+      <date: 2012
       <flow: 11,441,786
       <link: https://youtu.be/nNTyfVh3nmU
       Climax:
    Versus:
-      <year: 2010
+      <date: 2010
    Raymond v. Raymond:
-      <year: 2010
+      <date: 2010
    Here I Stand:
-      <year: 2008
+      <date: 2008
    You Make Me Wanna:
-      <year: 2004
+      <date: 2004
    Sex Appeal:
-      <year: 2004
+      <date: 2004
    Confessions:
-      <year: 2004
+      <date: 2004
       <flow: 67,359,945
       <link: https://youtu.be/GxBSyx85Kp8
       Burn:
       Confessions, Pt. II:
       Yeah!:
    8701:
-      <year: 2001
+      <date: 2001
       <flow: 19,764,570
       <link: https://youtu.be/o3IWTfcks4k
       U Got It Bad:
    My Way:
-      <year: 1997
+      <date: 1997
    Usher:
-      <year: 1994
+      <date: 1994
 Van Halen:
    Van Halen:
       <flow: 4,541,679
@@ -307,13 +307,13 @@ Wilco:
       One Sunday Morning:
 Will Smith:
    Lost and Found:
-      <year: 2005
+      <date: 2005
    Born to Reign:
-      <year: 2002
+      <date: 2002
    Willennium:
-      <year: 1999
+      <date: 1999
    Big Willie Style:
-      <year: 1997
+      <date: 1997
       <flow: 6,208,236
       <link: https://youtu.be/3JcmQONgXJM
       Gettin’ Jiggy Wit It:
@@ -404,9 +404,9 @@ Yppah:
 Zero 7:
    <updated: 2019-2-1
    Yeah Ghost:
-      <year: 2009
+      <date: 2009
    The Garden:
-      <year: 2006
+      <date: 2006
       <<: &low
          <flow: 544,309
          <link: https://youtu.be/INn1C6ImJKg
@@ -423,7 +423,7 @@ Zero 7:
       Crosses: yes
       Waiting to Die:
    When It Falls:
-      <year: 2004
+      <date: 2004
       <<: *low
       Warm Sound:
       Home:
@@ -437,7 +437,7 @@ Zero 7:
       In Time:
       Morning Song:
    Simple Things:
-      <year: 2001
+      <date: 2001
       <<: *low
       I Have Seen: no
       Polaris: yes
