@@ -91,24 +91,11 @@ Daniel Lanois:
       St. Ann’s Gold:
       Amazing Grace:
 Dave Matthews Band:
-   Crash:
+   Stand Up:
+      <date: 2005
       <<: &low
          <flow: 1,697,059
          <link: https://youtu.be/k7in-9E3ImQ
-      So Much to Say: yes
-      Two Step:
-      Crash Into Me: yes
-      Too Much:
-      41:
-      Say Goodbye:
-      Drive In Drive Out:
-      Let You Down:
-      Lie in Our Graves:
-      Cry Freedom:
-      Tripping Billies:
-      Proudest Monkey:
-   Stand Up:
-      <<: *low
       Dreamgirl:
       Old Dirt Hill (Bring That Beat Back):
       Stand Up (for It):
@@ -123,7 +110,41 @@ Dave Matthews Band:
       You Might Die Trying: yes
       Steady as We Go:
       Hunger for the Great Light:
+   Busted Stuff:
+      <date: 2002
+   Everyday:
+      <date: 2001
+   Before These Crowded Streets:
+      <date: 1998
+      <<: *low
+      Pantala Naga Pampa: len
+      Rapunzel: no
+      The Last Stop: no
+      Don’t Drink the Water: no
+      Stay (Wasting Time): no
+      Halloween: no
+      The Stone:
+      Crush:
+      The Dreaming Tree:
+      Pig:
+      Spoon:
+   Crash:
+      <date: 1996
+      <<: *low
+      So Much to Say: yes
+      Two Step:
+      Crash Into Me: yes
+      Too Much:
+      41:
+      Say Goodbye:
+      Drive In Drive Out:
+      Let You Down:
+      Lie in Our Graves:
+      Cry Freedom:
+      Tripping Billies:
+      Proudest Monkey:
    Under the Table and Dreaming:
+      <date: 1994
       <<: *low
       The Best of What’s Around:
       What Would You Say:
