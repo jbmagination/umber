@@ -1352,6 +1352,21 @@ Grizzly Bear:
       Colorado: yes
    Horn of Plenty:
       <date: 2004
+      <<: *low
+      Deep Sea Diver: no
+      Don’t Ask: no
+      Alligator: len
+      Campfire: no
+      Shift: len
+      Disappearing Act: no
+      Fix It: no
+      Merge: len
+      A Good Place:
+      Showcase:
+      La Duchess Anne:
+      Eavesdropping:
+      Service Bell: len
+      This Song:
 Groove Armada:
    Soundboy Rock:
       <date: 2007

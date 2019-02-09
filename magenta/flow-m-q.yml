@@ -376,7 +376,7 @@ Matt Lange:
          <flow: 66,740
          <link: https://youtu.be/7uIEtL8Ui9U
       Staccato (original mix):
-      Ether (original mix):
+      Ether (original mix): yes
       Underscore (original mix): yes
    I Can’t Forgive / Inverse / This Is How It Is:
       <date: 2014-03-24
@@ -826,27 +826,47 @@ Nicolas Jaar:
       Three Sides of Nazareth:
       History Lesson:
 Nightmares on Wax:
-   Carboot Soul:
+   Shape the Future:
+      <date: 2018
       <<: &low
          <flow: 1,379,695
          <link: https://youtu.be/Q692lHFaLVM
-      Les Nuits: yes
-      Morse: yes
-      Ethnic Majority: yes
-      Jorgé: len
-      Finer: yes
-      Ease Jimi: no
-      Argha Noah: yes
-      Fire in the Middle: yes
-      Survival: no
-      Capumcap: no
+      Back to Nature: yes
+      Tell My Vision: no
+      Shape the Future: no
+      On It Maestro: no
+      Tomorrow: yes
+      Typical: no
+      Tenor Fly: len
+      Citizen Kane: no
+      Deep Shadows:
+      Gotta Smile: no
+      The Othership: yes
    Ground Floor:
+      <date: 2016
       <<: *low
       World Inside: no
       Scratch That!:
       Reclaim the Balcony:
       Dirty Triumphant:
+   Feelin’ Good:
+      <date: 2013
+   Thought So:
+      <date: 2008
+      <<: *low
+      Intro: len
+      Da Feelin: no
+      195lbs: no
+      Be There: no
+      Bringin It: no
+      Calling: yes
+      Moretime: yes
+      Pretty Dark: no
+      Hear in Colour: yes
+      Still? Yes!: no
+      Hey! Ego: no
    In a Space Outta Sound:
+      <date: 2006
       <<: *low
       Passion: yes
       The Sweetest: no
@@ -860,20 +880,23 @@ Nightmares on Wax:
       I Am You: no
       Soul Purpose: yes
       African Pirates: no
-   Shape the Future:
+   Mind Elevation:
+      <date: 2002
+   Carboot Soul:
+      <date: 1999
       <<: *low
-      Back to Nature: yes
-      Tell My Vision: no
-      Shape the Future: no
-      On It Maestro: no
-      Tomorrow: yes
-      Typical: no
-      Tenor Fly: len
-      Citizen Kane: no
-      Deep Shadows:
-      Gotta Smile: no
-      The Othership: yes
+      Les Nuits: yes
+      Morse: yes
+      Ethnic Majority: yes
+      Jorgé: len
+      Finer: yes
+      Ease Jimi: no
+      Argha Noah: yes
+      Fire in the Middle: yes
+      Survival: no
+      Capumcap: no
    Smokers Delight:
+      <date: 1995
       <<: *low
       Nights Introlude: yes
       Dreddoverboard: no
@@ -891,19 +914,6 @@ Nightmares on Wax:
       Rise: yes
       Rise (reprise): len
       Gambia via Vagator Beach: yes
-   Thought So…:
-      <<: *low
-      Intro: len
-      Da Feelin: no
-      195lbs: no
-      Be There: no
-      Bringin It: no
-      Calling: yes
-      Moretime: yes
-      Pretty Dark: no
-      Hear in Colour: yes
-      Still? Yes!: no
-      Hey! Ego: no
 Nirvana:
    In Utero:
       <flow: 17,019,949
