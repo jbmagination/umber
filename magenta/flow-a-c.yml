@@ -161,11 +161,21 @@ Aerosmith:
 Air:
    Music for Museum:
       <date: 2014
-   Love 2:
-      <date: 2009
       <<: &low
          <flow: 1,402,647
          <link: https://youtu.be/XUjAtYQkFm8
+      Land Me: no
+      Reverse Bubble: no
+      The Dream of Yi:
+      Angel Palace: no
+      Art Tatoo: no
+      Kiss Volcano: yes
+      Integration Desintegration:
+      Octogum:
+      North Cloud:
+   Love 2:
+      <date: 2009
+      <<: *low
       Do the Joy:
       Love: len
       So Light Is Her Footfall:
@@ -1325,8 +1335,10 @@ Bryan Adams:
       Have You Ever Really Loved A Woman?:
 Burial:
    Untrue:
-      <flow: 96,060
-      <link: https://youtu.be/E2qLD9c3Gq4
+      <date: 2007
+      <<: &low
+         <flow: 96,060
+         <link: https://youtu.be/E2qLD9c3Gq4
       Archangel: no
       Near Dark:
       Ghost Hardware: yes
@@ -1339,6 +1351,20 @@ Burial:
       Homeless:
       UK: len
       Raver:
+   Burial:
+      <date: 2006
+      <<: *low
+      Distant Lights: no
+      Spaceape: no
+      Wounder: no
+      Night Bus: len
+      Southern Comfort: yes
+      U Hurt Me:
+      Gutted:
+      Forgive:
+      Broken Home:
+      Prayer:
+      Pirates:
 Bush:
    Sixteen Stone:
       <<: &low

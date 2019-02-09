@@ -22,15 +22,15 @@ document.body.append(xc);
 
 if (extras)
 {
-   var entry = extras.split(' / ')[0].split(' · ');
+   var entry = extras.split(' · ');
 
-   var artist = entry.join(' & ');
+   /* this needs to be before artist */
    var song = entry.shift();
+   var artist = entry.join(' & ');
 
    /* sometimes you will only have publication year,
    and sometimes you will only have release year */
    var year = dc.match(/\d{4}/)[0];
-
    xc.textContent = `[${dn}, ${year}, "${vd}", "${artist} - ${song}"],`;
 }
 else
