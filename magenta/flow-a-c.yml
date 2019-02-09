@@ -793,10 +793,27 @@ Ben Howard:
       Gracious:
       Promise: yes
 Bibio:
-   Ambivalence Avenue:
+   Silver Wilkinson:
+      <date: 2013
       <<: &low
          <flow: 102,143
          <link: https://youtu.be/jgrgCaSo8e4
+      The First Daffodils: len
+      Dye the Water Green: yes
+      Wulf: len
+      Mirroring All:
+      À tout à l’heure:
+      Sycamore Silhouetting:
+      You:
+      Raincoat:
+      Look at Orion!:
+      Business Park:
+      You Won’t Remember...:
+   Mind Bokeh:
+      <date: 2011
+   Ambivalence Avenue:
+      <date: 2009-06-22
+      <<: *low
       Ambivalence Avenue:
       Jealous of Roses: len
       All the Flowers: len
@@ -809,19 +826,25 @@ Bibio:
       The Palm of Your Wave: len
       Cry! Baby!:
       Dwrcan:
-   Silver Wilkinson:
+   Vignetting the Compost:
+      <date: 2009-02-03
       <<: *low
-      The First Daffodils: len
-      Dye the Water Green: yes
-      Wulf: len
-      Mirroring All:
-      À tout à l’heure:
-      Sycamore Silhouetting:
-      You:
-      Raincoat:
-      Look at Orion!:
-      Business Park:
-      You Won’t Remember...:
+      Flesh Rots, Pip Sown: no
+      Mr and Mrs Compost: len
+      Everglad Everglade: len
+      Dopplerton: no
+      Great Are the Piths: len
+      Odd Paws: len
+      Under the Pier: no
+      Weekend Wildfire: no
+      The Clothesline and the Silver Birch: len
+      Torn Under the Window Light: len
+      The Ephemeral Bluebell: no
+      Over the Far and Hills Away: len
+      Amongst the Bark and Fungus:
+      Top Soil: len
+      Thatched:
+      The Garden Shelter:
 Bicep:
    Bicep:
       <flow: 5,275,555
@@ -1214,7 +1237,16 @@ Bonobo:
       Sugar Rhyme: no
       Silver: yes
 Boyz II Men:
+   II:
+      <date: 1994
+      <flow: 12,910,607
+      <link: https://youtu.be/fV8vB1BB2qc
+      I’ll Make Love To You:
+      On Bended Knee:
+   Christmas Interpretations:
+      <date: 1993
    Cooleyhighharmony:
+      <date: 1991
       <flow: 13,061,094
       <link: https://youtu.be/zDKO6XYXioc
       End Of The Road:

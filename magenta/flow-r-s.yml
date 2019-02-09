@@ -1,27 +1,32 @@
 Radiohead:
    A Moon Shaped Pool:
+      <date: 2016
       <flow: 18,418,862
       <link: https://youtu.be/TTAU7lLDZYU
       Burn the Witch:
       Daydreaming:
       Present Tense:
       The Numbers:
-   Amnesiac:
-      <<: &low
-         <flow: 1,342,289
-         <link: https://youtu.be/GoLJJRIWCLU
-      Packt Like Sardines in a Crushd Tin Box:
-      Pyramid Song: yes
-      Pulk/Pull Revolving Doors:
-      You and Whose Army?:
-      I Might Be Wrong: yes
-      Knives Out: yes
-      Morning Bell/Amnesiac:
-      Dollars and Cents:
-      Hunting Bears: yes
-      Like Spinning Plates:
-      Life in a Glasshouse:
+   The King of Limbs:
+      <date: 2011
+      <flow: 6,945,897
+      <link: https://youtu.be/cfOa1a8hYP8
+      Lotus Flower:
+   In Rainbows:
+      <date: 2007
+      <<: *low
+      15 Step:
+      Bodysnatchers:
+      Nude:
+      Weird Fishes/Arpeggi: yes
+      All I Need:
+      Faust Arp: len
+      Reckoner: yes
+      House of Cards: yes
+      Jigsaw Falling Into Place:
+      Videotape:
    Hail to the Thief:
+      <date: 2003
       <<: *low
       2 + 2 = 5:
       Sit Down. Stand Up.:
@@ -37,19 +42,24 @@ Radiohead:
       Myxomatosis.:
       Scatterbrain.:
       A Wolf at the Door.:
-   In Rainbows:
-      <<: *low
-      15 Step:
-      Bodysnatchers:
-      Nude:
-      Weird Fishes/Arpeggi: yes
-      All I Need:
-      Faust Arp: len
-      Reckoner: yes
-      House of Cards: yes
-      Jigsaw Falling Into Place:
-      Videotape:
+   Amnesiac:
+      <date: 2001
+      <<: &low
+         <flow: 1,342,289
+         <link: https://youtu.be/GoLJJRIWCLU
+      Packt Like Sardines in a Crushd Tin Box:
+      Pyramid Song: yes
+      Pulk/Pull Revolving Doors:
+      You and Whose Army?:
+      I Might Be Wrong: yes
+      Knives Out: yes
+      Morning Bell/Amnesiac:
+      Dollars and Cents:
+      Hunting Bears: yes
+      Like Spinning Plates:
+      Life in a Glasshouse:
    Kid A:
+      <date: 2000
       <<: *low
       Everything in Its Right Place: yes
       Kid A:
@@ -62,6 +72,7 @@ Radiohead:
       Morning Bell:
       Motion Picture Soundtrack:
    OK Computer:
+      <date: 1997
       <flow: 8,115,612
       <link: https://youtu.be/u5CVsCnxyXg
       I Promise:
@@ -69,20 +80,18 @@ Radiohead:
       Lift:
       No Surprises:
       Paranoid Android:
-   Pablo Honey:
-      <flow: 28,322,103
-      <link: https://youtu.be/XFkzRNyygfk
-      Creep:
    The Bends:
+      <date: 1995
       <flow: 6,436,109
       <link: https://youtu.be/n5h0qHwNrHk
       Fake Plastic Trees:
       High & Dry:
       Street Spirit:
-   The King of Limbs:
-      <flow: 6,945,897
-      <link: https://youtu.be/cfOa1a8hYP8
-      Lotus Flower:
+   Pablo Honey:
+      <date: 1993
+      <flow: 28,322,103
+      <link: https://youtu.be/XFkzRNyygfk
+      Creep:
 Rage Against the Machine:
    Evil Empire:
       <flow: 5,401,703
