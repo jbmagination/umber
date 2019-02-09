@@ -595,6 +595,21 @@ Bananarama:
    Deep Sea Skiving:
       <year: 1983
 Bat for Lashes:
+   The Bride:
+      <year: 2016
+      <<: *low
+      I Do: len
+      Joe’s Dream: yes
+      In God’s House:
+      Honeymooning Alone:
+      Sunday Love:
+      Never Forgive the Angels:
+      Close Encounters:
+      Widow’s Peak:
+      Land’s End:
+      If I Knew:
+      I Will Love Again:
+      In Your Bed:
    The Haunted Man:
       <year: 2012
       <<: &low
