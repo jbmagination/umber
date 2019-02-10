@@ -7,10 +7,10 @@
    font-family: FontAwesome;
 }
 .fa-li {
-  left: calc(15em / -7);
-  position: absolute;
-  text-align: center;
-  width: calc(15em / 7);
+   left: calc(15em / -7);
+   position: absolute;
+   text-align: center;
+   width: calc(15em / 7);
 }
 .fa-link {
    font-weight: normal;
@@ -24,11 +24,11 @@
    margin-left: .3em;
 }
 .fa-ul {
-  list-style-type: none;
-  padding-left: 0;
+   list-style-type: none;
+   padding-left: 0;
 }
 .fa-ul > li {
-  position: relative;
+   position: relative;
 }
 :hover > .fa-link {
    visibility: visible;
