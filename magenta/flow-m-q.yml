@@ -933,6 +933,24 @@ Nightmares on Wax:
       Rise: yes
       Rise (reprise): len
       Gambia via Vagator Beach: yes
+   A Word of Science The 1st & Final Chapter:
+      <date: 1991
+      <<: *low
+      Nights Interlude: yes
+      A Case of Funk:
+      Coming Down:
+      Stop (Crack): len
+      Biofeedback:
+      Mega Donutz:
+      Playtime:
+      Aftermath:
+      Fun:
+      Back Into Time:
+      Dextrous:
+      B.W.T.M.: len
+      Sal:
+      E.A.S.E.:
+      How Ya Doin’:
 Nirvana:
    In Utero:
       <flow: 17,019,949
@@ -1199,9 +1217,24 @@ Pearl Jam:
       Leash:
       Indifference:
 Pendulum:
+   In Silico:
+      <date: 2008
+      <<: &low
+         <flow: 4,335,083
+         <link: https://youtu.be/ogMNV33AhCY
+      Showdown: no
+      Different: no
+      Propane Nightmares: no
+      Visions: no
+      Midnight Runner: no
+      The Other Side:
+      Mutiny:
+      9,000 Miles:
+      Granite:
+      The Tempest:
    Hold Your Colour:
-      <flow: 4,335,083
-      <link: https://youtu.be/ogMNV33AhCY
+      <date: 2005
+      <<: *low
       Prelude: len
       Slam: yes
       Plasticworld: yes

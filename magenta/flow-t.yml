@@ -801,22 +801,11 @@ The Rolling Stones:
       Dead Flowers:
       Moonlight Mile: yes
 The Smiths:
-   Meat Is Murder:
+   Strangeways, Here We Come:
+      <date: 1987
       <<: &low
          <flow: 2,538,862
          <link: https://youtu.be/hnpILIIo9ek
-      The Headmaster Ritual:
-      Rusholme Ruffians:
-      I Want the One I Can’t Have:
-      What She Said: len
-      That Joke Isn’t Funny Anymore:
-      How Soon Is Now?: yes
-      Nowhere Fast: len
-      Well I Wonder: yes
-      Barbarism Begins at Home: yes
-      Meat Is Murder:
-   Strangeways, Here We Come:
-      <<: *low
       A Rush and a Push and the Land Is Ours: yes
       I Started Something I Couldn’t Finish:
       Death of a Disco Dancer:
@@ -828,11 +817,26 @@ The Smiths:
       Death at One’s Elbow: len
       I Won’t Share You: len
    The Queen Is Dead:
-      <flow: 8,197,846
+      <date: 1986
+      <flow: 9,429,956
       <link: https://youtu.be/y9Gf-f_hWpU
       There Is a Light That Never Goes Out:
+   Meat Is Murder:
+      <date: 1985
+      <<: *low
+      The Headmaster Ritual:
+      Rusholme Ruffians:
+      I Want the One I Can’t Have:
+      What She Said: len
+      That Joke Isn’t Funny Anymore:
+      How Soon Is Now?: yes
+      Nowhere Fast: len
+      Well I Wonder: yes
+      Barbarism Begins at Home: yes
+      Meat Is Murder:
    The Smiths:
-      <flow: 7,093,832
+      <date: 1984
+      <flow: 7,417,487
       <link: https://youtu.be/cJRP3LRcUFg
       This Charming Man:
 The Stranglers:

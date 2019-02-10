@@ -1047,7 +1047,7 @@ Boards of Canada:
       Gemini: len
       Reach for the Dead: yes
       White Cyclosa: yes
-      Jacquard Causeway:
+      Jacquard Causeway: no
       Telepath: len
       Cold Earth:
       Transmisiones Ferox: len
@@ -1066,7 +1066,7 @@ Boards of Canada:
       <<: *low
       Left Side Drive: yes
       Heard From Telegraph Lines: len
-      Skyliner:
+      Skyliner: no
       Under the Coke Sign: len
    The Campfire Headphase:
       <date: 2005
