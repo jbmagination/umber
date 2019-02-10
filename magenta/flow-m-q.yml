@@ -1480,23 +1480,33 @@ Pizzicato Five:
       Birth of Cool:
       This Year’s Girl 6: len
 Plaid:
-   The Digging Remedy:
-      <date: 2016
-   Reachy Prints:
-      <date: 2014
-   Scintilli:
-      <date: 2011
-   Greedy Baby:
-      <date: 2006
-   Spokes:
-      <date: 2003
    Double Figure:
       <date: 2001
-   Rest Proof Clockwork:
-      <date: 1999
       <<: &low
          <flow: 55,939
          <link: https://youtu.be/eH1IMB8KJok
+      Eyen: no
+      Squance: no
+      Assault on Precinct Zero: no
+      Zamami: yes
+      Silversum:
+      Ooh Be Do:
+      Light Rain:
+      Tak 1: len
+      New Family:
+      Zala:
+      Twin Home:
+      Tak 2: len
+      Sincetta:
+      Tak 3: len
+      Porn Coconut Co:
+      Tak 4: len
+      Ti Bom:
+      Tak 5: len
+      Manyme:
+   Rest Proof Clockwork:
+      <date: 1999
+      <<: *low
       Shackbu:
       Ralome: yes
       Little People:
@@ -1531,10 +1541,6 @@ Plaid:
       Forever: len
       Getting: len
       Milh: yes
-   Mind Over Rhythm Meets the Men From Plaid on the Planet Luv:
-      <date: 1995
-   Mbuki Mvuki:
-      <date: 1991
 Portishead:
    Dummy:
       <<: &low

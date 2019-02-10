@@ -1589,11 +1589,24 @@ Chris Isaak:
       <link: https://youtu.be/fQyG6Ctsks4
       Wicked Game:
 Cocteau Twins:
-   Four-Calendar Café:
-      <date: 1993
+   Milk & Kisses:
+      <date: 1996
       <<: &low
          <flow: 202,206
          <link: https://youtu.be/6KnYw4EwYGc
+      Violaine: no
+      Serpentskirt: yes
+      Tishbite:
+      Half‐Gifts:
+      Calfskin Smack:
+      Rilkean Heart:
+      Ups:
+      Eperdu:
+      Treasure Hiding:
+      Seekers Who Are Lovers:
+   Four-Calendar Café:
+      <date: 1993
+      <<: *low
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:
