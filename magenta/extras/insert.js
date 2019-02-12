@@ -1,24 +1,25 @@
 'use strict';
 /* needs to work in playlist view */
-var vd = new URL(location).searchParams.get('v');
+var vdeo = document.querySelector('[property="og:image"]').content
+.split(/[/.]/).filter((ae, bd) => bd == 6 || ae == 'hqdefault').join('/');
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
-var dc = document.getElementById('eow-description').innerText;
+var dscr = document.getElementById('eow-description').innerText;
 
 /* dont combine this with other variable declarations as it will be temping to
 alphabetize them. just because it has year doesnt mean its a "topic" video */
-var extras = dc.split('\n').find(ae => ae.includes('·'));
+var extras = dscr.split('\n').find(ae => ae.includes('·'));
 
-var dn = Math.floor(new Date / 1000);
+var tmsp = Math.floor(new Date / 1000);
 
-var xc = document.createElement('textarea');
-xc.cols = 70;
-xc.style.font = 'medium Consolas';
-xc.style.position = 'fixed';
-xc.style.right = 0;
-xc.style.top = '50px';
-xc.style.zIndex = 6;
-document.body.append(xc);
+var txar = document.createElement('textarea');
+txar.cols = 70;
+txar.style.font = 'medium Consolas';
+txar.style.position = 'fixed';
+txar.style.right = 0;
+txar.style.top = '50px';
+txar.style.zIndex = 6;
+document.body.append(txar);
 
 if (extras)
 {
@@ -30,8 +31,8 @@ if (extras)
 
    /* sometimes you will only have publication year,
    and sometimes you will only have release year */
-   var year = dc.match(/\d{4}/)[0];
-   xc.textContent = `[${dn}, ${year}, "${vd}", "${artist} - ${song}"],`;
+   var year = dscr.match(/\d{4}/)[0];
+   txar.textContent = `[${tmsp}, ${year}, "${vdeo}", "${artist} - ${song}"],`;
 }
 else
 {
@@ -42,5 +43,5 @@ else
    i suppose we could add a 3rd case to account for those which would allow
    graceful degradation before we get to this point, but that is for another
    day. */
-   xc.textContent = `[${dn}, 0000, "${vd}", "${entry}"],`;
+   txar.textContent = `[${tmsp}, 0000, "${vdeo}", "${entry}"],`;
 }
