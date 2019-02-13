@@ -99,7 +99,7 @@ async function main()
 
    // both sides of the test can contain uppercase on mobile
    let result = (await (
-      await fetch('/mauve/magenta/assets/data.json')
+      await fetch('/mauve/assets/1.json')
    ).json()).filter(af => RegExp(query, 'i').test(af[1] + af[3]));
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(af => fgr(af))

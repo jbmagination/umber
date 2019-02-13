@@ -3,9 +3,7 @@ const plyr = document.getElementById('player');
 
 async function main()
 {
-   const vdeo = (await (
-      await fetch('/mauve/magenta/assets/data.json')
-   ).json()).find(
+   const vdeo = (await (await fetch('/mauve/assets/1.json')).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );
    const attr = vdeo[2].split('/');

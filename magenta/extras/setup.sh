@@ -1,13 +1,10 @@
 #!/bin/dash -e
 case $1 in
 -i)
-   mkdir -p /usr/share/magenta
-   ln -f -s "$PWD"/../assets/data.json /usr/share/magenta
-   ln -f -s "$PWD"/available.awk "$PWD"/slugify.sh "$PWD"/flow.sh /usr/bin
+   ln -f -s "$PWD"/slugify.sh /usr/local/bin
    ;;
 -r)
-   cd /usr
-   rm -f -r bin/available.awk bin/slugify.sh bin/flow.sh share/magenta
+   rm -f /usr/local/bin/slugify.sh
    ;;
 *)
    echo 'synopsis: setup.sh <operation>
