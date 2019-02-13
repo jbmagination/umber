@@ -10,7 +10,7 @@ JavaScript does not respect numeric key order:
 q = { 2: 'two', 1: 'one', 0: 'zero' }
 Object [ "zero", "one", "two" ]
 
-q = { '2': 'c', '1': 'b', '0': 'a' }
+q = { '2': 'two', '1': 'one', '0': 'zero' }
 Object [ "zero", "one", "two" ]
 ~~~
 
