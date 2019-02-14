@@ -37,12 +37,12 @@ function fgr(vid)
       ie.src = 'https://github.com/cup/mauve/releases/download/' +
       attr[1] + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
-      url = new URL(location.origin + '/mauve/watch/');
+      url = new URL(location.origin + '/mauve/play/');
       url.searchParams.set('v', vid[0]);
       break;
    case 'r':
       ie.src = 'https://i.redd.it/' + attr[2] + '.jpg';
-      url = new URL(location.origin + '/mauve/watch/');
+      url = new URL(location.origin + '/mauve/play/');
       url.searchParams.set('v', vid[0]);
       break;
    case 's':
