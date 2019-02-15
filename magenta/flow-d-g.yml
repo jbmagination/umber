@@ -114,6 +114,19 @@ Dave Matthews Band:
       <date: 2002
    Everyday:
       <date: 2001
+      <<: *low
+      I Did It: no
+      When the World Ends: no
+      The Space Between: no
+      Dreams of Our Fathers: no
+      So Right: no
+      If I Had It All:
+      What You Are:
+      Angel:
+      Fool to Think:
+      Sleep to Dream Her:
+      Mother Father:
+      Everyday:
    Before These Crowded Streets:
       <date: 1998
       <<: *low
