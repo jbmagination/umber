@@ -448,48 +448,11 @@ Audioslave:
       <link: https://youtu.be/WC5FdFlUcl0
       Be Yourself:
 Autechre:
-   Amber:
+   Exai:
+      <date: 2013
       <<: &low
          <flow: 111,359
          <link: https://youtu.be/hWGUnrIiOoI
-      Foil: no
-      Montreal: no
-      Silverside: no
-      Slip: no
-      Glitch: no
-      Piezo: no
-      Nine: yes
-      Further: no
-      Yulquen: yes
-      Nil: yes
-      Teartear: no
-   Draft 7.30:
-      <<: *low
-      Xylin Room:
-      IV VV IV VV VIII:
-      6IE.CR:
-      TAPR:
-      Surripere: yes
-      Theme of Sudden Roundabout:
-      VL AL 5:
-      P.NTIL:
-      V-PROC:
-      Reniform Puls:
-   EP7:
-      <<: *low
-      Rpeg:
-      Ccec:
-      Squeller:
-      Left Blank:
-      Outpt:
-      Dropp: yes
-      Liccflii:
-      Maphive 6.1:
-      Zeiss Contarex:
-      Netlon Sentinel:
-      Pir:
-   Exai:
-      <<: *low
       FLeure: no
       irlite (get 0): no
       prac-f: no
@@ -507,20 +470,10 @@ Autechre:
       deco Loc: no
       recks on: no
       YJY UX: no
-   Incunabula:
-      <<: *low
-      Kalpol Introl: yes
-      Bike: yes
-      Autriche: yes
-      Bronchus 2:
-      Basscadet:
-      Eggshell: yes
-      Doctrine:
-      Maetl:
-      Windwind: yes
-      Lowride:
-      444: yes
+   ah³eo & ha³oe (ae3o3):
+      <date: 2011
    Oversteps:
+      <date: 2010
       <<: *low
       r ess: yes
       ilanders:
@@ -537,6 +490,7 @@ Autechre:
       krYlon:
       Yuop: yes
    Quaristice:
+      <date: 2008
       <<: *low
       Altibzz: yes
       The Plc: no
@@ -558,7 +512,45 @@ Autechre:
       chenc9: no
       Notwo: yes
       Outh9X: no
+   æo³ & ³hæ:
+      <date: 2005
+   Untilted:
+      <date: 2005
+   Draft 7.30:
+      <date: 2003
+      <<: *low
+      Xylin Room:
+      IV VV IV VV VIII:
+      6IE.CR:
+      TAPR:
+      Surripere: yes
+      Theme of Sudden Roundabout:
+      VL AL 5:
+      P.NTIL:
+      V-PROC:
+      Reniform Puls:
+   Confield:
+      <date: 2001
+   EP7:
+      <date: 1999
+      <<: *low
+      Rpeg:
+      Ccec:
+      Squeller:
+      Left Blank:
+      Outpt:
+      Dropp: yes
+      Liccflii:
+      Maphive 6.1:
+      Zeiss Contarex:
+      Netlon Sentinel:
+      Pir:
+   LP5:
+      <date: 1998
+   Chiastic Slide:
+      <date: 1997
    Tri Repetae:
+      <date: 1995
       <<: *low
       Dael:
       Clipper:
@@ -570,6 +562,34 @@ Autechre:
       Gnit:
       Overand: yes
       Rsdio:
+   Amber:
+      <date: 1994
+      <<: *low
+      Foil: no
+      Montreal: no
+      Silverside: no
+      Slip: no
+      Glitch: no
+      Piezo: no
+      Nine: yes
+      Further: no
+      Yulquen: yes
+      Nil: yes
+      Teartear: no
+   Incunabula:
+      <date: 1993
+      <<: *low
+      Kalpol Introl: yes
+      Bike: yes
+      Autriche: yes
+      Bronchus 2:
+      Basscadet:
+      Eggshell: yes
+      Doctrine:
+      Maetl:
+      Windwind: yes
+      Lowride:
+      444: yes
 Bad Company:
    Bad Company:
       <flow: 3,524,989
