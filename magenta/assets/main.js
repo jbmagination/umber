@@ -73,7 +73,7 @@ function fgr(vid)
       }
       else
       {
-         ie.src += 'maxresdefault.jpg';
+         ie.src += 'sddefault.jpg';
       }
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
