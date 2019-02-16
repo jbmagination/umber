@@ -559,25 +559,11 @@ Sade:
       I Will Be Your Friend:
       Why Can’t We Live Together?:
 Saint Etienne:
-   Foxbase Alpha:
+   Tales From Turnpike House:
+      <date: 2005
       <<: &low
          <flow: 412,330
          <link: https://youtu.be/vZAajrxvDs4
-      This Is Radio Etienne: len
-      Only Love Can Break Your Heart: yes
-      Wilson: len
-      Carnt Sleep: yes
-      Girl VII:
-      Spring: yes
-      She’s the One:
-      Stoned to Say the Least:
-      Nothing Can Stop Us: yes
-      Etienne Gonna Die: len
-      London Belongs to Me:
-      Like the Swallow:
-      Dilworth’s Theme: len
-   Tales From Turnpike House:
-      <<: *low
       Side Streets: len
       A Good Thing: no
       Sun in My Morning: len
@@ -591,7 +577,14 @@ Saint Etienne:
       Stars Above Us:
       Teenage Winter:
       Goodnight: yes
+   Finisterre:
+      <date: 2002
+   Sound of Water:
+      <date: 2000
+   Good Humor:
+      <date: 1998
    Tiger Bay:
+      <date: 1994
       <<: *low
       Urban Clearway:
       Former Lover: yes
@@ -605,6 +598,42 @@ Saint Etienne:
       Tankerville:
       Western Wind: len
       The Boy Scouts of America: len
+   So Tough:
+      <date: 1993
+      <<: *low
+      Mario’s Cafe: no
+      Railway Jam: no
+      Date With Spelman: len
+      Calico: no
+      Avenue: no
+      You’re in a Bad Way: no
+      Memo to Pricey: len
+      Hobart Paving:
+      Leafhound:
+      Clock Milk: len
+      Conchita Martinez:
+      No Rainbows for Me:
+      Here Come Clown Feet: len
+      Junk the Morgue:
+      Who Do You Think You Are:
+      Chicken Soup: len
+      Join Our Club:
+   Foxbase Alpha:
+      <date: 1991
+      <<: *low
+      This Is Radio Etienne: len
+      Only Love Can Break Your Heart: yes
+      Wilson: len
+      Carnt Sleep: yes
+      Girl VII:
+      Spring: yes
+      She’s the One:
+      Stoned to Say the Least:
+      Nothing Can Stop Us: yes
+      Etienne Gonna Die: len
+      London Belongs to Me:
+      Like the Swallow:
+      Dilworth’s Theme: len
 Samaris:
    Black Lights:
       <<: &low

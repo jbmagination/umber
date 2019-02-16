@@ -1794,6 +1794,37 @@ Conjure One:
       Pandora: yes
       Sleep:
       Premonition (reprise):
+Crazy P:
+   Walk Dance Talk Sing:
+      <date: 2015
+      <<: &low
+         <flow: 159,508
+         <link: https://youtu.be/Ph5psMQoirU
+      Like a Fool: yes
+      The Come On:
+      Echo:
+      Cruel Mistress:
+      Magnetise:
+      Something More:
+      Walk Dance Talk Sing:
+      Scrap the Book:
+      The Way:
+      Hear My Song:
+      Witch Doctor:
+   When We On:
+      <date: 2011
+      <<: *low
+      Open for Service:
+      Changes:
+      Beatbox:
+      The Unbearable Lightness of Being:
+      Heartbreaker: yes
+      Twisted:
+      Sonar:
+      Your Dark Energy:
+      Eruption:
+      Wecanonlybewhoweare:
+      Future Beat:
 Curve:
    Cuckoo:
       <flow: 35,814
