@@ -75,7 +75,7 @@ Also **default** produces an image different from other API versions:
 Our minimum resolution is 426 x 240, so that leaves us with **sd3** and
 **hq3**. **hq3** displays significant artifacts, so we end with **sd3**.
 We cannot trust the source of the page, as some videos that offer the higher
-resolutions appears to only offer the lower resolutions:
+resolutions appear to only offer the lower resolutions:
 
 ~~~sh
 $ curl -s https://www.youtube.com/watch?v=Lq3qF-EUXfo |
@@ -83,9 +83,10 @@ $ curl -s https://www.youtube.com/watch?v=Lq3qF-EUXfo |
 /hqdefault.jpg
 ~~~
 
-Now **sd3** fails with some videos:
+Note **sd3** fails with some videos:
 
-https://i.ytimg.com/vi/KbqzJYml520/sd3.jpg
+- https://i.ytimg.com/vi/KbqzJYml520/sd3.jpg
+- https://i.ytimg.com/vi/KbqzJYml520/hq3.jpg
 
 but these videos are 360p or lower resolution. Typically we will be able to
 find alternative videos of higher quality.

@@ -1,7 +1,6 @@
 'use strict';
 /* needs to work in playlist view */
-var vdeo = document.querySelector('[property="og:image"]').content
-.split(/[/.]/).filter((ae, bd) => bd == 6 || ae == 'hqdefault').join('/');
+var vdeo = document.querySelector('[itemprop="videoId"]').content;
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
 var dscr = document.getElementById('eow-description').innerText;
