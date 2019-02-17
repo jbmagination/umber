@@ -361,20 +361,40 @@ The Clash:
       Career Opportunities: len
       Shepherds Delight:
 The Cranberries:
-   Everybody Else Is Doing It, So Why Can’t We?:
-      <flow: 18,418,118
-      <link: https://youtu.be/G6Kspj3OO0s
-      Dreams:
-      Linger:
+   Bury the Hatchet:
+      <date: 1999
+      <flow: 5,956,495
+      <link: https://youtu.be/ky4CdN0x58A
+      Animal Instinct: no
+      Loud and Clear: len
+      Promises: no
+      You and Me: no
+      Just My Imagination: no
+      Shattered: no
+      Desperate Andy:
+      Saving Grace:
+      Copycat: len
+      What’s on My Mind:
+      Delilah:
+      Fee Fi Fo:
+      Dying in the Sun:
+   To the Faithful Departed:
+      <date: 1996
+      <flow: 7,345,848
+      <link: https://youtu.be/RUmdWdEgHgk
+      When You’re Gone:
    No Need to Argue:
-      <flow: 86,048,223
+      <date: 1994
+      <flow: 88,466,995
       <link: https://youtu.be/6Ejga4kJUts
       Ode To My Family:
       Zombie:
-   To the Faithful Departed:
-      <flow: 7,268,526
-      <link: https://youtu.be/RUmdWdEgHgk
-      When You’re Gone:
+   Everybody Else Is Doing It, So Why Can’t We?:
+      <date: 1993
+      <flow: 19,238,578
+      <link: https://youtu.be/G6Kspj3OO0s
+      Dreams:
+      Linger:
 The Crystal Method:
    Legion of Boom:
       <<: &low

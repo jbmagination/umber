@@ -1,10 +1,10 @@
 #!/bin/dash -e
 if [ "$#" != 1 ]
-then   
-   echo 'synopsis: rename.sh <action>
+then
+   echo 'synopsis: slugify.sh <action>
 action:
 - test
-- run'   
+- run'
    exit 1
 fi
 

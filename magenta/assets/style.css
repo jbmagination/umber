@@ -69,7 +69,6 @@ img
 {
    height: 240px;
    object-fit: cover;
-   object-position: top;
    width: 100%;
 }
 input
