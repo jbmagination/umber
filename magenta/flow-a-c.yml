@@ -1179,11 +1179,26 @@ Boards of Canada:
       Original Nlogax: len
       Whitewater: no
 Bonobo:
-   The North Borders:
-      <date: 2013
+   Migration:
+      <date: 2017
       <<: &low
          <flow: 1,668,464
          <link: https://youtu.be/N7m86aMNjlQ
+      Migration: no
+      Break Apart: no
+      Outlier: no
+      Grains: no
+      Second Sun: no
+      Surface:
+      Bambro Koyo Ganda:
+      Kerala:
+      Ontario:
+      No Reason:
+      7th Sevens:
+      Figures:
+   The North Borders:
+      <date: 2013
+      <<: *low
       First Fires:
       Emkay:
       Cirrus:
