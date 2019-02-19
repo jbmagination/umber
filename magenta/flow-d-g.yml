@@ -577,10 +577,15 @@ Emilíana Torrini:
    Merman:
       <date: 1996
 Empress Of:
-   Me:
+   Woman Is a Word:
+      <date: 2016
       <<: &low
          <flow: 200,617
          <link: https://youtu.be/iwo_HeW4G-Q
+      Woman Is a Word: yes
+   Me:
+      <date: 2015
+      <<: *low
       Everything Is You: no
       Water Water: no
       Standard: yes
@@ -592,6 +597,7 @@ Empress Of:
       Threat: no
       Icon: no
    Systems:
+      <date: 2013
       <<: *low
       Hat Trick: no
       No Means No: no
