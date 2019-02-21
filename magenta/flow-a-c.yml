@@ -924,11 +924,27 @@ Big Boi:
       The Train, Part 2 (Sir Lucious Left Foot Saves the Day):
       Back Up Plan:
 Björk:
-   Homogenic:
-      <date: 1997
+   <search: bjork
+   Vespertine:
+      <date: 2001
       <<: &low
          <flow: 1,040,474
          <link: https://youtu.be/htobTBlCvUU
+      Hidden Place: no
+      Cocoon: no
+      It’s Not Up to You: no
+      Undo: no
+      Pagan Poetry: no
+      Frosti: len
+      Aurora:
+      An Echo, a Stain:
+      Sun in My Mouth: len
+      Heirloom:
+      Harm of Will:
+      Unison:
+   Homogenic:
+      <date: 1997
+      <<: *low
       Hunter: yes
       Jóga: yes
       Unravel: yes
@@ -1549,6 +1565,7 @@ Chicago:
       Where Do We Go From Here: len
 Chicane:
    Behind the Sun:
+      <date: 2000
       <<: &low
          <flow: 2,624,489
          <link: https://youtu.be/ET1-6Bef9xU
@@ -1563,6 +1580,7 @@ Chicane:
       Saltwater (The Thrillseekers remix): yes
       Andromeda: no
    Far From the Maddening Crowds:
+      <date: 1997
       <<: *low
       Early:
       Already There: len
