@@ -1533,6 +1533,7 @@ TV on the Radio:
       DLZ: yes
       Lover’s Day:
 Tycho:
+   <updated: 2019-02-21
    Epoch:
       <date: 2016
       <<: &low
@@ -1603,8 +1604,8 @@ Tycho:
    The Science of Patterns:
       <date: 2002
       <<: *low
-      Dream as a Memory:
-      Human Condition:
-      Red Bridge:
+      Dream as a Memory: no
+      Human Condition: no
+      Red Bridge: no
       Systems: yes
-      In the End:
+      In the End: no

@@ -612,6 +612,43 @@ Modest Mouse:
       Spitting Venom: no
       People as Places as People: no
       Invisible: no
+Moloko:
+   Statues:
+      <date: 2003
+      <<: &low
+         <flow: 1,491,813
+         <link: https://youtu.be/kl8mpAvTm_Y
+      Familiar Feeling: yes
+      Come On:
+      Cannot Contain This:
+      Statues:
+      Forever More:
+      Blow X Blow:
+      100%:
+      The Only Ones:
+      I Want You:
+      Over & Over:
+   Things to Make and Do:
+      <date: 2000
+      <<: *low
+      Radio Moscow: len
+      Pure Pleasure Seeker: no
+      Absent Minded Friends: no
+      Indigo: no
+      Being Is Bewildering: no
+      Remain the Same: no
+      A Drop in the Ocean: len
+      Dumb Inc.:
+      The Time Is Now:
+      Mother:
+      It’s Your Problem: len
+      It’s Nothing:
+      Bingo Massacre: len
+      Somebody Somewhere:
+      Just You and Me Dancing: len
+      If You Have a Cross to Bear You May as Well Use It as a Crutch:
+      Keep Stepping: len
+      Sing It Back (Boris Musical mix):
 Montell Jordan:
    This Is How We Do It:
       <flow: 9,996,517

@@ -432,22 +432,6 @@ Róisín Murphy:
       Cry Baby:
       Tell Everybody:
       Scarlet Ribbons:
-   Ruby Blue:
-      <date: 2005
-   Statues:
-      <date: 2003
-      <group: Moloko
-      <<: *low
-      Familiar Feeling: yes
-      Come On:
-      Cannot Contain This:
-      Statues:
-      Forever More:
-      Blow X Blow:
-      100%:
-      The Only Ones:
-      I Want You:
-      Over & Over:
 Roosevelt:
    Elliot:
       <<: &low

@@ -9,17 +9,18 @@ https://youtu.be/kcPc18SG6uA
 Legend
 ------
 
-key  | value
------|--------------------------------------
-date | of release, can be 2000-03-04 or 2000
-dup  | reissue
-flow | views per year
-high | flow at or above threshold
-len  | length less than 3 minutes
-link | URL
-low  | flow under threshold
-no   | rating bad
-yes  | rating good
+key     | value
+--------|--------------------------------------
+date    | of release, can be 2000-03-04 or 2000
+dup     | reissue
+flow    | views per year
+high    | flow at or above threshold
+len     | length less than 3 minutes
+link    | URL
+low     | flow under threshold
+no      | rating bad
+updated | last check for new releases
+yes     | rating good
 
 Merge
 -----
