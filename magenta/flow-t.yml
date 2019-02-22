@@ -1373,44 +1373,11 @@ Tool:
    Undertow:
       <date: 1993
 Tori Amos:
-   Boys for Pele:
+   The Beekeeper:
+      <date: 2005
       <<: &low
          <flow: 222,624
          <link: https://youtu.be/_gZzkGvyqzc
-      Beauty Queen/Horses:
-      Blood Roses:
-      Father Lucifer:
-      Professional Widow:
-      Professional Widow (Armand Van Helden’s Star Trunk Mix):
-      Mr. Zebra: len
-      Marianne:
-      Caught a Lite Sneeze: yes
-      Muhammad My Friend:
-      Hey Jupiter:
-      Way Down: len
-      Little Amsterdam:
-      Talula (The Tornado Mix):
-      Not the Red Baron:
-      Agent Orange: len
-      Doughnut Song:
-      Putting the Damage On:
-      Twinkle:
-   Little Earthquakes:
-      <<: *low
-      Crucify:
-      Girl:
-      Silent All These Years:
-      Precious Things:
-      Winter: yes
-      Happy Phantom:
-      China:
-      Leather:
-      Mother:
-      Tear in Your Hand:
-      Me and a Gun:
-      Little Earthquakes:
-   The Beekeeper:
-      <<: *low
       Parasol:
       Sweet the Sting: no
       The Power of Orange Knickers: no
@@ -1430,7 +1397,37 @@ Tori Amos:
       Goodbye Pisces: no
       Marys of the Sea: no
       Toast: yes
+   Scarlet’s Walk:
+      <date: 2002
+   Strange Little Girls:
+      <date: 2001
+   To Venus and Back:
+      <date: 1999
+   From the Choirgirl Hotel:
+      <date: 1998
+   Boys for Pele:
+      <date: 1996
+      <<: *low
+      Beauty Queen/Horses:
+      Blood Roses:
+      Father Lucifer:
+      Professional Widow:
+      Professional Widow (Armand Van Helden’s Star Trunk Mix):
+      Mr. Zebra: len
+      Marianne:
+      Caught a Lite Sneeze: yes
+      Muhammad My Friend:
+      Hey Jupiter:
+      Way Down: len
+      Little Amsterdam:
+      Talula (The Tornado Mix):
+      Not the Red Baron:
+      Agent Orange: len
+      Doughnut Song:
+      Putting the Damage On:
+      Twinkle:
    Under the Pink:
+      <date: 1994
       <<: *low
       Pretty Good Year: no
       God: no
@@ -1444,6 +1441,21 @@ Tori Amos:
       Cloud on My Tongue: no
       Space Dog: no
       Yes, Anastasia: no
+   Little Earthquakes:
+      <date: 1992
+      <<: *low
+      Crucify: no
+      Girl:
+      Silent All These Years:
+      Precious Things:
+      Winter: yes
+      Happy Phantom:
+      China:
+      Leather:
+      Mother:
+      Tear in Your Hand:
+      Me and a Gun:
+      Little Earthquakes:
 Toro y Moi:
    Anything in Return:
       <<: &low
