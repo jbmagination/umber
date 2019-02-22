@@ -845,6 +845,7 @@ Nicolas Jaar:
       Three Sides of Nazareth:
       History Lesson:
 Nightmares on Wax:
+   <updated: 2019-02-21
    Shape the Future:
       <date: 2018
       <<: &low
@@ -901,6 +902,20 @@ Nightmares on Wax:
       African Pirates: no
    Mind Elevation:
       <date: 2002
+      <<: *low
+      Mind Eye: no
+      Say-Say: no
+      Thinking of Omara: no
+      Date With Destiny: no
+      Bleu My Mind: no
+      Environment:
+      Soul-Ho: len
+      Humble:
+      70s 80s:
+      Know My Name:
+      B B H (Bongo-Brk-Haven):
+      Mirrorball: len
+      Thoughts:
    Carboot Soul:
       <date: 1999
       <<: *low
