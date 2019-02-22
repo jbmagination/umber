@@ -1197,6 +1197,7 @@ Boards of Canada:
       Original Nlogax: len
       Whitewater: no
 Bonobo:
+   <updated: 2019-02-21
    Migration:
       <date: 2017
       <<: &low
@@ -1282,7 +1283,7 @@ Bonobo:
       <date: 2002
       <<: *low
       Dismantling Frank: yes
-      The Sicilian:
+      The Sicilian: yes
       The Shark:
       Magicman: yes
       Scuba: yes
