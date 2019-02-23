@@ -884,8 +884,10 @@ Jennifer Lopez:
       If You Had My Love:
 Jeremy Soule:
    The Elder Scrolls IV Oblivion:
-      <flow: 1,684,726
-      <link: https://youtu.be/aQeIYVM3YBM
+      <date: 2006
+      <<: &low
+         <flow: 1,684,726
+         <link: https://youtu.be/aQeIYVM3YBM
       Reign of the Septims: len
       Through the Valleys: yes
       Death Knell: len
@@ -912,6 +914,29 @@ Jeremy Soule:
       Deep Waters: len
       Dusk at the Market: yes
       Peace of Akatosh: yes
+   The Elder Scrolls III Morrowind:
+      <date: 2002
+      <<: *low
+      Nerevar Rising: len
+      Peaceful Waters: yes
+      Knight’s Charge: len
+      Over the Next Hill:
+      Bright Spears, Dark Blood: len
+      The Road Most Travelled:
+      Dance of Swords: len
+      Blessing of Vivec:
+      Ambush!: len
+      Silt Sunrise:
+      Hunter’s Pursuit: len
+      Shed Your Travails:
+      Stormclouds on the Battlefield: len
+      Caprice:
+      Drumbeat of the Dunmer: len
+      Darkened Depths: len
+      The Prophecy Fulfilled: len
+      Triumphant: len
+      Introduction: len
+      Fate’s Quickening: len
 Jessie Ware:
    Glasshouse:
       <date: 2017
