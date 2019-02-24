@@ -66,15 +66,7 @@ function fgr(vid)
       url.searchParams.set('autoplay', 1);
       break;
    default:
-      ie.src = 'https://i.ytimg.com/vi/' + attr[0] + '/';
-      if (attr[1])
-      {
-         ie.src += attr[1] + '.jpg';
-      }
-      else
-      {
-         ie.src += 'sd3.jpg';
-      }
+      ie.src = 'https://i.ytimg.com/vi/' + attr[0] + '/sd1.jpg';
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
       url.hash = slug(vid[3]);

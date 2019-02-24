@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-   {% seo %}
    <link rel="icon" href="/mauve/assets/image.jpg?">
    <link rel="stylesheet" href="/mauve/assets/css/style.css">
    <link rel="stylesheet" href="/mauve/assets/font-awesome.css">
@@ -10,6 +9,8 @@
    <meta property="og:image"
    content="https://cup.github.io/mauve/assets/image.jpg">
    <script defer src="/mauve/assets/font-awesome.js"></script>
+   <title>{% if page.title != site.title %}{{ page.title }} - {% endif -%}
+   {{ site.title }}</title>
 </head>
 <body>
    <div class="container-lg markdown-body my-5 px-3">

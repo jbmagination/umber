@@ -974,6 +974,7 @@ The xx:
       VCR:
 Thievery Corporation:
    Culture of Fear:
+      <date: 2011
       <<: &low
          <flow: 2,667,045
          <link: https://youtu.be/uN9tulBHr8Y
@@ -991,6 +992,7 @@ Thievery Corporation:
       Overstand:
       Free:
    Radio Retaliation:
+      <date: 2008
       <<: *low
       Sound the Alarm:
       Mandala:
@@ -1008,6 +1010,7 @@ Thievery Corporation:
       Blasting Through the City:
       Sweet Tides:
    The Cosmic Game:
+      <date: 2005
       <<: *low
       Marching the Hate Machines (Into the Sun): yes
       Warning Shots:
@@ -1025,22 +1028,8 @@ Thievery Corporation:
       The Supreme Illusion:
       The Time We Lost Our Way: yes
       A Gentle Dissolve: len
-   The Mirror Conspiracy:
-      <<: *low
-      Treasures: len
-      Le Monde: yes
-      Indra: yes
-      Lebanese Blonde:
-      Focus on Sight:
-      Air Batucada:
-      Só com você: len
-      Samba Tranquille:
-      Shadows of Ourselves: yes
-      The Hong Kong Triad: yes
-      Illumination:
-      The Mirror Conspiracy:
-      Tomorrow: yes
    The Richest Man in Babylon:
+      <date: 2002
       <<: *low
       Heaven’s Gonna Burn Your Eyes:
       Facing East:
@@ -1057,6 +1046,22 @@ Thievery Corporation:
       The State of the Union:
       Until the Morning: yes
       Resolution: yes
+   The Mirror Conspiracy:
+      <date: 2000
+      <<: *low
+      Treasures: len
+      Le Monde: yes
+      Indra: yes
+      Lebanese Blonde:
+      Focus on Sight:
+      Air Batucada:
+      Só com você: len
+      Samba Tranquille:
+      Shadows of Ourselves: yes
+      The Hong Kong Triad: yes
+      Illumination:
+      The Mirror Conspiracy:
+      Tomorrow: yes
 Third Eye Blind:
    Dopamine:
       <date: 2015

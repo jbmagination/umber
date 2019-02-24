@@ -1309,6 +1309,7 @@ Green Day:
       <link: https://youtu.be/IWwMqa-_210
       Oh Love:
 Grizzly Bear:
+   <updated: 2019-02-24
    Painted Ruins:
       <date: 2017
       <<: &low
@@ -1343,20 +1344,17 @@ Grizzly Bear:
       Listen and Wait:
       Everyone I Know (Marfa demo): len
       Will Calls (Marfa demo): yes
-      Sleeping Ute (Nicolas Jaar remix):
-      A Simple Answer (Liars remix):
-      Gun-Shy (Lindstrøm remix):
    Veckatimest:
       <date: 2009
       <<: *low
       Southern Point: yes
       Two Weeks: yes
-      All We Ask:
+      All We Ask: no
       Fine for Now: yes
-      Cheerleader:
-      Dory:
+      Cheerleader: no
+      Dory: no
       Ready, Able: yes
-      About Face:
+      About Face: no
       Hold Still: len
       While You Wait for the Others: yes
       I Live With You: yes
@@ -1385,12 +1383,12 @@ Grizzly Bear:
       Disappearing Act: no
       Fix It: no
       Merge: len
-      A Good Place:
-      Showcase:
-      La Duchess Anne:
-      Eavesdropping:
+      A Good Place: no
+      Showcase: no
+      La Duchess Anne: no
+      Eavesdropping: no
       Service Bell: len
-      This Song:
+      This Song: no
 Groove Armada:
    Soundboy Rock:
       <date: 2007

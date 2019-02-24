@@ -41,7 +41,7 @@ async function main()
       `<li class="video-list-item">
          <a href="watch?v=${qa.get('id')}">
             <span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">
-               <img src="//i.ytimg.com/vi/${qa.get('id')}/sd3.jpg">
+               <img src="//i.ytimg.com/vi/${qa.get('id')}/sd1.jpg">
                <span class="video-time">${dr(qa.get('length_seconds'))}</span>
             </span>
             <span class="title">${qa.get('title')}</span>
