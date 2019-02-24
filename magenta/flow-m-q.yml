@@ -1676,10 +1676,56 @@ Portugal. The Man:
       Feel It Still:
       Live in the Moment:
 Prefuse 73:
-   One Word Extinguisher:
+   Security Screenings:
+      <date: 2006
       <<: &low
          <flow: 55,940
          <link: https://youtu.be/fJY7BMzx7Iw
+      The Letter "P": len
+      With Dirt and Two Texts (Afternoon Version): no
+      Illiterate Interlude: len
+      Keeping Up With Your Quota: no
+      No Special Bed: len
+      Weight Watching: len
+      When the Grip Lets You Go: len
+      Another One Long Gone: len
+      Always It’s Gonna Be Like That: len
+      Creating Cyclical Headaches: no
+      Awakening to A...: len
+      With Dirt and Two Texts (Later Version with Love): no
+      No Origin: no
+      One Star and Three Stripes: len
+      Mud in Your Mouth: len
+      Breathe: len
+      Matrimonioids..... (For Elivin + Susana Estela):
+      We Leave You in a Cloud of Thick Smoke and Sleep Outro:
+   Surrounded by Silence:
+      <date: 2005
+      <<: *low
+      I’ve Said All I Need to Say About Them Intro:
+      Hide Ya Face:
+      Bad Memory Interlude One: len
+      Ty versus Detchibe:
+      Expressing Views Is Obviously Illegal:
+      Pastel Assassins:
+      Pagina dos: len
+      Silence Interlude: len
+      Now You’re Leaving: len
+      Gratis: yes
+      We Go Our Own Way: yes
+      Mantra: len
+      Sabbatical With Options: len
+      It’s Crowded: yes
+      Just the Thought:
+      La Correcion Exchange:
+      Hide Ya Face (Reminder version): len
+      Morale Crusher: len
+      Minutes Away Without You:
+      Rain Edit Interlude: len
+      And I’m Gone: len
+   One Word Extinguisher:
+      <date: 2003
+      <<: *low
       The Wrong Side of Reflection (intro): len
       The End of Biters - International: len
       Plastic: len
@@ -1703,30 +1749,8 @@ Prefuse 73:
       Styles That Fade Away With a Collonade Reprise: yes
       Esta: len
       Pentagram: yes
-   Surrounded by Silence:
-      <<: *low
-      I’ve Said All I Need to Say About Them Intro:
-      Hide Ya Face:
-      Bad Memory Interlude One: len
-      Ty versus Detchibe:
-      Expressing Views Is Obviously Illegal:
-      Pastel Assassins:
-      Pagina dos: len
-      Silence Interlude: len
-      Now You’re Leaving: len
-      Gratis: yes
-      We Go Our Own Way: yes
-      Mantra: len
-      Sabbatical With Options: len
-      It’s Crowded: yes
-      Just the Thought:
-      La Correcion Exchange:
-      Hide Ya Face (Reminder version): len
-      Morale Crusher: len
-      Minutes Away Without You:
-      Rain Edit Interlude: len
-      And I’m Gone: len
    Vocal Studies + Uprock Narratives:
+      <date: 2001
       <<: *low
       Radio Attack:
       Nuno:
