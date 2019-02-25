@@ -17,7 +17,7 @@ async function main()
    });
 
    ab = await (await fetch(ce)).json();
-   document.title = ab.items[0].snippet.channelTitle + ' | Violet';
+   document.title = ab.items[0].snippet.channelTitle + ' - Violet';
    ab.items.forEach(dh => {
       let e_fu = document.createElement('figure');
       let e_a = document.createElement('a');

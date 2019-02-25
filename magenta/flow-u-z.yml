@@ -417,14 +417,25 @@ Yppah:
       It’s Not the Same: len
       Longtime: no
 Zero 7:
-   <updated: 2019-2-1
    Yeah Ghost:
       <date: 2009
-   The Garden:
-      <date: 2006
       <<: &low
          <flow: 544,309
          <link: https://youtu.be/INn1C6ImJKg
+      Count Me Out: len
+      Mr McGee: no
+      Swing: no
+      Everything Up (Zizou): no
+      Pop Art Blue: no
+      Medicine Man: no
+      Ghost sYMbOL:
+      Sleeper:
+      Solastalgia: len
+      The Road:
+      All of Us:
+   The Garden:
+      <date: 2006
+      <<: *low
       Futures:
       Throw It All Away: yes
       Seeing Things:
