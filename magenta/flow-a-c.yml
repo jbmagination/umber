@@ -551,6 +551,16 @@ Autechre:
       <date: 1998
    Chiastic Slide:
       <date: 1997
+      <<: *low
+      Cipater: no
+      Rettic AC: len
+      Tewe: no
+      Cichli: no
+      Hub: no
+      Calbruc: no
+      Recury:
+      Pule:
+      Nuane:
    Tri Repetae:
       <date: 1995
       <<: *low
