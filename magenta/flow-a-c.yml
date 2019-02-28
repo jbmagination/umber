@@ -549,6 +549,18 @@ Autechre:
       Pir:
    LP5:
       <date: 1998
+      <<: *low
+      Acroyear2: no
+      777: no
+      Rae: no
+      Melve: len
+      Vose In: no
+      Fold4,Wrap5: no
+      Under BOAC:
+      Corc:
+      Caliper Remote: len
+      Arch Carrier:
+      Drane2:
    Chiastic Slide:
       <date: 1997
       <<: *low
