@@ -686,7 +686,7 @@ Jamie xx:
 Janet Jackson:
    Unbreakable:
       <date: 2015
-      <flow: 6,202,758
+      <flow: 6,026,551
       <link: https://youtu.be/2_t0ffY3JvE
       BURNITUP:
       No Sleeep:
@@ -698,8 +698,8 @@ Janet Jackson:
       <date: 2004
    All for You:
       <date: 2001
-      <flow: 18,435,567
-      <link: https://youtu.be/VbaKMVk4kcw
+      <flow: 6,693,670
+      <link: https://youtu.be/HGzVFjjfAfw
       Would You Mind:
    The Velvet Rope:
       <date: 1997
@@ -760,12 +760,27 @@ Janet Jackson:
       Sweet Dreams / Whoops Now:
    Rhythm Nation 1814:
       <date: 1989
-   Control:
-      <date: 1986
-   Dream Street:
-      <date: 1984
-   Janet Jackson:
-      <date: 1982
+      <<: *low
+      Interlude Pledge: len
+      Rhythm Nation:
+      Interlude T.V.: len
+      State of the World:
+      Interlude Race: len
+      The Knowledge:
+      Interlude Let’s Dance: len
+      Miss You Much:
+      Interlude Come Back Interlude: len
+      Love Will Never Do (Without You):
+      Livin’ in a World (They Didn’t Make):
+      Alright:
+      Interlude Hey Baby: len
+      Escapade: yes
+      Interlude No Acid: len
+      Black Cat:
+      Lonely:
+      Come Back to Me:
+      Someday Is Tonight:
+      Interlude Livin’… in Complete Darkness: len
 JAWS:
    Simplicity:
       <flow: 70,385
