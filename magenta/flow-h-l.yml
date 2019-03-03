@@ -1223,16 +1223,22 @@ Kammerflimmer Kollektief:
       There’s a Weight on You, but You Can’t Feel It.: yes
    Hysteria:
       <date: 2001
-   Mäander:
-      <date: 1999
-   Incommunicado:
-      <date: 1999
+      <<: *low
+      Hysteria: no
+      Seen (not seen): no
+      Engel wacht: no
+      Auguri, Auguri: no
+      Du siehst hoch; du siehst ’Wolken’: no
+      Zikaden, vielleicht:
+      Mohn!:
+      Du siehst hoch; du siehst "Wolken" (version):
 Kacey Musgraves:
    Golden Hour:
-      <flow: 5,109,891
-      <link: https://youtu.be/y3l-ovZQY4M
+      <flow: 54,668,321
+      <link: https://youtu.be/6OFv566mj7s
       Butterflies:
       High Horse:
+      Rainbow:
       Space Cowboy:
    Same Trailer Different Park:
       <flow: 412,441

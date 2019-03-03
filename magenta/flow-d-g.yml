@@ -773,13 +773,31 @@ Flamingosis:
       Little Fling: len
       Football Head: yes
 Fleet Foxes:
+   Helplessness Blues:
+      <date: 2011
+      <<: &low
+         <flow: 1,466,746
+         <link: https://youtu.be/DT-dxG4WWf4
+      Montezuma: yes
+      Bedouin Dress:
+      Sim Sala Bim:
+      Battery Kinzie: len
+      The Plains / Bitter Dancer:
+      Helplessness Blues:
+      The Cascades: len
+      Lorelai:
+      Someone You’d Admire: len
+      The Shrine / An Argument:
+      Blue Spotted Tail:
+      Grown Ocean:
    Fleet Foxes:
-      <flow: 17,467,044
+      <date: 2008-06-03
+      <flow: 17,564,336
       <link: https://youtu.be/o10drRI3VQ0
       White Winter Hymnal:
    Sun Giant:
-      <flow: 1,466,746
-      <link: https://youtu.be/DT-dxG4WWf4
+      <date: 2008-03-09
+      <<: *low
       Sun Giant: len
       Drops in the River: yes
       English House: yes
@@ -1330,12 +1348,12 @@ Grizzly Bear:
       <date: 2012
       <<: *low
       Sleeping Ute: yes
-      Speak in Rounds:
+      Speak in Rounds: no
       Adelma: len
-      Yet Again:
-      The Hunt:
-      A Simple Answer:
-      What’s Wrong?:
+      Yet Again: no
+      The Hunt: no
+      A Simple Answer: no
+      What’s Wrong?: no
       Gun-Shy:
       Half Gate:
       Sun in Your Eyes: yes

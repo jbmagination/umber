@@ -1030,6 +1030,7 @@ Blink 182:
       Stay Together for the Kids:
       The Rock Show:
 Blood Orange:
+   <updated: 2019-3-2
    Negro Swan:
       <date: 2018
       <<: &low
@@ -1098,6 +1099,11 @@ Blood Orange:
       The Complete Knock:
       Are You Sure You’re Really Busy?:
       Champagne Coast:
+   Blood Orange:
+      <date: 2010
+      <<: *low
+      Dinner: yes
+      Bad Girls: yes
 Boards of Canada:
    Tomorrow’s Harvest:
       <date: 2013
