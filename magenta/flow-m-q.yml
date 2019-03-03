@@ -1676,11 +1676,60 @@ Portugal. The Man:
       Feel It Still:
       Live in the Moment:
 Prefuse 73:
-   Security Screenings:
-      <date: 2006
+   Everything She Touched Turned Ampexian:
+      <date: 2009
       <<: &low
          <flow: 55,940
          <link: https://youtu.be/fJY7BMzx7Iw
+      Periodic Measurements of Infrequent Smiles: len
+      Hairy Faces (Stress): len
+      Parachute Panador: len
+      NoNo: len
+      Punish: len
+      Half Up Front: len
+      Sexual Fantasy Scale: len
+      DEC. Machine Funk All ERA’s: no
+      Get Em High: len
+      Ampexian Tribe of a Lesser Time: len
+      When Is a Good Time?: len
+      Fountains of Spring: len
+      Whipcream Eyepatch: len
+      Regalo: no
+      Rubber Stems: len
+      Oh Is It: len
+      Four Reels Collide: len
+      Fringertip Trajectories: len
+      Violent Bathroom Exchange: len
+      Natures Uplifting Revenge: len
+      Yuletide: len
+      Simple Loop Choir: no
+      No Lights Still Rock: no
+      Gaslamp Killer Feedback Text: len
+      Digan Lo: no
+      Preparation’s Kids Choir: len
+      Pitch Pipe: len
+      Periodic Measurements of Infrequent Frowns: len
+      Formal Dedications:
+   Preparations:
+      <date: 2007
+      <<: *low
+      From the East Intro: len
+      Beaten Thursdays: no
+      Aborted Hugs: len
+      The Class of 73 Bells: no
+      Girlfriend Boyfriend: no
+      Smoking Red: len
+      Prog Version Slowly Crushed:
+      Noreaster Cheer: len
+      Let It Ring: no
+      17 Seconds Interlude: len
+      I Knew You Were Gonna Go: no
+      Pomade Suite Version One:
+      Spaced + Dissonant:
+      Preparation Outro Version:
+   Security Screenings:
+      <date: 2006
+      <<: *low
       The Letter "P": len
       With Dirt and Two Texts (Afternoon Version): no
       Illiterate Interlude: len

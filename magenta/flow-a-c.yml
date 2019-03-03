@@ -350,7 +350,9 @@ America:
 Amon Tobin:
    Foley Room:
       <date: 2007
-      <<: *low
+      <<: &low
+         <flow: 184,337
+         <link: https://youtu.be/1jaRA6nGyUg
       Bloodstone: yes
       Esther’s:
       Keep Your Distance:
@@ -409,9 +411,7 @@ Amon Tobin:
       Nova: yes
    Bricolage:
       <date: 1997
-      <<: &low
-         <flow: 184,337
-         <link: https://youtu.be/1jaRA6nGyUg
+      <<: *low
       Stoney Street: yes
       Easy Muffin: yes
       Yasawas:
