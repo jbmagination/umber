@@ -348,7 +348,67 @@ America:
       Donkey Jaw:
       Pigeon Song: len
 Amon Tobin:
+   Foley Room:
+      <date: 2007
+      <<: *low
+      Bloodstone: yes
+      Esther’s:
+      Keep Your Distance:
+      The Killer’s Vanilla:
+      Kitchen Sink:
+      Horsefish:
+      Foley Room:
+      Big Furry Head:
+      Ever Falling:
+      Always:
+      Straight Psyche: yes
+      At the End of the Day:
+   Out From Out Where:
+      <date: 2002
+      <<: *low
+      Back From Space: no
+      Verbal: no
+      Chronic Tronic: no
+      Searchers: yes
+      Hey Blondie: yes
+      Rosies: yes
+      Cosmo Retro Intro Outro: no
+      Triple Science: no
+      El Wraith: yes
+      Proper Hoodidge: no
+      Mighty Micro People: yes
+   Supermodified:
+      <date: 2000
+      <<: *low
+      Get Your Snack On: yes
+      Four Ton Mantis: yes
+      Slowly: yes
+      Marine Machines: no
+      Golfer vrs Boxer: yes
+      Deo: yes
+      Precursor:
+      Saboteur: yes
+      Chocolate Lovely:
+      Rhino Jockey:
+      Keepin’ It Steel (The Anvil Track): yes
+      Natureland: yes
+   Permutation:
+      <date: 1998
+      <<: *low
+      Like Regular Chickens:
+      Bridge: yes
+      Reanimator:
+      Sordid:
+      Nightlife:
+      Escape:
+      Switch: yes
+      People Like Frank:
+      Sultan Drops:
+      Fast Eddie:
+      Toys:
+      Nova: yes
    Bricolage:
+      <date: 1997
       <<: &low
          <flow: 184,337
          <link: https://youtu.be/1jaRA6nGyUg
@@ -366,61 +426,6 @@ Amon Tobin:
       Dream Sequence:
       One Small Step:
       Mission:
-   Foley Room:
-      <<: *low
-      Bloodstone: yes
-      Esther’s:
-      Keep Your Distance:
-      The Killer’s Vanilla:
-      Kitchen Sink:
-      Horsefish:
-      Foley Room:
-      Big Furry Head:
-      Ever Falling:
-      Always:
-      Straight Psyche: yes
-      At the End of the Day:
-   Out From Out Where:
-      <<: *low
-      Back From Space: no
-      Verbal: no
-      Chronic Tronic: no
-      Searchers: yes
-      Hey Blondie: yes
-      Rosies: yes
-      Cosmo Retro Intro Outro: no
-      Triple Science: no
-      El Wraith: yes
-      Proper Hoodidge: no
-      Mighty Micro People: yes
-   Permutation:
-      <<: *low
-      Like Regular Chickens:
-      Bridge: yes
-      Reanimator:
-      Sordid:
-      Nightlife:
-      Escape:
-      Switch: yes
-      People Like Frank:
-      Sultan Drops:
-      Fast Eddie:
-      Toys:
-      Nova: yes
-   Supermodified:
-      <<: *low
-      Get Your Snack On: yes
-      Four Ton Mantis: yes
-      Slowly: yes
-      Marine Machines: no
-      Golfer vrs Boxer: yes
-      Deo: yes
-      Precursor:
-      Saboteur: yes
-      Chocolate Lovely:
-      Rhino Jockey:
-      Keepin’ It Steel (The Anvil Track): yes
-      Natureland: yes
 Amy Grant:
    Heart in Motion:
       <flow: 857,822
