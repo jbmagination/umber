@@ -22,6 +22,7 @@
       <link: https://youtu.be/nkJA6SYwa94
       Hail Mary:
 9 Lazy 9:
+   <updated: 2019-3-3
    Bedsofaland:
       <date: 2009
       <<: &low
@@ -55,18 +56,16 @@
       Carborante: yes
       The Flying Nun:
       The Last of the West:
-   The Herb:
-      <date: 1995
    Electric Lazyland:
       <date: 1994
       <<: *low
       Life Goes On & On: no
       Electric Lazyland: no
-      Skarakesh:
-      B Hip & Shop:
-      No. 2:
-      Monk’s Dream:
-      Train:
+      Skarakesh: no
+      B Hip & Shop: no
+      No. 2: no
+      Monk’s Dream: no
+      Train: no
       Very Gently:
       Swingpool:
       Checkin’ on You:
@@ -84,7 +83,7 @@
       Shak: no
       Turn Me Loose: no
       Edit: len
-      Black Jesus:
+      Black Jesus: no
       All Aboard: no
       Summer: yes
       The Herb: no
@@ -1317,7 +1316,7 @@ Bonobo:
       <<: *low
       Dismantling Frank: yes
       The Sicilian: yes
-      The Shark:
+      The Shark: yes
       Magicman: yes
       Scuba: yes
    Animal Magic:

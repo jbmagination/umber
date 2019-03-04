@@ -30,6 +30,19 @@ Tangerine Dream:
       Force Majeure: no
       Cloudburst Flight: yes
       Thru Metamorphic Rocks: no
+   Cyclone:
+      <date: 1978
+   Stratosfear:
+      <date: 1976
+   Rubycon:
+      <date: 1975
+   Phaedra:
+      <date: 1974
+      <<: *low
+      Phaedra: len
+      Mysterious Semblance at the Strand of Nightmares: no
+      Movements of a Visionary: no
+      Sequent C’: len
 Tears for Fears:
    Raoul and the Kings of Spain:
       <date: 1995
@@ -53,7 +66,7 @@ Tears for Fears:
       <date: 1989
    Songs From the Big Chair:
       <date: 1985
-      <flow: 9,087,132
+      <flow: 9,123,263
       <link: https://youtu.be/ST86JM1RPl0
       Everybody Wants to Rule the World:
 The Black Dog:

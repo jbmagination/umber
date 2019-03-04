@@ -13,8 +13,8 @@ var np = [
 
 /* tracklist */
 dh.track.forEach(ae => {
-   var minutes = ae.duration.split(/[TM]/)[1];
-   np.push('      ' + cf(ae.name) + (minutes < 3 ? ': len' : ':'));
+   var min = ae.duration.split(/[TM]/)[1];
+   np.push('      ' + cf(ae.name) + (min >= 3 && min <= 15 ? ':' : ': len'));
 });
 
 var oq = document.createElement('textarea');
