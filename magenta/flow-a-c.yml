@@ -66,12 +66,12 @@
       No. 2: no
       Monk’s Dream: no
       Train: no
-      Very Gently:
-      Swingpool:
-      Checkin’ on You:
-      Special 8:
+      Very Gently: no
+      Swingpool: no
+      Checkin’ on You: no
+      Special 8: no
       No. 9: len
-      What’s New:
+      What’s New: no
       High Fashion:
       Meet the Voda: len
       Roughport Invention:
@@ -537,6 +537,16 @@ Autechre:
       Reniform Puls:
    Confield:
       <date: 2001
+      <<: *low
+      VI Scose Poise: no
+      Cfern: no
+      Pen Expers: no
+      Sim Gishel: no
+      Parhelic Triangle: no
+      Bine:
+      Eidetic Casein:
+      Uviol:
+      Lentic Catachresis:
    EP7:
       <date: 1999
       <<: *low
