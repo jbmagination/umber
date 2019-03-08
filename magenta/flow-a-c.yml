@@ -663,6 +663,7 @@ Bananarama:
    Deep Sea Skiving:
       <date: 1983
 Bat for Lashes:
+   <updated: 2019-3-7
    The Bride:
       <date: 2016
       <<: *low
@@ -723,11 +724,11 @@ Bat for Lashes:
       Trophy: no
       Tahiti: yes
       What’s a Girl to Do?: len
-      Sad Eyes:
-      The Wizard:
-      Prescilla:
-      Bat’s Mouth:
-      Seal Jubilee:
+      Sad Eyes: no
+      The Wizard: no
+      Prescilla: no
+      Bat’s Mouth: no
+      Seal Jubilee: yes
       Sarah:
       I Saw a Light:
       I’m on Fire:
