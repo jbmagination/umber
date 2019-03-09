@@ -459,10 +459,6 @@ Interpol:
       The New:
       Leif Erikson:
 INXS:
-   Welcome to Wherever You Are:
-      <date: 1992
-   X:
-      <date: 1990
    Kick:
       <date: 1987
       <flow: 5,212,872
@@ -479,16 +475,28 @@ INXS:
       Kick:
       Calling All Nations:
       Tiny Daggers:
-   Listen Like Thieves:
-      <date: 1985
-   The Swing:
-      <date: 1984
 Isan:
-   Meet Next Life:
-      <date: 2004
+   Plans Drawn in Pencil:
+      <date: 2006
       <<: &low
          <flow: 15,594
          <link: https://youtu.be/XLfiCRanawQ
+      Look and Yes: len
+      Cinnabar: no
+      Yttrium: no
+      Roadrunner: no
+      Ship: yes
+      Immoral Architecture:
+      Amber Button:
+      Five to Four, Ten to Eleven: len
+      Corundum:
+      Stickland:
+      Seven Mile Marker:
+      Working in Dust:
+      Ruined Feathers: len
+   Meet Next Life:
+      <date: 2004
+      <<: *low
       Birds Over Barges:
       First Date - Jumble Sale:
       One Man Abandon:

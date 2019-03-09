@@ -376,7 +376,7 @@ The Clash:
 The Cranberries:
    Bury the Hatchet:
       <date: 1999
-      <flow: 5,956,495
+      <flow: 5,987,702
       <link: https://youtu.be/ky4CdN0x58A
       Animal Instinct: no
       Loud and Clear: len
@@ -404,9 +404,10 @@ The Cranberries:
       Zombie:
    Everybody Else Is Doing It, So Why Can’t We?:
       <date: 1993
-      <flow: 19,238,578
+      <flow: 19,438,630
       <link: https://youtu.be/G6Kspj3OO0s
       Dreams:
+      I Still Do:
       Linger:
 The Crystal Method:
    Legion of Boom:
@@ -1423,6 +1424,19 @@ Tori Amos:
       <date: 1999
    From the Choirgirl Hotel:
       <date: 1998
+      <<: *low
+      Spark: no
+      Cruel: yes
+      Black‐Dove (January):
+      Raspberry Swirl:
+      Jackie’s Strength:
+      i i e e e:
+      Liquid Diamonds:
+      She’s Your Cocaine:
+      Northern Lad:
+      Hotel:
+      Playboy Mommy:
+      Pandora’s Aquarium:
    Boys for Pele:
       <date: 1996
       <<: *low

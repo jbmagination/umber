@@ -1120,6 +1120,7 @@ Blood Orange:
       Dinner: yes
       Bad Girls: yes
 Boards of Canada:
+   <updated: 2019-3-8
    Tomorrow’s Harvest:
       <date: 2013
       <<: &low
@@ -1130,14 +1131,14 @@ Boards of Canada:
       White Cyclosa: yes
       Jacquard Causeway: no
       Telepath: len
-      Cold Earth:
+      Cold Earth: no
       Transmisiones Ferox: len
-      Sick Times:
+      Sick Times: no
       Collapse: len
-      Palace Posy:
-      Split Your Infinities:
+      Palace Posy: no
+      Split Your Infinities: no
       Uritual: len
-      Nothing Is Real:
+      Nothing Is Real: no
       Sundown: len
       New Seeds:
       Come to Dust:
