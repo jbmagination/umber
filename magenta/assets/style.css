@@ -3,8 +3,8 @@
    src: url("/mauve/assets/miller-display-italic.woff2");
 }
 @font-face {
-   font-family: "Open Sans";
-   src: url("/mauve/assets/open-sans.woff2");
+   font-family: "Overpass";
+   src: url("/mauve/assets/overpass.woff2");
 }
 #next, #prev, .header {
    color: seagreen;
@@ -14,13 +14,13 @@
    margin-right: 25px;
 }
 .header, footer, main {
-   font-family: "Open Sans";
+   font-family: Overpass;
 }
 .header, h1 {
    margin: 0 50px;
 }
 .header, main {
-   font-size: 2.3ex;
+   font-size: large;
 }
 a {
    text-decoration: none;
@@ -58,10 +58,4 @@ img {
 input {
    text-align: center;
    vertical-align: middle;
-}
-main {
-   align-items: flex-end; /* vertical */
-}
-p {
-   margin: 0;
 }

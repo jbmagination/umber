@@ -250,6 +250,23 @@ Dirty Projectors:
       No Intention: yes
       Remade Horizon:
       Fluorescent Half Dome:
+Dirty Vegas:
+   Dirty Vegas:
+      <date: 2002
+      <flow: 1,167,277
+      <link: https://youtu.be/M51rijkxa_4
+      I Should Know:
+      Ghosts:
+      Lost Not Found:
+      Days Go By: yes
+      Throwing Shapes:
+      Candles:
+      All or Nothing:
+      Alive:
+      7AM:
+      The Brazilian:
+      Simple Things, Part 2:
+      Days Go By (acoustic): len
 Disturbed:
    Evolution:
       <date: 2018
@@ -1408,11 +1425,25 @@ Grizzly Bear:
       Service Bell: len
       This Song: no
 Groove Armada:
-   Soundboy Rock:
-      <date: 2007
+   Black Light:
+      <date: 2010
       <<: &low
          <flow: 2,485,950
          <link: https://youtu.be/_kE0pxRkMtQ
+      Look Me in the Eye Sister:
+      Fall Silent:
+      Just for Tonight:
+      Not Forgotten:
+      I Won’t Kneel:
+      Cards to Your Heart:
+      Paper Romance:
+      Warsaw: no
+      Shameless:
+      Time & Space:
+      History: no
+   Soundboy Rock:
+      <date: 2007
+      <<: *low
       Hasta Luego Mr. Fab (interlude): yes
       Get Down:
       The Things That We Could Share:

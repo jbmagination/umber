@@ -16,7 +16,7 @@ function fgr(vid)
    let e_fu = document.createElement('figure');
    let e_a = document.createElement('a');
    let e_i = document.createElement('img');
-   let e_p = document.createElement('p');
+   let e_d = document.createElement('div');
    let e_fc = document.createElement('figcaption');
    let url;
 
@@ -73,10 +73,10 @@ function fgr(vid)
       url.hash = slug(vid[3]);
    }
    e_a.href = url.href;
-   e_p.textContent = vid[3];
+   e_d.textContent = vid[3];
    e_fc.textContent = 'released ' + vid[1] + ' - posted ' +
       new Date(vid[0] * 1000).toDateString();
-   e_a.append(e_i, e_p);
+   e_a.append(e_i, e_d);
    e_fu.append(e_a, e_fc);
    return e_fu;
 }

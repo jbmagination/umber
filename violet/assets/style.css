@@ -1,23 +1,15 @@
-a
-{
+a {
    text-decoration: none;
 }
-body
-{
+body {
    background: lavenderblush;
    font-family: Arial;
 }
-figure
-{
+figure {
    flex-basis: 320px;
 }
-main
-{
+main {
    display: flex;
    flex-wrap: wrap;
    font-weight: 500;
-}
-p
-{
-   margin: 0;
 }
