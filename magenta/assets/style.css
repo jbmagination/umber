@@ -1,82 +1,67 @@
-@font-face
-{
+@font-face {
    font-family: "Miller Display Italic";
    src: url("/mauve/assets/miller-display-italic.woff2");
 }
-@font-face
-{
+@font-face {
    font-family: "Open Sans";
    src: url("/mauve/assets/open-sans.woff2");
 }
-#next, #prev, .header
-{
+#next, #prev, .header {
    color: seagreen;
 }
-#next, #prev, form
-{
-   margin: 0 25px;
+#next, #prev, form {
+   margin-left: 25px;
+   margin-right: 25px;
 }
-.header, footer, main
-{
+.header, footer, main {
    font-family: "Open Sans";
 }
-.header, h1
-{
+.header, h1 {
    margin: 0 50px;
 }
-.header, main
-{
+.header, main {
    font-size: 2.3ex;
 }
-a
-{
+a {
    text-decoration: none;
 }
-body
-{
+body {
    background: radial-gradient(lavender 60%, thistle);
 }
-figure
-{
+figure {
    flex-basis: 426px;
+   margin: 12px 8px;
 }
-figure, header
-{
-   margin: 8px;
-}
-footer
-{
+footer {
    font-size: 5ex;
-   margin: 0 0 8px;
+   margin-bottom: 8px;
 }
-footer, header, main
-{
+footer, header, main {
    display: flex;
    flex-wrap: wrap;
    justify-content: center; /* horizontal */
 }
-h1
-{
+h1 {
    color: rebeccapurple;
    font-family: "Miller Display Italic";
    font-size: 9ex;
 }
-header
-{
+header {
    align-items: center; /* vertical */
+   margin: 8px;
 }
-img
-{
+img {
    height: 240px;
    object-fit: cover;
    width: 100%;
 }
-input
-{
+input {
    text-align: center;
    vertical-align: middle;
 }
-main
-{
+main {
    align-items: flex-end; /* vertical */
+}
+p {
+   margin: 0;
 }

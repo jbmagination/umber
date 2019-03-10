@@ -13,16 +13,17 @@ function slug(txt)
 
 function fgr(vid)
 {
-   let ae = document.createElement('a');
-   let fce = document.createElement('figcaption');
-   let fge = document.createElement('figure');
-   let ie = document.createElement('img');
+   let e_fu = document.createElement('figure');
+   let e_a = document.createElement('a');
+   let e_i = document.createElement('img');
+   let e_p = document.createElement('p');
+   let e_fc = document.createElement('figcaption');
    let url;
 
    let attr = vid[2].split('/');
    switch (attr[0]) {
    case 'b':
-      ie.src = 'https://f4.bcbits.com/img/' + attr[2] + '.jpg';
+      e_i.src = 'https://f4.bcbits.com/img/' + attr[2] + '.jpg';
       // case sensitive
       url = new URL('https://bandcamp.com/EmbeddedPlayer');
       url.hash = slug(vid[3]);
@@ -34,19 +35,19 @@ function fgr(vid)
       url.searchParams.set('size', 'large');
       break;
    case 'g':
-      ie.src = 'https://github.com/cup/mauve/releases/download/' +
+      e_i.src = 'https://github.com/cup/mauve/releases/download/' +
       attr[1] + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
       url = new URL(location.origin + '/mauve/play/');
       url.searchParams.set('v', vid[0]);
       break;
    case 'r':
-      ie.src = 'https://i.redd.it/' + attr[2] + '.jpg';
+      e_i.src = 'https://i.redd.it/' + attr[2] + '.jpg';
       url = new URL(location.origin + '/mauve/play/');
       url.searchParams.set('v', vid[0]);
       break;
    case 's':
-      ie.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
+      e_i.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
       url.hash = slug(vid[3]);
       url.searchParams.set('url', 'api.soundcloud.com/tracks/' + attr[1]);
@@ -59,23 +60,25 @@ function fgr(vid)
       url.searchParams.set('visual', true);
       break;
    case 'v':
-      ie.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
+      e_i.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
       // player.vimeo.com/video/101914072: this video cannot be played here
       url = new URL('https://vimeo.com/' + attr[1]);
       url.hash = slug(vid[3]);
       url.searchParams.set('autoplay', 1);
       break;
    default:
-      ie.src = 'https://i.ytimg.com/vi/' + attr[0] + '/sd1.jpg';
+      e_i.src = 'https://i.ytimg.com/vi/' + attr[0] + '/sd1.jpg';
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
       url.hash = slug(vid[3]);
    }
-   ae.href = url.href;
-   fce.textContent = vid[3] + ' (' + vid[1] + ')';
-   ae.append(ie);
-   fge.append(fce, ae);
-   return fge;
+   e_a.href = url.href;
+   e_p.textContent = vid[3];
+   e_fc.textContent = 'released ' + vid[1] + ' - posted ' +
+      new Date(vid[0] * 1000).toDateString();
+   e_a.append(e_i, e_p);
+   e_fu.append(e_a, e_fc);
+   return e_fu;
 }
 
 async function main()
