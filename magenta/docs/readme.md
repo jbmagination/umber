@@ -20,9 +20,11 @@ External links
 See also
 --------
 
+- [benkaiser/stretto]
 - [benzap/redditv]
 - [musicplayer-io/redditmusicplayer][redditmusicplayer]
 
+[benkaiser/stretto]:https://github.com/benkaiser/stretto
 [benzap/redditv]:https://github.com/benzap/redditv
 [digitally imported]:https://di.fm
 [music video machine]:http://musicvideomachine.com
