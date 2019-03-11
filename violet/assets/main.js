@@ -26,7 +26,8 @@ async function main()
       let e_fc = document.createElement('figcaption');
       e_a.href = 'https://www.youtube.com/watch?v=' + dh.id.videoId;
       e_i.src = dh.snippet.thumbnails.medium.url;
-      e_d.textContent = dh.snippet.title;
+      // needs to cover &#39;
+      e_d.innerHTML = dh.snippet.title;
       e_fc.textContent = dh.snippet.publishedAt;
       e_a.append(e_i, e_d);
       e_fu.append(e_a, e_fc);
