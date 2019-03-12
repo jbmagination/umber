@@ -1610,22 +1610,24 @@ Plaid:
       Getting: len
       Milh: yes
 Portishead:
-   Dummy:
+   Third:
+      <date: 2008
       <<: &low
          <flow: 3,492,041
          <link: https://youtu.be/Vg1jyL3cr60
-      Mysterons: yes
-      Sour Times: yes
-      Strangers: yes
-      It Could Be Sweet: yes
-      Wandering Star:
-      It’s a Fire:
-      Numb: yes
-      Roads: yes
-      Pedestal:
-      Biscuit:
-      Glory Box: yes
+      Silence: yes
+      Hunter: yes
+      Nylon Smile: yes
+      The Rip: yes
+      Plastic:
+      We Carry On:
+      Deep Water: len
+      Machine Gun: yes
+      Small:
+      Magic Doors:
+      Threads: yes
    Portishead:
+      <date: 1997
       <<: *low
       Cowboys: yes
       All Mine: yes
@@ -1638,19 +1640,20 @@ Portishead:
       Only You: yes
       Elysium:
       Western Eyes: yes
-   Third:
+   Dummy:
+      <date: 1994
       <<: *low
-      Silence: yes
-      Hunter: yes
-      Nylon Smile: yes
-      The Rip: yes
-      Plastic:
-      We Carry On:
-      Deep Water: len
-      Machine Gun: yes
-      Small:
-      Magic Doors:
-      Threads: yes
+      Mysterons: yes
+      Sour Times: yes
+      Strangers: yes
+      It Could Be Sweet: yes
+      Wandering Star:
+      It’s a Fire:
+      Numb: yes
+      Roads: yes
+      Pedestal:
+      Biscuit:
+      Glory Box: yes
 Portugal. The Man:
    Censored Colors:
       <flow: 1,263,566
