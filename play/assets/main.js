@@ -20,9 +20,8 @@ async function main()
    }
    document.title = vdeo[3] + ' - Mauve';
    document.getElementById('artist').textContent = vdeo[3];
-   document.getElementById('release').textContent = 'released ' + vdeo[1];
-   document.getElementById('post').textContent = 'posted ' +
-   new Date(vdeo[0] * 1000).toDateString();
+   document.getElementById('date').textContent = 'released ' + vdeo[1] +
+   ' - posted ' + new Date(vdeo[0] * 1000).toDateString();
 }
 
 main();

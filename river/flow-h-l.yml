@@ -279,11 +279,26 @@ Hudson Mohawke:
 Imogen Heap:
    Sparks:
       <date: 2014
-   Ellipse:
-      <date: 2009
       <<: &low
          <flow: 484,658
          <link: https://youtu.be/13WAhlE02ew
+      You Know Where to Find Me: yes
+      Entanglement:
+      The Listening Chair:
+      Cycle Song: len
+      Telemiscommunications:
+      Lifeline:
+      Neglected Space:
+      Minds Without Fear:
+      Me the Machine:
+      Run‐Time:
+      Climb to Sakteng:
+      The Beast:
+      Xizi She Knows:
+      Propeller Seeds:
+   Ellipse:
+      <date: 2009
+      <<: *low
       First Train Home: no
       Wait It Out: no
       Earth: no
@@ -299,7 +314,7 @@ Imogen Heap:
       Half Life:
    Speak for Yourself:
       <date: 2005
-      <flow: 26,954,103
+      <flow: 26,733,602
       <link: https://youtu.be/pBI3lc18k8Q
       Hide and Seek:
    Details:

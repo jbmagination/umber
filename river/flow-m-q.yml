@@ -778,10 +778,26 @@ Natalie Imbruglia:
       Butterflies:
       Come September:
 Natalie Merchant:
-   Ophelia:
+   Motherland:
+      <date: 2001
       <<: &low
          <flow: 506,673
          <link: https://youtu.be/VQ_Wqtnlv4U
+      This House Is on Fire: no
+      Motherland: no
+      Saint Judas: no
+      Put the Law on You: no
+      Build a Levee: no
+      Golden Boy:
+      Henry Darger:
+      The Worst Thing:
+      Tell Yourself:
+      Just Can’t Last:
+      Not in This Life:
+      I’m Not Gonna Beg:
+   Ophelia:
+      <date: 1998
+      <<: *low
       Ophelia:
       Life Is Sweet:
       Kind & Generous: yes
@@ -794,6 +810,7 @@ Natalie Merchant:
       The Living:
       When They Ring the Golden Bells:
    Tigerlily:
+      <date: 1995
       <<: *low
       San Andreas Fault:
       Wonder:
