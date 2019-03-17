@@ -1,6 +1,7 @@
 'use strict';
-var cb = ae => document.querySelectorAll(ae);
+var cb = ae => [...document.querySelectorAll(ae)];
 
+/* inner quotes are required */
 var dh = [
    '[href*="1080p"]',
    '[href*="400p"]',
@@ -9,13 +10,14 @@ var dh = [
    '[src*="mp4"]'
 ];
 
-/* inner quotes are required */
-new Set([...cb(dh.join())].map(ae => ae.href || ae.src)).forEach(ae => {
-   var fk = document.createElement('p');
-   var np = document.createElement('video');
-   np.controls = np.style.width = '600px';
-   fk.textContent = np.src = ae;
-   document.body.prepend(fk, np);
+/* need variable so that we remove only old elements */
+var fk = cb('video');
+new Set(cb(dh.join()).map(ae => ae.href || ae.src)).forEach(ae => {
+   var np = document.createElement('p');
+   var oq = document.createElement('video');
+   oq.controls = oq.style.width = '600px';
+   np.textContent = oq.src = ae;
+   document.body.prepend(np, oq);
 });
 
-cb('video').forEach(ae => ae.remove());
+fk.forEach(ae => ae.remove());

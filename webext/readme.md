@@ -1,9 +1,9 @@
-Night
-=====
+Umber WebExtension
+==================
 
 ![hero](assets/image.jpg)
 
-WebExtension to pause and play YouTube
+Pause and play YouTube with keyboard
 
 See also
 --------
