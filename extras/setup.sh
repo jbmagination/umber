@@ -1,12 +1,12 @@
 #!/bin/dash -e
 case $1 in
 -i)
-   mkdir -p /usr/share/mauve
-   ln -f -s "$PWD"/../assets/1.json /usr/share/mauve
+   mkdir -p /usr/share/umber
+   ln -f -s "$PWD"/../assets/1.json /usr/share/umber
    ln -f -s "$PWD"/available.awk /usr/bin
    ;;
 -r)
-   rm -f -r /usr/bin/available.awk /usr/share/mauve
+   rm -f -r /usr/bin/available.awk /usr/share/umber
    ;;
 *)
    echo 'synopsis: setup.sh <operation>

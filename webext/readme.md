@@ -1,8 +1,6 @@
 Umber WebExtension
 ==================
 
-![hero](assets/image.jpg)
-
 Pause and play YouTube with keyboard
 
 See also
