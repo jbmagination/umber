@@ -1590,11 +1590,24 @@ Pizzicato Five:
       Birth of Cool:
       This Year’s Girl 6: len
 Plaid:
-   Double Figure:
-      <date: 2001
+   Spokes:
+      <date: 2003
       <<: &low
          <flow: 55,939
          <link: https://youtu.be/eH1IMB8KJok
+      Even Spring: no
+      Crumax Rins:
+      Upona:
+      Zeal:
+      Cedar City:
+      B Born Droid:
+      Marry:
+      Get What You Gave:
+      Buns:
+      Quick Emix:
+   Double Figure:
+      <date: 2001
+      <<: *low
       Eyen: no
       Squance: no
       Assault on Precinct Zero: no
