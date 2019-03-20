@@ -1642,8 +1642,8 @@ Tycho:
    Dive:
       <date: 2011
       <<: *low
-      A Walk:
-      Hours:
+      A Walk: no
+      Hours: no
       Daydream:
       Dive:
       Coastal Brake:
@@ -1652,33 +1652,23 @@ Tycho:
       Adrift:
       Epigram: len
       Elegy: yes
-   Past Is Prologue:
+   Past Is Prologue / Sunrise Projector:
       <date: 2006
       <<: *low
-      From Home: yes
-      Sunrise Projector: dup
-      Dictaphone’s Lament: dup
-      PBS: yes
-      Send and Receive: dup
-      Brother: len
-      A Circular Reeducation: dup
-      Past Is Prologue: dup
-      Cloud Generator: dup
-   Sunrise Projector:
-      <date: 2004
-      <<: *low
-      Sunrise Projector: no
-      Dictaphone’s Lament:
-      PBS/KAE:
-      Phoenix Cylinder: len
-      Overlook: yes
-      Lapse: yes
-      Send and Receive: yes
-      Past Is Prologue: yes
-      You Should Be More Like Your Brother: len
       A Circular Reeducation: yes
+      Brother: len
       Cloud Generator: yes
-      Sunrise Calendar:
+      Dictaphone’s Lament: no
+      From Home: yes
+      Lapse: yes
+      Overlook: yes
+      Past Is Prologue: yes
+      PBS: yes
+      Phoenix Cylinder: len
+      Send and Receive: yes
+      Sunrise Calendar: no
+      Sunrise Projector: no
+      The Disconnect: no
    The Science of Patterns:
       <date: 2002
       <<: *low
