@@ -34,7 +34,7 @@ async function main()
       e_i.src = ab.snippet.thumbnails.medium.url;
       // needs to cover &#39;
       e_d.innerHTML = ab.snippet.title;
-      e_fc.textContent = ab.snippet.publishedAt;
+      e_fc.textContent = new Date(ab.snippet.publishedAt).toDateString();
       e_a.append(e_i, e_d);
       e_fu.append(e_a, e_fc);
       document.getElementById('figures').append(e_fu);

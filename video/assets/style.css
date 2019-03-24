@@ -9,7 +9,7 @@ body {
    font-family: Arial;
 }
 figure {
-   flex-basis: 320px;
+   margin: 16px;
 }
 footer {
    font-size: 5ex;
