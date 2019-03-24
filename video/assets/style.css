@@ -14,11 +14,13 @@ figure {
    margin: 16px;
 }
 footer {
-   font-size: 5ex;
+   font-size: xx-large;
 }
 input {
-   font-family: Consolas;
+   font-family: Consolas, monospace;
    font-size: large;
+   max-width: 100%;
+   width: 420px;
 }
 main {
    display: flex;

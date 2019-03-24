@@ -1180,10 +1180,62 @@ Oneohtrix Point Never:
       Ouroboros: len
       Preyouandi:
    Rifts:
-      <this includes albums:
-      - Russian Mind
-      - Zones Without People
-      <date: 2009
+      <date: 2009-10-20
+      <<: *low
+      A Pact Between Strangers:
+      Behind the Bank: len
+      Betrayed in the Octagon: dup
+      Blue Drive: yes
+      Computer Vision: len
+      Disconnecting Entirely: len
+      Emil Cioran: dup
+      Eyeballs: len
+      Format & Journey North: dup
+      Grief and Repetition: len
+      Hyperdawn: dup
+      I Know It’s Taking Pictures From Another Plane (Inside Your Sun): len
+      Immanence: dup
+      KGB Nights:
+      Laser to Laser: dup
+      Learning to Control Myself: dup
+      Lovergirls Precinct: len
+      Melancholy Descriptions of Simple 3D Environments:
+      Memory Vague:
+      Months: dup
+      Parallel Minds: dup
+      Physical Memory: dup
+      Russian Mind: dup
+      Sand Partina:
+      Ships Without Meaning:
+      Terminator Lake:
+      The Trouble With Being Born:
+      Time Decanted: dup
+      Transmat Memories:
+      When I Get Back From New York:
+      Woe Is the Transgression I: dup
+      Woe Is the Transgression II: dup
+      Zones Without People: dup
+   Russian Mind:
+      <date: 2009-10
+      <<: *low
+      Months:
+      Physical Memory:
+      Grief and Repetition: len
+      Russian Mind:
+      Time Decanted:
+      Immanence:
+   Zones Without People:
+      <date: 2009-08
+      <<: *low
+      Computer Vision: len
+      Format & Journey North:
+      Zones Without People:
+      Learning to Control Myself:
+      Disconnecting Entirely: len
+      Emil Cioran:
+      Hyperdawn:
+   Betrayed in the Octagon:
+      <date: 2007
       <<: *low
       Woe Is the Transgression I:
       Behind the Bank: len
@@ -1192,32 +1244,6 @@ Oneohtrix Point Never:
       Woe Is the Transgression II:
       Parallel Minds:
       Laser to Laser:
-      Ships Without Meaning:
-      Terminator Lake:
-      Transmat Memories:
-      A Pact Between Strangers:
-      When I Get Back From New York:
-      Computer Vision: len
-      Format & Journey North:
-      Zones Without People:
-      Learning to Control Myself:
-      Disconnecting Entirely: len
-      Emil Cioran:
-      Hyperdawn:
-      Lovergirls Precinct: len
-      I Know It’s Taking Pictures From Another Plane (Inside Your Sun): len
-      Blue Drive: yes
-      The Trouble With Being Born:
-      Sand Partina:
-      Months:
-      Physical Memory:
-      Grief and Repetition: len
-      Russian Mind:
-      Time Decanted:
-      Immanence:
-      Melancholy Descriptions of Simple 3D Environments:
-      Memory Vague:
-      KGB Nights:
 OutKast:
    ATLiens:
       <flow: 4,413,491

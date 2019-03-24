@@ -39,7 +39,10 @@ https://console.developers.google.com/apis/credentials
 1. Click Create credentials
 2. Click API key
 
-If you wish to undo all of this, visit the first link on this page and delete
+How to remove key
+-----------------
+
+If you wish to undo all of this, go back to the Resource Manager and delete
 the project. It will automatically disable the API and delete the credentials.
 The docs for the API used for this project are here:
 
