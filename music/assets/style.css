@@ -6,10 +6,10 @@
    font-family: "Overpass";
    src: url("/umber/assets/overpass.woff2");
 }
-#next, #prev, .header {
+#newer, #older, .header {
    color: seagreen;
 }
-#next, #prev, form {
+#newer, #older, form {
    margin-left: 25px;
    margin-right: 25px;
 }

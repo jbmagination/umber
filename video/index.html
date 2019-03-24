@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <link rel="icon"
-      href="https://www.youtube.com/yts/img/favicon_32-vflOogEID.png">
+   <link rel="icon" href="/umber/assets/image.jpg">
    <link rel="stylesheet" href="/umber/video/assets/style.css">
    <link rel="stylesheet" href="/umber/assets/font-awesome.css">
    <meta charset="utf-8">
@@ -11,15 +10,19 @@
 </head>
 <body>
    <header>
-      <a class="fa fa-arrow-up fa-pull-left"></a><a href="..">Up</a>
+      <h1>Umber Video</h1>
    </header>
    <main id="figures"></main>
    <footer>
-      <a id="prev">prev</a><a id="next">next</a>
+      <a id="newer"></a><a id="older"></a>
       <form>
          <label>playlistId
-            <input id="playlistId" name="playlistId">
+            <input id="playlistId" name="p" size="28">
          </label>
+         <label>key
+            <input id="key" name="k" size="42">
+         </label>
+         <input hidden type="submit">
       </form>
    </footer>
 </body>

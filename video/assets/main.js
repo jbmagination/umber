@@ -4,17 +4,23 @@ async function main()
 {
    let spar = new URLSearchParams(location.search);
    let furl = new URL('https://www.googleapis.com/youtube/v3/playlistItems');
-   furl.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
    furl.searchParams.set('maxResults', 50);
    furl.searchParams.set('part', 'snippet');
-   furl.searchParams.set('playlistId', spar.get('playlistId'));
-   document.getElementById('playlistId').value = spar.get('playlistId');
 
-   if (spar.get('pageToken'))
+   if (spar.get('t'))
    {
-      furl.searchParams.set('pageToken', spar.get('pageToken'));
+      furl.searchParams.set('pageToken', spar.get('t'));
    }
 
+   if (!spar.get('k') || !spar.get('p'))
+   {
+      return;
+   }
+
+   furl.searchParams.set('key', spar.get('k'));
+   document.getElementById('key').value = spar.get('k');
+   furl.searchParams.set('playlistId', spar.get('p'));
+   document.getElementById('playlistId').value = spar.get('p');
    let pitm = await (await fetch(furl)).json();
    document.title = pitm.items[0].snippet.channelTitle + ' - Umber Video';
    pitm.items.forEach(ab => {
@@ -36,22 +42,16 @@ async function main()
 
    if (pitm.nextPageToken)
    {
-      spar.set('pageToken', pitm.nextPageToken);
-      document.getElementById('next').href = '?' + spar.toString();
-   }
-   else
-   {
-      document.getElementById('next').remove();
+      spar.set('t', pitm.nextPageToken);
+      document.getElementById('older').href = '?' + spar.toString();
+      document.getElementById('older').textContent = 'older';
    }
 
    if (pitm.prevPageToken)
    {
-      spar.set('pageToken', pitm.prevPageToken);
-      document.getElementById('prev').href = '?' + spar.toString();
-   }
-   else
-   {
-      document.getElementById('prev').remove();
+      spar.set('t', pitm.prevPageToken);
+      document.getElementById('newer').href = '?' + spar.toString();
+      document.getElementById('newer').textContent = 'newer';
    }
 
 }

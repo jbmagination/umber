@@ -99,24 +99,27 @@ async function main()
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(af => fgr(af))
    );
+
+   if (result[end])
+   {
+      urlp.set('p', page + 1);
+      document.getElementById('older').href = '?' + urlp.toString();
+   }
+   else
+   {
+      document.getElementById('older').remove();
+   }
+
    if (page == 1)
    {
-      document.getElementById('prev').style.display = 'none';
+      document.getElementById('newer').remove();
    }
    else
    {
       urlp.set('p', page - 1);
-      document.getElementById('prev').href = '?' + urlp.toString();
+      document.getElementById('newer').href = '?' + urlp.toString();
    }
-   if (result[end])
-   {
-      urlp.set('p', page + 1);
-      document.getElementById('next').href = '?' + urlp.toString();
-   }
-   else
-   {
-      document.getElementById('next').style.display = 'none';
-   }
+
 }
 
 main();

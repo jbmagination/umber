@@ -1,12 +1,22 @@
+#newer, #older {
+   margin: 25px;
+}
 a {
    text-decoration: none;
 }
 body {
-   background: lavenderblush;
+   background: linen;
    font-family: Arial;
 }
 figure {
    flex-basis: 320px;
+}
+footer {
+   font-size: 5ex;
+}
+input {
+   font-family: Consolas;
+   font-size: large;
 }
 main {
    display: flex;
