@@ -1,9 +1,26 @@
 Video docs
 ==========
 
-![result](https://github.com/cup/umber/releases/download/dunkey/image.jpg)
+![result][1]
 
-To use this site you need a YouTube API key. First, visit this page:
+How to get playlistId
+---------------------
+
+Using this channel as an example:
+
+https://www.youtube.com/channel/UCsvn_Po0SmunchJYOWpOxMg
+
+typically you will want the "Uploads" playlist:
+
+https://www.youtube.com/playlist?list=UUsvn_Po0SmunchJYOWpOxMg
+
+as you can see to get the `playlistId` you just need to change the second
+letter from `C` to `U`.
+
+How to get key
+--------------
+
+First, visit this page:
 
 https://console.developers.google.com/cloud-resource-manager
 
@@ -28,3 +45,5 @@ The docs for the API used for this project are here:
 
 - https://developers.google.com/apis-explorer#p/youtube/v3/youtube.playlistItems.list
 - https://developers.google.com/youtube/v3/docs/playlistItems/list
+
+[1]:https://user-images.githubusercontent.com/926619/54879879-7d48ae00-4e0c-11e9-9b71-92592a1b2c33.jpg

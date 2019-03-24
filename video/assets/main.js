@@ -12,7 +12,8 @@ async function main()
       furl.searchParams.set('pageToken', spar.get('t'));
    }
 
-   if (!spar.get('k') || !spar.get('p'))
+   // need to cover {YOUR_API_KEY}
+   if (!spar.get('p') || spar.get('k').length < 15)
    {
       return;
    }
@@ -43,14 +44,14 @@ async function main()
    if (pitm.nextPageToken)
    {
       spar.set('t', pitm.nextPageToken);
-      document.getElementById('older').href = '?' + spar.toString();
+      document.getElementById('older').href = '?' + spar;
       document.getElementById('older').textContent = 'older';
    }
 
    if (pitm.prevPageToken)
    {
       spar.set('t', pitm.prevPageToken);
-      document.getElementById('newer').href = '?' + spar.toString();
+      document.getElementById('newer').href = '?' + spar;
       document.getElementById('newer').textContent = 'newer';
    }
 

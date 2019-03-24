@@ -103,7 +103,7 @@ async function main()
    if (result[end])
    {
       urlp.set('p', page + 1);
-      document.getElementById('older').href = '?' + urlp.toString();
+      document.getElementById('older').href = '?' + urlp;
    }
    else
    {
@@ -117,7 +117,7 @@ async function main()
    else
    {
       urlp.set('p', page - 1);
-      document.getElementById('newer').href = '?' + urlp.toString();
+      document.getElementById('newer').href = '?' + urlp;
    }
 
 }

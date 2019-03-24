@@ -590,8 +590,6 @@ Jabberwocky:
       Quantif:
 Jackson C. Frank:
    The Complete Recordings:
-      <flow: 109,081
-      <link: https://youtu.be/fO7ih6Nu3MA
       <this covers youtube albums:
       - Jackson C. Frank
       - Blues Run the Game
@@ -599,8 +597,9 @@ Jackson C. Frank:
       - Heartbreak Hotel
       - Remastered & Unreleased
       - Fixin’ to Die
-   The Complete Recordings:
       <date: 2015
+      <flow: 109,081
+      <link: https://youtu.be/fO7ih6Nu3MA
       <<: *low
       (Tumble) In the Wind (version 1): len
       (Tumble) In the Wind (version 2):

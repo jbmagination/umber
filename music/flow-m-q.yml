@@ -1155,8 +1155,35 @@ Oneohtrix Point Never:
       Still Life: yes
       Chrome Country: yes
       Gone: len
+   Replica:
+      <date: 2011
+      <<: *low
+      Andro:
+      Power of Persuasion: yes
+      Sleep Dealer:
+      Remember:
+      Replica:
+      Nassau:
+      Submersible: yes
+      Up:
+      Child Soldier:
+      Explain:
+   Returnal:
+      <date: 2010
+      <<: *low
+      Nil Admirari:
+      Describing Bodies:
+      Stress Waves: yes
+      Returnal: yes
+      Pelham Island Road:
+      Where Does Time Go:
+      Ouroboros: len
+      Preyouandi:
    Rifts:
-      <date: 2012
+      <this includes albums:
+      - Russian Mind
+      - Zones Without People
+      <date: 2009
       <<: *low
       Woe Is the Transgression I:
       Behind the Bank: len
@@ -1191,36 +1218,6 @@ Oneohtrix Point Never:
       Melancholy Descriptions of Simple 3D Environments:
       Memory Vague:
       KGB Nights:
-   Replica:
-      <date: 2011
-      <<: *low
-      Andro:
-      Power of Persuasion: yes
-      Sleep Dealer:
-      Remember:
-      Replica:
-      Nassau:
-      Submersible: yes
-      Up:
-      Child Soldier:
-      Explain:
-   Returnal:
-      <date: 2010
-      <<: *low
-      Nil Admirari:
-      Describing Bodies:
-      Stress Waves: yes
-      Returnal: yes
-      Pelham Island Road:
-      Where Does Time Go:
-      Ouroboros: len
-      Preyouandi:
-   Russian Mind:
-      <date: 2009
-   Zones Without People:
-      <date: 2009
-   Memory Vague:
-      <date: 2009
 OutKast:
    ATLiens:
       <flow: 4,413,491

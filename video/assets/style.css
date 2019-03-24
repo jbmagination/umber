@@ -9,6 +9,8 @@ body {
    font-family: Arial;
 }
 figure {
+   /* need this for long titles */
+   flex-basis: 320px;
    margin: 16px;
 }
 footer {
