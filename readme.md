@@ -5,15 +5,15 @@ Umber
 
 Multimedia
 
-History
--------
-
-[First commit](https://github.com/cup/suede/commit/40b8767)
-
 Author
 ------
 
 Steven Penny
+
+History
+-------
+
+[First commit](https://github.com/cup/suede/commit/40b8767)
 
 References
 ----------

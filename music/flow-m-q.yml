@@ -1218,11 +1218,11 @@ Oneohtrix Point Never:
    Russian Mind:
       <date: 2009-10
       <<: *low
-      Months:
-      Physical Memory:
+      Months: no
+      Physical Memory: no
       Grief and Repetition: len
-      Russian Mind:
-      Time Decanted:
+      Russian Mind: no
+      Time Decanted: yes
       Immanence:
    Zones Without People:
       <date: 2009-08
@@ -1237,7 +1237,7 @@ Oneohtrix Point Never:
    Betrayed in the Octagon:
       <date: 2007
       <<: *low
-      Woe Is the Transgression I:
+      Woe Is the Transgression I: no
       Behind the Bank: len
       Eyeballs: len
       Betrayed in the Octagon:

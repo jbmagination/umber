@@ -1,4 +1,4 @@
-Video docs
+Watch docs
 ==========
 
 ![result][1]

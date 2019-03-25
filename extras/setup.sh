@@ -2,7 +2,7 @@
 case $1 in
 -i)
    mkdir -p /usr/share/umber
-   ln -f -s "$PWD"/../assets/1.json /usr/share/umber
+   ln -f -s "$PWD"/../music/assets/data.json /usr/share/umber
    ln -f -s "$PWD"/available.awk /usr/bin
    ;;
 -r)

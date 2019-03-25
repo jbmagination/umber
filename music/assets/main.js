@@ -38,12 +38,12 @@ function fgr(vid)
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
       attr[1] + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
-      url = new URL(location.origin + '/umber/play/');
+      url = new URL(location.origin + '/umber/listen/');
       url.searchParams.set('v', vid[0]);
       break;
    case 'r':
       e_i.src = 'https://i.redd.it/' + attr[2] + '.jpg';
-      url = new URL(location.origin + '/umber/play/');
+      url = new URL(location.origin + '/umber/listen/');
       url.searchParams.set('v', vid[0]);
       break;
    case 's':
@@ -94,7 +94,7 @@ async function main()
 
    // both sides of the test can contain uppercase on mobile
    let result = (await (
-      await fetch('/umber/assets/1.json')
+      await fetch('/umber/music/assets/data.json')
    ).json()).filter(af => RegExp(query, 'i').test(af[1] + af[3]));
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(af => fgr(af))
