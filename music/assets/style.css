@@ -26,7 +26,7 @@ a {
    text-decoration: none;
 }
 body {
-   background: radial-gradient(lavender 60%, thistle);
+   background: radial-gradient(linen 70%, burlywood);
 }
 figure {
    flex-basis: 426px;
@@ -42,7 +42,7 @@ footer, header, main {
    justify-content: center; /* horizontal */
 }
 h1 {
-   color: rebeccapurple;
+   color: #8A3324;
    font-family: "Miller Display Italic";
    font-size: 9ex;
 }
