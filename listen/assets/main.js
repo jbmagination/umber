@@ -4,7 +4,7 @@ const lstn = document.getElementById('listen');
 async function main()
 {
    const vdeo = (await (
-      await fetch('/umber/music/assets/data.json')
+      await fetch('/umber/radio/assets/data.json')
    ).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );

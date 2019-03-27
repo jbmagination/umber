@@ -94,7 +94,7 @@ async function main()
 
    // both sides of the test can contain uppercase on mobile
    let result = (await (
-      await fetch('/umber/music/assets/data.json')
+      await fetch('/umber/radio/assets/data.json')
    ).json()).filter(af => RegExp(query, 'i').test(af[1] + af[3]));
    document.getElementById('figures').append(
       ...result.slice(begin, end).map(af => fgr(af))
