@@ -84,11 +84,9 @@ function fgr(vid)
 async function main()
 {
    let step = 12;
-   let urlp = new URLSearchParams(location.search);
-
-   let page = +urlp.get('p') || 1;
-   let query = urlp.get('q') || '';
-
+   let spar = new URLSearchParams(location.search);
+   let query = spar.get('q') || '';
+   let page = +spar.get('p') || 1;
    let begin = (page - 1) * step;
    let end = begin + step;
 
@@ -102,8 +100,8 @@ async function main()
 
    if (result[end])
    {
-      urlp.set('p', page + 1);
-      document.getElementById('older').href = '?' + urlp;
+      spar.set('p', page + 1);
+      document.getElementById('older').href = '?' + spar;
    }
    else
    {
@@ -116,8 +114,8 @@ async function main()
    }
    else
    {
-      urlp.set('p', page - 1);
-      document.getElementById('newer').href = '?' + urlp;
+      spar.set('p', page - 1);
+      document.getElementById('newer').href = '?' + spar;
    }
 
 }

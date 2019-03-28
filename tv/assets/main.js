@@ -14,7 +14,8 @@ async function main()
       spar.set('k', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
       spar.set('p', ab[2]);
 
-      e_a.href = '/umber/watch?' + spar;
+      // need final "/" to maintain HTTPS
+      e_a.href = '/umber/watch/?' + spar;
       e_i.src = 'https://yt3.ggpht.com/' + ab[3];
       // needs to cover &#39;
       e_d.innerHTML = ab[1];
