@@ -6,27 +6,27 @@
    font-family: "Overpass";
    src: url("/umber/assets/overpass.woff2");
 }
-#newer, #older, .header {
-   color: seagreen;
+#newer, #older, .repo {
+   color: #c82121;
 }
 #newer, #older, form {
    margin-left: 25px;
    margin-right: 25px;
 }
-.header, footer, main {
+.repo, footer, main {
    font-family: Overpass;
 }
-.header, h1 {
+.repo, h1 {
    margin: 0 50px;
 }
-.header, main {
+.repo, main {
    font-size: large;
 }
 a {
    text-decoration: none;
 }
 body {
-   background: radial-gradient(linen 70%, burlywood);
+   background: radial-gradient(#dee1ec 50%, #becbff);
 }
 figure {
    flex-basis: 426px;
@@ -42,9 +42,9 @@ footer, header, main {
    justify-content: center; /* horizontal */
 }
 h1 {
-   color: #8A3324;
+   color: #0d0cb5;
    font-family: "Miller Display Italic";
-   font-size: 9ex;
+   font-size: 7ex;
 }
 header {
    align-items: center; /* vertical */

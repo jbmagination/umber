@@ -1,0 +1,22 @@
+@font-face {
+   font-family: "Miller Display Italic";
+   src: url("/umber/assets/miller-display-italic.woff2");
+}
+@font-face {
+   font-family: "Overpass";
+   src: url("/umber/assets/overpass.woff2");
+}
+a {
+   text-decoration: none;
+}
+body {
+   background: radial-gradient(#dee1ec 50%, #becbff);
+}
+h1 {
+   color: #0d0cb5;
+   font-family: "Miller Display Italic";
+   font-size: 6ex;
+}
+main {
+   font-family: Overpass;
+}
