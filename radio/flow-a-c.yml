@@ -1860,9 +1860,24 @@ Com Truise:
       Futureworld:
       Karova:
 Conjure One:
+   Extraordinary Ways:
+      <date: 2005
+      <<: &low
+         <flow: 163,821
+         <link: https://youtu.be/4w0hHxrj7do
+      Endless Dream: no
+      Face the Music: no
+      Pilgrimage: no
+      One Word: no
+      I Believe: no
+      Beyond Being:
+      Extraordinary Way:
+      Dying Light:
+      Forever Lost:
+      Into the Escape:
    Conjure One:
-      <flow: 163,821
-      <link: https://youtu.be/4w0hHxrj7do
+      <date: 2002
+      <<: *low
       Damascus: len
       Center of the Sun:
       Tears From the Moon:

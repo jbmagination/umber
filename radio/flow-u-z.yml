@@ -1,14 +1,78 @@
 U2:
-   Achtung Baby:
-      <flow: 10,505,119
-      <link: https://youtu.be/ZpDQJnI4OhU
-      One:
+   Songs of Experience:
+      <date: 2017
+      <flow: 9,436,108
+      <link: https://youtu.be/XC3ahd6Di3M
+      Ordinary Love:
+      You’re the Best Thing About Me:
+   Songs of Innocence:
+      <date: 2014
+   No Line on the Horizon:
+      <date: 2009
+   How to Dismantle an Atomic Bomb:
+      <date: 2004
    All That You Can’t Leave Behind:
+      <date: 2000
       <flow: 13,487,759
       <link: https://youtu.be/co6WMzDOh1o
       Beautiful Day:
       Stuck in a Moment You Can’t Get Out Of:
+   Pop:
+      <date: 1997
+   Pop:
+      <date: 1997
+   Zooropa:
+      <date: 1993
+   Achtung Baby:
+      <date: 1991
+      <flow: 10,505,119
+      <link: https://youtu.be/ZpDQJnI4OhU
+      One:
+   Rattle and Hum:
+      <date: 1988
+   The Joshua Tree:
+      <date: 1987
+      <flow: 13,304,519
+      <link: https://youtu.be/e3-5YC_oHjE
+      I Still Haven’t Found What I’m Looking For:
+      Sweetest Thing:
+      Where the Streets Have No Name:
+      With Or Without You:
+   The Unforgettable Fire:
+      <date: 1984
+      <flow: 7,114,883
+      <link: https://youtu.be/LHcP4MWABGY
+      Bad:
+      Pride:
+   War:
+      <date: 1983
+      <<: *low
+      Sunday Bloody Sunday:
+      Seconds:
+      New Year’s Day: yes
+      Like a Song:
+      Drowning Man:
+      The Refugee:
+      Two Hearts Beat as One:
+      Red Light:
+      Surrender:
+      40: len
+   October:
+      <date: 1981
+      <<: *low
+      Gloria:
+      I Fall Down:
+      I Threw a Brick Through a Window:
+      Rejoice: yes
+      Fire:
+      Tomorrow:
+      October: len
+      With a Shout (Jerusalem):
+      Stranger in a Strange Land:
+      Scarlet: len
+      Is That All?: len
    Boy:
+      <date: 1980
       <<: &low
          <flow: 1,308,362
          <link: https://youtu.be/vdLuk2Agamk
@@ -22,49 +86,7 @@ U2:
       A Day Without Me:
       Another Time, Another Place:
       The Electric Co.:
-      Shadows and Tall Trees / [untitled]:
-   October:
-      <<: *low
-      Gloria:
-      I Fall Down:
-      I Threw a Brick Through a Window:
-      Rejoice: yes
-      Fire:
-      Tomorrow:
-      October: len
-      With a Shout (Jerusalem):
-      Stranger in a Strange Land:
-      Scarlet: len
-      Is That All?: len
-   Songs of Experience:
-      <flow: 9,436,108
-      <link: https://youtu.be/XC3ahd6Di3M
-      Ordinary Love:
-      You’re the Best Thing About Me:
-   The Joshua Tree:
-      <flow: 13,304,519
-      <link: https://youtu.be/e3-5YC_oHjE
-      I Still Haven’t Found What I’m Looking For:
-      Sweetest Thing:
-      Where the Streets Have No Name:
-      With Or Without You:
-   The Unforgettable Fire:
-      <flow: 7,114,883
-      <link: https://youtu.be/LHcP4MWABGY
-      Bad:
-      Pride:
-   War:
-      <<: *low
-      Sunday Bloody Sunday:
-      Seconds:
-      New Year’s Day: yes
-      Like a Song:
-      Drowning Man:
-      The Refugee:
-      Two Hearts Beat as One:
-      Red Light:
-      Surrender:
-      40: len
+      Shadows and Tall Trees:
 Ulrich Schnauss:
    Synthwaves:
       <date: 2017
