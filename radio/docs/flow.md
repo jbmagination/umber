@@ -10,8 +10,8 @@ Legend
 ------
 
 key     | value
---------|--------------------------------------
-date    | of release, can be 2000-03-04 or 2000
+--------|-------------------------------------------------
+date    | of release, can be 2000-03-04 or 2000-03 or 2000
 dup     | reissue
 flow    | views per year
 high    | flow at or above threshold
