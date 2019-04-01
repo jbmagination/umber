@@ -1280,6 +1280,7 @@ Kacey Musgraves:
       It Is What It Is: no
 Kate Bush:
    Hounds of Love:
+      <date: 1985
       <<: &low
          <flow: 3,230,338
          <link: https://youtu.be/BW3gKKiTvjs
@@ -1295,7 +1296,25 @@ Kate Bush:
       Jig of Life: no
       Hello Earth: no
       The Morning Fog: len
+   The Dreaming:
+      <date: 1982
+      <<: *low
+      Sat in Your Lap: no
+      There Goes a Tenner: no
+      Pull Out the Pin: no
+      Suspended in Gaffa: no
+      Leave It Open: no
+      The Dreaming:
+      Night of the Swallow:
+      All the Love:
+      Houdini:
+      Get Out of My House:
+   Never for Ever:
+      <date: 1980
+   Lionheart:
+      <date: 1978
    The Kick Inside:
+      <date: 1978
       <<: *low
       Moving: no
       The Saxophone Song: no

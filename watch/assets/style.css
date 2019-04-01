@@ -5,7 +5,7 @@ a {
    text-decoration: none;
 }
 body {
-   background: linen;
+   background: radial-gradient(#dee1ec 50%, #becbff);
    font-family: Arial;
 }
 figure {

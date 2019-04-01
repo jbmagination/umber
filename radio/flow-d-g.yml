@@ -1,7 +1,8 @@
 Daft Punk:
+   <updated: 2019-3-31
    Random Access Memories:
       <date: 2013
-      <flow: 71,108,096
+      <flow: 74,459,659
       <link: https://youtu.be/5NV6Rdv1a3I
       Get Lucky:
       Instant Crush:
@@ -52,26 +53,27 @@ Daft Punk:
    Human After All:
       <date: 2005
       <<: *low
-      Human After All:
-      The Prime Time of Your Life:
-      Robot Rock:
-      Steam Machine:
+      Human After All: no
+      The Prime Time of Your Life: no
+      Robot Rock: no
+      Steam Machine: no
       Make Love: yes
-      The Brainwasher:
+      The Brainwasher: no
       On/Off: len
       Television Rules the Nation:
       Technologic:
       Emotion:
    Discovery:
       <date: 2001
-      <flow: 31,730,630
+      <flow: 32,109,451
       <link: https://youtu.be/PsO6ZnUZI0g
       Digital Love:
       Harder Better Faster Stronger:
       One More Time:
+      Something About Us:
    Homework:
       <date: 1997
-      <flow: 11,461,864
+      <flow: 12,883,797
       <link: https://youtu.be/yca6UsllwYs
       Around the World:
 Daniel Lanois:
@@ -1503,22 +1505,26 @@ Groove Armada:
       Join Hands:
       Likwid:
 Guns N’ Roses:
+   Use Your Illusion II:
+      <date: 1991-09-17
+      <flow: 6,374,297
+      <link: https://youtu.be/NDOPlpH6NZM
+      Yesterdays:
+   Use Your Illusion I:
+      <date: 1991-09-16
+      <flow: 123,354,481
+      <link: https://youtu.be/8SbUC-UaAxE
+      November Rain:
+   G N’ R Lies:
+      <date: 1988
+      <flow: 42,733,186
+      <link: https://youtu.be/ErvgV4P6Fzc
+      Patience:
    Appetite for Destruction:
+      <date: 1987
       <flow: 86,924,643
       <link: https://youtu.be/1w7OgIMMRc4
       Sweet Child O’ Mine:
-   G N’ R Lies:
-      <flow: 38,754,294
-      <link: https://youtu.be/ErvgV4P6Fzc
-      Patience:
-   Use Your Illusion I:
-      <flow: 118,044,031
-      <link: https://youtu.be/8SbUC-UaAxE
-      November Rain:
-   Use Your Illusion II:
-      <flow: 7,108,034
-      <link: https://youtu.be/NDOPlpH6NZM
-      Yesterdays:
 Gwen Stefani:
    Love. Angel. Music. Baby.:
       <flow: 19,273,377

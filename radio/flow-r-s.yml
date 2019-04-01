@@ -491,6 +491,7 @@ Röyksopp:
       Here She Comes Again:
       Monument:
 Sade:
+   <updated: 2019-3-31
    Soldier of Love:
       <date: 2010
       <<: &low
@@ -508,12 +509,12 @@ Sade:
       The Safest Place: len
    Lovers Rock:
       <date: 1999
-      <flow: 7,016,331
+      <flow: 7,100,436
       <link: https://youtu.be/C8QJmI_V3j4
       By Your Side:
    Love Deluxe:
       <date: 1992
-      <flow: 8,472,474
+      <flow: 9,001,862
       <link: https://youtu.be/_WcWHZc8s2I
       Cherish the Day:
       Kiss of Life:
@@ -549,7 +550,7 @@ Sade:
    Diamond Life:
       <date: 1984
       <<: *low
-      Smooth Operator:
+      Smooth Operator: yes
       Your Love Is King: yes
       Hang on to Your Love:
       Frankie’s First Affair:
