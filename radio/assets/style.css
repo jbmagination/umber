@@ -13,14 +13,14 @@
    margin-left: 25px;
    margin-right: 25px;
 }
+.repo {
+   font-size: x-large;
+}
 .repo, footer, main {
    font-family: Overpass;
 }
 .repo, h1 {
    margin: 0 50px;
-}
-.repo, main {
-   font-size: large;
 }
 a {
    text-decoration: none;
@@ -33,8 +33,10 @@ figure {
    margin: 12px 8px;
 }
 footer {
-   font-size: 5ex;
    margin-bottom: 8px;
+}
+footer, h1 {
+   font-size: 3em;
 }
 footer, header, main {
    display: flex;
@@ -44,7 +46,6 @@ footer, header, main {
 h1 {
    color: #0d0cb5;
    font-family: "Miller Display Italic";
-   font-size: 7ex;
 }
 header {
    align-items: center; /* vertical */
@@ -58,4 +59,7 @@ img {
 input {
    text-align: center;
    vertical-align: middle;
+}
+main {
+   font-size: large;
 }
