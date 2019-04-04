@@ -1644,7 +1644,7 @@ Tycho:
       <<: *low
       A Walk: no
       Hours: no
-      Daydream:
+      Daydream: yes
       Dive:
       Coastal Brake:
       Ascension:
