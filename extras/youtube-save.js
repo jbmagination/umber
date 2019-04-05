@@ -61,10 +61,10 @@ for (var eurl of durl)
 fdiv = document.createElement('div');
 fdiv.innerHTML = ypsi.sort().join('');
 fdiv.style.background = 'plum';
-fdiv.style.borderRadius = fdiv.style.padding = '2ex';
+fdiv.style.borderRadius = fdiv.style.padding = '1em';
 fdiv.style.position = 'fixed';
 fdiv.style.right = fdiv.style.top = 0;
-fdiv.style.width = '25ex';
+fdiv.style.width = '14em';
 fdiv.style.zIndex = 6;
 
 document.body.append(fdiv);

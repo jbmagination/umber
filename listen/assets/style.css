@@ -3,6 +3,6 @@ body {
    font-family: sans-serif;
 }
 video {
-   max-height: 480px;
+   max-height: 360px;
    max-width: 100%;
 }

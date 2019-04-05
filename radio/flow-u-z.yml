@@ -170,11 +170,24 @@ Ulrich Schnauss:
       In All the Wrong Places:
       A Strangely Isolated Place:
 Underworld:
-   Beaucoup Fish:
-      <date: 1999
+   A Hundred Days Off:
+      <date: 2002
       <<: &low
          <flow: 1,501,433
          <link: https://youtu.be/TlLWFa1b1Bc
+      Mo Move: no
+      Two Months Off: yes
+      Twist:
+      Sola Sistim:
+      Little Speaker:
+      Trim:
+      Ess Gee: len
+      Dinosaur Adventure 3D:
+      Ballet Lane:
+      Luetin:
+   Beaucoup Fish:
+      <date: 1999
+      <<: *low
       Cups: no
       Push Upstairs: no
       Jumbo: no
@@ -209,6 +222,19 @@ Underworld:
       Cowgirl:
       River of Bass:
       M.E.:
+   Change the Weather:
+      <date: 1988
+      <<: *low
+      Change the Weather: no
+      Stand Up: no
+      Fever: no
+      Original Song: no
+      Mercy: no
+      Mr. Universe:
+      Texas:
+      Thrash:
+      Sole Survivor:
+      Beach: len
 Us3:
    Hand on the Torch:
       <flow: 774,491
