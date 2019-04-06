@@ -13,14 +13,14 @@
    margin-left: 25px;
    margin-right: 25px;
 }
-.repo {
-   font-size: x-large;
-}
 .repo, footer, main {
    font-family: Overpass;
 }
 .repo, h1 {
    margin: 0 50px;
+}
+.repo, main {
+   font-size: large;
 }
 a {
    text-decoration: none;
@@ -58,7 +58,4 @@ img {
 input {
    text-align: center;
    vertical-align: middle;
-}
-main {
-   font-size: large;
 }

@@ -1080,6 +1080,7 @@ Joy Division:
       I Remember Nothing:
 Julia Holter:
    Have You in My Wilderness:
+      <date: 2015
       <<: &low
          <flow: 386,435
          <link: https://youtu.be/X2JgMniIpRM
@@ -1093,7 +1094,20 @@ Julia Holter:
       Betsy on the Roof:
       Vasquez:
       Have You in My Wilderness:
+   Maria:
+      <date: 2014
+      <<: *low
+      Maria: yes
+      2HB:
+      A Gold Thunder: len
+      Für Felix: len
+      In the Same Room: len
+      Je Vivroie Liement: len
+      Minerals:
+      Moni Mon Amie:
+      Monocular Eyes: len
    Loud City Song:
+      <date: 2013
       <<: *low
       World:
       Maxim’s I:
@@ -1104,7 +1118,12 @@ Julia Holter:
       He’s Running Through My Eyes: len
       This Is a True Heart:
       City Appearing:
+   The Middle of Life (Die ganze Zeit):
+      <date: 2013
+   Ekstasis:
+      <date: 2012
    Tragedy:
+      <date: 2011
       <<: *low
       Introduction: no
       Try to Make Yourself a Work of Art: no
