@@ -1162,35 +1162,43 @@ Julianna Barwick:
       Prizewinning:
       Flown:
 Justin Timberlake:
+   Man of the Woods:
+      <date: 2018
+      <flow: 251,620,046
+      <link: https://youtu.be/8MPbR6Cbwi4
+      Filthy:
+      Man of the Woods:
+      Say Something:
+      Supplies:
+   The 20/20 Experience (2 of 2):
+      <date: 2013-09-27
+      <flow: 18,505,908
+      <link: https://youtu.be/FyXtoTLLcDk
+      Not a Bad Thing:
+      Take Back the Night:
+      TKO:
+   The 20/20 Experience:
+      <date: 2013-03-15
+      <flow: 90,721,634
+      <link: https://youtu.be/uuZE_IRwLNI
+      Mirrors:
+      Suit & Tie:
    FutureSex/LoveSounds:
-      <flow: 30,938,737
+      <date: 2006
+      <flow: 30,587,765
       <link: https://youtu.be/TOrnUquxtwA
       Let Me Talk To You/My Love:
       LoveStoned/I Think She Knows:
       SexyBack:
       What Goes Around...Comes Around:
    Justified:
-      <flow: 30,356,068
+      <date: 2002
+      <flow: 31,490,158
       <link: https://youtu.be/DksSPZTZES0
       Cry Me a River:
       Like I Love You:
       Rock Your Body:
       Señorita:
-   Man of the Woods:
-      <flow: 359,380,309
-      <link: https://youtu.be/8MPbR6Cbwi4
-      Filthy:
-      Man of the Woods:
-      Say Something:
-      Supplies:
-   The 20/20 Experience:
-      <flow: 93,181,169
-      <link: https://youtu.be/uuZE_IRwLNI
-      Mirrors:
-      Not a Bad Thing:
-      Suit & Tie:
-      Take Back the Night:
-      TKO:
 Kammerflimmer Kollektief:
    There Are Actions Which We Have Neglected and Which Never Cease to Call Us:
       <date: 2018
@@ -1276,15 +1284,34 @@ Kammerflimmer Kollektief:
       Du siehst hoch; du siehst "Wolken" (version):
 Kacey Musgraves:
    Golden Hour:
-      <flow: 54,668,321
+      <date: 2018
+      <flow: 34,821,697
       <link: https://youtu.be/6OFv566mj7s
       Butterflies:
       High Horse:
       Rainbow:
       Space Cowboy:
+   Pageant Material:
+      <date: 2015
+      <<: &low
+         <flow: 412,441
+         <link: https://youtu.be/_eTkY7-vTd8
+      High Time: len
+      Dime Store Cowgirl: no
+      Late to the Party:
+      Pageant Material:
+      This Town: len
+      Biscuits:
+      Somebody to Love:
+      Miserable:
+      Die Fun:
+      Family Is Family: len
+      Good Ol’ Boys Club:
+      Cup of Tea: len
+      Fine:
    Same Trailer Different Park:
-      <flow: 412,441
-      <link: https://youtu.be/_eTkY7-vTd8
+      <date: 2013
+      <<: *low
       Silver Lining: no
       My House: len
       Merry Go ’Round: no
