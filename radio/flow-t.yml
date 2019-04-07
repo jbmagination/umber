@@ -1262,6 +1262,7 @@ Toadies:
       I Burn:
 Tom Waits:
    Bad as Me:
+      <date: 2011
       <<: &low
          <flow: 1,402,774
          <link: https://youtu.be/EtLVXBqfqBY
@@ -1278,19 +1279,37 @@ Tom Waits:
       Last Leaf: len
       Hell Broke Luce:
       New Year’s Eve:
-   Blue Valentine:
+   Orphans Brawlers, Bawlers & Bastards:
+      <date: 2006
+   Real Gone:
+      <date: 2004
       <<: *low
-      Somewhere (from ’West Side Story’):
-      Red Shoes by the Drugstore:
-      Christmas Card From a Hooker in Minneapolis:
-      Romeo Is Bleeding:
-      $29.00:
-      Wrong Side of the Road: yes
-      Whistlin’ Past the Graveyard: yes
-      Kentucky Avenue:
-      A Sweet Little Bullet From a Pretty Blue Gun:
-      Blue Valentines: yes
+      Top of the Hill:
+      Hoist That Rag: yes
+      Sins of My Father: yes
+      Shake It:
+      Don’t Go Into That Barn:
+      How’s It Gonna End:
+      Metropolitan Glide:
+      Dead and Lovely: yes
+      Circus:
+      Trampled Rose:
+      Green Grass: yes
+      Baby Gonna Leave Me:
+      Clang Boom Steam: len
+      Make It Rain:
+      Day After Tomorrow:
+      A-Chick-a-Boom: len
+   Alice:
+      <date: 2002
+   Blood Money:
+      <date: 2002
+   Mule Variations:
+      <date: 1999
+   The Black Rider:
+      <date: 1993
    Bone Machine:
+      <date: 1992
       <<: *low
       Earth Died Screaming:
       Dirt in the Ground:
@@ -1308,31 +1327,10 @@ Tom Waits:
       I Don’t Wanna Grow Up: len
       Let Me Get Up on It: len
       That Feel:
-   Foreign Affairs:
-      <<: *low
-      Cinny’s Waltz: len
-      Muriel: no
-      I Never Talk to Strangers: yes
-      Jack & Neal / California, Here I Come: no
-      A Sight for Sore Eyes: no
-      Potter’s Field: no
-      Burma-Shave: yes
-      Barber Shop: no
-      Foreign Affair: yes
-   Nighthawks at the Diner:
-      <<: *low
-      Emotional Weather Report:
-      On a Foggy Night:
-      Eggs and Sausage (In a Cadillac With Susan Michelson): yes
-      Better Off Without a Wife:
-      Nighthawk Postcards (From Easy Street):
-      Warm Beer and Cold Women:
-      Putnam County:
-      Spare Parts I (A Nocturnal Emission):
-      Nobody: len
-      Big Joe and Phantom 309:
-      Spare Parts II and Closing:
+   Franks Wild Years:
+      <date: 1987
    Rain Dogs:
+      <date: 1985
       <<: *low
       Singapore: len
       Clap Hands: yes
@@ -1353,25 +1351,8 @@ Tom Waits:
       Downtown Train: no
       Bride Of Rain Dog (Instrumental): len
       Anywhere I Lay My Head: len
-   Real Gone:
-      <<: *low
-      Top of the Hill:
-      Hoist That Rag: yes
-      Sins of My Father: yes
-      Shake It:
-      Don’t Go Into That Barn:
-      How’s It Gonna End:
-      Metropolitan Glide:
-      Dead and Lovely: yes
-      Circus:
-      Trampled Rose:
-      Green Grass: yes
-      Baby Gonna Leave Me:
-      Clang Boom Steam: len
-      Make It Rain:
-      Day After Tomorrow:
-      A-Chick-a-Boom: len
    Swordfishtrombones:
+      <date: 1983
       <<: *low
       Underground: len
       Shore Leave:
@@ -1388,6 +1369,49 @@ Tom Waits:
       Gin Soaked Boy: len
       Trouble’s Braids: len
       Rainbirds:
+   Heartattack and Vine:
+      <date: 1980
+   Blue Valentine:
+      <date: 1978
+      <<: *low
+      Somewhere (from ’West Side Story’):
+      Red Shoes by the Drugstore:
+      Christmas Card From a Hooker in Minneapolis:
+      Romeo Is Bleeding:
+      $29.00:
+      Wrong Side of the Road: yes
+      Whistlin’ Past the Graveyard: yes
+      Kentucky Avenue:
+      A Sweet Little Bullet From a Pretty Blue Gun:
+      Blue Valentines: yes
+   Foreign Affairs:
+      <date: 1977
+      <<: *low
+      Cinny’s Waltz: len
+      Muriel: no
+      I Never Talk to Strangers: yes
+      Jack & Neal / California, Here I Come: no
+      A Sight for Sore Eyes: no
+      Potter’s Field: no
+      Burma-Shave: yes
+      Barber Shop: no
+      Foreign Affair: yes
+   Small Change:
+      <date: 1976
+   Nighthawks at the Diner:
+      <date: 1975
+      <<: *low
+      Emotional Weather Report:
+      On a Foggy Night:
+      Eggs and Sausage (In a Cadillac With Susan Michelson): yes
+      Better Off Without a Wife:
+      Nighthawk Postcards (From Easy Street):
+      Warm Beer and Cold Women:
+      Putnam County:
+      Spare Parts I (A Nocturnal Emission):
+      Nobody: len
+      Big Joe and Phantom 309:
+      Spare Parts II and Closing:
 Toni Braxton:
    Secrets:
       <flow: 41,811,475
