@@ -288,7 +288,7 @@ Richard D. James:
       Krieger (Aphex Twin Baldhu mix):
       Deep in Velvet (Aphex Twin Turnips mix):
       Falling Free (Aphex Twin remix):
-      We Have Arrived (Aphex Twin QQT mix):
+      We Have Arrived (Aphex Twin QQT mix): dup
       At the Heart of It All (created by Aphex Twin):
       Flow Coma (remix by AFX):
       Windowlicker (acid edit):
@@ -365,8 +365,24 @@ Richard D. James:
       Alberto Balsalm:
       Cow Cud Is a Twin:
       Next Heap With:
+   Classics:
+      <date: 1994-12
+      <<: *low
+      Digeridoo:
+      Flaphead:
+      Phloam:
+      Isoprophlex:
+      Polynomial‐C:
+      Tamphex (Headphuq mix):
+      Phlange Phace:
+      Dodeccaheedron:
+      Analogue Bubblebath 1: yes
+      Metapharstic:
+      We Have Arrived (Aphex Twin QQT mix):
+      We Have Arrived (Aphex Twin TTQ mix):
+      Digeridoo (live in Cornwall, 1990):
    Selected Ambient Works, Volume II:
-      <date: 1994
+      <date: 1994-03
       <<: *low
       '[Cliffs]': yes
       '[Radiator]':

@@ -247,21 +247,11 @@ The Cars:
       Moving in Stereo:
       All Mixed Up:
 The Cinematic Orchestra:
-   Every Day:
+   Live at the Royal Albert Hall:
+      <date: 2008
       <<: &low
          <flow: 3,468,989
          <link: https://youtu.be/QB0ordd2nOI
-      All That You Give: yes
-      Burn Out:
-      Flite:
-      Evolution:
-      Man With the Movie Camera:
-      All Things to All Men:
-      Everyday: yes
-      Oregon: yes
-      Semblance: len
-   Live at the Royal Albert Hall:
-      <<: *low
       All That You Give:
       Child Song: yes
       Flite:
@@ -272,6 +262,7 @@ The Cinematic Orchestra:
       Man With the Movie Camera:
       Time and Space: yes
    Ma fleur:
+      <date: 2007
       <<: *low
       To Build a Home:
       Familiar Ground:
@@ -285,6 +276,7 @@ The Cinematic Orchestra:
       That Home: len
       Time & Space:
    Man With a Movie Camera:
+      <date: 2003
       <<: *low
       The Projectionist: len
       Melody: len
@@ -303,7 +295,20 @@ The Cinematic Orchestra:
       Drunken Tune: no
       The Animated Tripod: len
       All Things: yes
+   Every Day:
+      <date: 2002
+      <<: *low
+      All That You Give: yes
+      Burn Out:
+      Flite:
+      Evolution:
+      Man With the Movie Camera:
+      All Things to All Men:
+      Everyday: yes
+      Oregon: yes
+      Semblance: len
    Motion:
+      <date: 1999
       <<: *low
       Durian:
       Ode to the Big Sea:
