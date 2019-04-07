@@ -1385,17 +1385,9 @@ Pendulum:
       Another Planet:
       Still Grey: yes
 Pet Shop Boys:
-   Very:
-      <date: 1993
-   Behaviour:
-      <date: 1990
-   Introspective:
-      <date: 1988
-   Actually:
-      <date: 1987
    Please:
       <date: 1986
-      <flow: 6,380,825
+      <flow: 6,469,379
       <link: https://youtu.be/p3j2NYZ8FKs
       West End Girls:
 Peter Frampton:
@@ -1454,6 +1446,49 @@ Pink Floyd:
       <link: https://youtu.be/IXdNnw99-Ic
       Shine on You Crazy Diamond:
       Wish You Were Here:
+Pixies:
+   Bossanova:
+      <date: 1990
+      <<: &low
+         <flow: 2,017,781
+         <link: https://youtu.be/tPgf_btTFlc
+      Cecilia Ann: len
+      Rock Music: len
+      Velouria: no
+      Allison: len
+      Is She Weird: no
+      Ana: len
+      All Over the World: no
+      Dig for Fire: no
+      Down to the Well: len
+      The Happening: no
+      Blown Away: len
+      Hang Wire: len
+      Stormy Weather:
+      Havalina: len
+   Doolittle:
+      <date: 1989
+      <<: *low
+      Debaser: len
+      Tame: len
+      Wave of Mutilation: len
+      I Bleed: len
+      Here Comes Your Man:
+      Dead: len
+      Monkey Gone to Heaven: len
+      Mr. Grieves: len
+      Crackity Jones: len
+      La La Love You: len
+      No. 13 Baby:
+      There Goes My Gun: len
+      Hey: yes
+      Silver: len
+      Gouge Away: len
+   Surfer Rosa:
+      <date: 1988
+      <flow: 23,145,557
+      <link: https://youtu.be/N3oCS85HvpY
+      Where Is My Mind:
 Pizzicato Five:
    Bellissima!:
       <<: &low
