@@ -268,6 +268,7 @@ R.E.M.:
       <date: 1983
 Richard D. James:
    26 Mixes for Cash:
+      <date: 2003
       <<: &low
          <flow: 480,422
          <link: https://youtu.be/7MBaEEODzU0
@@ -298,6 +299,7 @@ Richard D. James:
       Spotlight (Aphex Twin mix):
       Debase (Soft Palate):
    Drukqs:
+      <date: 2001
       <<: *low
       Jynweythek: len
       Vordhosbn:
@@ -329,19 +331,14 @@ Richard D. James:
       Ziggomatic 17:
       Beskhu3epnm: len
       Nanou 2: yes
-   On:
+   Windowlicker:
+      <date: 1999
       <<: *low
-      On: yes
-      73-Yips:
-      D-Scape:
-      Xepha:
-   On Remixes:
-      <<: *low
-      On (D-Scape mix):
-      On (Reload mix): yes
-      On (μ-Ziq mix): yes
-      On (28 mix):
+      Windowlicker: yes
+      Formula:
+      Nannou:
    Richard D. James Album:
+      <date: 1996
       <<: *low
       4: yes
       Cornish Acid: len
@@ -353,22 +350,8 @@ Richard D. James:
       Yellow Calx:
       Girl/Boy Song: yes
       Logan Rock Witch:
-   Selected Ambient Works 85–92:
-      <<: *low
-      Xtal: yes
-      Tha: yes
-      Pulsewidth:
-      Ageispolis: yes
-      i: len
-      Green Calx:
-      Heliosphan:
-      We Are the Music Makers:
-      Schottkey 7th Path:
-      Ptolemy:
-      Hedphelym:
-      Delphium:
-      Actium:
    Selected Ambient Works, Volume II:
+      <date: 1994
       <<: *low
       '[Cliffs]': yes
       '[Radiator]':
@@ -395,12 +378,36 @@ Richard D. James:
       '[Tassels]':
       '[White Blur 2]':
       '[Matchsticks]':
-   Windowlicker:
+   On Remixes:
+      <date: 1993
       <<: *low
-      Windowlicker: yes
-      Formula:
-      Nannou:
-
+      On (D-Scape mix):
+      On (Reload mix): yes
+      On (μ-Ziq mix): yes
+      On (28 mix):
+   On:
+      <date: 1993
+      <<: *low
+      On: yes
+      73-Yips:
+      D-Scape:
+      Xepha:
+   Selected Ambient Works 85–92:
+      <date: 1992
+      <<: *low
+      Xtal: yes
+      Tha: yes
+      Pulsewidth:
+      Ageispolis: yes
+      i: len
+      Green Calx:
+      Heliosphan:
+      We Are the Music Makers:
+      Schottkey 7th Path:
+      Ptolemy:
+      Hedphelym:
+      Delphium:
+      Actium:
 Robin Guthrie:
    Emeralds:
       <flow: 21,402

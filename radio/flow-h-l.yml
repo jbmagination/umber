@@ -391,10 +391,11 @@ Incubus:
       <link: https://youtu.be/fgT9zGkiLig
       Drive:
 Interpol:
+   <updated: 2019-4-7
    Marauder:
       <date: 2018
       <<: &low
-         <flow: 5,226,727
+         <flow: 4,500,040
          <link: https://youtu.be/gLk8i2zw2jU
       If You Really Love Nothing:
       The Rover:
@@ -424,6 +425,18 @@ Interpol:
       Twice as Hard:
    Interpol:
       <date: 2010
+      <<: *low
+      Success: no
+      Memory Serves: no
+      Summer Well: no
+      Lights: no
+      Barricade: no
+      Always Malaise (The Man I Am):
+      Safe Without:
+      Try It On:
+      All of the Ways:
+      The Undoing:
+      Gavilan:
    Our Love to Admire:
       <date: 2007
       <<: *low
