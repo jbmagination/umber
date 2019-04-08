@@ -247,11 +247,22 @@ The Cars:
       Moving in Stereo:
       All Mixed Up:
 The Cinematic Orchestra:
+   <<: &low
+      <flow: 3,468,989
+      <link: https://youtu.be/QB0ordd2nOI
+   To Believe:
+      <date: 2019
+      <<: *low
+      To Believe: no
+      A Caged Bird / Imitations of Life: no
+      Lessons:
+      Wait for Now / Leave the World:
+      The Workers of Art:
+      Zero One / This Fantasy:
+      A Promise:
    Live at the Royal Albert Hall:
       <date: 2008
-      <<: &low
-         <flow: 3,468,989
-         <link: https://youtu.be/QB0ordd2nOI
+      <<: *low
       All That You Give:
       Child Song: yes
       Flite:
