@@ -520,6 +520,21 @@ Duran Duran:
       <flow: 18,836,105
       <link: https://youtu.be/Epj84QVw2rc
       Come Undone:
+Eddie Money:
+   Can’t Hold Back:
+      <date: 1985
+      <flow: 1,806,500
+      <link: https://youtu.be/2tcD_dVcXE4
+      Take Me Home Tonight: yes
+      One Love:
+      I Wanna Go Back:
+      Endless Nights:
+      One Chance:
+      We Should Be Sleeping:
+      Bring on the Rain:
+      I Can’t Hold Back:
+      Stranger in a Strange Land:
+      Calm Before the Storm:
 Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
       <<: &low
@@ -947,17 +962,33 @@ Foo Fighters:
       These Days:
       Walk:
 Foreigner:
-   4:
-      <flow: 9,159,916
-      <link: https://youtu.be/Wln6NX0V4AQ
-      Waiting for a Girl Like You:
    Agent Provocateur:
-      <flow: 12,578,918
+      <date: 1984
+      <flow: 17,021,771
       <link: https://youtu.be/raNGeq3_DtM
       I Want To Know What Love Is:
+   4:
+      <date: 1981
+      <<: &low
+         <flow: 269,102
+         <link: https://youtu.be/8Tl-kOcnn1U
+      Night Life:
+      Juke Box Hero:
+      Break It Up:
+      Waiting for a Girl Like You: yes
+      Luanne:
+      Urgent:
+      I’m Gonna Win:
+      Woman in Black:
+      Girl on the Moon:
+      Don’t Let Go:
+   Head Games:
+      <date: 1979
+   Double Vision:
+      <date: 1978
    Foreigner:
-      <flow: 269,102
-      <link: https://youtu.be/8Tl-kOcnn1U
+      <date: 1977
+      <<: *low
       Feels Like the First Time:
       Cold as Ice: yes
       Starrider:
