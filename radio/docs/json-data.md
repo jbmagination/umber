@@ -10,17 +10,6 @@ that we can load the appropriate player. Currently I am prefixing the
 
 prefix | site
 -------|---------
-`b/`   | bandcamp
-`g/`   | github
-`r/`   | reddit
-`s/`   | soundcloud
-`v/`   | vimeo
-none   | youtube
-
-however I would like to prefix all for consistency, like this:
-
-prefix | site
--------|---------
 `bc_`  | bandcamp
 `gh_`  | github
 `rd_`  | reddit
@@ -28,16 +17,15 @@ prefix | site
 `vm_`  | vimeo
 `yt_`  | youtube
 
-this presents a couple of problems. YouTube **video_id** can already contain
-underscore, so we will need to deal with that. Further, it adds 3 characters
-to all YouTube records. However I like the clarity is provides, and it matches
-what YouTube does already via **video_doc_id**.
+This matches what YouTube does already via **video_doc_id**. The only issue is
+that YouTube **video_id** can already contain underscore, so we will need to
+deal with that.
 
 GitHub
 ------
 
 The issue right now is that our GitHub records are too long. Currently in one
-case the line is 144 characters. The artist and song title is hard to do
+case the line is 145 characters. The artist and song title is hard to do
 anything about. We could radix-64 encode the year, but it saves 0 characters:
 
 ~~~py
@@ -52,16 +40,43 @@ We can radix-64 encode the post date, which will save only 2 characters:
 '1ShJWH'
 ~~~
 
-If we could just use the post date as the **video_id**, we could go from this:
+We have most potential with **video_id**. However first some questions need to
+be answered. First, some of our uploaded files are M4A and some MP3. If we
+include a file extension in our uploaded files it makes for more clarity, but
+then we need to include that data in our **video_id**. After some testing
+everything seems to work fine without an extension, so we should do that. Note
+that images can be be called **image.jpg**. That takes us from this:
 
 ~~~
-g/harold-budd-through-hill/03-geography_great_valley_of_gongs.m4a
+gh_harold-budd-through-hill/03-geography_great_valley_of_gongs.m4a
 ~~~
 
 to this:
 
 ~~~
-1554835087
+gh_harold-budd-through-hill/03-geography_great_valley_of_gongs
+~~~
+
+Next, we want songs under the same album to be listed under the same release.
+This prevents duplicate cover art. However this means we need to store the tag
+and the filename. To deal with this, we can set the **video_id** as the tag:
+
+~~~
+gh_1000000000
+~~~
+
+then use the post date to differentiate songs on the same album. The issue
+with this is adding new songs to an existing album. For each release, we need
+to be putting artist, album and song listings in the description. Make it
+happen like this:
+
+~~~sh
+git tag -F - 1000000000 <<eof
+ARTIST - ALBUM
+1000000001: SONG
+1000000002: SONG
+eof
+git push --tags
 ~~~
 
 Keys
