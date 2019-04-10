@@ -1,25 +1,28 @@
 'use strict';
-const lstn = document.getElementById('listen');
+let lstn = document.getElementById('listen');
 
-async function main()
-{
-   const vdeo = (await (
+async function main() {
+   let vdeo = (await (
       await fetch('/umber/radio/assets/data.json')
    ).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );
-   const attr = vdeo[2].split('/');
-   switch (attr[0]) {
-   case 'g':
+   let attr;
+
+   switch (vdeo[2].slice(0, 2)) {
+   case 'gh':
+      attr = vdeo[2].slice(3).split('/');
       lstn.src = 'https://github.com/cup/umber/releases/download/' +
-      attr[1] + '/' + attr[2];
+      attr[0] + '/' + attr[1];
       lstn.poster = 'https://github.com/cup/umber/releases/download/' +
-      attr[1] + '/image.jpg';
+      attr[0] + '/image.jpg';
       break;
-   case 'r':
+   case 'rd':
+      attr = vdeo[2].split('_');
       lstn.src = 'https://v.redd.it/' + attr[1] + '/audio';
       lstn.poster = 'https://i.redd.it/' + attr[2] + '.jpg';
    }
+
    document.title = vdeo[3] + ' - Umber Listen';
    document.getElementById('artist').textContent = vdeo[3];
    document.getElementById('date').textContent = 'released ' + vdeo[1] +
