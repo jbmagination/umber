@@ -5,10 +5,10 @@ Create annotated tag
 --------------------
 
 ~~~sh
-git tag -F - 1000000000 <<eof
+git tag -F - album_id <<eof
 ARTIST - ALBUM
-1000000001: SONG
-1000000002: SONG
+song_id: SONG
+song_id: SONG
 eof
 git push --tags
 ~~~

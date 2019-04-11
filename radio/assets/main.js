@@ -35,9 +35,9 @@ function fgr(vdeo) {
       url.searchParams.set('size', 'large');
       break;
    case 'gh':
-      attr = vdeo[2].slice(3).split('/');
+      attr = vdeo[2].slice(3);
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
-         attr[0] + '/image.jpg';
+         attr + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
       url = new URL(location.origin + '/umber/listen/');
       url.searchParams.set('v', vdeo[0]);

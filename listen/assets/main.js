@@ -11,11 +11,11 @@ async function main() {
 
    switch (vdeo[2].slice(0, 2)) {
    case 'gh':
-      attr = vdeo[2].slice(3).split('/');
+      attr = vdeo[2].slice(3);
       lstn.src = 'https://github.com/cup/umber/releases/download/' +
-      attr[0] + '/' + attr[1];
+      attr + '/' + vdeo[0];
       lstn.poster = 'https://github.com/cup/umber/releases/download/' +
-      attr[0] + '/image.jpg';
+      attr + '/image.jpg';
       break;
    case 'rd':
       attr = vdeo[2].split('_');
