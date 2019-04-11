@@ -59,37 +59,21 @@ gh_1000000000
 
 then use the post date to differentiate songs on the same album.
 
-Tag message vs release description
+Release description vs tag message
 ----------------------------------
 
-For each release, we need to be putting artist, album and song listings in the
-description. What is confusing is that GitHub has 2 ways to do this:
+For each release, we need to be including the artist, album and song titles.
+What is confusing is that GitHub has 2 ways to do this:
 
 - https://developer.github.com/v3/git/tags#create-a-tag-object
 - https://developer.github.com/v3/repos/releases#create-a-release
 
-If we go with releases, we can create them using the website including the tag
-name, title and description. However releases have some drawbacks:
+Here is a comparison:
 
-1. release title and description cannot be searched via the website
-2. `git ls-remote` only lists the tag names
-3. release titles and descriptions are not available via the local repo either
-
-The only way to access that data is via the GitHub API. In regard to tags,
-GitHub website has poor support. If you visit the tag page no option is
-presented to create a new tag:
-
-https://github.com/cup/umber/tags
-
-If you visit the release page an option is presented to create a new release,
-which will also create a new tag if need be:
-
-https://github.com/cup/umber/releases
-
-What is further confusing is that all tags are labeled as releases, even if no
-release exists for that tag:
-
-https://github.com/cup/pear/releases/tag/3.3.0
-
-Finally, the website offers no way to write a tag message, only a tag name.
-Note that a tag message is different from a release title or description.
+property           | release desc | tag message
+-------------------|--------------|------------
+create via website | yes          | no
+create via git     | no           | yes
+search via website | no           | no
+search via git     | no           | yes
+search via API     | yes          | yes

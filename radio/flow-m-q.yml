@@ -1064,20 +1064,27 @@ Nirvana:
       Lithium:
       Smells Like Teen Spirit:
 Norah Jones:
-   Come Away with Me:
-      <<: &high
-         <flow: 6,821,193
-         <link: https://youtu.be/MjoqJ60mDHM
-      Cold Cold Heart:
-   Day Breaks:
-      <<: *high
-      Carry On:
-   Feels Like Home:
-      <<: *high
-      Sunrise:
+   The Fall:
+      <date: 2009
+      <<: &low
+         <flow: 4,700,932
+         <link: https://youtu.be/tO4dxvguQDk
+      Chasing Pirates: yes
+      Even Though:
+      Light as a Feather:
+      Young Blood:
+      I Wouldn’t Need You:
+      Waiting:
+      It’s Gonna Be:
+      You’ve Ruined Me: len
+      Back to Manhattan:
+      Stuck:
+      December:
+      Tell Yer Mama:
+      Man of the Hour: len
    Not Too Late:
-      <flow: 1,316,129
-      <link: https://youtu.be/nchSZswc21w
+      <date: 2006
+      <<: *low
       Wish I Could: no
       Sinkin’ Soon: no
       The Sun Doesn’t Like You: len
@@ -1091,9 +1098,27 @@ Norah Jones:
       Little Room: len
       Rosie’s Lullaby: no
       Not Too Late: no
-   The Fall:
-      <<: *high
-      December:
+   Feels Like Home:
+      <date: 2004
+   New York City:
+      <date: 2003
+   Come Away With Me:
+      <date: 2002
+      <<: *low
+      Don’t Know Why: yes
+      Seven Years: len
+      Cold Cold Heart:
+      Feelin’ the Same Way: len
+      Come Away With Me:
+      Shoot the Moon:
+      Turn Me On: len
+      Lonestar:
+      I’ve Got to See You Again:
+      Painter Song: len
+      One Flight Down:
+      Nightingale:
+      The Long Day Is Over: len
+      The Nearness of You:
 Odesza:
    In Return:
       <flow: 7,069,746
