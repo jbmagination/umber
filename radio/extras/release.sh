@@ -6,7 +6,6 @@ if our pattern is vague - we just need to rerun with a better pattern
 if our pattern is fine - we need to "git tag -f"
 on first run we provide a pattern
 on second run we provide a tag'
-jsonf=$(mktemp)
 tagf=$(mktemp)
 
 tstamp=$(awk '
@@ -27,6 +26,7 @@ case $# in
    fi
    {
       echo 'ARTIST - ALBUM'
+      echo
       echo "$song_id: SONG"
    } > "$tagf"
 ;;
@@ -34,6 +34,7 @@ case $# in
    album_id=$2
    {
       git tag -l --format='%(contents:subject)' "$album_id"
+      echo
       echo "$song_id: SONG"
       git tag -l --format='%(contents:body)' "$album_id"
    } > "$tagf"
@@ -46,15 +47,15 @@ target:
    exit 1
 esac
 
-cat >> "$jsonf" <<eof
-[$song_id, 0000, "gh_$album_id", "ARTIST - SONG"],
-eof
-
 "$EDITOR" "$tagf"
 git tag -f -F "$tagf" "$album_id"
 git push -f --tags
 
-cat "$jsonf" - <<eof
+cat <<eof
+
+$song_id
+gh_$album_id
+
 1. add new JSON record
 2. remove old JSON record
 3. add files to new release
