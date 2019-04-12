@@ -1,40 +1,63 @@
 #!/bin/dash -e
-if [ "$#" != 1 ]
-then
-   echo 'release.sh <song count>'
-   exit 1
-fi
-
-count=$1
-tagf=$(mktemp)
+: 'if we have a match that means:
+- our pattern is vague
+- we need to add to an existing album
+if our pattern is vague - we just need to rerun with a better pattern
+if our pattern is fine - we need to "git tag -f"
+on first run we provide a pattern
+on second run we provide a tag'
 jsonf=$(mktemp)
-album_id=$(awk '
+tagf=$(mktemp)
+
+tstamp=$(awk '
 BEGIN {
    srand()
    print srand()
 }
 ')
+song_id=$(( tstamp + 1 ))
 
-echo 'ARTIST - ALBUM' > "$tagf"
-while [ "$count" -gt 0 ]
-do
-   song_id=$(( album_id + count ))
-   echo "$song_id: SONG" >> "$tagf"
-   cat >> "$jsonf" <<eof
+case $# in
+1)
+   apat=$1
+   album_id=$tstamp
+   if git tag -n1 | grep -i -- "$apat"
+   then
+      exit 1
+   fi
+   {
+      echo 'ARTIST - ALBUM'
+      echo "$song_id: SONG"
+   } > "$tagf"
+;;
+2)
+   album_id=$2
+   {
+      git tag -l --format='%(contents:subject)' "$album_id"
+      echo "$song_id: SONG"
+      git tag -l --format='%(contents:body)' "$album_id"
+   } > "$tagf"
+;;
+*)
+   echo 'release.sh [-f] <target>
+target:
+- album pattern
+- existing tag, include "-f"'
+   exit 1
+esac
+
+cat >> "$jsonf" <<eof
 [$song_id, 0000, "gh_$album_id", "ARTIST - SONG"],
 eof
-   count=$(( count - 1 ))
-done
 
 "$EDITOR" "$tagf"
-git tag -F "$tagf" "$album_id"
-git push --tags
+git tag -f -F "$tagf" "$album_id"
+git push -f --tags
 
 cat "$jsonf" - <<eof
 1. add new JSON record
 2. remove old JSON record
-3. remove old local tag
-4. add files to new release
-5. remove old release
-6. remove old remote tag
+3. add files to new release
+4. remove old audio
+5. remove old image
 eof
