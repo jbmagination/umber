@@ -6,11 +6,6 @@ Alternative to
 
 https://alternativeto.net
 
-Reddit replace video
---------------------
-
-https://github.com/AleFelix/reddit-video-player
-
 Remix Rotation
 --------------
 

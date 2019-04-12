@@ -42,12 +42,6 @@ function fgr(vdeo) {
       url = new URL(location.origin + '/umber/listen/');
       url.searchParams.set('v', vdeo[0]);
       break;
-   case 'rd':
-      attr = vdeo[2].split('_');
-      e_i.src = 'https://i.redd.it/' + attr[2] + '.jpg';
-      url = new URL(location.origin + '/umber/listen/');
-      url.searchParams.set('v', vdeo[0]);
-      break;
    case 'sc':
       attr = vdeo[2].split('_');
       e_i.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';

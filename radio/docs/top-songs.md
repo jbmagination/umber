@@ -67,7 +67,7 @@ Year | Song
 [2016]:https://youtu.be/ACinCwmWalY
 [2015]:https://youtu.be/qwspCgEUj64
 [2014]:https://youtu.be/WW8le2_xYt8
-[2013]:https://redd.it/8hgdhf
+[2013]:https://cup.github.io/umber/listen?v=1555037271
 [2012]:https://youtu.be/T0n_4ueupVA
 [2011]:https://youtu.be/xpgT7e04y_0
 [2010]:https://youtu.be/QzIDkweuRyg
@@ -109,7 +109,7 @@ Year | Song
 [1972]:https://youtu.be/hSBWYWFmyGQ
 [1971]:https://youtu.be/KWkWkKZCnCE
 [1970]:https://youtu.be/Ps64o71OmfU
-[1969]:https://redd.it/8o1j5i
+[1969]:https://youtu.be/QFsqacN1ZCY
 [1966]:https://youtu.be/OEFa4ztm9P0
 [1965]:https://youtu.be/dUxHmnHA6Tc
 [1963]:https://youtu.be/XjyzZhTci6U

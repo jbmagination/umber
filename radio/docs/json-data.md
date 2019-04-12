@@ -12,7 +12,6 @@ prefix | site
 -------|---------
 `bc_`  | bandcamp
 `gh_`  | github
-`rd_`  | reddit
 `sc_`  | soundcloud
 `vm_`  | vimeo
 `yt_`  | youtube
