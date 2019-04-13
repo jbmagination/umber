@@ -369,6 +369,21 @@ Incubus:
       Look Alive:
    A Crow Left of the Murder:
       <date: 2004
+      <<: *low
+      Megalomaniac: no
+      A Crow Left of the Murder: no
+      Agoraphobia: no
+      Talk Shows on Mute: no
+      Beware! Criminal: no
+      Sick Sad Little World:
+      Pistola:
+      Southern Girl:
+      Priceless:
+      Zee Deveel:
+      Made for TV Movie:
+      Smile Lines:
+      Here in My Room:
+      Leech:
    Morning View:
       <date: 2001
       <<: *low
@@ -387,7 +402,7 @@ Incubus:
       Aqueous Transmission: yes
    Make Yourself:
       <date: 1999
-      <flow: 10,251,724
+      <flow: 10,284,407
       <link: https://youtu.be/fgT9zGkiLig
       Drive:
 Interpol:

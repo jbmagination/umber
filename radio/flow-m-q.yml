@@ -898,24 +898,11 @@ New Radicals:
       <link: https://youtu.be/DL7-CKirWZE
       You Get What You Give:
 Nicolas Jaar:
-   Love You Gotta Lose Again:
+   Sirens:
+      <date: 2016-09-30
       <<: &low
          <flow: 4,464,045
          <link: https://youtu.be/1Upj_Ib30K4
-      WOUH: yes
-      Love You Gotta Lose Again:
-      Don’t Believe the Hype: len
-   Nymphs:
-      <<: *low
-      Don’t Break My Love:
-      Why Didn’t You Save Me:
-      The Three Sides of Audrey and Why She’s All Alone Now:
-      No One Is Looking at U:
-      Swim:
-      Mistress: yes
-      Fight:
-   Sirens:
-      <<: *low
       Mirrors:
       Killing Time: yes
       Sirens: len
@@ -925,6 +912,38 @@ Nicolas Jaar:
       No:
       Three Sides of Nazareth:
       History Lesson:
+   Nymphs:
+      <date: 2016-09-23
+      <<: *low
+      Don’t Break My Love:
+      Why Didn’t You Save Me:
+      The Three Sides of Audrey and Why She’s All Alone Now:
+      No One Is Looking at U:
+      Swim:
+      Mistress: yes
+      Fight:
+   Space Is Only Noise:
+      <date: 2011
+      <<: *low
+      Être: no
+      Colomb: no
+      Sunflower: len
+      Too Many Kids Finding Rain in the Dust: no
+      Keep Me There: no
+      Problems With the Sun: no
+      Space Is Only Noise If You Can See:
+      Almost Fell: len
+      Balance Her in Between Your Eyes:
+      Specters of the Future: len
+      Trace: len
+      Variations:
+      ^tre: len
+   Love You Gotta Lose Again:
+      <date: 2010
+      <<: *low
+      WOUH: yes
+      Love You Gotta Lose Again:
+      Don’t Believe the Hype: len
 Nightmares on Wax:
    <updated: 2019-02-21
    Shape the Future:
