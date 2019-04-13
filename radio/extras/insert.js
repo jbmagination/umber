@@ -1,6 +1,6 @@
 'use strict';
 /* needs to work in playlist view */
-var vdeo = document.querySelector('[itemprop="videoId"]').content;
+var vdeo = 'yt_' + document.querySelector('[itemprop="videoId"]').content;
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
 var dscr = document.getElementById('eow-description').innerText;
@@ -20,8 +20,7 @@ txar.style.top = '50px';
 txar.style.zIndex = 6;
 document.body.append(txar);
 
-if (extras)
-{
+if (extras) {
    var entry = extras.split(' · ');
 
    /* this needs to be before artist */
@@ -33,8 +32,7 @@ if (extras)
    var year = dscr.match(/\d{4}/)[0];
    txar.textContent = `[${tmsp}, ${year}, "${vdeo}", "${artist} - ${song}"],`;
 }
-else
-{
+else {
    var entry = ytplayer.config.args.title;
 
    /* i was originally doing the current year, but then i would forget to

@@ -1,10 +1,12 @@
 #!/bin/dash -e
 case $1 in
 -i)
-   ln -f -s "$PWD"/release.sh "$PWD"/slugify.sh /usr/local/bin
+   mkdir -p /usr/share/umber
+   ln -f -s "$PWD"/../assets/data.json /usr/share/umber
+   ln -f -s "$PWD"/available.awk "$PWD"/release.sh /usr/bin
    ;;
 -r)
-   rm -f /usr/local/bin/release.sh /usr/local/bin/slugify.sh
+   rm -f -r /usr/bin/available.awk /usr/bin/release.sh /usr/share/umber
    ;;
 *)
    echo 'synopsis: setup.sh <operation>

@@ -93,7 +93,7 @@ Year | Song
 [1990]:https://youtu.be/ouDrG7aTNqg
 [1989]:https://youtu.be/qogxGA86_WM
 [1988]:https://youtu.be/by312WRuwfQ
-[1987]:https://redd.it/8dqpoh
+[1987]:https://cup.github.io/umber/listen?v=1555093825
 [1986]:https://youtu.be/uQBxXu_ra5M
 [1985]:https://youtu.be/Zq6oI2TY4w0
 [1984]:https://youtu.be/vkt7YHG9Fys
