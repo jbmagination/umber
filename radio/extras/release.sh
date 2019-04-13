@@ -57,8 +57,5 @@ $song_id
 gh_$album_id
 
 1. add new JSON record
-2. remove old JSON record
-3. add files to new release
-4. remove old audio
-5. remove old image
+2. add files to new release
 eof
