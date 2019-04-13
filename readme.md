@@ -15,7 +15,6 @@ History
 
 entity     | attribute        | value
 -----------|------------------|------
-           | tv usable        |
 2019-04-12 | github migration | https://github.com/cup/umber/commit/ddd9d62
 2019-03-24 | tv inception     | https://github.com/cup/umber/commit/9e35a20
 2018-04-16 | radio usable     | https://github.com/cup/suede/commit/ab35a09

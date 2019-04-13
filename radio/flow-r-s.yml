@@ -487,15 +487,25 @@ Ronald Jenkees:
       Let’s Ride (rap):
       It’s Gettin Rowdy (rap):
 Roosevelt:
-   Elliot:
+   Young Romance:
+      <date: 2018
       <<: &low
          <flow: 1,089,466
          <link: https://youtu.be/UBS6MM05KdY
-      Elliot: yes
-      Around You:
-      Montreal:
-      Sea:
+      Take Me Back: len
+      Under the Sun: no
+      Yr Love:
+      Illusions:
+      Losing Touch:
+      Pangea:
+      Lucia:
+      Better Days:
+      Shadows:
+      Last to Know:
+      Forgive:
+      Getaway:
    Roosevelt:
+      <date: 2016
       <<: *low
       Intro: len
       Wait Up:
@@ -509,6 +519,13 @@ Roosevelt:
       Fever: yes
       Hold On: yes
       Close:
+   Elliot:
+      <date: 2013
+      <<: *low
+      Elliot: yes
+      Around You:
+      Montreal:
+      Sea:
 Röyksopp:
    Melody A.M.:
       <flow: 1,295,940
