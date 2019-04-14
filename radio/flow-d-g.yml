@@ -692,6 +692,18 @@ Everything but the Girl:
       Disenchanted: len
    Acoustic:
       <date: 1992
+      <<: *low
+      Love Is Strange:
+      Tougher Than the Rest:
+      Time After Time:
+      Alison:
+      Downtown Train:
+      Driving: yes
+      One Place:
+      Apron Strings (live): len
+      Me and Bobby D:
+      Come On Home:
+      Fascination (live):
    Worldwide:
       <date: 1991
       <<: *low
@@ -719,14 +731,6 @@ Everything but the Girl:
       Letting Love Go:
       My Baby Don’t Love Me:
       The Road:
-   Idlewild:
-      <date: 1988
-   Baby, the Stars Shine Bright:
-      <date: 1986
-   Love Not Money:
-      <date: 1985
-   Everything but the Girl:
-      <date: 1984
 Fatboy Slim:
    Halfway Between the Gutter and the Stars:
       <date: 2000
