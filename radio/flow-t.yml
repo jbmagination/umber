@@ -247,12 +247,11 @@ The Cars:
       Moving in Stereo:
       All Mixed Up:
 The Cinematic Orchestra:
-   <<: &low
-      <flow: 3,468,989
-      <link: https://youtu.be/QB0ordd2nOI
    To Believe:
       <date: 2019
-      <<: *low
+      <<: &low
+         <flow: 3,468,989
+         <link: https://youtu.be/QB0ordd2nOI
       To Believe: no
       A Caged Bird / Imitations of Life: no
       Lessons:
@@ -1587,10 +1586,39 @@ Tori Amos:
       Me and a Gun:
       Little Earthquakes:
 Toro y Moi:
-   Anything in Return:
+   Boo Boo:
+      <date: 2017
       <<: &low
-         <flow: 1,081,039
-         <link: https://youtu.be/O0_ardwzTrA
+         <flow: 4,402,441
+         <link: https://youtu.be/Jm6hDWBZXc4
+      Mirage: yes
+      No Show: yes
+      Mona Lisa:
+      Pavement: len
+      Don’t Try: yes
+      Windows:
+      Embarcadero: len
+      Girl Like You:
+      You and I:
+      Labyrinth:
+      Inside My Head:
+      W.I.W.W.T.W.:
+   What For?:
+      <date: 2015
+      <<: *low
+      What You Want: no
+      Buffalo: no
+      The Flight: no
+      Empty Nesters: no
+      Ratcliff: len
+      Lilly: no
+      Spell It Out: len
+      Half Dome:
+      Run Baby Run: len
+      Yeah Right:
+   Anything in Return:
+      <date: 2013
+      <<: *low
       Harm in Change:
       Say That: yes
       So Many Details: yes
@@ -1604,20 +1632,6 @@ Toro y Moi:
       Day One:
       Never Matter:
       How’s It Wrong:
-   Boo Boo:
-      <<: *low
-      Mirage: yes
-      No Show: yes
-      Mona Lisa:
-      Pavement: len
-      Don’t Try: yes
-      Windows:
-      Embarcadero: len
-      Girl Like You:
-      You and I:
-      Labyrinth:
-      Inside My Head:
-      W.I.W.W.T.W.:
 Tosca:
    Dehli9:
       <<: &low

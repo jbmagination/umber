@@ -1,7 +1,6 @@
 'use strict';
 
-async function main()
-{
+async function main() {
    let chan = await (await fetch('/umber/tv/assets/data.json')).json();
    chan.forEach(ab => {
       let e_a = document.createElement('a');
@@ -11,7 +10,6 @@ async function main()
       let e_i = document.createElement('img');
 
       let spar = new URLSearchParams;
-      spar.set('k', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
       spar.set('p', ab[2]);
 
       // need final "/" to maintain HTTPS

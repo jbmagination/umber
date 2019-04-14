@@ -1,25 +1,20 @@
 'use strict';
 
-async function main()
-{
+async function main() {
    let spar = new URLSearchParams(location.search);
    let furl = new URL('https://www.googleapis.com/youtube/v3/playlistItems');
    furl.searchParams.set('maxResults', 50);
    furl.searchParams.set('part', 'snippet');
+   furl.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
 
-   if (spar.get('t'))
-   {
+   if (spar.get('t')) {
       furl.searchParams.set('pageToken', spar.get('t'));
    }
 
-   // need to cover {YOUR_API_KEY}
-   if (!spar.get('p') || spar.get('k').length < 15)
-   {
+   if (!spar.get('p')) {
       return;
    }
 
-   furl.searchParams.set('key', spar.get('k'));
-   document.getElementById('key').value = spar.get('k');
    furl.searchParams.set('playlistId', spar.get('p'));
    document.getElementById('playlistId').value = spar.get('p');
    let pitm = await (await fetch(furl)).json();
@@ -41,15 +36,13 @@ async function main()
       document.getElementById('figures').append(e_fu);
    });
 
-   if (pitm.nextPageToken)
-   {
+   if (pitm.nextPageToken) {
       spar.set('t', pitm.nextPageToken);
       document.getElementById('older').href = '?' + spar;
       document.getElementById('older').textContent = 'older';
    }
 
-   if (pitm.prevPageToken)
-   {
+   if (pitm.prevPageToken) {
       spar.set('t', pitm.prevPageToken);
       document.getElementById('newer').href = '?' + spar;
       document.getElementById('newer').textContent = 'newer';
