@@ -128,35 +128,94 @@ M83:
       My Face: len
       I’m Happy, She Said:
 Madonna:
+   <high:
+      4 Minutes:
+         <flow: 7,832,501
+         <link: https://youtu.be/aAQZPBwz2CI
+         Hard Candy:
+      Bitch I’m Madonna:
+         <flow: 76,830,661
+         <link: https://youtu.be/7hPMmzKs62w
+         Rebel Heart:
+      Dress You Up:
+         <flow: 6,537,419
+         <link: https://youtu.be/mWtpd8mS5jw
+         Like a Virgin:
+      Frozen:
+         <flow: 8,438,434
+         <link: https://youtu.be/SKEFN9XNlyY
+         Ray of Light:
+      Ghosttown:
+         <flow: 8,914,994
+         <link: https://youtu.be/GgDxv0Qg_Rg
+         Rebel Heart:
+      Girl Gone Wild:
+         <flow: 6,629,207
+         <link: https://youtu.be/tYkwziTrv5o
+         MDNA:
+      Give It 2 Me:
+         <flow: 6,428,883
+         <link: https://youtu.be/aQRLSBUNupg
+         Hard Candy:
+      Give Me All Your Luvin’:
+         <flow: 10,108,542
+         <link: https://youtu.be/cItHOl5LRWg
+         MDNA:
+      Hung Up:
+         <flow: 19,991,409
+         <link: https://youtu.be/EDwb9jOVRtU
+         Confessions on a Dance Floor:
+      La Isla Bonita:
+         <flow: 17,047,985
+         <link: https://youtu.be/zpzdgmqIHOQ
+         True Blue:
+      Like a Prayer:
+         <flow: 7,876,757
+         <link: https://youtu.be/79fzeNUqQbQ
+         Like a Prayer:
+      Like a Virgin:
+         <flow: 6,237,321
+         <link: https://youtu.be/s__rX_WL100
+         Like a Virgin:
+      Live to Tell:
+         <flow: 6,342,084
+         <link: https://youtu.be/IzAO9A9GjgI
+         True Blue:
+      Material Girl:
+         <flow: 18,223,354
+         <link: https://youtu.be/6p-lDYPR2P8
+         Like a Virgin:
+      Papa Don’t Preach:
+         <flow: 9,610,581
+         <link: https://youtu.be/G333Is7VPOg
+         True Blue:
+      Vogue:
+         <flow: 9,981,092
+         <link: https://youtu.be/GuJQSAiODqI
+         I’m Breathless:
+   <low:
+      Secret:
+         <flow: 1,638,276
+         <link: https://youtu.be/EPHUZenprKc
+         Bedtime Stories:
    Rebel Heart:
       <date: 2015
-      <flow: 84,111,009
-      <link: https://youtu.be/7hPMmzKs62w
-      Bitch I’m Madonna:
-      Ghosttown:
-      Living for Love:
+      <flow: high
    MDNA:
       <date: 2012
-      <flow: 10,603,386
-      <link: https://youtu.be/cItHOl5LRWg
-      Girl Gone Wild:
-      Give Me All Your Luvin’:
+      <flow: high
    Hard Candy:
       <date: 2008
-      <flow: 6,509,829
-      <link: https://youtu.be/aQRLSBUNupg
-      4 Minutes:
-      Give It 2 Me:
+      <flow: high
    Confessions on a Dance Floor:
       <date: 2005
-      <flow: 19,070,642
-      <link: https://youtu.be/EDwb9jOVRtU
-      Hung Up:
+      <flow: high
    American Life:
       <date: 2003
+      <flow: low
    Music:
       <date: 2000
-      <<: *low
+      <flow: low
       Music: yes
       Impressive Instant: no
       Runaway Lover: no
@@ -171,12 +230,10 @@ Madonna:
       Cyber-Raga:
    Ray of Light:
       <date: 1998
-      <flow: 8,549,824
-      <link: https://youtu.be/SKEFN9XNlyY
-      Frozen:
+      <flow: high
    Something to Remember:
       <date: 1995
-      <<: *low
+      <flow: low
       I Want You: yes
       I’ll Remember:
       Take a Bow: dup
@@ -194,8 +251,7 @@ Madonna:
       Verás:
    Bedtime Stories:
       <date: 1994
-      <flow: 1,638,276
-      <link: https://youtu.be/EPHUZenprKc
+      <flow: low
       Survival:
       Secret: yes
       I’d Rather Be Your Lover:
@@ -209,46 +265,25 @@ Madonna:
       Take a Bow: yes
    Erotica:
       <date: 1992
-   I’m Breathless:
-      <date: 1990
-      <flow: 9,665,181
-      <link: https://youtu.be/GuJQSAiODqI
-      Vogue:
+      <flow: low
    Justify My Love:
       <date: 1990
-      <<: *low
+      <flow: low
       Justify My Love (William Orbit remix):
       Justify My Love: yes
       Express Yourself (Shep’s ’Spressin’ Himself Re-remix):
    Like a Prayer:
       <date: 1989
-      <flow: 7,160,621
-      <link: https://youtu.be/79fzeNUqQbQ
-      Like a Prayer:
+      <flow: high
    True Blue:
       <date: 1986
-      <flow: 10,263,604
-      <link: https://youtu.be/qqIIW7nxBgc
-      La Isla Bonita:
-      Live to Tell:
-      Papa Don’t Preach:
+      <flow: high
    Like a Virgin:
       <date: 1984
-      <flow: 5,969,835
-      <link: https://youtu.be/s__rX_WL100
-      Material Girl:
-      Angel:
-      Like a Virgin:
-      Over and Over:
-      Love Don’t Live Here Anymore:
-      Into the Groove: yes
-      Dress You Up:
-      Shoo-Bee-Doo:
-      Pretender:
-      Stay:
+      <flow: high
    Madonna:
       <date: 1983
-      <<: *low
+      <flow: low
       Lucky Star: yes
       Borderline:
       Burning Up:
