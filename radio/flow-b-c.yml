@@ -764,8 +764,9 @@ Boyz II Men:
 Boz Scaggs:
    Dig:
       <date: 2001
-      <flow: 1,517,370
-      <link: https://youtu.be/I-hKBmTAADo
+      <<: &low
+         <flow: 1,517,370
+         <link: https://youtu.be/I-hKBmTAADo
       Payday:
       Sarah:
       Miss Riddle:
@@ -779,6 +780,21 @@ Boz Scaggs:
       Thanks to You: yes
    Come On Home:
       <date: 1997
+      <<: *low
+      It All Went Down the Drain: no
+      Ask Me ’Bout Nothin’ (but the Blues): yes
+      Don’t Cry No More:
+      Found Love:
+      Come On Home:
+      Picture of a Broken Heart:
+      Love Letters:
+      I’ve Got Your Love:
+      Early in the Morning:
+      Your Good Thing (Is About to End):
+      T-Bone Shuffle: len
+      Sick and Tired:
+      After Hours:
+      Goodnight Louise:
    Fade Into Light:
       <date: 1996
    Some Change:
