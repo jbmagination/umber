@@ -448,12 +448,14 @@ Blink 182:
       Stay Together for the Kids:
       The Rock Show:
 Blood Orange:
-   <updated: 2019-3-2
-   Negro Swan:
-      <date: 2018
-      <<: &low
+   <low:
+      Saint:
          <flow: 2,214,523
          <link: https://youtu.be/mVH_wxk9ZtE
+         Negro Swan:
+   Negro Swan:
+      <date: 2018
+      <flow: low
       Orlando:
       Saint:
       Take Your Time: len
@@ -472,7 +474,7 @@ Blood Orange:
       Smoke: no
    Freetown Sound:
       <date: 2016
-      <<: *low
+      <flow: low
       By Ourselves: len
       Augustine: no
       Chance: len
@@ -492,7 +494,7 @@ Blood Orange:
       Better Numb:
    Cupid Deluxe:
       <date: 2013
-      <<: *low
+      <flow: low
       Chamakay: yes
       You’re Not Good Enough: yes
       Uncle ACE: yes
@@ -506,12 +508,12 @@ Blood Orange:
       Time Will Tell:
    Coastal Grooves:
       <date: 2011
-      <<: *low
+      <flow: low
       Forget It: no
       Sutphin Boulevard: yes
       I’m Sorry We Lied: yes
       Can We Go Inside Now?: yes
-      S’cooled:
+      S’cooled: yes
       Complete Failure:
       Instantly Blank (The Goodness): len
       The Complete Knock:
@@ -519,7 +521,7 @@ Blood Orange:
       Champagne Coast:
    Blood Orange:
       <date: 2010
-      <<: *low
+      <flow: low
       Dinner: yes
       Bad Girls: yes
 Boards of Canada:

@@ -1,5 +1,5 @@
-Flow
-=====
+YAML flow
+=========
 
 Low
 -----
@@ -22,11 +22,6 @@ no      | rating bad
 updated | last check for new releases
 yes     | rating good
 
-Merge
------
-
-https://yaml.org/type/merge
-
 Query
 -----
 
@@ -40,6 +35,12 @@ Sort
 2. Sort albums in reverse chronological order
 3. Sort high tracks by track name
 4. Sort low tracks by track number
+
+Types
+-----
+
+- https://yaml.org/type/bool
+- https://yaml.org/type/merge
 
 Views per year
 --------------

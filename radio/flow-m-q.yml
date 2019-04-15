@@ -359,27 +359,34 @@ Mark Morrison:
       Crazy (D-Influence mix):
       Home, Part II (interlude): len
 Massive Attack:
-   <updated: 2019-3-31
-   Heligoland:
-      <date: 2010
-      <<: &low
+   <high:
+      Teardrop:
+         <flow: 6,311,699
+         <link: https://youtu.be/u7K72X4eo_s
+         Mezzanine:
+   <low:
+      Unfinished Sympathy:
          <flow: 4,638,845
          <link: https://youtu.be/ZWmrfgj0MZI
+         Blue Lines:
+   Heligoland:
+      <date: 2010
+      <flow: low
       Pray for Rain: yes
       Babel: no
-      Splitting the Atom:
-      Girl I Love You:
-      Psyche:
-      Flat of the Blade:
+      Splitting the Atom: no
+      Girl I Love You: no
+      Psyche: no
+      Flat of the Blade: no
       Paradise Circus: yes
-      Rush Minute:
+      Rush Minute: no
       Saturday Come Slow:
       Atlas Air:
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): no
       United Snakes:
    100th Window:
-      <date: 2003
-      <<: *low
+      <date: 2002
+      <flow: low
       Future Proof: yes
       What Your Soul Sings: no
       Everywhen: yes
@@ -391,12 +398,10 @@ Massive Attack:
       Antistar: len
    Mezzanine:
       <date: 1998
-      <flow: 6,311,699
-      <link: https://youtu.be/u7K72X4eo_s
-      Teardrop:
+      <flow: high
    Protection:
       <date: 1994
-      <<: *low
+      <flow: low
       Protection: yes
       Karmacoma: yes
       Three: yes
@@ -408,7 +413,7 @@ Massive Attack:
       Heat Miser: no
    Blue Lines:
       <date: 1991
-      <<: *low
+      <flow: low
       Safe From Harm: yes
       One Love: no
       Blue Lines: no
