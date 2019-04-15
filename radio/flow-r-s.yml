@@ -546,12 +546,20 @@ Röyksopp:
       Here She Comes Again:
       Monument:
 Sade:
-   <updated: 2019-3-31
-   Soldier of Love:
-      <date: 2010
-      <<: &low
+   <high:
+      By Your Side:
+         <flow: 7,100,436
+         <link: https://youtu.be/C8QJmI_V3j4
+      No Ordinary Love:
+         <flow: 9,001,862
+         <link: https://youtu.be/_WcWHZc8s2I
+   <low:
+      The Sweetest Taboo:
          <flow: 5,275,250
          <link: https://youtu.be/kcPc18SG6uA
+   Soldier of Love:
+      <date: 2010
+      <flow: low
       The Moon and the Sky:
       Soldier of Love: yes
       Morning Bird:
@@ -564,20 +572,18 @@ Sade:
       The Safest Place: len
    Lovers Rock:
       <date: 1999
-      <flow: 7,100,436
-      <link: https://youtu.be/C8QJmI_V3j4
+      <flow: high
       By Your Side:
    Love Deluxe:
       <date: 1992
-      <flow: 9,001,862
-      <link: https://youtu.be/_WcWHZc8s2I
+      <flow: high
       Cherish the Day:
       Kiss of Life:
       No Ordinary Love:
       Pearls:
    Stronger Than Pride:
       <date: 1988
-      <<: *low
+      <flow: low
       Love Is Stronger Than Pride:
       Paradise: yes
       Nothing Can Come Between Us: yes
@@ -590,7 +596,7 @@ Sade:
       Siempre Hay Esperanza:
    Promise:
       <date: 1985
-      <<: *low
+      <flow: low
       Is It a Crime: yes
       The Sweetest Taboo: yes
       War of the Hearts:
@@ -604,13 +610,13 @@ Sade:
       Maureen:
    Diamond Life:
       <date: 1984
-      <<: *low
+      <flow: low
       Smooth Operator: yes
       Your Love Is King: yes
-      Hang on to Your Love:
-      Frankie’s First Affair:
-      When Am I Going to Make a Living:
-      Cherry Pie:
+      Hang on to Your Love: no
+      Frankie’s First Affair: no
+      When Am I Going to Make a Living: no
+      Cherry Pie: yes
       Sally:
       I Will Be Your Friend:
       Why Can’t We Live Together?:
