@@ -256,22 +256,29 @@ R.E.M.:
       Turn You Inside‐Out:
       Hairshirt:
       I Remember California:
-   Document:
-      <date: 1987
-   Lifes Rich Pageant:
-      <date: 1986
-   Fables of the Reconstruction:
-      <date: 1985
-   Reckoning:
-      <date: 1984
-   Murmur:
-      <date: 1983
 Richard D. James:
-   26 Mixes for Cash:
-      <date: 2003
-      <<: &low
+   <low:
+      Windowlicker:
          <flow: 480,422
          <link: https://youtu.be/7MBaEEODzU0
+   Syro:
+      <date: 2014
+      <flow: low
+      minipops 67 (source field mix): no
+      XMAS_EVET10 (thanaton3 mix): no
+      produk 29: no
+      4 bit 9d api+e+6: no
+      180db_: no
+      CIRCLONT6A (syrobonkus mix):
+      fz pseudotimestretch+e+3: len
+      CIRCLONT14 (shrymoming mix):
+      syro u473t8+e (piezoluminescence mix):
+      PAPAT4 (pineal mix):
+      s950tx16wasr10 (earth portal mix):
+      aisatsana:
+   26 Mixes for Cash:
+      <date: 2003
+      <flow: low
       Time to Find Me (AFX Fast mix): yes
       Raising the Titanic (Big Drum mix): yes
       Journey (Aphex Twin Care mix): yes
@@ -300,7 +307,7 @@ Richard D. James:
       Debase (Soft Palate):
    Drukqs:
       <date: 2001
-      <<: *low
+      <flow: low
       Jynweythek: len
       Vordhosbn:
       Kladfvgbung Micshk: len
@@ -333,13 +340,13 @@ Richard D. James:
       Nanou 2: yes
    Windowlicker:
       <date: 1999
-      <<: *low
+      <flow: low
       Windowlicker: yes
       Formula:
       Nannou:
    Richard D. James Album:
       <date: 1996
-      <<: *low
+      <flow: low
       4: yes
       Cornish Acid: len
       Peek 824545201:
@@ -352,7 +359,7 @@ Richard D. James:
       Logan Rock Witch:
    I Care Because You Do:
       <date: 1995
-      <<: *low
+      <flow: low
       Acrid Avid Jam Shred: no
       The Waxen Pith: no
       Wax the Nip: no
@@ -367,7 +374,7 @@ Richard D. James:
       Next Heap With:
    Classics:
       <date: 1994-12
-      <<: *low
+      <flow: low
       Digeridoo:
       Flaphead:
       Phloam:
@@ -383,7 +390,7 @@ Richard D. James:
       Digeridoo (live in Cornwall, 1990):
    Selected Ambient Works, Volume II:
       <date: 1994-03
-      <<: *low
+      <flow: low
       '[Cliffs]': yes
       '[Radiator]':
       '[Rhubarb]': yes
@@ -411,21 +418,21 @@ Richard D. James:
       '[Matchsticks]':
    On Remixes:
       <date: 1993
-      <<: *low
+      <flow: low
       On (D-Scape mix):
       On (Reload mix): yes
       On (μ-Ziq mix): yes
       On (28 mix):
    On:
       <date: 1993
-      <<: *low
+      <flow: low
       On: yes
       73-Yips:
       D-Scape:
       Xepha:
    Selected Ambient Works 85–92:
       <date: 1992
-      <<: *low
+      <flow: low
       Xtal: yes
       Tha: yes
       Pulsewidth:

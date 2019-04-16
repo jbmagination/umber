@@ -1,13 +1,26 @@
 'use strict';
 document.querySelectorAll('a').forEach(ab => {
-   var ce = new URL(ab.href, location);
+   const ce = new URL(ab.href, location);
    if (ce.protocol == 'mailto:') {
       return;
    }
-   if (ce.hostname == 'twitter.com') {
+   /* covers optional "www." */
+   if (ce.hostname.endsWith('facebook.com')) {
       return;
    }
-   if (ce.hostname == 'www.reddit.com') {
+   if (ce.hostname.endsWith('google.com')) {
+      return;
+   }
+   if (ce.hostname.endsWith('linkedin.com')) {
+      return;
+   }
+   if (ce.hostname.endsWith('reddit.com')) {
+      return;
+   }
+   if (ce.hostname.endsWith('tumblr.com')) {
+      return;
+   }
+   if (ce.hostname.endsWith('twitter.com')) {
       return;
    }
    if (ce.hostname == location.hostname) {
