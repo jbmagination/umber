@@ -13,15 +13,16 @@ function slug(txt) {
 function fgr(vdeo) {
    let e_fu = document.createElement('figure');
    let e_a = document.createElement('a');
+   let e_d1 = document.createElement('div');
    let e_i = document.createElement('img');
-   let e_d = document.createElement('div');
+   let e_d2 = document.createElement('div');
    let e_fc = document.createElement('figcaption');
 
    // need this else we get SyntaxError: redeclaration of let url
    let attr, url;
 
-   switch (vdeo[2].slice(0, 2)) {
-   case 'bc':
+   switch (vdeo[2][0]) {
+   case 'b':
       attr = vdeo[2].split('_');
       e_i.src = 'https://f4.bcbits.com/img/' + attr[2] + '_16.jpg';
       // case sensitive
@@ -34,7 +35,7 @@ function fgr(vdeo) {
       url.searchParams.set('artwork', 'small');
       url.searchParams.set('size', 'large');
       break;
-   case 'gh':
+   case 'g':
       attr = vdeo[2].slice(3);
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
          attr + '/image.jpg';
@@ -42,7 +43,7 @@ function fgr(vdeo) {
       url = new URL(location.origin + '/umber/listen/');
       url.searchParams.set('v', vdeo[0]);
       break;
-   case 'sc':
+   case 's':
       attr = vdeo[2].split('_');
       e_i.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
@@ -56,7 +57,7 @@ function fgr(vdeo) {
       url.searchParams.set('show_comments', false);
       url.searchParams.set('visual', true);
       break;
-   case 'vm':
+   case 'v':
       attr = vdeo[2].split('_');
       e_i.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
       // player.vimeo.com/video/101914072: this video cannot be played here
@@ -64,8 +65,8 @@ function fgr(vdeo) {
       url.hash = slug(vdeo[3]);
       url.searchParams.set('autoplay', 1);
       break;
-   case 'yt':
-      attr = vdeo[2].slice(3);
+   case 'y':
+      attr = vdeo[2].slice(2);
       e_i.src = 'https://i.ytimg.com/vi/' + attr + '/sd1.jpg';
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       url = new URL('https://www.youtube.com/watch?v=' + attr);
@@ -73,10 +74,11 @@ function fgr(vdeo) {
    }
 
    e_a.href = url.href;
-   e_d.textContent = vdeo[3];
+   e_d2.textContent = vdeo[3];
    e_fc.textContent = 'released ' + vdeo[1] + ' - posted ' +
       new Date(vdeo[0] * 1000).toDateString();
-   e_a.append(e_i, e_d);
+   e_d1.append(e_i);
+   e_a.append(e_d1, e_d2);
    e_fu.append(e_a, e_fc);
    return e_fu;
 }
