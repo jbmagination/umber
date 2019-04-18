@@ -7,7 +7,7 @@ async function main() {
    ).json()).find(
       trck => trck[0] == new URLSearchParams(location.search).get('v')
    );
-   let attr = vdeo[2].slice(3);
+   let attr = vdeo[2].slice(2);
 
    lstn.src = 'https://github.com/cup/umber/releases/download/' +
       attr + '/' + vdeo[0];

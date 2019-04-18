@@ -23,7 +23,7 @@ function fgr(vdeo) {
 
    switch (vdeo[2][0]) {
    case 'b':
-      attr = vdeo[2].split('_');
+      attr = vdeo[2].split('/');
       e_i.src = 'https://f4.bcbits.com/img/' + attr[2] + '_16.jpg';
       // case sensitive
       url = new URL('https://bandcamp.com/EmbeddedPlayer');
@@ -36,7 +36,7 @@ function fgr(vdeo) {
       url.searchParams.set('size', 'large');
       break;
    case 'g':
-      attr = vdeo[2].slice(3);
+      attr = vdeo[2].slice(2);
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
          attr + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
@@ -44,7 +44,7 @@ function fgr(vdeo) {
       url.searchParams.set('v', vdeo[0]);
       break;
    case 's':
-      attr = vdeo[2].split('_');
+      attr = vdeo[2].split('/');
       e_i.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
       url.hash = slug(vdeo[3]);
@@ -58,7 +58,7 @@ function fgr(vdeo) {
       url.searchParams.set('visual', true);
       break;
    case 'v':
-      attr = vdeo[2].split('_');
+      attr = vdeo[2].split('/');
       e_i.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
       // player.vimeo.com/video/101914072: this video cannot be played here
       url = new URL('https://vimeo.com/' + attr[1]);

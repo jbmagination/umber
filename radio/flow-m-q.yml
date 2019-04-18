@@ -1,9 +1,20 @@
 M83:
-   Junk:
-      <date: 2016
-      <<: &low
+   <high:
+      Midnight City:
+         <flow: 33,682,222
+         <link: https://youtu.be/dX3k_QDnzHE
+         <pub: 2011
+      Wait:
+         <flow: 11,009,599
+         <link: https://youtu.be/lAwYodrBr2Q
+         <pub: 2012
+   <low:
+      Oblivion:
          <flow: 2,746,085
          <link: https://youtu.be/1mkUp1V3ys0
+   Junk:
+      <date: 2016
+      <flow: low
       Do It, Try It: no
       Go!: no
       Walkway Blues: no
@@ -21,7 +32,7 @@ M83:
       Sunday Night 1987:
    Oblivion Original Motion Picture Soundtrack:
       <date: 2013
-      <<: *low
+      <flow: low
       Jack’s Dream: len
       Waking Up:
       Tech 49:
@@ -41,14 +52,12 @@ M83:
       Oblivion: yes
    Hurry Up, We’re Dreaming:
       <date: 2011
-      <flow: 33,682,222
-      <link: https://youtu.be/dX3k_QDnzHE
+      <flow: high
       Midnight City:
-      Reunion:
       Wait:
    Saturdays = Youth:
       <date: 2008
-      <<: *low
+      <flow: low
       You, Appearing: yes
       Kim & Jessie: yes
       Skin of the Night: yes
@@ -62,7 +71,7 @@ M83:
       Midnight Souls Still Remain:
    Digital Shades, Volume 1:
       <date: 2007
-      <<: *low
+      <flow: low
       Waves, Waves, Waves: len
       Coloring the Void:
       Sister, Part 1: len
@@ -75,7 +84,7 @@ M83:
       The Highest Journey: yes
    Before the Dawn Heals Us:
       <date: 2005
-      <<: *low
+      <flow: low
       Moon Child: yes
       Don’t Save Us From the Flames: yes
       In the Cold I’m Standing: yes
@@ -93,17 +102,17 @@ M83:
       Lower Your Eyelids to Die With the Sun:
    Dead Cities, Red Seas & Lost Ghosts:
       <date: 2003
-      <<: *low
+      <flow: low
       Birds: len
       Unrecorded: yes
       Run Into Flowers: yes
       In Church: yes
-      America:
+      America: no
       On a White Lake, Near a Green Mountain: yes
-      Noise:
-      Be Wild:
-      Cyborg:
-      0078h:
+      Noise: no
+      Be Wild: no
+      Cyborg: no
+      0078h: no
       Gone:
       Beauties Can Die:
       Tsubasa:
@@ -113,7 +122,7 @@ M83:
       Dead Cities, Red Seas & Lost Ghosts:
    M83:
       <date: 2001
-      <<: *low
+      <flow: low
       Last Saturday: len
       Night: no
       At the Party: len
@@ -124,9 +133,9 @@ M83:
       Staring at Me: len
       I’m Getting Closer: no
       She Stands Up: no
-      Carresses:
+      Carresses: no
       My Face: len
-      I’m Happy, She Said:
+      I’m Happy, She Said: len
 Madonna:
    <high:
       4 Minutes:
@@ -303,10 +312,10 @@ Madonna:
       <date: 1983
       <flow: low
       Lucky Star: yes
-      Borderline:
-      Burning Up:
-      I Know It:
-      Holiday:
+      Borderline: no
+      Burning Up: no
+      I Know It: no
+      Holiday: yes
       Think of Me:
       Physical Attraction:
       Everybody:
