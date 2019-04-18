@@ -1046,11 +1046,13 @@ The xx:
       Islands:
       VCR:
 Thievery Corporation:
-   Culture of Fear:
-      <date: 2011
-      <<: &low
+   <low:
+      The Richest Man in Babylon:
          <flow: 2,667,045
          <link: https://youtu.be/uN9tulBHr8Y
+   Culture of Fear:
+      <date: 2011
+      <flow: low
       Web of Deception:
       Culture of Fear:
       Take My Soul:
@@ -1066,7 +1068,7 @@ Thievery Corporation:
       Free:
    Radio Retaliation:
       <date: 2008
-      <<: *low
+      <flow: low
       Sound the Alarm:
       Mandala:
       Radio Retaliation:
@@ -1084,7 +1086,7 @@ Thievery Corporation:
       Sweet Tides:
    The Cosmic Game:
       <date: 2005
-      <<: *low
+      <flow: low
       Marching the Hate Machines (Into the Sun): yes
       Warning Shots:
       Revolution Solution:
@@ -1103,7 +1105,7 @@ Thievery Corporation:
       A Gentle Dissolve: len
    The Richest Man in Babylon:
       <date: 2002
-      <<: *low
+      <flow: low
       Heaven’s Gonna Burn Your Eyes:
       Facing East:
       The Outernationalist:
@@ -1121,7 +1123,7 @@ Thievery Corporation:
       Resolution: yes
    The Mirror Conspiracy:
       <date: 2000
-      <<: *low
+      <flow: low
       Treasures: len
       Le Monde: yes
       Indra: yes
@@ -1135,6 +1137,25 @@ Thievery Corporation:
       Illumination:
       The Mirror Conspiracy:
       Tomorrow: yes
+   Sounds From the Thievery Hi‐Fi:
+      <date: 1997
+      <flow: low
+      A Warning (Dub): len
+      2001 Spliff Odyssey: no
+      Shaolin Satellite: no
+      Transcendence: no
+      Universal Highness:
+      Incident at Gate 7:
+      Mañha:
+      Scene at the Open Air Market: len
+      The Glass Bead Game:
+      Encounter in Bahia:
+      The Foundation:
+      Interlude: len
+      The Oscillator:
+      Assault on Babylon:
+      .38.45 (A Thievery Number):
+      One:
 Thin Lizzy:
    Jailbreak:
       <date: 1975
