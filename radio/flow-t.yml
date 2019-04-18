@@ -1607,11 +1607,13 @@ Tori Amos:
       Me and a Gun:
       Little Earthquakes:
 Toro y Moi:
-   Boo Boo:
-      <date: 2017
-      <<: &low
+   <low:
+      Freelance:
          <flow: 4,402,441
          <link: https://youtu.be/Jm6hDWBZXc4
+   Boo Boo:
+      <date: 2017
+      <flow: low
       Mirage: yes
       No Show: yes
       Mona Lisa:
@@ -1626,7 +1628,7 @@ Toro y Moi:
       W.I.W.W.T.W.:
    What For?:
       <date: 2015
-      <<: *low
+      <flow: low
       What You Want: no
       Buffalo: no
       The Flight: no
@@ -1639,7 +1641,7 @@ Toro y Moi:
       Yeah Right:
    Anything in Return:
       <date: 2013
-      <<: *low
+      <flow: low
       Harm in Change:
       Say That: yes
       So Many Details: yes
@@ -1653,6 +1655,20 @@ Toro y Moi:
       Day One:
       Never Matter:
       How’s It Wrong:
+   Underneath the Pine:
+      <date: 2011
+      <flow: low
+      Intro / Chi Chi: len
+      New Beat: no
+      Go With You: no
+      Divina: len
+      Before I’m Done: len
+      Got Blinded: no
+      How I Know: no
+      Light Black: no
+      Still Sound:
+      Good Hold: len
+      Elise:
 Tosca:
    Dehli9:
       <<: &low
