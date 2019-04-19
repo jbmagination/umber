@@ -10,8 +10,7 @@ var thold = 6000000;
 /* get publish date */
 var dp = bc('[itemprop=datePublished]');
 
-if (dp)
-{
+if (dp) {
    /* get views */
    var vw = bc('[itemprop=interactionCount]').content;
 
@@ -31,11 +30,9 @@ if (dp)
    ].map(ae => '      ' + ae).join('\n');
    document.body.append(xc);
 }
-else
-{
+else {
    cb('.yt-lockup-meta-info').forEach(ul => {
-      if (!ul.children[1])
-      {
+      if (!ul.children[1]) {
          return;
       }
 

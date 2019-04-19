@@ -2,18 +2,14 @@
    "name": "Umber",
    "version": "1.0.0",
    "manifest_version": 2,
-   "background":
-   {
+   "background": {
       "scripts": ["background.js"]
    },
-   "commands":
-   {
-      "windows":
-      {
+   "commands": {
+      "windows": {
          "suggested_key": {"default": "MediaPlayPause"}
       },
-      "mac":
-      {
+      "mac": {
          "suggested_key": {"default": "F8"}
       }
    },
