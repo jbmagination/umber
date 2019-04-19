@@ -39,7 +39,7 @@ function fgr(vdeo) {
       url = new URL('/umber/listen/', location);
       url.searchParams.set('v', vdeo[0]);
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
-         attr.shift() + '/image.jpg';
+      attr.shift() + '/image.jpg';
       break;
    case 's':
       url = new URL('https://w.soundcloud.com/player');
@@ -53,23 +53,31 @@ function fgr(vdeo) {
       url.searchParams.set('show_comments', false);
       url.searchParams.set('visual', true);
       e_i.src = 'https://i1.sndcdn.com/artworks-' +
-         attr.shift() + '-t500x500.jpg';
+      attr.shift() + '-t500x500.jpg';
       break;
    case 'v':
       // player.vimeo.com/video/101914072: this video cannot be played here
-      url = new URL('https://vimeo.com/' + attr[0]);
+      url = new URL('https://vimeo.com/' + attr.shift());
       url.hash = slug(vdeo[3]);
       url.searchParams.set('autoplay', 1);
-      e_i.src = 'https://i.vimeocdn.com/video/' + attr[1] + '_1280x720.jpg';
+      e_i.src = 'https://i.vimeocdn.com/video/' +
+      attr.shift() + '_1280x720.jpg';
       break;
    case 'y':
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
-      url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
+      url = new URL('https://www.youtube.com/watch');
+      url.searchParams.set('v', attr.shift());
       url.hash = slug(vdeo[3]);
-      e_i.src = 'https://i.ytimg.com/vi/' + attr[0] + '/sd1.jpg';
+      e_i.src = 'https://i.ytimg.com/vi/' +
+      url.searchParams.get('v') + '/sd1.jpg';
    }
 
-   e_d1.className = 'wnd';
+   if (attr.length) {
+      e_d1.className = 'squa';
+   }
+   else {
+      e_d1.className = 'rect';
+   }
    e_a.href = url.href;
    e_d2.textContent = vdeo[3];
    e_fc.textContent = 'released ' + vdeo[1] + ' - posted ' +
