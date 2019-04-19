@@ -19,36 +19,32 @@ function fgr(vdeo) {
    let e_fc = document.createElement('figcaption');
 
    // need this else we get SyntaxError: redeclaration of let url
-   let attr, url;
+   let url, attr = vdeo[2].split('/');
 
-   switch (vdeo[2][0]) {
+   switch (attr.shift()) {
    case 'b':
-      attr = vdeo[2].split('/');
-      e_i.src = 'https://f4.bcbits.com/img/' + attr[2] + '_16.jpg';
       // case sensitive
       url = new URL('https://bandcamp.com/EmbeddedPlayer');
       url.hash = slug(vdeo[3]);
-      url.searchParams.set('track', attr[1]);
+      url.searchParams.set('track', attr.shift());
       // required when protocol is not "file:"
       url.searchParams.set('ref', '');
       // these are not required, but they look nicer
       url.searchParams.set('artwork', 'small');
       url.searchParams.set('size', 'large');
+      e_i.src = 'https://f4.bcbits.com/img/' + attr.shift() + '_16.jpg';
       break;
    case 'g':
-      attr = vdeo[2].slice(2);
-      e_i.src = 'https://github.com/cup/umber/releases/download/' +
-         attr + '/image.jpg';
       // we need the trailing slash to maintain HTTPS
-      url = new URL(location.origin + '/umber/listen/');
+      url = new URL('/umber/listen/', location);
       url.searchParams.set('v', vdeo[0]);
+      e_i.src = 'https://github.com/cup/umber/releases/download/' +
+         attr.shift() + '/image.jpg';
       break;
    case 's':
-      attr = vdeo[2].split('/');
-      e_i.src = 'https://i1.sndcdn.com/artworks-' + attr[2] + '-t500x500.jpg';
       url = new URL('https://w.soundcloud.com/player');
       url.hash = slug(vdeo[3]);
-      url.searchParams.set('url', 'api.soundcloud.com/tracks/' + attr[1]);
+      url.searchParams.set('url', 'api.soundcloud.com/tracks/' + attr.shift());
       // ignored on mobile
       url.searchParams.set('auto_play', true);
       // accepts "true" but not "1"
@@ -56,23 +52,24 @@ function fgr(vdeo) {
       // these are not required, but it looks nicer
       url.searchParams.set('show_comments', false);
       url.searchParams.set('visual', true);
+      e_i.src = 'https://i1.sndcdn.com/artworks-' +
+         attr.shift() + '-t500x500.jpg';
       break;
    case 'v':
-      attr = vdeo[2].split('/');
-      e_i.src = 'https://i.vimeocdn.com/video/' + attr[2] + '_1280x720.jpg';
       // player.vimeo.com/video/101914072: this video cannot be played here
-      url = new URL('https://vimeo.com/' + attr[1]);
+      url = new URL('https://vimeo.com/' + attr[0]);
       url.hash = slug(vdeo[3]);
       url.searchParams.set('autoplay', 1);
+      e_i.src = 'https://i.vimeocdn.com/video/' + attr[1] + '_1280x720.jpg';
       break;
    case 'y':
-      attr = vdeo[2].slice(2);
-      e_i.src = 'https://i.ytimg.com/vi/' + attr + '/sd1.jpg';
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
-      url = new URL('https://www.youtube.com/watch?v=' + attr);
+      url = new URL('https://www.youtube.com/watch?v=' + attr[0]);
       url.hash = slug(vdeo[3]);
+      e_i.src = 'https://i.ytimg.com/vi/' + attr[0] + '/sd1.jpg';
    }
 
+   e_d1.className = 'wnd';
    e_a.href = url.href;
    e_d2.textContent = vdeo[3];
    e_fc.textContent = 'released ' + vdeo[1] + ' - posted ' +

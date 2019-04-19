@@ -1225,11 +1225,13 @@ Gnarls Barkley:
       Neighbors:
       A Little Better:
 Goldfrapp:
-   Silver Eye:
-      <date: 2017
-      <<: &low
+   <low:
+      Ooh La La:
          <flow: 1,063,979
          <link: https://youtu.be/uco-2V4ytYQ
+   Silver Eye:
+      <date: 2017
+      <flow: low
       Anymore: no
       Systemagic: no
       Tigerman: yes
@@ -1242,7 +1244,7 @@ Goldfrapp:
       Ocean: yes
    Tales of Us:
       <date: 2013
-      <<: *low
+      <flow: low
       Jo: yes
       Annabel:
       Drew:
@@ -1254,19 +1256,24 @@ Goldfrapp:
       Laurel:
       Clay:
       Lee: yes
-      Stranger (Moog remix):
-      Thea (alternative):
-      Jo (live in Manchester):
-      Drew (live in Manchester):
-      Alvar (live in Manchester):
-      Nowhere Boy (Soundtrack Extract):
    Head First:
       <date: 2010
    Seventh Tree:
       <date: 2008
+      <flow: low
+      Clowns: yes
+      Little Bird:
+      Happiness:
+      Road to Somewhere:
+      Eat Yourself:
+      Some People:
+      A&E:
+      Cologne Cerrone Houdini:
+      Caravan Girl:
+      Monster Love:
    Supernature:
       <date: 2005
-      <<: *low
+      <flow: low
       Ooh La La: yes
       Lovely 2 C U: yes
       Ride a White Horse: yes
@@ -1280,7 +1287,7 @@ Goldfrapp:
       Number 1: no
    Black Cherry:
       <date: 2003
-      <<: *low
+      <flow: low
       Crystalline Green: no
       Train: no
       Black Cherry: no
@@ -1293,7 +1300,7 @@ Goldfrapp:
       Slippage: no
    Felt Mountain:
       <date: 2000
-      <<: *low
+      <flow: low
       Lovely Head: yes
       Paper Bag: yes
       Human: yes
