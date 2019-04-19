@@ -628,15 +628,30 @@ Emilíana Torrini:
    Merman:
       <date: 1996
 Empress Of:
-   Woman Is a Word:
-      <date: 2016
-      <<: &low
+   <low:
+      Water Water:
          <flow: 200,617
          <link: https://youtu.be/iwo_HeW4G-Q
+   Us:
+      <date: 2018
+      <flow: low
+      Everything to Me: len
+      Just the Same: no
+      Trust Me Baby:
+      Love for Me:
+      I Don’t Even Smoke Weed:
+      Timberlands:
+      I’ve Got Love:
+      All for Nothing:
+      When I’m With Him:
+      Again:
+   Woman Is a Word:
+      <date: 2016
+      <flow: low
       Woman Is a Word: yes
    Me:
       <date: 2015
-      <<: *low
+      <flow: low
       Everything Is You: no
       Water Water: no
       Standard: yes
@@ -648,12 +663,30 @@ Empress Of:
       Threat: no
       Icon: no
    Systems:
-      <date: 2013
-      <<: *low
+      <date: 2013-08-16
+      <flow: low
       Hat Trick: no
       No Means No: no
       Tristeza: no
       Camisa Favorita: no
+   Colorminutes:
+      <date: 2013-01-11
+      <flow: low
+      1: len
+      2: len
+      3: len
+      4: len
+      5: len
+      6: len
+      7: len
+      8: len
+      9: len
+      10: len
+      11: len
+      12: len
+      13: len
+      14: len
+      15: len
 Enya:
    A Day Without Rain:
       <flow: 11,630,928
