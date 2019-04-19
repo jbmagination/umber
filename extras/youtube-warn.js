@@ -1,51 +1,47 @@
 'use strict';
 
-function qs(sct)
-{
-   return document.querySelector(sct);
-}
-
-function dr(s1)
-{
-   const h1 = s1 / (60 * 60) | 0;
+function dura(s1) {
+   let h1 = s1 / (60 * 60) | 0;
    s1 %= 60 * 60;
-   const m1 = s1 / 60 | 0;
+   let m1 = s1 / 60 | 0;
    s1 %= 60;
-   const h2 = h1 ? h1 + ':' : '';
-   const m2 = h1 && m1 < 10 ? '0' + m1 : m1;
-   const s2 = s1 < 10 ? '0' + s1 : s1;
+   let h2 = h1 ? h1 + ':' : '';
+   let m2 = h1 && m1 < 10 ? '0' + m1 : m1;
+   let s2 = s1 < 10 ? '0' + s1 : s1;
    return h2 + m2 + ':' + s2;
 }
 
-async function main()
-{
-   const vd = qs('[itemprop="videoId"]').content;
-   const fm = document.createElement('iframe');
-   fm.src = 'embed/' + vd + '?autoplay=1';
-   fm.className = 'player-height player-width';
-   fm.setAttribute('allowFullScreen', '');
-   qs('#player-api').append(fm);
-   qs('#player-unavailable').style.display = 'none';
-   qs('#player').className = 'content-alignment watch-small';
-   qs('#watch7-sidebar-modules').innerHTML =
+function qo(z) {
+   return document.querySelector(z);
+}
+
+async function main() {
+   let vdeo = qo('[itemprop="videoId"]').content;
+   let ifrm = document.createElement('iframe');
+   ifrm.src = 'embed/' + vdeo + '?autoplay=1';
+   ifrm.className = 'player-height player-width';
+   ifrm.setAttribute('allowFullScreen', '');
+   qo('#player-api').append(ifrm);
+   qo('#player-unavailable').style.display = 'none';
+   qo('#player').className = 'content-alignment watch-small';
+   qo('#watch7-sidebar-modules').innerHTML =
       '<ul id="watch-related" class="video-list"></ul>';
-   const ft = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vd);
-   const vn = new URLSearchParams(await ft.text());
-   vn.get('rvs').split(',').forEach(xr => {
-      const qa = new URLSearchParams(xr);
-      if (qa.get('list'))
-      {
+   let afet = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vdeo);
+   let url1 = new URLSearchParams(await afet.text());
+   url1.get('rvs').split(',').forEach(z => {
+      let url2 = new URLSearchParams(z);
+      if (url2.get('list')) {
          return;
       }
-      qs('ul#watch-related').innerHTML +=
+      qo('ul#watch-related').innerHTML +=
       `<li class="video-list-item">
-         <a href="watch?v=${qa.get('id')}">
+         <a href="watch?v=${url2.get('id')}">
             <span class="yt-uix-simple-thumb-wrap yt-uix-simple-thumb-related">
-               <img src="//i.ytimg.com/vi/${qa.get('id')}/sd1.jpg">
-               <span class="video-time">${dr(qa.get('length_seconds'))}</span>
+               <img src="//i.ytimg.com/vi/${url2.get('id')}/sd1.jpg">
+               <span class="video-time">${dura(url2.get('length_seconds'))}</span>
             </span>
-            <span class="title">${qa.get('title')}</span>
-            <span class="stat">by ${qa.get('author')}</span>
+            <span class="title">${url2.get('title')}</span>
+            <span class="stat">by ${url2.get('author')}</span>
          </a>
       </li>`;
    });

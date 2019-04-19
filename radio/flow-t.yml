@@ -881,11 +881,18 @@ The Rolling Stones:
       Dead Flowers:
       Moonlight Mile: yes
 The Smiths:
-   Strangeways, Here We Come:
-      <date: 1987
-      <<: &low
+   <high:
+      This Charming Man:
+         <flow: 7,660,429
+         <link: https://youtu.be/cJRP3LRcUFg
+         <pub: 2014
+   <low:
+      How Soon Is Now?:
          <flow: 2,538,862
          <link: https://youtu.be/hnpILIIo9ek
+   Strangeways, Here We Come:
+      <date: 1987
+      <flow: low
       A Rush and a Push and the Land Is Ours: yes
       I Started Something I Couldn’t Finish:
       Death of a Disco Dancer:
@@ -898,12 +905,20 @@ The Smiths:
       I Won’t Share You: len
    The Queen Is Dead:
       <date: 1986
-      <flow: 9,429,956
-      <link: https://youtu.be/y9Gf-f_hWpU
+      <flow: low
+      The Queen Is Dead: no
+      Frankly, Mr. Shankly: len
+      I Know It’s Over: yes
+      Never Had No One Ever:
+      Cemetry Gates: len
+      Bigmouth Strikes Again:
+      The Boy With the Thorn in His Side:
+      Vicar in a Tutu: len
       There Is a Light That Never Goes Out:
+      Some Girls Are Bigger Than Others:
    Meat Is Murder:
       <date: 1985
-      <<: *low
+      <flow: low
       The Headmaster Ritual:
       Rusholme Ruffians:
       I Want the One I Can’t Have:
@@ -916,8 +931,7 @@ The Smiths:
       Meat Is Murder:
    The Smiths:
       <date: 1984
-      <flow: 7,417,487
-      <link: https://youtu.be/cJRP3LRcUFg
+      <flow: high
       This Charming Man:
 The Stranglers:
    La Folie:
