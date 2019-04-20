@@ -885,10 +885,44 @@ Burial:
       Prayer:
       Pirates:
 Bush:
-   Sixteen Stone:
-      <<: &low
+   <low:
+      Glycerine:
          <flow: 3,384,979
          <link: https://youtu.be/hOllF3TgAsM
+   The Science of Things:
+      <date: 1999
+      <flow: low
+      Warm Machine: no
+      Jesus Online: no
+      The Chemicals Between Us: yes
+      English Fire: no
+      Spacetravel: no
+      40 Miles From the Sun: no
+      Prizefighter: no
+      The Disease of the Dancing Cats: no
+      Altered States: no
+      Dead Meat: no
+      Letting the Cables Sleep: no
+      Mindchanger: no
+   Razorblade Suitcase:
+      <date: 1996
+      <flow: low
+      Personal Holloway: no
+      Greedy Fly: no
+      Swallowed: no
+      Insect Kin: no
+      Cold Contagious: no
+      A Tendency to Start Fires:
+      Mouth:
+      Straight No Chaser:
+      History:
+      Synapse:
+      Communicator:
+      Bonedriven:
+      Distant Voices / [unknown]:
+   Sixteen Stone:
+      <date: 1994
+      <flow: low
       Everything Zen: yes
       Swim:
       Bomb:
@@ -902,20 +936,6 @@ Bush:
       Alien:
       X‐Girlfriend: len
       Comedown (acoustic):
-   The Science of Things:
-      <<: *low
-      Warm Machine: no
-      Jesus Online: no
-      The Chemicals Between Us: yes
-      English Fire: no
-      Spacetravel: no
-      40 Miles From the Sun: no
-      Prizefighter: no
-      The Disease of the Dancing Cats: no
-      Altered States: no
-      Dead Meat: no
-      Letting the Cables Sleep: no
-      Mindchanger: no
 Cake:
    Fashion Nugget:
       <flow: 865,813
