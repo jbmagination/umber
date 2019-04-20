@@ -14,12 +14,14 @@ BEGIN {
    print srand()
 }
 ')
+
 song_id=$(( tstamp + 1 ))
 
 case $# in
 1)
    apat=$1
    album_id=$tstamp
+
    if git tag -n1 | grep -i -- "$apat"
    then
       exit 1

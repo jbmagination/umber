@@ -1129,10 +1129,13 @@ Foy Vance:
       Be the Song:
       Make It Rain:
 Frankie Rose:
-   Cage Tropical:
-      <<: &low
+   <low:
+      Night Swim:
          <flow: 31,597
          <link: https://youtu.be/VE56wTNj7J0
+   Cage Tropical:
+      <date: 2017
+      <flow: low
       Love in Rockets:
       Dyson Sphere:
       Trouble:
@@ -1143,8 +1146,11 @@ Frankie Rose:
       Red Museum:
       Epic Slack: len
       Decontrol:
+   Herein Wild:
+      <date: 2013
    Interstellar:
-      <<: *low
+      <date: 2012
+      <flow: low
       Interstellar:
       Know Me: len
       Gospel/Grace:
