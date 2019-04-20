@@ -1767,12 +1767,13 @@ TV on the Radio:
       DLZ: yes
       Lover’s Day:
 Tycho:
-   <updated: 2019-02-21
-   Epoch:
-      <date: 2016
-      <<: &low
+   <low:
+      A Walk:
          <flow: 2,862,988
          <link: https://youtu.be/mehLx_Fjv_c
+   Epoch:
+      <date: 2016
+      <flow: low
       Glider: no
       Horizon: no
       Slack: no
@@ -1786,7 +1787,7 @@ Tycho:
       Field: len
    Awake:
       <date: 2014
-      <<: *low
+      <flow: low
       Awake: yes
       Montana:
       L:
@@ -1797,7 +1798,7 @@ Tycho:
       Plains:
    Dive:
       <date: 2011
-      <<: *low
+      <flow: low
       A Walk: no
       Hours: no
       Daydream: yes
@@ -1810,7 +1811,7 @@ Tycho:
       Elegy: yes
    Past Is Prologue / Sunrise Projector:
       <date: 2006
-      <<: *low
+      <flow: low
       A Circular Reeducation: yes
       Brother: len
       Cloud Generator: yes
@@ -1827,7 +1828,7 @@ Tycho:
       The Disconnect: no
    The Science of Patterns:
       <date: 2002
-      <<: *low
+      <flow: low
       Dream as a Memory: no
       Human Condition: no
       Red Bridge: no

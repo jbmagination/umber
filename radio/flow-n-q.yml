@@ -203,12 +203,13 @@ Nicolas Jaar:
       Love You Gotta Lose Again:
       Don’t Believe the Hype: len
 Nightmares on Wax:
-   <updated: 2019-02-21
+   <low:
+      You Wish:
+         <flow: 330,951
+         <link: https://youtu.be/TwDOa-lvizM
    Shape the Future:
       <date: 2018
-      <<: &low
-         <flow: 1,379,695
-         <link: https://youtu.be/Q692lHFaLVM
+      <flow: low
       Back to Nature: yes
       Tell My Vision: no
       Shape the Future: no
@@ -222,7 +223,7 @@ Nightmares on Wax:
       The Othership: yes
    Ground Floor:
       <date: 2016
-      <<: *low
+      <flow: low
       World Inside: no
       Scratch That!:
       Reclaim the Balcony:
@@ -231,7 +232,7 @@ Nightmares on Wax:
       <date: 2013
    Thought So:
       <date: 2008
-      <<: *low
+      <flow: low
       Intro: len
       Da Feelin: no
       195lbs: no
@@ -245,7 +246,7 @@ Nightmares on Wax:
       Hey! Ego: no
    In a Space Outta Sound:
       <date: 2006
-      <<: *low
+      <flow: low
       Passion: yes
       The Sweetest: no
       Flip Ya Lid: yes
@@ -260,7 +261,7 @@ Nightmares on Wax:
       African Pirates: no
    Mind Elevation:
       <date: 2002
-      <<: *low
+      <flow: low
       Mind Eye: no
       Say-Say: no
       Thinking of Omara: no
@@ -276,7 +277,7 @@ Nightmares on Wax:
       Thoughts:
    Carboot Soul:
       <date: 1999
-      <<: *low
+      <flow: low
       Les Nuits: yes
       Morse: yes
       Ethnic Majority: yes
@@ -289,7 +290,7 @@ Nightmares on Wax:
       Capumcap: no
    Smokers Delight:
       <date: 1995
-      <<: *low
+      <flow: low
       Nights Introlude: yes
       Dreddoverboard: no
       Pipes Honour: yes
@@ -306,9 +307,9 @@ Nightmares on Wax:
       Rise: yes
       Rise (reprise): len
       Gambia via Vagator Beach: yes
-   A Word of Science The 1st & Final Chapter:
+   A Word of Science:
       <date: 1991
-      <<: *low
+      <flow: low
       Nights Interlude: yes
       A Case of Funk: no
       Coming Down: no
@@ -316,12 +317,12 @@ Nightmares on Wax:
       Biofeedback: no
       Mega Donutz: no
       Playtime: no
-      Aftermath:
-      Fun:
-      Back Into Time:
-      Dextrous:
+      Aftermath: no
+      Fun: no
+      Back Into Time: no
+      Dextrous: no
       B.W.T.M.: len
-      Sal:
+      Sal Batardes: no
       E.A.S.E.:
       How Ya Doin’:
 Nirvana:
