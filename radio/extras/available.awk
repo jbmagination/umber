@@ -4,11 +4,14 @@ BEGIN {
       print "available.awk <artist>"
       exit 1
    }
+
    while (getline ac < "/usr/share/umber/data.json" > 0) {
-      split(ac, bd, /\"/)
+      split(ac, bd, "\"")
+
       if (tolower(bd[4]) ~ ARGV[1]) {
          ef = "GOOD"
          sub("^y/", "", bd[2])
+
          while ("curl -s https://www.youtube.com/watch?v=" bd[2] | getline ac) {
             if (index(ac, "uploader has not made this video available") ||
             index(ac, "video is no longer available") ||
@@ -18,6 +21,7 @@ BEGIN {
                ef = "BAD"
             }
          }
+
          print ef, bd[4]
       }
    }

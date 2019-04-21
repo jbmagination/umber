@@ -688,10 +688,13 @@ Pendulum:
       Another Planet:
       Still Grey: yes
 Pet Shop Boys:
+   <high:
+      West End Girls:
+         <flow: 6,469,379
+         <link: https://youtu.be/p3j2NYZ8FKs
    Please:
       <date: 1986
-      <flow: 6,469,379
-      <link: https://youtu.be/p3j2NYZ8FKs
+      <flow: high
       West End Girls:
 Peter Frampton:
    Frampton’s Camel:
