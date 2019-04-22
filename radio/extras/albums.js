@@ -1,13 +1,13 @@
 'use strict';
-var bc = (ae, df = document) => df.querySelector(ae);
-var cb = (ae, df = document) => [...df.querySelectorAll(ae)];
+var qo = (ae, df = document) => df.querySelector(ae);
+var qa = (ae, df = document) => [...df.querySelectorAll(ae)];
 var np = [];
 
-cb('tr', bc('tbody')).forEach(ae => {
+qa('tr', qo('tbody')).forEach(ae => {
    /* if you are logged in a column is prepended with checkboxes. also and
    "Artist" column may or may not exist. To resolve, get index of first column
    with a "class" */
-   var oq = cb('td', ae);
+   var oq = qa('td', ae);
    var rv = oq.findIndex(ae => ae.className);
    np.unshift(
       '   ' + oq[rv + 1].textContent + ':',

@@ -1,6 +1,6 @@
 'use strict';
-var bc = ae => document.querySelector(ae);
-var cb = ae => document.querySelectorAll(ae);
+var qo = ae => document.querySelector(ae);
+var qa = ae => document.querySelectorAll(ae);
 
 /* we need to base this number on the watch page and not the result page for
 accuracy. this will give us some false highs but that is better than false
@@ -8,11 +8,11 @@ lows. */
 var thold = 6000000;
 
 /* get publish date */
-var dp = bc('[itemprop=datePublished]');
+var dp = qo('[itemprop=datePublished]');
 
 if (dp) {
    /* get views */
-   var vw = bc('[itemprop=interactionCount]').content;
+   var vw = qo('[itemprop=interactionCount]').content;
 
    /* get years */
    var yr = (Date.now() - Date.parse(dp.content)) / Date.parse(1971);
@@ -26,12 +26,12 @@ if (dp) {
    xc.style.zIndex = 6;
    xc.textContent = [
       '<flow: ' + Math.floor(vw / yr).toLocaleString(),
-      '<link: https://youtu.be/' + bc('[itemprop=videoId]').content
+      '<link: https://youtu.be/' + qo('[itemprop=videoId]').content
    ].map(ae => '      ' + ae).join('\n');
    document.body.append(xc);
 }
 else {
-   cb('.yt-lockup-meta-info').forEach(ul => {
+   qa('.yt-lockup-meta-info').forEach(ul => {
       if (!ul.children[1]) {
          return;
       }

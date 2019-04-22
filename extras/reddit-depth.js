@@ -1,9 +1,9 @@
 'use strict';
-var bc = (ae, df = document) => df.querySelector(ae);
-var cb = (ae, df = document) => df.querySelectorAll(ae);
+var qo = (ae, df = document) => df.querySelector(ae);
+var qa = (ae, df = document) => df.querySelectorAll(ae);
 
-cb('.report-button').forEach(ae => {
-   var cf = new URL(bc('.bylink', ae.parentNode).href);
+qa('.report-button').forEach(ae => {
+   var cf = new URL(qo('.bylink', ae.parentNode).href);
    cf.hostname = 'www.reddit.com';
    cf.searchParams.set('depth', 3);
    cf.searchParams.set('sort', 'confidence');
