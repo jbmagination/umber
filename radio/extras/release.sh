@@ -43,6 +43,7 @@ case $# in
 ;;
 *)
    echo 'release.sh [-f] <target>
+
 target:
 - album pattern
 - existing tag, include "-f"'
@@ -55,9 +56,8 @@ git push -f --tags
 
 cat <<eof
 
-$song_id
-gh_$album_id
+[$song_id, 0000, "g/$album_id", "ARTIST - SONG"],
 
 1. add new JSON record
-2. add files to new release
+2. add "$song_id" and "image.jpg" to new release
 eof
