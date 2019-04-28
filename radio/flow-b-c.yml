@@ -1151,46 +1151,54 @@ Cassie:
          white: no
       Long Way 2 Go:
       Me & U:
-Chet Faker:
-   Built on Glass:
-      <flow: 37,498,008
-      <link: https://youtu.be/hi4pzKvuEQM
-      1998:
-      Gold:
-      Talk Is Cheap:
-   Thinking in Textures:
-      <flow: 11,379,891
-      <link: https://youtu.be/uPy5igZJnVw
-      I’m Into You:
-      No Diggity:
 Chicago:
+   =:
+      If You Leave Me Now:
+         flow: 1,030,105
+         link: https://youtu.be/j1ykMNtzMT8
+      You’re The Inspiration:
+         flow: 7,406,342
+         link: https://youtu.be/wM-XhQeFzW4
    Chicago 17:
-      <rel: 1984
-      <rel: 1984
-      <flow: 7,406,342
-      <link: https://youtu.be/wM-XhQeFzW4
+      =:
+         rel: 1984
+         white: no
       You’re The Inspiration:
    Chicago 16:
-      <rel: 1982
+      =: 1982
    Chicago XIV:
-      <rel: 1980
+      =: 1980
    Chicago 13:
-      <rel: 1979
+      =: 1979
    Hot Streets:
-      <rel: 1978
+      =: 1978
    Chicago XI:
-      <rel: 1977
+      =: 1977
    Chicago X:
-      <rel: 1976
+      =:
+         rel: 1976
+         white: yes
+      Once or Twice:
+      You Are on My Mind:
+      Skin Tight:
+      If You Leave Me Now: yes
+      Together Again:
+      Another Rainy Day in New York City:
+      Mama Mama:
+      Scrapbook:
+      Gently I’ll Wake You:
+      You Get It Up:
+      Hope for Love:
    Chicago VIII:
-      <rel: 1975
+      =: 1975
    Chicago VII:
-      <rel: 1974
+      =: 1974
    Chicago VI:
-      <rel: 1973
+      =: 1973
    Chicago V:
-      <rel: 1972
-      <white: yes
+      =:
+         rel: 1972
+         white: yes
       A Hit by Varèse:
       All Is Well:
       Now That You’ve Gone:
@@ -1202,10 +1210,11 @@ Chicago:
       Goodbye:
       Alma Mater:
    Chicago III:
-      <rel: 1971
+      =: 1971
    Chicago II:
-      <rel: 1969
-      <white: yes
+      =:
+         rel: 1969
+         white: yes
       Movin’ In:
       The Road:
       Poem for the People:
@@ -1230,11 +1239,14 @@ Chicago:
       It Better End Soon (4th Movement): len
       Where Do We Go From Here: len
 Chicane:
+   =:
+      Saltwater (original mix):
+         flow: 2,624,489
+         link: https://youtu.be/ET1-6Bef9xU
    Behind the Sun:
-      <rel: 2000
-      <<: &low
-         <flow: 2,624,489
-         <link: https://youtu.be/ET1-6Bef9xU
+      =:
+         rel: 2000
+         white: yes
       Overture: yes
       Low Sun: yes
       No Ordinary Morning: no
@@ -1246,8 +1258,9 @@ Chicane:
       Saltwater (The Thrillseekers remix): yes
       Andromeda: no
    Far From the Maddening Crowds:
-      <rel: 1997
-      <white: yes
+      =:
+         rel: 1997
+         white: yes
       Early:
       Already There: len
       Offshore (original mix):
@@ -1260,23 +1273,33 @@ Chicane:
       Offshore ’97: yes
       The Drive Home:
 Childish Gambino:
+   =:
+      Redbone:
+         flow: 130,783,298
+         link: https://youtu.be/Kp7eSUU9oy8
+      Sober:
+         flow: 2,720,472
+         link: https://youtu.be/ayLiAVJ6vTM
+      Sweatpants:
+         flow: 25,128,289
+         link: https://youtu.be/ExVtrghW5Y4
    Awaken, My Love!:
-      <rel: 2016
-      <flow: 130,783,298
-      <link: https://youtu.be/Kp7eSUU9oy8
+      =:
+         rel: 2016
+         white: no
       Me and Your Mama:
       Redbone:
    Because the Internet:
-      <rel: 2013
-      <flow: 25,128,289
-      <link: https://youtu.be/ExVtrghW5Y4
+      =:
+         rel: 2013
+         white: no
       3005:
       Sweatpants:
       Telegraph Ave:
    Camp:
-      <rel: 2011
-      <flow: 2,720,472
-      <link: https://youtu.be/ayLiAVJ6vTM
+      =:
+         rel: 2011
+         white: yes
       Outside: no
       Fire Fly: no
       Bonfire: no
