@@ -267,16 +267,14 @@ Beck:
          white: no
       Loser:
 Beirut:
-   Gallipoli:
-      <rel: 2019
-   No No No:
-      <rel: 2015
-   The Rip Tide:
-      <rel: 2011
+   =:
+      Elephant Gun:
+         flow: 2,371,023
+         link: https://youtu.be/SWSz_PAfgNc
    The Flying Club Cup:
-      <rel: 2007
-      <flow: 2,371,023
-      <link: https://youtu.be/SWSz_PAfgNc
+      =:
+         rel: 2007
+         white: yes
       A Call to Arms: len
       Nantes:
       A Sunday Smile:
@@ -290,12 +288,15 @@ Beirut:
       Cherbourg: yes
       St. Apollonia: len
       The Flying Club Cup:
-   Gulag Orkestar:
-      <rel: 2005
 Bell Biv DeVoe:
+   =:
+      Poison:
+         flow: 1,351,460
+         link: https://youtu.be/sb2np1HGqxg
    Poison:
-      <flow: 1,351,460
-      <link: https://youtu.be/sb2np1HGqxg
+      =:
+         rel: 1990
+         white: yes
       Dope!:
       B.B.D. (I Thought It Was Me)?:
       Let Me Know Something?!:
@@ -306,9 +307,14 @@ Bell Biv DeVoe:
       When Will I See You Smile Again?:
       I Do Need You.:
 Ben Howard:
+   =:
+      Promise:
+         flow: 5,103,551
+         link: https://youtu.be/CVUOTzoVeZA
    Every Kingdom:
-      <flow: 5,103,551
-      <link: https://youtu.be/CVUOTzoVeZA
+      =:
+         rel: 2011
+         white: yes
       Old Pine:
       Diamonds:
       The Wolves:
@@ -320,11 +326,14 @@ Ben Howard:
       Gracious:
       Promise: yes
 Bibio:
+   =:
+      Light Up the Sky:
+         flow: 102,143
+         link: https://youtu.be/jgrgCaSo8e4
    Silver Wilkinson:
-      <rel: 2013
-      <<: &low
-         <flow: 102,143
-         <link: https://youtu.be/jgrgCaSo8e4
+      =:
+         rel: 2013
+         white: yes
       The First Daffodils: len
       Dye the Water Green: yes
       Wulf: len
@@ -337,10 +346,11 @@ Bibio:
       Business Park:
       You Won’t Remember...:
    Mind Bokeh:
-      <rel: 2011
+      =: 2011
    Ambivalence Avenue:
-      <rel: 2009-06-22
-      <<: *low
+      =:
+         rel: 2009-06-22
+         white: yes
       Ambivalence Avenue:
       Jealous of Roses: len
       All the Flowers: len
@@ -354,8 +364,9 @@ Bibio:
       Cry! Baby!:
       Dwrcan:
    Vignetting the Compost:
-      <rel: 2009-02-03
-      <<: *low
+      =:
+         rel: 2009-02-03
+         white: yes
       Flesh Rots, Pip Sown: no
       Mr and Mrs Compost: len
       Everglad Everglade: len
@@ -373,9 +384,14 @@ Bibio:
       Thatched:
       The Garden Shelter:
 Bicep:
+   =:
+      Glue:
+         flow: 5,275,555
+         link: https://youtu.be/A7ZxRs45tTg
    Bicep:
-      <flow: 5,275,555
-      <link: https://youtu.be/A7ZxRs45tTg
+      =:
+         rel: 2017
+         white: yes
       Orca:
       Glue: yes
       Kites:
@@ -389,20 +405,32 @@ Bicep:
       Vale:
       Aura:
    Dahlia:
-      <flow: 37,737
-      <link: https://youtu.be/l74tKdEslZA
+      =:
+         rel: 2015
+         white: yes
       Dahlia: yes
       Rays:
       Seagulls:
 Big Boi:
+   =:
+      All Night:
+         flow: 11,499,682
+         link: https://youtu.be/QxTgr11ncJo
+      Shutterbugg:
+         flow: 1,237,121
+         link: https://youtu.be/rWsvkW6rKkQ
    Boomiverse:
-      <flow: 11,499,682
-      <link: https://youtu.be/QxTgr11ncJo
+      =:
+         rel: 2017
+         white: no
       All Night:
       Kill Jill:
-   Sir Lucious Left Foot... The Son of Chico Dusty:
-      <flow: 1,237,121
-      <link: https://youtu.be/rWsvkW6rKkQ
+   Vicious Lies and Dangerous Rumors:
+      =: 2012
+   Sir Lucious Left Foot… The Son of Chico Dusty:
+      =:
+         rel: 2010
+         white: yes
       Feel Me (intro): len
       Daddy Fat Sax: len
       Turns Me On:
