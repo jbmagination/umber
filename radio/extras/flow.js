@@ -19,15 +19,18 @@ if (dp) {
 
    var xc = document.createElement('textarea');
    xc.cols = 50;
+   xc.rows = 3;
    xc.style.font = 'medium Consolas';
    xc.style.position = 'fixed';
    xc.style.right = 0;
    xc.style.top = '50px';
    xc.style.zIndex = 6;
-   xc.textContent = [
-      '<flow: ' + Math.floor(vw / yr).toLocaleString(),
-      '<link: https://youtu.be/' + qo('[itemprop=videoId]').content
-   ].map(ae => '      ' + ae).join('\n');
+
+   /* needs to work as bookmarklet */
+   xc.textContent = '      ' + qo('[itemprop=name]').content + ':\n' +
+   '         flow: ' + Math.floor(vw / yr).toLocaleString() + '\n' +
+   '         link: ' + qo('[rel=shortlink]').href;
+
    document.body.append(xc);
 }
 else {

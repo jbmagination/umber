@@ -1569,10 +1569,17 @@ Conjure One:
       Sleep:
       Premonition (reprise):
 Counting Crows:
+   =:
+      Accidentally in Love:
+         flow: 2,933,736
+         link: https://youtu.be/22bK0C2obFc
+      Mr. Jones:
+         flow: 13,704,250
+         link: https://youtu.be/-oqAU5VxFWs
    This Desert Life:
-      <rel: 1999
-      <flow: 2,880,610
-      <link: https://youtu.be/22bK0C2obFc
+      =:
+         rel: 199
+         white: yes
       Hanginaround:
       Mrs. Potter’s Lullaby:
       Amy Hit the Atmosphere:
@@ -1584,19 +1591,21 @@ Counting Crows:
       Speedway:
       St. Robinson in His Cadillac Dream / Kid Things:
    Recovering the Satellites:
-      <rel: 1996
+      =: 1996
    August and Everything After:
-      <rel: 1993
-   August And Everything After:
-      <flow: 13,704,250
-      <link: https://youtu.be/-oqAU5VxFWs
+      =:
+         rel: 1993
+         white: no
       Mr. Jones:
 Crazy P:
+   =:
+      Heartbreaker:
+         flow: 162,899
+         link: https://youtu.be/Ph5psMQoirU
    Walk Dance Talk Sing:
-      <rel: 2015
-      <<: &low
-         <flow: 159,508
-         <link: https://youtu.be/Ph5psMQoirU
+      =:
+         rel: 2015
+         white: yes
       Like a Fool: yes
       The Come On:
       Echo:
@@ -1609,8 +1618,9 @@ Crazy P:
       Hear My Song:
       Witch Doctor:
    When We On:
-      <rel: 2011
-      <white: yes
+      =:
+         rel: 2011
+         white: yes
       Open for Service:
       Changes:
       Beatbox:
@@ -1623,9 +1633,14 @@ Crazy P:
       Wecanonlybewhoweare:
       Future Beat:
 Curve:
+   =:
+      Clipped:
+         flow: 35,317
+         link: https://youtu.be/moAIaLbcKb0
    Cuckoo:
-      <flow: 35,814
-      <link: https://youtu.be/moAIaLbcKb0
+      =:
+         rel: 1993
+         white: yes
       Missing Link:
       Crystal:
       Men Are From Mars, Women Are From Venus: yes
