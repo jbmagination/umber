@@ -44,10 +44,14 @@ Bananarama:
       Robert De Niro’s Waiting:
       Through a Child’s Eye:
 Bat for Lashes:
-   <updated: 2019-3-7
+   =:
+      Laura:
+         flow: 927,413
+         link: https://youtu.be/UznHTBZIa8E
    The Bride:
-      <rel: 2016
-      <<: *low
+      =:
+         rel: 2016
+         white: yes
       I Do: len
       Joe’s Dream: yes
       In God’s House:
@@ -61,10 +65,9 @@ Bat for Lashes:
       I Will Love Again:
       In Your Bed:
    The Haunted Man:
-      <rel: 2012
-      <<: &low
-         <flow: 927,413
-         <link: https://youtu.be/UznHTBZIa8E
+      =:
+         rel: 2012
+         white: yes
       Lilies: no
       All Your Gold: no
       Horses of the Sun: no
@@ -77,8 +80,9 @@ Bat for Lashes:
       Rest Your Head:
       Deep Sea Diver:
    Two Suns:
-      <rel: 2009
-      <<: *low
+      =:
+         rel: 2009
+         white: yes
       Glass: yes
       Sleep Alone:
       Moon and Moon:
@@ -99,8 +103,9 @@ Bat for Lashes:
       Daniel (live):
       Lonely (live): yes
    Fur and Gold:
-      <rel: 2006
-      <<: *low
+      =:
+         rel: 2006
+         white: yes
       Horse and I:
       Trophy: no
       Tahiti: yes
@@ -114,17 +119,30 @@ Bat for Lashes:
       I Saw a Light:
       I’m on Fire:
 Beach House:
-   Bloom:
-      <flow: 9,745,854
-      <link: https://youtu.be/3lIyDxfUhxM
+   =:
+      Heart Of Chambers:
+         flow: 20,509
+         link: https://youtu.be/XSuViWLfmjM
       Myth:
-   Depression Cherry:
-      <flow: 6,452,708
-      <link: https://youtu.be/f9X1C7pTu-M
+         flow: 9,745,854
+         link: https://youtu.be/3lIyDxfUhxM
       Space Song:
+         flow: 6,452,708
+         link: https://youtu.be/f9X1C7pTu-M
+   Depression Cherry:
+      =:
+         rel: 2015
+         white: no
+      Space Song:
+   Bloom:
+      =:
+         rel: 2012
+         white: no
+      Myth:
    Teen Dream:
-      <flow: 20,509
-      <link: https://youtu.be/XSuViWLfmjM
+      =:
+         rel: 2010
+         white: yes
       Zebra: yes
       Silver Soul:
       Norway: yes
@@ -136,10 +154,17 @@ Beach House:
       Real Love: yes
       Take Care: yes
 Beastie Boys:
+   =:
+      Fight For Your Right:
+         flow: 4,462,428
+         link: https://youtu.be/eBShN8qT4lk
+      Sabotage:
+         flow: 6,447,985
+         link: https://youtu.be/z5rRZdiu1UE
    To the 5 Boroughs:
-      <rel: 2004
-      <flow: 4,462,428
-      <link: https://youtu.be/eBShN8qT4lk
+      =:
+         rel: 2004
+         white: yes
       Ch-Check It Out: yes
       Right Right Now Now: len
       3 the Hard Way: len
@@ -156,17 +181,24 @@ Beastie Boys:
       The Brouhaha: len
       We Got The: len
    Hello Nasty:
-      <rel: 1998
+      =: 1998
    Ill Communication:
-      <rel: 1994
-   Ill Communication:
-      <flow: 6,447,985
-      <link: https://youtu.be/z5rRZdiu1UE
+      =:
+         rel: 1994
+         white: no
       Sabotage:
 Beck:
+   =:
+      Colors:
+         flow: 4,179,410
+         link: https://youtu.be/WRCA_Fo0rWA
+      Loser:
+         flow: 10,576,977
+         link: https://youtu.be/YgSPaXgAdzE
    Colors:
-      <flow: 4,179,410
-      <link: https://youtu.be/WRCA_Fo0rWA
+      =:
+         rel: 2017
+         white: yes
       Colors: no
       Seventh Heaven: no
       I’m So Free: no
@@ -177,14 +209,10 @@ Beck:
       Up All Night: no
       Square One: len
       Fix Me: no
-   Mellow Gold:
-      <flow: 10,576,977
-      <link: https://youtu.be/YgSPaXgAdzE
-      Loser:
    Morning Phase:
-      <<: &low
-         <flow: 931,366
-         <link: https://youtu.be/VkCg-3nxT8E
+      =:
+         rel: 2014
+         white: yes
       Cycle: len
       Morning:
       Heart Is a Drum:
@@ -198,8 +226,22 @@ Beck:
       Turn Away: yes
       Country Down:
       Waking Light:
+   Modern Guilt:
+      =: 2008
+   The Information:
+      =: 2006
+   Guero:
+      =: 2005
+   Sea Change:
+      =: 2002
+   Midnite Vultures:
+      =: 1999
+   Mutations:
+      =: 1998
    Odelay:
-      <<: *low
+      =:
+         rel: 1996
+         white: yes
       Devil’s Haircut: no
       Hotwax: no
       Lord Only Knows:
@@ -217,6 +259,13 @@ Beck:
       Deadweight:
       Inferno:
       Gold Chains:
+   One Foot in the Grave:
+      =: 1994
+   Mellow Gold:
+      =:
+         rel: 1994
+         white: no
+      Loser:
 Beirut:
    Gallipoli:
       <rel: 2019
