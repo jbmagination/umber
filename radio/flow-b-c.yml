@@ -447,12 +447,14 @@ Big Boi:
       The Train, Part 2 (Sir Lucious Left Foot Saves the Day):
       Back Up Plan:
 Björk:
-   <search: bjork
+   =:
+      It’s Oh So Quiet:
+         flow: 1,040,474
+         link: https://youtu.be/htobTBlCvUU
    Vespertine:
-      <rel: 2001
-      <<: &low
-         <flow: 1,040,474
-         <link: https://youtu.be/htobTBlCvUU
+      =:
+         rel: 2001
+         white: yes
       Hidden Place: no
       Cocoon: no
       It’s Not Up to You: no
@@ -466,8 +468,9 @@ Björk:
       Harm of Will:
       Unison:
    Homogenic:
-      <rel: 1997
-      <<: *low
+      =:
+         rel: 1997
+         white: yes
       Hunter: yes
       Jóga: yes
       Unravel: yes
@@ -479,8 +482,9 @@ Björk:
       Pluto: no
       All Is Full of Love: yes
    Post:
-      <rel: 1995
-      <<: *low
+      =:
+         rel: 1995
+         white: yes
       Army of Me: yes
       Hyper‐Ballad: no
       The Modern Things: no
@@ -493,8 +497,9 @@ Björk:
       Cover Me: len
       Headphones: no
    Debut:
-      <rel: 1993
-      <<: *low
+      =:
+         rel: 1993
+         white: yes
       Human Behaviour: no
       Crying: no
       Venus as a Boy: yes
@@ -508,37 +513,56 @@ Björk:
       The Anchor Song: yes
       Play Dead: yes
 Blink 182:
-   Blink-182:
-      <flow: 21,749,165
-      <link: https://youtu.be/s1tAYmMjLdY
-      Always:
+   =:
+      All The Small Things:
+         flow: 21,774,492
+         link: https://youtu.be/9Ht5RZpzPqw
+      First Date:
+         flow: 13,177,324
+         link: https://youtu.be/vVy9Lgpg1m8
       I Miss You:
+         flow: 21,749,165
+         link: https://youtu.be/s1tAYmMjLdY
+      She’s Out of Her Mind:
+         flow: 7,762,070
+         link: https://youtu.be/krpm0v_486k
    California:
-      <flow: 7,762,070
-      <link: https://youtu.be/krpm0v_486k
+      =:
+         rel: 2016
+         white: no
       Bored to Death:
       She’s Out Of Her Mind:
-   Enema of the State:
-      <flow: 21,774,492
-      <link: https://youtu.be/9Ht5RZpzPqw
-      Adam’s Song:
-      All the Small Things:
-      What’s My Age Again?:
+   Neighborhoods:
+      =: 2011
+   blink-182:
+      =:
+         rel: 2003
+         white: no
+      Always:
+      I Miss You:
    Take Off Your Pants and Jacket:
-      <flow: 13,177,324
-      <link: https://youtu.be/vVy9Lgpg1m8
+      =:
+         rel: 2001
+         white: no
       First Date:
       Stay Together for the Kids:
       The Rock Show:
+   Enema of the State:
+      =:
+         rel: 1999
+         white: no
+      Adam’s Song:
+      All the Small Things:
+      What’s My Age Again?:
 Blood Orange:
-   <low:
+   =:
       Saint:
-         <flow: 2,214,523
-         <link: https://youtu.be/mVH_wxk9ZtE
-         Negro Swan:
+         flow: 2,214,523
+         link: https://youtu.be/mVH_wxk9ZtE
    Negro Swan:
-      <rel: 2018
-      <flow: low
+      =:
+         rel: 2018
+         white: yes
       Orlando:
       Saint:
       Take Your Time: len
@@ -556,8 +580,9 @@ Blood Orange:
       Minetta Creek: len
       Smoke: no
    Freetown Sound:
-      <rel: 2016
-      <flow: low
+      =:
+         rel: 2016
+         white: yes
       By Ourselves: len
       Augustine: no
       Chance: len
@@ -576,8 +601,9 @@ Blood Orange:
       I Know:
       Better Numb:
    Cupid Deluxe:
-      <rel: 2013
-      <flow: low
+      =:
+         rel: 2013
+         white: yes
       Chamakay: yes
       You’re Not Good Enough: yes
       Uncle ACE: yes
@@ -590,8 +616,9 @@ Blood Orange:
       High Street: len
       Time Will Tell:
    Coastal Grooves:
-      <rel: 2011
-      <flow: low
+      =:
+         rel: 2011
+         white: yes
       Forget It: no
       Sutphin Boulevard: yes
       I’m Sorry We Lied: yes
@@ -603,8 +630,9 @@ Blood Orange:
       Are You Sure You’re Really Busy?:
       Champagne Coast:
    Blood Orange:
-      <rel: 2010
-      <flow: low
+      =:
+         rel: 2010
+         white: yes
       Dinner: yes
       Bad Girls: yes
 Boards of Canada:
