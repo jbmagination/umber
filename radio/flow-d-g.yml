@@ -306,9 +306,14 @@ Depeche Mode:
       Any Second Now (Voices): len
       Just Can’t Get Enough:
 Dirty Projectors:
+   =:
+      Stillness Is The Move:
+         flow: 323,658
+         link: https://youtu.be/YMPF6lpM0XM
    Bitte Orca:
-      <flow: 336,674
-      <link: https://youtu.be/YMPF6lpM0XM
+      =:
+         rel: 2009
+         white: yes
       Cannibal Resource: yes
       Temecula Sunrise: yes
       The Bride: len
@@ -319,10 +324,14 @@ Dirty Projectors:
       Remade Horizon:
       Fluorescent Half Dome:
 Dirty Vegas:
+   =:
+      Days Go By:
+         flow: 1,152,039
+         link: https://youtu.be/M51rijkxa_4
    Dirty Vegas:
-      =: 2002
-      <flow: 1,167,277
-      <link: https://youtu.be/M51rijkxa_4
+      =:
+         rel: 2002
+         white: yes
       I Should Know:
       Ghosts:
       Lost Not Found:
@@ -336,10 +345,23 @@ Dirty Vegas:
       Simple Things, Part 2:
       Days Go By (acoustic): len
 Disturbed:
+   =:
+      A Reason To Fight:
+         flow: 16,779,619
+         link: https://youtu.be/t4382UVl0oc
+      Down With the Sickness:
+         flow: 9,703,017
+         link: https://youtu.be/09LTT0xwdfw
+      Stricken:
+         flow: 6,488,391
+         link: https://youtu.be/3moLkjvhEu0
+      The Sound of Silence:
+         flow: 153,992,522
+         link: https://youtu.be/u9Dg-g7t2l4
    Evolution:
-      =: 2018
-      <flow: 17,624,762
-      <link: https://youtu.be/t4382UVl0oc
+      =:
+         rel: 2018
+         white: no
       A Reason to Fight:
       Are You Ready:
       Hold on to Memories:
@@ -350,120 +372,29 @@ Disturbed:
       The Light:
       The Vengeful One:
    Immortalized:
-      =: 2015
-      <flow: 153,992,522
-      <link: https://youtu.be/u9Dg-g7t2l4
+      =:
+         rel: 2015
+         white: no
       The Sound of Silence:
    Asylum:
       =: 2010
    Indestructible:
       =: 2008
    Ten Thousand Fists:
-      =: 2005
-      <flow: 6,508,901
-      <link: https://youtu.be/3moLkjvhEu0
+      =:
+         rel: 2005
+         white: no
       Stricken:
    Believe:
       =: 2002
    The Sickness:
-      =: 2000
-      <flow: 9,572,837
-      <link: https://youtu.be/09LTT0xwdfw
+      =:
+         rel: 2000
+         white: no
       Down With the Sickness:
       Stupify:
       The Game:
       Voices:
-DJ Doboy:
-   Vocal Edition 19:
-      <<: &low
-         <flow: 7,203
-         <link: https://youtu.be/XqPN68BIxyI
-      dave masters - who are you:
-      gabriel and dresden feat molly bancroft - tracking treasure down (g&d club mix):
-      atb - you’re not alone (2nd clubb):
-      signalrunners feat jessica bennett - all that changed (original mix):
-      matias lehtola feat gina j - burning bright (original mix): yes
-      fragma - radio waves (davy van eynde remix):
-      michael splint feat sasja - you set me free (original club mix):
-      signalrunners - corrupted (judge jules edit):
-      cosmic gate - this is the party:
-      beam feat michelle aragon - silent tears (sean tyas remix):
-      headstrong feat tiff lacey - show me the love (distortion riders remix):
-      armin van buuren - yet another day (hiver & hummer ground control dub):
-      blank & jones - perfect silence (martin roth hard trance mix): yes
-      the thrillseekers feat gina dootson - by your side (martin roth vocal remix): yes
-   Vocal Edition 20:
-      <white: yes
-      markus schulz ft anita kelsey - travelling light (original mix): yes
-      filo and peri ft fisher - closer now (mike foyle remix): yes
-      keo nozari - close enough (noel sanger remix):
-      billie ray martin - honey (chicane remix):
-      dt8 project ft mory kante - narama (dale corderoy mix):
-      oceanlab ft justine suissa - sirens of the sea (kyau vs albert vocal remix): yes
-      dj shog - be the one:
-      sun decade - have it all (original mix): yes
-      angel city - love me right (smith and pledger remix): yes
-      george acosta ft truth - the other side (signalrunners remix):
-      jfk vs genix - die for you (brisky and reece elliot remix):
-      robert nickson ft elsa hill - close your eyes (vocal mix):
-      darren tate vs jono grant - let the light shine in shine:
-   Vocal Edition 21:
-      <white: yes
-      niyaz - dilruba (junkie xl remix): yes
-      above & beyond - for all i care:
-      joni feat kate smith - undivided (jpl club mix): yes
-      george acosta feat truth - the otherside (double agents remix):
-      leon bolier & elsa hill - no need to come back (club mix): yes
-      cj stone - storm (original mix):
-      filo & peri - ordinary moment (breakfast & big mike mix): yes
-      paul oakenfold - southern sun (g & d unplugged):
-      dj tatana feat sarah vieth - silence (extended mix): yes
-      jose amnesia - louder (blake jarrells 190db remix): yes
-      leama & moor feat jan johnston - waiting (original mix): yes
-      maxi feat tiff lacey - moon love (original mix):
-      late night alumni - empty streets (seamus haji & paul emmanuel remix): yes
-   Vocal Edition 22:
-      <white: yes
-      delerium - angelicus (redanka): yes
-      mark norman pres celine - colour my eyes (original mix): yes
-      conjure one - face the music (andrew kay remix):
-      luminary - amsterdam (maor levi remix): yes
-      filo & peri feat fisher - ordinary moment (midnight mix): yes
-      dj shah meets jan johnson - beautiful (original mix): yes
-      falkon & nebula feat sasja - so lost (stalkers found u remix): yes
-      luminary - dark eyes (funabashi pres tom porcell mix): yes
-      bt - somnambulist (mark norman remix):
-      super8 & dj tab - won’t sleep tonight (moody vocal mix):
-      lowell hales - move me (kaste remix): yes
-      cosmic culture - northern star (original mix):
-   Vocal Edition 23:
-      <white: yes
-      simon and garfunkel - the sound of silence (shane 54 mix): no
-      karen overton - your loving arms (menno de jong durban ’06 mix): yes
-      the disco brothers feat andrea bitton - inner sense (the disco brothers remix): no
-      cj stone feat tamara rhodes - city lights (tatana rmx): yes
-      tillmann uhrmacher - the pride in your eyes (tillmanns midnight extended club mix):
-      yamin feat marcie - butterfly garden (j joy remix): no
-      mr sam - split (aly & fila club mix): no
-      sun decade - im alone (stoneface and terminal vocal mix): no
-      miikka leinonen pres denver - end of days (original vocal mix): no
-      rene ablaze - autumn again (cyrex remix): no
-      andy moor - halcyon (alex morph remix): yes
-      duderstadt feat anita kelsey - smile (duende dub mix): yes
-   Vocal Edition 24:
-      <white: yes
-      york - on the beach (2007 sandhoppers remix): yes
-      chicane - saltwater (original): yes
-      the space brothers - shine (blake jarrell and jeff devas space roommates vocal mix): no
-      pedro del mar feat emma nelson - feel (original club mix): no
-      duderstadt & anita kelsey - smile (duende vocal extended): no
-      speed step - call me (extended original): no
-      akki & christian zechner ft aina - dreams (extended mix): no
-      cosmic gate feat roxanne emery - a day that fades: no
-      angelina - pictures of you (dj shog remix): no
-      the thrillseekers feat gina dootson - by your side (aly & fila remix): no
-      bissen ft victoria jane - melting (alex morph b2b woody van eyden remix): yes
-      edvika - sometimes (fire and ice remix): yes
 Doe Paoro:
    Soft Power:
       =: 2018

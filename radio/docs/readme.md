@@ -12,7 +12,6 @@ Links to songs I like
 External links
 --------------
 
-- [Digitally Imported](https://di.fm)
 - [Gorilla Vs Bear](http://gorillavsbear.net)
 - [Music Video Machine](http://musicvideomachine.com)
 - [Pitchfork](https://pitchfork.com)
