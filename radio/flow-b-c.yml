@@ -1314,9 +1314,22 @@ Childish Gambino:
       Sunrise:
       That Power:
 Chris Isaak:
+   =:
+      Can’t Help Falling in Love:
+         flow: 5,134,048
+         link: https://youtu.be/UJ8RBj_P0KQ
+      Wicked Game:
+         flow: 9,828,608
+         link: https://youtu.be/ib6VAJbEBjg
+   Heart Shaped World:
+      =:
+         rel: 1989
+         white: no
+      Wicked Game:
    Chris Isaak:
-      <flow: 265,711
-      <link: https://youtu.be/IHHC3XVudjY
+      =:
+         rel: 1986
+         white: yes
       You Owe Me Some Kind of Love: yes
       Heart Full of Soul:
       Blue Hotel:
@@ -1328,16 +1341,15 @@ Chris Isaak:
       Cryin’: len
       Lovers Game: len
       Waiting for the Rain to Fall:
-   Heart Shaped World:
-      <flow: 6,619,316
-      <link: https://youtu.be/fQyG6Ctsks4
-      Wicked Game:
 Cocteau Twins:
+   =:
+      Heaven or Las Vegas:
+         flow: 202,206
+         link: https://youtu.be/6KnYw4EwYGc
    Milk & Kisses:
-      <rel: 1996
-      <<: &low
-         <flow: 202,206
-         <link: https://youtu.be/6KnYw4EwYGc
+      =:
+         rel: 1996
+         white: yes
       Violaine: no
       Serpentskirt: yes
       Tishbite:
@@ -1349,8 +1361,9 @@ Cocteau Twins:
       Treasure Hiding:
       Seekers Who Are Lovers:
    Four-Calendar Café:
-      <rel: 1993
-      <white: yes
+      =:
+         rel: 1993
+         white: yes
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:
@@ -1362,8 +1375,9 @@ Cocteau Twins:
       Summerhead: yes
       Pur:
    Heaven or Las Vegas:
-      <rel: 1990
-      <white: yes
+      =:
+         rel: 1990
+         white: yes
       Cherry-Coloured Funk: no
       Pitch the Baby: no
       Iceblink Luck: no
@@ -1375,8 +1389,9 @@ Cocteau Twins:
       Road, River and Rail:
       Frou-Frou Foxes in Midsummer Fires:
    Blue Bell Knoll:
-      <rel: 1988
-      <white: yes
+      =:
+         rel: 1988
+         white: yes
       Blue Bell Knoll:
       Athol-Brose: no
       Carolyn’s Fingers:
@@ -1388,8 +1403,9 @@ Cocteau Twins:
       A Kissed Out Red Floatboat:
       Ella Megalast Burls Forever:
    Victorialand:
-      <rel: 1986
-      <white: yes
+      =:
+         rel: 1986
+         white: yes
       Lazy Calm: yes
       Fluffy Tufts:
       Throughout the Dark Months of April and May: yes
@@ -1400,15 +1416,17 @@ Cocteau Twins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
    Tiny Dynamine:
-      <rel: 1985
-      <white: yes
+      =:
+         rel: 1985
+         white: yes
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
    Treasure:
-      <rel: 1984
-      <white: yes
+      =:
+         rel: 1984
+         white: yes
       Ivo: yes
       Lorelei: no
       Beatrix:
@@ -1420,15 +1438,17 @@ Cocteau Twins:
       Otterley: yes
       Donimo:
    Sunburst and Snowblind:
-      <rel: 1983
-      <white: yes
+      =:
+         rel: 1983
+         white: yes
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
    Head Over Heels:
-      <rel: 1983
-      <white: yes
+      =:
+         rel: 1983
+         white: yes
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
       Sugar Hiccup: no
@@ -1440,8 +1460,9 @@ Cocteau Twins:
       My Love Paramour:
       Musette and Drums:
    Garlands:
-      <rel: 1982
-      <white: yes
+      =:
+         rel: 1982
+         white: yes
       Blood Bitch: no
       Wax and Wane: no
       But I’m Not: len
@@ -1451,9 +1472,14 @@ Cocteau Twins:
       Garlands: no
       Grail Overfloweth: no
 Coldplay:
+   =:
+      The Scientist:
+         flow: 80,172,619
+         link: https://youtu.be/RB-RcX5DS5A
    A Rush of Blood to the Head:
-      <flow: 80,172,619
-      <link: https://youtu.be/RB-RcX5DS5A
+      =:
+         rel: 2002
+         white: no
       The Scientist:
 Com Truise:
    Iteration:
