@@ -46,7 +46,7 @@ Bananarama:
 Bat for Lashes:
    <updated: 2019-3-7
    The Bride:
-      <date: 2016
+      <rel: 2016
       <<: *low
       I Do: len
       Joe’s Dream: yes
@@ -61,7 +61,7 @@ Bat for Lashes:
       I Will Love Again:
       In Your Bed:
    The Haunted Man:
-      <date: 2012
+      <rel: 2012
       <<: &low
          <flow: 927,413
          <link: https://youtu.be/UznHTBZIa8E
@@ -77,7 +77,7 @@ Bat for Lashes:
       Rest Your Head:
       Deep Sea Diver:
    Two Suns:
-      <date: 2009
+      <rel: 2009
       <<: *low
       Glass: yes
       Sleep Alone:
@@ -99,7 +99,7 @@ Bat for Lashes:
       Daniel (live):
       Lonely (live): yes
    Fur and Gold:
-      <date: 2006
+      <rel: 2006
       <<: *low
       Horse and I:
       Trophy: no
@@ -137,7 +137,7 @@ Beach House:
       Take Care: yes
 Beastie Boys:
    To the 5 Boroughs:
-      <date: 2004
+      <rel: 2004
       <flow: 4,462,428
       <link: https://youtu.be/eBShN8qT4lk
       Ch-Check It Out: yes
@@ -156,9 +156,9 @@ Beastie Boys:
       The Brouhaha: len
       We Got The: len
    Hello Nasty:
-      <date: 1998
+      <rel: 1998
    Ill Communication:
-      <date: 1994
+      <rel: 1994
    Ill Communication:
       <flow: 6,447,985
       <link: https://youtu.be/z5rRZdiu1UE
@@ -219,13 +219,13 @@ Beck:
       Gold Chains:
 Beirut:
    Gallipoli:
-      <date: 2019
+      <rel: 2019
    No No No:
-      <date: 2015
+      <rel: 2015
    The Rip Tide:
-      <date: 2011
+      <rel: 2011
    The Flying Club Cup:
-      <date: 2007
+      <rel: 2007
       <flow: 2,371,023
       <link: https://youtu.be/SWSz_PAfgNc
       A Call to Arms: len
@@ -242,7 +242,7 @@ Beirut:
       St. Apollonia: len
       The Flying Club Cup:
    Gulag Orkestar:
-      <date: 2005
+      <rel: 2005
 Bell Biv DeVoe:
    Poison:
       <flow: 1,351,460
@@ -272,7 +272,7 @@ Ben Howard:
       Promise: yes
 Bibio:
    Silver Wilkinson:
-      <date: 2013
+      <rel: 2013
       <<: &low
          <flow: 102,143
          <link: https://youtu.be/jgrgCaSo8e4
@@ -288,9 +288,9 @@ Bibio:
       Business Park:
       You Won’t Remember...:
    Mind Bokeh:
-      <date: 2011
+      <rel: 2011
    Ambivalence Avenue:
-      <date: 2009-06-22
+      <rel: 2009-06-22
       <<: *low
       Ambivalence Avenue:
       Jealous of Roses: len
@@ -305,7 +305,7 @@ Bibio:
       Cry! Baby!:
       Dwrcan:
    Vignetting the Compost:
-      <date: 2009-02-03
+      <rel: 2009-02-03
       <<: *low
       Flesh Rots, Pip Sown: no
       Mr and Mrs Compost: len
@@ -372,7 +372,7 @@ Big Boi:
 Björk:
    <search: bjork
    Vespertine:
-      <date: 2001
+      <rel: 2001
       <<: &low
          <flow: 1,040,474
          <link: https://youtu.be/htobTBlCvUU
@@ -389,7 +389,7 @@ Björk:
       Harm of Will:
       Unison:
    Homogenic:
-      <date: 1997
+      <rel: 1997
       <<: *low
       Hunter: yes
       Jóga: yes
@@ -402,7 +402,7 @@ Björk:
       Pluto: no
       All Is Full of Love: yes
    Post:
-      <date: 1995
+      <rel: 1995
       <<: *low
       Army of Me: yes
       Hyper‐Ballad: no
@@ -416,7 +416,7 @@ Björk:
       Cover Me: len
       Headphones: no
    Debut:
-      <date: 1993
+      <rel: 1993
       <<: *low
       Human Behaviour: no
       Crying: no
@@ -460,7 +460,7 @@ Blood Orange:
          <link: https://youtu.be/mVH_wxk9ZtE
          Negro Swan:
    Negro Swan:
-      <date: 2018
+      <rel: 2018
       <flow: low
       Orlando:
       Saint:
@@ -479,7 +479,7 @@ Blood Orange:
       Minetta Creek: len
       Smoke: no
    Freetown Sound:
-      <date: 2016
+      <rel: 2016
       <flow: low
       By Ourselves: len
       Augustine: no
@@ -499,7 +499,7 @@ Blood Orange:
       I Know:
       Better Numb:
    Cupid Deluxe:
-      <date: 2013
+      <rel: 2013
       <flow: low
       Chamakay: yes
       You’re Not Good Enough: yes
@@ -513,7 +513,7 @@ Blood Orange:
       High Street: len
       Time Will Tell:
    Coastal Grooves:
-      <date: 2011
+      <rel: 2011
       <flow: low
       Forget It: no
       Sutphin Boulevard: yes
@@ -526,14 +526,14 @@ Blood Orange:
       Are You Sure You’re Really Busy?:
       Champagne Coast:
    Blood Orange:
-      <date: 2010
+      <rel: 2010
       <flow: low
       Dinner: yes
       Bad Girls: yes
 Boards of Canada:
    <updated: 2019-3-8
    Tomorrow’s Harvest:
-      <date: 2013
+      <rel: 2013
       <<: &low
          <flow: 745,274
          <link: https://youtu.be/dQEmaj9C6ko
@@ -555,14 +555,14 @@ Boards of Canada:
       Come to Dust:
       Semena Mertvykh:
    Trans Canada Highway:
-      <date: 2006
+      <rel: 2006
       <<: *low
       Left Side Drive: yes
       Heard From Telegraph Lines: len
       Skyliner: no
       Under the Coke Sign: len
    The Campfire Headphase:
-      <date: 2005
+      <rel: 2005
       <<: *low
       Into the Rainbow Vein: len
       Chromakey Dreamcoat: yes
@@ -580,7 +580,7 @@ Boards of Canada:
       Tears From the Compound Eye: yes
       Farewell Fire: no
    Geogaddi:
-      <date: 2002
+      <rel: 2002
       <<: *low
       Ready Lets Go: len
       Music Is Math: yes
@@ -606,14 +606,14 @@ Boards of Canada:
       Corsair: len
       Magic Window: len
    In a Beautiful Place Out in the Country:
-      <date: 2000
+      <rel: 2000
       <<: *low
       Kid for Today: yes
       Amo Bishop Roden: yes
       In a Beautiful Place Out in the Country: yes
       Zoetrope: no
    Music Has the Right to Children:
-      <date: 1998
+      <rel: 1998
       <<: *low
       Wildlife Analysis: len
       An Eagle in Your Mind: yes
@@ -633,7 +633,7 @@ Boards of Canada:
       Open the Light: yes
       One Very Important Thought: len
    Boc Maxima:
-      <date: 1996
+      <rel: 1996
       <<: *low
       Chinook: no
       Rodox Video: len
@@ -654,7 +654,7 @@ Boards of Canada:
 Bonobo:
    <updated: 2019-02-21
    Migration:
-      <date: 2017
+      <rel: 2017
       <<: &low
          <flow: 1,668,464
          <link: https://youtu.be/N7m86aMNjlQ
@@ -671,7 +671,7 @@ Bonobo:
       7th Sevens:
       Figures:
    The North Borders:
-      <date: 2013
+      <rel: 2013
       <<: *low
       First Fires:
       Emkay:
@@ -687,7 +687,7 @@ Bonobo:
       Transits:
       Pieces:
    Black Sands:
-      <date: 2010
+      <rel: 2010
       <<: *low
       Prelude: len
       Kiara: yes
@@ -702,7 +702,7 @@ Bonobo:
       Animals: yes
       Black Sands: yes
    Days to Come:
-      <date: 2006
+      <rel: 2006
       <<: *low
       Intro: len
       Days to Come: yes
@@ -723,7 +723,7 @@ Bonobo:
       Walk in the Sky (instrumental): yes
       Hatoa: yes
    Dial 'M' for Monkey:
-      <date: 2003
+      <rel: 2003
       <<: *low
       Noctuary: no
       Flutter: yes
@@ -735,7 +735,7 @@ Bonobo:
       Nothing Owed: yes
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
-      <date: 2002
+      <rel: 2002
       <<: *low
       Dismantling Frank: yes
       The Sicilian: yes
@@ -743,7 +743,7 @@ Bonobo:
       Magicman: yes
       Scuba: yes
    Animal Magic:
-      <date: 2000
+      <rel: 2000
       <<: *low
       Intro: len
       Sleepy Seven: yes
@@ -757,21 +757,21 @@ Bonobo:
       Silver: yes
 Boyz II Men:
    II:
-      <date: 1994
+      <rel: 1994
       <flow: 12,910,607
       <link: https://youtu.be/fV8vB1BB2qc
       I’ll Make Love To You:
       On Bended Knee:
    Christmas Interpretations:
-      <date: 1993
+      <rel: 1993
    Cooleyhighharmony:
-      <date: 1991
+      <rel: 1991
       <flow: 13,061,094
       <link: https://youtu.be/zDKO6XYXioc
       End Of The Road:
 Boz Scaggs:
    Dig:
-      <date: 2001
+      <rel: 2001
       <<: &low
          <flow: 1,517,370
          <link: https://youtu.be/I-hKBmTAADo
@@ -787,7 +787,7 @@ Boz Scaggs:
       Vanishing Point:
       Thanks to You: yes
    Come On Home:
-      <date: 1997
+      <rel: 1997
       <<: *low
       It All Went Down the Drain: no
       Ask Me ’Bout Nothin’ (but the Blues): yes
@@ -804,11 +804,11 @@ Boz Scaggs:
       After Hours:
       Goodnight Louise:
    Fade Into Light:
-      <date: 1996
+      <rel: 1996
    Some Change:
-      <date: 1994
+      <rel: 1994
    Other Roads:
-      <date: 1988
+      <rel: 1988
       <<: *low
       What’s Number One?: no
       Claudia:
@@ -860,7 +860,7 @@ Bryan Adams:
       Have You Ever Really Loved A Woman?:
 Burial:
    Untrue:
-      <date: 2007
+      <rel: 2007
       <<: &low
          <flow: 96,060
          <link: https://youtu.be/E2qLD9c3Gq4
@@ -877,7 +877,7 @@ Burial:
       UK: len
       Raver:
    Burial:
-      <date: 2006
+      <rel: 2006
       <<: *low
       Distant Lights: no
       Spaceape: no
@@ -896,7 +896,7 @@ Bush:
          <flow: 3,384,979
          <link: https://youtu.be/hOllF3TgAsM
    The Science of Things:
-      <date: 1999
+      <rel: 1999
       <flow: low
       Warm Machine: no
       Jesus Online: no
@@ -911,7 +911,7 @@ Bush:
       Letting the Cables Sleep: no
       Mindchanger: no
    Razorblade Suitcase:
-      <date: 1996
+      <rel: 1996
       <flow: low
       Personal Holloway: no
       Greedy Fly: no
@@ -927,7 +927,7 @@ Bush:
       Bonedriven:
       Distant Voices / [unknown]:
    Sixteen Stone:
-      <date: 1994
+      <rel: 1994
       <flow: low
       Everything Zen: yes
       Swim:
@@ -991,31 +991,31 @@ Chet Faker:
       No Diggity:
 Chicago:
    Chicago 17:
-      <date: 1984
-      <date: 1984
+      <rel: 1984
+      <rel: 1984
       <flow: 7,406,342
       <link: https://youtu.be/wM-XhQeFzW4
       You’re The Inspiration:
    Chicago 16:
-      <date: 1982
+      <rel: 1982
    Chicago XIV:
-      <date: 1980
+      <rel: 1980
    Chicago 13:
-      <date: 1979
+      <rel: 1979
    Hot Streets:
-      <date: 1978
+      <rel: 1978
    Chicago XI:
-      <date: 1977
+      <rel: 1977
    Chicago X:
-      <date: 1976
+      <rel: 1976
    Chicago VIII:
-      <date: 1975
+      <rel: 1975
    Chicago VII:
-      <date: 1974
+      <rel: 1974
    Chicago VI:
-      <date: 1973
+      <rel: 1973
    Chicago V:
-      <date: 1972
+      <rel: 1972
       <<: *low
       A Hit by Varèse:
       All Is Well:
@@ -1028,9 +1028,9 @@ Chicago:
       Goodbye:
       Alma Mater:
    Chicago III:
-      <date: 1971
+      <rel: 1971
    Chicago II:
-      <date: 1969
+      <rel: 1969
       <<: *low
       Movin’ In:
       The Road:
@@ -1057,7 +1057,7 @@ Chicago:
       Where Do We Go From Here: len
 Chicane:
    Behind the Sun:
-      <date: 2000
+      <rel: 2000
       <<: &low
          <flow: 2,624,489
          <link: https://youtu.be/ET1-6Bef9xU
@@ -1072,7 +1072,7 @@ Chicane:
       Saltwater (The Thrillseekers remix): yes
       Andromeda: no
    Far From the Maddening Crowds:
-      <date: 1997
+      <rel: 1997
       <<: *low
       Early:
       Already There: len
@@ -1087,20 +1087,20 @@ Chicane:
       The Drive Home:
 Childish Gambino:
    Awaken, My Love!:
-      <date: 2016
+      <rel: 2016
       <flow: 130,783,298
       <link: https://youtu.be/Kp7eSUU9oy8
       Me and Your Mama:
       Redbone:
    Because the Internet:
-      <date: 2013
+      <rel: 2013
       <flow: 25,128,289
       <link: https://youtu.be/ExVtrghW5Y4
       3005:
       Sweatpants:
       Telegraph Ave:
    Camp:
-      <date: 2011
+      <rel: 2011
       <flow: 2,720,472
       <link: https://youtu.be/ayLiAVJ6vTM
       Outside: no
@@ -1137,7 +1137,7 @@ Chris Isaak:
       Wicked Game:
 Cocteau Twins:
    Milk & Kisses:
-      <date: 1996
+      <rel: 1996
       <<: &low
          <flow: 202,206
          <link: https://youtu.be/6KnYw4EwYGc
@@ -1152,7 +1152,7 @@ Cocteau Twins:
       Treasure Hiding:
       Seekers Who Are Lovers:
    Four-Calendar Café:
-      <date: 1993
+      <rel: 1993
       <<: *low
       Know Who You Are at Every Age:
       Evangeline:
@@ -1165,7 +1165,7 @@ Cocteau Twins:
       Summerhead: yes
       Pur:
    Heaven or Las Vegas:
-      <date: 1990
+      <rel: 1990
       <<: *low
       Cherry-Coloured Funk: no
       Pitch the Baby: no
@@ -1178,7 +1178,7 @@ Cocteau Twins:
       Road, River and Rail:
       Frou-Frou Foxes in Midsummer Fires:
    Blue Bell Knoll:
-      <date: 1988
+      <rel: 1988
       <<: *low
       Blue Bell Knoll:
       Athol-Brose: no
@@ -1191,7 +1191,7 @@ Cocteau Twins:
       A Kissed Out Red Floatboat:
       Ella Megalast Burls Forever:
    Victorialand:
-      <date: 1986
+      <rel: 1986
       <<: *low
       Lazy Calm: yes
       Fluffy Tufts:
@@ -1203,14 +1203,14 @@ Cocteau Twins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
    Tiny Dynamine:
-      <date: 1985
+      <rel: 1985
       <<: *low
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
    Treasure:
-      <date: 1984
+      <rel: 1984
       <<: *low
       Ivo: yes
       Lorelei: no
@@ -1223,14 +1223,14 @@ Cocteau Twins:
       Otterley: yes
       Donimo:
    Sunburst and Snowblind:
-      <date: 1983
+      <rel: 1983
       <<: *low
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
    Head Over Heels:
-      <date: 1983
+      <rel: 1983
       <<: *low
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
@@ -1243,7 +1243,7 @@ Cocteau Twins:
       My Love Paramour:
       Musette and Drums:
    Garlands:
-      <date: 1982
+      <rel: 1982
       <<: *low
       Blood Bitch: no
       Wax and Wane: no
@@ -1260,7 +1260,7 @@ Coldplay:
       The Scientist:
 Com Truise:
    Iteration:
-      <date: 2017
+      <rel: 2017
       <<: &low
          <flow: 881,676
          <link: https://youtu.be/yergWdn968o
@@ -1277,7 +1277,7 @@ Com Truise:
       When Will You Find the Limit:
       Iteration:
    In Decay:
-      <date: 2012
+      <rel: 2012
       <<: *low
       Open:
       84’ Dreamin:
@@ -1293,7 +1293,7 @@ Com Truise:
       Data Kiss:
       Closed:
    Galactic Melt:
-      <date: 2011
+      <rel: 2011
       <<: *low
       Terminal: len
       VHS Sex: no
@@ -1308,7 +1308,7 @@ Com Truise:
       Karova:
 Conjure One:
    Extraordinary Ways:
-      <date: 2005
+      <rel: 2005
       <<: &low
          <flow: 163,821
          <link: https://youtu.be/4w0hHxrj7do
@@ -1323,7 +1323,7 @@ Conjure One:
       Forever Lost:
       Into the Escape:
    Conjure One:
-      <date: 2002
+      <rel: 2002
       <<: *low
       Damascus: len
       Center of the Sun:
@@ -1338,7 +1338,7 @@ Conjure One:
       Premonition (reprise):
 Counting Crows:
    This Desert Life:
-      <date: 1999
+      <rel: 1999
       <flow: 2,880,610
       <link: https://youtu.be/22bK0C2obFc
       Hanginaround:
@@ -1352,16 +1352,16 @@ Counting Crows:
       Speedway:
       St. Robinson in His Cadillac Dream / Kid Things:
    Recovering the Satellites:
-      <date: 1996
+      <rel: 1996
    August and Everything After:
-      <date: 1993
+      <rel: 1993
    August And Everything After:
       <flow: 13,704,250
       <link: https://youtu.be/-oqAU5VxFWs
       Mr. Jones:
 Crazy P:
    Walk Dance Talk Sing:
-      <date: 2015
+      <rel: 2015
       <<: &low
          <flow: 159,508
          <link: https://youtu.be/Ph5psMQoirU
@@ -1377,7 +1377,7 @@ Crazy P:
       Hear My Song:
       Witch Doctor:
    When We On:
-      <date: 2011
+      <rel: 2011
       <<: *low
       Open for Service:
       Changes:
