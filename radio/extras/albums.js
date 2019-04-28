@@ -9,7 +9,7 @@ qa('tr', qo('tbody')).forEach(ae => {
    with a "class" */
    var oq = qa('td', ae);
    var rv = oq.findIndex(ae => ae.className);
-   np.unshift('      =: ' + oq[rv].textContent);
+   np.unshift('      rel: ' + oq[rv].textContent);
    np.unshift('   ' + oq[rv + 1].textContent + ':');
 });
 
