@@ -1001,16 +1001,24 @@ Bruce Hornsby:
       The River Runs Low:
       The Red Plains:
 Bryan Adams:
-   18 til I Die:
-      <flow: 7,291,025
-      <link: https://youtu.be/hq2KgzKETBw
+   =:
+      Have You Ever Really Loved A Woman?:
+         flow: 7,291,025
+         link: https://youtu.be/hq2KgzKETBw
+   18 Til I Die:
+      =:
+         rel: 1996
+         white: no
       Have You Ever Really Loved A Woman?:
 Burial:
+   =:
+      Archangel:
+         flow: 96,060
+         link: https://youtu.be/E2qLD9c3Gq4
    Untrue:
-      <rel: 2007
-      <<: &low
-         <flow: 96,060
-         <link: https://youtu.be/E2qLD9c3Gq4
+      =:
+         rel: 2007
+         white: yes
       Archangel: no
       Near Dark:
       Ghost Hardware: yes
@@ -1024,8 +1032,9 @@ Burial:
       UK: len
       Raver:
    Burial:
-      <rel: 2006
-      <white: yes
+      =:
+         rel: 2006
+         white: yes
       Distant Lights: no
       Spaceape: no
       Wounder: no
@@ -1038,13 +1047,14 @@ Burial:
       Prayer:
       Pirates:
 Bush:
-   <low:
+   =:
       Glycerine:
-         <flow: 3,384,979
-         <link: https://youtu.be/hOllF3TgAsM
+         flow: 3,384,979
+         link: https://youtu.be/hOllF3TgAsM
    The Science of Things:
-      <rel: 1999
-      <flow: low
+      =:
+         rel: 1999
+         white: yes
       Warm Machine: no
       Jesus Online: no
       The Chemicals Between Us: yes
@@ -1058,8 +1068,9 @@ Bush:
       Letting the Cables Sleep: no
       Mindchanger: no
    Razorblade Suitcase:
-      <rel: 1996
-      <flow: low
+      =:
+         rel: 1996
+         white: yes
       Personal Holloway: no
       Greedy Fly: no
       Swallowed: no
@@ -1072,10 +1083,11 @@ Bush:
       Synapse:
       Communicator:
       Bonedriven:
-      Distant Voices / [unknown]:
+      Distant Voices:
    Sixteen Stone:
-      <rel: 1994
-      <flow: low
+      =:
+         rel: 1994
+         white: yes
       Everything Zen: yes
       Swim:
       Bomb:
@@ -1090,9 +1102,14 @@ Bush:
       X‐Girlfriend: len
       Comedown (acoustic):
 Cake:
+   =:
+      Short Skirt Long Jacket:
+         flow: 865,813
+         link: https://youtu.be/u7aDstrDMf0
    Fashion Nugget:
-      <flow: 865,813
-      <link: https://youtu.be/u7aDstrDMf0
+      =:
+         rel: 1996
+         white: yes
       Frank Sinatra: yes
       The Distance:
       Friend Is a Four Letter Word:
@@ -1108,9 +1125,14 @@ Cake:
       Italian Leather Sofa:
       Sad Songs and Waltzes:
 Can:
+   =:
+      Vitamin C:
+         flow: 183,424
+         link: https://youtu.be/9a1NhRbNJ_Y
    Ege Bamyasi:
-      <flow: 183,424
-      <link: https://youtu.be/9a1NhRbNJ_Y
+      =:
+         rel: 1972
+         white: yes
       Pinch:
       Sing Swan Song:
       One More Night:
@@ -1119,9 +1141,14 @@ Can:
       I’m So Green:
       Spoon:
 Cassie:
+   =:
+      Me & U:
+         flow: 13,636,105
+         link: https://youtu.be/zVJ5gsLeCSM
    Cassie:
-      <flow: 13,636,105
-      <link: https://youtu.be/zVJ5gsLeCSM
+      =:
+         rel: 2006
+         white: no
       Long Way 2 Go:
       Me & U:
 Chet Faker:
