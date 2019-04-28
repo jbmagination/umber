@@ -517,9 +517,26 @@ Duke Ellington:
       B D B:
       Jumpin’ at the Woodside:
 Duran Duran:
+   =:
+      Come Undone:
+         flow: 18,836,105
+         link: https://youtu.be/Epj84QVw2rc
+      Save a Prayer:
+         flow: 4,584,790
+         link: https://youtu.be/6Uxc9eFcZyM
+   Duran Duran (The Wedding Album):
+      =:
+         rel: 1993
+         white: no
+      Come Undone:
+   Liberty:
+      rel: 1990
+   Big Thing:
+      rel: 1988
    Notorious:
-      <flow: 4,150,973
-      <link: https://youtu.be/6Uxc9eFcZyM
+      =:
+         rel: 1986
+         white: yes
       Notorious: no
       American Science: no
       Skin Trade: no
@@ -530,10 +547,6 @@ Duran Duran:
       “Meet el Presidente”: no
       Winter Marches On: no
       Proposition: no
-   The Wedding Album:
-      <flow: 18,836,105
-      <link: https://youtu.be/Epj84QVw2rc
-      Come Undone:
 Eddie Money:
    Can’t Hold Back:
       rel: 1985

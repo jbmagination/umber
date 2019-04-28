@@ -181,7 +181,7 @@ Beastie Boys:
       The Brouhaha: len
       We Got The: len
    Hello Nasty:
-      =: 1998
+      rel: 1998
    Ill Communication:
       =:
          rel: 1994
@@ -227,17 +227,17 @@ Beck:
       Country Down:
       Waking Light:
    Modern Guilt:
-      =: 2008
+      rel: 2008
    The Information:
-      =: 2006
+      rel: 2006
    Guero:
-      =: 2005
+      rel: 2005
    Sea Change:
-      =: 2002
+      rel: 2002
    Midnite Vultures:
-      =: 1999
+      rel: 1999
    Mutations:
-      =: 1998
+      rel: 1998
    Odelay:
       =:
          rel: 1996
@@ -260,7 +260,7 @@ Beck:
       Inferno:
       Gold Chains:
    One Foot in the Grave:
-      =: 1994
+      rel: 1994
    Mellow Gold:
       =:
          rel: 1994
@@ -346,7 +346,7 @@ Bibio:
       Business Park:
       You Won’t Remember...:
    Mind Bokeh:
-      =: 2011
+      rel: 2011
    Ambivalence Avenue:
       =:
          rel: 2009-06-22
@@ -426,7 +426,7 @@ Big Boi:
       All Night:
       Kill Jill:
    Vicious Lies and Dangerous Rumors:
-      =: 2012
+      rel: 2012
    Sir Lucious Left Foot… The Son of Chico Dusty:
       =:
          rel: 2010
@@ -533,7 +533,7 @@ Blink 182:
       Bored to Death:
       She’s Out Of Her Mind:
    Neighborhoods:
-      =: 2011
+      rel: 2011
    blink-182:
       =:
          rel: 2003
@@ -891,7 +891,7 @@ Boyz II Men:
       I’ll Make Love To You:
       On Bended Knee:
    Christmas Interpretations:
-      =: 1993
+      rel: 1993
    Cooleyhighharmony:
       =:
          rel: 1991
@@ -936,9 +936,9 @@ Boz Scaggs:
       After Hours:
       Goodnight Louise:
    Fade Into Light:
-      =: 1996
+      rel: 1996
    Some Change:
-      =: 1994
+      rel: 1994
    Other Roads:
       =:
          rel: 1988
@@ -984,9 +984,9 @@ Bruce Hornsby:
       What a Time:
       Pastures of Plenty:
    A Night on the Town:
-      =: 1990
+      rel: 1990
    Scenes From the Southside:
-      =: 1988
+      rel: 1988
    The Way It Is:
       =:
          rel: 1986
@@ -1165,15 +1165,15 @@ Chicago:
          white: no
       You’re The Inspiration:
    Chicago 16:
-      =: 1982
+      rel: 1982
    Chicago XIV:
-      =: 1980
+      rel: 1980
    Chicago 13:
-      =: 1979
+      rel: 1979
    Hot Streets:
-      =: 1978
+      rel: 1978
    Chicago XI:
-      =: 1977
+      rel: 1977
    Chicago X:
       =:
          rel: 1976
@@ -1190,11 +1190,11 @@ Chicago:
       You Get It Up:
       Hope for Love:
    Chicago VIII:
-      =: 1975
+      rel: 1975
    Chicago VII:
-      =: 1974
+      rel: 1974
    Chicago VI:
-      =: 1973
+      rel: 1973
    Chicago V:
       =:
          rel: 1972
@@ -1210,7 +1210,7 @@ Chicago:
       Goodbye:
       Alma Mater:
    Chicago III:
-      =: 1971
+      rel: 1971
    Chicago II:
       =:
          rel: 1969
@@ -1591,7 +1591,7 @@ Counting Crows:
       Speedway:
       St. Robinson in His Cadillac Dream / Kid Things:
    Recovering the Satellites:
-      =: 1996
+      rel: 1996
    August and Everything After:
       =:
          rel: 1993

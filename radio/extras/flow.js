@@ -27,7 +27,9 @@ if (dp) {
    xc.style.zIndex = 6;
 
    /* needs to work as bookmarklet */
-   xc.textContent = '      ' + qo('[itemprop=name]').content + ':\n' +
+   xc.textContent = '      ' + qo('[itemprop=name]').content
+   .replace(/[^-]*\-? ?([^(]*)? \(?.*/, '$1')
+   .replace(/ A /, ' a ') + ':\n' +
    '         flow: ' + Math.floor(vw / yr).toLocaleString() + '\n' +
    '         link: ' + qo('[rel=shortlink]').href;
 

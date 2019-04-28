@@ -18,13 +18,13 @@
          white: no
       Ghetto Gospel:
    Better Dayz:
-      =: 2002
+      rel: 2002
    Until the End of Time:
-      =: 2001
+      rel: 2001
    Still I Rise:
-      =: 1999
+      rel: 1999
    R U Still Down?:
-      =: 1997
+      rel: 1997
    All Eyez on Me:
       =:
          rel: 1996
@@ -192,22 +192,22 @@ Aerosmith:
       Dude:
       Rag Doll:
    Done With Mirrors:
-      =: 1985
+      rel: 1985
    Rock in a Hard Place:
-      =: 1982
+      rel: 1982
    Night in the Ruts:
-      =: 1979
+      rel: 1979
    Draw the Line:
-      =: 1977
+      rel: 1977
    Rocks:
-      =: 1976
+      rel: 1976
    Toys in the Attic:
       =:
          rel: 1975
          white: no
       Walk This Way:
    Get Your Wings:
-      =: 1974
+      rel: 1974
    Aerosmith:
       =:
          rel: 1973
@@ -386,11 +386,11 @@ Alice in Chains:
          white: yes
       The One You Know:
    The Devil Put Dinosaurs Here:
-      =: 2013
+      rel: 2013
    Black Gives Way to Blue:
-      =: 2009
+      rel: 2009
    Alice in Chains:
-      =: 1995
+      rel: 1995
    Jar of Flies:
       =:
          rel: 1994
