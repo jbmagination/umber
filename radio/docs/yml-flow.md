@@ -15,102 +15,55 @@ can check next page as long as current page has at least 1 true high.
 Value type
 ----------
 
-we need a way to include flow data with each artist. the proper way is to use
-a value type:
+We need a way to include metadata for artists and albums. The proper way is to
+use value types:
 
 ~~~yml
 Goldfrapp:
    =:
    Seventh Tree:
+      =:
       Clowns: yes
 ~~~
 
-for each song record, we need to include:
+For artist metadata, we include blacklisted and whitelisted songs. For each
+entry, we need to include:
 
-1. title
-2. URL
-3. VPY
-4. ETA
+entity | attribute | value
+-------|-----------|------
+1      | title     | str
+2      | link      | str
+3      | flow      | int
+4      | white     | timestamp
 
-### array=1, newline=1, object=1
+For album metadata, we need to include:
 
-~~~yml
-Goldfrapp:
-   =:
-   -
-      Clowns:
-         URL: https://youtu.be/aCQO7lUfT0A
-         VPY: 5,419
-         ETA: now
-   Seventh Tree:
-      Clowns: yes
-~~~
+entity | attribute | value
+-------|-----------|----------
+1      | release   | timestamp
+2      | white     | bool
 
-I dislike the depth.
-
-### array=1, newline=1, object=0
-
-~~~yml
-Goldfrapp:
-   =:
-   -
-      Clowns:
-      URL: https://youtu.be/aCQO7lUfT0A
-      VPY: 5,419
-      ETA: now
-   Seventh Tree:
-      Clowns: yes
-~~~
-
-I dislike the extra line.
-
-### array=1, newline=0, object=0
-
-~~~yml
-Goldfrapp:
-   =:
-   - Clowns:
-     URL: https://youtu.be/aCQO7lUfT0A
-     VPY: 5,419
-     ETA: now
-   Seventh Tree:
-      Clowns: yes
-~~~
-
-This only works with 2 space indentation.
-
-### array=0, newline=0, object=1
+Result:
 
 ~~~yml
 Goldfrapp:
    =:
       Clowns:
-         URL: https://youtu.be/aCQO7lUfT0A
-         VPY: 5,419
-         ETA: now
+         link: https://youtu.be/aCQO7lUfT0A
+         flow: 5,419
+         white: now
    Seventh Tree:
+      =:
+         release: 2008
+         white: yes
       Clowns: yes
 ~~~
-
-I dislike the depth.
-
-### array=1, newline=0, object=1
-
-~~~yml
-Goldfrapp:
-   =:
-   - Clowns:
-      URL: https://youtu.be/aCQO7lUfT0A
-      VPY: 5,419
-      ETA: now
-   Seventh Tree:
-      Clowns: yes
-~~~
-
-This is the winner. It works with 3 space indentation.
 
 References
 ----------
 
 - https://yaml.org/type/bool
+- https://yaml.org/type/int
+- https://yaml.org/type/str
+- https://yaml.org/type/timestamp
 - https://yaml.org/type/value
