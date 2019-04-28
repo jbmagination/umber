@@ -90,13 +90,14 @@ Daft Punk:
          white: no
       Around the World:
 Dan Hess:
-   <low:
+   =:
       Birdman:
-         <flow: 78
-         <link: https://youtu.be/GJWY-mWoiM0
+         flow: 78
+         link: https://youtu.be/GJWY-mWoiM0
    Pilotwings 64:
-      <rel: 1996
-      <flow: low
+      =:
+         rel: 1996
+         white: yes
       Hang Glider: yes
       Rocket Belt: yes
       Gyrocopter:
@@ -104,9 +105,14 @@ Dan Hess:
       Birdman:
       Bravissimo!:
 Daniel Lanois:
+   =:
+      Jolie Louise:
+         flow: 99,561
+         link: https://youtu.be/mt0LDopjNbg
    Acadie:
-      <flow: 99,070
-      <link: https://youtu.be/mt0LDopjNbg
+      =:
+         rel: 1989
+         white: yes
       Still Water:
       The Maker:
       O Marie:
@@ -120,11 +126,14 @@ Daniel Lanois:
       St. Ann’s Gold:
       Amazing Grace:
 Dave Matthews Band:
+   =:
+      Crash Into Me:
+         flow: 1,747,085
+         link: https://youtu.be/k7in-9E3ImQ
    Stand Up:
-      <rel: 2005
-      <<: &low
-         <flow: 1,697,059
-         <link: https://youtu.be/k7in-9E3ImQ
+      =:
+         rel: 2005
+         white: yes
       Dreamgirl:
       Old Dirt Hill (Bring That Beat Back):
       Stand Up (for It):
@@ -140,8 +149,9 @@ Dave Matthews Band:
       Steady as We Go:
       Hunger for the Great Light:
    Busted Stuff:
-      <rel: 2002
-      <white: yes
+      =:
+         rel: 2002
+         white: yes
       Busted Stuff: no
       Grey Street: yes
       Where Are You Going?:
@@ -154,8 +164,9 @@ Dave Matthews Band:
       Big Eyed Fish:
       Bartender:
    Everyday:
-      <rel: 2001
-      <white: yes
+      =:
+         rel: 2001
+         white: yes
       I Did It: no
       When the World Ends: no
       The Space Between: no
@@ -169,8 +180,9 @@ Dave Matthews Band:
       Mother Father:
       Everyday:
    Before These Crowded Streets:
-      <rel: 1998
-      <white: yes
+      =:
+         rel: 1998
+         white: yes
       Pantala Naga Pampa: len
       Rapunzel: no
       The Last Stop: no
@@ -183,8 +195,9 @@ Dave Matthews Band:
       Pig:
       Spoon:
    Crash:
-      <rel: 1996
-      <white: yes
+      =:
+         rel: 1996
+         white: yes
       So Much to Say: yes
       Two Step:
       Crash Into Me: yes
@@ -198,8 +211,9 @@ Dave Matthews Band:
       Tripping Billies:
       Proudest Monkey:
    Under the Table and Dreaming:
-      <rel: 1994
-      <white: yes
+      =:
+         rel: 1994
+         white: yes
       The Best of What’s Around:
       What Would You Say:
       Satellite:
@@ -213,24 +227,36 @@ Dave Matthews Band:
       Pay for What You Get:
       34:
 Depeche Mode:
+   =:
+      It’s No Good:
+         flow: 5,866,027
+         link: https://youtu.be/stpaq27-V70
+      Personal Jesus:
+         flow: 9,479,143
+         link: https://youtu.be/u1xrNaTO1bI
+      Strangelove:
+         flow: 6,532,962
+         link: https://youtu.be/JIrm0dHbCDU
+      Where’s the Revolution:
+         flow: 8,644,886
+         link: https://youtu.be/jsCR05oKROA
    Spirit:
-      <rel: 2017
-      <flow: 8,644,886
-      <link: https://youtu.be/jsCR05oKROA
+      =:
+         rel: 2017
+         white: no
       Where’s the Revolution:
    Delta Machine:
-      <rel: 2013
+      =: 2013
    Sounds of the Universe:
-      <rel: 2009
+      =: 2009
    Playing the Angel:
-      <rel: 2005
+      =: 2005
    Exciter:
-      <rel: 2001
+      =: 2001
    Ultra:
-      <rel: 1997
-      <<: &low
-         <flow: 4,085,095
-         <link: https://youtu.be/stpaq27-V70
+      =:
+         rel: 1997
+         white: yes
       Barrel of a Gun: no
       The Love Thieves: no
       Home: no
@@ -244,29 +270,30 @@ Depeche Mode:
       Insight: no
       Junior Painkiller: len
    Songs of Faith and Devotion:
-      <rel: 1993
+      =: 1993
    Violator:
-      <rel: 1990
-      <flow: 9,201,885
-      <link: https://youtu.be/u1xrNaTO1bI
+      =:
+         rel: 1990
+         white: no
       Enjoy The Silence:
       Personal Jesus:
    Music for the Masses:
-      <rel: 1987
-      <flow: 6,304,879
-      <link: https://youtu.be/JIrm0dHbCDU
+      =:
+         rel: 1987
+         white: no
       Strangelove:
    Black Celebration:
-      <rel: 1986
+      =: 1986
    Some Great Reward:
-      <rel: 1984
+      =: 1984
    Construction Time Again:
-      <rel: 1983
+      =: 1983
    A Broken Frame:
-      <rel: 1982
+      =: 1982
    Speak & Spell:
-      <rel: 1981
-      <white: yes
+      =:
+         rel: 1981
+         white: yes
       New Life: no
       Puppets: no
       Dreaming of Me: no
@@ -293,7 +320,7 @@ Dirty Projectors:
       Fluorescent Half Dome:
 Dirty Vegas:
    Dirty Vegas:
-      <rel: 2002
+      =: 2002
       <flow: 1,167,277
       <link: https://youtu.be/M51rijkxa_4
       I Should Know:
@@ -310,7 +337,7 @@ Dirty Vegas:
       Days Go By (acoustic): len
 Disturbed:
    Evolution:
-      <rel: 2018
+      =: 2018
       <flow: 17,624,762
       <link: https://youtu.be/t4382UVl0oc
       A Reason to Fight:
@@ -323,23 +350,23 @@ Disturbed:
       The Light:
       The Vengeful One:
    Immortalized:
-      <rel: 2015
+      =: 2015
       <flow: 153,992,522
       <link: https://youtu.be/u9Dg-g7t2l4
       The Sound of Silence:
    Asylum:
-      <rel: 2010
+      =: 2010
    Indestructible:
-      <rel: 2008
+      =: 2008
    Ten Thousand Fists:
-      <rel: 2005
+      =: 2005
       <flow: 6,508,901
       <link: https://youtu.be/3moLkjvhEu0
       Stricken:
    Believe:
-      <rel: 2002
+      =: 2002
    The Sickness:
-      <rel: 2000
+      =: 2000
       <flow: 9,572,837
       <link: https://youtu.be/09LTT0xwdfw
       Down With the Sickness:
@@ -439,9 +466,9 @@ DJ Doboy:
       edvika - sometimes (fire and ice remix): yes
 Doe Paoro:
    Soft Power:
-      <rel: 2018
+      =: 2018
    After:
-      <rel: 2015
+      =: 2015
       <flow: 44,669
       <link: https://youtu.be/HuRU2v6Moak
       Traveling: yes
@@ -455,7 +482,7 @@ Doe Paoro:
       Regret:
       Wake Up in Nowhere:
    Slow to Love:
-      <rel: 2012
+      =: 2012
       <white: yes
       Intro: len
       Born Whole: no
@@ -549,7 +576,7 @@ Duran Duran:
       Come Undone:
 Eddie Money:
    Can’t Hold Back:
-      <rel: 1985
+      =: 1985
       <flow: 1,806,500
       <link: https://youtu.be/2tcD_dVcXE4
       Take Me Home Tonight: yes
@@ -595,7 +622,7 @@ Elton John:
       Tiny Dancer:
 Emilíana Torrini:
    Tookah:
-      <rel: 2013
+      =: 2013
       <<: &low
          <flow: 2,120,419
          <link: https://youtu.be/iZ9vkd7Rp-g
@@ -609,7 +636,7 @@ Emilíana Torrini:
       Blood Red:
       When Fever Breaks:
    Me and Armini:
-      <rel: 2008
+      =: 2008
       <white: yes
       Fireheads:
       Me and Armini: yes
@@ -624,7 +651,7 @@ Emilíana Torrini:
       Dead Duck:
       Bleeder:
    Fisherman’s Woman:
-      <rel: 2005
+      =: 2005
       <white: yes
       Nothing Brings Me Down: no
       Sunny Road: yes
@@ -639,7 +666,7 @@ Emilíana Torrini:
       Thinking Out Loud:
       Serenade:
    Love in the Time of Science:
-      <rel: 1999
+      =: 1999
       <white: yes
       To Be Free:
       Wednesday’s Child: yes
@@ -653,14 +680,14 @@ Emilíana Torrini:
       Summerbreeze:
       Sea People: len
    Merman:
-      <rel: 1996
+      =: 1996
 Empress Of:
    <low:
       Water Water:
          <flow: 200,617
          <link: https://youtu.be/iwo_HeW4G-Q
    Us:
-      <rel: 2018
+      =: 2018
       <flow: low
       Everything to Me: len
       Just the Same: no
@@ -673,11 +700,11 @@ Empress Of:
       When I’m With Him:
       Again:
    Woman Is a Word:
-      <rel: 2016
+      =: 2016
       <flow: low
       Woman Is a Word: yes
    Me:
-      <rel: 2015
+      =: 2015
       <flow: low
       Everything Is You: no
       Water Water: no
@@ -690,14 +717,14 @@ Empress Of:
       Threat: no
       Icon: no
    Systems:
-      <rel: 2013-08-16
+      =: 2013-08-16
       <flow: low
       Hat Trick: no
       No Means No: no
       Tristeza: no
       Camisa Favorita: no
    Colorminutes:
-      <rel: 2013-01-11
+      =: 2013-01-11
       <flow: low
       1: len
       2: len
@@ -721,7 +748,7 @@ Enya:
       Only Time:
 Everything but the Girl:
    Temperamental:
-      <rel: 1999
+      =: 1999
       <<: &low
          <flow: 2,678,591
          <link: https://youtu.be/Q4sPkS8b62Q
@@ -736,9 +763,9 @@ Everything but the Girl:
       No Difference:
       The Future of the Future (Stay Gold):
    Walking Wounded:
-      <rel: 1996
+      =: 1996
    Amplified Heart:
-      <rel: 1994
+      =: 1994
       <white: yes
       Rollercoaster:
       Troubled Mind:
@@ -751,7 +778,7 @@ Everything but the Girl:
       25th December:
       Disenchanted: len
    Acoustic:
-      <rel: 1992
+      =: 1992
       <white: yes
       Love Is Strange:
       Tougher Than the Rest:
@@ -765,7 +792,7 @@ Everything but the Girl:
       Come On Home:
       Fascination (live):
    Worldwide:
-      <rel: 1991
+      =: 1991
       <white: yes
       Old Friends:
       Understanding:
@@ -779,7 +806,7 @@ Everything but the Girl:
       Boxing and Pop Music:
       Feel Alright: len
    The Language of Life:
-      <rel: 1990
+      =: 1990
       <white: yes
       Driving: yes
       Get Back Together:
@@ -793,7 +820,7 @@ Everything but the Girl:
       The Road:
 Fatboy Slim:
    Halfway Between the Gutter and the Stars:
-      <rel: 2000
+      =: 2000
       <<: &low
          <flow: 2,543,938
          <link: https://youtu.be/so9DBHCo64Q
@@ -809,7 +836,7 @@ Fatboy Slim:
       Demons: no
       Song for Shelter: yes
    You’ve Come a Long Way, Baby:
-      <rel: 1998
+      =: 1998
       <white: yes
       Right Here, Right Now: yes
       The Rockafeller Skank: yes
@@ -823,7 +850,7 @@ Fatboy Slim:
       Love Island: yes
       Acid 8000:
    Better Living Through Chemistry:
-      <rel: 1996
+      =: 1996
       <white: yes
       Song for Lindy: yes
       Santa Cruz:
@@ -884,7 +911,7 @@ Flamingosis:
       Football Head: yes
 Fleet Foxes:
    Helplessness Blues:
-      <rel: 2011
+      =: 2011
       <<: &low
          <flow: 1,466,746
          <link: https://youtu.be/DT-dxG4WWf4
@@ -901,12 +928,12 @@ Fleet Foxes:
       Blue Spotted Tail:
       Grown Ocean:
    Fleet Foxes:
-      <rel: 2008-06-03
+      =: 2008-06-03
       <flow: 17,564,336
       <link: https://youtu.be/o10drRI3VQ0
       White Winter Hymnal:
    Sun Giant:
-      <rel: 2008-03-09
+      =: 2008-03-09
       <white: yes
       Sun Giant: len
       Drops in the River: yes
@@ -957,7 +984,7 @@ Fleetwood Mac:
       You and I, Part II: len
 Floating Points:
    Reflections - Mojave Desert:
-      <rel: 2017
+      =: 2017
       <<: &low
          <flow: 610,878
          <link: https://youtu.be/1LtsjqgF6fw
@@ -967,12 +994,12 @@ Floating Points:
       Kelso Dunes: yes
       Lucerne Valley: no
    Kuiper:
-      <rel: 2016
+      =: 2016
       <white: yes
       Kuiper:
       For Marmish Part II: yes
    Elaenia:
-      <rel: 2015
+      =: 2015
       <white: yes
       Nespole: yes
       Silhouettes (I, II & III):
@@ -983,7 +1010,7 @@ Floating Points:
       Peroration Six:
       Precursor:
    Shadows EP:
-      <rel: 2011
+      =: 2011
       <white: yes
       Myrtle Avenue: yes
       Obfuse: no
@@ -992,7 +1019,7 @@ Floating Points:
       Sais: no
 Foghat:
    Fool for the City:
-      <rel: 1974
+      =: 1974
       <flow: 3,450,553
       <link: https://youtu.be/GcCNcgoyG_0
       Fool for the City:
@@ -1039,12 +1066,12 @@ Foo Fighters:
       Walk:
 Foreigner:
    Agent Provocateur:
-      <rel: 1984
+      =: 1984
       <flow: 17,021,771
       <link: https://youtu.be/raNGeq3_DtM
       I Want To Know What Love Is:
    4:
-      <rel: 1981
+      =: 1981
       <<: &low
          <flow: 269,102
          <link: https://youtu.be/8Tl-kOcnn1U
@@ -1059,11 +1086,11 @@ Foreigner:
       Girl on the Moon:
       Don’t Let Go:
    Head Games:
-      <rel: 1979
+      =: 1979
    Double Vision:
-      <rel: 1978
+      =: 1978
    Foreigner:
-      <rel: 1977
+      =: 1977
       <white: yes
       Feels Like the First Time:
       Cold as Ice: yes
@@ -1077,11 +1104,11 @@ Foreigner:
       I Need You:
 Four Tet:
    Nova:
-      <rel: 2012
+      =: 2012
       <white: yes
       Nova: yes
    There Is Love in You:
-      <rel: 2010
+      =: 2010
       <white: yes
       Angel Echoes:
       Love Cry:
@@ -1093,23 +1120,23 @@ Four Tet:
       Plastic People:
       She Just Likes to Fight: yes
    Moth / Wolf Cub:
-      <rel: 2009
+      =: 2009
       <<: &low
          <flow: 294,231
          <link: https://youtu.be/Tpe4id7cLnU
       Moth: yes
       Wolf Cub: yes
    Ringer:
-      <rel: 2008
+      =: 2008
       <white: yes
       Ringer: no
       Ribbons: yes
       Swimmer: yes
       Wing Body Wing: no
    Everything Ecstatic:
-      <rel: 2005
+      =: 2005
    Rounds:
-      <rel: 2003
+      =: 2003
       <white: yes
       Hands: yes
       She Moves She: yes
@@ -1122,7 +1149,7 @@ Four Tet:
       And They All Look Broken Hearted: yes
       Slow Jam: no
    Pause:
-      <rel: 2001
+      =: 2001
       <white: yes
       Glue of the World: yes
       Twenty Three: no
@@ -1136,7 +1163,7 @@ Four Tet:
       You Could Ruin My Day: yes
       Hilarious Movie of the 90’s: no
    Dialogue:
-      <rel: 1999
+      =: 1999
       <<: &low
          <flow: 294,231
          <link: https://youtu.be/Tpe4id7cLnU
@@ -1161,7 +1188,7 @@ Frankie Rose:
          <flow: 31,597
          <link: https://youtu.be/VE56wTNj7J0
    Cage Tropical:
-      <rel: 2017
+      =: 2017
       <flow: low
       Love in Rockets:
       Dyson Sphere:
@@ -1174,7 +1201,7 @@ Frankie Rose:
       Epic Slack: len
       Decontrol:
    Herein Wild:
-      <rel: 2013
+      =: 2013
       <flow: low
       You for Me: no
       Sorrow: no
@@ -1187,7 +1214,7 @@ Frankie Rose:
       Street of Dreams:
       Requiem: len
    Interstellar:
-      <rel: 2012
+      =: 2012
       <flow: low
       Interstellar:
       Know Me: len
@@ -1307,7 +1334,7 @@ Goldfrapp:
          <flow: 1,063,979
          <link: https://youtu.be/uco-2V4ytYQ
    Silver Eye:
-      <rel: 2017
+      =: 2017
       <flow: low
       Anymore: no
       Systemagic: no
@@ -1320,7 +1347,7 @@ Goldfrapp:
       Moon in Your Mouth: no
       Ocean: yes
    Tales of Us:
-      <rel: 2013
+      =: 2013
       <flow: low
       Jo: yes
       Annabel:
@@ -1334,9 +1361,9 @@ Goldfrapp:
       Clay:
       Lee: yes
    Head First:
-      <rel: 2010
+      =: 2010
    Seventh Tree:
-      <rel: 2008
+      =: 2008
       <flow: low
       Clowns: yes
       Little Bird:
@@ -1349,7 +1376,7 @@ Goldfrapp:
       Caravan Girl:
       Monster Love:
    Supernature:
-      <rel: 2005
+      =: 2005
       <flow: low
       Ooh La La: yes
       Lovely 2 C U: yes
@@ -1363,7 +1390,7 @@ Goldfrapp:
       Time Out From the World: yes
       Number 1: no
    Black Cherry:
-      <rel: 2003
+      =: 2003
       <flow: low
       Crystalline Green: no
       Train: no
@@ -1376,7 +1403,7 @@ Goldfrapp:
       Forever: no
       Slippage: no
    Felt Mountain:
-      <rel: 2000
+      =: 2000
       <flow: low
       Lovely Head: yes
       Paper Bag: yes
@@ -1475,7 +1502,7 @@ Gorillaz:
       Feel Good Inc:
 Gotan Project:
    Tango 3.0:
-      <rel: 2010
+      =: 2010
       <<: &low
          <flow: 1,988,865
          <link: https://youtu.be/tqLh6rQqkoA
@@ -1491,7 +1518,7 @@ Gotan Project:
       Panamericana:
       Érase una vez:
    Lunático:
-      <rel: 2006
+      =: 2006
       <white: yes
       Amor Porteño:
       Notas:
@@ -1506,7 +1533,7 @@ Gotan Project:
       Domingo:
       Paris, Texas: yes
    La revancha del tango:
-      <rel: 2001
+      =: 2001
       <white: yes
       Queremos paz: yes
       Época: no
@@ -1543,7 +1570,7 @@ Green Day:
 Grizzly Bear:
    <updated: 2019-02-24
    Painted Ruins:
-      <rel: 2017
+      =: 2017
       <<: &low
          <flow: 1,375,012
          <link: https://youtu.be/tjecYugTbIQ
@@ -1559,7 +1586,7 @@ Grizzly Bear:
       Systole:
       Sky Took Hold:
    Shields:
-      <rel: 2012
+      =: 2012
       <white: yes
       Sleeping Ute: yes
       Speak in Rounds: no
@@ -1577,7 +1604,7 @@ Grizzly Bear:
       Everyone I Know (Marfa demo): len
       Will Calls (Marfa demo): yes
    Veckatimest:
-      <rel: 2009
+      =: 2009
       <white: yes
       Southern Point: yes
       Two Weeks: yes
@@ -1592,7 +1619,7 @@ Grizzly Bear:
       I Live With You: yes
       Foreground: yes
    Yellow House:
-      <rel: 2006
+      =: 2006
       <white: yes
       Easier: yes
       Lullabye: no
@@ -1605,7 +1632,7 @@ Grizzly Bear:
       Reprise: yes
       Colorado: yes
    Horn of Plenty:
-      <rel: 2004
+      =: 2004
       <white: yes
       Deep Sea Diver: no
       Don’t Ask: no
@@ -1623,7 +1650,7 @@ Grizzly Bear:
       This Song: no
 Groove Armada:
    Black Light:
-      <rel: 2010
+      =: 2010
       <<: &low
          <flow: 2,485,950
          <link: https://youtu.be/_kE0pxRkMtQ
@@ -1639,7 +1666,7 @@ Groove Armada:
       Time & Space:
       History: no
    Soundboy Rock:
-      <rel: 2007
+      =: 2007
       <white: yes
       Hasta Luego Mr. Fab (interlude): yes
       Get Down:
@@ -1657,7 +1684,7 @@ Groove Armada:
       See What You Get:
       What’s Your Version? (reprise): len
    Lovebox:
-      <rel: 2002
+      =: 2002
       <white: yes
       Purple Haze:
       Groove Is On:
@@ -1672,7 +1699,7 @@ Groove Armada:
       Lovebox: yes
       But I Feel Good:
    Goodbye Country (Hello Nightclub):
-      <rel: 2001
+      =: 2001
       <white: yes
       Suntoucher: no
       Superstylin’: no
@@ -1689,22 +1716,22 @@ Groove Armada:
       Likwid:
 Guns N’ Roses:
    Use Your Illusion II:
-      <rel: 1991-09-17
+      =: 1991-09-17
       <flow: 6,374,297
       <link: https://youtu.be/NDOPlpH6NZM
       Yesterdays:
    Use Your Illusion I:
-      <rel: 1991-09-16
+      =: 1991-09-16
       <flow: 123,354,481
       <link: https://youtu.be/8SbUC-UaAxE
       November Rain:
    G N’ R Lies:
-      <rel: 1988
+      =: 1988
       <flow: 42,733,186
       <link: https://youtu.be/ErvgV4P6Fzc
       Patience:
    Appetite for Destruction:
-      <rel: 1987
+      =: 1987
       <flow: 86,924,643
       <link: https://youtu.be/1w7OgIMMRc4
       Sweet Child O’ Mine:
