@@ -597,17 +597,20 @@ Audioslave:
       Be Yourself:
    Audioslave:
       =:
-         <rel: 2002
+         rel: 2002
          white: no
       Cochise:
       Like a Stone:
       Show Me How to Live:
 Autechre:
+   =:
+      Dropp:
+         flow: 111,359
+         link: https://youtu.be/hWGUnrIiOoI
    Exai:
-      <rel: 2013
-      <<: &low
-         <flow: 111,359
-         <link: https://youtu.be/hWGUnrIiOoI
+      =:
+         rel: 2013
+         white: yes
       FLeure: no
       irlite (get 0): no
       prac-f: no
@@ -625,11 +628,10 @@ Autechre:
       deco Loc: no
       recks on: no
       YJY UX: no
-   ah³eo & ha³oe (ae3o3):
-      <rel: 2011
    Oversteps:
-      <rel: 2010
-      <<: *low
+      =:
+         rel: 2010
+         white: yes
       r ess: yes
       ilanders:
       known(1):
@@ -645,8 +647,9 @@ Autechre:
       krYlon:
       Yuop: yes
    Quaristice:
-      <rel: 2008
-      <<: *low
+      =:
+         rel: 2008
+         white: yes
       Altibzz: yes
       The Plc: no
       IO: no
@@ -668,8 +671,9 @@ Autechre:
       Notwo: yes
       Outh9X: no
    Untilted:
-      <rel: 2005
-      <<: *low
+      =:
+         rel: 2005
+         white: yes
       LCC: no
       Ipacial Section: no
       Pro Radii: no
@@ -679,8 +683,9 @@ Autechre:
       The Trees:
       Sublimit:
    Draft 7.30:
-      <rel: 2003
-      <<: *low
+      =:
+         rel: 2003
+         white: yes
       Xylin Room:
       IV VV IV VV VIII:
       6IE.CR:
@@ -692,8 +697,9 @@ Autechre:
       V-PROC:
       Reniform Puls:
    Confield:
-      <rel: 2001
-      <<: *low
+      =:
+         rel: 2001
+         white: yes
       VI Scose Poise: no
       Cfern: no
       Pen Expers: no
@@ -704,8 +710,9 @@ Autechre:
       Uviol:
       Lentic Catachresis:
    EP7:
-      <rel: 1999
-      <<: *low
+      =:
+         rel: 1999
+         white: yes
       Rpeg:
       Ccec:
       Squeller:
@@ -718,8 +725,9 @@ Autechre:
       Netlon Sentinel:
       Pir:
    LP5:
-      <rel: 1998
-      <<: *low
+      =:
+         rel: 1998
+         white: yes
       Acroyear2: no
       777: no
       Rae: no
@@ -732,8 +740,9 @@ Autechre:
       Arch Carrier:
       Drane2:
    Chiastic Slide:
-      <rel: 1997
-      <<: *low
+      =:
+         rel: 1997
+         white: yes
       Cipater: no
       Rettic AC: len
       Tewe: no
@@ -744,8 +753,9 @@ Autechre:
       Pule:
       Nuane:
    Tri Repetae:
-      <rel: 1995
-      <<: *low
+      =:
+         rel: 1995
+         white: yes
       Dael:
       Clipper:
       Leterel:
@@ -757,8 +767,9 @@ Autechre:
       Overand: yes
       Rsdio:
    Amber:
-      <rel: 1994
-      <<: *low
+      =:
+         rel: 1994
+         white: yes
       Foil: no
       Montreal: no
       Silverside: no
@@ -771,8 +782,9 @@ Autechre:
       Nil: yes
       Teartear: no
    Incunabula:
-      <rel: 1993
-      <<: *low
+      =:
+         rel: 1993
+         white: yes
       Kalpol Introl: yes
       Bike: yes
       Autriche: yes

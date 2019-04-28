@@ -1,12 +1,22 @@
 Backstreet Boys:
+   =:
+      Everybody:
+         flow: 24,343,495
+         link: https://youtu.be/6M6samPEMpM
    Backstreet’s Back:
-      <flow: 24,343,495
-      <link: https://youtu.be/6M6samPEMpM
+      =:
+         rel: 1997
+         white: no
       Everybody:
 Bad Company:
+   =:
+      Bad Company:
+         flow: 3,524,989
+         link: https://youtu.be/ww5GXbk58R0
    Bad Company:
-      <flow: 3,524,989
-      <link: https://youtu.be/ww5GXbk58R0
+      =:
+         rel: 1974
+         white: yes
       Can’t Get Enough:
       Rock Steady:
       Ready for Love:
@@ -16,16 +26,14 @@ Bad Company:
       Movin’ On:
       Seagull:
 Bananarama:
-   Pop Life:
-      <date: 1991
-   Wow!:
-      <date: 1987
-   True Confessions:
-      <date: 1986
+   =:
+      Cruel Summer:
+         flow: 5,505,081
+         link: https://youtu.be/l9ml3nyww80
    Bananarama:
-      <date: 1984
-      <flow: 5,505,081
-      <link: https://youtu.be/l9ml3nyww80
+      =:
+         rel: 1984
+         white: yes
       Cruel Summer: yes
       Rough Justice:
       King of the Jungle:
@@ -35,8 +43,6 @@ Bananarama:
       State I’m In: len
       Robert De Niro’s Waiting:
       Through a Child’s Eye:
-   Deep Sea Skiving:
-      <date: 1983
 Bat for Lashes:
    <updated: 2019-3-7
    The Bride:
