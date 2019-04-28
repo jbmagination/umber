@@ -688,23 +688,44 @@ Pendulum:
       Another Planet:
       Still Grey: yes
 Pet Shop Boys:
-   <high:
+   =:
+      It’s a Sin:
+         flow: 5,763,889
+         link: https://youtu.be/dRHetRTOD1Q
       West End Girls:
-         <flow: 6,469,379
-         <link: https://youtu.be/p3j2NYZ8FKs
+         flow: 6,469,379
+         link: https://youtu.be/p3j2NYZ8FKs
+   Introspective:
+      =:
+         rel: 1988
+         white: yes
+      Left to My Own Devices:
+      I Want a Dog:
+      Domino Dancing (disco mix): yes
+      I’m Not Scared:
+      Always on My Mind / In My House:
+      It’s Alright:
+   Actually:
+      =: 1987
    Please:
-      <date: 1986
-      <flow: high
+      =:
+         rel: 1986
+         white: no
       West End Girls:
 Peter Frampton:
+   =:
+      Do You Feel Like We Do:
+         flow: 1,678,580
+         link: https://youtu.be/y7rFYbMhcG8
    Frampton’s Camel:
-      <flow: 1,678,580
-      <link: https://youtu.be/y7rFYbMhcG8
+      =:
+         rel: 1973
+         white: yes
       I Got My Eyes on You:
       All Night Long:
       Lines on My Face:
       Which Way the Wind Blows:
-      I Believe (When I Fall in Love With You It Will Be Forever):
+      I Believe:
       White Sugar:
       Don’t Fade Away:
       Just the Time of Year:

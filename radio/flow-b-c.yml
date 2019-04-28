@@ -1482,11 +1482,14 @@ Coldplay:
          white: no
       The Scientist:
 Com Truise:
+   =:
+      Propagation:
+         flow: 812,858
+         link: https://youtu.be/3uI9Hh26OTs
    Iteration:
-      <rel: 2017
-      <<: &low
-         <flow: 881,676
-         <link: https://youtu.be/yergWdn968o
+      =:
+         rel: 2017
+         white: yes
       Of Your Fake Dimension: no
       Ephemeron: no
       Dryswch:
@@ -1500,8 +1503,9 @@ Com Truise:
       When Will You Find the Limit:
       Iteration:
    In Decay:
-      <rel: 2012
-      <white: yes
+      =:
+         rel: 2012
+         white: yes
       Open:
       84’ Dreamin:
       Dreambender:
@@ -1516,8 +1520,9 @@ Com Truise:
       Data Kiss:
       Closed:
    Galactic Melt:
-      <rel: 2011
-      <white: yes
+      =:
+         rel: 2011
+         white: yes
       Terminal: len
       VHS Sex: no
       Cathode Girls: no
@@ -1530,11 +1535,14 @@ Com Truise:
       Futureworld:
       Karova:
 Conjure One:
+   =:
+      Tears From the Moon:
+         flow: 163,821
+         link: https://youtu.be/4w0hHxrj7do
    Extraordinary Ways:
-      <rel: 2005
-      <<: &low
-         <flow: 163,821
-         <link: https://youtu.be/4w0hHxrj7do
+      =:
+         rel: 2005
+         white: yes
       Endless Dream: no
       Face the Music: no
       Pilgrimage: no
@@ -1546,8 +1554,9 @@ Conjure One:
       Forever Lost:
       Into the Escape:
    Conjure One:
-      <rel: 2002
-      <white: yes
+      =:
+         rel: 2002
+         white: yes
       Damascus: len
       Center of the Sun:
       Tears From the Moon:
