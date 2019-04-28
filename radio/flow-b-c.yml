@@ -636,12 +636,14 @@ Blood Orange:
       Dinner: yes
       Bad Girls: yes
 Boards of Canada:
-   <updated: 2019-3-8
+   =:
+      Everything You Do Is a Balloon:
+         flow: 745,274
+         link: https://youtu.be/dQEmaj9C6ko
    Tomorrow’s Harvest:
-      <rel: 2013
-      <<: &low
-         <flow: 745,274
-         <link: https://youtu.be/dQEmaj9C6ko
+      =:
+         rel: 2013
+         white: yes
       Gemini: len
       Reach for the Dead: yes
       White Cyclosa: yes
@@ -660,15 +662,17 @@ Boards of Canada:
       Come to Dust:
       Semena Mertvykh:
    Trans Canada Highway:
-      <rel: 2006
-      <<: *low
+      =:
+         rel: 2006
+         white: yes
       Left Side Drive: yes
       Heard From Telegraph Lines: len
       Skyliner: no
       Under the Coke Sign: len
    The Campfire Headphase:
-      <rel: 2005
-      <<: *low
+      =:
+         rel: 2005
+         white: yes
       Into the Rainbow Vein: len
       Chromakey Dreamcoat: yes
       Satellite Anthem Icarus: yes
@@ -685,8 +689,9 @@ Boards of Canada:
       Tears From the Compound Eye: yes
       Farewell Fire: no
    Geogaddi:
-      <rel: 2002
-      <<: *low
+      =:
+         rel: 2002
+         white: yes
       Ready Lets Go: len
       Music Is Math: yes
       Beware the Friendly Stranger: len
@@ -711,15 +716,17 @@ Boards of Canada:
       Corsair: len
       Magic Window: len
    In a Beautiful Place Out in the Country:
-      <rel: 2000
-      <<: *low
+      =:
+         rel: 2000
+         white: yes
       Kid for Today: yes
       Amo Bishop Roden: yes
       In a Beautiful Place Out in the Country: yes
       Zoetrope: no
    Music Has the Right to Children:
-      <rel: 1998
-      <<: *low
+      =:
+         rel: 1998
+         white: yes
       Wildlife Analysis: len
       An Eagle in Your Mind: yes
       The Color of the Fire: len
@@ -738,8 +745,9 @@ Boards of Canada:
       Open the Light: yes
       One Very Important Thought: len
    Boc Maxima:
-      <rel: 1996
-      <<: *low
+      =:
+         rel: 1996
+         white: yes
       Chinook: no
       Rodox Video: len
       Everything You Do Is a Balloon: yes
@@ -757,12 +765,14 @@ Boards of Canada:
       Original Nlogax: len
       Whitewater: no
 Bonobo:
-   <updated: 2019-02-21
+   =:
+      Kiara:
+         flow: 1,668,464
+         link: https://youtu.be/N7m86aMNjlQ
    Migration:
-      <rel: 2017
-      <<: &low
-         <flow: 1,668,464
-         <link: https://youtu.be/N7m86aMNjlQ
+      =:
+         rel: 2017
+         white: yes
       Migration: no
       Break Apart: no
       Outlier: no
@@ -776,8 +786,9 @@ Bonobo:
       7th Sevens:
       Figures:
    The North Borders:
-      <rel: 2013
-      <<: *low
+      =:
+         rel: 2013
+         white: yes
       First Fires:
       Emkay:
       Cirrus:
@@ -793,7 +804,7 @@ Bonobo:
       Pieces:
    Black Sands:
       <rel: 2010
-      <<: *low
+      <white: yes
       Prelude: len
       Kiara: yes
       Kong: no
@@ -808,7 +819,7 @@ Bonobo:
       Black Sands: yes
    Days to Come:
       <rel: 2006
-      <<: *low
+      <white: yes
       Intro: len
       Days to Come: yes
       Between the Lines:
@@ -829,7 +840,7 @@ Bonobo:
       Hatoa: yes
    Dial 'M' for Monkey:
       <rel: 2003
-      <<: *low
+      <white: yes
       Noctuary: no
       Flutter: yes
       D Song: yes
@@ -841,7 +852,7 @@ Bonobo:
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
       <rel: 2002
-      <<: *low
+      <white: yes
       Dismantling Frank: yes
       The Sicilian: yes
       The Shark: yes
@@ -849,7 +860,7 @@ Bonobo:
       Scuba: yes
    Animal Magic:
       <rel: 2000
-      <<: *low
+      <white: yes
       Intro: len
       Sleepy Seven: yes
       Dinosaurs: no
@@ -893,7 +904,7 @@ Boz Scaggs:
       Thanks to You: yes
    Come On Home:
       <rel: 1997
-      <<: *low
+      <white: yes
       It All Went Down the Drain: no
       Ask Me ’Bout Nothin’ (but the Blues): yes
       Don’t Cry No More:
@@ -914,7 +925,7 @@ Boz Scaggs:
       <rel: 1994
    Other Roads:
       <rel: 1988
-      <<: *low
+      <white: yes
       What’s Number One?: no
       Claudia:
       Heart of Mine:
@@ -983,7 +994,7 @@ Burial:
       Raver:
    Burial:
       <rel: 2006
-      <<: *low
+      <white: yes
       Distant Lights: no
       Spaceape: no
       Wounder: no
@@ -1121,7 +1132,7 @@ Chicago:
       <rel: 1973
    Chicago V:
       <rel: 1972
-      <<: *low
+      <white: yes
       A Hit by Varèse:
       All Is Well:
       Now That You’ve Gone:
@@ -1136,7 +1147,7 @@ Chicago:
       <rel: 1971
    Chicago II:
       <rel: 1969
-      <<: *low
+      <white: yes
       Movin’ In:
       The Road:
       Poem for the People:
@@ -1178,7 +1189,7 @@ Chicane:
       Andromeda: no
    Far From the Maddening Crowds:
       <rel: 1997
-      <<: *low
+      <white: yes
       Early:
       Already There: len
       Offshore (original mix):
@@ -1258,7 +1269,7 @@ Cocteau Twins:
       Seekers Who Are Lovers:
    Four-Calendar Café:
       <rel: 1993
-      <<: *low
+      <white: yes
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:
@@ -1271,7 +1282,7 @@ Cocteau Twins:
       Pur:
    Heaven or Las Vegas:
       <rel: 1990
-      <<: *low
+      <white: yes
       Cherry-Coloured Funk: no
       Pitch the Baby: no
       Iceblink Luck: no
@@ -1284,7 +1295,7 @@ Cocteau Twins:
       Frou-Frou Foxes in Midsummer Fires:
    Blue Bell Knoll:
       <rel: 1988
-      <<: *low
+      <white: yes
       Blue Bell Knoll:
       Athol-Brose: no
       Carolyn’s Fingers:
@@ -1297,7 +1308,7 @@ Cocteau Twins:
       Ella Megalast Burls Forever:
    Victorialand:
       <rel: 1986
-      <<: *low
+      <white: yes
       Lazy Calm: yes
       Fluffy Tufts:
       Throughout the Dark Months of April and May: yes
@@ -1309,14 +1320,14 @@ Cocteau Twins:
       The Thinner the Air:
    Tiny Dynamine:
       <rel: 1985
-      <<: *low
+      <white: yes
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
    Treasure:
       <rel: 1984
-      <<: *low
+      <white: yes
       Ivo: yes
       Lorelei: no
       Beatrix:
@@ -1329,14 +1340,14 @@ Cocteau Twins:
       Donimo:
    Sunburst and Snowblind:
       <rel: 1983
-      <<: *low
+      <white: yes
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
    Head Over Heels:
       <rel: 1983
-      <<: *low
+      <white: yes
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
       Sugar Hiccup: no
@@ -1349,7 +1360,7 @@ Cocteau Twins:
       Musette and Drums:
    Garlands:
       <rel: 1982
-      <<: *low
+      <white: yes
       Blood Bitch: no
       Wax and Wane: no
       But I’m Not: len
@@ -1383,7 +1394,7 @@ Com Truise:
       Iteration:
    In Decay:
       <rel: 2012
-      <<: *low
+      <white: yes
       Open:
       84’ Dreamin:
       Dreambender:
@@ -1399,7 +1410,7 @@ Com Truise:
       Closed:
    Galactic Melt:
       <rel: 2011
-      <<: *low
+      <white: yes
       Terminal: len
       VHS Sex: no
       Cathode Girls: no
@@ -1429,7 +1440,7 @@ Conjure One:
       Into the Escape:
    Conjure One:
       <rel: 2002
-      <<: *low
+      <white: yes
       Damascus: len
       Center of the Sun:
       Tears From the Moon:
@@ -1483,7 +1494,7 @@ Crazy P:
       Witch Doctor:
    When We On:
       <rel: 2011
-      <<: *low
+      <white: yes
       Open for Service:
       Changes:
       Beatbox:
