@@ -396,12 +396,14 @@ Disturbed:
       The Game:
       Voices:
 Doe Paoro:
-   Soft Power:
-      =: 2018
+   =:
+      The Wind:
+         flow: 40,570
+         link: https://youtu.be/HuRU2v6Moak
    After:
-      =: 2015
-      <flow: 44,669
-      <link: https://youtu.be/HuRU2v6Moak
+      =:
+         rel: 2015
+         white: yes
       Traveling: yes
       Nostalgia: no
       Growth/Decay: yes
@@ -413,8 +415,9 @@ Doe Paoro:
       Regret:
       Wake Up in Nowhere:
    Slow to Love:
-      =: 2012
-      <white: yes
+      =:
+         rel: 2012
+         white: yes
       Intro: len
       Born Whole: no
       I’ll Go Blind: no
@@ -425,9 +428,14 @@ Doe Paoro:
       Follow You Til: len
       Soft but Strong: len
 Don Henley:
+   =:
+      Dirty Laundry:
+         flow: 279,121
+         link: https://youtu.be/YHimia_Fxzs
    I Can’t Stand Still:
-      <flow: 231,472
-      <link: https://youtu.be/YHimia_Fxzs
+      =:
+         rel: 1982
+         white: yet
       I Can’t Stand Still:
       You Better Hang Up:
       Long Way Home:
@@ -440,15 +448,24 @@ Don Henley:
       Lilah:
       The Unclouded Day:
 Dr. Dre:
+   =:
+      Nuthin’ but a G Thang:
+         flow: 4,584,395
+         link: https://youtu.be/0F0CAEoF4XM
+      Still D.R.E.:
+         flow: 82,605,839
+         link: https://youtu.be/_CL6n0FJZpk
    2001:
-      <flow: 80,664,414
-      <link: https://youtu.be/_CL6n0FJZpk
+      =:
+         rel: 1999
+         white: no
       Forgot About Dre:
       Still D.R.E:
       The Next Episode:
    The Chronic:
-      <flow: 4,208,038
-      <link: https://youtu.be/0F0CAEoF4XM
+      =:
+         rel: 1992
+         white: yes
       The Chronic (intro): len
       Fuck Wit Dre Day (And Everybody’s Celebratin’):
       Let Me Ride:
@@ -466,10 +483,31 @@ Dr. Dre:
       The Roach (The Chronic Outro):
       Bitches Ain’t Shit:
 Duke Ellington:
+   =:
+      It don’t mean a thing:
+         flow: 911,897
+         link: https://youtu.be/qDQpZT3GhDg
+   Money Jungle:
+      =:
+         rel: 1962
+         white: yet
+      Money Jungle:
+      Fleurette Africaine: yes
+      Very Special:
+      Warm Valley: yes
+      Wig Wise:
+      Caravan:
+      Solitude: yes
+   Duke Ellington Meets Coleman Hawkins:
+      =: 1962
+   Recording Together for the First Time:
+      =: 1961
+   Piano in the Foreground:
+      =: 1961
    First Time! The Count Meets the Duke:
-      <<: &low
-         <flow: 906,561
-         <link: https://youtu.be/qDQpZT3GhDg
+      =:
+         rel: 1961
+         white: yes
       Battle Royal:
       To You: yes
       Take the “A” Train:
@@ -478,15 +516,6 @@ Duke Ellington:
       Segue in C:
       B D B:
       Jumpin’ at the Woodside:
-   Money Jungle:
-      <white: yes
-      Money Jungle:
-      Fleurette Africaine: yes
-      Very Special:
-      Warm Valley: yes
-      Wig Wise:
-      Caravan:
-      Solitude: yes
 Duran Duran:
    Notorious:
       <flow: 4,150,973

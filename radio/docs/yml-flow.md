@@ -54,6 +54,23 @@ Goldfrapp:
       Clowns: yes
 ~~~
 
+This syntax does have the drawback of introducing extra lines. A workaround
+would be nested lists:
+
+~~~yml
+Goldfrapp:
+- - title: Clowns
+    link: https://youtu.be/aCQO7lUfT0A
+    flow: 5,419
+    white: now
+- Seventh Tree:
+  - - rel: 2008
+      white: yes
+  - Clowns: yes
+~~~
+
+but it only works with spacing multiples of 2.
+
 White
 -----
 
