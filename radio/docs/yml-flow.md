@@ -69,7 +69,33 @@ Goldfrapp:
   - Clowns: yes
 ~~~
 
-but it only works with spacing multiples of 2.
+but it only works with spacing multiples of 2. Another method would be to
+prepend a special character. Some examples:
+
+~~~yml
+Goldfrapp:
+   -Clowns:
+      link: https://youtu.be/aCQO7lUfT0A
+      flow: 5,419
+      white: now
+   Seventh Tree:
+      $rel: 2008
+      .rel: 2008
+      /rel: 2008
+      ;rel: 2008
+      ?rel: 2008
+      ^rel: 2008
+      _rel: 2008
+      ~rel: 2008
+      +rel: 2008
+      <rel: 2008
+      =rel: 2008
+      -rel: 2008
+      -white: yes
+      Clowns: yes
+~~~
+
+but this might be confusing as it puts songs on the same level as albums.
 
 White
 -----

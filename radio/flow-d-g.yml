@@ -748,16 +748,24 @@ Empress Of:
       14: len
       15: len
 Enya:
+   =:
+      Only Time:
+         flow: 12,250,684
+         link: https://youtu.be/7wfYIMyS_dI
    A Day Without Rain:
-      <flow: 11,630,928
-      <link: https://youtu.be/7wfYIMyS_dI
+      =:
+         rel: 2000
+         white: no
       Only Time:
 Everything but the Girl:
+   =:
+      Missing:
+         flow: 2,556,051
+         link: https://youtu.be/Q4sPkS8b62Q
    Temperamental:
-      <rel: 1999
-      <<: &low
-         <flow: 2,678,591
-         <link: https://youtu.be/Q4sPkS8b62Q
+      =:
+         rel: 1999
+         white: yes
       Five Fathoms: yes
       Low Tide of the Night:
       Blame:
@@ -769,10 +777,11 @@ Everything but the Girl:
       No Difference:
       The Future of the Future (Stay Gold):
    Walking Wounded:
-      <rel: 1996
+      rel: 1996
    Amplified Heart:
-      <rel: 1994
-      <white: yes
+      =:
+         rel: 1994
+         white: yes
       Rollercoaster:
       Troubled Mind:
       I Don’t Understand Anything:
@@ -784,8 +793,9 @@ Everything but the Girl:
       25th December:
       Disenchanted: len
    Acoustic:
-      <rel: 1992
-      <white: yes
+      =:
+         rel: 1992
+         white: yes
       Love Is Strange:
       Tougher Than the Rest:
       Time After Time:
@@ -798,8 +808,9 @@ Everything but the Girl:
       Come On Home:
       Fascination (live):
    Worldwide:
-      <rel: 1991
-      <white: yes
+      =:
+         rel: 1991
+         white: yes
       Old Friends:
       Understanding:
       You Lift Me Up:
@@ -812,8 +823,9 @@ Everything but the Girl:
       Boxing and Pop Music:
       Feel Alright: len
    The Language of Life:
-      <rel: 1990
-      <white: yes
+      =:
+         rel: 1990
+         white: yes
       Driving: yes
       Get Back Together:
       Meet Me in the Morning:
