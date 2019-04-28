@@ -1,33 +1,56 @@
 2Pac:
+   =:
+      California Love:
+         flow: 32,946,485
+         link: https://youtu.be/5wBTdfAkqGU
+      Dear Mama:
+         flow: 25,438,271
+         link: https://youtu.be/Mb1ZvUDvLDY
+      Ghetto Gospel:
+         flow: 15,367,852
+         link: https://youtu.be/Do5MMmEygsY
+      I Get Around:
+         flow: 7,276,027
+         link: https://youtu.be/YqJAnQTwmJs
+   Loyal to the Game:
+      =:
+         release: 2004
+         white: no
+      Ghetto Gospel:
+   Better Dayz:
+      =: 2002
+   Until the End of Time:
+      =: 2001
+   Still I Rise:
+      =: 1999
+   R U Still Down? [Remember Me]:
+      =: 1997
    All Eyez on Me:
-      <flow: 32,946,485
-      <link: https://youtu.be/5wBTdfAkqGU
+      =:
+         release: 1996
+         white: no
       2 of Amerikaz Most Wanted:
       California Love:
       Life Goes On:
-   Loyal to the Game:
-      <flow: 15,367,852
-      <link: https://youtu.be/Do5MMmEygsY
-      Ghetto Gospel:
    Me Against the World:
-      <flow: 25,438,271
-      <link: https://youtu.be/Mb1ZvUDvLDY
+      =:
+         release: 1995
+         white: no
       Dear Mama:
-   Strictly 4 My N.I.G.G.A.Z.:
-      <flow: 7,276,027
-      <link: https://youtu.be/YqJAnQTwmJs
+   Strictly 4 My N.I.G.G.A.Z…:
+      =:
+         release: 1993
+         white: no
       I Get Around:
-   The Don Killuminati The 7 Day Theory:
-      <flow: 14,194,540
-      <link: https://youtu.be/nkJA6SYwa94
-      Hail Mary:
 9 Lazy 9:
-   <updated: 2019-3-3
+   =:
+      Black Jesus:
+         flow: 10,137
+         link: https://youtu.be/A6S_vJ7G0R0
    Bedsofaland:
-      <date: 2009
-      <<: &low
-         <flow: 10,137
-         <link: https://youtu.be/A6S_vJ7G0R0
+      =:
+         release: 2009
+         white: yes
       Hotwire: len
       Russian Spring: len
       Endless:
@@ -42,8 +65,9 @@
       Free D: len
       Slow Plus:
    Sweet Jones:
-      <date: 2003
-      <<: *low
+      =:
+         release: 2003
+         white: yes
       The Woodworm: yes
       Code 3: no
       Sunday Monday: yes
@@ -57,8 +81,9 @@
       The Flying Nun:
       The Last of the West:
    Electric Lazyland:
-      <date: 1994
-      <<: *low
+      =:
+         release: 1994
+         white: yes
       Life Goes On & On: no
       Electric Lazyland: no
       Skarakesh: no
@@ -77,8 +102,9 @@
       Roughport Invention:
       Golden Oldie: len
    Paradise Blown:
-      <date: 1994
-      <<: *low
+      =:
+         release: 1994
+         white: yes
       500 am: yes
       Shak: no
       Turn Me Loose: no

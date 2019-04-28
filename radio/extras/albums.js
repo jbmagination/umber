@@ -9,10 +9,8 @@ qa('tr', qo('tbody')).forEach(ae => {
    with a "class" */
    var oq = qa('td', ae);
    var rv = oq.findIndex(ae => ae.className);
-   np.unshift(
-      '   ' + oq[rv + 1].textContent + ':',
-      '      <date: ' + oq[rv].textContent
-   );
+   np.unshift('      =: ' + oq[rv].textContent);
+   np.unshift('   ' + oq[rv + 1].textContent + ':');
 });
 
 var sx = document.createElement('textarea');
@@ -23,5 +21,4 @@ sx.style.position = 'fixed';
 sx.style.right = sx.style.top = 0;
 sx.style.zIndex = 6;
 sx.textContent = np.join('\n');
-
 document.body.append(sx);

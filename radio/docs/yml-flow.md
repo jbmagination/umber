@@ -1,11 +1,6 @@
 YAML flow
 =========
 
-Low
------
-
-https://youtu.be/kcPc18SG6uA
-
 Query
 -----
 
@@ -58,6 +53,11 @@ Goldfrapp:
          white: yes
       Clowns: yes
 ~~~
+
+White
+-----
+
+https://youtu.be/kcPc18SG6uA
 
 References
 ----------
