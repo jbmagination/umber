@@ -14,7 +14,7 @@
          link: https://youtu.be/YqJAnQTwmJs
    Loyal to the Game:
       =:
-         release: 2004
+         rel: 2004
          white: no
       Ghetto Gospel:
    Better Dayz:
@@ -23,23 +23,23 @@
       =: 2001
    Still I Rise:
       =: 1999
-   R U Still Down? [Remember Me]:
+   R U Still Down?:
       =: 1997
    All Eyez on Me:
       =:
-         release: 1996
+         rel: 1996
          white: no
       2 of Amerikaz Most Wanted:
       California Love:
       Life Goes On:
    Me Against the World:
       =:
-         release: 1995
+         rel: 1995
          white: no
       Dear Mama:
    Strictly 4 My N.I.G.G.A.Z…:
       =:
-         release: 1993
+         rel: 1993
          white: no
       I Get Around:
 9 Lazy 9:
@@ -49,7 +49,7 @@
          link: https://youtu.be/A6S_vJ7G0R0
    Bedsofaland:
       =:
-         release: 2009
+         rel: 2009
          white: yes
       Hotwire: len
       Russian Spring: len
@@ -66,7 +66,7 @@
       Slow Plus:
    Sweet Jones:
       =:
-         release: 2003
+         rel: 2003
          white: yes
       The Woodworm: yes
       Code 3: no
@@ -82,7 +82,7 @@
       The Last of the West:
    Electric Lazyland:
       =:
-         release: 1994
+         rel: 1994
          white: yes
       Life Goes On & On: no
       Electric Lazyland: no
@@ -103,7 +103,7 @@
       Golden Oldie: len
    Paradise Blown:
       =:
-         release: 1994
+         rel: 1994
          white: yes
       500 am: yes
       Shak: no
@@ -123,9 +123,14 @@
       Gossip / Bad Boy: len
       Lotto Jisco: no
 Aaliyah:
+   =:
+      One in a Million:
+         flow: 4,349,375
+         link: https://youtu.be/VKbWF1jwMhE
    Aaliyah:
-      <flow: 4,349,375
-      <link: https://youtu.be/VKbWF1jwMhE
+      =:
+         rel: 2001
+         white: yes
       We Need a Resolution: yes
       Loose Rap:
       Rock the Boat:
@@ -141,62 +146,82 @@ Aaliyah:
       Those Were the Days:
       What If:
 Aerosmith:
+   =:
+      Angel:
+         flow: 10,621,283
+         link: https://youtu.be/CBTOGVb_cQg
+      Crazy:
+         flow: 50,729,923
+         link: https://youtu.be/NMNgbISmF4I
+      Cryin’:
+         flow: 23,633,799
+         link: https://youtu.be/qfNmyxV2Ncw
+      Dream On:
+         flow: 8,369,719
+         link: https://youtu.be/O0oQCmnvvl0
+      Hole in My Soul:
+         flow: 7,324,282
+         link: https://youtu.be/HaC0s-FP-r4
+      Walk This Way:
+         flow: 7,394,905
+         link: https://youtu.be/4B_UYYPb-Gk
    Nine Lives:
-      <date: 1997
-      <flow: 7,324,282
-      <link: https://youtu.be/HaC0s-FP-r4
+      =:
+         rel: 1997
+         white: no
       Hole in My Soul:
    Get a Grip:
-      <date: 1993
-      <flow: 50,729,923
-      <link: https://youtu.be/NMNgbISmF4I
+      =:
+         rel: 1993
+         white: no
       Amazing:
       Crazy:
       Livin’ on the Edge:
    Pump:
-      <date: 1989
-      <flow: 23,633,799
-      <link: https://youtu.be/qfNmyxV2Ncw
+      =:
+         rel: 1989
+         white: no
       Cryin’:
       Janie’s Got a Gun:
       Love in an Elevator:
    Permanent Vacation:
-      <date: 1987
-      <flow: 10,621,283
-      <link: https://youtu.be/CBTOGVb_cQg
+      =:
+         rel: 1987
+         white: no
       Angel:
       Dude:
       Rag Doll:
    Done With Mirrors:
-      <date: 1985
+      =: 1985
    Rock in a Hard Place:
-      <date: 1982
+      =: 1982
    Night in the Ruts:
-      <date: 1979
+      =: 1979
    Draw the Line:
-      <date: 1977
+      =: 1977
    Rocks:
-      <date: 1976
+      =: 1976
    Toys in the Attic:
-      <date: 1975
-      <flow: 7,394,905
-      <link: https://youtu.be/4B_UYYPb-Gk
+      =:
+         rel: 1975
+         white: no
       Walk This Way:
    Get Your Wings:
-      <date: 1974
+      =: 1974
    Aerosmith:
-      <date: 1973
-      <flow: 8,369,719
-      <link: https://youtu.be/O0oQCmnvvl0
+      =:
+         rel: 1973
+         white: no
       Dream On:
 Air:
-   <low:
+   =:
       Alone In Kyoto:
-         <flow: 1,402,647
-         <link: https://youtu.be/XUjAtYQkFm8
+         flow: 1,402,647
+         link: https://youtu.be/XUjAtYQkFm8
    Music for Museum:
-      <date: 2014
-      <flow: low
+      =:
+         rel: 2014
+         white: yes
       Land Me: no
       Reverse Bubble: no
       The Dream of Yi:
@@ -207,8 +232,9 @@ Air:
       Octogum:
       North Cloud:
    Love 2:
-      <date: 2009
-      <flow: low
+      =:
+         <rel: 2009
+         <flow: low
       Do the Joy:
       Love: len
       So Light Is Her Footfall:
@@ -222,8 +248,9 @@ Air:
       You Can Tell It to Everybody:
       African Velvet: yes
    Pocket Symphony:
-      <date: 2006
-      <flow: low
+      =:
+         <rel: 2006
+         <flow: low
       Space Maker:
       Once Upon a Time:
       One Hell of a Party:
@@ -238,8 +265,9 @@ Air:
       Night Sight:
       Time Capsule:
    Talkie Walkie:
-      <date: 2004
-      <flow: low
+      =:
+         <rel: 2004
+         <flow: low
       Venus:
       Cherry Blossom Girl:
       Run:
@@ -252,8 +280,9 @@ Air:
       Alone in Kyoto: yes
       Easy Going Woman:
    10 000 Hz Legend:
-      <date: 2001
-      <flow: low
+      =:
+         <rel: 2001
+         <flow: low
       Electronic Performers: no
       How Does It Make You Feel?: no
       Radio 1: no
@@ -266,8 +295,9 @@ Air:
       Don’t Be Light:
       Caramel Prisoner:
    Moon Safari:
-      <date: 1998
-      <flow: low
+      =:
+         <rel: 1998
+         <flow: low
       La Femme d’argent: yes
       Sexy Boy: no
       All I Need: yes
@@ -279,8 +309,9 @@ Air:
       New Star in the Sky (Chanson pour Solal): no
       Le Voyage de Pénélope: yes
    Premiers Symptômes:
-      <date: 1997
-      <flow: low
+      =:
+         <rel: 1997
+         <flow: low
       Modular Mix: yes
       Casanova 70: yes
       Les Professionnels: yes
@@ -295,15 +326,15 @@ Alannah Myles:
       Black Velvet:
 Aleksi Perälä:
    Mental Union 2:
-      <date: 2014
+      <rel: 2014
    The Colundi Sequence Level 4:
-      <date: 2014
+      <rel: 2014
    The Colundi Sequence Level 2:
-      <date: 2014
+      <rel: 2014
    The Colundi Sequence Level 1:
-      <date: 2014
+      <rel: 2014
    Ovuca Bonus:
-      <date: 2014
+      <rel: 2014
       <flow: 8,996
       <link: https://youtu.be/hs342lcjGAk
       Transport Phenomenon:
@@ -323,7 +354,7 @@ Alela Diane:
          <flow: 154,689
          <link: https://youtu.be/SpwSxHiiNSw
    To Be Still:
-      <date: 2009
+      <rel: 2009
       <flow: low
       Dry Grass & Shadows:
       White as Diamonds:
@@ -338,19 +369,19 @@ Alela Diane:
       Lady Divine:
 Alice in Chains:
    Rainier Fog:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 5,293,687
          <link: https://youtu.be/352RBWh6ViU
       The One You Know:
    The Devil Put Dinosaurs Here:
-      <date: 2013
+      <rel: 2013
    Black Gives Way to Blue:
-      <date: 2009
+      <rel: 2009
    Alice in Chains:
-      <date: 1995
+      <rel: 1995
    Jar of Flies:
-      <date: 1994
+      <rel: 1994
       <<: *low
       Rotten Apple: yes
       Nutshell: yes
@@ -360,7 +391,7 @@ Alice in Chains:
       Don’t Follow:
       Swing on This:
    Dirt:
-      <date: 1992
+      <rel: 1992
       <flow: 7,027,889
       <link: https://youtu.be/Nco_kh8xJDs
       Down in a Hole:
@@ -368,7 +399,7 @@ Alice in Chains:
       Them Bones:
       Would?:
    Facelift:
-      <date: 1990
+      <rel: 1990
       <flow: 8,302,402
       <link: https://youtu.be/TAqZb52sgpU
       Man in the Box:
@@ -383,7 +414,7 @@ America:
          <flow: 4,145,926
          <link: https://youtu.be/zSAJ0l4OBHM
    Homecoming:
-      <date: 1972-11-15
+      <rel: 1972-11-15
       <flow: low
       Ventura Highway: yes
       To Each His Own:
@@ -396,7 +427,7 @@ America:
       California Revisited:
       Saturn Nights:
    America:
-      <date: 1971-12-26
+      <rel: 1971-12-26
       <flow: low
       Riverside:
       Sandman:
@@ -416,7 +447,7 @@ Amon Tobin:
          <flow: 184,337
          <link: https://youtu.be/1jaRA6nGyUg
    ISAM:
-      <date: 2011
+      <rel: 2011
       <flow: low
       Journeyman: no
       Piece of Paper: len
@@ -431,7 +462,7 @@ Amon Tobin:
       Night Swim:
       Dropped From the Sky:
    Foley Room:
-      <date: 2007
+      <rel: 2007
       <flow: low
       Bloodstone: yes
       Esther’s:
@@ -446,7 +477,7 @@ Amon Tobin:
       Straight Psyche: yes
       At the End of the Day:
    Out From Out Where:
-      <date: 2002
+      <rel: 2002
       <flow: low
       Back From Space: no
       Verbal: no
@@ -460,7 +491,7 @@ Amon Tobin:
       Proper Hoodidge: no
       Mighty Micro People: yes
    Supermodified:
-      <date: 2000
+      <rel: 2000
       <flow: low
       Get Your Snack On: yes
       Four Ton Mantis: yes
@@ -475,7 +506,7 @@ Amon Tobin:
       Keepin’ It Steel (The Anvil Track): yes
       Natureland: yes
    Permutation:
-      <date: 1998
+      <rel: 1998
       <flow: low
       Like Regular Chickens:
       Bridge: yes
@@ -490,7 +521,7 @@ Amon Tobin:
       Toys:
       Nova: yes
    Bricolage:
-      <date: 1997
+      <rel: 1997
       <flow: low
       Stoney Street: yes
       Easy Muffin: yes
@@ -523,12 +554,12 @@ Amy Grant:
       Hope Set High: len
 Audioslave:
    Out of Exile:
-      <date: 2005
+      <rel: 2005
       <flow: 13,995,809
       <link: https://youtu.be/WC5FdFlUcl0
       Be Yourself:
    Audioslave:
-      <date: 2002
+      <rel: 2002
       <flow: 47,408,565
       <link: https://youtu.be/7QU1nvuxaMA
       Cochise:
@@ -536,7 +567,7 @@ Audioslave:
       Show Me How to Live:
 Autechre:
    Exai:
-      <date: 2013
+      <rel: 2013
       <<: &low
          <flow: 111,359
          <link: https://youtu.be/hWGUnrIiOoI
@@ -558,9 +589,9 @@ Autechre:
       recks on: no
       YJY UX: no
    ah³eo & ha³oe (ae3o3):
-      <date: 2011
+      <rel: 2011
    Oversteps:
-      <date: 2010
+      <rel: 2010
       <<: *low
       r ess: yes
       ilanders:
@@ -577,7 +608,7 @@ Autechre:
       krYlon:
       Yuop: yes
    Quaristice:
-      <date: 2008
+      <rel: 2008
       <<: *low
       Altibzz: yes
       The Plc: no
@@ -600,7 +631,7 @@ Autechre:
       Notwo: yes
       Outh9X: no
    Untilted:
-      <date: 2005
+      <rel: 2005
       <<: *low
       LCC: no
       Ipacial Section: no
@@ -611,7 +642,7 @@ Autechre:
       The Trees:
       Sublimit:
    Draft 7.30:
-      <date: 2003
+      <rel: 2003
       <<: *low
       Xylin Room:
       IV VV IV VV VIII:
@@ -624,7 +655,7 @@ Autechre:
       V-PROC:
       Reniform Puls:
    Confield:
-      <date: 2001
+      <rel: 2001
       <<: *low
       VI Scose Poise: no
       Cfern: no
@@ -636,7 +667,7 @@ Autechre:
       Uviol:
       Lentic Catachresis:
    EP7:
-      <date: 1999
+      <rel: 1999
       <<: *low
       Rpeg:
       Ccec:
@@ -650,7 +681,7 @@ Autechre:
       Netlon Sentinel:
       Pir:
    LP5:
-      <date: 1998
+      <rel: 1998
       <<: *low
       Acroyear2: no
       777: no
@@ -664,7 +695,7 @@ Autechre:
       Arch Carrier:
       Drane2:
    Chiastic Slide:
-      <date: 1997
+      <rel: 1997
       <<: *low
       Cipater: no
       Rettic AC: len
@@ -676,7 +707,7 @@ Autechre:
       Pule:
       Nuane:
    Tri Repetae:
-      <date: 1995
+      <rel: 1995
       <<: *low
       Dael:
       Clipper:
@@ -689,7 +720,7 @@ Autechre:
       Overand: yes
       Rsdio:
    Amber:
-      <date: 1994
+      <rel: 1994
       <<: *low
       Foil: no
       Montreal: no
@@ -703,7 +734,7 @@ Autechre:
       Nil: yes
       Teartear: no
    Incunabula:
-      <date: 1993
+      <rel: 1993
       <<: *low
       Kalpol Introl: yes
       Bike: yes
