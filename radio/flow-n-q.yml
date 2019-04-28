@@ -731,22 +731,32 @@ Peter Frampton:
       Just the Time of Year:
       Do You Feel Like We Do: yes
 Phil Collins:
+   =:
+      Another Day in Paradise:
+         flow: 28,886,074
+         link: https://youtu.be/Qt2mbGP6vFI
+      In the Air Tonight:
+         flow: 19,622,622
+         link: https://youtu.be/YkADj0TPrJA
+      One More Night:
+         flow: 6,375,300
+         link: https://youtu.be/zKVq-P3z5Vg
    But Seriously:
-      <date: 1989
-      <flow: 28,886,074
-      <link: https://youtu.be/Qt2mbGP6vFI
+      =:
+         rel: 1989
+         white: no
       Another Day in Paradise:
    No Jacket Required:
-      <date: 1985
-      <flow: 6,375,300
-      <link: https://youtu.be/zKVq-P3z5Vg
+      =:
+         rel: 1985
+         white: no
       One More Night:
    Hello, I Must Be Going!:
-      <date: 1982
+      =: 1982
    Face Value:
-      <date: 1981
-      <flow: 19,622,622
-      <link: https://youtu.be/YkADj0TPrJA
+      =:
+         rel: 1981
+         white: no
       In the Air Tonight:
 Pink Floyd:
    A Momentary Lapse of Reason:
