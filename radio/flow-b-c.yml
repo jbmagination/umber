@@ -803,8 +803,9 @@ Bonobo:
       Transits:
       Pieces:
    Black Sands:
-      <rel: 2010
-      <white: yes
+      =:
+         rel: 2010
+         white: yes
       Prelude: len
       Kiara: yes
       Kong: no
@@ -818,8 +819,9 @@ Bonobo:
       Animals: yes
       Black Sands: yes
    Days to Come:
-      <rel: 2006
-      <white: yes
+      =:
+         rel: 2006
+         white: yes
       Intro: len
       Days to Come: yes
       Between the Lines:
@@ -839,8 +841,9 @@ Bonobo:
       Walk in the Sky (instrumental): yes
       Hatoa: yes
    Dial 'M' for Monkey:
-      <rel: 2003
-      <white: yes
+      =:
+         rel: 2003
+         white: yes
       Noctuary: no
       Flutter: yes
       D Song: yes
@@ -851,16 +854,18 @@ Bonobo:
       Nothing Owed: yes
       Light Pattern: yes
    One Offs... Remixes & B-Sides:
-      <rel: 2002
-      <white: yes
+      =:
+         rel: 2002
+         white: yes
       Dismantling Frank: yes
       The Sicilian: yes
       The Shark: yes
       Magicman: yes
       Scuba: yes
    Animal Magic:
-      <rel: 2000
-      <white: yes
+      =:
+         rel: 2000
+         white: yes
       Intro: len
       Sleepy Seven: yes
       Dinosaurs: no
@@ -872,25 +877,35 @@ Bonobo:
       Sugar Rhyme: no
       Silver: yes
 Boyz II Men:
+   =:
+      End Of The Road:
+         flow: 13,061,094
+         link: https://youtu.be/zDKO6XYXioc
+      I’ll Make Love To You:
+         flow: 12,910,607
+         link: https://youtu.be/fV8vB1BB2qc
    II:
-      <rel: 1994
-      <flow: 12,910,607
-      <link: https://youtu.be/fV8vB1BB2qc
+      =:
+         rel: 1994
+         white: no
       I’ll Make Love To You:
       On Bended Knee:
    Christmas Interpretations:
-      <rel: 1993
+      =: 1993
    Cooleyhighharmony:
-      <rel: 1991
-      <flow: 13,061,094
-      <link: https://youtu.be/zDKO6XYXioc
+      =:
+         rel: 1991
+         white: no
       End Of The Road:
 Boz Scaggs:
+   =:
+      Lowdown:
+         flow: 1,517,370
+         link: https://youtu.be/I-hKBmTAADo
    Dig:
-      <rel: 2001
-      <<: &low
-         <flow: 1,517,370
-         <link: https://youtu.be/I-hKBmTAADo
+      =:
+         rel: 2001
+         white: yes
       Payday:
       Sarah:
       Miss Riddle:
@@ -903,8 +918,9 @@ Boz Scaggs:
       Vanishing Point:
       Thanks to You: yes
    Come On Home:
-      <rel: 1997
-      <white: yes
+      =:
+         rel: 1997
+         white: yes
       It All Went Down the Drain: no
       Ask Me ’Bout Nothin’ (but the Blues): yes
       Don’t Cry No More:
@@ -920,12 +936,13 @@ Boz Scaggs:
       After Hours:
       Goodnight Louise:
    Fade Into Light:
-      <rel: 1996
+      =: 1996
    Some Change:
-      <rel: 1994
+      =: 1994
    Other Roads:
-      <rel: 1988
-      <white: yes
+      =:
+         rel: 1988
+         white: yes
       What’s Number One?: no
       Claudia:
       Heart of Mine:
@@ -938,14 +955,24 @@ Boz Scaggs:
       Cool Running:
       The Night of Van Gogh:
 Britney Spears:
+   =:
+      Break The Ice:
+         flow: 6,923,872
+         link: https://youtu.be/eQFIKP9rGhQ
    Blackout:
-      <flow: 6,923,872
-      <link: https://youtu.be/eQFIKP9rGhQ
+      =:
+         rel: 2007
+         white: no
       Break The Ice:
 Bruce Hornsby:
+   =:
+      The Way It Is:
+         flow: 3,449,438
+         link: https://youtu.be/cOeKidp-iWo
    Harbor Lights:
-      <flow: 3,449,438
-      <link: https://youtu.be/cOeKidp-iWo
+      =:
+         rel: 1993
+         white: yes
       Harbor Lights:
       Talk of the Town:
       Long Tall Cool One:
@@ -956,10 +983,14 @@ Bruce Hornsby:
       The Tide Will Rise:
       What a Time:
       Pastures of Plenty:
-Bruce Hornsby & The Range:
+   A Night on the Town:
+      =: 1990
+   Scenes From the Southside:
+      =: 1988
    The Way It Is:
-      <flow: 3,449,438
-      <link: https://youtu.be/cOeKidp-iWo
+      =:
+         rel: 1986
+         white: yes
       On the Western Skyline:
       Every Little Kiss:
       Mandolin Rain:
