@@ -35,7 +35,7 @@ For album metadata, we need to include:
 
 entity | attribute | value
 -------|-----------|----------
-1      | release   | timestamp
+1      | rel       | timestamp
 2      | white     | bool
 
 Result:
@@ -49,7 +49,7 @@ Goldfrapp:
          white: now
    Seventh Tree:
       =:
-         release: 2008
+         rel: 2008
          white: yes
       Clowns: yes
 ~~~

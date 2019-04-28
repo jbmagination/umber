@@ -416,18 +416,24 @@ Alice in Chains:
          white: no
       Man in the Box:
 Alicia Keys:
+   =:
+      Fallin’:
+         flow: 17,037,786
+         link: https://youtu.be/Urdlvw0SSEc
    Songs in A Minor:
-      <flow: 17,037,786
-      <link: https://youtu.be/Urdlvw0SSEc
+      =:
+         rel: 2001
+         white: no
       Fallin’:
 America:
-   <low:
+   =:
       A Horse With No Name:
-         <flow: 4,145,926
-         <link: https://youtu.be/zSAJ0l4OBHM
+         flow: 4,145,926
+         link: https://youtu.be/zSAJ0l4OBHM
    Homecoming:
-      <rel: 1972-11-15
-      <white: yes
+      =:
+         rel: 1972-11-15
+         white: yes
       Ventura Highway: yes
       To Each His Own:
       Don’t Cross the River: len
@@ -439,8 +445,9 @@ America:
       California Revisited:
       Saturn Nights:
    America:
-      <rel: 1971-12-26
-      <white: yes
+      =:
+         rel: 1971-12-26
+         white: yes
       Riverside:
       Sandman:
       Three Roses:
@@ -454,13 +461,14 @@ America:
       Donkey Jaw:
       Pigeon Song: len
 Amon Tobin:
-   <low:
+   =:
       At the End of the Day:
-         <flow: 184,337
-         <link: https://youtu.be/1jaRA6nGyUg
+         flow: 184,337
+         link: https://youtu.be/1jaRA6nGyUg
    ISAM:
-      <rel: 2011
-      <white: yes
+      =:
+         rel: 2011
+         white: yes
       Journeyman: no
       Piece of Paper: len
       Goto 10: no
@@ -474,8 +482,9 @@ Amon Tobin:
       Night Swim:
       Dropped From the Sky:
    Foley Room:
-      <rel: 2007
-      <white: yes
+      =:
+         rel: 2007
+         white: yes
       Bloodstone: yes
       Esther’s:
       Keep Your Distance:
@@ -489,8 +498,9 @@ Amon Tobin:
       Straight Psyche: yes
       At the End of the Day:
    Out From Out Where:
-      <rel: 2002
-      <white: yes
+      =:
+         rel: 2002
+         white: yes
       Back From Space: no
       Verbal: no
       Chronic Tronic: no
@@ -503,8 +513,9 @@ Amon Tobin:
       Proper Hoodidge: no
       Mighty Micro People: yes
    Supermodified:
-      <rel: 2000
-      <white: yes
+      =:
+         rel: 2000
+         white: yes
       Get Your Snack On: yes
       Four Ton Mantis: yes
       Slowly: yes
@@ -518,8 +529,9 @@ Amon Tobin:
       Keepin’ It Steel (The Anvil Track): yes
       Natureland: yes
    Permutation:
-      <rel: 1998
-      <white: yes
+      =:
+         rel: 1998
+         white: yes
       Like Regular Chickens:
       Bridge: yes
       Reanimator:
@@ -533,8 +545,9 @@ Amon Tobin:
       Toys:
       Nova: yes
    Bricolage:
-      <rel: 1997
-      <white: yes
+      =:
+         rel: 1997
+         white: yes
       Stoney Street: yes
       Easy Muffin: yes
       Yasawas:
@@ -550,9 +563,14 @@ Amon Tobin:
       One Small Step:
       Mission:
 Amy Grant:
+   =:
+      Baby, Baby:
+         flow: 857,822
+         link: https://youtu.be/vMXuuYnoRdI
    Heart in Motion:
-      <flow: 857,822
-      <link: https://youtu.be/vMXuuYnoRdI
+      =:
+         rel: 1991
+         white: yes
       Good for Me:
       Baby Baby: yes
       Every Heartbeat:
@@ -565,15 +583,22 @@ Amy Grant:
       How Can We See That Far:
       Hope Set High: len
 Audioslave:
+   =:
+      Be Yourself:
+         flow: 13,995,809
+         link: https://youtu.be/WC5FdFlUcl0
+      Like a Stone:
+         flow: 47,408,565
+         link: https://youtu.be/7QU1nvuxaMA
    Out of Exile:
-      <rel: 2005
-      <flow: 13,995,809
-      <link: https://youtu.be/WC5FdFlUcl0
+      =:
+         rel: 2005
+         white: no
       Be Yourself:
    Audioslave:
-      <rel: 2002
-      <flow: 47,408,565
-      <link: https://youtu.be/7QU1nvuxaMA
+      =:
+         <rel: 2002
+         white: no
       Cochise:
       Like a Stone:
       Show Me How to Live:
