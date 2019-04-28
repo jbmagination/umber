@@ -548,10 +548,14 @@ Duran Duran:
       Winter Marches On: no
       Proposition: no
 Eddie Money:
+   =:
+      Shakin’:
+         flow: 1,841,303
+         link: https://youtu.be/2tcD_dVcXE4
    Can’t Hold Back:
-      rel: 1985
-      <flow: 1,806,500
-      <link: https://youtu.be/2tcD_dVcXE4
+      =:
+         rel: 1985
+         white: yes
       Take Me Home Tonight: yes
       One Love:
       I Wanna Go Back:
@@ -563,42 +567,65 @@ Eddie Money:
       Stranger in a Strange Land:
       Calm Before the Storm:
 Ekkah:
+   =:
+      LAST CHANCE TO DANCE:
+         flow: 50,372
+         link: https://youtu.be/gvM1a72Dcqw
    Can’t Give It Up / Figure It Out (Night Edit):
-      <<: &low
-         <flow: 52,096
-         <link: https://youtu.be/gvM1a72Dcqw
+      =:
+         rel: 2016
+         white: yes
       Can’t Give It Up: len
       Figure It Out (Night Edit): yes
    Last Chance to Dance:
-      <white: yes
+      =:
+         rel: 2014
+         white: yes
       Last Chance to Dance: yes
       Holiday Blues (demo):
       Ex-Change (demo): len
       Only U 4 Me (demo): len
 Eli & Fur:
+   =:
+      Seeing Is Believing:
+         flow: 339,935
+         link: https://youtu.be/13_3zV3_DJ0
+      You’re So High:
+         flow: 21,490,696
+         link: https://youtu.be/3GEqdbh8sFI
    Illusions:
-      <flow: 33,667,352
-      <link: https://youtu.be/3GEqdbh8sFI
+      =:
+         rel: 2013
+         white: no
       You’re So High:
    Night Blooming Jasmine:
-      <flow: 43,015
-      <link: https://youtu.be/lE0uR6hsZtk
+      =:
+         rel: 2018
+         white: yes
       Night Blooming Jasmine: yes
       Something Was Real:
       Parfume:
       Honest:
       Parfume (extended mix):
 Elton John:
+   =:
+      Tiny Dancer:
+         flow: 978,086,517
+         link: https://youtu.be/S3vO8E2e6G0
    Madman Across the Water:
-      <flow: 978,086,517
-      <link: https://youtu.be/S3vO8E2e6G0
+      =:
+         rel: 1971
+         white: no
       Tiny Dancer:
 Emilíana Torrini:
+   =:
+      Jungle Drum:
+         flow: 2,065,864
+         link: https://youtu.be/iZ9vkd7Rp-g
    Tookah:
-      rel: 2013
-      <<: &low
-         <flow: 2,120,419
-         <link: https://youtu.be/iZ9vkd7Rp-g
+      =:
+         rel: 2013
+         white: yes
       Tookah: no
       Caterpillar: no
       Autumn Sun: no
@@ -609,8 +636,9 @@ Emilíana Torrini:
       Blood Red:
       When Fever Breaks:
    Me and Armini:
-      rel: 2008
-      <white: yes
+      =:
+         rel: 2008
+         white: yes
       Fireheads:
       Me and Armini: yes
       Birds:
@@ -624,8 +652,9 @@ Emilíana Torrini:
       Dead Duck:
       Bleeder:
    Fisherman’s Woman:
-      rel: 2005
-      <white: yes
+      =:
+         rel: 2005
+         white: yes
       Nothing Brings Me Down: no
       Sunny Road: yes
       Snow: len
@@ -639,8 +668,9 @@ Emilíana Torrini:
       Thinking Out Loud:
       Serenade:
    Love in the Time of Science:
-      rel: 1999
-      <white: yes
+      =:
+         rel: 1999
+         white: yes
       To Be Free:
       Wednesday’s Child: yes
       Baby Blue:
@@ -652,8 +682,6 @@ Emilíana Torrini:
       Tuna Fish:
       Summerbreeze:
       Sea People: len
-   Merman:
-      rel: 1996
 Empress Of:
    <low:
       Water Water:

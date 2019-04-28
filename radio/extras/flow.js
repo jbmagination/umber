@@ -28,8 +28,10 @@ if (dp) {
 
    /* needs to work as bookmarklet */
    xc.textContent = '      ' + qo('[itemprop=name]').content
-   .replace(/[^-]*\-? ?([^(]*)? \(?.*/, '$1')
-   .replace(/ A /, ' a ') + ':\n' +
+   .replace(/^.* - /, '')
+   .replace(/ \(.*\)$/, '')
+   .replace(/ A /, ' a ')
+   .replace(/'/, '’') + ':\n' +
    '         flow: ' + Math.floor(vw / yr).toLocaleString() + '\n' +
    '         link: ' + qo('[rel=shortlink]').href;
 
