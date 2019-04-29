@@ -608,24 +608,17 @@ Eli & Fur:
          flow: 21,490,696
          link: https://youtu.be/3GEqdbh8sFI
 Elton John:
+   Madman Across the Water:
+      Tiny Dancer:
+      =:
+         rel: 1971
+         white: no
    =:
       Tiny Dancer:
          flow: 978,086,517
          link: https://youtu.be/S3vO8E2e6G0
-   Madman Across the Water:
-      =:
-         rel: 1971
-         white: no
-      Tiny Dancer:
 Emilíana Torrini:
-   =:
-      Jungle Drum:
-         flow: 2,065,864
-         link: https://youtu.be/iZ9vkd7Rp-g
    Tookah:
-      =:
-         rel: 2013
-         white: yes
       Tookah: no
       Caterpillar: no
       Autumn Sun: no
@@ -635,10 +628,10 @@ Emilíana Torrini:
       Speed of Dark:
       Blood Red:
       When Fever Breaks:
-   Me and Armini:
       =:
-         rel: 2008
+         rel: 2013
          white: yes
+   Me and Armini:
       Fireheads:
       Me and Armini: yes
       Birds:
@@ -651,10 +644,10 @@ Emilíana Torrini:
       Beggar’s Prayer: len
       Dead Duck:
       Bleeder:
-   Fisherman’s Woman:
       =:
-         rel: 2005
+         rel: 2008
          white: yes
+   Fisherman’s Woman:
       Nothing Brings Me Down: no
       Sunny Road: yes
       Snow: len
@@ -667,10 +660,10 @@ Emilíana Torrini:
       Fisherman’s Woman: len
       Thinking Out Loud:
       Serenade:
-   Love in the Time of Science:
       =:
-         rel: 1999
+         rel: 2005
          white: yes
+   Love in the Time of Science:
       To Be Free:
       Wednesday’s Child: yes
       Baby Blue:
@@ -682,15 +675,15 @@ Emilíana Torrini:
       Tuna Fish:
       Summerbreeze:
       Sea People: len
-Empress Of:
-   =:
-      Water Water:
-         flow: 200,617
-         link: https://youtu.be/iwo_HeW4G-Q
-   Us:
       =:
-         rel: 2018
+         rel: 1999
          white: yes
+   =:
+      Jungle Drum:
+         flow: 2,065,864
+         link: https://youtu.be/iZ9vkd7Rp-g
+Empress Of:
+   Us:
       Everything to Me: len
       Just the Same: no
       Trust Me Baby:
@@ -701,15 +694,15 @@ Empress Of:
       All for Nothing:
       When I’m With Him:
       Again:
+      =:
+         rel: 2018
+         white: yes
    Woman Is a Word:
+      Woman Is a Word: yes
       =:
          rel: 2016
          white: yes
-      Woman Is a Word: yes
    Me:
-      =:
-         rel: 2015
-         white: yes
       Everything Is You: no
       Water Water: no
       Standard: yes
@@ -720,18 +713,18 @@ Empress Of:
       Make Up: no
       Threat: no
       Icon: no
-   Systems:
       =:
-         rel: 2013-08-16
+         rel: 2015
          white: yes
+   Systems:
       Hat Trick: no
       No Means No: no
       Tristeza: no
       Camisa Favorita: no
-   Colorminutes:
       =:
-         rel: 2013-01-11
+         rel: 2013-08-16
          white: yes
+   Colorminutes:
       1: len
       2: len
       3: len
@@ -747,25 +740,25 @@ Empress Of:
       13: len
       14: len
       15: len
+      =:
+         rel: 2013-01-11
+         white: yes
+   =:
+      Water Water:
+         flow: 200,617
+         link: https://youtu.be/iwo_HeW4G-Q
 Enya:
+   A Day Without Rain:
+      Only Time:
+      =:
+         rel: 2000
+         white: no
    =:
       Only Time:
          flow: 12,250,684
          link: https://youtu.be/7wfYIMyS_dI
-   A Day Without Rain:
-      =:
-         rel: 2000
-         white: no
-      Only Time:
 Everything but the Girl:
-   =:
-      Missing:
-         flow: 2,556,051
-         link: https://youtu.be/Q4sPkS8b62Q
    Temperamental:
-      =:
-         rel: 1999
-         white: yes
       Five Fathoms: yes
       Low Tide of the Night:
       Blame:
@@ -776,12 +769,12 @@ Everything but the Girl:
       Lullaby of Clubland:
       No Difference:
       The Future of the Future (Stay Gold):
+      =:
+         rel: 1999
+         white: yes
    Walking Wounded:
       rel: 1996
    Amplified Heart:
-      =:
-         rel: 1994
-         white: yes
       Rollercoaster:
       Troubled Mind:
       I Don’t Understand Anything:
@@ -792,10 +785,10 @@ Everything but the Girl:
       We Walk the Same Line:
       25th December:
       Disenchanted: len
-   Acoustic:
       =:
-         rel: 1992
+         rel: 1994
          white: yes
+   Acoustic:
       Love Is Strange:
       Tougher Than the Rest:
       Time After Time:
@@ -807,10 +800,10 @@ Everything but the Girl:
       Me and Bobby D:
       Come On Home:
       Fascination (live):
-   Worldwide:
       =:
-         rel: 1991
+         rel: 1992
          white: yes
+   Worldwide:
       Old Friends:
       Understanding:
       You Lift Me Up:
@@ -822,10 +815,10 @@ Everything but the Girl:
       Politics Aside:
       Boxing and Pop Music:
       Feel Alright: len
-   The Language of Life:
       =:
-         rel: 1990
+         rel: 1991
          white: yes
+   The Language of Life:
       Driving: yes
       Get Back Together:
       Meet Me in the Morning:
@@ -836,6 +829,13 @@ Everything but the Girl:
       Letting Love Go:
       My Baby Don’t Love Me:
       The Road:
+      =:
+         rel: 1990
+         white: yes
+   =:
+      Missing:
+         flow: 2,556,051
+         link: https://youtu.be/Q4sPkS8b62Q
 Fatboy Slim:
    =:
       Right Here, Right Now:
