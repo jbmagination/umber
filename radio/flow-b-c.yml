@@ -765,14 +765,7 @@ Boards of Canada:
          flow: 745,274
          link: https://youtu.be/dQEmaj9C6ko
 Bonobo:
-   =:
-      Kiara:
-         flow: 1,668,464
-         link: https://youtu.be/N7m86aMNjlQ
    Migration:
-      =:
-         rel: 2017
-         white: yes
       Migration: no
       Break Apart: no
       Outlier: no
@@ -785,10 +778,10 @@ Bonobo:
       No Reason:
       7th Sevens:
       Figures:
-   The North Borders:
       =:
-         rel: 2013
+         rel: 2017
          white: yes
+   The North Borders:
       First Fires:
       Emkay:
       Cirrus:
@@ -802,10 +795,10 @@ Bonobo:
       Ten Tigers:
       Transits:
       Pieces:
-   Black Sands:
       =:
-         rel: 2010
+         rel: 2013
          white: yes
+   Black Sands:
       Prelude: len
       Kiara: yes
       Kong: no
@@ -818,10 +811,10 @@ Bonobo:
       Stay the Same: yes
       Animals: yes
       Black Sands: yes
-   Days to Come:
       =:
-         rel: 2006
+         rel: 2010
          white: yes
+   Days to Come:
       Intro: len
       Days to Come: yes
       Between the Lines:
@@ -840,10 +833,10 @@ Bonobo:
       If You Stayed Over (reprise): len
       Walk in the Sky (instrumental): yes
       Hatoa: yes
-   Dial 'M' for Monkey:
       =:
-         rel: 2003
+         rel: 2006
          white: yes
+   Dial 'M' for Monkey:
       Noctuary: no
       Flutter: yes
       D Song: yes
@@ -853,19 +846,19 @@ Bonobo:
       Something for Windy: len
       Nothing Owed: yes
       Light Pattern: yes
-   One Offs... Remixes & B-Sides:
       =:
-         rel: 2002
+         rel: 2003
          white: yes
+   One Offs... Remixes & B-Sides:
       Dismantling Frank: yes
       The Sicilian: yes
       The Shark: yes
       Magicman: yes
       Scuba: yes
-   Animal Magic:
       =:
-         rel: 2000
+         rel: 2002
          white: yes
+   Animal Magic:
       Intro: len
       Sleepy Seven: yes
       Dinosaurs: no
@@ -876,7 +869,27 @@ Bonobo:
       Gypsy: no
       Sugar Rhyme: no
       Silver: yes
+      =:
+         rel: 2000
+         white: yes
+   =:
+      Kiara:
+         flow: 1,668,464
+         link: https://youtu.be/N7m86aMNjlQ
 Boyz II Men:
+   II:
+      I’ll Make Love To You:
+      On Bended Knee:
+      =:
+         rel: 1994
+         white: no
+   Christmas Interpretations:
+      rel: 1993
+   Cooleyhighharmony:
+      End Of The Road:
+      =:
+         rel: 1991
+         white: no
    =:
       End Of The Road:
          flow: 13,061,094
@@ -884,28 +897,8 @@ Boyz II Men:
       I’ll Make Love To You:
          flow: 12,910,607
          link: https://youtu.be/fV8vB1BB2qc
-   II:
-      =:
-         rel: 1994
-         white: no
-      I’ll Make Love To You:
-      On Bended Knee:
-   Christmas Interpretations:
-      rel: 1993
-   Cooleyhighharmony:
-      =:
-         rel: 1991
-         white: no
-      End Of The Road:
 Boz Scaggs:
-   =:
-      Lowdown:
-         flow: 1,517,370
-         link: https://youtu.be/I-hKBmTAADo
    Dig:
-      =:
-         rel: 2001
-         white: yes
       Payday:
       Sarah:
       Miss Riddle:
@@ -917,10 +910,10 @@ Boz Scaggs:
       You’re Not:
       Vanishing Point:
       Thanks to You: yes
-   Come On Home:
       =:
-         rel: 1997
+         rel: 2001
          white: yes
+   Come On Home:
       It All Went Down the Drain: no
       Ask Me ’Bout Nothin’ (but the Blues): yes
       Don’t Cry No More:
@@ -935,14 +928,14 @@ Boz Scaggs:
       Sick and Tired:
       After Hours:
       Goodnight Louise:
+      =:
+         rel: 1997
+         white: yes
    Fade Into Light:
       rel: 1996
    Some Change:
       rel: 1994
    Other Roads:
-      =:
-         rel: 1988
-         white: yes
       What’s Number One?: no
       Claudia:
       Heart of Mine:
@@ -954,25 +947,25 @@ Boz Scaggs:
       Funny:
       Cool Running:
       The Night of Van Gogh:
+      =:
+         rel: 1988
+         white: yes
+   =:
+      Lowdown:
+         flow: 1,517,370
+         link: https://youtu.be/I-hKBmTAADo
 Britney Spears:
+   Blackout:
+      Break The Ice:
+      =:
+         rel: 2007
+         white: no
    =:
       Break The Ice:
          flow: 6,923,872
          link: https://youtu.be/eQFIKP9rGhQ
-   Blackout:
-      =:
-         rel: 2007
-         white: no
-      Break The Ice:
 Bruce Hornsby:
-   =:
-      The Way It Is:
-         flow: 3,449,438
-         link: https://youtu.be/cOeKidp-iWo
    Harbor Lights:
-      =:
-         rel: 1993
-         white: yes
       Harbor Lights:
       Talk of the Town:
       Long Tall Cool One:
@@ -983,14 +976,14 @@ Bruce Hornsby:
       The Tide Will Rise:
       What a Time:
       Pastures of Plenty:
+      =:
+         rel: 1993
+         white: yes
    A Night on the Town:
       rel: 1990
    Scenes From the Southside:
       rel: 1988
    The Way It Is:
-      =:
-         rel: 1986
-         white: yes
       On the Western Skyline:
       Every Little Kiss:
       Mandolin Rain:
@@ -1000,6 +993,13 @@ Bruce Hornsby:
       The Wild Frontier:
       The River Runs Low:
       The Red Plains:
+      =:
+         rel: 1986
+         white: yes
+   =:
+      The Way It Is:
+         flow: 3,449,438
+         link: https://youtu.be/cOeKidp-iWo
 Bryan Adams:
    =:
       Have You Ever Really Loved A Woman?:
