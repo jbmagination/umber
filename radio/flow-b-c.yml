@@ -307,14 +307,7 @@ Bell Biv DeVoe:
          flow: 1,351,460
          link: https://youtu.be/sb2np1HGqxg
 Ben Howard:
-   =:
-      Promise:
-         flow: 5,103,551
-         link: https://youtu.be/CVUOTzoVeZA
    Every Kingdom:
-      =:
-         rel: 2011
-         white: yes
       Old Pine:
       Diamonds:
       The Wolves:
@@ -325,15 +318,15 @@ Ben Howard:
       Black Flies:
       Gracious:
       Promise: yes
-Bibio:
-   =:
-      Light Up the Sky:
-         flow: 102,143
-         link: https://youtu.be/jgrgCaSo8e4
-   Silver Wilkinson:
       =:
-         rel: 2013
+         rel: 2011
          white: yes
+   =:
+      Promise:
+         flow: 5,103,551
+         link: https://youtu.be/CVUOTzoVeZA
+Bibio:
+   Silver Wilkinson:
       The First Daffodils: len
       Dye the Water Green: yes
       Wulf: len
@@ -345,12 +338,12 @@ Bibio:
       Look at Orion!:
       Business Park:
       You Won’t Remember...:
+      =:
+         rel: 2013
+         white: yes
    Mind Bokeh:
       rel: 2011
    Ambivalence Avenue:
-      =:
-         rel: 2009-06-22
-         white: yes
       Ambivalence Avenue:
       Jealous of Roses: len
       All the Flowers: len
@@ -363,10 +356,10 @@ Bibio:
       The Palm of Your Wave: len
       Cry! Baby!:
       Dwrcan:
-   Vignetting the Compost:
       =:
-         rel: 2009-02-03
+         rel: 2009-06-22
          white: yes
+   Vignetting the Compost:
       Flesh Rots, Pip Sown: no
       Mr and Mrs Compost: len
       Everglad Everglade: len
@@ -383,15 +376,15 @@ Bibio:
       Top Soil: len
       Thatched:
       The Garden Shelter:
-Bicep:
-   =:
-      Glue:
-         flow: 5,275,555
-         link: https://youtu.be/A7ZxRs45tTg
-   Bicep:
       =:
-         rel: 2017
+         rel: 2009-02-03
          white: yes
+   =:
+      Light Up the Sky:
+         flow: 102,143
+         link: https://youtu.be/jgrgCaSo8e4
+Bicep:
+   Bicep:
       Orca:
       Glue: yes
       Kites:
@@ -404,33 +397,30 @@ Bicep:
       Ayr:
       Vale:
       Aura:
-   Dahlia:
       =:
-         rel: 2015
+         rel: 2017
          white: yes
+   Dahlia:
       Dahlia: yes
       Rays:
       Seagulls:
-Big Boi:
+      =:
+         rel: 2015
+         white: yes
    =:
-      All Night:
-         flow: 11,499,682
-         link: https://youtu.be/QxTgr11ncJo
-      Shutterbugg:
-         flow: 1,237,121
-         link: https://youtu.be/rWsvkW6rKkQ
+      Glue:
+         flow: 5,275,555
+         link: https://youtu.be/A7ZxRs45tTg
+Big Boi:
    Boomiverse:
+      All Night:
+      Kill Jill:
       =:
          rel: 2017
          white: no
-      All Night:
-      Kill Jill:
    Vicious Lies and Dangerous Rumors:
       rel: 2012
    Sir Lucious Left Foot… The Son of Chico Dusty:
-      =:
-         rel: 2010
-         white: yes
       Feel Me (intro): len
       Daddy Fat Sax: len
       Turns Me On:
@@ -446,15 +436,18 @@ Big Boi:
       Shine Blockas:
       The Train, Part 2 (Sir Lucious Left Foot Saves the Day):
       Back Up Plan:
-Björk:
-   =:
-      It’s Oh So Quiet:
-         flow: 1,040,474
-         link: https://youtu.be/htobTBlCvUU
-   Vespertine:
       =:
-         rel: 2001
+         rel: 2010
          white: yes
+   =:
+      All Night:
+         flow: 11,499,682
+         link: https://youtu.be/QxTgr11ncJo
+      Shutterbugg:
+         flow: 1,237,121
+         link: https://youtu.be/rWsvkW6rKkQ
+Björk:
+   Vespertine:
       Hidden Place: no
       Cocoon: no
       It’s Not Up to You: no
@@ -467,10 +460,10 @@ Björk:
       Heirloom:
       Harm of Will:
       Unison:
-   Homogenic:
       =:
-         rel: 1997
+         rel: 2001
          white: yes
+   Homogenic:
       Hunter: yes
       Jóga: yes
       Unravel: yes
@@ -481,10 +474,10 @@ Björk:
       Alarm Call: no
       Pluto: no
       All Is Full of Love: yes
-   Post:
       =:
-         rel: 1995
+         rel: 1997
          white: yes
+   Post:
       Army of Me: yes
       Hyper‐Ballad: no
       The Modern Things: no
@@ -496,10 +489,10 @@ Björk:
       I Miss You: no
       Cover Me: len
       Headphones: no
-   Debut:
       =:
-         rel: 1993
+         rel: 1995
          white: yes
+   Debut:
       Human Behaviour: no
       Crying: no
       Venus as a Boy: yes
@@ -512,6 +505,13 @@ Björk:
       Violently Happy: no
       The Anchor Song: yes
       Play Dead: yes
+      =:
+         rel: 1993
+         white: yes
+   =:
+      It’s Oh So Quiet:
+         flow: 1,040,474
+         link: https://youtu.be/htobTBlCvUU
 Blink 182:
    =:
       All The Small Things:
