@@ -1040,29 +1040,22 @@ Fleetwood Mac:
          flow: 2,190,958
          link: https://youtu.be/Xr9Oubxw1gA
 Floating Points:
-   =:
-      Nuits Sonores:
-         flow: 570,221
-         link: https://youtu.be/1LtsjqgF6fw
    Reflections - Mojave Desert:
-      =:
-         rel: 2017
-         white: yes
       Mojave Desert: len
       Silurian Blue: yes
       Kites: no
       Kelso Dunes: yes
       Lucerne Valley: no
+      =:
+         rel: 2017
+         white: yes
    Kuiper:
+      Kuiper:
+      For Marmish Part II: yes
       =:
          rel: 2016
          white: yes
-      Kuiper:
-      For Marmish Part II: yes
    Elaenia:
-      =:
-         rel: 2015
-         white: yes
       Nespole: yes
       Silhouettes (I, II & III):
       Elaenia:
@@ -1071,24 +1064,24 @@ Floating Points:
       For Marmish: yes
       Peroration Six:
       Precursor:
-   Shadows EP:
       =:
-         rel: 2011
+         rel: 2015
          white: yes
+   Shadows EP:
       Myrtle Avenue: yes
       Obfuse: no
       Realise: no
       ARP3: yes
       Sais: no
-Foghat:
-   =:
-      Slow Ride:
-         flow: 3,467,643
-         link: https://youtu.be/GcCNcgoyG_0
-   Fool for the City:
       =:
-         rel: 1974
+         rel: 2011
          white: yes
+   =:
+      Nuits Sonores:
+         flow: 570,221
+         link: https://youtu.be/1LtsjqgF6fw
+Foghat:
+   Fool for the City:
       Fool for the City:
       My Babe:
       Slow Ride: yes
@@ -1096,7 +1089,56 @@ Foghat:
       Save Your Loving (for Me):
       Drive Me Home:
       Take It or Leave It:
+      =:
+         rel: 1974
+         white: yes
+   =:
+      Slow Ride:
+         flow: 3,467,643
+         link: https://youtu.be/GcCNcgoyG_0
 Foo Fighters:
+   Concrete and Gold:
+      Run:
+      The Sky Is a Neighborhood:
+      =:
+         rel: 2017
+         white: no
+   Sonic Highways:
+      Something From Nothing:
+      =:
+         rel: 2014
+         white: no
+   Wasting Light:
+      These Days:
+      Walk:
+      =:
+         rel: 2011
+         white: no
+   Echoes, Silence, Patience & Grace:
+      The Pretender:
+      =:
+         rel: 2007
+         white: no
+   In Your Honor:
+      Best of You:
+      =:
+         rel: 2005
+         white: no
+   One by One:
+      All My Life:
+      =:
+         rel: 2002
+         white: no
+   There Is Nothing Left to Lose:
+      Learn to Fly:
+      =:
+         rel: 1999
+         white: no
+   The Colour and the Shape:
+      Everlong:
+      =:
+         rel: 1997
+         white: no
    =:
       All My Life:
          flow: 7,246,410
@@ -1122,48 +1164,6 @@ Foo Fighters:
       Walk:
          flow: 11,562,945
          link: https://youtu.be/4PkcfQtibmU
-   Concrete and Gold:
-      =:
-         rel: 2017
-         white: no
-      Run:
-      The Sky Is a Neighborhood:
-   Sonic Highways:
-      =:
-         rel: 2014
-         white: no
-      Something From Nothing:
-   Wasting Light:
-      =:
-         rel: 2011
-         white: no
-      These Days:
-      Walk:
-   Echoes, Silence, Patience & Grace:
-      =:
-         rel: 2007
-         white: no
-      The Pretender:
-   In Your Honor:
-      =:
-         rel: 2005
-         white: no
-      Best of You:
-   One by One:
-      =:
-         rel: 2002
-         white: no
-      All My Life:
-   There Is Nothing Left to Lose:
-      =:
-         rel: 1999
-         white: no
-      Learn to Fly:
-   The Colour and the Shape:
-      =:
-         rel: 1997
-         white: no
-      Everlong:
 Foreigner:
    Agent Provocateur:
       <rel: 1984
