@@ -19,7 +19,7 @@ if (dp) {
 
    var xc = document.createElement('textarea');
    xc.cols = 50;
-   xc.rows = 3;
+   xc.rows = 4;
    xc.style.font = 'medium Consolas';
    xc.style.position = 'fixed';
    xc.style.right = 0;
@@ -27,9 +27,10 @@ if (dp) {
    xc.style.zIndex = 6;
 
    /* needs to work as bookmarklet */
-   xc.textContent = '      ' + qo('[itemprop=name]').content
+   xc.textContent = '   =:\n' +
+   '      ' + qo('[itemprop=name]').content
    .replace(/^.* - /, '')
-   .replace(/ \(.*\)$/, '')
+   .replace(/ [([].*[)\]]$/, '')
    .replace(/ A /, ' a ')
    .replace(/'/, '’') + ':\n' +
    '         flow: ' + Math.floor(vw / yr).toLocaleString() + '\n' +
