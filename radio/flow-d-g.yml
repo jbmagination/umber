@@ -1,28 +1,12 @@
 Daft Punk:
-   =:
-      Around the World:
-         flow: 12,883,797
-         link: https://youtu.be/yca6UsllwYs
-      Get Lucky:
-         flow: 74,543,389
-         link: https://youtu.be/5NV6Rdv1a3I
-      Stronger:
-         flow: 32,146,607
-         link: https://youtu.be/PsO6ZnUZI0g
-      Technologic:
-         flow: 4,433,751
-         link: https://youtu.be/D8K90hX4PrE
    Random Access Memories:
-      =:
-         rel: 2013
-         white: no
       Get Lucky:
       Instant Crush:
       Lose Yourself to Dance:
-   TRON Legacy:
       =:
-         rel: 2010
-         white: yes
+         rel: 2013
+         white: no
+   TRON Legacy:
       Overture: len
       The Grid: len
       The Son of Flynn: len
@@ -45,10 +29,10 @@ Daft Punk:
       Flynn Lives:
       TRON Legacy (End Titles):
       Finale:
-   Alive 2007:
       =:
-         rel: 2007
+         rel: 2010
          white: yes
+   Alive 2007:
       Robot Rock / Oh Yeah:
       Touch It / Technologic:
       Television Rules the Nation / Crescendolls:
@@ -62,10 +46,10 @@ Daft Punk:
       Da Funk / Daftendirekt: yes
       Superheroes / Human After All / Rock’n Roll:
       Human After All/Together/One More Time/Music Sounds Better With You: yes
-   Human After All:
       =:
-         rel: 2005
+         rel: 2007
          white: yes
+   Human After All:
       Human After All: no
       The Prime Time of Your Life: no
       Robot Rock: no
@@ -76,43 +60,52 @@ Daft Punk:
       Television Rules the Nation:
       Technologic:
       Emotion:
-   Discovery:
       =:
-         rel: 2001
-         white: no
+         rel: 2005
+         white: yes
+   Discovery:
       Digital Love:
       Harder Better Faster Stronger:
       One More Time:
       Something About Us:
+      =:
+         rel: 2001
+         white: no
    Homework:
+      Around the World:
       =:
          rel: 1997
          white: no
-      Around the World:
-Dan Hess:
    =:
-      Birdman:
-         flow: 78
-         link: https://youtu.be/GJWY-mWoiM0
+      Around the World:
+         flow: 12,883,797
+         link: https://youtu.be/yca6UsllwYs
+      Get Lucky:
+         flow: 74,543,389
+         link: https://youtu.be/5NV6Rdv1a3I
+      Stronger:
+         flow: 32,146,607
+         link: https://youtu.be/PsO6ZnUZI0g
+      Technologic:
+         flow: 4,433,751
+         link: https://youtu.be/D8K90hX4PrE
+Dan Hess:
    Pilotwings 64:
-      =:
-         rel: 1996
-         white: yes
       Hang Glider: yes
       Rocket Belt: yes
       Gyrocopter:
       Jumble Hopper:
       Birdman:
       Bravissimo!:
-Daniel Lanois:
-   =:
-      Jolie Louise:
-         flow: 99,561
-         link: https://youtu.be/mt0LDopjNbg
-   Acadie:
       =:
-         rel: 1989
+         rel: 1996
          white: yes
+   =:
+      Birdman:
+         flow: 78
+         link: https://youtu.be/GJWY-mWoiM0
+Daniel Lanois:
+   Acadie:
       Still Water:
       The Maker:
       O Marie:
@@ -125,15 +118,15 @@ Daniel Lanois:
       Ice:
       St. Ann’s Gold:
       Amazing Grace:
-Dave Matthews Band:
-   =:
-      Crash Into Me:
-         flow: 1,747,085
-         link: https://youtu.be/k7in-9E3ImQ
-   Stand Up:
       =:
-         rel: 2005
+         rel: 1989
          white: yes
+   =:
+      Jolie Louise:
+         flow: 99,561
+         link: https://youtu.be/mt0LDopjNbg
+Dave Matthews Band:
+   Stand Up:
       Dreamgirl:
       Old Dirt Hill (Bring That Beat Back):
       Stand Up (for It):
@@ -148,10 +141,10 @@ Dave Matthews Band:
       You Might Die Trying: yes
       Steady as We Go:
       Hunger for the Great Light:
-   Busted Stuff:
       =:
-         rel: 2002
+         rel: 2005
          white: yes
+   Busted Stuff:
       Busted Stuff: no
       Grey Street: yes
       Where Are You Going?:
@@ -163,10 +156,10 @@ Dave Matthews Band:
       Digging a Ditch:
       Big Eyed Fish:
       Bartender:
-   Everyday:
       =:
-         rel: 2001
+         rel: 2002
          white: yes
+   Everyday:
       I Did It: no
       When the World Ends: no
       The Space Between: no
@@ -179,10 +172,10 @@ Dave Matthews Band:
       Sleep to Dream Her:
       Mother Father:
       Everyday:
-   Before These Crowded Streets:
       =:
-         rel: 1998
+         rel: 2001
          white: yes
+   Before These Crowded Streets:
       Pantala Naga Pampa: len
       Rapunzel: no
       The Last Stop: no
@@ -194,10 +187,10 @@ Dave Matthews Band:
       The Dreaming Tree:
       Pig:
       Spoon:
-   Crash:
       =:
-         rel: 1996
+         rel: 1998
          white: yes
+   Crash:
       So Much to Say: yes
       Two Step:
       Crash Into Me: yes
@@ -210,10 +203,10 @@ Dave Matthews Band:
       Cry Freedom:
       Tripping Billies:
       Proudest Monkey:
-   Under the Table and Dreaming:
       =:
-         rel: 1994
+         rel: 1996
          white: yes
+   Under the Table and Dreaming:
       The Best of What’s Around:
       What Would You Say:
       Satellite:
@@ -226,6 +219,13 @@ Dave Matthews Band:
       Warehouse:
       Pay for What You Get:
       34:
+      =:
+         rel: 1994
+         white: yes
+   =:
+      Crash Into Me:
+         flow: 1,747,085
+         link: https://youtu.be/k7in-9E3ImQ
 Depeche Mode:
    =:
       It’s No Good:
