@@ -92,7 +92,26 @@ Goldfrapp:
 ~~~
 
 In both cases extra lines are created. However with the deeper metadata we are
-left with less lines and less characters overall.
+left with less lines and less characters overall. Instead of putting metadata
+first, we could put it last:
+
+~~~yml
+Goldfrapp:
+   Seventh Tree:
+      Clowns: yes
+      =:
+         rel: 2008
+         white: yes
+   =:
+      Clowns:
+         link: https://youtu.be/aCQO7lUfT0A
+         flow: 5,419
+         white: now
+~~~
+
+This creates an awkward gap between the albums and artist metadata, but it
+makes for better flow. It puts what is most important first, follow by
+extraneous data.
 
 White
 -----

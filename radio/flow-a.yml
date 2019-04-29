@@ -1,4 +1,34 @@
 2Pac:
+   Loyal to the Game:
+      Ghetto Gospel:
+      =:
+         rel: 2004
+         white: no
+   Better Dayz:
+      rel: 2002
+   Until the End of Time:
+      rel: 2001
+   Still I Rise:
+      rel: 1999
+   R U Still Down?:
+      rel: 1997
+   All Eyez on Me:
+      2 of Amerikaz Most Wanted:
+      California Love:
+      Life Goes On:
+      =:
+         rel: 1996
+         white: no
+   Me Against the World:
+      Dear Mama:
+      =:
+         rel: 1995
+         white: no
+   Strictly 4 My N.I.G.G.A.Z…:
+      I Get Around:
+      =:
+         rel: 1993
+         white: no
    =:
       California Love:
          flow: 32,946,485
@@ -12,45 +42,8 @@
       I Get Around:
          flow: 7,276,027
          link: https://youtu.be/YqJAnQTwmJs
-   Loyal to the Game:
-      =:
-         rel: 2004
-         white: no
-      Ghetto Gospel:
-   Better Dayz:
-      rel: 2002
-   Until the End of Time:
-      rel: 2001
-   Still I Rise:
-      rel: 1999
-   R U Still Down?:
-      rel: 1997
-   All Eyez on Me:
-      =:
-         rel: 1996
-         white: no
-      2 of Amerikaz Most Wanted:
-      California Love:
-      Life Goes On:
-   Me Against the World:
-      =:
-         rel: 1995
-         white: no
-      Dear Mama:
-   Strictly 4 My N.I.G.G.A.Z…:
-      =:
-         rel: 1993
-         white: no
-      I Get Around:
 9 Lazy 9:
-   =:
-      Black Jesus:
-         flow: 10,137
-         link: https://youtu.be/A6S_vJ7G0R0
    Bedsofaland:
-      =:
-         rel: 2009
-         white: yes
       Hotwire: len
       Russian Spring: len
       Endless:
@@ -64,10 +57,10 @@
       Blasè:
       Free D: len
       Slow Plus:
-   Sweet Jones:
       =:
-         rel: 2003
+         rel: 2009
          white: yes
+   Sweet Jones:
       The Woodworm: yes
       Code 3: no
       Sunday Monday: yes
@@ -80,10 +73,10 @@
       Carborante: yes
       The Flying Nun:
       The Last of the West:
-   Electric Lazyland:
       =:
-         rel: 1994
+         rel: 2003
          white: yes
+   Electric Lazyland:
       Life Goes On & On: no
       Electric Lazyland: no
       Skarakesh: no
@@ -101,10 +94,10 @@
       Meet the Voda: len
       Roughport Invention:
       Golden Oldie: len
-   Paradise Blown:
       =:
          rel: 1994
          white: yes
+   Paradise Blown:
       500 am: yes
       Shak: no
       Turn Me Loose: no
@@ -122,6 +115,13 @@
       It’s Late: no
       Gossip / Bad Boy: len
       Lotto Jisco: no
+      =:
+         rel: 1994
+         white: yes
+   =:
+      Black Jesus:
+         flow: 10,137
+         link: https://youtu.be/A6S_vJ7G0R0
 Aaliyah:
    =:
       One in a Million:
