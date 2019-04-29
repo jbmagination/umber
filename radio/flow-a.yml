@@ -123,14 +123,7 @@
          flow: 10,137
          link: https://youtu.be/A6S_vJ7G0R0
 Aaliyah:
-   =:
-      One in a Million:
-         flow: 4,349,375
-         link: https://youtu.be/VKbWF1jwMhE
    Aaliyah:
-      =:
-         rel: 2001
-         white: yes
       We Need a Resolution: yes
       Loose Rap:
       Rock the Boat:
@@ -145,7 +138,62 @@ Aaliyah:
       I Can Be:
       Those Were the Days:
       What If:
+      =:
+         rel: 2001
+         white: yes
+   =:
+      One in a Million:
+         flow: 4,349,375
+         link: https://youtu.be/VKbWF1jwMhE
 Aerosmith:
+   Nine Lives:
+      Hole in My Soul:
+      =:
+         rel: 1997
+         white: no
+   Get a Grip:
+      Amazing:
+      Crazy:
+      Livin’ on the Edge:
+      =:
+         rel: 1993
+         white: no
+   Pump:
+      Cryin’:
+      Janie’s Got a Gun:
+      Love in an Elevator:
+      =:
+         rel: 1989
+         white: no
+   Permanent Vacation:
+      Angel:
+      Dude:
+      Rag Doll:
+      =:
+         rel: 1987
+         white: no
+   Done With Mirrors:
+      rel: 1985
+   Rock in a Hard Place:
+      rel: 1982
+   Night in the Ruts:
+      rel: 1979
+   Draw the Line:
+      rel: 1977
+   Rocks:
+      rel: 1976
+   Toys in the Attic:
+      Walk This Way:
+      =:
+         rel: 1975
+         white: no
+   Get Your Wings:
+      rel: 1974
+   Aerosmith:
+      Dream On:
+      =:
+         rel: 1973
+         white: no
    =:
       Angel:
          flow: 10,621,283
@@ -165,54 +213,6 @@ Aerosmith:
       Walk This Way:
          flow: 7,394,905
          link: https://youtu.be/4B_UYYPb-Gk
-   Nine Lives:
-      =:
-         rel: 1997
-         white: no
-      Hole in My Soul:
-   Get a Grip:
-      =:
-         rel: 1993
-         white: no
-      Amazing:
-      Crazy:
-      Livin’ on the Edge:
-   Pump:
-      =:
-         rel: 1989
-         white: no
-      Cryin’:
-      Janie’s Got a Gun:
-      Love in an Elevator:
-   Permanent Vacation:
-      =:
-         rel: 1987
-         white: no
-      Angel:
-      Dude:
-      Rag Doll:
-   Done With Mirrors:
-      rel: 1985
-   Rock in a Hard Place:
-      rel: 1982
-   Night in the Ruts:
-      rel: 1979
-   Draw the Line:
-      rel: 1977
-   Rocks:
-      rel: 1976
-   Toys in the Attic:
-      =:
-         rel: 1975
-         white: no
-      Walk This Way:
-   Get Your Wings:
-      rel: 1974
-   Aerosmith:
-      =:
-         rel: 1973
-         white: no
-      Dream On:
 Air:
    =:
       Alone In Kyoto:

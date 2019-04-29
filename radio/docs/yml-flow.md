@@ -110,7 +110,7 @@ Goldfrapp:
 ~~~
 
 This creates an awkward gap between the albums and artist metadata, but it
-makes for better flow. It puts what is most important first, follow by
+makes for better flow. It puts what is most important first, followed by
 extraneous data.
 
 White
