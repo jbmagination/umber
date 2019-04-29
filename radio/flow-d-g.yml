@@ -227,6 +227,71 @@ Dave Matthews Band:
          flow: 1,747,085
          link: https://youtu.be/k7in-9E3ImQ
 Depeche Mode:
+   Spirit:
+      Where’s the Revolution:
+      =:
+         rel: 2017
+         white: no
+   Delta Machine:
+      rel: 2013
+   Sounds of the Universe:
+      rel: 2009
+   Playing the Angel:
+      rel: 2005
+   Exciter:
+      rel: 2001
+   Ultra:
+      Barrel of a Gun: no
+      The Love Thieves: no
+      Home: no
+      It’s No Good: no
+      Uselink: len
+      Useless: no
+      Sister of Night: no
+      Jazz Thieves: len
+      Freestate: no
+      The Bottom Line: no
+      Insight: no
+      Junior Painkiller: len
+      =:
+         rel: 1997
+         white: yes
+   Songs of Faith and Devotion:
+      rel: 1993
+   Violator:
+      Enjoy The Silence:
+      Personal Jesus:
+      =:
+         rel: 1990
+         white: no
+   Music for the Masses:
+      Strangelove:
+      =:
+         rel: 1987
+         white: no
+   Black Celebration:
+      rel: 1986
+   Some Great Reward:
+      rel: 1984
+   Construction Time Again:
+      rel: 1983
+   A Broken Frame:
+      rel: 1982
+   Speak & Spell:
+      New Life: no
+      Puppets: no
+      Dreaming of Me: no
+      Boys Say Go!: no
+      Nodisco: no
+      What’s Your Name?: len
+      Photographic:
+      Tora! Tora! Tora!:
+      Big Muff:
+      Any Second Now (Voices): len
+      Just Can’t Get Enough:
+      =:
+         rel: 1981
+         white: yes
    =:
       It’s No Good:
          flow: 5,866,027
@@ -240,80 +305,8 @@ Depeche Mode:
       Where’s the Revolution:
          flow: 8,644,886
          link: https://youtu.be/jsCR05oKROA
-   Spirit:
-      =:
-         rel: 2017
-         white: no
-      Where’s the Revolution:
-   Delta Machine:
-      rel: 2013
-   Sounds of the Universe:
-      rel: 2009
-   Playing the Angel:
-      rel: 2005
-   Exciter:
-      rel: 2001
-   Ultra:
-      =:
-         rel: 1997
-         white: yes
-      Barrel of a Gun: no
-      The Love Thieves: no
-      Home: no
-      It’s No Good: no
-      Uselink: len
-      Useless: no
-      Sister of Night: no
-      Jazz Thieves: len
-      Freestate: no
-      The Bottom Line: no
-      Insight: no
-      Junior Painkiller: len
-   Songs of Faith and Devotion:
-      rel: 1993
-   Violator:
-      =:
-         rel: 1990
-         white: no
-      Enjoy The Silence:
-      Personal Jesus:
-   Music for the Masses:
-      =:
-         rel: 1987
-         white: no
-      Strangelove:
-   Black Celebration:
-      rel: 1986
-   Some Great Reward:
-      rel: 1984
-   Construction Time Again:
-      rel: 1983
-   A Broken Frame:
-      rel: 1982
-   Speak & Spell:
-      =:
-         rel: 1981
-         white: yes
-      New Life: no
-      Puppets: no
-      Dreaming of Me: no
-      Boys Say Go!: no
-      Nodisco: no
-      What’s Your Name?: len
-      Photographic:
-      Tora! Tora! Tora!:
-      Big Muff:
-      Any Second Now (Voices): len
-      Just Can’t Get Enough:
 Dirty Projectors:
-   =:
-      Stillness Is The Move:
-         flow: 323,658
-         link: https://youtu.be/YMPF6lpM0XM
    Bitte Orca:
-      =:
-         rel: 2009
-         white: yes
       Cannibal Resource: yes
       Temecula Sunrise: yes
       The Bride: len
@@ -323,6 +316,13 @@ Dirty Projectors:
       No Intention: yes
       Remade Horizon:
       Fluorescent Half Dome:
+      =:
+         rel: 2009
+         white: yes
+   =:
+      Stillness Is The Move:
+         flow: 323,658
+         link: https://youtu.be/YMPF6lpM0XM
 Dirty Vegas:
    =:
       Days Go By:
