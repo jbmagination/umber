@@ -1001,24 +1001,17 @@ Bruce Hornsby:
          flow: 3,449,438
          link: https://youtu.be/cOeKidp-iWo
 Bryan Adams:
+   18 Til I Die:
+      Have You Ever Really Loved A Woman?:
+      =:
+         rel: 1996
+         white: no
    =:
       Have You Ever Really Loved A Woman?:
          flow: 7,291,025
          link: https://youtu.be/hq2KgzKETBw
-   18 Til I Die:
-      =:
-         rel: 1996
-         white: no
-      Have You Ever Really Loved A Woman?:
 Burial:
-   =:
-      Archangel:
-         flow: 96,060
-         link: https://youtu.be/E2qLD9c3Gq4
    Untrue:
-      =:
-         rel: 2007
-         white: yes
       Archangel: no
       Near Dark:
       Ghost Hardware: yes
@@ -1031,10 +1024,10 @@ Burial:
       Homeless:
       UK: len
       Raver:
-   Burial:
       =:
-         rel: 2006
+         rel: 2007
          white: yes
+   Burial:
       Distant Lights: no
       Spaceape: no
       Wounder: no
@@ -1046,15 +1039,15 @@ Burial:
       Broken Home:
       Prayer:
       Pirates:
-Bush:
-   =:
-      Glycerine:
-         flow: 3,384,979
-         link: https://youtu.be/hOllF3TgAsM
-   The Science of Things:
       =:
-         rel: 1999
+         rel: 2006
          white: yes
+   =:
+      Archangel:
+         flow: 96,060
+         link: https://youtu.be/E2qLD9c3Gq4
+Bush:
+   The Science of Things:
       Warm Machine: no
       Jesus Online: no
       The Chemicals Between Us: yes
@@ -1067,10 +1060,10 @@ Bush:
       Dead Meat: no
       Letting the Cables Sleep: no
       Mindchanger: no
-   Razorblade Suitcase:
       =:
-         rel: 1996
+         rel: 1999
          white: yes
+   Razorblade Suitcase:
       Personal Holloway: no
       Greedy Fly: no
       Swallowed: no
@@ -1084,10 +1077,10 @@ Bush:
       Communicator:
       Bonedriven:
       Distant Voices:
-   Sixteen Stone:
       =:
-         rel: 1994
+         rel: 1996
          white: yes
+   Sixteen Stone:
       Everything Zen: yes
       Swim:
       Bomb:
@@ -1101,15 +1094,15 @@ Bush:
       Alien:
       X‐Girlfriend: len
       Comedown (acoustic):
-Cake:
-   =:
-      Short Skirt Long Jacket:
-         flow: 865,813
-         link: https://youtu.be/u7aDstrDMf0
-   Fashion Nugget:
       =:
-         rel: 1996
+         rel: 1994
          white: yes
+   =:
+      Glycerine:
+         flow: 3,384,979
+         link: https://youtu.be/hOllF3TgAsM
+Cake:
+   Fashion Nugget:
       Frank Sinatra: yes
       The Distance:
       Friend Is a Four Letter Word:
@@ -1124,15 +1117,15 @@ Cake:
       She’ll Come Back to Me: len
       Italian Leather Sofa:
       Sad Songs and Waltzes:
-Can:
-   =:
-      Vitamin C:
-         flow: 183,424
-         link: https://youtu.be/9a1NhRbNJ_Y
-   Ege Bamyasi:
       =:
-         rel: 1972
+         rel: 1996
          white: yes
+   =:
+      Short Skirt Long Jacket:
+         flow: 865,813
+         link: https://youtu.be/u7aDstrDMf0
+Can:
+   Ege Bamyasi:
       Pinch:
       Sing Swan Song:
       One More Night:
@@ -1140,30 +1133,30 @@ Can:
       Soup:
       I’m So Green:
       Spoon:
+      =:
+         rel: 1972
+         white: yes
+   =:
+      Vitamin C:
+         flow: 183,424
+         link: https://youtu.be/9a1NhRbNJ_Y
 Cassie:
+   Cassie:
+      Long Way 2 Go:
+      Me & U:
+      =:
+         rel: 2006
+         white: no
    =:
       Me & U:
          flow: 13,636,105
          link: https://youtu.be/zVJ5gsLeCSM
-   Cassie:
-      =:
-         rel: 2006
-         white: no
-      Long Way 2 Go:
-      Me & U:
 Chicago:
-   =:
-      If You Leave Me Now:
-         flow: 1,030,105
-         link: https://youtu.be/j1ykMNtzMT8
-      You’re The Inspiration:
-         flow: 7,406,342
-         link: https://youtu.be/wM-XhQeFzW4
    Chicago 17:
+      You’re The Inspiration:
       =:
          rel: 1984
          white: no
-      You’re The Inspiration:
    Chicago 16:
       rel: 1982
    Chicago XIV:
@@ -1175,9 +1168,6 @@ Chicago:
    Chicago XI:
       rel: 1977
    Chicago X:
-      =:
-         rel: 1976
-         white: yes
       Once or Twice:
       You Are on My Mind:
       Skin Tight:
@@ -1189,6 +1179,9 @@ Chicago:
       Gently I’ll Wake You:
       You Get It Up:
       Hope for Love:
+      =:
+         rel: 1976
+         white: yes
    Chicago VIII:
       rel: 1975
    Chicago VII:
@@ -1196,9 +1189,6 @@ Chicago:
    Chicago VI:
       rel: 1973
    Chicago V:
-      =:
-         rel: 1972
-         white: yes
       A Hit by Varèse:
       All Is Well:
       Now That You’ve Gone:
@@ -1209,12 +1199,12 @@ Chicago:
       State of the Union:
       Goodbye:
       Alma Mater:
+      =:
+         rel: 1972
+         white: yes
    Chicago III:
       rel: 1971
    Chicago II:
-      =:
-         rel: 1969
-         white: yes
       Movin’ In:
       The Road:
       Poem for the People:
@@ -1238,6 +1228,16 @@ Chicago:
       It Better End Soon (3rd Movement):
       It Better End Soon (4th Movement): len
       Where Do We Go From Here: len
+      =:
+         rel: 1969
+         white: yes
+   =:
+      If You Leave Me Now:
+         flow: 1,030,105
+         link: https://youtu.be/j1ykMNtzMT8
+      You’re The Inspiration:
+         flow: 7,406,342
+         link: https://youtu.be/wM-XhQeFzW4
 Chicane:
    =:
       Saltwater (original mix):
