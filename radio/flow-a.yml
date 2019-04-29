@@ -214,14 +214,7 @@ Aerosmith:
          flow: 7,394,905
          link: https://youtu.be/4B_UYYPb-Gk
 Air:
-   =:
-      Alone In Kyoto:
-         flow: 1,402,647
-         link: https://youtu.be/XUjAtYQkFm8
    Music for Museum:
-      =:
-         rel: 2014
-         white: yes
       Land Me: no
       Reverse Bubble: no
       The Dream of Yi:
@@ -231,10 +224,10 @@ Air:
       Integration Desintegration:
       Octogum:
       North Cloud:
-   Love 2:
       =:
-         rel: 2009
+         rel: 2014
          white: yes
+   Love 2:
       Do the Joy:
       Love: len
       So Light Is Her Footfall:
@@ -247,10 +240,10 @@ Air:
       Eat My Beat: len
       You Can Tell It to Everybody:
       African Velvet: yes
-   Pocket Symphony:
       =:
-         rel: 2006
+         rel: 2009
          white: yes
+   Pocket Symphony:
       Space Maker:
       Once Upon a Time:
       One Hell of a Party:
@@ -264,10 +257,10 @@ Air:
       Redhead Girl:
       Night Sight:
       Time Capsule:
-   Talkie Walkie:
       =:
-         rel: 2004
+         rel: 2006
          white: yes
+   Talkie Walkie:
       Venus:
       Cherry Blossom Girl:
       Run:
@@ -279,10 +272,10 @@ Air:
       Biological:
       Alone in Kyoto: yes
       Easy Going Woman:
-   10 000 Hz Legend:
       =:
-         rel: 2001
+         rel: 2004
          white: yes
+   10 000 Hz Legend:
       Electronic Performers: no
       How Does It Make You Feel?: no
       Radio 1: no
@@ -294,10 +287,10 @@ Air:
       Wonder Milky Bitch:
       Don’t Be Light:
       Caramel Prisoner:
-   Moon Safari:
       =:
-         rel: 1998
+         rel: 2001
          white: yes
+   Moon Safari:
       La Femme d’argent: yes
       Sexy Boy: no
       All I Need: yes
@@ -308,10 +301,10 @@ Air:
       Ce matin-là: no
       New Star in the Sky (Chanson pour Solal): no
       Le Voyage de Pénélope: yes
-   Premiers Symptômes:
       =:
-         rel: 1997
+         rel: 1998
          white: yes
+   Premiers Symptômes:
       Modular Mix: yes
       Casanova 70: yes
       Les Professionnels: yes
@@ -319,25 +312,25 @@ Air:
       Le soleil est près de moi: yes
       Californie: len
       Gordini Mix (Brakes On mix): yes
+      =:
+         rel: 1997
+         white: yes
+   =:
+      Alone In Kyoto:
+         flow: 1,402,647
+         link: https://youtu.be/XUjAtYQkFm8
 Alannah Myles:
+   Alannah Myles:
+      Black Velvet:
+      =:
+         rel: 1989
+         white: no
    =:
       Black Velvet:
          flow: 9,350,914
          link: https://youtu.be/tT4d1LQy4es
-   Alannah Myles:
-      =:
-         rel: 1989
-         white: no
-      Black Velvet:
 Aleksi Perälä:
-   =:
-      UK74R1405036:
-         flow: 8,996
-         link: https://youtu.be/hs342lcjGAk
    Ovuca Bonus:
-      =:
-         rel: 2014
-         white: yes
       Transport Phenomenon:
       Mean Squared Displacement:
       Kinetic Theory:
@@ -349,15 +342,15 @@ Aleksi Perälä:
       Biogenesis: len
       Dynamic Light Scattering:
       Brownian Motion:
-Alela Diane:
-   =:
-      The Pirate’s Gospel:
-         flow: 154,689
-         link: https://youtu.be/SpwSxHiiNSw
-   To Be Still:
       =:
-         rel: 2009
+         rel: 2014
          white: yes
+   =:
+      UK74R1405036:
+         flow: 8,996
+         link: https://youtu.be/hs342lcjGAk
+Alela Diane:
+   To Be Still:
       Dry Grass & Shadows:
       White as Diamonds:
       Age Old Blue:
@@ -369,7 +362,38 @@ Alela Diane:
       Every Path:
       Tatted Lace:
       Lady Divine:
+      =:
+         rel: 2009
+         white: yes
+   =:
+      The Pirate’s Gospel:
+         flow: 154,689
+         link: https://youtu.be/SpwSxHiiNSw
 Alice in Chains:
+   Jar of Flies:
+      Rotten Apple: yes
+      Nutshell: yes
+      I Stay Away: yes
+      No Excuses:
+      Whale & Wasp: len
+      Don’t Follow:
+      Swing on This:
+      =:
+         rel: 1994
+         white: yes
+   Dirt:
+      Down in a Hole:
+      Rooster:
+      Them Bones:
+      Would?:
+      =:
+         rel: 1992
+         white: no
+   Facelift:
+      Man in the Box:
+      =:
+         rel: 1990
+         white: no
    =:
       Man in the Box:
          flow: 8,302,402
@@ -380,41 +404,6 @@ Alice in Chains:
       Would?:
          flow: 7,027,889
          link: https://youtu.be/Nco_kh8xJDs
-   Rainier Fog:
-      =:
-         rel: 2018
-         white: yes
-      The One You Know:
-   The Devil Put Dinosaurs Here:
-      rel: 2013
-   Black Gives Way to Blue:
-      rel: 2009
-   Alice in Chains:
-      rel: 1995
-   Jar of Flies:
-      =:
-         rel: 1994
-         white: yes
-      Rotten Apple: yes
-      Nutshell: yes
-      I Stay Away: yes
-      No Excuses:
-      Whale & Wasp: len
-      Don’t Follow:
-      Swing on This:
-   Dirt:
-      =:
-         rel: 1992
-         white: no
-      Down in a Hole:
-      Rooster:
-      Them Bones:
-      Would?:
-   Facelift:
-      =:
-         rel: 1990
-         white: no
-      Man in the Box:
 Alicia Keys:
    =:
       Fallin’:
