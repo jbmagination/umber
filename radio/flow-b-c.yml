@@ -1239,14 +1239,7 @@ Chicago:
          flow: 7,406,342
          link: https://youtu.be/wM-XhQeFzW4
 Chicane:
-   =:
-      Saltwater (original mix):
-         flow: 2,624,489
-         link: https://youtu.be/ET1-6Bef9xU
    Behind the Sun:
-      =:
-         rel: 2000
-         white: yes
       Overture: yes
       Low Sun: yes
       No Ordinary Morning: no
@@ -1257,10 +1250,10 @@ Chicane:
       Don’t Give Up: no
       Saltwater (The Thrillseekers remix): yes
       Andromeda: no
-   Far From the Maddening Crowds:
       =:
-         rel: 1997
+         rel: 2000
          white: yes
+   Far From the Maddening Crowds:
       Early:
       Already There: len
       Offshore (original mix):
@@ -1272,34 +1265,28 @@ Chicane:
       Sunstroke (original mix):
       Offshore ’97: yes
       The Drive Home:
-Childish Gambino:
+      =:
+         rel: 1997
+         white: yes
    =:
-      Redbone:
-         flow: 130,783,298
-         link: https://youtu.be/Kp7eSUU9oy8
-      Sober:
-         flow: 2,720,472
-         link: https://youtu.be/ayLiAVJ6vTM
-      Sweatpants:
-         flow: 25,128,289
-         link: https://youtu.be/ExVtrghW5Y4
+      Saltwater (original mix):
+         flow: 2,624,489
+         link: https://youtu.be/ET1-6Bef9xU
+Childish Gambino:
    Awaken, My Love!:
+      Me and Your Mama:
+      Redbone:
       =:
          rel: 2016
          white: no
-      Me and Your Mama:
-      Redbone:
    Because the Internet:
-      =:
-         rel: 2013
-         white: no
       3005:
       Sweatpants:
       Telegraph Ave:
-   Camp:
       =:
-         rel: 2011
-         white: yes
+         rel: 2013
+         white: no
+   Camp:
       Outside: no
       Fire Fly: no
       Bonfire: no
@@ -1313,23 +1300,26 @@ Childish Gambino:
       You See Me:
       Sunrise:
       That Power:
-Chris Isaak:
+      =:
+         rel: 2011
+         white: yes
    =:
-      Can’t Help Falling in Love:
-         flow: 5,134,048
-         link: https://youtu.be/UJ8RBj_P0KQ
-      Wicked Game:
-         flow: 9,828,608
-         link: https://youtu.be/ib6VAJbEBjg
+      Redbone:
+         flow: 130,783,298
+         link: https://youtu.be/Kp7eSUU9oy8
+      Sober:
+         flow: 2,720,472
+         link: https://youtu.be/ayLiAVJ6vTM
+      Sweatpants:
+         flow: 25,128,289
+         link: https://youtu.be/ExVtrghW5Y4
+Chris Isaak:
    Heart Shaped World:
+      Wicked Game:
       =:
          rel: 1989
          white: no
-      Wicked Game:
    Chris Isaak:
-      =:
-         rel: 1986
-         white: yes
       You Owe Me Some Kind of Love: yes
       Heart Full of Soul:
       Blue Hotel:
@@ -1341,6 +1331,16 @@ Chris Isaak:
       Cryin’: len
       Lovers Game: len
       Waiting for the Rain to Fall:
+      =:
+         rel: 1986
+         white: yes
+   =:
+      Can’t Help Falling in Love:
+         flow: 5,134,048
+         link: https://youtu.be/UJ8RBj_P0KQ
+      Wicked Game:
+         flow: 9,828,608
+         link: https://youtu.be/ib6VAJbEBjg
 Ciara:
    Basic Instinct:
       Ride:
@@ -1352,14 +1352,7 @@ Ciara:
          flow: 19,725,835
          link: https://youtu.be/wl2NCXzg1FQ
 Cocteau Twins:
-   =:
-      Heaven or Las Vegas:
-         flow: 202,206
-         link: https://youtu.be/6KnYw4EwYGc
    Milk & Kisses:
-      =:
-         rel: 1996
-         white: yes
       Violaine: no
       Serpentskirt: yes
       Tishbite:
@@ -1370,10 +1363,10 @@ Cocteau Twins:
       Eperdu:
       Treasure Hiding:
       Seekers Who Are Lovers:
-   Four-Calendar Café:
       =:
-         rel: 1993
+         rel: 1996
          white: yes
+   Four-Calendar Café:
       Know Who You Are at Every Age:
       Evangeline:
       Bluebeard:
@@ -1384,10 +1377,10 @@ Cocteau Twins:
       Essence:
       Summerhead: yes
       Pur:
-   Heaven or Las Vegas:
       =:
-         rel: 1990
+         rel: 1993
          white: yes
+   Heaven or Las Vegas:
       Cherry-Coloured Funk: no
       Pitch the Baby: no
       Iceblink Luck: no
@@ -1398,10 +1391,10 @@ Cocteau Twins:
       Wolf in the Breast:
       Road, River and Rail:
       Frou-Frou Foxes in Midsummer Fires:
-   Blue Bell Knoll:
       =:
-         rel: 1988
+         rel: 1990
          white: yes
+   Blue Bell Knoll:
       Blue Bell Knoll:
       Athol-Brose: no
       Carolyn’s Fingers:
@@ -1412,10 +1405,10 @@ Cocteau Twins:
       Spooning Good Singing Gum:
       A Kissed Out Red Floatboat:
       Ella Megalast Burls Forever:
-   Victorialand:
       =:
-         rel: 1986
+         rel: 1988
          white: yes
+   Victorialand:
       Lazy Calm: yes
       Fluffy Tufts:
       Throughout the Dark Months of April and May: yes
@@ -1425,18 +1418,18 @@ Cocteau Twins:
       Feet-Like Fins:
       How to Bring a Blush to the Snow:
       The Thinner the Air:
-   Tiny Dynamine:
       =:
-         rel: 1985
+         rel: 1986
          white: yes
+   Tiny Dynamine:
       Pink Orange Red: yes
       Ribbed and Veined: yes
       Plain Tiger:
       Sultitan Itan:
-   Treasure:
       =:
-         rel: 1984
+         rel: 1985
          white: yes
+   Treasure:
       Ivo: yes
       Lorelei: no
       Beatrix:
@@ -1447,18 +1440,18 @@ Cocteau Twins:
       Cicely:
       Otterley: yes
       Donimo:
-   Sunburst and Snowblind:
       =:
-         rel: 1983
+         rel: 1984
          white: yes
+   Sunburst and Snowblind:
       Sugar Hiccup: dup
       From the Flagstones:
       Hitherto: yes
       Because of Whirl-Jack:
-   Head Over Heels:
       =:
          rel: 1983
          white: yes
+   Head Over Heels:
       When Mama Was Moth:
       Five Ten Fiftyfold: yes
       Sugar Hiccup: no
@@ -1469,10 +1462,10 @@ Cocteau Twins:
       Multifoiled: len
       My Love Paramour:
       Musette and Drums:
-   Garlands:
       =:
-         rel: 1982
+         rel: 1983
          white: yes
+   Garlands:
       Blood Bitch: no
       Wax and Wane: no
       But I’m Not: len
@@ -1481,6 +1474,13 @@ Cocteau Twins:
       The Hollow Men: no
       Garlands: no
       Grail Overfloweth: no
+      =:
+         rel: 1982
+         white: yes
+   =:
+      Heaven or Las Vegas:
+         flow: 202,206
+         link: https://youtu.be/6KnYw4EwYGc
 Coldplay:
    =:
       The Scientist:
