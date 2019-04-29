@@ -1,22 +1,15 @@
 Backstreet Boys:
+   Backstreet’s Back:
+      Everybody:
+      =:
+         rel: 1997
+         white: no
    =:
       Everybody:
          flow: 24,343,495
          link: https://youtu.be/6M6samPEMpM
-   Backstreet’s Back:
-      =:
-         rel: 1997
-         white: no
-      Everybody:
 Bad Company:
-   =:
-      Bad Company:
-         flow: 3,524,989
-         link: https://youtu.be/ww5GXbk58R0
    Bad Company:
-      =:
-         rel: 1974
-         white: yes
       Can’t Get Enough:
       Rock Steady:
       Ready for Love:
@@ -25,15 +18,15 @@ Bad Company:
       The Way I Choose:
       Movin’ On:
       Seagull:
-Bananarama:
-   =:
-      Cruel Summer:
-         flow: 5,505,081
-         link: https://youtu.be/l9ml3nyww80
-   Bananarama:
       =:
-         rel: 1984
+         rel: 1974
          white: yes
+   =:
+      Bad Company:
+         flow: 3,524,989
+         link: https://youtu.be/ww5GXbk58R0
+Bananarama:
+   Bananarama:
       Cruel Summer: yes
       Rough Justice:
       King of the Jungle:
@@ -43,15 +36,15 @@ Bananarama:
       State I’m In: len
       Robert De Niro’s Waiting:
       Through a Child’s Eye:
-Bat for Lashes:
-   =:
-      Laura:
-         flow: 927,413
-         link: https://youtu.be/UznHTBZIa8E
-   The Bride:
       =:
-         rel: 2016
+         rel: 1984
          white: yes
+   =:
+      Cruel Summer:
+         flow: 5,505,081
+         link: https://youtu.be/l9ml3nyww80
+Bat for Lashes:
+   The Bride:
       I Do: len
       Joe’s Dream: yes
       In God’s House:
@@ -64,10 +57,10 @@ Bat for Lashes:
       If I Knew:
       I Will Love Again:
       In Your Bed:
-   The Haunted Man:
       =:
-         rel: 2012
+         rel: 2016
          white: yes
+   The Haunted Man:
       Lilies: no
       All Your Gold: no
       Horses of the Sun: no
@@ -79,10 +72,10 @@ Bat for Lashes:
       A Wall:
       Rest Your Head:
       Deep Sea Diver:
-   Two Suns:
       =:
-         rel: 2009
+         rel: 2012
          white: yes
+   Two Suns:
       Glass: yes
       Sleep Alone:
       Moon and Moon:
@@ -102,10 +95,10 @@ Bat for Lashes:
       Good Love (live):
       Daniel (live):
       Lonely (live): yes
-   Fur and Gold:
       =:
-         rel: 2006
+         rel: 2009
          white: yes
+   Fur and Gold:
       Horse and I:
       Trophy: no
       Tahiti: yes
@@ -118,6 +111,13 @@ Bat for Lashes:
       Sarah:
       I Saw a Light:
       I’m on Fire:
+      =:
+         rel: 2006
+         white: yes
+   =:
+      Laura:
+         flow: 927,413
+         link: https://youtu.be/UznHTBZIa8E
 Beach House:
    =:
       Heart Of Chambers:

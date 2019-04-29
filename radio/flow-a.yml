@@ -592,14 +592,7 @@ Audioslave:
          flow: 47,408,565
          link: https://youtu.be/7QU1nvuxaMA
 Autechre:
-   =:
-      Dropp:
-         flow: 111,359
-         link: https://youtu.be/hWGUnrIiOoI
    Exai:
-      =:
-         rel: 2013
-         white: yes
       FLeure: no
       irlite (get 0): no
       prac-f: no
@@ -617,10 +610,10 @@ Autechre:
       deco Loc: no
       recks on: no
       YJY UX: no
-   Oversteps:
       =:
-         rel: 2010
+         rel: 2013
          white: yes
+   Oversteps:
       r ess: yes
       ilanders:
       known(1):
@@ -635,10 +628,10 @@ Autechre:
       redfall: yes
       krYlon:
       Yuop: yes
-   Quaristice:
       =:
-         rel: 2008
+         rel: 2010
          white: yes
+   Quaristice:
       Altibzz: yes
       The Plc: no
       IO: no
@@ -659,10 +652,10 @@ Autechre:
       chenc9: no
       Notwo: yes
       Outh9X: no
-   Untilted:
       =:
-         rel: 2005
+         rel: 2008
          white: yes
+   Untilted:
       LCC: no
       Ipacial Section: no
       Pro Radii: no
@@ -671,10 +664,10 @@ Autechre:
       Fermium:
       The Trees:
       Sublimit:
-   Draft 7.30:
       =:
-         rel: 2003
+         rel: 2005
          white: yes
+   Draft 7.30:
       Xylin Room:
       IV VV IV VV VIII:
       6IE.CR:
@@ -685,10 +678,10 @@ Autechre:
       P.NTIL:
       V-PROC:
       Reniform Puls:
-   Confield:
       =:
-         rel: 2001
+         rel: 2003
          white: yes
+   Confield:
       VI Scose Poise: no
       Cfern: no
       Pen Expers: no
@@ -698,10 +691,10 @@ Autechre:
       Eidetic Casein:
       Uviol:
       Lentic Catachresis:
-   EP7:
       =:
-         rel: 1999
+         rel: 2001
          white: yes
+   EP7:
       Rpeg:
       Ccec:
       Squeller:
@@ -713,10 +706,10 @@ Autechre:
       Zeiss Contarex:
       Netlon Sentinel:
       Pir:
-   LP5:
       =:
-         rel: 1998
+         rel: 1999
          white: yes
+   LP5:
       Acroyear2: no
       777: no
       Rae: no
@@ -728,10 +721,10 @@ Autechre:
       Caliper Remote: len
       Arch Carrier:
       Drane2:
-   Chiastic Slide:
       =:
-         rel: 1997
+         rel: 1998
          white: yes
+   Chiastic Slide:
       Cipater: no
       Rettic AC: len
       Tewe: no
@@ -741,10 +734,10 @@ Autechre:
       Recury:
       Pule:
       Nuane:
-   Tri Repetae:
       =:
-         rel: 1995
+         rel: 1997
          white: yes
+   Tri Repetae:
       Dael:
       Clipper:
       Leterel:
@@ -755,10 +748,10 @@ Autechre:
       Gnit:
       Overand: yes
       Rsdio:
-   Amber:
       =:
-         rel: 1994
+         rel: 1995
          white: yes
+   Amber:
       Foil: no
       Montreal: no
       Silverside: no
@@ -770,10 +763,10 @@ Autechre:
       Yulquen: yes
       Nil: yes
       Teartear: no
-   Incunabula:
       =:
-         rel: 1993
+         rel: 1994
          white: yes
+   Incunabula:
       Kalpol Introl: yes
       Bike: yes
       Autriche: yes
@@ -785,3 +778,10 @@ Autechre:
       Windwind: yes
       Lowride:
       444: yes
+      =:
+         rel: 1993
+         white: yes
+   =:
+      Dropp:
+         flow: 111,359
+         link: https://youtu.be/hWGUnrIiOoI
