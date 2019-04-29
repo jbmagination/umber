@@ -119,30 +119,17 @@ Bat for Lashes:
          flow: 927,413
          link: https://youtu.be/UznHTBZIa8E
 Beach House:
-   =:
-      Heart Of Chambers:
-         flow: 20,509
-         link: https://youtu.be/XSuViWLfmjM
-      Myth:
-         flow: 9,745,854
-         link: https://youtu.be/3lIyDxfUhxM
-      Space Song:
-         flow: 6,452,708
-         link: https://youtu.be/f9X1C7pTu-M
    Depression Cherry:
+      Space Song:
       =:
          rel: 2015
          white: no
-      Space Song:
    Bloom:
+      Myth:
       =:
          rel: 2012
          white: no
-      Myth:
    Teen Dream:
-      =:
-         rel: 2010
-         white: yes
       Zebra: yes
       Silver Soul:
       Norway: yes
@@ -153,18 +140,21 @@ Beach House:
       10 Mile Stereo:
       Real Love: yes
       Take Care: yes
-Beastie Boys:
-   =:
-      Fight For Your Right:
-         flow: 4,462,428
-         link: https://youtu.be/eBShN8qT4lk
-      Sabotage:
-         flow: 6,447,985
-         link: https://youtu.be/z5rRZdiu1UE
-   To the 5 Boroughs:
       =:
-         rel: 2004
+         rel: 2010
          white: yes
+   =:
+      Heart Of Chambers:
+         flow: 20,509
+         link: https://youtu.be/XSuViWLfmjM
+      Myth:
+         flow: 9,745,854
+         link: https://youtu.be/3lIyDxfUhxM
+      Space Song:
+         flow: 6,452,708
+         link: https://youtu.be/f9X1C7pTu-M
+Beastie Boys:
+   To the 5 Boroughs:
       Ch-Check It Out: yes
       Right Right Now Now: len
       3 the Hard Way: len
@@ -180,25 +170,25 @@ Beastie Boys:
       Crawlspace: len
       The Brouhaha: len
       We Got The: len
+      =:
+         rel: 2004
+         white: yes
    Hello Nasty:
       rel: 1998
    Ill Communication:
+      Sabotage:
       =:
          rel: 1994
          white: no
-      Sabotage:
-Beck:
    =:
-      Colors:
-         flow: 4,179,410
-         link: https://youtu.be/WRCA_Fo0rWA
-      Loser:
-         flow: 10,576,977
-         link: https://youtu.be/YgSPaXgAdzE
+      Fight For Your Right:
+         flow: 4,462,428
+         link: https://youtu.be/eBShN8qT4lk
+      Sabotage:
+         flow: 6,447,985
+         link: https://youtu.be/z5rRZdiu1UE
+Beck:
    Colors:
-      =:
-         rel: 2017
-         white: yes
       Colors: no
       Seventh Heaven: no
       I’m So Free: no
@@ -209,10 +199,10 @@ Beck:
       Up All Night: no
       Square One: len
       Fix Me: no
-   Morning Phase:
       =:
-         rel: 2014
+         rel: 2017
          white: yes
+   Morning Phase:
       Cycle: len
       Morning:
       Heart Is a Drum:
@@ -226,6 +216,9 @@ Beck:
       Turn Away: yes
       Country Down:
       Waking Light:
+      =:
+         rel: 2014
+         white: yes
    Modern Guilt:
       rel: 2008
    The Information:
@@ -239,9 +232,6 @@ Beck:
    Mutations:
       rel: 1998
    Odelay:
-      =:
-         rel: 1996
-         white: yes
       Devil’s Haircut: no
       Hotwax: no
       Lord Only Knows:
@@ -259,22 +249,25 @@ Beck:
       Deadweight:
       Inferno:
       Gold Chains:
+      =:
+         rel: 1996
+         white: yes
    One Foot in the Grave:
       rel: 1994
    Mellow Gold:
+      Loser:
       =:
          rel: 1994
          white: no
-      Loser:
-Beirut:
    =:
-      Elephant Gun:
-         flow: 2,371,023
-         link: https://youtu.be/SWSz_PAfgNc
+      Colors:
+         flow: 4,179,410
+         link: https://youtu.be/WRCA_Fo0rWA
+      Loser:
+         flow: 10,576,977
+         link: https://youtu.be/YgSPaXgAdzE
+Beirut:
    The Flying Club Cup:
-      =:
-         rel: 2007
-         white: yes
       A Call to Arms: len
       Nantes:
       A Sunday Smile:
@@ -288,15 +281,15 @@ Beirut:
       Cherbourg: yes
       St. Apollonia: len
       The Flying Club Cup:
-Bell Biv DeVoe:
-   =:
-      Poison:
-         flow: 1,351,460
-         link: https://youtu.be/sb2np1HGqxg
-   Poison:
       =:
-         rel: 1990
+         rel: 2007
          white: yes
+   =:
+      Elephant Gun:
+         flow: 2,371,023
+         link: https://youtu.be/SWSz_PAfgNc
+Bell Biv DeVoe:
+   Poison:
       Dope!:
       B.B.D. (I Thought It Was Me)?:
       Let Me Know Something?!:
@@ -306,6 +299,13 @@ Bell Biv DeVoe:
       Ain’t Nut’in’ Changed!:
       When Will I See You Smile Again?:
       I Do Need You.:
+      =:
+         rel: 1990
+         white: yes
+   =:
+      Poison:
+         flow: 1,351,460
+         link: https://youtu.be/sb2np1HGqxg
 Ben Howard:
    =:
       Promise:
