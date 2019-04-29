@@ -1482,24 +1482,17 @@ Cocteau Twins:
          flow: 202,206
          link: https://youtu.be/6KnYw4EwYGc
 Coldplay:
+   A Rush of Blood to the Head:
+      The Scientist:
+      =:
+         rel: 2002
+         white: no
    =:
       The Scientist:
          flow: 80,172,619
          link: https://youtu.be/RB-RcX5DS5A
-   A Rush of Blood to the Head:
-      =:
-         rel: 2002
-         white: no
-      The Scientist:
 Com Truise:
-   =:
-      Propagation:
-         flow: 812,858
-         link: https://youtu.be/3uI9Hh26OTs
    Iteration:
-      =:
-         rel: 2017
-         white: yes
       Of Your Fake Dimension: no
       Ephemeron: no
       Dryswch:
@@ -1512,10 +1505,10 @@ Com Truise:
       Syrthio:
       When Will You Find the Limit:
       Iteration:
-   In Decay:
       =:
-         rel: 2012
+         rel: 2017
          white: yes
+   In Decay:
       Open:
       84’ Dreamin:
       Dreambender:
@@ -1529,10 +1522,10 @@ Com Truise:
       Video Arkade:
       Data Kiss:
       Closed:
-   Galactic Melt:
       =:
-         rel: 2011
+         rel: 2012
          white: yes
+   Galactic Melt:
       Terminal: len
       VHS Sex: no
       Cathode Girls: no
@@ -1544,15 +1537,15 @@ Com Truise:
       Ether Drift:
       Futureworld:
       Karova:
-Conjure One:
-   =:
-      Tears From the Moon:
-         flow: 163,821
-         link: https://youtu.be/4w0hHxrj7do
-   Extraordinary Ways:
       =:
-         rel: 2005
+         rel: 2011
          white: yes
+   =:
+      Propagation:
+         flow: 812,858
+         link: https://youtu.be/3uI9Hh26OTs
+Conjure One:
+   Extraordinary Ways:
       Endless Dream: no
       Face the Music: no
       Pilgrimage: no
@@ -1563,10 +1556,10 @@ Conjure One:
       Dying Light:
       Forever Lost:
       Into the Escape:
-   Conjure One:
       =:
-         rel: 2002
+         rel: 2005
          white: yes
+   Conjure One:
       Damascus: len
       Center of the Sun:
       Tears From the Moon:
@@ -1578,18 +1571,15 @@ Conjure One:
       Pandora: yes
       Sleep:
       Premonition (reprise):
-Counting Crows:
-   =:
-      Accidentally in Love:
-         flow: 2,933,736
-         link: https://youtu.be/22bK0C2obFc
-      Mr. Jones:
-         flow: 13,704,250
-         link: https://youtu.be/-oqAU5VxFWs
-   This Desert Life:
       =:
-         rel: 199
+         rel: 2002
          white: yes
+   =:
+      Tears From the Moon:
+         flow: 163,821
+         link: https://youtu.be/4w0hHxrj7do
+Counting Crows:
+   This Desert Life:
       Hanginaround:
       Mrs. Potter’s Lullaby:
       Amy Hit the Atmosphere:
@@ -1600,22 +1590,25 @@ Counting Crows:
       I Wish I Was a Girl:
       Speedway:
       St. Robinson in His Cadillac Dream / Kid Things:
+      =:
+         rel: 1999
+         white: yes
    Recovering the Satellites:
       rel: 1996
    August and Everything After:
+      Mr. Jones:
       =:
          rel: 1993
          white: no
-      Mr. Jones:
-Crazy P:
    =:
-      Heartbreaker:
-         flow: 162,899
-         link: https://youtu.be/Ph5psMQoirU
+      Accidentally in Love:
+         flow: 2,933,736
+         link: https://youtu.be/22bK0C2obFc
+      Mr. Jones:
+         flow: 13,704,250
+         link: https://youtu.be/-oqAU5VxFWs
+Crazy P:
    Walk Dance Talk Sing:
-      =:
-         rel: 2015
-         white: yes
       Like a Fool: yes
       The Come On:
       Echo:
@@ -1627,10 +1620,10 @@ Crazy P:
       The Way:
       Hear My Song:
       Witch Doctor:
-   When We On:
       =:
-         rel: 2011
+         rel: 2015
          white: yes
+   When We On:
       Open for Service:
       Changes:
       Beatbox:
@@ -1642,15 +1635,15 @@ Crazy P:
       Eruption:
       Wecanonlybewhoweare:
       Future Beat:
-Curve:
-   =:
-      Clipped:
-         flow: 35,317
-         link: https://youtu.be/moAIaLbcKb0
-   Cuckoo:
       =:
-         rel: 1993
+         rel: 2011
          white: yes
+   =:
+      Heartbreaker:
+         flow: 162,899
+         link: https://youtu.be/Ph5psMQoirU
+Curve:
+   Cuckoo:
       Missing Link:
       Crystal:
       Men Are From Mars, Women Are From Venus: yes
@@ -1661,3 +1654,10 @@ Curve:
       Left of Mother:
       Sweetest Pie:
       Cuckoo:
+      =:
+         rel: 1993
+         white: yes
+   =:
+      Clipped:
+         flow: 35,317
+         link: https://youtu.be/moAIaLbcKb0
