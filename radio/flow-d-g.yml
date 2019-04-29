@@ -448,24 +448,14 @@ Don Henley:
          flow: 279,121
          link: https://youtu.be/YHimia_Fxzs
 Dr. Dre:
-   =:
-      Nuthin’ but a G Thang:
-         flow: 4,584,395
-         link: https://youtu.be/0F0CAEoF4XM
-      Still D.R.E.:
-         flow: 82,605,839
-         link: https://youtu.be/_CL6n0FJZpk
    2001:
-      =:
-         rel: 1999
-         white: no
       Forgot About Dre:
       Still D.R.E:
       The Next Episode:
-   The Chronic:
       =:
-         rel: 1992
-         white: yes
+         rel: 1999
+         white: no
+   The Chronic:
       The Chronic (intro): len
       Fuck Wit Dre Day (And Everybody’s Celebratin’):
       Let Me Ride:
@@ -482,15 +472,18 @@ Dr. Dre:
       Stranded on Death Row:
       The Roach (The Chronic Outro):
       Bitches Ain’t Shit:
-Duke Ellington:
-   =:
-      It don’t mean a thing:
-         flow: 911,897
-         link: https://youtu.be/qDQpZT3GhDg
-   Money Jungle:
       =:
-         rel: 1962
-         white: yet
+         rel: 1992
+         white: yes
+   =:
+      Nuthin’ but a G Thang:
+         flow: 4,584,395
+         link: https://youtu.be/0F0CAEoF4XM
+      Still D.R.E.:
+         flow: 82,605,839
+         link: https://youtu.be/_CL6n0FJZpk
+Duke Ellington:
+   Money Jungle:
       Money Jungle:
       Fleurette Africaine: yes
       Very Special:
@@ -498,6 +491,9 @@ Duke Ellington:
       Wig Wise:
       Caravan:
       Solitude: yes
+      =:
+         rel: 1962
+         white: yet
    Duke Ellington Meets Coleman Hawkins:
       rel: 1962
    Recording Together for the First Time:
@@ -505,9 +501,6 @@ Duke Ellington:
    Piano in the Foreground:
       rel: 1961
    First Time! The Count Meets the Duke:
-      =:
-         rel: 1961
-         white: yes
       Battle Royal:
       To You: yes
       Take the “A” Train:
@@ -516,27 +509,24 @@ Duke Ellington:
       Segue in C:
       B D B:
       Jumpin’ at the Woodside:
-Duran Duran:
+      =:
+         rel: 1961
+         white: yes
    =:
-      Come Undone:
-         flow: 18,836,105
-         link: https://youtu.be/Epj84QVw2rc
-      Save a Prayer:
-         flow: 4,584,790
-         link: https://youtu.be/6Uxc9eFcZyM
+      It don’t mean a thing:
+         flow: 911,897
+         link: https://youtu.be/qDQpZT3GhDg
+Duran Duran:
    Duran Duran (The Wedding Album):
+      Come Undone:
       =:
          rel: 1993
          white: no
-      Come Undone:
    Liberty:
       rel: 1990
    Big Thing:
       rel: 1988
    Notorious:
-      =:
-         rel: 1986
-         white: yes
       Notorious: no
       American Science: no
       Skin Trade: no
@@ -547,15 +537,18 @@ Duran Duran:
       “Meet el Presidente”: no
       Winter Marches On: no
       Proposition: no
-Eddie Money:
-   =:
-      Shakin’:
-         flow: 1,841,303
-         link: https://youtu.be/2tcD_dVcXE4
-   Can’t Hold Back:
       =:
-         rel: 1985
+         rel: 1986
          white: yes
+   =:
+      Come Undone:
+         flow: 18,836,105
+         link: https://youtu.be/Epj84QVw2rc
+      Save a Prayer:
+         flow: 4,584,790
+         link: https://youtu.be/6Uxc9eFcZyM
+Eddie Money:
+   Can’t Hold Back:
       Take Me Home Tonight: yes
       One Love:
       I Wanna Go Back:
@@ -566,26 +559,47 @@ Eddie Money:
       I Can’t Hold Back:
       Stranger in a Strange Land:
       Calm Before the Storm:
-Ekkah:
+      =:
+         rel: 1985
+         white: yes
    =:
-      LAST CHANCE TO DANCE:
-         flow: 50,372
-         link: https://youtu.be/gvM1a72Dcqw
+      Shakin’:
+         flow: 1,841,303
+         link: https://youtu.be/2tcD_dVcXE4
+Ekkah:
    Can’t Give It Up / Figure It Out (Night Edit):
+      Can’t Give It Up: len
+      Figure It Out (Night Edit): yes
       =:
          rel: 2016
          white: yes
-      Can’t Give It Up: len
-      Figure It Out (Night Edit): yes
    Last Chance to Dance:
-      =:
-         rel: 2014
-         white: yes
       Last Chance to Dance: yes
       Holiday Blues (demo):
       Ex-Change (demo): len
       Only U 4 Me (demo): len
+      =:
+         rel: 2014
+         white: yes
+   =:
+      LAST CHANCE TO DANCE:
+         flow: 50,372
+         link: https://youtu.be/gvM1a72Dcqw
 Eli & Fur:
+   Illusions:
+      You’re So High:
+      =:
+         rel: 2013
+         white: no
+   Night Blooming Jasmine:
+      Night Blooming Jasmine: yes
+      Something Was Real:
+      Parfume:
+      Honest:
+      Parfume (extended mix):
+      =:
+         rel: 2018
+         white: yes
    =:
       Seeing Is Believing:
          flow: 339,935
@@ -593,20 +607,6 @@ Eli & Fur:
       You’re So High:
          flow: 21,490,696
          link: https://youtu.be/3GEqdbh8sFI
-   Illusions:
-      =:
-         rel: 2013
-         white: no
-      You’re So High:
-   Night Blooming Jasmine:
-      =:
-         rel: 2018
-         white: yes
-      Night Blooming Jasmine: yes
-      Something Was Real:
-      Parfume:
-      Honest:
-      Parfume (extended mix):
 Elton John:
    =:
       Tiny Dancer:
