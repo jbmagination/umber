@@ -837,14 +837,7 @@ Everything but the Girl:
          flow: 2,556,051
          link: https://youtu.be/Q4sPkS8b62Q
 Fatboy Slim:
-   =:
-      Right Here, Right Now:
-         flow: 5,592,444
-         link: https://youtu.be/l7ZlSHGFfdc
    Halfway Between the Gutter and the Stars:
-      =:
-         rel: 2000
-         white: yes
       Talking Bout My Baby: yes
       Star 69: no
       Sunset (Bird of Prey): yes
@@ -856,10 +849,10 @@ Fatboy Slim:
       Drop the Hate: yes
       Demons: no
       Song for Shelter: yes
-   You’ve Come a Long Way, Baby:
       =:
-         rel: 1998
+         rel: 2000
          white: yes
+   You’ve Come a Long Way, Baby:
       Right Here, Right Now: yes
       The Rockafeller Skank: yes
       Fucking in Heaven:
@@ -871,10 +864,10 @@ Fatboy Slim:
       Praise You: yes
       Love Island: yes
       Acid 8000:
-   Better Living Through Chemistry:
       =:
-         rel: 1996
+         rel: 1998
          white: yes
+   Better Living Through Chemistry:
       Song for Lindy: yes
       Santa Cruz:
       Going Out of My Head:
@@ -885,15 +878,15 @@ Fatboy Slim:
       First Down:
       Punk to Funk:
       The Sound of Milwaukee:
-Filter:
-   =:
-      Take a Picture:
-         flow: 619,133
-         link: https://youtu.be/Jhx0o3GifpI
-   Title of Record:
       =:
-         rel: 1999
+         rel: 1996
          white: yes
+   =:
+      Right Here, Right Now:
+         flow: 5,592,444
+         link: https://youtu.be/l7ZlSHGFfdc
+Filter:
+   Title of Record:
       Sand: len
       Welcome to the Fold:
       Captain Bligh: no
@@ -905,15 +898,15 @@ Filter:
       Cancer:
       I’m Not the Only One:
       Miss Blue:
-Flamingosis:
-   =:
-      Football Head:
-         flow: 2,286,983
-         link: https://youtu.be/1hJKhiew2O0
-   Great Hair:
       =:
-         rel: 2016
+         rel: 1999
          white: yes
+   =:
+      Take a Picture:
+         flow: 619,133
+         link: https://youtu.be/Jhx0o3GifpI
+Flamingosis:
+   Great Hair:
       Hidden Attraction: len
       Frugal Livin’: len
       Riding the L:
@@ -927,10 +920,10 @@ Flamingosis:
       Breakfast Poutine: len
       Snacks on Snacks:
       Elevator Pass: len
-   Pleasure Palette:
       =:
-         rel: 2015
+         rel: 2016
          white: yes
+   Pleasure Palette:
       Pleasure Palette: len
       Down For The Fifth Time: yes
       Finesse (Hey Baby): len
@@ -943,18 +936,15 @@ Flamingosis:
       Wearing a Smile: len
       Little Fling: len
       Football Head: yes
-Fleet Foxes:
-   =:
-      Mykonos:
-         flow: 1,526,713
-         link: https://youtu.be/DT-dxG4WWf4
-      Pentatonix:
-         flow: 17,144,294
-         link: https://youtu.be/o10drRI3VQ0
-   Helplessness Blues:
       =:
-         rel: 2011
+         rel: 2015
          white: yes
+   =:
+      Football Head:
+         flow: 2,286,983
+         link: https://youtu.be/1hJKhiew2O0
+Fleet Foxes:
+   Helplessness Blues:
       Montezuma: yes
       Bedouin Dress:
       Sim Sala Bim:
@@ -967,35 +957,32 @@ Fleet Foxes:
       The Shrine / An Argument:
       Blue Spotted Tail:
       Grown Ocean:
+      =:
+         rel: 2011
+         white: yes
    Fleet Foxes:
+      White Winter Hymnal:
       =:
          rel: 2008-06-03
          white: no
-      White Winter Hymnal:
    Sun Giant:
-      =:
-         rel: 2008-03-09
-         white: yes
       Sun Giant: len
       Drops in the River: yes
       English House: yes
       Mykonos: yes
       Innocent Son: no
-Fleetwood Mac:
-   =:
-      Go Your Own Way:
-         flow: 12,697,708
-         link: https://youtu.be/6ul-cZyuYq4
-      Landslide:
-         flow: 6,540,267
-         link: https://youtu.be/x--yddOolRQ
-      Little Lies:
-         flow: 2,190,958
-         link: https://youtu.be/Xr9Oubxw1gA
-   Tango in the Night:
       =:
-         rel: 1987
+         rel: 2008-03-09
          white: yes
+   =:
+      Mykonos:
+         flow: 1,526,713
+         link: https://youtu.be/DT-dxG4WWf4
+      White Winter Hymnal:
+         flow: 17,137,472
+         link: https://youtu.be/o10drRI3VQ0
+Fleetwood Mac:
+   Tango in the Night:
       Big Love:
       Seven Wonders:
       Everywhere: yes
@@ -1008,10 +995,10 @@ Fleetwood Mac:
       Isn’t It Midnight:
       When I See You Again:
       You and I, Part II: len
-   Mirage:
       =:
-         rel: 1982
+         rel: 1987
          white: yes
+   Mirage:
       Love in Store:
       Can’t Go Back: len
       That’s Alright:
@@ -1024,21 +1011,34 @@ Fleetwood Mac:
       Oh Diane: len
       Eyes of the World:
       Wish You Were Here:
+      =:
+         rel: 1982
+         white: yes
    Tusk:
       rel: 1979
    Rumours:
-      =:
-         rel: 1977
-         white: no
       Dreams:
       Go Your Own Way:
       The Chain:
+      =:
+         rel: 1977
+         white: no
    Fleetwood Mac:
+      Landslide:
+      Rhiannon:
       =:
          rel: 1975
          white: no
+   =:
+      Go Your Own Way:
+         flow: 12,697,708
+         link: https://youtu.be/6ul-cZyuYq4
       Landslide:
-      Rhiannon:
+         flow: 6,540,267
+         link: https://youtu.be/x--yddOolRQ
+      Little Lies:
+         flow: 2,190,958
+         link: https://youtu.be/Xr9Oubxw1gA
 Floating Points:
    =:
       Nuits Sonores:
