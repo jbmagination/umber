@@ -67,11 +67,11 @@ Goldfrapp:
          link: https://youtu.be/aCQO7lUfT0A
          flow: 5419
          white: now
-   albums:
+   =:
       Seventh Tree:
          rel: 2008
          white: yes
-         songs:
+         =:
             Clowns: yes
 ~~~
 
