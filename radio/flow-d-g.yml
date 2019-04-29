@@ -329,9 +329,6 @@ Dirty Vegas:
          flow: 1,152,039
          link: https://youtu.be/M51rijkxa_4
    Dirty Vegas:
-      =:
-         rel: 2002
-         white: yes
       I Should Know:
       Ghosts:
       Lost Not Found:
@@ -344,7 +341,47 @@ Dirty Vegas:
       The Brazilian:
       Simple Things, Part 2:
       Days Go By (acoustic): len
+      =:
+         rel: 2002
+         white: yes
 Disturbed:
+   Evolution:
+      A Reason to Fight:
+      Are You Ready:
+      Hold on to Memories:
+      Immortalized:
+      No More:
+      Stronger on Your Own:
+      The Best Ones Lie:
+      The Light:
+      The Vengeful One:
+      =:
+         rel: 2018
+         white: no
+   Immortalized:
+      The Sound of Silence:
+      =:
+         rel: 2015
+         white: no
+   Asylum:
+      rel: 2010
+   Indestructible:
+      rel: 2008
+   Ten Thousand Fists:
+      Stricken:
+      =:
+         rel: 2005
+         white: no
+   Believe:
+      rel: 2002
+   The Sickness:
+      Down With the Sickness:
+      Stupify:
+      The Game:
+      Voices:
+      =:
+         rel: 2000
+         white: no
    =:
       A Reason To Fight:
          flow: 16,779,619
@@ -358,52 +395,8 @@ Disturbed:
       The Sound of Silence:
          flow: 153,992,522
          link: https://youtu.be/u9Dg-g7t2l4
-   Evolution:
-      =:
-         rel: 2018
-         white: no
-      A Reason to Fight:
-      Are You Ready:
-      Hold on to Memories:
-      Immortalized:
-      No More:
-      Stronger on Your Own:
-      The Best Ones Lie:
-      The Light:
-      The Vengeful One:
-   Immortalized:
-      =:
-         rel: 2015
-         white: no
-      The Sound of Silence:
-   Asylum:
-      rel: 2010
-   Indestructible:
-      rel: 2008
-   Ten Thousand Fists:
-      =:
-         rel: 2005
-         white: no
-      Stricken:
-   Believe:
-      rel: 2002
-   The Sickness:
-      =:
-         rel: 2000
-         white: no
-      Down With the Sickness:
-      Stupify:
-      The Game:
-      Voices:
 Doe Paoro:
-   =:
-      The Wind:
-         flow: 40,570
-         link: https://youtu.be/HuRU2v6Moak
    After:
-      =:
-         rel: 2015
-         white: yes
       Traveling: yes
       Nostalgia: no
       Growth/Decay: yes
@@ -414,10 +407,10 @@ Doe Paoro:
       Nobody:
       Regret:
       Wake Up in Nowhere:
-   Slow to Love:
       =:
-         rel: 2012
+         rel: 2015
          white: yes
+   Slow to Love:
       Intro: len
       Born Whole: no
       I’ll Go Blind: no
@@ -427,15 +420,15 @@ Doe Paoro:
       Slow to Love: len
       Follow You Til: len
       Soft but Strong: len
-Don Henley:
-   =:
-      Dirty Laundry:
-         flow: 279,121
-         link: https://youtu.be/YHimia_Fxzs
-   I Can’t Stand Still:
       =:
-         rel: 1982
-         white: yet
+         rel: 2012
+         white: yes
+   =:
+      The Wind:
+         flow: 40,570
+         link: https://youtu.be/HuRU2v6Moak
+Don Henley:
+   I Can’t Stand Still:
       I Can’t Stand Still:
       You Better Hang Up:
       Long Way Home:
@@ -447,6 +440,13 @@ Don Henley:
       La Eile: len
       Lilah:
       The Unclouded Day:
+      =:
+         rel: 1982
+         white: yet
+   =:
+      Dirty Laundry:
+         flow: 279,121
+         link: https://youtu.be/YHimia_Fxzs
 Dr. Dre:
    =:
       Nuthin’ but a G Thang:
