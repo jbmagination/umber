@@ -1040,24 +1040,29 @@ Fleetwood Mac:
       Landslide:
       Rhiannon:
 Floating Points:
+   =:
+      Nuits Sonores:
+         flow: 570,221
+         link: https://youtu.be/1LtsjqgF6fw
    Reflections - Mojave Desert:
-      <rel: 2017
-      <<: &low
-         <flow: 610,878
-         <link: https://youtu.be/1LtsjqgF6fw
+      =:
+         rel: 2017
+         white: yes
       Mojave Desert: len
       Silurian Blue: yes
       Kites: no
       Kelso Dunes: yes
       Lucerne Valley: no
    Kuiper:
-      <rel: 2016
-      <white: yes
+      =:
+         rel: 2016
+         white: yes
       Kuiper:
       For Marmish Part II: yes
    Elaenia:
-      <rel: 2015
-      <white: yes
+      =:
+         rel: 2015
+         white: yes
       Nespole: yes
       Silhouettes (I, II & III):
       Elaenia:
@@ -1067,18 +1072,23 @@ Floating Points:
       Peroration Six:
       Precursor:
    Shadows EP:
-      <rel: 2011
-      <white: yes
+      =:
+         rel: 2011
+         white: yes
       Myrtle Avenue: yes
       Obfuse: no
       Realise: no
       ARP3: yes
       Sais: no
 Foghat:
+   =:
+      Slow Ride:
+         flow: 3,467,643
+         link: https://youtu.be/GcCNcgoyG_0
    Fool for the City:
-      <rel: 1974
-      <flow: 3,450,553
-      <link: https://youtu.be/GcCNcgoyG_0
+      =:
+         rel: 1974
+         white: yes
       Fool for the City:
       My Babe:
       Slow Ride: yes
@@ -1087,40 +1097,73 @@ Foghat:
       Drive Me Home:
       Take It or Leave It:
 Foo Fighters:
+   =:
+      All My Life:
+         flow: 7,246,410
+         link: https://youtu.be/xQ04WbgI9rg
+      Best Of You:
+         flow: 16,432,068
+         link: https://youtu.be/h_L4Rixya64
+      Everlong:
+         flow: 15,438,960
+         link: https://youtu.be/eBG7P-K-r1Y
+      Learn To Fly:
+         flow: 11,766,693
+         link: https://youtu.be/1VQ_3sBZEm0
+      Something From Nothing:
+         flow: 7,013,168
+         link: https://youtu.be/V_YlZ1JdcVk
+      The Pretender:
+         flow: 38,899,344
+         link: https://youtu.be/SBjQ9tuuTJQ
+      The Sky Is a Neighborhood:
+         flow: 28,652,318
+         link: https://youtu.be/TRqiFPpw2fY
+      Walk:
+         flow: 11,562,945
+         link: https://youtu.be/4PkcfQtibmU
    Concrete and Gold:
-      <flow: 34,356,075
-      <link: https://youtu.be/TRqiFPpw2fY
+      =:
+         rel: 2017
+         white: no
       Run:
       The Sky Is a Neighborhood:
-   Echoes, Silence, Patience & Grace:
-      <flow: 37,578,019
-      <link: https://youtu.be/SBjQ9tuuTJQ
-      The Pretender:
-   In Your Honor:
-      <flow: 15,558,134
-      <link: https://youtu.be/h_L4Rixya64
-      Best of You:
-   One by One:
-      <flow: 7,041,058
-      <link: https://youtu.be/xQ04WbgI9rg
-      All My Life:
    Sonic Highways:
-      <flow: 7,571,556
-      <link: https://youtu.be/V_YlZ1JdcVk
+      =:
+         rel: 2014
+         white: no
       Something From Nothing:
-   The Colour and the Shape:
-      <flow: 15,017,002
-      <link: https://youtu.be/eBG7P-K-r1Y
-      Everlong:
-   There Is Nothing Left to Lose:
-      <flow: 11,593,671
-      <link: https://youtu.be/1VQ_3sBZEm0
-      Learn to Fly:
    Wasting Light:
-      <flow: 12,060,557
-      <link: https://youtu.be/4PkcfQtibmU
+      =:
+         rel: 2011
+         white: no
       These Days:
       Walk:
+   Echoes, Silence, Patience & Grace:
+      =:
+         rel: 2007
+         white: no
+      The Pretender:
+   In Your Honor:
+      =:
+         rel: 2005
+         white: no
+      Best of You:
+   One by One:
+      =:
+         rel: 2002
+         white: no
+      All My Life:
+   There Is Nothing Left to Lose:
+      =:
+         rel: 1999
+         white: no
+      Learn to Fly:
+   The Colour and the Shape:
+      =:
+         rel: 1997
+         white: no
+      Everlong:
 Foreigner:
    Agent Provocateur:
       <rel: 1984
