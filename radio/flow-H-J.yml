@@ -1124,10 +1124,6 @@ Jennifer Lopez:
          link: https://youtu.be/t4H_Zoh7G5A
 Jeremy Soule:
    The Elder Scrolls IV Oblivion:
-      <rel: 2006
-      <<: &low
-         <flow: 1,684,726
-         <link: https://youtu.be/aQeIYVM3YBM
       Reign of the Septims: len
       Through the Valleys: yes
       Death Knell: len
@@ -1154,9 +1150,10 @@ Jeremy Soule:
       Deep Waters: len
       Dusk at the Market: yes
       Peace of Akatosh: yes
+      =:
+         rel: 2006
+         white: yes
    The Elder Scrolls III Morrowind:
-      <rel: 2002
-      <white: yes
       Nerevar Rising: len
       Peaceful Waters: yes
       Knight’s Charge: len
@@ -1177,6 +1174,13 @@ Jeremy Soule:
       Triumphant: len
       Introduction: len
       Fate’s Quickening: len
+      =:
+         rel: 2002
+         white: yes
+   =:
+      The Elder Scrolls V Skyrim:
+         flow: 1,669,397
+         link: https://youtu.be/aQeIYVM3YBM
 Jessie Ware:
    Glasshouse:
       <rel: 2017
