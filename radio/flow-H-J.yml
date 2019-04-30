@@ -1183,9 +1183,6 @@ Jeremy Soule:
          link: https://youtu.be/aQeIYVM3YBM
 Jessie Ware:
    Glasshouse:
-      <rel: 2017
-      <flow: 5,755,837
-      <link: https://youtu.be/3zrZE68Qrrg
       Midnight: no
       Thinking About You: no
       Stay Awake, Wait for Me: yes
@@ -1198,22 +1195,40 @@ Jessie Ware:
       Finish What We Started: no
       Last of the True Believers: no
       Sam: no
+      =:
+         rel: 2017
+         white: yes
    Tough Love:
-      <rel: 2014
-      <flow: 24,027,680
-      <link: https://youtu.be/DAMM8JVbr8g
       Kind of…Sometimes…Maybe:
       Say You Love Me:
+      =:
+         rel: 2014
+         white: yes
    Devotion:
-      <rel: 2012
-      <flow: 7,405,825
-      <link: https://youtu.be/bMJkddvJ4L4
       Wildest Moments:
+      =:
+         rel: 2012
+         white: no
+   =:
+      Alone:
+         flow: 5,228,273
+         link: https://youtu.be/3zrZE68Qrrg
+      Say You Love Me:
+         flow: 23,675,979
+         link: https://youtu.be/DAMM8JVbr8g
+      Wildest Moments:
+         flow: 7,290,086
+         link: https://youtu.be/bMJkddvJ4L4
 Jessy Lanza:
+   You Never Show Your Love:
+      You Never Show Your Love: yes
+      You Never Show Your Love (instrumental):
+      You Never Show Your Love (Teklife mix):
+      Fuck Diamond (Bambounou remix):
+      =:
+         rel: 2015
+         white: yes
    Pull My Hair Back:
-      <<: &low
-         <flow: 120,088
-         <link: https://youtu.be/ZF2lZesYZo0
       Giddy:
       5785021:
       Kathy Lee:
@@ -1223,17 +1238,15 @@ Jessy Lanza:
       Pull My Hair Back:
       As If:
       Strange Emotion: yes
-   You Never Show Your Love:
-      <white: yes
-      You Never Show Your Love: yes
-      You Never Show Your Love (instrumental):
-      You Never Show Your Love (Teklife mix):
-      Fuck Diamond (Bambounou remix):
+      =:
+         rel: 2013
+         white: yes
+   =:
+      Kathy Lee:
+         flow: 112,282
+         link: https://youtu.be/ZF2lZesYZo0
 John Frusciante:
    Curtains:
-      <<: &low
-         <flow: 826,721
-         <link: https://youtu.be/4v9CfE90Sts
       The Past Recedes:
       Lever Pulled: len
       Anne:
@@ -1245,9 +1258,14 @@ John Frusciante:
       Ascension: len
       Time Tonight:
       Leap Your Bar: len
+      =:
+         white: yes
+   =:
+      The Past Recedes:
+         flow: 820,397
+         link: https://youtu.be/4v9CfE90Sts
 John Frusciante & Omar Rodriguez Lopez:
    Omar Rodriguez Lopez & John Frusciante:
-      <white: yes
       417 am:
       0=2: yes
       LOE:
@@ -1255,16 +1273,22 @@ John Frusciante & Omar Rodriguez Lopez:
       VTA:
       0:
       545 am:
+      =:
+         white: yes
+   =:
+      Omar Rodriguez Lopez & John Frusciante:
+         flow: 9,232
+         link: https://youtu.be/2DMhQj17614
 Joss Stone:
    Super Duper Love:
-      <flow: 618,854
-      <link: https://youtu.be/h__d0RMFOkQ
       It’s a Man’s Man’s World (live): yes
       Super Duper Love (Are You Diggin’ on Me?), Part 1:
-   The Soul Sessions Vol. 2:
-      <flow: 5,412,766
-      <link: https://youtu.be/bLIYbabLJds
-      While You’re Out Looking for Sugar:
+      =:
+         white: yes
+   =:
+      Put Your Hands On Me:
+         flow: 598,261
+         link: https://youtu.be/h__d0RMFOkQ
 Joy Division:
    Love Will Tear Us Apart:
       <flow: 9,009,947
