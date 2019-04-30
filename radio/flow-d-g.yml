@@ -1448,9 +1448,6 @@ Genesis:
          link: https://youtu.be/QHmH1xQ2Pf4
 Gnarls Barkley:
    St. Elsewhere:
-      <<: &low
-         <flow: 3,539,846
-         <link: https://youtu.be/Qe500eIK1oA
       Go‐Go Gadget Gospel: len
       Crazy: yes
       St. Elsewhere: len
@@ -1465,8 +1462,9 @@ Gnarls Barkley:
       Necromancer: len
       Storm Coming:
       The Last Time:
+      =:
+         white: yes
    The Odd Couple:
-      <white: yes
       Charity Case:
       Who’s Gonna Save My Soul: yes
       Going On: len
@@ -1480,14 +1478,14 @@ Gnarls Barkley:
       Blind Mary:
       Neighbors:
       A Little Better:
+      =:
+         white: yes
+   =:
+      Crazy:
+         flow: 6,888,921
+         link: https://youtu.be/Qe500eIK1oA
 Goldfrapp:
-   <low:
-      Ooh La La:
-         <flow: 1,063,979
-         <link: https://youtu.be/uco-2V4ytYQ
    Silver Eye:
-      <rel: 2017
-      <white: yes
       Anymore: no
       Systemagic: no
       Tigerman: yes
@@ -1498,9 +1496,10 @@ Goldfrapp:
       Everything Is Never Enough: no
       Moon in Your Mouth: no
       Ocean: yes
+      =:
+         rel: 2017
+         white: yes
    Tales of Us:
-      <rel: 2013
-      <white: yes
       Jo: yes
       Annabel:
       Drew:
@@ -1512,11 +1511,12 @@ Goldfrapp:
       Laurel:
       Clay:
       Lee: yes
+      =:
+         rel: 2013
+         white: yes
    Head First:
-      <rel: 2010
+      rel: 2010
    Seventh Tree:
-      <rel: 2008
-      <white: yes
       Clowns: yes
       Little Bird:
       Happiness:
@@ -1527,9 +1527,10 @@ Goldfrapp:
       Cologne Cerrone Houdini:
       Caravan Girl:
       Monster Love:
+      =:
+         rel: 2008
+         white: yes
    Supernature:
-      <rel: 2005
-      <white: yes
       Ooh La La: yes
       Lovely 2 C U: yes
       Ride a White Horse: yes
@@ -1541,9 +1542,10 @@ Goldfrapp:
       Satin Chic: no
       Time Out From the World: yes
       Number 1: no
+      =:
+         rel: 2005
+         white: yes
    Black Cherry:
-      <rel: 2003
-      <white: yes
       Crystalline Green: no
       Train: no
       Black Cherry: no
@@ -1554,9 +1556,10 @@ Goldfrapp:
       Strict Machine: no
       Forever: no
       Slippage: no
+      =:
+         rel: 2003
+         white: yes
    Felt Mountain:
-      <rel: 2000
-      <white: yes
       Lovely Head: yes
       Paper Bag: yes
       Human: yes
@@ -1573,10 +1576,21 @@ Goldfrapp:
       Human (Calexico vocal):
       Human (Massey’s Cro-Magnon mix):
       Utopia (Tom Middleton’s Cosmos vocal mix): yes
+      =:
+         rel: 2000
+         white: yes
+   =:
+      Ooh La La:
+         flow: 1,063,979
+         link: https://youtu.be/uco-2V4ytYQ
 Goo Goo Dolls:
+   Dizzy Up the Girl:
+      Iris:
+      Slide:
+      =:
+         rel: 1998
+         white: no
    A Boy Named Goo:
-      <flow: 1,126,677
-      <link: https://youtu.be/LyG3wkwKXro
       Long Way Down: yes
       Burnin’ Up: len
       Naked:
@@ -1590,68 +1604,88 @@ Goo Goo Dolls:
       Eyes Wide Open:
       Disconnected:
       Slave Girl: len
-   Dizzy Up the Girl:
-      <flow: 17,275,396
-      <link: https://youtu.be/NdYWuo9OFAw
+      =:
+         rel: 1995
+         white: yes
+   =:
       Iris:
-      Slide:
+         flow: 19,820,856
+         link: https://youtu.be/NdYWuo9OFAw
+      Name:
+         flow: 1,047,005
+         link: https://youtu.be/LyG3wkwKXro
 Gorillaz:
-   <high:
-      19-2000:
-         <flow: 21,040,483
-         <link: https://youtu.be/WXR-bCF5dbM
-         <post: 2016
-      Andromeda:
-         <flow: 24,213,804
-         <link: https://youtu.be/9W44NWYwa1g
-         <post: 2017
-      Clint Eastwood:
-         <flow: 73,751,523
-         <link: https://youtu.be/1V_xRb0x9aw
-         <post: 2016
-      DARE:
-         <flow: 15,207,223
-         <link: https://youtu.be/uAOR6ib95kQ
-         <post: 2010
-      Dirty Harry:
-         <flow: 9,680,827
-         <link: https://youtu.be/cLnkQAeMbIM
-         <post: 2010
-      Feel Good Inc:
-         <flow: 98,994,981
-         <link: https://youtu.be/HyHNuVaZJ-k
-         <post: 2016
+   The Now Now:
       Humility:
-         <flow: 69,322,117
-         <link: https://youtu.be/E5yFcdPAGv0
-         <post: 2018
-      On Melancholy Hill:
-         <flow: 14,525,087
-         <link: https://youtu.be/04mfKJWDSzI
-         <post: 2010
-      Saturnz Barz:
-         <flow: 39,375,302
-         <link: https://youtu.be/5qJp6xlKEug
-         <post: 2017
-      Sleeping Powder:
-         <flow: 13,084,484
-         <link: https://youtu.be/GzJGWAfmBco
-         <post: 2017
-      Stylo:
-         <flow: 10,408,741
-         <link: https://youtu.be/nhPaWIeULKk
-         <post: 2010
-      Tomorrow Comes Today:
-         <flow: 6,597,139
-         <link: https://youtu.be/PiNdcBg3xC8
-         <post: 2010
       Tranz:
-         <flow: 49,788,375
-         <link: https://youtu.be/E2Q52cVx7Bo
-         <post: 2018
+      =:
+         rel: 2018
+         white: no
+   Humanz:
+      Andromeda:
+      Saturnz Barz:
+      =:
+         rel: 2017
+         white: no
+   The Fall:
+      rel: 2010
+   Plastic Beach:
+      On Melancholy Hill:
+      Stylo:
+      =:
+         rel: 2010
+         white: no
    Demon Days:
-      <release: 2005
+      DARE:
+      Dirty Harry:
       Feel Good Inc:
+      =:
+         rel: 2005
+         white: no
+   Gorillaz:
+      19-2000:
+      Clint Eastwood:
+      Tomorrow Comes Today:
+      =:
+         rel: 2001
+         white: no
+   =:
+      19-2000:
+         flow: 21,040,483
+         link: https://youtu.be/WXR-bCF5dbM
+      Andromeda:
+         flow: 24,213,804
+         link: https://youtu.be/9W44NWYwa1g
+      Clint Eastwood:
+         flow: 73,751,523
+         link: https://youtu.be/1V_xRb0x9aw
+      DARE:
+         flow: 15,207,223
+         link: https://youtu.be/uAOR6ib95kQ
+      Dirty Harry:
+         flow: 9,680,827
+         link: https://youtu.be/cLnkQAeMbIM
+      Feel Good Inc:
+         flow: 98,994,981
+         link: https://youtu.be/HyHNuVaZJ-k
+      Humility:
+         flow: 69,322,117
+         link: https://youtu.be/E5yFcdPAGv0
+      On Melancholy Hill:
+         flow: 14,525,087
+         link: https://youtu.be/04mfKJWDSzI
+      Saturnz Barz:
+         flow: 39,375,302
+         link: https://youtu.be/5qJp6xlKEug
+      Stylo:
+         flow: 10,408,741
+         link: https://youtu.be/nhPaWIeULKk
+      Tomorrow Comes Today:
+         flow: 6,597,139
+         link: https://youtu.be/PiNdcBg3xC8
+      Tranz:
+         flow: 49,788,375
+         link: https://youtu.be/E2Q52cVx7Bo
 Gotan Project:
    Tango 3.0:
       <rel: 2010
