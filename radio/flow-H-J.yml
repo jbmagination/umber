@@ -323,10 +323,6 @@ Hudson Mohawke:
          link: https://youtu.be/6HzyUHxmkg0
 Imogen Heap:
    Sparks:
-      <rel: 2014
-      <<: &low
-         <flow: 484,658
-         <link: https://youtu.be/13WAhlE02ew
       You Know Where to Find Me: yes
       Entanglement:
       The Listening Chair:
@@ -341,9 +337,10 @@ Imogen Heap:
       The Beast:
       Xizi She Knows:
       Propeller Seeds:
+      =:
+         rel: 2014
+         white: yes
    Ellipse:
-      <rel: 2009
-      <white: yes
       First Train Home: no
       Wait It Out: no
       Earth: no
@@ -357,15 +354,15 @@ Imogen Heap:
       The Fire: len
       Canvas: yes
       Half Life:
+      =:
+         rel: 2009
+         white: yes
    Speak for Yourself:
-      <rel: 2005
-      <flow: 26,733,602
-      <link: https://youtu.be/pBI3lc18k8Q
       Hide and Seek:
+      =:
+         rel: 2005
+         white: no
    Details:
-      <rel: 2002
-      <artist: Frou Frou
-      <white: yes
       Let Go: yes
       Breathe In:
       It’s Good to Be in Love:
@@ -377,9 +374,11 @@ Imogen Heap:
       Maddening Shroud:
       Flicks:
       The Dumbing Down of Love:
+      =:
+         artist: Frou Frou
+         rel: 2002
+         white: yes
    i Megaphone:
-      <rel: 1998
-      <white: yes
       Getting Scared: no
       Sweet Religion: no
       Oh Me, Oh My: no
@@ -391,12 +390,18 @@ Imogen Heap:
       Come Here Boy:
       Useless:
       Sleep:
+      =:
+         rel: 1998
+         white: yes
+   =:
+      Hide and Seek:
+         flow: 26,675,861
+         link: https://youtu.be/pBI3lc18k8Q
+      Let Go:
+         flow: 514,850
+         link: https://youtu.be/13WAhlE02ew
 Incubus:
    Light Grenades:
-      <rel: 2006
-      <<: &low
-         <flow: 4,831,802
-         <link: https://youtu.be/8295rOMvtQI
       Quicksand: len
       A Kiss to Send Us Off:
       Dig: yes
@@ -412,9 +417,10 @@ Incubus:
       Earth to Bella, Part II: len
       Punch-Drunk:
       Look Alive:
+      =:
+         rel: 2006
+         white: yes
    A Crow Left of the Murder:
-      <rel: 2004
-      <white: yes
       Megalomaniac: no
       A Crow Left of the Murder: no
       Agoraphobia: no
@@ -429,9 +435,10 @@ Incubus:
       Smile Lines:
       Here in My Room:
       Leech:
+      =:
+         rel: 2004
+         white: yes
    Morning View:
-      <rel: 2001
-      <white: yes
       Nice to Know You: yes
       Circles: yes
       Wish You Were Here: yes
@@ -445,18 +452,23 @@ Incubus:
       Are You In?: yes
       Under My Umbrella:
       Aqueous Transmission: yes
+      =:
+         rel: 2001
+         white: yes
    Make Yourself:
-      <rel: 1999
-      <flow: 10,284,407
-      <link: https://youtu.be/fgT9zGkiLig
       Drive:
+      =:
+         rel: 1999
+         white: no
+   =:
+      Drive:
+         flow: 10,366,778
+         link: https://youtu.be/fgT9zGkiLig
+      Wish You Were Here:
+         flow: 5,213,201
+         link: https://youtu.be/8295rOMvtQI
 Interpol:
-   <updated: 2019-4-7
    Marauder:
-      <rel: 2018
-      <<: &low
-         <flow: 4,500,040
-         <link: https://youtu.be/gLk8i2zw2jU
       If You Really Love Nothing:
       The Rover:
       Complications:
@@ -470,9 +482,10 @@ Interpol:
       Party’s Over:
       Interlude 2: len
       It Probably Matters:
+      =:
+         rel: 2018
+         white: yes
    El Pintor:
-      <rel: 2014
-      <white: yes
       All the Rage Back Home: yes
       My Desire: yes
       Anywhere:
@@ -483,9 +496,10 @@ Interpol:
       Ancient Ways:
       Tidal Wave:
       Twice as Hard:
+      =:
+         rel: 2014
+         white: yes
    Interpol:
-      <rel: 2010
-      <white: yes
       Success: no
       Memory Serves: no
       Summer Well: no
@@ -497,9 +511,10 @@ Interpol:
       All of the Ways:
       The Undoing:
       Gavilan:
+      =:
+         rel: 2010
+         white: yes
    Our Love to Admire:
-      <rel: 2007
-      <white: yes
       Pioneer to the Falls: yes
       No I in Threesome: yes
       The Scale: yes
@@ -511,9 +526,10 @@ Interpol:
       Who Do You Think:
       Wrecking Ball:
       The Lighthouse: yes
+      =:
+         rel: 2007
+         white: yes
    Antics:
-      <rel: 2004
-      <white: yes
       Next Exit:
       Evil:
       NARC: yes
@@ -532,9 +548,10 @@ Interpol:
       C’mere:
       Evil:
       Slow Hands:
+      =:
+         rel: 2004
+         white: yes
    Turn On the Bright Lights:
-      <rel: 2002
-      <white: yes
       Untitled:
       Obstacle 1: yes
       NYC:
@@ -546,6 +563,13 @@ Interpol:
       Roland:
       The New:
       Leif Erikson:
+      =:
+         rel: 2002
+         white: yes
+   =:
+      If You Really Love Nothing:
+         flow: 4,276,392
+         link: https://youtu.be/gLk8i2zw2jU
 INXS:
    Kick:
       <rel: 1987
