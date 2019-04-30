@@ -969,8 +969,6 @@ Janet Jackson:
          link: https://youtu.be/HGzVFjjfAfw
 JAWS:
    Simplicity:
-      <flow: 70,385
-      <link: https://youtu.be/RQCt3afJCzg
       Just a Boy: no
       What We Haven’t Got Yet: yes
       Right in Front of Me: yes
@@ -982,39 +980,42 @@ JAWS:
       In the Morning:
       A Brief Escape From Life:
       The Invisible Sleep:
+      =:
+         white: yes
+   =:
+      STAY IN:
+         flow: 69,440
+         link: https://youtu.be/RQCt3afJCzg
 Jay-Z:
    444:
-      <rel: 2017
-      <flow: 53,436,231
-      <link: https://youtu.be/RM7lw0Ovzq0
       444:
       Bam:
       Family Feud:
       The Story of O.J.:
+      =:
+         rel: 2017
+         white: no
    Run the Map:
-      <rel: 2016
+      rel: 2016
    Magna Carta… Holy Grail:
-      <rel: 2013
+      rel: 2013
    Watch the Throne:
-      <rel: 2011
-      <flow: 33,875,349
-      <link: https://youtu.be/gG_dA32oH44
       Niggas in Paris:
       Otis:
+      =:
+         rel: 2011
+         white: no
    The Blueprint 3:
-      <rel: 2009
+      rel: 2009
    American Gangster:
-      <rel: 2007
+      rel: 2007
    Kingdom Come:
-      <rel: 2006
+      rel: 2006
    Unfinished Business:
-      <rel: 2004
+      rel: 2004
    The Black Album:
-      <rel: 2003
+      rel: 2003
    The Blueprint² The Gift & The Curse:
-      <rel: 2002
-      <flow: 4,099,242
-      <link: https://youtu.be/tnDh0JhmaFw
       A Dream:
       Hovi Baby:
       The Watcher 2:
@@ -1040,50 +1041,87 @@ Jay-Z:
       Show You How: len
       Bitches & Sisters: len
       What They Gonna Do, Part II:
+      =:
+         rel: 2002
+         white: yes
+   =:
+      Excuse Me Miss:
+         flow: 4,272,958
+         link: https://youtu.be/tnDh0JhmaFw
+      Niggas In Paris:
+         flow: 34,181,289
+         link: https://youtu.be/gG_dA32oH44
+      The Story of O.J.:
+         flow: 49,126,672
+         link: https://youtu.be/RM7lw0Ovzq0
 Jeff Buckley:
    Grace:
-      <flow: 14,370,088
-      <link: https://youtu.be/y8AWFf7EAc4
       Hallelujah:
       Last Goodbye:
+      =:
+         white: no
+   =:
+      Hallelujah:
+         flow: 14,630,197
+         link: https://youtu.be/y8AWFf7EAc4
 Jekka:
    City of Night:
-      <rel: 2015
-      <flow: 7,720
-      <link: https://youtu.be/tOjrQmVkJp4
       Midnight Hour: no
       City of Night: yes
       Hero: no
       On and On: no
+      =:
+         rel: 2015
+         white: yes
+   =:
+      City Of Night:
+         flow: 6,747
+         link: https://youtu.be/tOjrQmVkJp4
 Jennifer Lopez:
    A.K.A.:
-      <rel: 2014
-      <flow: 71,756,764
-      <link: https://youtu.be/nxtIRArhVD4
       Booty:
+      =:
+         rel: 2014
+         white: no
    LOVE?:
-      <rel: 2011
-      <flow: 166,748,514
-      <link: https://youtu.be/t4H_Zoh7G5A
       On the Floor:
       Papi:
+      =:
+         rel: 2011
+         white: no
    Rebirth:
-      <rel: 2005
-      <flow: 11,423,788
-      <link: https://youtu.be/1WIsnC-h1d0
       Get Right:
+      =:
+         rel: 2005
+         white: no
    J.Lo:
-      <rel: 2001
-      <flow: 11,755,864
-      <link: https://youtu.be/4kGvlESGvbs
       I’m Gonna Be Alright:
       I’m Real:
       Love Don’t Cost a Thing:
+      =:
+         rel: 2001
+         white: no
    On the 6:
-      <rel: 1999
-      <flow: 10,097,211
-      <link: https://youtu.be/lYfkl-HXfuU
       If You Had My Love:
+      =:
+         rel: 1999
+         white: no
+   =:
+      Booty:
+         flow: 70,093,191
+         link: https://youtu.be/nxtIRArhVD4
+      Get Right:
+         flow: 11,605,360
+         link: https://youtu.be/1WIsnC-h1d0
+      If You Had My Love:
+         flow: 10,299,126
+         link: https://youtu.be/lYfkl-HXfuU
+      Love Don’t Cost a Thing:
+         flow: 11,799,361
+         link: https://youtu.be/4kGvlESGvbs
+      On The Floor:
+         flow: 167,548,257
+         link: https://youtu.be/t4H_Zoh7G5A
 Jeremy Soule:
    The Elder Scrolls IV Oblivion:
       <rel: 2006
