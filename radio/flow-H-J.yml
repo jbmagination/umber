@@ -184,13 +184,19 @@ Harold Budd:
          link: https://youtu.be/hQKGP3J6Q9s
 Heart:
    Bad Animals:
-      <flow: 16,073,551
-      <link: https://youtu.be/1Cw1ng75KP0
       Alone:
+      =:
+         rel: 1987
+         white: no
+   Heart:
+      rel: 1985
+   Passionworks:
+      rel: 1983
+   Private Audition:
+      rel: 1982
+   Bébé le Strange:
+      rel: 1980
    Dog & Butterfly:
-      <<: &low
-         <flow: 3,468,808
-         <link: https://youtu.be/41P8UxneDJE
       Cook With Fire:
       High Time:
       Hijinx:
@@ -199,8 +205,10 @@ Heart:
       Lighter Touch:
       Nada One:
       Mistral Wind:
+      =:
+         rel: 1978
+         white: yes
    Little Queen:
-      <white: yes
       Barracuda: yes
       Love Alive:
       Sylvan Song: len
@@ -211,10 +219,18 @@ Heart:
       Say Hello:
       Cry to Me: len
       Go On Cry:
+      =:
+         rel: 1977
+         white: yes
+   =:
+      Alone:
+         flow: 17,146,245
+         link: https://youtu.be/1Cw1ng75KP0
+      These Dreams:
+         flow: 3,627,507
+         link: https://youtu.be/41P8UxneDJE
 Hem:
    Departure & Farewell:
-      <flow: 15,860
-      <link: https://youtu.be/Ma9X4_PKctk
       Departure and Farewell:
       Walking Past the Graveyard, Not Breathing: len
       Things Are Not Perfect in Our Yard: len
@@ -228,10 +244,14 @@ Hem:
       The Tides at the Narrows: len
       Last Call:
       So Long: len
+      =:
+         white: yes
+   =:
+      Redwing:
+         flow: 9,519
+         link: https://youtu.be/QFQrH9w8VM4
 Henrik Schwarz:
    Instruments:
-      <flow: 187,831
-      <link: https://youtu.be/Jt1RiNZWnpY
       Walk Music Four:
       Marvin Two:
       Cloud Three:
@@ -239,19 +259,43 @@ Henrik Schwarz:
       Wamims:
       In Björndal: len
       I Exist Because Of You Two:
+      =:
+         white: yes
+   =:
+      Feeling You:
+         flow: 180,584
+         link: https://youtu.be/Jt1RiNZWnpY
 Hope Sandoval & The Warm Inventions:
    Son of a Lady:
-      <flow: 4,622,818
-      <link: https://youtu.be/jEgX64n3T7g
       Sleep:
       Son of a Lady:
       Let Me Get There (acoustic): yes
+      =:
+         white: yes
+   =:
+      Paradise Circus:
+         flow: 4,649,163
+         link: https://youtu.be/jEgX64n3T7g
 Hudson Mohawke:
-   $updated: 2018-7-19
+   Lantern:
+      Lantern: len
+      Very First Breath: no
+      Ryderz: len
+      Warriors: no
+      Kettles: yes
+      Scud Books: no
+      Indian Steps: no
+      Lil Djembe: len
+      Deepspace: no
+      Shadows: len
+      Resistance: yes
+      Portrait of Luci: no
+      System: no
+      Brand New World: no
+      =:
+         rel: 2015
+         white: yes
    Butter:
-      <<: &low
-         <flow: 1,316,767
-         <link: https://youtu.be/6HzyUHxmkg0
       Shower Melody: len
       Gluetooth: yes
       Joy Fantastic: no
@@ -270,22 +314,13 @@ Hudson Mohawke:
       Star Crackout: yes
       Allhot: len
       Black n Red: len
-   Lantern:
-      <white: yes
-      Lantern: len
-      Very First Breath: no
-      Ryderz: len
-      Warriors: no
-      Kettles: yes
-      Scud Books: no
-      Indian Steps: no
-      Lil Djembe: len
-      Deepspace: no
-      Shadows: len
-      Resistance: yes
-      Portrait of Luci: no
-      System: no
-      Brand New World: no
+      =:
+         rel: 2009
+         white: yes
+   =:
+      Higher Ground:
+         flow: 1,230,136
+         link: https://youtu.be/6HzyUHxmkg0
 Imogen Heap:
    Sparks:
       <rel: 2014
