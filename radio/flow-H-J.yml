@@ -794,14 +794,7 @@ Jackson C. Frank:
          flow: 118,918
          link: https://youtu.be/fO7ih6Nu3MA
 James Blake:
-   Assume Form:
-      <rel: 2019
-   The Colour in Anything:
-      <rel: 2016
    Overgrown:
-      <rel: 2013
-      <flow: 2,932,325
-      <link: https://youtu.be/oOT2-OTebx0
       Overgrown: yes
       I Am Sold:
       Life Round Here:
@@ -812,9 +805,10 @@ James Blake:
       Voyeur:
       To the Last:
       Our Love Comes Back:
+      =:
+         rel: 2013
+         white: yes
    James Blake:
-      <rel: 2011
-      <white: yes
       Unluck:
       The Wilhelm Scream: yes
       I Never Learnt to Share:
@@ -826,10 +820,15 @@ James Blake:
       Why Don’t You Call Me: len
       I Mind:
       Measurements:
+      =:
+         rel: 2011
+         white: yes
+   =:
+      Limit To Your Love:
+         flow: 2,882,198
+         link: https://youtu.be/oOT2-OTebx0
 Jamie xx:
    In Colour:
-      <flow: 5,831,390
-      <link: https://youtu.be/TP9luRtEqjc
       Gosh:
       Sleep Sound:
       SeeSaw:
@@ -841,29 +840,46 @@ Jamie xx:
       I Know There’s Gonna Be (Good Times):
       The Rest Is Noise:
       Girl: yes
+      =:
+         white: yes
+   =:
+      Loud Places:
+         flow: 5,664,607
+         link: https://youtu.be/TP9luRtEqjc
 Janet Jackson:
    Unbreakable:
-      <rel: 2015
-      <flow: 6,026,551
-      <link: https://youtu.be/2_t0ffY3JvE
-      BURNITUP:
-      No Sleeep:
+      Unbreakable:
+      BURNITUP!:
+      Dammn Baby:
+      The Great Forever:
+      Shoulda Known Better:
+      After You Fall:
+      Broken Hearts Heal:
+      Night:
+      No Sleeep: no
+      Dream Maker / Euphoria: len
+      2 B Loved: len
+      Take Me Away:
+      Promise: len
+      Lessons Learned:
+      Black Eagle:
+      Well Traveled:
+      Gon’ B Alright:
+      =:
+         rel: 2015-10-02
+         white: yes
    Discipline:
-      <rel: 2008
+      rel: 2008
    20 Y.O.:
-      <rel: 2006
+      rel: 2006
    Damita Jo:
-      <rel: 2004
+      rel: 2004
    All for You:
-      <rel: 2001
-      <flow: 6,693,670
-      <link: https://youtu.be/HGzVFjjfAfw
       Would You Mind:
+      =:
+         rel: 2001
+         white: no
    The Velvet Rope:
-      <rel: 1997
-      <<: &low
-         <flow: 673,978
-         <link: https://youtu.be/r9uizdKZAGE
       Interlude Twisted Elegance: len
       Velvet Rope:
       You:
@@ -886,9 +902,10 @@ Janet Jackson:
       Anything:
       Interlude Sad: len
       Special:
+      =:
+         rel: 1997
+         white: yes
    janet.:
-      <rel: 1993
-      <white: yes
       Morning: len
       That’s the Way Love Goes: yes
       You Know...: len
@@ -916,9 +933,10 @@ Janet Jackson:
       Any Time, Any Place:
       Are You Still Up: len
       Sweet Dreams / Whoops Now:
+      =:
+         rel: 1993
+         white: yes
    Rhythm Nation 1814:
-      <rel: 1989
-      <white: yes
       Interlude Pledge: len
       Rhythm Nation:
       Interlude T.V.: len
@@ -939,6 +957,16 @@ Janet Jackson:
       Come Back to Me:
       Someday Is Tonight:
       Interlude Livin’… in Complete Darkness: len
+      =:
+         rel: 1989
+         white: yes
+   =:
+      No Sleeep:
+         flow: 5,860,535
+         link: https://youtu.be/2_t0ffY3JvE
+      Would You Mind:
+         flow: 6,516,984
+         link: https://youtu.be/HGzVFjjfAfw
 JAWS:
    Simplicity:
       <flow: 70,385
