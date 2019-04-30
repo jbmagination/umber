@@ -1864,10 +1864,6 @@ Grizzly Bear:
          link: https://youtu.be/tjecYugTbIQ
 Groove Armada:
    Black Light:
-      <rel: 2010
-      <<: &low
-         <flow: 2,485,950
-         <link: https://youtu.be/_kE0pxRkMtQ
       Look Me in the Eye Sister:
       Fall Silent:
       Just for Tonight:
@@ -1879,9 +1875,10 @@ Groove Armada:
       Shameless:
       Time & Space:
       History: no
+      =:
+         rel: 2010
+         white: yes
    Soundboy Rock:
-      <rel: 2007
-      <white: yes
       Hasta Luego Mr. Fab (interlude): yes
       Get Down:
       The Things That We Could Share:
@@ -1897,9 +1894,10 @@ Groove Armada:
       From the Rooftops: yes
       See What You Get:
       What’s Your Version? (reprise): len
+      =:
+         rel: 2007
+         white: yes
    Lovebox:
-      <rel: 2002
-      <white: yes
       Purple Haze:
       Groove Is On:
       Remember:
@@ -1912,9 +1910,10 @@ Groove Armada:
       Easy:
       Lovebox: yes
       But I Feel Good:
+      =:
+         rel: 2002
+         white: yes
    Goodbye Country (Hello Nightclub):
-      <rel: 2001
-      <white: yes
       Suntoucher: no
       Superstylin’: no
       Drifted: no
@@ -1928,29 +1927,53 @@ Groove Armada:
       Tuning In (dub mix):
       Join Hands:
       Likwid:
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Superstylin’:
+         flow: 2,594,261
+         link: https://youtu.be/_kE0pxRkMtQ
 Guns N’ Roses:
    Use Your Illusion II:
-      <rel: 1991-09-17
-      <flow: 6,374,297
-      <link: https://youtu.be/NDOPlpH6NZM
       Yesterdays:
+      =:
+         rel: 1991-09-17
+         white: no
    Use Your Illusion I:
-      <rel: 1991-09-16
-      <flow: 123,354,481
-      <link: https://youtu.be/8SbUC-UaAxE
       November Rain:
+      =:
+         rel: 1991-09-16
+         white: no
    G N’ R Lies:
-      <rel: 1988
-      <flow: 42,733,186
-      <link: https://youtu.be/ErvgV4P6Fzc
       Patience:
+      =:
+         rel: 1988
+         white: no
    Appetite for Destruction:
-      <rel: 1987
-      <flow: 86,924,643
-      <link: https://youtu.be/1w7OgIMMRc4
       Sweet Child O’ Mine:
+      =:
+         rel: 1987
+         white: no
+   =:
+      November Rain:
+         flow: 123,851,131
+         link: https://youtu.be/8SbUC-UaAxE
+      Patience:
+         flow: 43,348,720
+         link: https://youtu.be/ErvgV4P6Fzc
+      Sweet Child O’ Mine:
+         flow: 98,551,986
+         link: https://youtu.be/1w7OgIMMRc4
+      Yesterdays:
+         flow: 6,521,419
+         link: https://youtu.be/NDOPlpH6NZM
 Gwen Stefani:
    Love. Angel. Music. Baby.:
-      <flow: 19,273,377
-      <link: https://youtu.be/Kgjkth6BRRY
       Hollaback Girl:
+      =:
+         white: no
+   =:
+      Hollaback Girl:
+         flow: 19,292,734
+         link: https://youtu.be/Kgjkth6BRRY

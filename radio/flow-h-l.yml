@@ -1,9 +1,5 @@
 Harold Budd:
    Jane 12-21:
-      <date: 2014
-      <<: &low
-         <flow: 88,887
-         <link: https://youtu.be/hQKGP3J6Q9s
       Jane 12: no
       Jane 13: no
       Jane 14: no
@@ -14,9 +10,10 @@ Harold Budd:
       Jane 19: no
       Jane 20: no
       Jane 21: len
+      =:
+         rel: 2014
+         white: yes
    Jane 1-11:
-      <date: 2013
-      <<: *low
       Jane 1: no
       Jane 2: yes
       Jane 3: yes
@@ -28,17 +25,18 @@ Harold Budd:
       Jane 9: len
       Jane 10:
       Jane 11:
+      =:
+         rel: 2013
+         white: yes
    Bandits of Stature:
-      <date: 2012
+      rel: 2012
    Nighthawks, Translucence and Drift Music:
-      <date: 2011
+      rel: 2011
    Winter Garden:
-      <date: 2011
+      rel: 2011
    In the Mist:
-      <date: 2011
+      rel: 2011
    Bordeaux:
-      <date: 2011
-      <<: *low
       Gaze:
       Deva C:
       The Names of Those Never Here: yes
@@ -48,15 +46,16 @@ Harold Budd:
       L’Aventure: yes
       Smiling Apart:
       Southern Shore:
+      =:
+         rel: 2011
+         white: yes
    Little Windows:
-      <date: 2010
+      rel: 2010
    Candylion:
-      <date: 2009
+      rel: 2009
    A Song for Lost Blossoms:
-      <date: 2008
+      rel: 2008
    Before the Day Breaks:
-      <date: 2007
-      <<: *low
       How Close Your Soul: yes
       A Formless Path: yes
       A Minute, a Day, No More: yes
@@ -66,9 +65,10 @@ Harold Budd:
       I Returned Her Glance:
       My Monochrome Vision:
       Turn On the Moon:
+      =:
+         rel: 2007
+         white: yes
    After the Night Falls:
-      <date: 2007
-      <<: *low
       How Distant Your Heart: no
       Avenue of Shapes: yes
       Seven Thousand Sunny Years: no
@@ -78,9 +78,10 @@ Harold Budd:
       And Then I Turned Away: no
       The Girl With Colorful Thoughts: no
       Turn Off the Sun: no
+      =:
+         rel: 2007
+         white: yes
    Perhaps:
-      <date: 2007
-      <<: *low
       Templar: no
       Tong War: no
       Quandari: no
@@ -94,27 +95,28 @@ Harold Budd:
       Monument: no
       Reini: no
       Ghost Cloud: len
+      =:
+         rel: 2007
+         white: yes
    Music for 'Fragments From the Inside':
-      <date: 2005
+      rel: 2005
    Avalon Sutra:
-      <date: 2005
+      rel: 2005
    La Bella Vista:
-      <date: 2003
+      rel: 2003
    Translucence + Drift Music:
-      <date: 2003
+      rel: 2003
    The Room:
-      <date: 2000
+      rel: 2000
    Walk Into My Voice (American Beat Poetry):
-      <date: 1998
+      rel: 1998
    Luxa:
-      <date: 1996
+      rel: 1996
    Glyph:
-      <date: 1995
+      rel: 1995
    She Is a Phantom:
-      <date: 1994
+      rel: 1994
    Through the Hill:
-      <date: 1994
-      <<: *low
       Hand 19: len
       Through the Hill: yes
       Great Valley of Gongs: yes
@@ -133,15 +135,16 @@ Harold Budd:
       Hand 22: len
       Bosch: len
       Bruegel: len
+      =:
+         rel: 1994
+         white: yes
    Music for 3 Pianos:
-      <date: 1992
+      rel: 1992
    By the Dawn’s Early Light:
-      <date: 1991
+      rel: 1991
    The Serpent (In Quicksilver) / Abandoned Cities:
-      <date: 1989
+      rel: 1989
    The White Arcades:
-      <date: 1988
-      <<: *low
       The White Arcades: no
       Balthus Bemused by Color: no
       The Child With a Lion: no
@@ -151,16 +154,16 @@ Harold Budd:
       The Room: no
       Coyote: len
       The Kiss: no
+      =:
+         rel: 1988
+         white: yes
    The Moon and the Melodies:
-      <date: 1986
+      rel: 1986
    Lovely Thunder:
-      <date: 1986
+      rel: 1986
    Abandoned Cities:
-      <date: 1984
+      rel: 1984
    The Pearl:
-      <date: 1984
-   The Pearl:
-      <<: *low
       Late October:
       A Stream With Bright Fish:
       The Silver Ball:
@@ -172,6 +175,13 @@ Harold Budd:
       Foreshadowed:
       An Echo of Night: len
       Still Return:
+      =:
+         rel: 1984
+         white: yes
+   =:
+      An Hour, a Day, No More:
+         flow: 85,832
+         link: https://youtu.be/hQKGP3J6Q9s
 Heart:
    Bad Animals:
       <flow: 16,073,551
@@ -190,7 +200,7 @@ Heart:
       Nada One:
       Mistral Wind:
    Little Queen:
-      <<: *low
+      <white: yes
       Barracuda: yes
       Love Alive:
       Sylvan Song: len
@@ -261,7 +271,7 @@ Hudson Mohawke:
       Allhot: len
       Black n Red: len
    Lantern:
-      <<: *low
+      <white: yes
       Lantern: len
       Very First Breath: no
       Ryderz: len
@@ -278,7 +288,7 @@ Hudson Mohawke:
       Brand New World: no
 Imogen Heap:
    Sparks:
-      <date: 2014
+      <rel: 2014
       <<: &low
          <flow: 484,658
          <link: https://youtu.be/13WAhlE02ew
@@ -297,8 +307,8 @@ Imogen Heap:
       Xizi She Knows:
       Propeller Seeds:
    Ellipse:
-      <date: 2009
-      <<: *low
+      <rel: 2009
+      <white: yes
       First Train Home: no
       Wait It Out: no
       Earth: no
@@ -313,14 +323,14 @@ Imogen Heap:
       Canvas: yes
       Half Life:
    Speak for Yourself:
-      <date: 2005
+      <rel: 2005
       <flow: 26,733,602
       <link: https://youtu.be/pBI3lc18k8Q
       Hide and Seek:
    Details:
-      <date: 2002
+      <rel: 2002
       <artist: Frou Frou
-      <<: *low
+      <white: yes
       Let Go: yes
       Breathe In:
       It’s Good to Be in Love:
@@ -333,8 +343,8 @@ Imogen Heap:
       Flicks:
       The Dumbing Down of Love:
    i Megaphone:
-      <date: 1998
-      <<: *low
+      <rel: 1998
+      <white: yes
       Getting Scared: no
       Sweet Religion: no
       Oh Me, Oh My: no
@@ -348,7 +358,7 @@ Imogen Heap:
       Sleep:
 Incubus:
    Light Grenades:
-      <date: 2006
+      <rel: 2006
       <<: &low
          <flow: 4,831,802
          <link: https://youtu.be/8295rOMvtQI
@@ -368,8 +378,8 @@ Incubus:
       Punch-Drunk:
       Look Alive:
    A Crow Left of the Murder:
-      <date: 2004
-      <<: *low
+      <rel: 2004
+      <white: yes
       Megalomaniac: no
       A Crow Left of the Murder: no
       Agoraphobia: no
@@ -385,8 +395,8 @@ Incubus:
       Here in My Room:
       Leech:
    Morning View:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       Nice to Know You: yes
       Circles: yes
       Wish You Were Here: yes
@@ -401,14 +411,14 @@ Incubus:
       Under My Umbrella:
       Aqueous Transmission: yes
    Make Yourself:
-      <date: 1999
+      <rel: 1999
       <flow: 10,284,407
       <link: https://youtu.be/fgT9zGkiLig
       Drive:
 Interpol:
    <updated: 2019-4-7
    Marauder:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 4,500,040
          <link: https://youtu.be/gLk8i2zw2jU
@@ -426,8 +436,8 @@ Interpol:
       Interlude 2: len
       It Probably Matters:
    El Pintor:
-      <date: 2014
-      <<: *low
+      <rel: 2014
+      <white: yes
       All the Rage Back Home: yes
       My Desire: yes
       Anywhere:
@@ -439,8 +449,8 @@ Interpol:
       Tidal Wave:
       Twice as Hard:
    Interpol:
-      <date: 2010
-      <<: *low
+      <rel: 2010
+      <white: yes
       Success: no
       Memory Serves: no
       Summer Well: no
@@ -453,8 +463,8 @@ Interpol:
       The Undoing:
       Gavilan:
    Our Love to Admire:
-      <date: 2007
-      <<: *low
+      <rel: 2007
+      <white: yes
       Pioneer to the Falls: yes
       No I in Threesome: yes
       The Scale: yes
@@ -467,8 +477,8 @@ Interpol:
       Wrecking Ball:
       The Lighthouse: yes
    Antics:
-      <date: 2004
-      <<: *low
+      <rel: 2004
+      <white: yes
       Next Exit:
       Evil:
       NARC: yes
@@ -488,8 +498,8 @@ Interpol:
       Evil:
       Slow Hands:
    Turn On the Bright Lights:
-      <date: 2002
-      <<: *low
+      <rel: 2002
+      <white: yes
       Untitled:
       Obstacle 1: yes
       NYC:
@@ -503,7 +513,7 @@ Interpol:
       Leif Erikson:
 INXS:
    Kick:
-      <date: 1987
+      <rel: 1987
       <flow: 5,212,872
       <link: https://youtu.be/mjvBH48V3Pk
       Guns in the Sky: len
@@ -524,7 +534,7 @@ Iron & Wine:
          flow: 2,249,788
          link: https://youtu.be/d1BgYTZ4Mxc
    Our Endless Numbered Days:
-      <date: 2004
+      <rel: 2004
       <flow: low
       On Your Wings:
       Naked as We Came: len
@@ -540,7 +550,7 @@ Iron & Wine:
       Passing Afternoon:
 Isan:
    Plans Drawn in Pencil:
-      <date: 2006
+      <rel: 2006
       <<: &low
          <flow: 15,594
          <link: https://youtu.be/XLfiCRanawQ
@@ -558,8 +568,8 @@ Isan:
       Working in Dust:
       Ruined Feathers: len
    Meet Next Life:
-      <date: 2004
-      <<: *low
+      <rel: 2004
+      <white: yes
       Birds Over Barges:
       First Date - Jumble Sale:
       One Man Abandon:
@@ -573,8 +583,8 @@ Isan:
       Slow Bulb Slippage:
       Meet Next Life:
    Lucky Cat:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       Cutlery Favours: no
       Table of Deciduous Species: no
       Fueled: no
@@ -588,8 +598,8 @@ Isan:
       Scraph: no
       You Can Use Bamboo as a Ruler: no
    Salamander:
-      <date: 1999
-      <<: *low
+      <rel: 1999
+      <white: yes
       Peg: no
       Proager: len
       Clipper: no
@@ -602,8 +612,8 @@ Isan:
       Effekl: len
       Braille Foundry:
    Beautronics:
-      <date: 1998
-      <<: *low
+      <rel: 1998
+      <white: yes
       Vosill: yes
       Tint1-Barely Barley: len
       Paintchart: no
@@ -645,10 +655,10 @@ Jackson C. Frank:
       - Heartbreak Hotel
       - Remastered & Unreleased
       - Fixin’ to Die
-      <date: 2015
+      <rel: 2015
       <flow: 109,081
       <link: https://youtu.be/fO7ih6Nu3MA
-      <<: *low
+      <white: yes
       (Tumble) In the Wind (version 1): len
       (Tumble) In the Wind (version 2):
       Ananias: len
@@ -707,11 +717,11 @@ Jackson C. Frank:
       You Never Wanted Me:
 James Blake:
    Assume Form:
-      <date: 2019
+      <rel: 2019
    The Colour in Anything:
-      <date: 2016
+      <rel: 2016
    Overgrown:
-      <date: 2013
+      <rel: 2013
       <flow: 2,932,325
       <link: https://youtu.be/oOT2-OTebx0
       Overgrown: yes
@@ -725,8 +735,8 @@ James Blake:
       To the Last:
       Our Love Comes Back:
    James Blake:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Unluck:
       The Wilhelm Scream: yes
       I Never Learnt to Share:
@@ -755,24 +765,24 @@ Jamie xx:
       Girl: yes
 Janet Jackson:
    Unbreakable:
-      <date: 2015
+      <rel: 2015
       <flow: 6,026,551
       <link: https://youtu.be/2_t0ffY3JvE
       BURNITUP:
       No Sleeep:
    Discipline:
-      <date: 2008
+      <rel: 2008
    20 Y.O.:
-      <date: 2006
+      <rel: 2006
    Damita Jo:
-      <date: 2004
+      <rel: 2004
    All for You:
-      <date: 2001
+      <rel: 2001
       <flow: 6,693,670
       <link: https://youtu.be/HGzVFjjfAfw
       Would You Mind:
    The Velvet Rope:
-      <date: 1997
+      <rel: 1997
       <<: &low
          <flow: 673,978
          <link: https://youtu.be/r9uizdKZAGE
@@ -799,8 +809,8 @@ Janet Jackson:
       Interlude Sad: len
       Special:
    janet.:
-      <date: 1993
-      <<: *low
+      <rel: 1993
+      <white: yes
       Morning: len
       That’s the Way Love Goes: yes
       You Know...: len
@@ -829,8 +839,8 @@ Janet Jackson:
       Are You Still Up: len
       Sweet Dreams / Whoops Now:
    Rhythm Nation 1814:
-      <date: 1989
-      <<: *low
+      <rel: 1989
+      <white: yes
       Interlude Pledge: len
       Rhythm Nation:
       Interlude T.V.: len
@@ -868,7 +878,7 @@ JAWS:
       The Invisible Sleep:
 Jay-Z:
    444:
-      <date: 2017
+      <rel: 2017
       <flow: 53,436,231
       <link: https://youtu.be/RM7lw0Ovzq0
       444:
@@ -876,27 +886,27 @@ Jay-Z:
       Family Feud:
       The Story of O.J.:
    Run the Map:
-      <date: 2016
+      <rel: 2016
    Magna Carta… Holy Grail:
-      <date: 2013
+      <rel: 2013
    Watch the Throne:
-      <date: 2011
+      <rel: 2011
       <flow: 33,875,349
       <link: https://youtu.be/gG_dA32oH44
       Niggas in Paris:
       Otis:
    The Blueprint 3:
-      <date: 2009
+      <rel: 2009
    American Gangster:
-      <date: 2007
+      <rel: 2007
    Kingdom Come:
-      <date: 2006
+      <rel: 2006
    Unfinished Business:
-      <date: 2004
+      <rel: 2004
    The Black Album:
-      <date: 2003
+      <rel: 2003
    The Blueprint² The Gift & The Curse:
-      <date: 2002
+      <rel: 2002
       <flow: 4,099,242
       <link: https://youtu.be/tnDh0JhmaFw
       A Dream:
@@ -932,7 +942,7 @@ Jeff Buckley:
       Last Goodbye:
 Jekka:
    City of Night:
-      <date: 2015
+      <rel: 2015
       <flow: 7,720
       <link: https://youtu.be/tOjrQmVkJp4
       Midnight Hour: no
@@ -941,36 +951,36 @@ Jekka:
       On and On: no
 Jennifer Lopez:
    A.K.A.:
-      <date: 2014
+      <rel: 2014
       <flow: 71,756,764
       <link: https://youtu.be/nxtIRArhVD4
       Booty:
    LOVE?:
-      <date: 2011
+      <rel: 2011
       <flow: 166,748,514
       <link: https://youtu.be/t4H_Zoh7G5A
       On the Floor:
       Papi:
    Rebirth:
-      <date: 2005
+      <rel: 2005
       <flow: 11,423,788
       <link: https://youtu.be/1WIsnC-h1d0
       Get Right:
    J.Lo:
-      <date: 2001
+      <rel: 2001
       <flow: 11,755,864
       <link: https://youtu.be/4kGvlESGvbs
       I’m Gonna Be Alright:
       I’m Real:
       Love Don’t Cost a Thing:
    On the 6:
-      <date: 1999
+      <rel: 1999
       <flow: 10,097,211
       <link: https://youtu.be/lYfkl-HXfuU
       If You Had My Love:
 Jeremy Soule:
    The Elder Scrolls IV Oblivion:
-      <date: 2006
+      <rel: 2006
       <<: &low
          <flow: 1,684,726
          <link: https://youtu.be/aQeIYVM3YBM
@@ -1001,8 +1011,8 @@ Jeremy Soule:
       Dusk at the Market: yes
       Peace of Akatosh: yes
    The Elder Scrolls III Morrowind:
-      <date: 2002
-      <<: *low
+      <rel: 2002
+      <white: yes
       Nerevar Rising: len
       Peaceful Waters: yes
       Knight’s Charge: len
@@ -1025,7 +1035,7 @@ Jeremy Soule:
       Fate’s Quickening: len
 Jessie Ware:
    Glasshouse:
-      <date: 2017
+      <rel: 2017
       <flow: 5,755,837
       <link: https://youtu.be/3zrZE68Qrrg
       Midnight: no
@@ -1041,13 +1051,13 @@ Jessie Ware:
       Last of the True Believers: no
       Sam: no
    Tough Love:
-      <date: 2014
+      <rel: 2014
       <flow: 24,027,680
       <link: https://youtu.be/DAMM8JVbr8g
       Kind of…Sometimes…Maybe:
       Say You Love Me:
    Devotion:
-      <date: 2012
+      <rel: 2012
       <flow: 7,405,825
       <link: https://youtu.be/bMJkddvJ4L4
       Wildest Moments:
@@ -1066,7 +1076,7 @@ Jessy Lanza:
       As If:
       Strange Emotion: yes
    You Never Show Your Love:
-      <<: *low
+      <white: yes
       You Never Show Your Love: yes
       You Never Show Your Love (instrumental):
       You Never Show Your Love (Teklife mix):
@@ -1089,7 +1099,7 @@ John Frusciante:
       Leap Your Bar: len
 John Frusciante & Omar Rodriguez Lopez:
    Omar Rodriguez Lopez & John Frusciante:
-      <<: *low
+      <white: yes
       417 am:
       0=2: yes
       LOE:
@@ -1128,7 +1138,7 @@ Joy Division:
       I Remember Nothing:
 Julia Holter:
    Have You in My Wilderness:
-      <date: 2015
+      <rel: 2015
       <<: &low
          <flow: 386,435
          <link: https://youtu.be/X2JgMniIpRM
@@ -1143,8 +1153,8 @@ Julia Holter:
       Vasquez:
       Have You in My Wilderness:
    Maria:
-      <date: 2014
-      <<: *low
+      <rel: 2014
+      <white: yes
       Maria: yes
       2HB:
       A Gold Thunder: len
@@ -1155,8 +1165,8 @@ Julia Holter:
       Moni Mon Amie:
       Monocular Eyes: len
    Loud City Song:
-      <date: 2013
-      <<: *low
+      <rel: 2013
+      <white: yes
       World:
       Maxim’s I:
       Horns Surrounding Me: yes
@@ -1167,12 +1177,12 @@ Julia Holter:
       This Is a True Heart:
       City Appearing:
    The Middle of Life (Die ganze Zeit):
-      <date: 2013
+      <rel: 2013
    Ekstasis:
-      <date: 2012
+      <rel: 2012
    Tragedy:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Introduction: no
       Try to Make Yourself a Work of Art: no
       The Falling Age: no
@@ -1183,7 +1193,7 @@ Julia Holter:
       Finale: no
 Julianna Barwick:
    Nepenthe:
-      <date: 2013
+      <rel: 2013
       <<: &low
          <flow: 46,827
          <link: https://youtu.be/kIQVjRCL6jI
@@ -1198,8 +1208,8 @@ Julianna Barwick:
       Crystal Lake:
       Waving to You: len
    The Magic Place:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Envelop: no
       Keep Up the Good Work: no
       The Magic Place: no
@@ -1211,7 +1221,7 @@ Julianna Barwick:
       Flown:
 Justin Timberlake:
    Man of the Woods:
-      <date: 2018
+      <rel: 2018
       <flow: 251,620,046
       <link: https://youtu.be/8MPbR6Cbwi4
       Filthy:
@@ -1219,20 +1229,20 @@ Justin Timberlake:
       Say Something:
       Supplies:
    The 20/20 Experience (2 of 2):
-      <date: 2013-09-27
+      <rel: 2013-09-27
       <flow: 18,505,908
       <link: https://youtu.be/FyXtoTLLcDk
       Not a Bad Thing:
       Take Back the Night:
       TKO:
    The 20/20 Experience:
-      <date: 2013-03-15
+      <rel: 2013-03-15
       <flow: 90,721,634
       <link: https://youtu.be/uuZE_IRwLNI
       Mirrors:
       Suit & Tie:
    FutureSex/LoveSounds:
-      <date: 2006
+      <rel: 2006
       <flow: 30,587,765
       <link: https://youtu.be/TOrnUquxtwA
       Let Me Talk To You/My Love:
@@ -1240,7 +1250,7 @@ Justin Timberlake:
       SexyBack:
       What Goes Around...Comes Around:
    Justified:
-      <date: 2002
+      <rel: 2002
       <flow: 31,490,158
       <link: https://youtu.be/DksSPZTZES0
       Cry Me a River:
@@ -1249,7 +1259,7 @@ Justin Timberlake:
       Señorita:
 Kammerflimmer Kollektief:
    There Are Actions Which We Have Neglected and Which Never Cease to Call Us:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 6,591
          <link: https://youtu.be/OBNvfFFYBQA
@@ -1261,8 +1271,8 @@ Kammerflimmer Kollektief:
       Action 6 Vigilant, Jerichow: len
       Action 7 Blessed, Ermenonville:
    Désarroi:
-      <date: 2015
-      <<: *low
+      <rel: 2015
+      <white: yes
       Mayhem!: no
       grundstürzend: yes
       Free Form Freak-Out: no
@@ -1273,8 +1283,8 @@ Kammerflimmer Kollektief:
       Zurück zum Beton (version): no
       Mayhem! (reprise): no
    Teufelskamin:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Coricidin Boogie: yes
       Never Collapse, Always Dazzle!:
       Teufelskamin Jam 1:
@@ -1286,8 +1296,8 @@ Kammerflimmer Kollektief:
       New Ghosts:
       The People United Will Never Be Defeated: len
    Wildling:
-      <date: 2010
-      <<: *low
+      <rel: 2010
+      <white: yes
       Move Right In: yes
       Silver Chords: yes
       Aum a Go-Go: len
@@ -1301,14 +1311,14 @@ Kammerflimmer Kollektief:
       There’s a Crack in Everything:
       Milte Hi Ankhen (aka Bird in Hand): len
    Im erwachten Garten:
-      <date: 2009
+      <rel: 2009
    Jinx:
-      <date: 2007
+      <rel: 2007
    Absencen:
-      <date: 2005
+      <rel: 2005
    Cicadidae:
-      <date: 2003
-      <<: *low
+      <rel: 2003
+      <white: yes
       Neumond inselhin: yes
       Sie tranken Regen: len
       Über die Wasserscheide: yes
@@ -1320,8 +1330,8 @@ Kammerflimmer Kollektief:
       Irgendwann Frühling: no
       There’s a Weight on You, but You Can’t Feel It.: yes
    Hysteria:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       Hysteria: no
       Seen (not seen): no
       Engel wacht: no
@@ -1332,7 +1342,7 @@ Kammerflimmer Kollektief:
       Du siehst hoch; du siehst "Wolken" (version):
 Kacey Musgraves:
    Golden Hour:
-      <date: 2018
+      <rel: 2018
       <flow: 34,821,697
       <link: https://youtu.be/6OFv566mj7s
       Butterflies:
@@ -1340,7 +1350,7 @@ Kacey Musgraves:
       Rainbow:
       Space Cowboy:
    Pageant Material:
-      <date: 2015
+      <rel: 2015
       <<: &low
          <flow: 412,441
          <link: https://youtu.be/_eTkY7-vTd8
@@ -1358,8 +1368,8 @@ Kacey Musgraves:
       Cup of Tea: len
       Fine:
    Same Trailer Different Park:
-      <date: 2013
-      <<: *low
+      <rel: 2013
+      <white: yes
       Silver Lining: no
       My House: len
       Merry Go ’Round: no
@@ -1374,7 +1384,7 @@ Kacey Musgraves:
       It Is What It Is: no
 Kate Bush:
    Hounds of Love:
-      <date: 1985
+      <rel: 1985
       <<: &low
          <flow: 3,230,338
          <link: https://youtu.be/BW3gKKiTvjs
@@ -1391,8 +1401,8 @@ Kate Bush:
       Hello Earth: no
       The Morning Fog: len
    The Dreaming:
-      <date: 1982
-      <<: *low
+      <rel: 1982
+      <white: yes
       Sat in Your Lap: no
       There Goes a Tenner: no
       Pull Out the Pin: no
@@ -1404,12 +1414,12 @@ Kate Bush:
       Houdini:
       Get Out of My House:
    Never for Ever:
-      <date: 1980
+      <rel: 1980
    Lionheart:
-      <date: 1978
+      <rel: 1978
    The Kick Inside:
-      <date: 1978
-      <<: *low
+      <rel: 1978
+      <white: yes
       Moving: no
       The Saxophone Song: no
       Strange Phenomena: len
@@ -1425,7 +1435,7 @@ Kate Bush:
       The Kick Inside: no
 Kelly Bailey:
    Portal 2:
-      <date: 2011
+      <rel: 2011
       <flow: 363,392
       <link: https://youtu.be/Xt2sbtvBuk8
       Science Is Fun: len
@@ -1576,7 +1586,7 @@ Koji Kondo:
       Prelude of Light: len
       Requiem of Spirit: len
    The Legend of Zelda The Wind Waker:
-      <<: *low
+      <white: yes
       Title: len
       Menu Select: len
       The Legendary Hero:
@@ -1667,7 +1677,7 @@ Laraaji:
       Meditation 2: yes
 Laurel Halo:
    Hour Logic:
-      <date: 2011
+      <rel: 2011
       <flow: 86,554
       <link: https://youtu.be/IrjeMN_U1hw
       Aquifer:
@@ -1678,9 +1688,9 @@ Laurel Halo:
       Strength in Free Space:
 Led Zeppelin:
    Coda:
-      <date: 1982
+      <rel: 1982
    In Through the Out Door:
-      <date: 1979
+      <rel: 1979
       <<: &low
          <flow: 5,999,659
          <link: https://youtu.be/sfR_HWMzgyc
@@ -1692,15 +1702,15 @@ Led Zeppelin:
       All My Love:
       I’m Gonna Crawl:
    Presence:
-      <date: 1976
+      <rel: 1976
    Physical Graffiti:
-      <date: 1975
+      <rel: 1975
       <flow: 7,367,630
       <link: https://youtu.be/PD-MdiUm1_Y
       Kashmir:
    Houses of the Holy:
-      <date: 1973
-      <<: *low
+      <rel: 1973
+      <white: yes
       The Song Remains the Same:
       The Rain Song:
       Over the Hills and Far Away: yes
@@ -1712,23 +1722,23 @@ Led Zeppelin:
    '[Led Zeppelin IV]':
       <flow: 78,163,234
       <link: https://youtu.be/D9ioyEvdggk
-      <date: 1971
+      <rel: 1971
       Black Dog:
       Rock and Roll:
       Stairway to Heaven:
    Led Zeppelin III:
-      <date: 1970
+      <rel: 1970
       <flow: 6,847,898
       <link: https://youtu.be/RlNhD0oS5pk
       Celebration Day:
       Immigrant Song:
    Led Zeppelin II:
-      <date: 1969
+      <rel: 1969
       <flow: 6,754,335
       <link: https://youtu.be/HQmmM_qwG4k
       Whole Lotta Love:
    Led Zeppelin:
-      <date: 1969
+      <rel: 1969
 Lenny Kravitz:
    5:
       <flow: 5,685,189
@@ -1759,7 +1769,7 @@ Lenny Kravitz:
       The Chamber:
 Leon Vynehall:
    Nothing Is Still:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 635,809
          <link: https://youtu.be/XpIrFglZfQU
@@ -1774,8 +1784,8 @@ Leon Vynehall:
       Ice Cream (Chapter VIII):
       It Breaks (Chapter IX): len
    Rojus:
-      <date: 2016-04-01
-      <<: *low
+      <rel: 2016-04-01
+      <white: yes
       Beyond This:
       Saxony:
       Beau Sovereign:
@@ -1785,13 +1795,13 @@ Leon Vynehall:
       Kiburu’s: yes
       There Is You:
    Midnight on Rainbow Road:
-      <date: 2016-02-26
-      <<: *low
+      <rel: 2016-02-26
+      <white: yes
       Midnight on Rainbow Road (Beat Edit): no
       Midnight on Rainbow Road: yes
    Music for the Uninvited:
-      <date: 2014
-      <<: *low
+      <rel: 2014
+      <white: yes
       Inside the Deku Tree: yes
       Goodthing:
       Be Brave, Clench Fists: yes
@@ -1855,7 +1865,7 @@ Linkin Park:
       Until It’s Gone:
 Lisa Loeb:
    Hello Lisa:
-      <date: 2002
+      <rel: 2002
       <<: &low
          <flow: 554,934
          <link: https://youtu.be/ka9mCmx9Jhs
@@ -1872,8 +1882,8 @@ Lisa Loeb:
       Take Me Back:
       What Am I Supposed to Say (acoustic):
    Firecracker:
-      <date: 1997
-      <<: *low
+      <rel: 1997
+      <white: yes
       I Do: yes
       Falling in Love:
       Truthfully: len
@@ -1887,8 +1897,8 @@ Lisa Loeb:
       Split Second: len
       Firecracker:
    Tails:
-      <date: 1995
-      <<: *low
+      <rel: 1995
+      <white: yes
       It’s Over:
       Snow Day: yes
       Taffy:
@@ -1972,7 +1982,7 @@ Lykke Li:
       I Follow Rivers:
       Sadness Is a Blessing:
    Youth Novels:
-      <<: *low
+      <white: yes
       Melodies & Desires: yes
       Dance, Dance, Dance: no
       I’m Good, I’m Gone: no
