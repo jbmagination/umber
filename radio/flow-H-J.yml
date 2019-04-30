@@ -572,9 +572,6 @@ Interpol:
          link: https://youtu.be/gLk8i2zw2jU
 INXS:
    Kick:
-      <rel: 1987
-      <flow: 5,212,872
-      <link: https://youtu.be/mjvBH48V3Pk
       Guns in the Sky: len
       New Sensation:
       Devil Inside:
@@ -587,14 +584,15 @@ INXS:
       Kick:
       Calling All Nations:
       Tiny Daggers:
+      =:
+         rel: 1987
+         white: yes
+   =:
+      Never Tear Us Apart:
+         flow: 5,341,920
+         link: https://youtu.be/mjvBH48V3Pk
 Iron & Wine:
-   <low:
-      Flightless Bird, American Mouth:
-         flow: 2,249,788
-         link: https://youtu.be/d1BgYTZ4Mxc
    Our Endless Numbered Days:
-      <rel: 2004
-      <flow: low
       On Your Wings:
       Naked as We Came: len
       Cinder and Smoke: yes
@@ -607,12 +605,15 @@ Iron & Wine:
       Fever Dream:
       Sodom, South Georgia:
       Passing Afternoon:
+      =:
+         rel: 2004
+         white: yes
+   =:
+      Flightless Bird, American Mouth:
+         flow: 2,249,788
+         link: https://youtu.be/d1BgYTZ4Mxc
 Isan:
    Plans Drawn in Pencil:
-      <rel: 2006
-      <<: &low
-         <flow: 15,594
-         <link: https://youtu.be/XLfiCRanawQ
       Look and Yes: len
       Cinnabar: no
       Yttrium: no
@@ -626,9 +627,10 @@ Isan:
       Seven Mile Marker:
       Working in Dust:
       Ruined Feathers: len
+      =:
+         rel: 2006
+         white: yes
    Meet Next Life:
-      <rel: 2004
-      <white: yes
       Birds Over Barges:
       First Date - Jumble Sale:
       One Man Abandon:
@@ -641,9 +643,10 @@ Isan:
       Sat 73:
       Slow Bulb Slippage:
       Meet Next Life:
+      =:
+         rel: 2004
+         white: yes
    Lucky Cat:
-      <rel: 2001
-      <white: yes
       Cutlery Favours: no
       Table of Deciduous Species: no
       Fueled: no
@@ -656,9 +659,10 @@ Isan:
       Caddis: yes
       Scraph: no
       You Can Use Bamboo as a Ruler: no
+      =:
+         rel: 2001
+         white: yes
    Salamander:
-      <rel: 1999
-      <white: yes
       Peg: no
       Proager: len
       Clipper: no
@@ -670,9 +674,10 @@ Isan:
       Snat:
       Effekl: len
       Braille Foundry:
+      =:
+         rel: 1999
+         white: yes
    Beautronics:
-      <rel: 1998
-      <white: yes
       Vosill: yes
       Tint1-Barely Barley: len
       Paintchart: no
@@ -689,10 +694,15 @@ Isan:
       Tint7-Bloody Mary: len
       Sublimation:
       Anklet:
+      =:
+         rel: 1998
+         white: yes
+   =:
+      Cathart:
+         flow: 15,197
+         link: https://youtu.be/XLfiCRanawQ
 Jabberwocky:
    Lunar Lane:
-      <flow: 1,848,381
-      <link: https://youtu.be/BJWoFagy4Bc
       Maze: len
       Fog: yes
       Photomaton:
@@ -705,19 +715,14 @@ Jabberwocky:
       Ignition:
       Jeopardy:
       Quantif:
+      =:
+         white: yes
+   =:
+      Photomaton:
+         flow: 2,034,313
+         link: https://youtu.be/BJWoFagy4Bc
 Jackson C. Frank:
    The Complete Recordings:
-      <this covers youtube albums:
-      - Jackson C. Frank
-      - Blues Run the Game
-      - C.C. Rider
-      - Heartbreak Hotel
-      - Remastered & Unreleased
-      - Fixin’ to Die
-      <rel: 2015
-      <flow: 109,081
-      <link: https://youtu.be/fO7ih6Nu3MA
-      <white: yes
       (Tumble) In the Wind (version 1): len
       (Tumble) In the Wind (version 2):
       Ananias: len
@@ -774,6 +779,20 @@ Jackson C. Frank:
       Washington Jail: len
       Yellow Walls: len
       You Never Wanted Me:
+      =:
+         rel: 2015
+         white: yes
+         this covers youtube albums:
+         - Jackson C. Frank
+         - Blues Run the Game
+         - C.C. Rider
+         - Heartbreak Hotel
+         - Remastered & Unreleased
+         - Fixin’ to Die
+   =:
+      Milk And Honey:
+         flow: 118,918
+         link: https://youtu.be/fO7ih6Nu3MA
 James Blake:
    Assume Form:
       <rel: 2019
