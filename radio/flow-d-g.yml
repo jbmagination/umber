@@ -1349,20 +1349,37 @@ Frankie Rose:
          link: https://youtu.be/VE56wTNj7J0
 Franz Ferdinand:
    Franz Ferdinand:
-      <flow: 5,482,391
-      <link: https://youtu.be/Ijk4j-r7qPA
+      Jacqueline:
+      Tell Her Tonight: len
+      Take Me Out: yes
+      The Dark of the Matinée:
+      Auf Achse:
+      Cheating on You: len
+      This Fire:
+      Darts of Pleasure:
+      Michael:
+      Come On Home:
+      40′:
+      =:
+         rel: 2004
+         white: yes
+   =:
       Take Me Out:
+         flow: 5,885,949
+         link: https://youtu.be/Ijk4j-r7qPA
 Fugees:
    The Score:
-      <flow: 14,232,736
-      <link: https://youtu.be/aIXyKmElvv8
       Fu-Gee-La:
       Killing Me Softly with His Song:
       Ready or Not:
+      =:
+         white: no
+   =:
+      Ready or Not:
+         flow: 14,642,911
+         link: https://youtu.be/aIXyKmElvv8
 Funkadelic:
    Maggot Brain:
-      <flow: 708,285
-      <link: https://youtu.be/dh3bleXWaCk
       Maggot Brain: yes
       Can You Get to That: len
       Hit It and Quit It:
@@ -1370,11 +1387,14 @@ Funkadelic:
       Super Stupid:
       Back in Our Minds: len
       Wars of Armageddon:
+      =:
+         white: yes
+   =:
+      Maggot Brain:
+         flow: 683,197
+         link: https://youtu.be/dh3bleXWaCk
 Funki Porcini:
    Fast Asleep:
-      <<: &low
-         <flow: 27,251
-         <link: https://youtu.be/-ebWfAw1eug
       What Are You Looking At?:
       The Big Sea: yes
       We’re Out of Here:
@@ -1389,8 +1409,9 @@ Funki Porcini:
       Weow:
       Offshore Birmingham: len
       Back Home:
+      =:
+         white: yes
    Love, Pussycats & Carwrecks:
-      <white: yes
       Purrfect: no
       Groover: no
       The Last Song: no
@@ -1403,10 +1424,14 @@ Funki Porcini:
       Theme Music for Nothing: no
       I’m Such a Small Thing: no
       Going Down: yes
+      =:
+         white: yes
+   =:
+      purrfect:
+         flow: 27,321
+         link: https://youtu.be/-ebWfAw1eug
 Genesis:
    Invisible Touch:
-      <flow: 446,525
-      <link: https://youtu.be/QHmH1xQ2Pf4
       Invisible Touch:
       Tonight, Tonight, Tonight:
       Land of Confusion: yes
@@ -1415,6 +1440,12 @@ Genesis:
       Domino Part One In the Glow of the Night - Part Two The Last Domino:
       Throwing It All Away:
       The Brazilian:
+      =:
+         white: yes
+   =:
+      Land of Confusion:
+         flow: 511,888
+         link: https://youtu.be/QHmH1xQ2Pf4
 Gnarls Barkley:
    St. Elsewhere:
       <<: &low
