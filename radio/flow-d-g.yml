@@ -1166,15 +1166,11 @@ Foo Fighters:
          link: https://youtu.be/4PkcfQtibmU
 Foreigner:
    Agent Provocateur:
-      <rel: 1984
-      <flow: 17,021,771
-      <link: https://youtu.be/raNGeq3_DtM
       I Want To Know What Love Is:
+      =:
+         rel: 1984
+         white: no
    4:
-      <rel: 1981
-      <<: &low
-         <flow: 269,102
-         <link: https://youtu.be/8Tl-kOcnn1U
       Night Life:
       Juke Box Hero:
       Break It Up:
@@ -1185,13 +1181,14 @@ Foreigner:
       Woman in Black:
       Girl on the Moon:
       Don’t Let Go:
+      =:
+         rel: 1981
+         white: yes
    Head Games:
-      <rel: 1979
+      rel: 1979
    Double Vision:
-      <rel: 1978
+      rel: 1978
    Foreigner:
-      <rel: 1977
-      <white: yes
       Feels Like the First Time:
       Cold as Ice: yes
       Starrider:
@@ -1202,14 +1199,23 @@ Foreigner:
       At War With the World:
       Fool for You Anyway:
       I Need You:
+      =:
+         rel: 1977
+         white: yes
+   =:
+      Feels Like The First Time:
+         flow: 282,733
+         link: https://youtu.be/8Tl-kOcnn1U
+      I Want To Know What Love Is:
+         flow: 17,302,308
+         link: https://youtu.be/raNGeq3_DtM
 Four Tet:
    Nova:
-      <rel: 2012
-      <white: yes
       Nova: yes
+      =:
+         rel: 2012
+         white: yes
    There Is Love in You:
-      <rel: 2010
-      <white: yes
       Angel Echoes:
       Love Cry:
       Circling:
@@ -1219,25 +1225,26 @@ Four Tet:
       Reversing: len
       Plastic People:
       She Just Likes to Fight: yes
+      =:
+         rel: 2010
+         white: yes
    Moth / Wolf Cub:
-      <rel: 2009
-      <<: &low
-         <flow: 294,231
-         <link: https://youtu.be/Tpe4id7cLnU
       Moth: yes
       Wolf Cub: yes
+      =:
+         rel: 2009
+         white: yes
    Ringer:
-      <rel: 2008
-      <white: yes
       Ringer: no
       Ribbons: yes
       Swimmer: yes
       Wing Body Wing: no
+      =:
+         rel: 2008
+         white: yes
    Everything Ecstatic:
-      <rel: 2005
+      rel: 2005
    Rounds:
-      <rel: 2003
-      <white: yes
       Hands: yes
       She Moves She: yes
       First Thing: len
@@ -1248,9 +1255,10 @@ Four Tet:
       As Serious as Your Life: no
       And They All Look Broken Hearted: yes
       Slow Jam: no
+      =:
+         rel: 2003
+         white: yes
    Pause:
-      <rel: 2001
-      <white: yes
       Glue of the World: yes
       Twenty Three: no
       Harmony One: len
@@ -1262,11 +1270,10 @@ Four Tet:
       Tangle: no
       You Could Ruin My Day: yes
       Hilarious Movie of the 90’s: no
+      =:
+         rel: 2001
+         white: yes
    Dialogue:
-      <rel: 1999
-      <<: &low
-         <flow: 294,231
-         <link: https://youtu.be/Tpe4id7cLnU
       The Space of Two Weeks: yes
       Chiron: no
       Alambradas: len
@@ -1276,20 +1283,25 @@ Four Tet:
       She Scanned:
       Calamine: yes
       The Butterfly Effect:
+      =:
+         rel: 1999
+         white: yes
+   =:
+      Angel Echoes:
+         flow: 281,677
+         link: https://youtu.be/Tpe4id7cLnU
 Foy Vance:
    Live at Bangor Abbey:
-      <flow: 8,153,028
-      <link: https://youtu.be/hD5hIqeKNVE
       Be the Song:
       Make It Rain:
+      =:
+         white: no
+   =:
+      Make it rain:
+         flow: 8,003,040
+         link: https://youtu.be/hD5hIqeKNVE
 Frankie Rose:
-   <low:
-      Night Swim:
-         <flow: 31,597
-         <link: https://youtu.be/VE56wTNj7J0
    Cage Tropical:
-      <rel: 2017
-      <white: yes
       Love in Rockets:
       Dyson Sphere:
       Trouble:
@@ -1300,9 +1312,10 @@ Frankie Rose:
       Red Museum:
       Epic Slack: len
       Decontrol:
+      =:
+         rel: 2017
+         white: yes
    Herein Wild:
-      <rel: 2013
-      <white: yes
       You for Me: no
       Sorrow: no
       Into Blue: no
@@ -1313,9 +1326,10 @@ Frankie Rose:
       Question/Reason:
       Street of Dreams:
       Requiem: len
+      =:
+         rel: 2013
+         white: yes
    Interstellar:
-      <rel: 2012
-      <white: yes
       Interstellar:
       Know Me: len
       Gospel/Grace:
@@ -1326,6 +1340,13 @@ Frankie Rose:
       Apples for the Sun:
       Moon in My Mind:
       The Fall: yes
+      =:
+         rel: 2012
+         white: yes
+   =:
+      Night Swim:
+         flow: 31,597
+         link: https://youtu.be/VE56wTNj7J0
 Franz Ferdinand:
    Franz Ferdinand:
       <flow: 5,482,391
