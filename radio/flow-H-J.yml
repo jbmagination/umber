@@ -1291,13 +1291,12 @@ Joss Stone:
          link: https://youtu.be/h__d0RMFOkQ
 Joy Division:
    Love Will Tear Us Apart:
-      <flow: 9,009,947
-      <link: https://youtu.be/zuuObGsB0No
       Love Will Tear Us Apart:
       These Days:
+      =:
+         rel: 1980
+         white: no
    Unknown Pleasures:
-      <flow: 2,141,879
-      <link: https://youtu.be/wVvoQIdD80U
       Disorder: yes
       Day of the Lords: yes
       Candidate:
@@ -1308,12 +1307,18 @@ Joy Division:
       Wilderness: len
       Interzone: len
       I Remember Nothing:
+      =:
+         rel: 1979
+         white: yes
+   =:
+      Love Will Tear Us Apart:
+         flow: 9,197,387
+         link: https://youtu.be/zuuObGsB0No
+      Unknown Pleasures:
+         flow: 2,135,456
+         link: https://youtu.be/wVvoQIdD80U
 Julia Holter:
    Have You in My Wilderness:
-      <rel: 2015
-      <<: &low
-         <flow: 386,435
-         <link: https://youtu.be/X2JgMniIpRM
       Feel You: yes
       Silhouette:
       How Long?:
@@ -1324,9 +1329,10 @@ Julia Holter:
       Betsy on the Roof:
       Vasquez:
       Have You in My Wilderness:
+      =:
+         rel: 2015
+         white: yes
    Maria:
-      <rel: 2014
-      <white: yes
       Maria: yes
       2HB:
       A Gold Thunder: len
@@ -1336,9 +1342,10 @@ Julia Holter:
       Minerals:
       Moni Mon Amie:
       Monocular Eyes: len
+      =:
+         rel: 2014
+         white: yes
    Loud City Song:
-      <rel: 2013
-      <white: yes
       World:
       Maxim’s I:
       Horns Surrounding Me: yes
@@ -1348,13 +1355,14 @@ Julia Holter:
       He’s Running Through My Eyes: len
       This Is a True Heart:
       City Appearing:
+      =:
+         rel: 2013
+         white: yes
    The Middle of Life (Die ganze Zeit):
-      <rel: 2013
+      rel: 2013
    Ekstasis:
-      <rel: 2012
+      rel: 2012
    Tragedy:
-      <rel: 2011
-      <white: yes
       Introduction: no
       Try to Make Yourself a Work of Art: no
       The Falling Age: no
@@ -1363,12 +1371,15 @@ Julia Holter:
       Celebration: no
       So Lillies: no
       Finale: no
+      =:
+         rel: 2011
+         white: yes
+   =:
+      Feel You:
+         flow: 349,555
+         link: https://youtu.be/X2JgMniIpRM
 Julianna Barwick:
    Nepenthe:
-      <rel: 2013
-      <<: &low
-         <flow: 46,827
-         <link: https://youtu.be/kIQVjRCL6jI
       Offing:
       The Harbinger:
       One Half:
@@ -1379,9 +1390,10 @@ Julianna Barwick:
       Adventurer of the Family: len
       Crystal Lake:
       Waving to You: len
+      =:
+         rel: 2013
+         white: yes
    The Magic Place:
-      <rel: 2011
-      <white: yes
       Envelop: no
       Keep Up the Good Work: no
       The Magic Place: no
@@ -1391,41 +1403,64 @@ Julianna Barwick:
       Bob in Your Gait:
       Prizewinning:
       Flown:
+      =:
+         rel: 2011
+         white: yes
+   =:
+      One Half:
+         flow: 43,565
+         link: https://youtu.be/kIQVjRCL6jI
 Justin Timberlake:
    Man of the Woods:
-      <rel: 2018
-      <flow: 251,620,046
-      <link: https://youtu.be/8MPbR6Cbwi4
       Filthy:
       Man of the Woods:
       Say Something:
       Supplies:
+      =:
+         rel: 2018
+         white: no
    The 20/20 Experience (2 of 2):
-      <rel: 2013-09-27
-      <flow: 18,505,908
-      <link: https://youtu.be/FyXtoTLLcDk
       Not a Bad Thing:
       Take Back the Night:
       TKO:
+      =:
+         rel: 2013-09-27
+         white: no
    The 20/20 Experience:
-      <rel: 2013-03-15
-      <flow: 90,721,634
-      <link: https://youtu.be/uuZE_IRwLNI
       Mirrors:
       Suit & Tie:
+      =:
+         rel: 2013-03-15
+         white: no
    FutureSex/LoveSounds:
-      <rel: 2006
-      <flow: 30,587,765
-      <link: https://youtu.be/TOrnUquxtwA
       Let Me Talk To You/My Love:
       LoveStoned/I Think She Knows:
       SexyBack:
       What Goes Around...Comes Around:
+      =:
+         rel: 2006
+         white: no
    Justified:
-      <rel: 2002
-      <flow: 31,490,158
-      <link: https://youtu.be/DksSPZTZES0
       Cry Me a River:
       Like I Love You:
       Rock Your Body:
       Señorita:
+      =:
+         rel: 2002
+         white: no
+   =:
+      Cry Me a River:
+         flow: 31,647,715
+         link: https://youtu.be/DksSPZTZES0
+      Mirrors:
+         flow: 90,408,909
+         link: https://youtu.be/uuZE_IRwLNI
+      Say Something:
+         flow: 241,339,295
+         link: https://youtu.be/8MPbR6Cbwi4
+      TKO:
+         flow: 18,355,797
+         link: https://youtu.be/FyXtoTLLcDk
+      What Goes Around...Comes Around:
+         flow: 30,522,506
+         link: https://youtu.be/TOrnUquxtwA
