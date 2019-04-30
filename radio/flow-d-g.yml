@@ -1688,10 +1688,6 @@ Gorillaz:
          link: https://youtu.be/E2Q52cVx7Bo
 Gotan Project:
    Tango 3.0:
-      <rel: 2010
-      <<: &low
-         <flow: 1,988,865
-         <link: https://youtu.be/tqLh6rQqkoA
       Tango Square: yes
       Rayuela: no
       Desilusión: no
@@ -1703,9 +1699,10 @@ Gotan Project:
       El mensajero: len
       Panamericana:
       Érase una vez:
+      =:
+         rel: 2010
+         white: yes
    Lunático:
-      <rel: 2006
-      <white: yes
       Amor Porteño:
       Notas:
       Diferente:
@@ -1718,9 +1715,10 @@ Gotan Project:
       Arrabal:
       Domingo:
       Paris, Texas: yes
+      =:
+         rel: 2006
+         white: yes
    La revancha del tango:
-      <rel: 2001
-      <white: yes
       Queremos paz: yes
       Época: no
       Chunga’s Revenge: no
@@ -1731,35 +1729,54 @@ Gotan Project:
       Last Tango in Paris:
       La del ruso:
       Vuelvo al sur:
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Santa Maria:
+         flow: 1,886,601
+         link: https://youtu.be/tqLh6rQqkoA
 Green Day:
    21st Century Breakdown:
-      <flow: 23,615,358
-      <link: https://youtu.be/r00ikilDxW4
       21 Guns:
+      =:
+         rel: 2009
+         white: no
    American Idiot:
-      <flow: 44,361,647
-      <link: https://youtu.be/Soa3gO7tL-c
       Boulevard Of Broken Dreams:
+      =:
+         rel: 2004
+         white: no
+   Warning:
+      rel: 2000
+   Nimrod:
+      Good Riddance (Time Of Your Life):
+      =:
+         rel: 1997
+         white: no
+   Insomniac:
+      rel: 1995
    Dookie:
-      <flow: 18,232,355
-      <link: https://youtu.be/NUTGr5t3MoY
       Basket Case:
       When I Come Around:
-   Nimrod:
-      <flow: 5,980,630
-      <link: https://youtu.be/CnQ8N1KacJc
-      Good Riddance (Time Of Your Life):
-   Uno:
-      <flow: 5,587,086
-      <link: https://youtu.be/IWwMqa-_210
-      Oh Love:
+      =:
+         rel: 1994
+         white: no
+   =:
+      21 Guns:
+         flow: 24,850,357
+         link: https://youtu.be/r00ikilDxW4
+      Basket Case:
+         flow: 19,510,691
+         link: https://youtu.be/NUTGr5t3MoY
+      Boulevard of Broken Dreams:
+         flow: 50,307,178
+         link: https://youtu.be/Soa3gO7tL-c
+      Good Riddance:
+         flow: 6,048,169
+         link: https://youtu.be/CnQ8N1KacJc
 Grizzly Bear:
-   <updated: 2019-02-24
    Painted Ruins:
-      <rel: 2017
-      <<: &low
-         <flow: 1,375,012
-         <link: https://youtu.be/tjecYugTbIQ
       Wasted Acres: len
       Mourning Sound:
       Four Cypresses:
@@ -1771,9 +1788,10 @@ Grizzly Bear:
       Neighbors:
       Systole:
       Sky Took Hold:
+      =:
+         rel: 2017
+         white: yes
    Shields:
-      <rel: 2012
-      <white: yes
       Sleeping Ute: yes
       Speak in Rounds: no
       Adelma: len
@@ -1789,9 +1807,10 @@ Grizzly Bear:
       Listen and Wait:
       Everyone I Know (Marfa demo): len
       Will Calls (Marfa demo): yes
+      =:
+         rel: 2012
+         white: yes
    Veckatimest:
-      <rel: 2009
-      <white: yes
       Southern Point: yes
       Two Weeks: yes
       All We Ask: no
@@ -1804,9 +1823,10 @@ Grizzly Bear:
       While You Wait for the Others: yes
       I Live With You: yes
       Foreground: yes
+      =:
+         rel: 2009
+         white: yes
    Yellow House:
-      <rel: 2006
-      <white: yes
       Easier: yes
       Lullabye: no
       Knife: no
@@ -1817,9 +1837,10 @@ Grizzly Bear:
       On a Neck, on a Spit: yes
       Reprise: yes
       Colorado: yes
+      =:
+         rel: 2006
+         white: yes
    Horn of Plenty:
-      <rel: 2004
-      <white: yes
       Deep Sea Diver: no
       Don’t Ask: no
       Alligator: len
@@ -1834,6 +1855,13 @@ Grizzly Bear:
       Eavesdropping: no
       Service Bell: len
       This Song: no
+      =:
+         rel: 2004
+         white: yes
+   =:
+      Two Weeks:
+         flow: 1,349,230
+         link: https://youtu.be/tjecYugTbIQ
 Groove Armada:
    Black Light:
       <rel: 2010
