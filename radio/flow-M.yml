@@ -407,34 +407,15 @@ Mariah Carey:
          link: https://youtu.be/0habxsuXW4g
 Mark Morrison:
    Return of the Mack:
-      <flow: 5,911,536
-      <link: https://youtu.be/uB1D9wWxd2w
-      Home, Part I (interlude): len
-      Crazy:
-      Let’s Get Down:
-      Get High With Me:
-      Moan and Groan:
-      Return of the Mack (C & J Street mix): yes
-      I Like:
-      Trippin’:
-      Tears for You:
-      Horny:
-      I Really Love You:
-      Crazy (D-Influence mix):
-      Home, Part II (interlude): len
+      Return of the Mack:
+      =:
+         white: no
+   =:
+      Return Of The Mack:
+         flow: 6,664,680
+         link: https://youtu.be/uB1D9wWxd2w
 Massive Attack:
-   <high:
-      Teardrop:
-         <flow: 6,311,699
-         <link: https://youtu.be/u7K72X4eo_s
-         <pub: 2009
-   <low:
-      Unfinished Sympathy:
-         <flow: 4,638,845
-         <link: https://youtu.be/ZWmrfgj0MZI
    Heligoland:
-      <rel: 2010
-      <white: yes
       Pray for Rain: yes
       Babel: no
       Splitting the Atom: no
@@ -447,9 +428,10 @@ Massive Attack:
       Atlas Air: no
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): no
       United Snakes:
+      =:
+         rel: 2010
+         white: yes
    Collected:
-      <rel: 2006
-      <white: yes
       Safe From Harm: dup
       Karmacoma: dup
       Angel: dup
@@ -474,9 +456,10 @@ Massive Attack:
       I Against I:
       I Want You: yes
       Danny the Dog:
+      =:
+         rel: 2006
+         white: yes
    100th Window:
-      <rel: 2002
-      <white: yes
       Future Proof: yes
       What Your Soul Sings: no
       Everywhen: yes
@@ -486,23 +469,15 @@ Massive Attack:
       Small Time Shot Away: yes
       Name Taken: yes
       Antistar: len
+      =:
+         rel: 2002
+         white: yes
    Mezzanine:
-      <rel: 1998
-      <white: no
-      Angel:
-      Risingson:
       Teardrop:
-      Inertia Creeps:
-      Exchange:
-      Dissolved Girl:
-      Man Next Door:
-      Black Milk:
-      Mezzanine:
-      Group Four:
-      (Exchange):
+      =:
+         rel: 1998
+         white: no
    Protection:
-      <rel: 1994
-      <white: yes
       Protection: yes
       Karmacoma: yes
       Three: yes
@@ -512,9 +487,10 @@ Massive Attack:
       Eurochild: yes
       Sly: yes
       Heat Miser: no
+      =:
+         rel: 1994
+         white: yes
    Blue Lines:
-      <rel: 1991
-      <white: yes
       Safe From Harm: yes
       One Love: no
       Blue Lines: no
@@ -524,37 +500,57 @@ Massive Attack:
       Daydreaming: no
       Lately: yes
       Hymn of the Big Wheel: no
+      =:
+         rel: 1991
+         white: yes
+   =:
+      Teardrop:
+         flow: 6,311,699
+         link: https://youtu.be/u7K72X4eo_s
+      Unfinished Sympathy:
+         flow: 4,638,845
+         link: https://youtu.be/ZWmrfgj0MZI
 Matchbox Twenty:
    Yourself or Someone Like You:
-      <flow: 7,149,532
-      <link: https://youtu.be/C-Naa1HXeDQ
       3AM:
+      =:
+         white: no
+   =:
+      3AM:
+         flow: 7,795,321
+         link: https://youtu.be/C-Naa1HXeDQ
 Matt Lange:
    Staccato:
-      <rel: 2014-07-14
-      <<: &low
-         <flow: 66,740
-         <link: https://youtu.be/7uIEtL8Ui9U
       Staccato (original mix):
       Ether (original mix): yes
       Underscore (original mix): yes
+      =:
+         rel: 2014-07-14
+         white: yes
    I Can’t Forgive / Inverse / This Is How It Is:
-      <rel: 2014-03-24
-      <<: *low
       I Can’t Forgive (original mix): yes
       Inverse (original mix): yes
       This Is How It Is (original mix): yes
+      =:
+         rel: 2014-03-24
+         white: yes
    Way You Know / Only You:
-      <rel: 2013
-      <<: *low
       Way You Know: yes
       Only You:
+      =:
+         rel: 2013
+         white: yes
    Rift:
-      <rel: 2011
-      <<: *low
       Rift (original mix): yes
       Rift (Andrew Bayer remix):
       Rift (Kerry Leva undo):
+      =:
+         rel: 2011
+         white: yes
+   =:
+      In Out Of Phase:
+         flow: 62,531
+         link: https://youtu.be/7uIEtL8Ui9U
 Mazzy Star:
    Among My Swan:
       <flow: 1,851,955
