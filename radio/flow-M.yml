@@ -783,8 +783,6 @@ Michael Jackson:
          link: https://youtu.be/1-7ABIM2qjU
 Michael McDonald:
    If That’s What It Takes:
-      <flow: 1,413,761
-      <link: https://youtu.be/cjqOsYRQI0o
       Playin’ by the Rules:
       I Keep Forgettin’ (Every Time You’re Near): yes
       Love Lies:
@@ -795,11 +793,14 @@ Michael McDonald:
       No Such Luck:
       Losin’ End:
       Believe in It:
+      =:
+         white: yes
+   =:
+      I Keep Forgettin’:
+         flow: 1,474,782
+         link: https://youtu.be/cjqOsYRQI0o
 Moby:
    18:
-      <<: &low
-         <flow: 2,514,348
-         <link: https://youtu.be/QhZnEagfjTQ
       We Are All Made of Stars:
       In This World:
       In My Heart:
@@ -818,8 +819,10 @@ Moby:
       Look Back In: len
       The Rafters:
       I’m Not Worried at All:
+      =:
+         rel: 2002
+         white: yes
    Play:
-      <<: *low
       Honey:
       Find My Baby:
       Porcelain: yes
@@ -838,15 +841,15 @@ Moby:
       Guitar Flute & String: len
       The Sky Is Broken:
       My Weakness:
+      =:
+         rel: 1999
+         white: yes
+   =:
+      porcelain:
+         flow: 2,541,264
+         link: https://youtu.be/QhZnEagfjTQ
 Modest Mouse:
-   Good News for People Who Love Bad News:
-      <flow: 7,084,780
-      <link: https://youtu.be/CTAud5O7Qqk
-      Float On:
-      Ocean Breathes Salty:
    We Were Dead Before the Ship Even Sank:
-      <flow: 1,571,058
-      <link: https://youtu.be/penvn9VL32Y
       March Into the Sea: no
       Dashboard: no
       Fire It Up: no
@@ -861,12 +864,24 @@ Modest Mouse:
       Spitting Venom: no
       People as Places as People: no
       Invisible: no
+      =:
+         rel: 2007
+         white: yes
+   Good News for People Who Love Bad News:
+      Float On:
+      Ocean Breathes Salty:
+      =:
+         rel: 2004
+         white: no
+   =:
+      Dashboard:
+         flow: 1,579,646
+         link: https://youtu.be/penvn9VL32Y
+      Float On:
+         flow: 7,530,975
+         link: https://youtu.be/CTAud5O7Qqk
 Moloko:
    Statues:
-      <rel: 2003
-      <<: &low
-         <flow: 1,491,813
-         <link: https://youtu.be/kl8mpAvTm_Y
       Familiar Feeling: yes
       Come On:
       Cannot Contain This:
@@ -877,9 +892,10 @@ Moloko:
       The Only Ones:
       I Want You:
       Over & Over:
+      =:
+         rel: 2003
+         white: yes
    Things to Make and Do:
-      <rel: 2000
-      <<: *low
       Radio Moscow: len
       Pure Pleasure Seeker: no
       Absent Minded Friends: no
@@ -898,16 +914,31 @@ Moloko:
       If You Have a Cross to Bear You May as Well Use It as a Crutch:
       Keep Stepping: len
       Sing It Back (Boris Musical mix):
+      =:
+         rel: 2000
+         white: yes
+   =:
+      The Time Is Now:
+         flow: 1,492,925
+         link: https://youtu.be/kl8mpAvTm_Y
 Montell Jordan:
    This Is How We Do It:
-      <flow: 10,235,123
-      <link: https://youtu.be/0hiUuL5uTKc
       This Is How We Do It:
+      =:
+         white: no
+   =:
+      This Is How We Do It:
+         flow: 10,267,590
+         link: https://youtu.be/0hiUuL5uTKc
 Mr Mister:
    Welcome to the Real World:
-      <flow: 12,989,124
-      <link: https://youtu.be/nKhN1t_7PEY
       Broken Wings:
+      =:
+         white: no
+   =:
+      Broken Wings:
+         flow: 14,062,770
+         link: https://youtu.be/nKhN1t_7PEY
 μ‐Ziq:
    Lunatic Harness:
       <flow: 27,427
