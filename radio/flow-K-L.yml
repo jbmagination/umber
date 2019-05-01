@@ -421,43 +421,80 @@ Koji Kondo:
          flow: 880,778
          link: https://youtu.be/-uInmFU6JkU
 Korn:
-   Follow the Leader:
-      <flow: 15,187,842
-      <link: https://youtu.be/jRGrNDV2mKc
-      Freak on a Leash:
-      Got the Life:
-   Issues:
-      <flow: 8,528,634
-      <link: https://youtu.be/2s3iGpDqQpQ
-      Falling Away From Me:
-      Somebody Someone:
-   See You on the Other Side:
-      <flow: 7,141,450
-      <link: https://youtu.be/CSJXle3LP_Q
-      Coming Undone:
    The Serenity of Suffering:
-      <flow: 9,606,647
-      <link: https://youtu.be/nq9j1qkj2Vc
       Black Is the Soul:
       Insane:
       Rotting in Vain:
+      =:
+         rel: 2016
+         white: no
+   The Paradigm Shift:
+      rel: 2013
+   The Path of Totality:
+      rel: 2011
+   Korn III: Remember Who You Are:
+      rel: 2010
+   [untitled]:
+      rel: 2007
+   See You on the Other Side:
+      Coming Undone:
+      =:
+         rel: 2005
+         white: no
+   Take a Look in the Mirror:
+      rel: 2003
+   Untouchables:
+      rel: 2002
+   Issues:
+      Falling Away From Me:
+      Somebody Someone:
+      =:
+         rel: 1999
+         white: no
+   Follow the Leader:
+      Freak on a Leash:
+      Got the Life:
+      =:
+         rel: 1998
+         white: no
+   =:
+      Coming Undone:
+         flow: 7,180,498
+         link: https://youtu.be/CSJXle3LP_Q
+      Falling Away from Me:
+         flow: 8,648,063
+         link: https://youtu.be/2s3iGpDqQpQ
+      Freak On a Leash:
+         flow: 16,280,786
+         link: https://youtu.be/jRGrNDV2mKc
+      Rotting In Vain:
+         flow: 8,645,316
+         link: https://youtu.be/nq9j1qkj2Vc
 Kruder & Dorfmeister:
    G-Stoned:
-      <flow: 152,583
-      <link: https://youtu.be/rU789_SJ6Is
       Definition: no
       Deep Shit, Parts 1 & 2: no
       High Noon: no
       Original Bedroom Rockers: no
+      =:
+         white: yes
+   =:
+      Sofa Rockers:
+         flow: 148,610
+         link: https://youtu.be/rU789_SJ6Is
 Laraaji:
    Ambient 3 Day of Radiance:
-      <flow: 26,763
-      <link: https://youtu.be/87E2ZRy21V8
       The Dance 1: no
       The Dance 2: no
       The Dance 3: no
       Meditation 1: no
       Meditation 2: yes
+      =:
+         white: yes
+   =:
+      Universe:
+         flow: 27,388
+         link: https://youtu.be/87E2ZRy21V8
 Laurel Halo:
    Hour Logic:
       <rel: 2011
