@@ -553,8 +553,6 @@ Matt Lange:
          link: https://youtu.be/7uIEtL8Ui9U
 Mazzy Star:
    Among My Swan:
-      <flow: 1,851,955
-      <link: https://youtu.be/-uJ61jgFCMM
       Disappear:
       Flowers in December:
       Rhymes of an Hour:
@@ -567,48 +565,56 @@ Mazzy Star:
       Happy:
       Umbilical:
       Look on Down From the Bridge: yes
+      =:
+         white: yes
+   =:
+      Fade Into You:
+         flow: 1,817,801
+         link: https://youtu.be/-uJ61jgFCMM
 Meramek:
    Know Me:
-      <rel: 2015
-      <<: &low
-         <flow: 73,381
-         <link: https://youtu.be/E_2NenYDKf8
       Know Me (original mix): yes
+      =:
+         rel: 2015
+         white: yes
    Only You EP:
-      <rel: 2014
-      <<: *low
       Only You (original mix): yes
       Bounce:
       Stepping Stones (original mix):
+      =:
+         rel: 2014
+         white: yes
    Feeling / Maybe / FWD:
-      <rel: 2013
-      <<: *low
       Feeling: yes
       Maybe:
       FWD:
+      =:
+         rel: 2013
+         white: yes
+   =:
+      Only You:
+         flow: 70,150
+         link: https://youtu.be/E_2NenYDKf8
 Metallica:
    Hardwired… to Self‐Destruct:
-      <rel: 2016
-      <flow: 19,542,067
-      <link: https://youtu.be/uhBHL3v4d3I
-      Now That We’re Dead:
+      Hardwired:
+      =:
+         rel: 2016
+         white: no
    Lulu:
-      <rel: 2011
+      rel: 2011
    Death Magnetic:
-      <rel: 2008
+      rel: 2008
    St. Anger:
-      <rel: 2003
+      rel: 2003
    Garage Inc.:
-      <rel: 1998
-      <flow: 9,103,191
-      <link: https://youtu.be/boanuwUMNNQ
       Whiskey in the Jar:
+      =:
+         rel: 1998
+         white: no
    Reload:
-      <rel: 1997
+      rel: 1997
    Load:
-      <rel: 1996
-      <flow: 4,469,113
-      <link: https://youtu.be/4FKYsUEuvIo
       Ain’t My Bitch:
       2 X 4:
       The House Jack Built:
@@ -623,32 +629,55 @@ Metallica:
       Thorn Within:
       Ronnie:
       The Outlaw Torn:
+      =:
+         rel: 1996
+         white: yes
    Metallica (Black Album):
-      <rel: 1991
-      <flow: 47,478,622
-      <link: https://youtu.be/tAGnKpE4NCI
       Enter Sandman:
       Nothing Else Matters:
       The Unforgiven:
       Wherever I May Roam:
+      =:
+         rel: 1991
+         white: no
    and Justice for All:
-      <rel: 1988
-      <flow: 14,220,628
-      <link: https://youtu.be/EzgGTTtR0kc
       One:
+      =:
+         rel: 1988
+         white: no
    Master of Puppets:
-      <rel: 1986
-      <flow: 11,413,325
-      <link: https://youtu.be/xnKhsTXoKCI
       Master of Puppets:
+      =:
+         rel: 1986
+         white: no
    Ride the Lightning:
-      <rel: 1984
-      <flow: 8,371,394
-      <link: https://youtu.be/WEQnzs8wl6E
       Fade to Black:
       For Whom the Bell Tolls:
-   Kill ’em All:
-      <rel: 1983
+      =:
+         rel: 1984
+         white: no
+   =:
+      Fade to Black:
+         flow: 9,485,401
+         link: https://youtu.be/WEQnzs8wl6E
+      Hardwired:
+         flow: 16,477,818
+         link: https://youtu.be/uhBHL3v4d3I
+      Mama Said:
+         flow: 4,496,692
+         link: https://youtu.be/4FKYsUEuvIo
+      Master Of Puppets:
+         flow: 13,322,313
+         link: https://youtu.be/xnKhsTXoKCI
+      Nothing Else Matters:
+         flow: 62,983,387
+         link: https://youtu.be/tAGnKpE4NCI
+      One:
+         flow: 13,564,332
+         link: https://youtu.be/EzgGTTtR0kc
+      Whiskey In The Jar:
+         flow: 8,977,938
+         link: https://youtu.be/boanuwUMNNQ
 MEUTE:
    You & Me:
       <rel: 2018
