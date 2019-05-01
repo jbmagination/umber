@@ -1,20 +1,5 @@
 M83:
-   <high:
-      Midnight City:
-         <flow: 33,682,222
-         <link: https://youtu.be/dX3k_QDnzHE
-         <pub: 2011
-      Wait:
-         <flow: 11,009,599
-         <link: https://youtu.be/lAwYodrBr2Q
-         <pub: 2012
-   <low:
-      Oblivion:
-         <flow: 2,746,085
-         <link: https://youtu.be/1mkUp1V3ys0
    Junk:
-      <date: 2016
-      <flow: low
       Do It, Try It: no
       Go!: no
       Walkway Blues: no
@@ -30,9 +15,10 @@ M83:
       Time Wind:
       Ludivine: len
       Sunday Night 1987:
+      =:
+         rel: 2016
+         white: yes
    Oblivion Original Motion Picture Soundtrack:
-      <date: 2013
-      <flow: low
       Jack’s Dream: len
       Waking Up:
       Tech 49:
@@ -50,14 +36,16 @@ M83:
       Fearful Odds:
       Undimmed by Time, Unbound by Death: len
       Oblivion: yes
+      =:
+         rel: 2013
+         white: yes
    Hurry Up, We’re Dreaming:
-      <date: 2011
-      <flow: high
       Midnight City:
       Wait:
+      =:
+         rel: 2011
+         white: no
    Saturdays = Youth:
-      <date: 2008
-      <flow: low
       You, Appearing: yes
       Kim & Jessie: yes
       Skin of the Night: yes
@@ -69,9 +57,10 @@ M83:
       Too Late:
       Dark Moves of Love:
       Midnight Souls Still Remain:
+      =:
+         rel: 2008
+         white: yes
    Digital Shades, Volume 1:
-      <date: 2007
-      <flow: low
       Waves, Waves, Waves: len
       Coloring the Void:
       Sister, Part 1: len
@@ -82,9 +71,10 @@ M83:
       By the Kiss: yes
       Space Fertilizer: len
       The Highest Journey: yes
+      =:
+         rel: 2007
+         white: yes
    Before the Dawn Heals Us:
-      <date: 2005
-      <flow: low
       Moon Child: yes
       Don’t Save Us From the Flames: yes
       In the Cold I’m Standing: yes
@@ -100,9 +90,10 @@ M83:
       Slight Night Shiver: len
       A Guitar and a Heart:
       Lower Your Eyelids to Die With the Sun:
+      =:
+         rel: 2005
+         white: yes
    Dead Cities, Red Seas & Lost Ghosts:
-      <date: 2003
-      <flow: low
       Birds: len
       Unrecorded: yes
       Run Into Flowers: yes
@@ -120,9 +111,10 @@ M83:
       In Church (Cyann & Ben version): yes
       Gone (live): no
       Dead Cities, Red Seas & Lost Ghosts:
+      =:
+         rel: 2003
+         white: yes
    M83:
-      <date: 2001
-      <flow: low
       Last Saturday: len
       Night: no
       At the Party: len
@@ -136,6 +128,19 @@ M83:
       Carresses: no
       My Face: len
       I’m Happy, She Said: len
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Midnight City:
+         flow: 33,682,222
+         link: https://youtu.be/dX3k_QDnzHE
+      Oblivion:
+         flow: 2,746,085
+         link: https://youtu.be/1mkUp1V3ys0
+      Wait:
+         flow: 11,009,599
+         link: https://youtu.be/lAwYodrBr2Q
 Madonna:
    <high:
       4 Minutes:

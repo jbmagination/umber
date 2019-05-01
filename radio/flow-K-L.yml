@@ -777,10 +777,6 @@ Linkin Park:
          link: https://youtu.be/8sgycukafqQ
 Lisa Loeb:
    Hello Lisa:
-      <rel: 2002
-      <<: &low
-         <flow: 554,934
-         <link: https://youtu.be/ka9mCmx9Jhs
       Did That: no
       Underdog: no
       You Don’t Know Me: no
@@ -793,9 +789,10 @@ Lisa Loeb:
       Payback:
       Take Me Back:
       What Am I Supposed to Say (acoustic):
+      =:
+         rel: 2002
+         white: yes
    Firecracker:
-      <rel: 1997
-      <white: yes
       I Do: yes
       Falling in Love:
       Truthfully: len
@@ -808,9 +805,10 @@ Lisa Loeb:
       This:
       Split Second: len
       Firecracker:
+      =:
+         rel: 1997
+         white: yes
    Tails:
-      <rel: 1995
-      <white: yes
       It’s Over:
       Snow Day: yes
       Taffy:
@@ -824,10 +822,15 @@ Lisa Loeb:
       Lisa Listen:
       Garden of Delights: len
       Stay: yes
+      =:
+         rel: 1995
+         white: yes
+   =:
+      Stay:
+         flow: 539,129
+         link: https://youtu.be/ka9mCmx9Jhs
 Lisa Stansfield:
    Affection:
-      <flow: 3,452,550
-      <link: https://youtu.be/JVuuatjHGnY
       This Is the Right Time:
       Mighty Love:
       Sincerity:
@@ -841,10 +844,14 @@ Lisa Stansfield:
       Affection:
       Wake Up Baby:
       The Way You Want It:
+      =:
+         white: yes
+   =:
+      All Around the World:
+         flow: 3,954,179
+         link: https://youtu.be/JVuuatjHGnY
 Live:
    Throwing Copper:
-      <flow: 3,478,561
-      <link: https://youtu.be/xsJ4O-nSveg
       The Dam at Otter Creek:
       Selling the Drama:
       I Alone:
@@ -859,10 +866,14 @@ Live:
       Pillar of Davidson:
       White, Discussion:
       Horse:
+      =:
+         white: yes
+   =:
+      Lightning Crashes:
+         flow: 3,491,937
+         link: https://youtu.be/xsJ4O-nSveg
 Luke Slater (The 7th Plain):
    The 4 Cornered Room:
-      <flow: 13,434
-      <link: https://youtu.be/KPc19-o4wEw
       Time Melts:
       Reality of Space:
       Surface Bound: yes
@@ -874,11 +885,14 @@ Luke Slater (The 7th Plain):
       Seeing Sense:
       Real Life Ceremony:
       Grace:
+      =:
+         white: yes
+   =:
+      Stars And Heroes:
+         flow: 13,174
+         link: https://youtu.be/KPc19-o4wEw
 Lykke Li:
    I Never Learn:
-      <<: &low
-         <flow: 3,537,837
-         <link: https://youtu.be/5dT312CDPJI
       I Never Learn: no
       No Rest for the Wicked: no
       Just Like a Dream: no
@@ -888,13 +902,16 @@ Lykke Li:
       Never Gonna Love Again: no
       Heart of Steel: no
       Sleeping Alone: len
+      =:
+         rel: 2014
+         white: yes
    Wounded Rhymes:
-      <flow: 25,926,329
-      <link: https://youtu.be/K3JGxj2rvAs
       I Follow Rivers:
       Sadness Is a Blessing:
+      =:
+         rel: 2011
+         white: no
    Youth Novels:
-      <white: yes
       Melodies & Desires: yes
       Dance, Dance, Dance: no
       I’m Good, I’m Gone: no
@@ -909,3 +926,13 @@ Lykke Li:
       Everybody but Me: no
       Time Flies: no
       Window Blues: no
+      =:
+         rel: 2008
+         white: yes
+   =:
+      I Follow Rivers:
+         flow: 25,587,457
+         link: https://youtu.be/K3JGxj2rvAs
+      Little Bit:
+         flow: 3,350,813
+         link: https://youtu.be/5dT312CDPJI
