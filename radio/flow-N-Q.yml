@@ -135,39 +135,30 @@ Natalie Merchant:
          link: https://youtu.be/VQ_Wqtnlv4U
 Neil Young:
    Harvest:
-      <flow: 6,445,825
-      <link: https://youtu.be/Eh44QPT1mPE
       Heart of Gold:
       Old Man:
+      =:
+         white: no
+   =:
+      Heart Of Gold:
+         flow: 6,449,181
+         link: https://youtu.be/Eh44QPT1mPE
 Nelly Furtado:
    Loose:
-      <flow: 40,248,276
-      <link: https://youtu.be/6JnGBs88sL0
       Say It Right:
+      =:
+         white: no
+   =:
+      Say It Right:
+         flow: 41,217,852
+         link: https://youtu.be/6JnGBs88sL0
 Nena:
    Nena:
       <flow: 13,453,871
       <link: https://youtu.be/La4Dcd1aUcE
       99 Luftballons:
 New Order:
-   Low‐Life:
-      <<: &low
-         <flow: 1,904,765
-         <link: https://youtu.be/9-NFosnfd2c
-      Love Vigilantes:
-      The Perfect Kiss:
-      This Time of Night:
-      Sunrise:
-      Elegia: yes
-      Sooner Than You Think:
-      Sub‐Culture:
-      Face Up:
-   Power Corruption & Lies:
-      <flow: 12,819,152
-      <link: https://youtu.be/FYH8DsU2WCk
-      Blue Monday:
    Technique:
-      <white: yes
       Fine Time:
       All the Way:
       Love Less:
@@ -177,21 +168,52 @@ New Order:
       Mr. Disco:
       Vanishing Point:
       Dream Attack:
+      =:
+         rel: 1989
+         white: yes
    True Faith:
-      <white: yes
       True Faith: yes
       1963:
+      =:
+         rel: 1987
+         white: yes
+   Brotherhood:
+      rel: 1986
+   Low‐Life:
+      Love Vigilantes:
+      The Perfect Kiss:
+      This Time of Night:
+      Sunrise:
+      Elegia: yes
+      Sooner Than You Think:
+      Sub‐Culture:
+      Face Up:
+      =:
+         rel: 1985
+         white: yes
+   Power, Corruption & Lies:
+      Blue Monday:
+      =:
+         rel: 1983
+         white: no
+   =:
+      Blue Monday:
+         flow: 13,712,895
+         link: https://youtu.be/FYH8DsU2WCk
+      Substance 1987:
+         flow: 1,804,440
+         link: https://youtu.be/9-NFosnfd2c
 New Radicals:
    Maybe You’ve Been Brainwashed Too:
-      <flow: 6,255,681
-      <link: https://youtu.be/DL7-CKirWZE
       You Get What You Give:
+      =:
+         white: no
+   =:
+      You Get What You Give:
+         flow: 7,184,230
+         link: https://youtu.be/DL7-CKirWZE
 Nicolas Jaar:
    Sirens:
-      <rel: 2016-09-30
-      <<: &low
-         <flow: 4,464,045
-         <link: https://youtu.be/1Upj_Ib30K4
       Mirrors:
       Killing Time: yes
       Sirens: len
@@ -201,9 +223,10 @@ Nicolas Jaar:
       No:
       Three Sides of Nazareth:
       History Lesson:
+      =:
+         rel: 2016-09-30
+         white: yes
    Nymphs:
-      <rel: 2016-09-23
-      <white: yes
       Don’t Break My Love:
       Why Didn’t You Save Me:
       The Three Sides of Audrey and Why She’s All Alone Now:
@@ -211,9 +234,10 @@ Nicolas Jaar:
       Swim:
       Mistress: yes
       Fight:
+      =:
+         rel: 2016-09-23
+         white: yes
    Space Is Only Noise:
-      <rel: 2011
-      <white: yes
       Être: no
       Colomb: no
       Sunflower: len
@@ -227,12 +251,20 @@ Nicolas Jaar:
       Trace: len
       Variations:
       ^tre: len
+      =:
+         rel: 2011
+         white: yes
    Love You Gotta Lose Again:
-      <rel: 2010
-      <white: yes
       WOUH: yes
       Love You Gotta Lose Again:
       Don’t Believe the Hype: len
+      =:
+         rel: 2010
+         white: yes
+   =:
+      Mi Mujer:
+         flow: 4,499,726
+         link: https://youtu.be/1Upj_Ib30K4
 Nightmares on Wax:
    <low:
       You Wish:
