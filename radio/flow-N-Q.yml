@@ -84,10 +84,6 @@ Natalie Imbruglia:
          link: https://youtu.be/3Vt0d9YlTC4
 Natalie Merchant:
    Motherland:
-      <date: 2001
-      <<: &low
-         <flow: 506,673
-         <link: https://youtu.be/VQ_Wqtnlv4U
       This House Is on Fire: no
       Motherland: no
       Saint Judas: no
@@ -100,9 +96,10 @@ Natalie Merchant:
       Just Can’t Last:
       Not in This Life:
       I’m Not Gonna Beg:
+      =:
+         rel: 2001
+         white: yes
    Ophelia:
-      <date: 1998
-      <<: *low
       Ophelia:
       Life Is Sweet:
       Kind & Generous: yes
@@ -114,9 +111,10 @@ Natalie Merchant:
       Effigy: len
       The Living:
       When They Ring the Golden Bells:
+      =:
+         rel: 1998
+         white: yes
    Tigerlily:
-      <date: 1995
-      <<: *low
       San Andreas Fault:
       Wonder:
       Beloved Wife:
@@ -128,6 +126,13 @@ Natalie Merchant:
       Jealousy: len
       Where I Go:
       Seven Years:
+      =:
+         rel: 1995
+         white: yes
+   =:
+      Carnival:
+         flow: 559,819
+         link: https://youtu.be/VQ_Wqtnlv4U
 Neil Young:
    Harvest:
       <flow: 6,445,825
@@ -162,7 +167,7 @@ New Order:
       <link: https://youtu.be/FYH8DsU2WCk
       Blue Monday:
    Technique:
-      <<: *low
+      <white: yes
       Fine Time:
       All the Way:
       Love Less:
@@ -173,7 +178,7 @@ New Order:
       Vanishing Point:
       Dream Attack:
    True Faith:
-      <<: *low
+      <white: yes
       True Faith: yes
       1963:
 New Radicals:
@@ -183,7 +188,7 @@ New Radicals:
       You Get What You Give:
 Nicolas Jaar:
    Sirens:
-      <date: 2016-09-30
+      <rel: 2016-09-30
       <<: &low
          <flow: 4,464,045
          <link: https://youtu.be/1Upj_Ib30K4
@@ -197,8 +202,8 @@ Nicolas Jaar:
       Three Sides of Nazareth:
       History Lesson:
    Nymphs:
-      <date: 2016-09-23
-      <<: *low
+      <rel: 2016-09-23
+      <white: yes
       Don’t Break My Love:
       Why Didn’t You Save Me:
       The Three Sides of Audrey and Why She’s All Alone Now:
@@ -207,8 +212,8 @@ Nicolas Jaar:
       Mistress: yes
       Fight:
    Space Is Only Noise:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Être: no
       Colomb: no
       Sunflower: len
@@ -223,8 +228,8 @@ Nicolas Jaar:
       Variations:
       ^tre: len
    Love You Gotta Lose Again:
-      <date: 2010
-      <<: *low
+      <rel: 2010
+      <white: yes
       WOUH: yes
       Love You Gotta Lose Again:
       Don’t Believe the Hype: len
@@ -234,7 +239,7 @@ Nightmares on Wax:
          <flow: 330,951
          <link: https://youtu.be/TwDOa-lvizM
    Shape the Future:
-      <date: 2018
+      <rel: 2018
       <flow: low
       Back to Nature: yes
       Tell My Vision: no
@@ -248,16 +253,16 @@ Nightmares on Wax:
       Gotta Smile: no
       The Othership: yes
    Ground Floor:
-      <date: 2016
+      <rel: 2016
       <flow: low
       World Inside: no
       Scratch That!:
       Reclaim the Balcony:
       Dirty Triumphant:
    Feelin’ Good:
-      <date: 2013
+      <rel: 2013
    Thought So:
-      <date: 2008
+      <rel: 2008
       <flow: low
       Intro: len
       Da Feelin: no
@@ -271,7 +276,7 @@ Nightmares on Wax:
       Still? Yes!: no
       Hey! Ego: no
    In a Space Outta Sound:
-      <date: 2006
+      <rel: 2006
       <flow: low
       Passion: yes
       The Sweetest: no
@@ -286,7 +291,7 @@ Nightmares on Wax:
       Soul Purpose: yes
       African Pirates: no
    Mind Elevation:
-      <date: 2002
+      <rel: 2002
       <flow: low
       Mind Eye: no
       Say-Say: no
@@ -302,7 +307,7 @@ Nightmares on Wax:
       Mirrorball: len
       Thoughts:
    Carboot Soul:
-      <date: 1999
+      <rel: 1999
       <flow: low
       Les Nuits: yes
       Morse: yes
@@ -315,7 +320,7 @@ Nightmares on Wax:
       Survival: no
       Capumcap: no
    Smokers Delight:
-      <date: 1995
+      <rel: 1995
       <flow: low
       Nights Introlude: yes
       Dreddoverboard: no
@@ -334,7 +339,7 @@ Nightmares on Wax:
       Rise (reprise): len
       Gambia via Vagator Beach: yes
    A Word of Science:
-      <date: 1991
+      <rel: 1991
       <flow: low
       Nights Interlude: yes
       A Case of Funk: no
@@ -369,7 +374,7 @@ Nirvana:
       Smells Like Teen Spirit:
 Norah Jones:
    The Fall:
-      <date: 2009
+      <rel: 2009
       <<: &low
          <flow: 4,700,932
          <link: https://youtu.be/tO4dxvguQDk
@@ -387,8 +392,8 @@ Norah Jones:
       Tell Yer Mama:
       Man of the Hour: len
    Not Too Late:
-      <date: 2006
-      <<: *low
+      <rel: 2006
+      <white: yes
       Wish I Could: no
       Sinkin’ Soon: no
       The Sun Doesn’t Like You: len
@@ -403,12 +408,12 @@ Norah Jones:
       Rosie’s Lullaby: no
       Not Too Late: no
    Feels Like Home:
-      <date: 2004
+      <rel: 2004
    New York City:
-      <date: 2003
+      <rel: 2003
    Come Away With Me:
-      <date: 2002
-      <<: *low
+      <rel: 2002
+      <white: yes
       Don’t Know Why: yes
       Seven Years: len
       Cold Cold Heart:
@@ -431,9 +436,9 @@ Odesza:
       Say My Name:
 Olive:
    Trickle:
-      <date: 2000
+      <rel: 2000
    Extra Virgin:
-      <date: 1997
+      <rel: 1997
       <flow: 99,301
       <link: https://youtu.be/s4oZdUV-G-Y
       Miracle: yes
@@ -458,7 +463,7 @@ On-the-Go:
       Fall Asleep:
 Oneohtrix Point Never:
    Age Of:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 107,064
          <link: https://youtu.be/hiwi7d0f91Y
@@ -476,10 +481,10 @@ Oneohtrix Point Never:
       Still Stuff That Doesn’t Happen:
       Last Known Image of a Song:
    Garden of Delete:
-      <date: 2015
+      <rel: 2015
    R Plus Seven:
-      <date: 2013
-      <<: *low
+      <rel: 2013
+      <white: yes
       Boring Angel: no
       Americans: no
       He She: len
@@ -492,8 +497,8 @@ Oneohtrix Point Never:
       Chrome Country: yes
       Gone: len
    Replica:
-      <date: 2011
-      <<: *low
+      <rel: 2011
+      <white: yes
       Andro:
       Power of Persuasion: yes
       Sleep Dealer:
@@ -505,8 +510,8 @@ Oneohtrix Point Never:
       Child Soldier:
       Explain:
    Returnal:
-      <date: 2010
-      <<: *low
+      <rel: 2010
+      <white: yes
       Nil Admirari:
       Describing Bodies:
       Stress Waves: yes
@@ -516,8 +521,8 @@ Oneohtrix Point Never:
       Ouroboros: len
       Preyouandi:
    Rifts:
-      <date: 2009-10-20
-      <<: *low
+      <rel: 2009-10-20
+      <white: yes
       A Pact Between Strangers:
       Behind the Bank: len
       Betrayed in the Octagon: dup
@@ -552,8 +557,8 @@ Oneohtrix Point Never:
       Woe Is the Transgression II: dup
       Zones Without People: dup
    Russian Mind:
-      <date: 2009-10
-      <<: *low
+      <rel: 2009-10
+      <white: yes
       Months: no
       Physical Memory: no
       Grief and Repetition: len
@@ -561,8 +566,8 @@ Oneohtrix Point Never:
       Time Decanted: yes
       Immanence:
    Zones Without People:
-      <date: 2009-08
-      <<: *low
+      <rel: 2009-08
+      <white: yes
       Computer Vision: len
       Format & Journey North:
       Zones Without People:
@@ -571,8 +576,8 @@ Oneohtrix Point Never:
       Emil Cioran:
       Hyperdawn:
    Betrayed in the Octagon:
-      <date: 2007
-      <<: *low
+      <rel: 2007
+      <white: yes
       Woe Is the Transgression I: no
       Behind the Bank: len
       Eyeballs: len
@@ -638,7 +643,7 @@ Paula Abdul:
       One or the Other:
 Paula Cole:
    This Fire:
-      <date: 1996
+      <rel: 1996
       <flow: 1,714,768
       <link: https://youtu.be/JPR108kwNo4
       Tiger:
@@ -682,7 +687,7 @@ Pearl Jam:
       Indifference:
 Pendulum:
    In Silico:
-      <date: 2008
+      <rel: 2008
       <<: &low
          <flow: 4,335,083
          <link: https://youtu.be/ogMNV33AhCY
@@ -697,8 +702,8 @@ Pendulum:
       Granite:
       The Tempest:
    Hold Your Colour:
-      <date: 2005
-      <<: *low
+      <rel: 2005
+      <white: yes
       Prelude: len
       Slam: yes
       Plasticworld: yes
@@ -811,7 +816,7 @@ Pink Floyd:
       Wish You Were Here:
 Pixies:
    Bossanova:
-      <date: 1990
+      <rel: 1990
       <<: &low
          <flow: 2,017,781
          <link: https://youtu.be/tPgf_btTFlc
@@ -830,8 +835,8 @@ Pixies:
       Stormy Weather:
       Havalina: len
    Doolittle:
-      <date: 1989
-      <<: *low
+      <rel: 1989
+      <white: yes
       Debaser: len
       Tame: len
       Wave of Mutilation: len
@@ -848,7 +853,7 @@ Pixies:
       Silver: len
       Gouge Away: len
    Surfer Rosa:
-      <date: 1988
+      <rel: 1988
       <flow: 23,145,557
       <link: https://youtu.be/N3oCS85HvpY
       Where Is My Mind:
@@ -868,7 +873,7 @@ Pizzicato Five:
       This Can’t Be Love:
       The Work of God:
    Bossa Nova 2001:
-      <<: *low
+      <white: yes
       Rock’n’roll: len
       Sweet Soul Revue: yes
       Magic Carpet Ride:
@@ -886,7 +891,7 @@ Pizzicato Five:
       Playback 2001: len
       Cleopatra 2001:
    By Her Majesty’s Request:
-      <<: *low
+      <white: yes
       Holiday for Audrey H: len
       Introduction J.B. et Vietnam: len
       Bellissima ’90:
@@ -905,7 +910,7 @@ Pizzicato Five:
       God Save the Queen:
       Let’s Spend The Night Together:
    couples:
-      <<: *low
+      <white: yes
       magical connection: len
       summertime, summertime: yes
       they all laughed:
@@ -919,7 +924,7 @@ Pizzicato Five:
       two sleepy people:
       everytime we say goodbye: len
    Overdose:
-      <<: *low
+      <white: yes
       Overture: len
       Airplane: no
       Statue of Liberty: no
@@ -934,7 +939,7 @@ Pizzicato Five:
       Questions: no
       On the Sunny Side of the Street: no
    Romantique 96:
-      <<: *low
+      <white: yes
       Potpourri: len
       The Awakening: len
       Welcome to the Circus:
@@ -952,7 +957,7 @@ Pizzicato Five:
       Triste: yes
       Coda: len
    Sister Freedom Tapes:
-      <<: *low
+      <white: yes
       Airplane ’96:
       Domino Konishi: len
       Snowflakes: len
@@ -963,7 +968,7 @@ Pizzicato Five:
       To Our Children’s Children’s Children:
       Passing By: len
    Soft Landing on the Moon:
-      <<: *low
+      <white: yes
       Party Joke: len
       Bellissima ’90: dup
       Temptation Talk: dup
@@ -987,7 +992,7 @@ Pizzicato Five:
       God Save the Queen: len
       Couples: dup
    Sweet Pizzicato Five:
-      <<: *low
+      <white: yes
       Tout va bien:
       Flower Drum Song:
       Catchy: yes
@@ -998,7 +1003,7 @@ Pizzicato Five:
       Funky Lovechild:
       Cosmic Blues:
    This Year’s Girl:
-      <<: *low
+      <white: yes
       This Year’s Girl 4: len
       I (all about me): len
       Ohayô:
@@ -1019,7 +1024,7 @@ Pizzicato Five:
       This Year’s Girl 6: len
 Plaid:
    Spokes:
-      <date: 2003
+      <rel: 2003
       <<: &low
          <flow: 55,939
          <link: https://youtu.be/eH1IMB8KJok
@@ -1034,8 +1039,8 @@ Plaid:
       Buns:
       Quick Emix:
    Double Figure:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       Eyen: no
       Squance: no
       Assault on Precinct Zero: no
@@ -1056,8 +1061,8 @@ Plaid:
       Tak 5: len
       Manyme:
    Rest Proof Clockwork:
-      <date: 1999
-      <<: *low
+      <rel: 1999
+      <white: yes
       Shackbu:
       Ralome: yes
       Little People:
@@ -1074,8 +1079,8 @@ Plaid:
       Churn Maiden: len
       Air Locked / Face Me:
    Not for Threes:
-      <date: 1997
-      <<: *low
+      <rel: 1997
+      <white: yes
       Abla Eedio: no
       Kortisin: no
       Headspin: no
@@ -1095,7 +1100,7 @@ Plaid:
 Portishead:
    <updated: 2019-4-7
    Third:
-      <date: 2008
+      <rel: 2008
       <<: &low
          <flow: 3,492,041
          <link: https://youtu.be/Vg1jyL3cr60
@@ -1111,8 +1116,8 @@ Portishead:
       Magic Doors:
       Threads: yes
    Portishead:
-      <date: 1997
-      <<: *low
+      <rel: 1997
+      <white: yes
       Cowboys: yes
       All Mine: yes
       Undenied: yes
@@ -1125,8 +1130,8 @@ Portishead:
       Elysium:
       Western Eyes: yes
    Dummy:
-      <date: 1994
-      <<: *low
+      <rel: 1994
+      <white: yes
       Mysterons: yes
       Sour Times: yes
       Strangers: yes
@@ -1164,7 +1169,7 @@ Portugal. The Man:
       Live in the Moment:
 Prefuse 73:
    Everything She Touched Turned Ampexian:
-      <date: 2009
+      <rel: 2009
       <<: &low
          <flow: 55,940
          <link: https://youtu.be/fJY7BMzx7Iw
@@ -1198,8 +1203,8 @@ Prefuse 73:
       Periodic Measurements of Infrequent Frowns: len
       Formal Dedications:
    Preparations:
-      <date: 2007
-      <<: *low
+      <rel: 2007
+      <white: yes
       From the East Intro: len
       Beaten Thursdays: no
       Aborted Hugs: len
@@ -1215,8 +1220,8 @@ Prefuse 73:
       Spaced + Dissonant:
       Preparation Outro Version:
    Security Screenings:
-      <date: 2006
-      <<: *low
+      <rel: 2006
+      <white: yes
       The Letter "P": len
       With Dirt and Two Texts (Afternoon Version): no
       Illiterate Interlude: len
@@ -1236,8 +1241,8 @@ Prefuse 73:
       Matrimonioids..... (For Elivin + Susana Estela):
       We Leave You in a Cloud of Thick Smoke and Sleep Outro:
    Surrounded by Silence:
-      <date: 2005
-      <<: *low
+      <rel: 2005
+      <white: yes
       I’ve Said All I Need to Say About Them Intro:
       Hide Ya Face:
       Bad Memory Interlude One: len
@@ -1260,8 +1265,8 @@ Prefuse 73:
       Rain Edit Interlude: len
       And I’m Gone: len
    One Word Extinguisher:
-      <date: 2003
-      <<: *low
+      <rel: 2003
+      <white: yes
       The Wrong Side of Reflection (intro): len
       The End of Biters - International: len
       Plastic: len
@@ -1286,8 +1291,8 @@ Prefuse 73:
       Esta: len
       Pentagram: yes
    Vocal Studies + Uprock Narratives:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       Radio Attack:
       Nuno:
       Life Death:
@@ -1309,7 +1314,7 @@ Primitive Radio Gods:
          <flow: 604,212
          <link: https://youtu.be/4XJxFAoiWSY
    Rocket:
-      <date: 1996
+      <rel: 1996
       <flow: low
       Women:
       Motherfucker:
