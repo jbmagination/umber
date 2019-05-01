@@ -497,23 +497,21 @@ Laraaji:
          link: https://youtu.be/87E2ZRy21V8
 Laurel Halo:
    Hour Logic:
-      <rel: 2011
-      <flow: 86,554
-      <link: https://youtu.be/IrjeMN_U1hw
       Aquifer:
       Constant Index: yes
       Head:
       Speed of Rain:
       Hour Logic:
       Strength in Free Space:
+      =:
+         rel: 2011
+         white: yes
+   =:
+      Jelly:
+         flow: 69,208
+         link: https://youtu.be/IrjeMN_U1hw
 Led Zeppelin:
-   Coda:
-      <rel: 1982
    In Through the Out Door:
-      <rel: 1979
-      <<: &low
-         <flow: 5,999,659
-         <link: https://youtu.be/sfR_HWMzgyc
       In the Evening:
       South Bound Saurez:
       Fool in the Rain: yes
@@ -521,16 +519,17 @@ Led Zeppelin:
       Carouselambra:
       All My Love:
       I’m Gonna Crawl:
+      =:
+         rel: 1979
+         white: yes
    Presence:
-      <rel: 1976
+      rel: 1976
    Physical Graffiti:
-      <rel: 1975
-      <flow: 7,367,630
-      <link: https://youtu.be/PD-MdiUm1_Y
       Kashmir:
+      =:
+         rel: 1975
+         white: no
    Houses of the Holy:
-      <rel: 1973
-      <white: yes
       The Song Remains the Same:
       The Rain Song:
       Over the Hills and Far Away: yes
@@ -539,39 +538,88 @@ Led Zeppelin:
       D’yer Mak’er:
       No Quarter:
       The Ocean:
+      =:
+         rel: 1973
+         white: yes
    '[Led Zeppelin IV]':
-      <flow: 78,163,234
-      <link: https://youtu.be/D9ioyEvdggk
-      <rel: 1971
       Black Dog:
       Rock and Roll:
       Stairway to Heaven:
+      When the Levee Breaks:
+      =:
+         rel: 1971
+         white: no
    Led Zeppelin III:
-      <rel: 1970
-      <flow: 6,847,898
-      <link: https://youtu.be/RlNhD0oS5pk
       Celebration Day:
       Immigrant Song:
+      Since I’ve Been Loving You:
+      =:
+         rel: 1970
+         white: no
    Led Zeppelin II:
-      <rel: 1969
-      <flow: 6,754,335
-      <link: https://youtu.be/HQmmM_qwG4k
+      Ramble On:
+      Thank You:
       Whole Lotta Love:
-   Led Zeppelin:
-      <rel: 1969
+      =:
+         rel: 1969
+         white: no
+   =:
+      Immigrant Song:
+         flow: 6,992,557
+         link: https://youtu.be/RlNhD0oS5pk
+      Kashmir:
+         flow: 7,698,273
+         link: https://youtu.be/PD-MdiUm1_Y
+      No Quarter:
+         flow: 3,784,523
+         link: https://youtu.be/RlNhD0oS5pk
+      Stairway To Heaven:
+         flow: 81,614,873
+         link: https://youtu.be/D9ioyEvdggk
+      Whole Lotta Love:
+         flow: 7,585,196
+         link: https://youtu.be/HQmmM_qwG4k
 Lenny Kravitz:
+   Raise Vibration:
+      Low:
+      =:
+         rel: 2018
+         white: no
+   Strut:
+      The Chamber:
+      =:
+         rel: 2014
+         white: no
+   Black and White America:
+      rel: 2011
+   It Is Time for a Love Revolution:
+      rel: 2008
+   Baptism:
+      rel: 2004
+   Lenny:
+      rel: 2001
    5:
-      <flow: 5,685,189
-      <link: https://youtu.be/EvuL5jyCHOw
-      American Woman:
+      Live:
+      Supersoulfighter:
+      I Belong to You:
+      Black Velveteen:
+      If You Can’t Say No:
+      Thinking of You:
+      Take Time:
       Fly Away:
-   Again:
-      <flow: 11,262,907
-      <link: https://youtu.be/eW2qlKa6oHw
-      Again:
+      It’s Your Life:
+      Straight Cold Player:
+      Little Girl’s Eyes:
+      You’re My Flavor:
+      Can We Find a Reason?:
+      American Woman: yes
+      Without You:
+      =:
+         rel: 1999-06-01
+         white: yes
+   Circus:
+      rel: 1995
    Are You Gonna Go My Way:
-      <flow: 2,370,300
-      <link: https://youtu.be/zLDIcIrZO8Y
       Are You Gonna Go My Way: yes
       Believe:
       Come on and Love Me:
@@ -583,10 +631,19 @@ Lenny Kravitz:
       Sugar:
       Sister:
       Eleutheria:
-   Strut:
-      <flow: 6,790,507
-      <link: https://youtu.be/jAHlQ77lm10
+      =:
+         rel: 1993
+         white: yes
+   =:
+      Fly Away:
+         flow: 5,872,138
+         link: https://youtu.be/EvuL5jyCHOw
+      Low:
+         flow: 38,900,177
+         link: https://youtu.be/BilaShsQphM
       The Chamber:
+         flow: 6,443,630
+         link: https://youtu.be/jAHlQ77lm10
 Leon Vynehall:
    Nothing Is Still:
       <rel: 2018
