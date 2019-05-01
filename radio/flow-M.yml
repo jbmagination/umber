@@ -142,100 +142,32 @@ M83:
          flow: 11,009,599
          link: https://youtu.be/lAwYodrBr2Q
 Madonna:
-   <high:
-      4 Minutes:
-         <flow: 7,832,501
-         <link: https://youtu.be/aAQZPBwz2CI
-         <pub: 2009
-      Bitch I’m Madonna:
-         <flow: 76,830,661
-         <link: https://youtu.be/7hPMmzKs62w
-         <pub: 2015
-      Dress You Up:
-         <flow: 6,537,419
-         <link: https://youtu.be/mWtpd8mS5jw
-         <pub: 2017
-      Frozen:
-         <flow: 8,438,434
-         <link: https://youtu.be/SKEFN9XNlyY
-         <pub: 2017
-      Ghosttown:
-         <flow: 8,914,994
-         <link: https://youtu.be/GgDxv0Qg_Rg
-         <pub: 2015
-      Girl Gone Wild:
-         <flow: 6,629,207
-         <link: https://youtu.be/tYkwziTrv5o
-         <pub: 2012
-      Give It 2 Me:
-         <flow: 6,428,883
-         <link: https://youtu.be/aQRLSBUNupg
-         <pub: 2008
-      Give Me All Your Luvin’:
-         <flow: 10,108,542
-         <link: https://youtu.be/cItHOl5LRWg
-         <pub: 2012
-      Hung Up:
-         <flow: 19,991,409
-         <link: https://youtu.be/EDwb9jOVRtU
-         <pub: 2009
-      La Isla Bonita:
-         <flow: 17,047,985
-         <link: https://youtu.be/zpzdgmqIHOQ
-         <pub: 2009
-      Like a Prayer:
-         <flow: 7,876,757
-         <link: https://youtu.be/79fzeNUqQbQ
-         <pub: 2009
-      Like a Virgin:
-         <flow: 6,237,321
-         <link: https://youtu.be/s__rX_WL100
-         <pub: 2009
-      Live to Tell:
-         <flow: 6,342,084
-         <link: https://youtu.be/IzAO9A9GjgI
-         <pub: 2011
-      Material Girl:
-         <flow: 18,223,354
-         <link: https://youtu.be/6p-lDYPR2P8
-         <pub: 2017
-      Papa Don’t Preach:
-         <flow: 9,610,581
-         <link: https://youtu.be/G333Is7VPOg
-         <pub: 2011
-      Vogue:
-         <flow: 9,981,092
-         <link: https://youtu.be/GuJQSAiODqI
-         <pub: 2009
-   <low:
-      Secret:
-         <flow: 1,638,276
-         <link: https://youtu.be/EPHUZenprKc
    Rebel Heart:
-      <date: 2015
-      <flow: high
       Bitch I’m Madonna:
       Ghosttown:
+      =:
+         rel: 2015
+         white: no
    MDNA:
-      <date: 2012
-      <flow: high
       Girl Gone Wild:
       Give Me All Your Luvin’:
+      =:
+         rel: 2012
+         white: no
    Hard Candy:
-      <date: 2008
-      <flow: high
       4 Minutes:
       Give It 2 Me:
+      =:
+         rel: 2008
+         white: no
    Confessions on a Dance Floor:
-      <date: 2005
-      <flow: high
       Hung Up:
+      =:
+         rel: 2005
+         white: no
    American Life:
-      <date: 2003
-      <flow: low
+      rel: 2003
    Music:
-      <date: 2000
-      <flow: low
       Music: yes
       Impressive Instant: no
       Runaway Lover: no
@@ -248,13 +180,15 @@ Madonna:
       Gone:
       American Pie:
       Cyber-Raga:
+      =:
+         rel: 2000
+         white: yes
    Ray of Light:
-      <date: 1998
-      <flow: high
       Frozen:
+      =:
+         rel: 1998
+         white: no
    Something to Remember:
-      <date: 1995
-      <flow: low
       I Want You: yes
       I’ll Remember:
       Take a Bow: dup
@@ -270,9 +204,10 @@ Madonna:
       Oh Father:
       I Want You (orchestral): yes
       Verás:
+      =:
+         rel: 1995
+         white: yes
    Bedtime Stories:
-      <date: 1994
-      <flow: low
       Survival:
       Secret: yes
       I’d Rather Be Your Lover:
@@ -284,38 +219,43 @@ Madonna:
       Sanctuary:
       Bedtime Story: yes
       Take a Bow: yes
+      =:
+         rel: 1994
+         white: yes
    Erotica:
-      <date: 1992
-      <flow: low
+      rel: 1992
    Justify My Love:
-      <date: 1990-10-30
-      <flow: low
       Justify My Love (William Orbit remix):
       Justify My Love: yes
       Express Yourself (Shep’s ’Spressin’ Himself Re-remix):
+      =:
+         rel: 1990-10-30
+         white: yes
    I’m Breathless:
-      <date: 1990-05-21
-      <flow: high
       Vogue:
+      =:
+         rel: 1990-05-21
+         white: no
    Like a Prayer:
-      <date: 1989
-      <flow: high
       Like a Prayer:
+      =:
+         rel: 1989
+         white: no
    True Blue:
-      <date: 1986
-      <flow: high
       La Isla Bonita:
       Live to Tell:
       Papa Don’t Preach:
+      =:
+         rel: 1986
+         white: no
    Like a Virgin:
-      <date: 1984
-      <flow: high
       Dress You Up:
       Like a Virgin:
       Material Girl:
+      =:
+         rel: 1984
+         white: no
    Madonna:
-      <date: 1983
-      <flow: low
       Lucky Star: yes
       Borderline: no
       Burning Up: no
@@ -324,6 +264,61 @@ Madonna:
       Think of Me:
       Physical Attraction:
       Everybody:
+      =:
+         rel: 1983
+         white: yes
+   =:
+      4 Minutes:
+         flow: 7,832,501
+         link: https://youtu.be/aAQZPBwz2CI
+      Bitch I’m Madonna:
+         flow: 76,830,661
+         link: https://youtu.be/7hPMmzKs62w
+      Dress You Up:
+         flow: 6,537,419
+         link: https://youtu.be/mWtpd8mS5jw
+      Frozen:
+         flow: 8,438,434
+         link: https://youtu.be/SKEFN9XNlyY
+      Ghosttown:
+         flow: 8,914,994
+         link: https://youtu.be/GgDxv0Qg_Rg
+      Girl Gone Wild:
+         flow: 6,629,207
+         link: https://youtu.be/tYkwziTrv5o
+      Give It 2 Me:
+         flow: 6,428,883
+         link: https://youtu.be/aQRLSBUNupg
+      Give Me All Your Luvin’:
+         flow: 10,108,542
+         link: https://youtu.be/cItHOl5LRWg
+      Hung Up:
+         flow: 19,991,409
+         link: https://youtu.be/EDwb9jOVRtU
+      La Isla Bonita:
+         flow: 17,047,985
+         link: https://youtu.be/zpzdgmqIHOQ
+      Like a Prayer:
+         flow: 7,876,757
+         link: https://youtu.be/79fzeNUqQbQ
+      Like a Virgin:
+         flow: 6,237,321
+         link: https://youtu.be/s__rX_WL100
+      Live to Tell:
+         flow: 6,342,084
+         link: https://youtu.be/IzAO9A9GjgI
+      Material Girl:
+         flow: 18,223,354
+         link: https://youtu.be/6p-lDYPR2P8
+      Papa Don’t Preach:
+         flow: 9,610,581
+         link: https://youtu.be/G333Is7VPOg
+      Secret:
+         flow: 1,638,276
+         link: https://youtu.be/EPHUZenprKc
+      Vogue:
+         flow: 9,981,092
+         link: https://youtu.be/GuJQSAiODqI
 Mandalay:
    Empathy:
       <flow: 57,540
@@ -401,8 +396,8 @@ Massive Attack:
          <flow: 4,638,845
          <link: https://youtu.be/ZWmrfgj0MZI
    Heligoland:
-      <date: 2010
-      <flow: low
+      <rel: 2010
+      <white: yes
       Pray for Rain: yes
       Babel: no
       Splitting the Atom: no
@@ -416,8 +411,8 @@ Massive Attack:
       Fatalism (Ryuichi Sakamoto & Yukihiro Takahashi remix): no
       United Snakes:
    Collected:
-      <date: 2006
-      <flow: low
+      <rel: 2006
+      <white: yes
       Safe From Harm: dup
       Karmacoma: dup
       Angel: dup
@@ -443,8 +438,8 @@ Massive Attack:
       I Want You: yes
       Danny the Dog:
    100th Window:
-      <date: 2002
-      <flow: low
+      <rel: 2002
+      <white: yes
       Future Proof: yes
       What Your Soul Sings: no
       Everywhen: yes
@@ -455,8 +450,8 @@ Massive Attack:
       Name Taken: yes
       Antistar: len
    Mezzanine:
-      <date: 1998
-      <flow: high
+      <rel: 1998
+      <white: no
       Angel:
       Risingson:
       Teardrop:
@@ -469,8 +464,8 @@ Massive Attack:
       Group Four:
       (Exchange):
    Protection:
-      <date: 1994
-      <flow: low
+      <rel: 1994
+      <white: yes
       Protection: yes
       Karmacoma: yes
       Three: yes
@@ -481,8 +476,8 @@ Massive Attack:
       Sly: yes
       Heat Miser: no
    Blue Lines:
-      <date: 1991
-      <flow: low
+      <rel: 1991
+      <white: yes
       Safe From Harm: yes
       One Love: no
       Blue Lines: no
@@ -499,7 +494,7 @@ Matchbox Twenty:
       3AM:
 Matt Lange:
    Staccato:
-      <date: 2014-07-14
+      <rel: 2014-07-14
       <<: &low
          <flow: 66,740
          <link: https://youtu.be/7uIEtL8Ui9U
@@ -507,18 +502,18 @@ Matt Lange:
       Ether (original mix): yes
       Underscore (original mix): yes
    I Can’t Forgive / Inverse / This Is How It Is:
-      <date: 2014-03-24
+      <rel: 2014-03-24
       <<: *low
       I Can’t Forgive (original mix): yes
       Inverse (original mix): yes
       This Is How It Is (original mix): yes
    Way You Know / Only You:
-      <date: 2013
+      <rel: 2013
       <<: *low
       Way You Know: yes
       Only You:
    Rift:
-      <date: 2011
+      <rel: 2011
       <<: *low
       Rift (original mix): yes
       Rift (Andrew Bayer remix):
@@ -541,44 +536,44 @@ Mazzy Star:
       Look on Down From the Bridge: yes
 Meramek:
    Know Me:
-      <date: 2015
+      <rel: 2015
       <<: &low
          <flow: 73,381
          <link: https://youtu.be/E_2NenYDKf8
       Know Me (original mix): yes
    Only You EP:
-      <date: 2014
+      <rel: 2014
       <<: *low
       Only You (original mix): yes
       Bounce:
       Stepping Stones (original mix):
    Feeling / Maybe / FWD:
-      <date: 2013
+      <rel: 2013
       <<: *low
       Feeling: yes
       Maybe:
       FWD:
 Metallica:
    Hardwired… to Self‐Destruct:
-      <date: 2016
+      <rel: 2016
       <flow: 19,542,067
       <link: https://youtu.be/uhBHL3v4d3I
       Now That We’re Dead:
    Lulu:
-      <date: 2011
+      <rel: 2011
    Death Magnetic:
-      <date: 2008
+      <rel: 2008
    St. Anger:
-      <date: 2003
+      <rel: 2003
    Garage Inc.:
-      <date: 1998
+      <rel: 1998
       <flow: 9,103,191
       <link: https://youtu.be/boanuwUMNNQ
       Whiskey in the Jar:
    Reload:
-      <date: 1997
+      <rel: 1997
    Load:
-      <date: 1996
+      <rel: 1996
       <flow: 4,469,113
       <link: https://youtu.be/4FKYsUEuvIo
       Ain’t My Bitch:
@@ -596,7 +591,7 @@ Metallica:
       Ronnie:
       The Outlaw Torn:
    Metallica (Black Album):
-      <date: 1991
+      <rel: 1991
       <flow: 47,478,622
       <link: https://youtu.be/tAGnKpE4NCI
       Enter Sandman:
@@ -604,31 +599,31 @@ Metallica:
       The Unforgiven:
       Wherever I May Roam:
    and Justice for All:
-      <date: 1988
+      <rel: 1988
       <flow: 14,220,628
       <link: https://youtu.be/EzgGTTtR0kc
       One:
    Master of Puppets:
-      <date: 1986
+      <rel: 1986
       <flow: 11,413,325
       <link: https://youtu.be/xnKhsTXoKCI
       Master of Puppets:
    Ride the Lightning:
-      <date: 1984
+      <rel: 1984
       <flow: 8,371,394
       <link: https://youtu.be/WEQnzs8wl6E
       Fade to Black:
       For Whom the Bell Tolls:
    Kill ’em All:
-      <date: 1983
+      <rel: 1983
 MEUTE:
    You & Me:
-      <date: 2018
+      <rel: 2018
       <flow: 22,190,673
       <link: https://youtu.be/fKFbnhcNnjE
       You & Me:
    Tumult:
-      <date: 2017
+      <rel: 2017
       <flow: 764,414
       <link: https://youtu.be/DtKdqwRC07A
       The Man With the Red Face: no
@@ -762,7 +757,7 @@ Modest Mouse:
       Invisible: no
 Moloko:
    Statues:
-      <date: 2003
+      <rel: 2003
       <<: &low
          <flow: 1,491,813
          <link: https://youtu.be/kl8mpAvTm_Y
@@ -777,7 +772,7 @@ Moloko:
       I Want You:
       Over & Over:
    Things to Make and Do:
-      <date: 2000
+      <rel: 2000
       <<: *low
       Radio Moscow: len
       Pure Pleasure Seeker: no
