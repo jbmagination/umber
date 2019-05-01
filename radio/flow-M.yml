@@ -941,8 +941,6 @@ Mr Mister:
          link: https://youtu.be/nKhN1t_7PEY
 μ‐Ziq:
    Lunatic Harness:
-      <flow: 27,427
-      <link: https://youtu.be/UN_9nB37O_U
       Brace Yourself Jason:
       Hasty Boom Alert: yes
       Mushroom Compost:
@@ -956,11 +954,14 @@ Mr Mister:
       Catkin and Teasel:
       London:
       Midwinter Log:
+      =:
+         white: yes
+   =:
+      Brace Yourself Jason:
+         flow: 27,477
+         link: https://youtu.be/UN_9nB37O_U
 My Brightest Diamond:
    A Thousand Shark’s Teeth:
-      <<: &low
-         <flow: 91,990
-         <link: https://youtu.be/u1p9kj-odnU
       Inside a Boy:
       Ice & The Storm:
       If I Were Queen: len
@@ -972,8 +973,10 @@ My Brightest Diamond:
       Goodbye Forever:
       Like a Sieve:
       The Diamond:
+      =:
+         rel: 2008
+         white: yes
    Bring Me the Workhorse:
-      <<: *low
       Something of an End:
       Golden Star: yes
       Gone Away:
@@ -985,10 +988,15 @@ My Brightest Diamond:
       Magic Rabbit:
       The Good & The Bad Guy:
       Workhorse:
+      =:
+         rel: 2006
+         white: yes
+   =:
+      I Have Never Loved Someone:
+         flow: 88,860
+         link: https://youtu.be/u1p9kj-odnU
 My Morning Jacket:
    Z:
-      <flow: 588,149
-      <link: https://youtu.be/Bpdwwa7lsUI
       Wordless Chorus:
       It Beats 4 U: yes
       Gideon:
@@ -999,3 +1007,9 @@ My Morning Jacket:
       Lay Low:
       Knot Comes Loose:
       Dondante:
+      =:
+         white: yes
+   =:
+      Touch Me I’m Going to Scream Part II:
+         flow: 593,561
+         link: https://youtu.be/Bpdwwa7lsUI
