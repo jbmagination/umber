@@ -680,14 +680,11 @@ Metallica:
          link: https://youtu.be/boanuwUMNNQ
 MEUTE:
    You & Me:
-      <rel: 2018
-      <flow: 22,190,673
-      <link: https://youtu.be/fKFbnhcNnjE
       You & Me:
+      =:
+         rel: 2018
+         white: no
    Tumult:
-      <rel: 2017
-      <flow: 764,414
-      <link: https://youtu.be/DtKdqwRC07A
       The Man With the Red Face: no
       Versatile: no
       Think Twice:
@@ -698,45 +695,92 @@ MEUTE:
       Rej:
       Acamar:
       Every Wall Is a Door:
+      =:
+         rel: 2017
+         white: no
+   =:
+      REJ:
+         flow: 814,388
+         link: https://youtu.be/DtKdqwRC07A
+      You & Me:
+         flow: 21,209,713
+         link: https://youtu.be/fKFbnhcNnjE
 Michael Bublé:
    It’s Time:
-      <flow: 10,964,283
-      <link: https://youtu.be/Edwsf-8F3sI
       Feeling Good:
+      =:
+         white: no
+   =:
+      Feeling Good:
+         flow: 11,271,894
+         link: https://youtu.be/Edwsf-8F3sI
 Michael Jackson:
-   Bad:
-      <flow: 31,291,476
-      <link: https://youtu.be/HzZ_urpj4As
-      Bad:
-   Dangerous:
-      <flow: 30,166,886
-      <link: https://youtu.be/LeiFF0gvqcc
-      Black or White:
-   HIStory Past, Present and Future, Book I:
-      <flow: 59,019,974
-      <link: https://youtu.be/QNJL6nfu__Q
-      Earth Song:
-   Invincible:
-      <flow: 14,946,880
-      <link: https://youtu.be/1-7ABIM2qjU
-      You Rock My World:
+   Xscape:
+      Slave to the Rhythm:
+      =:
+         rel: 2014
+         white: no
    Michael:
-      <flow: 11,997,420
-      <link: https://youtu.be/-oCCnxBos10
       Hold My Hand:
-   Off the Wall:
-      <flow: 19,956,240
-      <link: https://youtu.be/yURRmWtbTbo
-      Don’t Stop ’Til You Get Enough:
+      =:
+         rel: 2010
+         white: no
+   Invincible:
+      You Rock My World:
+      =:
+         rel: 2001
+         white: no
+   HIStory Past, Present and Future, Book I:
+      Earth Song:
+      =:
+         rel: 1995
+         white: no
+   Dangerous:
+      Black or White:
+      =:
+         rel: 1991
+         white: no
+   Bad:
+      Bad:
+      =:
+         rel: 1987
+         white: no
    Thriller:
-      <flow: 60,599,018
-      <link: https://youtu.be/sOnqjkJTMaA
       Beat It:
       Human Nature:
-   Xscape:
-      <flow: 14,216,735
-      <link: https://youtu.be/jDRTghGZ7XU
-      A Place With No Name:
+      =:
+         rel: 1982
+         white: no
+   Off the Wall:
+      Don’t Stop ’Til You Get Enough:
+      =:
+         rel: 1979
+         white: no
+   =:
+      Don’t Stop ’Til You Get Enough:
+         flow: 21,897,798
+         link: https://youtu.be/yURRmWtbTbo
+      Hold My Hand:
+         flow: 11,633,050
+         link: https://youtu.be/-oCCnxBos10
+      Remember The Time:
+         flow: 31,637,525
+         link: https://youtu.be/LeiFF0gvqcc
+      Slave To The Rhythm:
+         flow: 13,740,849
+         link: https://youtu.be/jDRTghGZ7XU
+      The Way You Make Me Feel:
+         flow: 32,198,671
+         link: https://youtu.be/HzZ_urpj4As
+      They Don’t Care About Us:
+         flow: 62,314,706
+         link: https://youtu.be/QNJL6nfu__Q
+      Thriller:
+         flow: 61,383,546
+         link: https://youtu.be/sOnqjkJTMaA
+      You Rock My World:
+         flow: 15,017,917
+         link: https://youtu.be/1-7ABIM2qjU
 Michael McDonald:
    If That’s What It Takes:
       <flow: 1,413,761
