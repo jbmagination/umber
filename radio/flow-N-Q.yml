@@ -1,20 +1,5 @@
 Nada Surf:
-   High/Low:
-      <<: &low
-         <flow: 525,726
-         <link: https://youtu.be/2ulU08Se7Qs
-      Deeper Well: no
-      The Plan: no
-      Popular: yes
-      Sleep: no
-      Stalemate: no
-      Treehouse: len
-      Icebox: no
-      Psychic Caramel: no
-      Hollywood: len
-      Zen Brain: no
    Let Go:
-      <<: *low
       Blizzard of ’77: len
       The Way You Wear Your Head: no
       Fruit Fly: no
@@ -27,23 +12,49 @@ Nada Surf:
       Happy Kid: no
       Treading Water: no
       Paper Boats: no
+      =:
+         rel: 2002
+         white: yes
+   The Proximity Effect:
+      rel: 1998
+   High/Low:
+      Deeper Well: no
+      The Plan: no
+      Popular: yes
+      Sleep: no
+      Stalemate: no
+      Treehouse: len
+      Icebox: no
+      Psychic Caramel: no
+      Hollywood: len
+      Zen Brain: no
+      =:
+         rel: 1996
+         white: yes
+   =:
+      Always Love:
+         flow: 517,937
+         link: https://youtu.be/2ulU08Se7Qs
 Nancy Sinatra:
-   Boots:
-      <flow: 14,235,557
-      <link: https://youtu.be/SbyAZQ45uww
-      These Boots Are Made for Walkin’:
    How Does That Grab You?:
-      <flow: 9,718,779
-      <link: https://youtu.be/Ppz0Yp-lE0g
       Bang Bang:
+      =:
+         rel: 1966
+         white: no
+   Boots:
+      These Boots Are Made for Walkin’:
+      =:
+         rel: 1966
+         white: no
+   =:
+      Bang Bang:
+         flow: 7,231,985
+         link: https://youtu.be/Ppz0Yp-lE0g
+      These Boots Are Made for Walkin’:
+         flow: 14,140,176
+         link: https://youtu.be/SbyAZQ45uww
 Natalie Imbruglia:
-   Left of the Middle:
-      <flow: 16,437,879
-      <link: https://youtu.be/VV1XWJN3nJo
-      Torn:
    White Lilies Island:
-      <flow: 1,097,631
-      <link: https://youtu.be/3Vt0d9YlTC4
       That Day:
       Beauty on the Fire:
       Satellite:
@@ -56,6 +67,21 @@ Natalie Imbruglia:
       Talk in Tongues:
       Butterflies:
       Come September:
+      =:
+         rel: 2001
+         white: yes
+   Left of the Middle:
+      Torn:
+      =:
+         rel: 1997
+         white: no
+   =:
+      Torn:
+         flow: 17,820,167
+         link: https://youtu.be/VV1XWJN3nJo
+      Wrong Impression:
+         flow: 1,137,889
+         link: https://youtu.be/3Vt0d9YlTC4
 Natalie Merchant:
    Motherland:
       <date: 2001
