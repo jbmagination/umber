@@ -321,8 +321,6 @@ Madonna:
          link: https://youtu.be/GuJQSAiODqI
 Mandalay:
    Empathy:
-      <flow: 57,540
-      <link: https://youtu.be/ie-0hEReVfU
       This Life:
       Flowers Bloom: yes
       Insensible: yes
@@ -334,40 +332,79 @@ Mandalay:
       Kissing the Day: no
       Beautiful: no
       About You: no
+      =:
+         white: yes
+   =:
+      Beautiful:
+         flow: 55,963
+         link: https://youtu.be/ie-0hEReVfU
 Mariah Carey:
-   Butterfly:
-      <flow: 13,624,844
-      <link: https://youtu.be/mIhI23gBBPQ
-      My All:
-   Daydream:
-      <flow: 14,114,854
-      <link: https://youtu.be/LfRNRymrv9k
-      Always Be My Baby:
-      Fantasy:
-   E=MC²:
-      <flow: 18,237,576
-      <link: https://youtu.be/9b8erWuBA44
-      Bye Bye:
-      Touch My Body:
    Memoirs of an Imperfect Angel:
-      <flow: 13,478,249
-      <link: https://youtu.be/gCadlN8fexk
       I Want To Know What Love Is:
       Obsessed:
-   Merry Christmas:
-      <flow: 47,429,805
-      <link: https://youtu.be/yXQViqx6GMY
-      All I Want for Christmas Is You:
-   Music Box:
-      <flow: 23,488,204
-      <link: https://youtu.be/0IA3ZvCkRkQ
-      Hero:
-      Without You:
+      =:
+         rel: 2009
+         white: no
+   E=MC²:
+      Bye Bye:
+      Touch My Body:
+      =:
+         rel: 2008
+         white: no
    The Emancipation of Mimi:
-      <flow: 35,353,794
-      <link: https://youtu.be/0habxsuXW4g
       Don’t Forget About Us:
       We Belong Together:
+      =:
+         rel: 2005
+         white: no
+   Charmbracelet:
+      rel: 2002
+   Rainbow:
+      rel: 1999
+   Butterfly:
+      My All:
+      =:
+         rel: 1997
+         white: no
+   Daydream:
+      Always Be My Baby:
+      Fantasy:
+      =:
+         rel: 1995
+         white: no
+   Merry Christmas:
+      All I Want for Christmas Is You:
+      =:
+         rel: 1994
+         white: no
+   Music Box:
+      Hero:
+      Without You:
+      =:
+         rel: 1993
+         white: no
+   =:
+      All I Want For Christmas Is You:
+         flow: 57,340,677
+         link: https://youtu.be/yXQViqx6GMY
+      Always Be My Baby:
+         flow: 15,209,697
+         link: https://youtu.be/LfRNRymrv9k
+      Hero:
+         flow: 23,152,721
+         link: https://youtu.be/0IA3ZvCkRkQ
+      I Want To Know What Love Is:
+         flow: 13,849,877
+         link: https://youtu.be/gCadlN8fexk
+      My All:
+         flow: 13,670,261
+         link: https://youtu.be/mIhI23gBBPQ
+      Touch My Body:
+         flow: 17,998,651
+         link: https://youtu.be/9b8erWuBA44
+      We Belong Together:
+         flow: 37,118,971
+         link: https://youtu.be/0habxsuXW4g
 Mark Morrison:
    Return of the Mack:
       <flow: 5,911,536
