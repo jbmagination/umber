@@ -154,9 +154,13 @@ Nelly Furtado:
          link: https://youtu.be/6JnGBs88sL0
 Nena:
    Nena:
-      <flow: 13,453,871
-      <link: https://youtu.be/La4Dcd1aUcE
       99 Luftballons:
+      =:
+         white: no
+   =:
+      Nena ‎- 99 Luftballons:
+         flow: 13,394,632
+         link: https://youtu.be/La4Dcd1aUcE
 New Order:
    Technique:
       Fine Time:
@@ -266,13 +270,7 @@ Nicolas Jaar:
          flow: 4,499,726
          link: https://youtu.be/1Upj_Ib30K4
 Nightmares on Wax:
-   <low:
-      You Wish:
-         <flow: 330,951
-         <link: https://youtu.be/TwDOa-lvizM
    Shape the Future:
-      <rel: 2018
-      <flow: low
       Back to Nature: yes
       Tell My Vision: no
       Shape the Future: no
@@ -284,18 +282,20 @@ Nightmares on Wax:
       Deep Shadows:
       Gotta Smile: no
       The Othership: yes
+      =:
+         rel: 2018
+         white: yes
    Ground Floor:
-      <rel: 2016
-      <flow: low
       World Inside: no
       Scratch That!:
       Reclaim the Balcony:
       Dirty Triumphant:
+      =:
+         rel: 2016
+         white: yes
    Feelin’ Good:
-      <rel: 2013
+      rel: 2013
    Thought So:
-      <rel: 2008
-      <flow: low
       Intro: len
       Da Feelin: no
       195lbs: no
@@ -307,9 +307,10 @@ Nightmares on Wax:
       Hear in Colour: yes
       Still? Yes!: no
       Hey! Ego: no
+      =:
+         rel: 2008
+         white: yes
    In a Space Outta Sound:
-      <rel: 2006
-      <flow: low
       Passion: yes
       The Sweetest: no
       Flip Ya Lid: yes
@@ -322,9 +323,10 @@ Nightmares on Wax:
       I Am You: no
       Soul Purpose: yes
       African Pirates: no
+      =:
+         rel: 2006
+         white: yes
    Mind Elevation:
-      <rel: 2002
-      <flow: low
       Mind Eye: no
       Say-Say: no
       Thinking of Omara: no
@@ -338,9 +340,10 @@ Nightmares on Wax:
       B B H (Bongo-Brk-Haven):
       Mirrorball: len
       Thoughts:
+      =:
+         rel: 2002
+         white: yes
    Carboot Soul:
-      <rel: 1999
-      <flow: low
       Les Nuits: yes
       Morse: yes
       Ethnic Majority: yes
@@ -351,9 +354,10 @@ Nightmares on Wax:
       Fire in the Middle: yes
       Survival: no
       Capumcap: no
+      =:
+         rel: 1999
+         white: yes
    Smokers Delight:
-      <rel: 1995
-      <flow: low
       Nights Introlude: yes
       Dreddoverboard: no
       Pipes Honour: yes
@@ -370,9 +374,10 @@ Nightmares on Wax:
       Rise: yes
       Rise (reprise): len
       Gambia via Vagator Beach: yes
+      =:
+         rel: 1995
+         white: yes
    A Word of Science:
-      <rel: 1991
-      <flow: low
       Nights Interlude: yes
       A Case of Funk: no
       Coming Down: no
@@ -388,22 +393,42 @@ Nightmares on Wax:
       Sal Batardes: no
       E.A.S.E.:
       How Ya Doin’:
+      =:
+         rel: 1991
+         white: yes
+   =:
+      You Wish:
+         flow: 330,951
+         link: https://youtu.be/TwDOa-lvizM
 Nirvana:
-   In Utero:
-      <flow: 17,019,949
-      <link: https://youtu.be/n6P0SitRwy8
-      Heart-Shaped Box:
    MTV Unplugged:
-      <flow: 22,286,978
-      <link: https://youtu.be/fregObNcHC8
       The Man Who Sold the World:
+      =:
+         rel: 1994
+         white: no
+   In Utero:
+      Heart-Shaped Box:
+      =:
+         rel: 1993
+         white: no
    Nevermind:
-      <flow: 84,764,163
-      <link: https://youtu.be/hTWKbfoikeg
       Come As You Are:
       In Bloom:
       Lithium:
       Smells Like Teen Spirit:
+      =:
+         rel: 1991
+         white: no
+   =:
+      Heart-Shaped Box:
+         flow: 16,781,101
+         link: https://youtu.be/n6P0SitRwy8
+      Smells Like Teen Spirit:
+         flow: 91,497,950
+         link: https://youtu.be/hTWKbfoikeg
+      The Man Who Sold The World:
+         flow: 24,614,437
+         link: https://youtu.be/fregObNcHC8
 Norah Jones:
    The Fall:
       <rel: 2009
@@ -1347,7 +1372,7 @@ Primitive Radio Gods:
          <link: https://youtu.be/4XJxFAoiWSY
    Rocket:
       <rel: 1996
-      <flow: low
+      <white: yes
       Women:
       Motherfucker:
       Standing Outside a Broken Phone Booth With Money in My Hand: yes
