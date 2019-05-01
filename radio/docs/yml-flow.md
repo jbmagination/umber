@@ -7,6 +7,104 @@ Query
 We cannot sort by view count because it will introduce ambiguous results. We
 can check next page as long as current page has at least 1 true high.
 
+Null type
+---------
+
+Currently we present blacklisted albums like this:
+
+~~~yml
+Justin Timberlake:
+   The 20/20 Experience:
+      Mirrors:
+      Suit & Tie:
+      Tunnel Vision:
+      =:
+         rel: 2013-03-15
+         white: no
+   =:
+      Mirrors:
+         flow: 90,408,909
+         link: https://youtu.be/uuZE_IRwLNI
+~~~
+
+However this layout is somewhat awkward as the songs all have **null** value,
+and will always have that value. We should give them an explicitly "black"
+value. This will allow to remove the "white" album key.
+
+It has a benefit with "white" albums as well. When we first import "white"
+albums all songs will be labeled "white" or "length", which we can then change
+to "good", "bad" or "duplicate". Searching for unrated songs will be easier as
+we can just search for "white". The question is how do we implement this. We
+could do strings or numbers:
+
+number | current | string
+-------|---------|-------
+0      |         | black
+1      |         | white
+2      | dup     | dup
+3      | len     | len
+4      | no      | bad
+5      | yes     | good
+
+I am leaning towards numbers but the drawback is they only have meaning once
+you refer to the table, or once you have memorized the table. To get a feel
+for them, here is example with strings:
+
+~~~yml
+Justin Timberlake:
+   The 20/20 Experience:
+      Mirrors: black
+      Suit & Tie: black
+      Tunnel Vision: black
+      =:
+         rel: 2013-03-15
+   =:
+      Mirrors:
+         flow: 90,408,909
+         link: https://youtu.be/uuZE_IRwLNI
+~~~
+
+and with numbers:
+
+~~~yml
+Justin Timberlake:
+   The 20/20 Experience:
+      Mirrors: 0
+      Suit & Tie: 0
+      Tunnel Vision: 0
+      =:
+         rel: 2013-03-15
+   =:
+      Mirrors:
+         flow: 90,408,909
+         link: https://youtu.be/uuZE_IRwLNI
+~~~
+
+another option would be to keep the current system, but use the canonical null
+symbol:
+
+~~~yml
+Justin Timberlake:
+   The 20/20 Experience:
+      Mirrors: ~
+      Suit & Tie: ~
+      Tunnel Vision: ~
+      =:
+         rel: 2013-03-15
+         white: no
+   =:
+      Mirrors:
+         flow: 90,408,909
+         link: https://youtu.be/uuZE_IRwLNI
+~~~
+
+This gives songs on "black" albums a permanent value, and songs on "white"
+albums a temporary one to use with searching. After some thinking I do not
+like the new strings as they are too long. I not like the numbers either, and
+I have never wanted a numbers system. While much less characters I do not wish
+to sacrifice clarity. The explict **null** is nice though so I will implement
+that.
+
 Value type
 ----------
 
@@ -121,8 +219,5 @@ https://youtu.be/kcPc18SG6uA
 References
 ----------
 
-- https://yaml.org/type/bool
-- https://yaml.org/type/int
-- https://yaml.org/type/str
-- https://yaml.org/type/timestamp
+- https://yaml.org/type/null
 - https://yaml.org/type/value
