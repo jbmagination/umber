@@ -1,9 +1,5 @@
 Kammerflimmer Kollektief:
    There Are Actions Which We Have Neglected and Which Never Cease to Call Us:
-      <rel: 2018
-      <<: &low
-         <flow: 6,591
-         <link: https://youtu.be/OBNvfFFYBQA
       Action 1 Lucid, Imperial Beach: no
       Action 2 Discharged, Quauhnáhuac: no
       Action 3 Thoughtless, Hamburg: no
@@ -11,9 +7,10 @@ Kammerflimmer Kollektief:
       Action 5 Resplendent, Bolinas:
       Action 6 Vigilant, Jerichow: len
       Action 7 Blessed, Ermenonville:
+      =:
+         rel: 2018
+         white: yes
    Désarroi:
-      <rel: 2015
-      <white: yes
       Mayhem!: no
       grundstürzend: yes
       Free Form Freak-Out: no
@@ -23,9 +20,10 @@ Kammerflimmer Kollektief:
       saumselig: len
       Zurück zum Beton (version): no
       Mayhem! (reprise): no
+      =:
+         rel: 2015
+         white: yes
    Teufelskamin:
-      <rel: 2011
-      <white: yes
       Coricidin Boogie: yes
       Never Collapse, Always Dazzle!:
       Teufelskamin Jam 1:
@@ -36,9 +34,10 @@ Kammerflimmer Kollektief:
       Nearly Able to Fly:
       New Ghosts:
       The People United Will Never Be Defeated: len
+      =:
+         rel: 2011
+         white: yes
    Wildling:
-      <rel: 2010
-      <white: yes
       Move Right In: yes
       Silver Chords: yes
       Aum a Go-Go: len
@@ -51,15 +50,16 @@ Kammerflimmer Kollektief:
       We Paint the Town Beige:
       There’s a Crack in Everything:
       Milte Hi Ankhen (aka Bird in Hand): len
+      =:
+         rel: 2010
+         white: yes
    Im erwachten Garten:
-      <rel: 2009
+      rel: 2009
    Jinx:
-      <rel: 2007
+      rel: 2007
    Absencen:
-      <rel: 2005
+      rel: 2005
    Cicadidae:
-      <rel: 2003
-      <white: yes
       Neumond inselhin: yes
       Sie tranken Regen: len
       Über die Wasserscheide: yes
@@ -70,9 +70,10 @@ Kammerflimmer Kollektief:
       Eiderdaunen (gerupft): no
       Irgendwann Frühling: no
       There’s a Weight on You, but You Can’t Feel It.: yes
+      =:
+         rel: 2003
+         white: yes
    Hysteria:
-      <rel: 2001
-      <white: yes
       Hysteria: no
       Seen (not seen): no
       Engel wacht: no
@@ -81,20 +82,23 @@ Kammerflimmer Kollektief:
       Zikaden, vielleicht:
       Mohn!:
       Du siehst hoch; du siehst "Wolken" (version):
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Gras:
+         flow: 6,363
+         link: https://youtu.be/OBNvfFFYBQA
 Kacey Musgraves:
    Golden Hour:
-      <rel: 2018
-      <flow: 34,821,697
-      <link: https://youtu.be/6OFv566mj7s
       Butterflies:
       High Horse:
       Rainbow:
       Space Cowboy:
+      =:
+         rel: 2018
+         white: no
    Pageant Material:
-      <rel: 2015
-      <<: &low
-         <flow: 412,441
-         <link: https://youtu.be/_eTkY7-vTd8
       High Time: len
       Dime Store Cowgirl: no
       Late to the Party:
@@ -108,9 +112,10 @@ Kacey Musgraves:
       Good Ol’ Boys Club:
       Cup of Tea: len
       Fine:
+      =:
+         rel: 2015
+         white: yes
    Same Trailer Different Park:
-      <rel: 2013
-      <white: yes
       Silver Lining: no
       My House: len
       Merry Go ’Round: no
@@ -123,12 +128,18 @@ Kacey Musgraves:
       Stupid: len
       Follow Your Arrow: no
       It Is What It Is: no
+      =:
+         rel: 2013
+         white: yes
+   =:
+      Dime Store Cowgirl:
+         flow: 356,715
+         link: https://youtu.be/_eTkY7-vTd8
+      Rainbow:
+         flow: 33,574,919
+         link: https://youtu.be/6OFv566mj7s
 Kate Bush:
    Hounds of Love:
-      <rel: 1985
-      <<: &low
-         <flow: 3,230,338
-         <link: https://youtu.be/BW3gKKiTvjs
       Running Up That Hill: yes
       Hounds of Love: no
       The Big Sky: no
@@ -141,9 +152,10 @@ Kate Bush:
       Jig of Life: no
       Hello Earth: no
       The Morning Fog: len
+      =:
+         rel: 1985
+         white: yes
    The Dreaming:
-      <rel: 1982
-      <white: yes
       Sat in Your Lap: no
       There Goes a Tenner: no
       Pull Out the Pin: no
@@ -154,13 +166,14 @@ Kate Bush:
       All the Love:
       Houdini:
       Get Out of My House:
+      =:
+         rel: 1982
+         white: yes
    Never for Ever:
-      <rel: 1980
+      rel: 1980
    Lionheart:
-      <rel: 1978
+      rel: 1978
    The Kick Inside:
-      <rel: 1978
-      <white: yes
       Moving: no
       The Saxophone Song: no
       Strange Phenomena: len
@@ -174,6 +187,13 @@ Kate Bush:
       Them Heavy People: no
       Room for the Life: no
       The Kick Inside: no
+      =:
+         rel: 1978
+         white: yes
+   =:
+      Kate Bush Wuthering Heights.:
+         flow: 3,384,228
+         link: https://youtu.be/BW3gKKiTvjs
 Kelly Bailey:
    Portal 2:
       <rel: 2011
