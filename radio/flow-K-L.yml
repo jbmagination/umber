@@ -196,9 +196,6 @@ Kate Bush:
          link: https://youtu.be/BW3gKKiTvjs
 Kelly Bailey:
    Portal 2:
-      <rel: 2011
-      <flow: 363,392
-      <link: https://youtu.be/Xt2sbtvBuk8
       Science Is Fun: len
       Concentration Enhancing Menu Initialiser: len
       9999999:
@@ -276,19 +273,28 @@ Kelly Bailey:
       You Can’t Escape, You Know:
       Still Alive: len
       Still Alive (J.C. mix): len
+      =:
+         rel: 2011
+         white: yes
+   =:
+      Half Life 2 Soundtrack:
+         flow: 364,513
+         link: https://youtu.be/Xt2sbtvBuk8
 King Crimson:
    In the Court of the Crimson King:
-      <flow: 2,776,127
-      <link: https://youtu.be/FhKJgqxNDD8
       21st Century Schizoid Man (including Mirrors):
       I Talk to the Wind:
       Epitaph (including March for No Reason and Tomorrow and Tomorrow): yes
       Moonchild (including The Dream and The Illusion):
       The Court of the Crimson King:
+      =:
+         white: yes
+   =:
+      Starless:
+         flow: 2,694,106
+         link: https://youtu.be/FhKJgqxNDD8
 Kings of Convenience:
    Riot on an Empty Street:
-      <flow: 1,696,988
-      <link: https://youtu.be/WOxE7IRizjI
       Homesick:
       Misread: yes
       Cayman Islands: yes
@@ -301,53 +307,23 @@ Kings of Convenience:
       Surprise Ice:
       Gold in the Air of Summer: yes
       The Build-Up:
+      =:
+         white: yes
+   =:
+      Misread:
+         flow: 1,766,969
+         link: https://youtu.be/WOxE7IRizjI
 Koda:
    Waking:
-      <flow: 662,516
-      <link: https://youtu.be/cIzM9p3dUm8
       Waking: yes
+      =:
+         white: yes
+   =:
+      The Last Stand:
+         flow: 632,773
+         link: https://youtu.be/cIzM9p3dUm8
 Koji Kondo:
-   The Legend of Zelda Ocarina of Time:
-      <<: &low
-         <flow: 788,113
-         <link: https://youtu.be/-uInmFU6JkU
-      Title Theme: len
-      Deku Tree: len
-      Fairy Flying: len
-      House: len
-      Kokiri Forest: len
-      Shop: len
-      Battle: len
-      Inside the Deku Tree: len
-      Boss Battle: len
-      Hyrule Field Main Theme:
-      Market: len
-      Hyrule Castle Courtyard: len
-      Ocarina Songs: len
-      Ocarina of Time: len
-      Lon Lon Ranch:
-      Kakariko Village: yes
-      Lost Woods: len
-      Zora’s Domain: yes
-      Great Fairy’s Fountain: yes
-      Temple of Time: len
-      Chamber of the Sages: len
-      Horse Race: len
-      Kakariko Village (orchestra version):
-      Windmill Hut: yes
-      Gerudo Valley: yes
-      Ganondorf Battle: len
-      Last Battle:
-      Zelda’s Ocarina: len
-      Staff Credits Theme:
-      Minuet of Forest: len
-      Bolero of Fire: len
-      Serenade of Water: len
-      Nocturne of Shadow: len
-      Prelude of Light: len
-      Requiem of Spirit: len
    The Legend of Zelda The Wind Waker:
-      <white: yes
       Title: len
       Menu Select: len
       The Legendary Hero:
@@ -398,6 +374,52 @@ Koji Kondo:
       Ending: len
       Staff Credits:
       Epilogue: len
+      =:
+         rel: 2002
+         white: yes
+   The Legend of Zelda Ocarina of Time:
+      Title Theme: len
+      Deku Tree: len
+      Fairy Flying: len
+      House: len
+      Kokiri Forest: len
+      Shop: len
+      Battle: len
+      Inside the Deku Tree: len
+      Boss Battle: len
+      Hyrule Field Main Theme:
+      Market: len
+      Hyrule Castle Courtyard: len
+      Ocarina Songs: len
+      Ocarina of Time: len
+      Lon Lon Ranch:
+      Kakariko Village: yes
+      Lost Woods: len
+      Zora’s Domain: yes
+      Great Fairy’s Fountain: yes
+      Temple of Time: len
+      Chamber of the Sages: len
+      Horse Race: len
+      Kakariko Village (orchestra version):
+      Windmill Hut: yes
+      Gerudo Valley: yes
+      Ganondorf Battle: len
+      Last Battle:
+      Zelda’s Ocarina: len
+      Staff Credits Theme:
+      Minuet of Forest: len
+      Bolero of Fire: len
+      Serenade of Water: len
+      Nocturne of Shadow: len
+      Prelude of Light: len
+      Requiem of Spirit: len
+      =:
+         rel: 1998
+         white: yes
+   =:
+      Lost Woods:
+         flow: 880,778
+         link: https://youtu.be/-uInmFU6JkU
 Korn:
    Follow the Leader:
       <flow: 15,187,842
