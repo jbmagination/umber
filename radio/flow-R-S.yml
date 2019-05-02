@@ -1311,9 +1311,6 @@ Stereo MCs:
          link: https://youtu.be/LMGdRgtblmk
 Steve Roach:
    Desert Solitaire:
-      <rel: 1989
-      <flow: 23,686
-      <link: https://youtu.be/QYJsKMvlujo
       Flatlands: no
       Labyrinth: no
       Specter:
@@ -1325,25 +1322,45 @@ Steve Roach:
       Empty Time:
       From the Heart of Darkness:
       Desert Solitaire:
+      =:
+         rel: 1989
+         white: yes
    Dreamtime Return:
-      <rel: 1988
+      rel: 1988
    The Leaving Time:
-      <rel: 1988
+      rel: 1988
    Quiet Music 3:
-      <rel: 1986
+      rel: 1986
    Quiet Music 2:
-      <rel: 1986
-      <white: yes
       See Things:
       Towards the Blue:
       Something in Tears:
       A Few More Moments: yes
       Air and Light:
+      =:
+         rel: 1986
+         white: yes
+   =:
+      In The Eye Of Noche:
+         flow: 23,493
+         link: https://youtu.be/QYJsKMvlujo
 Stone Temple Pilots:
+   Purple:
+      Meatplow:
+      Vasoline: len
+      Lounge Fly:
+      Interstate Love Song: yes
+      Still Remains:
+      Pretty Penny:
+      Silvergun Superman:
+      Big Empty: yes
+      Unglued: len
+      Army Ants:
+      Kitchenware & Candybars / My Second Album:
+      =:
+         rel: 1994
+         white: yes
    Core:
-      <<: &low
-         <flow: 3,025,540
-         <link: https://youtu.be/V5UOC0C0x8Q
       Dead & Bloated:
       Sex Type Thing:
       Wicked Garden:
@@ -1356,23 +1373,15 @@ Stone Temple Pilots:
       Wet My Bed: len
       Crackerman:
       Where the River Goes:
-   Purple:
-      <white: yes
-      Meatplow:
-      Vasoline: len
-      Lounge Fly:
-      Interstate Love Song: yes
-      Still Remains:
-      Pretty Penny:
-      Silvergun Superman:
-      Big Empty: yes
-      Unglued: len
-      Army Ants:
-      Kitchenware & Candybars / My Second Album:
+      =:
+         rel: 1992
+         white: yes
+   =:
+      Plush:
+         flow: 3,066,188
+         link: https://youtu.be/V5UOC0C0x8Q
 Stwo:
    D.T.S.N.T.:
-      <flow: 462,814
-      <link: https://youtu.be/77-nRiju8CU
       Far from Home: len
       Haunted: yes
       Insecure:
@@ -1381,11 +1390,14 @@ Stwo:
       Out At Night:
       All Alone: yes
       Blue Sky:
+      =:
+         white: yes
+   =:
+      With You:
+         flow: 446,908
+         link: https://youtu.be/77-nRiju8CU
 Suzanne Vega:
    Days of Open Hand:
-      <<: &low
-         <flow: 4,514,971
-         <link: https://youtu.be/VZt7J0iaUD0
       Tired of Sleeping: no
       Men in a War: no
       Rusted Pipe: no
@@ -1397,8 +1409,12 @@ Suzanne Vega:
       Predictions: no
       Fifty-Fifty Chance: len
       Pilgrimage: yes
+      =:
+         rel: 1990
+         white: yes
+   Solitude Standing:
+      rel: 1987
    Suzanne Vega:
-      <white: yes
       Cracking: len
       Freeze Tag: len
       Marlene on the Wall: no
@@ -1409,6 +1425,13 @@ Suzanne Vega:
       The Queen and the Soldier:
       Knight Moves:
       Neighborhood Girls:
+      =:
+         rel: 1985
+         white: yes
+   =:
+      Luka:
+         flow: 4,659,374
+         link: https://youtu.be/VZt7J0iaUD0
 System of a Down:
    Hypnotize:
       <flow: 21,401,583
