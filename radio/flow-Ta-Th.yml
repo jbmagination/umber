@@ -1450,9 +1450,6 @@ Thievery Corporation:
          link: https://youtu.be/uN9tulBHr8Y
 Thin Lizzy:
    Jailbreak:
-      <rel: 1975
-      <flow: 1,185,319
-      <link: https://youtu.be/hQo1HIcSVtg
       Jailbreak:
       Angel From the Coast:
       Running Back:
@@ -1462,18 +1459,15 @@ Thin Lizzy:
       Fight or Fall:
       Cowboy Song:
       Emerald:
+      =:
+         rel: 1975
+         white: yes
+   =:
+      Boys Are Back In Town:
+         flow: 1,205,480
+         link: https://youtu.be/hQo1HIcSVtg
 Third Eye Blind:
-   Dopamine:
-      <rel: 2015
-   Ursa Major:
-      <rel: 2009
-   Out of the Vein:
-      <rel: 2003
    Blue:
-      <rel: 1999
-      <<: &low
-         <flow: 3,023,934
-         <link: https://youtu.be/QdgCajndgNw
       Anything: len
       Wounded: no
       10 Days Late: no
@@ -1487,9 +1481,10 @@ Third Eye Blind:
       Slow Motion:
       Darkness:
       Darwin / The Red Summer Sun (extended coda):
+      =:
+         rel: 1999
+         white: yes
    Third Eye Blind:
-      <rel: 1997
-      <white: yes
       Losing a Whole Year:
       Narcolepsy:
       Semi‐Charmed Life:
@@ -1504,12 +1499,15 @@ Third Eye Blind:
       The Background:
       Motorcycle Drive By:
       God of Wine:
+      =:
+         rel: 1997
+         white: yes
+   =:
+      Jumper:
+         flow: 2,994,182
+         link: https://youtu.be/QdgCajndgNw
 Thunderball:
    Cinescope:
-      <rel: 2004
-      <<: &low
-         <flow: 4,036
-         <link: https://youtu.be/uF1-yW79tw4
       The Road to Benares:
       Electric Shaka (feat. Afrika Bambataaa):
       Return of the Panther (feat. Mustafa Akbar):
@@ -1522,9 +1520,10 @@ Thunderball:
       To Sir With Dub: yes
       Elevated States (feat. Mustafa Akbar):
       Last Flight Out: yes
+      =:
+         rel: 2004
+         white: yes
    Scorpio Rising:
-      <rel: 2001
-      <white: yes
       Heart of the Hustler:
       Domino: yes
       Vai Vai:
@@ -1536,9 +1535,10 @@ Thunderball:
       Solar: yes
       On the Sly:
       Golden: yes
+      =:
+         rel: 2001
+         white: yes
    Ambassadors of Style:
-      <rel: 2000
-      <white: yes
       Hijack: no
       Prime Minister: no
       This Girl:
@@ -1550,3 +1550,10 @@ Thunderball:
       Sirocco:
       The Moon, The Sky:
       Sid’s Mellow Trip:
+      =:
+         rel: 2000
+         white: yes
+   =:
+      Scorpio Rising:
+         flow: 3,965
+         link: https://youtu.be/uF1-yW79tw4

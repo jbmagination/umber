@@ -1,16 +1,17 @@
 Tiësto:
    A Town Called Paradise:
-      <flow: 49,601,559
-      <link: https://youtu.be/Dr1nN__-2Po
       Maximal Crazy:
       Red Lights:
       Secrets:
       The Only Way Is Up:
       The Right Song:
       Wasted:
+      =:
+         rel: 2014
+         white: no
+   Kaleidoscope:
+      rel: 2009
    Elements of Life:
-      <flow: 5,126,107
-      <link: https://youtu.be/EE7CXZ1Lyu4
       Ten Seconds Before Sunrise: yes
       Everything:
       Do You Feel Me:
@@ -23,10 +24,26 @@ Tiësto:
       Dance4Life:
       Elements of Life:
       He’s a Pirate (Tiësto remix):
+      =:
+         rel: 2007
+         white: yes
+   Parade of the Athletes:
+      rel: 2004
    Just Be:
-      <flow: 7,345,896
-      <link: https://youtu.be/8tIgN7eICn4
       Adagio for Strings:
+      =:
+         rel: 2004
+         white: no
+   =:
+      Adagio For Strings:
+         flow: 7,863,568
+         link: https://youtu.be/8tIgN7eICn4
+      Elements of Life:
+         flow: 4,903,277
+         link: https://youtu.be/EE7CXZ1Lyu4
+      Secrets:
+         flow: 46,288,667
+         link: https://youtu.be/Dr1nN__-2Po
 Tipper:
    Surrounded:
       <flow: 145,409
