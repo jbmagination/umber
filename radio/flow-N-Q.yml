@@ -1198,10 +1198,6 @@ Pizzicato Five:
          link: https://youtu.be/saHMRnVgEhM
 Plaid:
    Spokes:
-      <rel: 2003
-      <<: &low
-         <flow: 55,939
-         <link: https://youtu.be/eH1IMB8KJok
       Even Spring: no
       Crumax Rins:
       Upona:
@@ -1212,9 +1208,10 @@ Plaid:
       Get What You Gave:
       Buns:
       Quick Emix:
+      =:
+         rel: 2003
+         white: yes
    Double Figure:
-      <rel: 2001
-      <white: yes
       Eyen: no
       Squance: no
       Assault on Precinct Zero: no
@@ -1234,9 +1231,10 @@ Plaid:
       Ti Bom:
       Tak 5: len
       Manyme:
+      =:
+         rel: 2001
+         white: yes
    Rest Proof Clockwork:
-      <rel: 1999
-      <white: yes
       Shackbu:
       Ralome: yes
       Little People:
@@ -1252,9 +1250,10 @@ Plaid:
       New Bass Hippo:
       Churn Maiden: len
       Air Locked / Face Me:
+      =:
+         rel: 1999
+         white: yes
    Not for Threes:
-      <rel: 1997
-      <white: yes
       Abla Eedio: no
       Kortisin: no
       Headspin: no
@@ -1271,13 +1270,15 @@ Plaid:
       Forever: len
       Getting: len
       Milh: yes
+      =:
+         rel: 1997
+         white: yes
+   =:
+      The Digging Remedy:
+         flow: 52,234
+         link: https://youtu.be/eH1IMB8KJok
 Portishead:
-   <updated: 2019-4-7
    Third:
-      <rel: 2008
-      <<: &low
-         <flow: 3,492,041
-         <link: https://youtu.be/Vg1jyL3cr60
       Silence: yes
       Hunter: yes
       Nylon Smile: yes
@@ -1289,9 +1290,10 @@ Portishead:
       Small:
       Magic Doors:
       Threads: yes
+      =:
+         rel: 2008
+         white: yes
    Portishead:
-      <rel: 1997
-      <white: yes
       Cowboys: yes
       All Mine: yes
       Undenied: yes
@@ -1303,9 +1305,10 @@ Portishead:
       Only You: yes
       Elysium:
       Western Eyes: yes
+      =:
+         rel: 1997
+         white: yes
    Dummy:
-      <rel: 1994
-      <white: yes
       Mysterons: yes
       Sour Times: yes
       Strangers: yes
@@ -1317,10 +1320,31 @@ Portishead:
       Pedestal:
       Biscuit:
       Glory Box: yes
+      =:
+         rel: 1994
+         white: yes
+   =:
+      Roads:
+         flow: 3,641,359
+         link: https://youtu.be/Vg1jyL3cr60
 Portugal. The Man:
+   Woodstock:
+      Feel It Still:
+      Live in the Moment:
+      =:
+         rel: 2017
+         white: no
+   Evil Friends:
+      rel: 2013
+   In the Mountain in the Cloud:
+      rel: 2011
+   American Ghetto:
+      rel: 2010
+   The Majestic Majesty:
+      rel: 2009
+   The Satanic Satanist:
+      rel: 2009
    Censored Colors:
-      <flow: 1,263,566
-      <link: https://youtu.be/RmUzdNLDLmI
       Lay Me Back Down:
       Colors:
       And I:
@@ -1336,11 +1360,16 @@ Portugal. The Man:
       All Mine:
       1989:
       Our Way: len
-   Woodstock:
-      <flow: 112,747,939
-      <link: https://youtu.be/pBkHHoOIIn8
+      =:
+         rel: 2008
+         white: yes
+   =:
+      Atomic Man:
+         flow: 1,263,438
+         link: https://youtu.be/RmUzdNLDLmI
       Feel It Still:
-      Live in the Moment:
+         flow: 105,372,195
+         link: https://youtu.be/pBkHHoOIIn8
 Prefuse 73:
    Everything She Touched Turned Ampexian:
       <rel: 2009
