@@ -1434,23 +1434,42 @@ Suzanne Vega:
          link: https://youtu.be/VZt7J0iaUD0
 System of a Down:
    Hypnotize:
-      <flow: 21,401,583
-      <link: https://youtu.be/DnGdoEa1tPg
       Hypnotize:
       Lonely Day:
+      =:
+         rel: 2005
+         white: no
    Mezmerize:
-      <flow: 29,761,688
-      <link: https://youtu.be/zUzd9KyIDrM
       B.Y.O.B.:
       Question!:
-   System of a Down:
-      <flow: 10,410,721
-      <link: https://youtu.be/5vBGOrI6yBk
-      Spiders:
-      Sugar:
+      =:
+         rel: 2005
+         white: no
+   Steal This Album!:
+      rel: 2002
    Toxicity:
-      <flow: 83,415,926
-      <link: https://youtu.be/CSvFpBOe8eY
       Aerials:
       Chop Suey!:
       Toxicity:
+      =:
+         rel: 2001
+         white: no
+   System of a Down:
+      Spiders:
+      Sugar:
+      =:
+         rel: 1998
+         white: no
+   =:
+      B.Y.O.B.:
+         flow: 30,340,425
+         link: https://youtu.be/zUzd9KyIDrM
+      Chop Suey!:
+         flow: 87,410,345
+         link: https://youtu.be/CSvFpBOe8eY
+      Lonely Day:
+         flow: 22,196,437
+         link: https://youtu.be/DnGdoEa1tPg
+      Sugar:
+         flow: 10,356,237
+         link: https://youtu.be/5vBGOrI6yBk
