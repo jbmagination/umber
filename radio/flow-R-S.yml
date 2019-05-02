@@ -275,10 +275,6 @@ Red Hot Chili Peppers:
          link: https://youtu.be/GLvohMXgcBo
 R.E.M.:
    Monster:
-      <rel: 1994
-      <<: &low
-         <flow: 4,984,746
-         <link: https://youtu.be/5rOiW_xY-kc
       What’s the Frequency, Kenneth?: yes
       Crush With Eyeliner:
       King of Comedy:
@@ -291,20 +287,21 @@ R.E.M.:
       Let Me In:
       Circus Envy:
       You:
+      =:
+         rel: 1994
+         white: yes
    Automatic for the People:
-      <rel: 1992
-      <flow: 8,698,473
-      <link: https://youtu.be/dLxpNiF0YKs
       Man on the Moon:
+      =:
+         rel: 1992
+         white: no
    Out of Time:
-      <rel: 1991
-      <flow: 69,706,118
-      <link: https://youtu.be/xwtdhWltSIg
       Losing My Religion:
       Shiny Happy People:
+      =:
+         rel: 1991
+         white: no
    Green:
-      <rel: 1988
-      <<: *low
       Pop Song 89:
       Get Up: len
       You Are the Everything:
@@ -315,14 +312,21 @@ R.E.M.:
       Turn You Inside‐Out:
       Hairshirt:
       I Remember California:
+      =:
+         rel: 1988
+         white: yes
+   =:
+      Everybody Hurts:
+         flow: 5,622,892
+         link: https://youtu.be/5rOiW_xY-kc
+      Losing My Religion:
+         flow: 70,617,941
+         link: https://youtu.be/xwtdhWltSIg
+      Man On The Moon:
+         flow: 8,055,132
+         link: https://youtu.be/dLxpNiF0YKs
 Richard D. James:
-   <low:
-      Windowlicker:
-         <flow: 480,422
-         <link: https://youtu.be/7MBaEEODzU0
    Syro:
-      <rel: 2014
-      <flow: low
       minipops 67 (source field mix): no
       XMAS_EVET10 (thanaton3 mix): no
       produk 29: no
@@ -335,9 +339,10 @@ Richard D. James:
       PAPAT4 (pineal mix):
       s950tx16wasr10 (earth portal mix):
       aisatsana:
+      =:
+         rel: 2014
+         white: yes
    26 Mixes for Cash:
-      <rel: 2003
-      <flow: low
       Time to Find Me (AFX Fast mix): yes
       Raising the Titanic (Big Drum mix): yes
       Journey (Aphex Twin Care mix): yes
@@ -364,9 +369,10 @@ Richard D. James:
       You Can’t Hide Your Love (Hidden Love mix):
       Spotlight (Aphex Twin mix):
       Debase (Soft Palate):
+      =:
+         rel: 2003
+         white: yes
    Drukqs:
-      <rel: 2001
-      <flow: low
       Jynweythek: len
       Vordhosbn:
       Kladfvgbung Micshk: len
@@ -397,15 +403,17 @@ Richard D. James:
       Ziggomatic 17:
       Beskhu3epnm: len
       Nanou 2: yes
+      =:
+         rel: 2001
+         white: yes
    Windowlicker:
-      <rel: 1999
-      <flow: low
       Windowlicker: yes
       Formula:
       Nannou:
+      =:
+         rel: 1999
+         white: yes
    Richard D. James Album:
-      <rel: 1996
-      <flow: low
       4: yes
       Cornish Acid: len
       Peek 824545201:
@@ -416,9 +424,10 @@ Richard D. James:
       Yellow Calx:
       Girl/Boy Song: yes
       Logan Rock Witch:
+      =:
+         rel: 1996
+         white: yes
    I Care Because You Do:
-      <rel: 1995
-      <flow: low
       Acrid Avid Jam Shred: no
       The Waxen Pith: no
       Wax the Nip: no
@@ -431,9 +440,10 @@ Richard D. James:
       Alberto Balsalm:
       Cow Cud Is a Twin:
       Next Heap With:
+      =:
+         rel: 1995
+         white: yes
    Classics:
-      <rel: 1994-12
-      <flow: low
       Digeridoo:
       Flaphead:
       Phloam:
@@ -447,9 +457,10 @@ Richard D. James:
       We Have Arrived (Aphex Twin QQT mix):
       We Have Arrived (Aphex Twin TTQ mix):
       Digeridoo (live in Cornwall, 1990):
+      =:
+         rel: 1994-12
+         white: yes
    Selected Ambient Works, Volume II:
-      <rel: 1994-03
-      <flow: low
       '[Cliffs]': yes
       '[Radiator]':
       '[Rhubarb]': yes
@@ -475,23 +486,26 @@ Richard D. James:
       '[Tassels]':
       '[White Blur 2]':
       '[Matchsticks]':
+      =:
+         rel: 1994-03
+         white: yes
    On Remixes:
-      <rel: 1993
-      <flow: low
       On (D-Scape mix):
       On (Reload mix): yes
       On (μ-Ziq mix): yes
       On (28 mix):
+      =:
+         rel: 1993
+         white: yes
    On:
-      <rel: 1993
-      <flow: low
       On: yes
       73-Yips:
       D-Scape:
       Xepha:
+      =:
+         rel: 1993
+         white: yes
    Selected Ambient Works 85–92:
-      <rel: 1992
-      <flow: low
       Xtal: yes
       Tha: yes
       Pulsewidth:
@@ -505,6 +519,13 @@ Richard D. James:
       Hedphelym:
       Delphium:
       Actium:
+      =:
+         rel: 1992
+         white: yes
+   =:
+      Windowlicker:
+         flow: 480,422
+         link: https://youtu.be/7MBaEEODzU0
 Robin Guthrie:
    Emeralds:
       <flow: 21,402
@@ -625,7 +646,7 @@ Sade:
          <link: https://youtu.be/kcPc18SG6uA
    Soldier of Love:
       <rel: 2010
-      <flow: low
+      <white: yes
       The Moon and the Sky:
       Soldier of Love: yes
       Morning Bird:
@@ -649,7 +670,7 @@ Sade:
       Pearls:
    Stronger Than Pride:
       <rel: 1988
-      <flow: low
+      <white: yes
       Love Is Stronger Than Pride:
       Paradise: yes
       Nothing Can Come Between Us: yes
@@ -662,7 +683,7 @@ Sade:
       Siempre Hay Esperanza:
    Promise:
       <rel: 1985
-      <flow: low
+      <white: yes
       Is It a Crime: yes
       The Sweetest Taboo: yes
       War of the Hearts:
@@ -676,7 +697,7 @@ Sade:
       Maureen:
    Diamond Life:
       <rel: 1984
-      <flow: low
+      <white: yes
       Smooth Operator: yes
       Your Love Is King: yes
       Hang on to Your Love: no
