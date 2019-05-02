@@ -46,8 +46,6 @@ Tiësto:
          link: https://youtu.be/Dr1nN__-2Po
 Tipper:
    Surrounded:
-      <flow: 145,409
-      <link: https://youtu.be/w6kTGhJIMgw
       Middle of Nowhere: len
       California Rolls:
       Tear Strips Off: yes
@@ -60,10 +58,14 @@ Tipper:
       Just as the Sun Went Down:
       Adrift for Days:
       Illabye:
+      =:
+         white: yes
+   =:
+      Dreamsters:
+         flow: 145,653
+         link: https://youtu.be/w6kTGhJIMgw
 Toadies:
    Rubberneck:
-      <flow: 1,865,448
-      <link: https://youtu.be/EkwD5rQ-_d4
       Mexican Hairless: len
       Mister Love: len
       Backslider: len
@@ -75,12 +77,14 @@ Toadies:
       Happyface: len
       Velvet: len
       I Burn:
+      =:
+         white: yes
+   =:
+      Possum Kingdom:
+         flow: 1,923,926
+         link: https://youtu.be/EkwD5rQ-_d4
 Tom Waits:
    Bad as Me:
-      <rel: 2011
-      <<: &low
-         <flow: 1,402,774
-         <link: https://youtu.be/EtLVXBqfqBY
       Chicago: len
       Raised Right Men:
       Talking at the Same Time:
@@ -94,11 +98,12 @@ Tom Waits:
       Last Leaf: len
       Hell Broke Luce:
       New Year’s Eve:
+      =:
+         rel: 2011
+         white: yes
    Orphans Brawlers, Bawlers & Bastards:
-      <rel: 2006
+      rel: 2006
    Real Gone:
-      <rel: 2004
-      <white: yes
       Top of the Hill:
       Hoist That Rag: yes
       Sins of My Father: yes
@@ -115,17 +120,18 @@ Tom Waits:
       Make It Rain:
       Day After Tomorrow:
       A-Chick-a-Boom: len
+      =:
+         rel: 2004
+         white: yes
    Alice:
-      <rel: 2002
+      rel: 2002
    Blood Money:
-      <rel: 2002
+      rel: 2002
    Mule Variations:
-      <rel: 1999
+      rel: 1999
    The Black Rider:
-      <rel: 1993
+      rel: 1993
    Bone Machine:
-      <rel: 1992
-      <white: yes
       Earth Died Screaming:
       Dirt in the Ground:
       Such a Scream: len
@@ -142,11 +148,12 @@ Tom Waits:
       I Don’t Wanna Grow Up: len
       Let Me Get Up on It: len
       That Feel:
+      =:
+         rel: 1992
+         white: yes
    Franks Wild Years:
-      <rel: 1987
+      rel: 1987
    Rain Dogs:
-      <rel: 1985
-      <white: yes
       Singapore: len
       Clap Hands: yes
       Cemetery Polka: len
@@ -166,9 +173,10 @@ Tom Waits:
       Downtown Train: no
       Bride Of Rain Dog (Instrumental): len
       Anywhere I Lay My Head: len
+      =:
+         rel: 1985
+         white: yes
    Swordfishtrombones:
-      <rel: 1983
-      <white: yes
       Underground: len
       Shore Leave:
       Dave the Butcher: len
@@ -184,11 +192,12 @@ Tom Waits:
       Gin Soaked Boy: len
       Trouble’s Braids: len
       Rainbirds:
+      =:
+         rel: 1983
+         white: yes
    Heartattack and Vine:
-      <rel: 1980
+      rel: 1980
    Blue Valentine:
-      <rel: 1978
-      <white: yes
       Somewhere (from ’West Side Story’):
       Red Shoes by the Drugstore:
       Christmas Card From a Hooker in Minneapolis:
@@ -199,9 +208,10 @@ Tom Waits:
       Kentucky Avenue:
       A Sweet Little Bullet From a Pretty Blue Gun:
       Blue Valentines: yes
+      =:
+         rel: 1978
+         white: yes
    Foreign Affairs:
-      <rel: 1977
-      <white: yes
       Cinny’s Waltz: len
       Muriel: no
       I Never Talk to Strangers: yes
@@ -211,11 +221,12 @@ Tom Waits:
       Burma-Shave: yes
       Barber Shop: no
       Foreign Affair: yes
+      =:
+         rel: 1977
+         white: yes
    Small Change:
-      <rel: 1976
+      rel: 1976
    Nighthawks at the Diner:
-      <rel: 1975
-      <white: yes
       Emotional Weather Report:
       On a Foggy Night:
       Eggs and Sausage (In a Cadillac With Susan Michelson): yes
@@ -227,21 +238,53 @@ Tom Waits:
       Nobody: len
       Big Joe and Phantom 309:
       Spare Parts II and Closing:
+      =:
+         rel: 1975
+         white: yes
+   =:
+      Hope I don’t fall in love with you:
+         flow: 1,489,189
+         link: https://youtu.be/EtLVXBqfqBY
 Toni Braxton:
+   Sex & Cigarettes:
+      Long As I Live:
+      =:
+         rel: 2018
+         white: no
+   Finally:
+      rel: 2016
+   Love, Marriage & Divorce:
+      rel: 2014
+   Pulse:
+      rel: 2010
+   Libra:
+      rel: 2005
+   More Than a Woman:
+      rel: 2002
+   Snowflakes:
+      rel: 2001
+   The Heat:
+      Just Be a Man About It:
+      =:
+         rel: 2000
+         white: no
    Secrets:
-      <flow: 41,811,475
-      <link: https://youtu.be/p2Rch6WvPJE
       He Was’t Man Enough:
       Un-Break My Heart:
       You’re Makin’ Me High:
-   Sex & Cigarettes:
-      <flow: 31,932,998
-      <link: https://youtu.be/EjW7WzozgI0
-      Long As I Live:
-   The Heat:
-      <flow: 7,598,457
-      <link: https://youtu.be/wpaR3wzTlvo
+      =:
+         rel: 1996
+         white: no
+   =:
       Just Be a Man About It:
+         flow: 8,561,793
+         link: https://youtu.be/wpaR3wzTlvo
+      Long As I Live:
+         flow: 32,213,630
+         link: https://youtu.be/EjW7WzozgI0
+      Un-Break My Heart:
+         flow: 42,821,132
+         link: https://youtu.be/p2Rch6WvPJE
 Tool:
    10,000 Days:
       <rel: 2006
