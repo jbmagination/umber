@@ -801,10 +801,6 @@ Pearl Jam:
          link: https://youtu.be/qQXP6TDtW0w
 Pendulum:
    In Silico:
-      <rel: 2008
-      <<: &low
-         <flow: 4,335,083
-         <link: https://youtu.be/ogMNV33AhCY
       Showdown: no
       Different: no
       Propane Nightmares: no
@@ -815,9 +811,10 @@ Pendulum:
       9,000 Miles:
       Granite:
       The Tempest:
+      =:
+         rel: 2008
+         white: yes
    Hold Your Colour:
-      <rel: 2005
-      <white: yes
       Prelude: len
       Slam: yes
       Plasticworld: yes
@@ -832,7 +829,31 @@ Pendulum:
       Streamline: yes
       Another Planet:
       Still Grey: yes
+      =:
+         rel: 2005
+         white: yes
+   =:
+      Witchcraft:
+         flow: 4,198,933
+         link: https://youtu.be/ogMNV33AhCY
 Pet Shop Boys:
+   Introspective:
+      Left to My Own Devices:
+      I Want a Dog:
+      Domino Dancing (disco mix): yes
+      I’m Not Scared:
+      Always on My Mind / In My House:
+      It’s Alright:
+      =:
+         rel: 1988
+         white: yes
+   Actually:
+      rel: 1987
+   Please:
+      West End Girls:
+      =:
+         rel: 1986
+         white: no
    =:
       It’s a Sin:
          flow: 5,763,889
@@ -840,32 +861,8 @@ Pet Shop Boys:
       West End Girls:
          flow: 6,469,379
          link: https://youtu.be/p3j2NYZ8FKs
-   Introspective:
-      =:
-         rel: 1988
-         white: yes
-      Left to My Own Devices:
-      I Want a Dog:
-      Domino Dancing (disco mix): yes
-      I’m Not Scared:
-      Always on My Mind / In My House:
-      It’s Alright:
-   Actually:
-      rel: 1987
-   Please:
-      =:
-         rel: 1986
-         white: no
-      West End Girls:
 Peter Frampton:
-   =:
-      Do You Feel Like We Do:
-         flow: 1,678,580
-         link: https://youtu.be/y7rFYbMhcG8
    Frampton’s Camel:
-      =:
-         rel: 1973
-         white: yes
       I Got My Eyes on You:
       All Night Long:
       Lines on My Face:
@@ -875,7 +872,31 @@ Peter Frampton:
       Don’t Fade Away:
       Just the Time of Year:
       Do You Feel Like We Do: yes
+      =:
+         rel: 1973
+         white: yes
+   =:
+      Do You Feel Like We Do:
+         flow: 1,678,580
+         link: https://youtu.be/y7rFYbMhcG8
 Phil Collins:
+   But Seriously:
+      Another Day in Paradise:
+      =:
+         rel: 1989
+         white: no
+   No Jacket Required:
+      One More Night:
+      =:
+         rel: 1985
+         white: no
+   Hello, I Must Be Going!:
+      rel: 1982
+   Face Value:
+      In the Air Tonight:
+      =:
+         rel: 1981
+         white: no
    =:
       Another Day in Paradise:
          flow: 28,886,074
@@ -886,48 +907,56 @@ Phil Collins:
       One More Night:
          flow: 6,375,300
          link: https://youtu.be/zKVq-P3z5Vg
-   But Seriously:
-      =:
-         rel: 1989
-         white: no
-      Another Day in Paradise:
-   No Jacket Required:
-      =:
-         rel: 1985
-         white: no
-      One More Night:
-   Hello, I Must Be Going!:
-      rel: 1982
-   Face Value:
-      =:
-         rel: 1981
-         white: no
-      In the Air Tonight:
 Pink Floyd:
-   A Momentary Lapse of Reason:
-      <flow: 14,554,326
-      <link: https://youtu.be/nVhNCTH8pDs
-      Learning to Fly:
-   The Dark Side of the Moon:
-      <flow: 6,124,250
-      <link: https://youtu.be/DLOth-BuCNY
-      Any Colour You Like:
-      Speak to Me / Breathe:
    The Division Bell:
-      <flow: 11,646,174
-      <link: https://youtu.be/7jMlFXouPk8
       High Hopes:
+      =:
+         rel: 1994
+         white: no
+   A Momentary Lapse of Reason:
+      Learning to Fly:
+      =:
+         rel: 1987
+         white: no
+   The Final Cut:
+      rel: 1983
    The Wall:
-      <flow: 43,724,674
-      <link: https://youtu.be/YR5ApYxkU-U
       Another Brick in the Wall:
       Comfortably Numb:
       Hey You:
+      =:
+         rel: 1979
+         white: no
+   Animals:
+      rel: 1977
    Wish You Were Here:
-      <flow: 14,089,556
-      <link: https://youtu.be/IXdNnw99-Ic
       Shine on You Crazy Diamond:
       Wish You Were Here:
+      =:
+         rel: 1975
+         white: no
+   The Dark Side of the Moon:
+      Any Colour You Like:
+      Speak to Me / Breathe:
+      =:
+         rel: 1973
+         white: no
+   =:
+      Another Brick In The Wall:
+         flow: 45,604,600
+         link: https://youtu.be/YR5ApYxkU-U
+      Dark Side Of The Moon:
+         flow: 5,965,197
+         link: https://youtu.be/DLOth-BuCNY
+      High Hopes:
+         flow: 11,489,269
+         link: https://youtu.be/7jMlFXouPk8
+      Learning To Fly:
+         flow: 13,804,895
+         link: https://youtu.be/nVhNCTH8pDs
+      Wish You Were Here:
+         flow: 14,157,030
+         link: https://youtu.be/IXdNnw99-Ic
 Pixies:
    Bossanova:
       <rel: 1990
