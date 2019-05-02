@@ -959,10 +959,6 @@ Pink Floyd:
          link: https://youtu.be/IXdNnw99-Ic
 Pixies:
    Bossanova:
-      <rel: 1990
-      <<: &low
-         <flow: 2,017,781
-         <link: https://youtu.be/tPgf_btTFlc
       Cecilia Ann: len
       Rock Music: len
       Velouria: no
@@ -977,9 +973,10 @@ Pixies:
       Hang Wire: len
       Stormy Weather:
       Havalina: len
+      =:
+         rel: 1990
+         white: yes
    Doolittle:
-      <rel: 1989
-      <white: yes
       Debaser: len
       Tame: len
       Wave of Mutilation: len
@@ -995,94 +992,38 @@ Pixies:
       Hey: yes
       Silver: len
       Gouge Away: len
+      =:
+         rel: 1989
+         white: yes
    Surfer Rosa:
-      <rel: 1988
-      <flow: 23,145,557
-      <link: https://youtu.be/N3oCS85HvpY
       Where Is My Mind:
+      =:
+         rel: 1988
+         white: no
+   =:
+      Here Comes Your Man:
+         flow: 2,044,572
+         link: https://youtu.be/tPgf_btTFlc
+      Where Is My Mind:
+         flow: 23,113,992
+         link: https://youtu.be/N3oCS85HvpY
 Pizzicato Five:
-   Bellissima!:
-      <<: &low
-         <flow: 126,656
-         <link: https://youtu.be/saHMRnVgEhM
-      Planets:
-      Temptation Talk: yes
-      Holy Triangle:
-      World Standard:
-      Couples:
-      Sunday Impressions:
-      The Swim:
-      Seventeen:
-      This Can’t Be Love:
-      The Work of God:
-   Bossa Nova 2001:
-      <white: yes
-      Rock’n’roll: len
-      Sweet Soul Revue: yes
-      Magic Carpet Ride:
-      Groovy Is My Name:
-      Sophisticated Catchy: len
-      Peace Music:
-      Strawberry Sleighride:
-      Sleeper:
-      Sweet Thursday:
-      Rain Song:
-      Go Go Dancer:
-      Eclipse: len
-      Saga:
-      Hallelujah Hare Krishna:
-      Playback 2001: len
-      Cleopatra 2001:
-   By Her Majesty’s Request:
-      <white: yes
-      Holiday for Audrey H: len
-      Introduction J.B. et Vietnam: len
-      Bellissima ’90:
-      T.V.A.G.:
-      Lip Service: yes
-      Spy Vs. Spy (from Erotica Operation): len
-      Swedish Girl: len
-      I Confess (from Erotica Operation): len
-      Feint Operation: len
-      Top Secrets:
-      Bananas:
-      Top 40: len
-      Homesick Blues:
-      Satelite Hour:
-      You’ll Never Get to Heaven: len
-      God Save the Queen:
-      Let’s Spend The Night Together:
-   couples:
-      <white: yes
-      magical connection: len
-      summertime, summertime: yes
-      they all laughed:
-      serial stories:
-      the apartment:
-      what now our love:
-      seven o’clock news: len
-      odd couple and the others:
-      my blue heaven:
-      party joke: len
-      two sleepy people:
-      everytime we say goodbye: len
-   Overdose:
-      <white: yes
-      Overture: len
-      Airplane: no
-      Statue of Liberty: no
-      Readymade FM: len
-      Happy Sad: no
-      Superstar: no
-      If I Were a Groupie: no
-      Shopping Bag: no
-      The Night Is Still Young: no
-      Hippie Day: no
-      The Sweetest Girl: no
-      Questions: no
-      On the Sunny Side of the Street: no
+   Sister Freedom Tapes:
+      Airplane ’96:
+      Domino Konishi: len
+      Snowflakes: len
+      Chicken Curry: yes
+      Mini Cooper: len
+      Holger and Marcus: len
+      Cornflakes: len
+      To Our Children’s Children’s Children:
+      Passing By: len
+      =:
+         rel: 1996
+         white: yes
+   a quiet couple:
+      rel: 1995
    Romantique 96:
-      <white: yes
       Potpourri: len
       The Awakening: len
       Welcome to the Circus:
@@ -1099,19 +1040,82 @@ Pizzicato Five:
       Tokyo, Mon Amour:
       Triste: yes
       Coda: len
-   Sister Freedom Tapes:
-      <white: yes
-      Airplane ’96:
-      Domino Konishi: len
-      Snowflakes: len
-      Chicken Curry: yes
-      Mini Cooper: len
-      Holger and Marcus: len
-      Cornflakes: len
-      To Our Children’s Children’s Children:
-      Passing By: len
+      =:
+         rel: 1995
+         white: yes
+   Overdose:
+      Overture: len
+      Airplane: no
+      Statue of Liberty: no
+      Readymade FM: len
+      Happy Sad: no
+      Superstar: no
+      If I Were a Groupie: no
+      Shopping Bag: no
+      The Night Is Still Young: no
+      Hippie Day: no
+      The Sweetest Girl: no
+      Questions: no
+      On the Sunny Side of the Street: no
+      =:
+         rel: 1994
+         white: yes
+   Bossa Nova 2001:
+      Rock’n’roll: len
+      Sweet Soul Revue: yes
+      Magic Carpet Ride:
+      Groovy Is My Name:
+      Sophisticated Catchy: len
+      Peace Music:
+      Strawberry Sleighride:
+      Sleeper:
+      Sweet Thursday:
+      Rain Song:
+      Go Go Dancer:
+      Eclipse: len
+      Saga:
+      Hallelujah Hare Krishna:
+      Playback 2001: len
+      Cleopatra 2001:
+      =:
+         rel: 1993
+         white: yes
+   Sweet Pizzicato Five:
+      Tout va bien:
+      Flower Drum Song:
+      Catchy: yes
+      Telepathy:
+      Shock Treatment:
+      CDJ: len
+      KDD:
+      Funky Lovechild:
+      Cosmic Blues:
+      =:
+         rel: 1992
+         white: yes
+   This Year’s Girl:
+      This Year’s Girl 4: len
+      I (all about me): len
+      Ohayô:
+      Thank You:
+      Let’s Be Adult:
+      This Year’s Girl 5: len
+      Baby Love Child:
+      Twiggy Twiggy: len
+      Twiggy vs. James Bond: len
+      Gifted:
+      Party:
+      Shiritori O Suru Koibito Tachi: yes
+      Marble Index:
+      Y.O.U. (I Wanna Be Like You):
+      xxxxxxxxxman:
+      Tokyo’s Coolest Sound:
+      Birth of Cool:
+      This Year’s Girl 6: len
+      =:
+         rel: 1991
+         white: yes
    Soft Landing on the Moon:
-      <white: yes
       Party Joke: len
       Bellissima ’90: dup
       Temptation Talk: dup
@@ -1134,37 +1138,64 @@ Pizzicato Five:
       Let’s Spend the Night Together:
       God Save the Queen: len
       Couples: dup
-   Sweet Pizzicato Five:
-      <white: yes
-      Tout va bien:
-      Flower Drum Song:
-      Catchy: yes
-      Telepathy:
-      Shock Treatment:
-      CDJ: len
-      KDD:
-      Funky Lovechild:
-      Cosmic Blues:
-   This Year’s Girl:
-      <white: yes
-      This Year’s Girl 4: len
-      I (all about me): len
-      Ohayô:
-      Thank You:
-      Let’s Be Adult:
-      This Year’s Girl 5: len
-      Baby Love Child:
-      Twiggy Twiggy: len
-      Twiggy vs. James Bond: len
-      Gifted:
-      Party:
-      Shiritori O Suru Koibito Tachi: yes
-      Marble Index:
-      Y.O.U. (I Wanna Be Like You):
-      xxxxxxxxxman:
-      Tokyo’s Coolest Sound:
-      Birth of Cool:
-      This Year’s Girl 6: len
+      =:
+         rel: 1990
+         white: yes
+   On Her Majesty’s Request:
+      Holiday for Audrey H: len
+      Introduction J.B. et Vietnam: len
+      Bellissima ’90:
+      T.V.A.G.:
+      Lip Service: yes
+      Spy Vs. Spy (from Erotica Operation): len
+      Swedish Girl: len
+      I Confess (from Erotica Operation): len
+      Feint Operation: len
+      Top Secrets:
+      Bananas:
+      Top 40: len
+      Homesick Blues:
+      Satelite Hour:
+      You’ll Never Get to Heaven: len
+      God Save the Queen:
+      Let’s Spend The Night Together:
+      =:
+         rel: 1989
+         white: yes
+   Bellissima!:
+      Planets:
+      Temptation Talk: yes
+      Holy Triangle:
+      World Standard:
+      Couples:
+      Sunday Impressions:
+      The Swim:
+      Seventeen:
+      This Can’t Be Love:
+      The Work of God:
+      =:
+         rel: 1988
+         white: yes
+   couples:
+      magical connection: len
+      summertime, summertime: yes
+      they all laughed:
+      serial stories:
+      the apartment:
+      what now our love:
+      seven o’clock news: len
+      odd couple and the others:
+      my blue heaven:
+      party joke: len
+      two sleepy people:
+      everytime we say goodbye: len
+      =:
+         rel: 1987
+         white: yes
+   =:
+      It’s a Beautiful Day:
+         flow: 123,727
+         link: https://youtu.be/saHMRnVgEhM
 Plaid:
    Spokes:
       <rel: 2003
