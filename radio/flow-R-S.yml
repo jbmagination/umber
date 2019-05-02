@@ -1029,13 +1029,7 @@ Simian Mobile Disco:
          flow: 284,555
          link: https://youtu.be/c0Bf6YGbc1c
 Simple Minds:
-   Don’t You (Forget About Me):
-      <flow: 14,148,335
-      <link: https://youtu.be/CdqoNKCCt7A
-      Don’t You (Forget About Me):
    Street Fighting Years:
-      <flow: 1,106,625
-      <link: https://youtu.be/7vhhTvcLoRw
       Street Fighting Years:
       Soul Crying Out: no
       Wall of Love: no
@@ -1047,23 +1041,25 @@ Simple Minds:
       Belfast Child:
       Biko:
       When Spirits Rise: len
+      =:
+         rel: 1989
+         white: yes
+   Once Upon a Time:
+      rel: 1985-10-21
+   Don’t You (Forget About Me):
+      Don’t You (Forget About Me):
+      =:
+         rel: 1985-03-19
+         white: no
+   =:
+      Belfast Child:
+         flow: 1,208,693
+         link: https://youtu.be/7vhhTvcLoRw
+      Don’t You:
+         flow: 15,707,580
+         link: https://youtu.be/CdqoNKCCt7A
 Solar Fields:
-   GREEN:
-      <<: &low
-         <flow: 416,654
-         <link: https://youtu.be/C0EgzJ0KGxg
-      Level Out:
-      Magic Eye (remix):
-      Sol (remix): yes
-      Spiritual Ocean:
-      Levitate:
-      Insum (remix):
-      Rain Geometry (Solar Fields remix):
-      Respiratory Rate:
-      The Sight Is White:
-      Third Time (T version):
    Mirror’s Edge Catalyst:
-      <white: yes
       Faith:
       Release:
       Birdman: len
@@ -1096,45 +1092,76 @@ Solar Fields:
       The Shard:
       Gabriel: len
       Catalyst:
+      =:
+         rel: 2016
+         white: yes
+   GREEN:
+      Level Out:
+      Magic Eye (remix):
+      Sol (remix): yes
+      Spiritual Ocean:
+      Levitate:
+      Insum (remix):
+      Rain Geometry (Solar Fields remix):
+      Respiratory Rate:
+      The Sight Is White:
+      Third Time (T version):
+      =:
+         rel: 2014
+         white: yes
+   =:
+      Random Friday:
+         flow: 395,658
+         link: https://youtu.be/C0EgzJ0KGxg
 Soul for Real:
    Candy Rain:
-      <flow: 5,622,162
-      <link: https://youtu.be/Cx0xzO73Amo
       Candy Rain:
-      Every Little Thing I Do: yes
-      All in My Mind:
-      If You Want It:
-      I Wanna Be Your Friend:
-      Ain’t No Sunshine: len
-      Spend the Night:
-      I Don’t Know:
-      If Only You Knew:
-      Thinking of You:
-      Piano Interlude: len
+      Every Little Thing I Do:
+      =:
+         white: no
+   =:
+      Candy Rain:
+         flow: 6,047,543
+         link: https://youtu.be/Cx0xzO73Amo
 Soundgarden:
    Superunknown:
-      <flow: 15,157,201
-      <link: https://youtu.be/3mbBbFH9fAg
       Black Hole Sun:
       Fell On Black Days:
+      =:
+         white: no
+   =:
+      Black Hole Sun:
+         flow: 15,187,988
+         link: https://youtu.be/3mbBbFH9fAg
 Spandau Ballet:
    Through the Barricades:
-      <flow: 1,713,616
-      <link: https://youtu.be/yn7HXmzxqV8
       Barricades – Introduction: len
-      Cross the Line: yes
-      Man in Chains: yes
-      How Many Lies?: yes
-      Virgin: yes
-      Fight for Ourselves: yes
-      Swept: yes
-      Snakes and Lovers: yes
-      Through the Barricades: yes
+      Cross the Line: no
+      Man in Chains: no
+      How Many Lies?: no
+      Virgin: no
+      Fight for Ourselves: no
+      Swept: no
+      Snakes and Lovers: no
+      Through the Barricades: no
+      =:
+         rel: 1986
+         white: yes
+   Parade:
+      rel: 1984
    True:
-      <flow: 9,607,656
-      <link: https://youtu.be/AR8D2yqgQ1U
       Gold:
       True:
+      =:
+         rel: 1983
+         white: no
+   =:
+      Through the Barricades:
+         flow: 1,906,472
+         link: https://youtu.be/yn7HXmzxqV8
+      True:
+         flow: 10,846,841
+         link: https://youtu.be/AR8D2yqgQ1U
 Squarepusher:
    Solo Electric Bass 1:
       <rel: 2009
