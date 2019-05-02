@@ -431,10 +431,6 @@ Nirvana:
          link: https://youtu.be/fregObNcHC8
 Norah Jones:
    The Fall:
-      <rel: 2009
-      <<: &low
-         <flow: 4,700,932
-         <link: https://youtu.be/tO4dxvguQDk
       Chasing Pirates: yes
       Even Though:
       Light as a Feather:
@@ -448,9 +444,10 @@ Norah Jones:
       December:
       Tell Yer Mama:
       Man of the Hour: len
+      =:
+         rel: 2009
+         white: yes
    Not Too Late:
-      <rel: 2006
-      <white: yes
       Wish I Could: no
       Sinkin’ Soon: no
       The Sun Doesn’t Like You: len
@@ -464,13 +461,14 @@ Norah Jones:
       Little Room: len
       Rosie’s Lullaby: no
       Not Too Late: no
+      =:
+         rel: 2006
+         white: yes
    Feels Like Home:
-      <rel: 2004
+      rel: 2004
    New York City:
-      <rel: 2003
+      rel: 2003
    Come Away With Me:
-      <rel: 2002
-      <white: yes
       Don’t Know Why: yes
       Seven Years: len
       Cold Cold Heart:
@@ -485,19 +483,25 @@ Norah Jones:
       Nightingale:
       The Long Day Is Over: len
       The Nearness of You:
+      =:
+         rel: 2002
+         white: yes
+   =:
+      Don’t Know Why:
+         flow: 4,720,905
+         link: https://youtu.be/tO4dxvguQDk
 Odesza:
    In Return:
-      <flow: 7,069,746
-      <link: https://youtu.be/HdzI-191xhU
       It’s Only:
       Say My Name:
+      =:
+         white: no
+   =:
+      Lyric Video:
+         flow: 6,828,377
+         link: https://youtu.be/HdzI-191xhU
 Olive:
-   Trickle:
-      <rel: 2000
    Extra Virgin:
-      <rel: 1997
-      <flow: 99,301
-      <link: https://youtu.be/s4oZdUV-G-Y
       Miracle: yes
       This Time:
       Safer Hands:
@@ -509,21 +513,28 @@ Olive:
       Curious:
       You Are Nothing:
       Muted:
+      =:
+         rel: 1997
+         white: no
+   =:
+      You’re Not Alone:
+         flow: 100,723
+         link: https://youtu.be/s4oZdUV-G-Y
 On-the-Go:
    One Spark:
-      <flow: 24,300
-      <link: https://youtu.be/Aov6cfc4zDs
       Spellbound: yes
       The Day You’ve Been Waiting For:
       Out of Sight:
       One Spark: yes
       Fall Asleep:
+      =:
+         white: yes
+   =:
+      In The Wind:
+         flow: 23,664
+         link: https://youtu.be/Aov6cfc4zDs
 Oneohtrix Point Never:
    Age Of:
-      <rel: 2018
-      <<: &low
-         <flow: 107,064
-         <link: https://youtu.be/hiwi7d0f91Y
       Age Of:
       Babylon: no
       Manifold: len
@@ -537,11 +548,12 @@ Oneohtrix Point Never:
       RayCats: yes
       Still Stuff That Doesn’t Happen:
       Last Known Image of a Song:
+      =:
+         rel: 2018
+         white: yes
    Garden of Delete:
       <rel: 2015
    R Plus Seven:
-      <rel: 2013
-      <white: yes
       Boring Angel: no
       Americans: no
       He She: len
@@ -553,9 +565,10 @@ Oneohtrix Point Never:
       Still Life: yes
       Chrome Country: yes
       Gone: len
+      =:
+         rel: 2013
+         white: yes
    Replica:
-      <rel: 2011
-      <white: yes
       Andro:
       Power of Persuasion: yes
       Sleep Dealer:
@@ -566,9 +579,10 @@ Oneohtrix Point Never:
       Up:
       Child Soldier:
       Explain:
+      =:
+         rel: 2011
+         white: yes
    Returnal:
-      <rel: 2010
-      <white: yes
       Nil Admirari:
       Describing Bodies:
       Stress Waves: yes
@@ -577,9 +591,10 @@ Oneohtrix Point Never:
       Where Does Time Go:
       Ouroboros: len
       Preyouandi:
+      =:
+         rel: 2010
+         white: yes
    Rifts:
-      <rel: 2009-10-20
-      <white: yes
       A Pact Between Strangers:
       Behind the Bank: len
       Betrayed in the Octagon: dup
@@ -613,18 +628,20 @@ Oneohtrix Point Never:
       Woe Is the Transgression I: dup
       Woe Is the Transgression II: dup
       Zones Without People: dup
+      =:
+         rel: 2009-10-20
+         white: yes
    Russian Mind:
-      <rel: 2009-10
-      <white: yes
       Months: no
       Physical Memory: no
       Grief and Repetition: len
       Russian Mind: no
       Time Decanted: yes
       Immanence:
+      =:
+         rel: 2009-10
+         white: yes
    Zones Without People:
-      <rel: 2009-08
-      <white: yes
       Computer Vision: len
       Format & Journey North:
       Zones Without People:
@@ -632,9 +649,10 @@ Oneohtrix Point Never:
       Disconnecting Entirely: len
       Emil Cioran:
       Hyperdawn:
+      =:
+         rel: 2009-08
+         white: yes
    Betrayed in the Octagon:
-      <rel: 2007
-      <white: yes
       Woe Is the Transgression I: no
       Behind the Bank: len
       Eyeballs: len
@@ -642,6 +660,13 @@ Oneohtrix Point Never:
       Woe Is the Transgression II:
       Parallel Minds:
       Laser to Laser:
+      =:
+         rel: 2007
+         white: yes
+   =:
+      Replica:
+         flow: 103,714
+         link: https://youtu.be/hiwi7d0f91Y
 OutKast:
    ATLiens:
       <flow: 4,413,491
