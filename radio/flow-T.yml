@@ -949,9 +949,14 @@ The Police:
          flow: 8,176,400
          link: https://youtu.be/3T1c7GkzRQQ
 The Prodigy:
+   The Fat of the Land:
+      Breathe:
+      Climbatize:
+      Firestarter:
+      =:
+         rel: 1997
+         white: no
    Music for the Jilted Generation:
-      <flow: 2,724,745
-      <link: https://youtu.be/-Fz85FE0KtQ
       Intro: len
       Break & Enter:
       Their Law:
@@ -965,16 +970,18 @@ The Prodigy:
       The Narcotic Suite 3 Kilos:
       The Narcotic Suite Skylined:
       The Narcotic Suite Claustrophobic Sting:
-   The Fat of the Land:
-      <flow: 9,292,741
-      <link: https://youtu.be/wmin5WkOuPw
-      Breathe:
-      Climbatize:
+      =:
+         rel: 1994
+         white: yes
+   =:
       Firestarter:
+         flow: 10,199,906
+         link: https://youtu.be/wmin5WkOuPw
+      voodoo people:
+         flow: 2,661,490
+         link: https://youtu.be/-Fz85FE0KtQ
 The Range:
    Nonfiction:
-      <flow: 10,864
-      <link: https://youtu.be/Fn-H4BKXTzk
       Loftmane: yes
       Everything But:
       The One:
@@ -986,19 +993,21 @@ The Range:
       Sad Song:
       Telescope:
       Metal Swing:
+      =:
+         white: yes
+   =:
+      Full Performance:
+         flow: 8,894
+         link: https://youtu.be/Fn-H4BKXTzk
 The Rolling Stones:
-   Aftermath:
-      <flow: 51,793,729
-      <link: https://youtu.be/O4irXQhgMqg
-      Paint It Black:
    Blue & Lonesome:
-      <flow: 12,516,457
-      <link: https://youtu.be/qEuV82GqQnE
       Ride ’em on Down:
+      =:
+         rel: 2016
+         white: no
+   A Bigger Bang:
+      rel: 2005
    Bridges to Babylon:
-      <<: &low
-         <flow: 5,060,555
-         <link: https://youtu.be/BinwuzZVjnE
       Flip the Switch:
       Anybody Seen My Baby?: yes
       Low Down:
@@ -1012,20 +1021,22 @@ The Rolling Stones:
       Too Tight:
       Thief in the Night:
       How Can I Stop:
-   Goats Head Soup:
-      <flow: 7,669,168
-      <link: https://youtu.be/K5_EBAzIPJM
-      Angie:
-   Let It Bleed:
-      <flow: 13,571,423
-      <link: https://youtu.be/RbmS3tQJ7Os
-      Gimme Shelter:
-   Out of Our Heads:
-      <flow: 16,613,615
-      <link: https://youtu.be/nrIPxlFzDi0
-      (I Can’t Get No) Satisfaction:
+      =:
+         rel: 1997
+         white: yes
+   Voodoo Lounge:
+      rel: 1994
+   Steel Wheels:
+      rel: 1989
+   Dirty Work:
+      rel: 1986
+   Undercover:
+      rel: 1983
+   Tattoo You:
+      rel: 1981
+   Emotional Rescue:
+      rel: 1980
    Some Girls:
-      <white: yes
       Miss You: yes
       When the Whip Comes Down:
       Just My Imagination (Running Away With Me):
@@ -1036,8 +1047,21 @@ The Rolling Stones:
       Before They Make Me Run:
       Beast of Burden:
       Shattered:
+      =:
+         rel: 1978
+         white: yes
+   Black and Blue:
+      rel: 1976
+   It’s Only Rock ’n Roll:
+      rel: 1974
+   Goats Head Soup:
+      Angie:
+      =:
+         rel: 1973
+         white: no
+   Exile on Main St.:
+      rel: 1972
    Sticky Fingers:
-      <white: yes
       Brown Sugar:
       Sway:
       Wild Horses: yes
@@ -1048,6 +1072,51 @@ The Rolling Stones:
       Sister Morphine:
       Dead Flowers:
       Moonlight Mile: yes
+      =:
+         rel: 1971
+         white: yes
+   Let It Bleed:
+      Gimme Shelter:
+      =:
+         rel: 1969
+         white: no
+   Beggars Banquet:
+      rel: 1968
+   Their Satanic Majesties Request:
+      rel: 1967
+   Between the Buttons:
+      rel: 1967
+   Aftermath:
+      Paint It Black:
+      =:
+         rel: 1966
+         white: no
+   December’s Children (and Everybody’s):
+      rel: 1965
+   Out of Our Heads:
+      (I Can’t Get No) Satisfaction:
+      =:
+         rel: 1965
+         white: no
+   =:
+      Angie:
+         flow: 8,808,013
+         link: https://youtu.be/K5_EBAzIPJM
+      Anybody Seen My Baby:
+         flow: 5,230,007
+         link: https://youtu.be/BinwuzZVjnE
+      Gimme Shelter:
+         flow: 14,006,926
+         link: https://youtu.be/RbmS3tQJ7Os
+      Paint It, Black:
+         flow: 58,616,027
+         link: https://youtu.be/O4irXQhgMqg
+      Ride ’Em On Down:
+         flow: 10,705,563
+         link: https://youtu.be/qEuV82GqQnE
+      Satisfaction:
+         flow: 18,248,667
+         link: https://youtu.be/nrIPxlFzDi0
 The Smiths:
    <high:
       This Charming Man:
