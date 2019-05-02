@@ -1,20 +1,18 @@
 Radiohead:
    A Moon Shaped Pool:
-      <date: 2016
-      <flow: 18,418,862
-      <link: https://youtu.be/TTAU7lLDZYU
       Burn the Witch:
       Daydreaming:
       Present Tense:
       The Numbers:
+      =:
+         rel: 2016
+         white: no
    The King of Limbs:
-      <date: 2011
-      <flow: 6,945,897
-      <link: https://youtu.be/cfOa1a8hYP8
       Lotus Flower:
+      =:
+         rel: 2011
+         white: no
    In Rainbows:
-      <date: 2007
-      <<: *low
       15 Step:
       Bodysnatchers:
       Nude:
@@ -25,9 +23,10 @@ Radiohead:
       House of Cards: yes
       Jigsaw Falling Into Place: yes
       Videotape:
+      =:
+         rel: 2007
+         white: yes
    Hail to the Thief:
-      <date: 2003
-      <<: *low
       2 + 2 = 5:
       Sit Down. Stand Up.:
       Sail to the Moon.: yes
@@ -42,11 +41,10 @@ Radiohead:
       Myxomatosis.:
       Scatterbrain.:
       A Wolf at the Door.:
+      =:
+         rel: 2003
+         white: yes
    Amnesiac:
-      <date: 2001
-      <<: &low
-         <flow: 1,342,289
-         <link: https://youtu.be/GoLJJRIWCLU
       Packt Like Sardines in a Crushd Tin Box:
       Pyramid Song: yes
       Pulk/Pull Revolving Doors:
@@ -58,9 +56,10 @@ Radiohead:
       Hunting Bears: yes
       Like Spinning Plates:
       Life in a Glasshouse:
+      =:
+         rel: 2001
+         white: yes
    Kid A:
-      <date: 2000
-      <<: *low
       Everything in Its Right Place: yes
       Kid A:
       The National Anthem: yes
@@ -71,27 +70,49 @@ Radiohead:
       Idioteque:
       Morning Bell:
       Motion Picture Soundtrack:
+      =:
+         rel: 2000
+         white: yes
    OK Computer:
-      <date: 1997
-      <flow: 8,115,612
-      <link: https://youtu.be/u5CVsCnxyXg
       I Promise:
       Karma Police:
       Lift:
       No Surprises:
       Paranoid Android:
+      =:
+         rel: 1997
+         white: no
    The Bends:
-      <date: 1995
-      <flow: 6,436,109
-      <link: https://youtu.be/n5h0qHwNrHk
       Fake Plastic Trees:
       High & Dry:
       Street Spirit:
+      =:
+         rel: 1995
+         white: no
    Pablo Honey:
-      <date: 1993
-      <flow: 28,322,103
-      <link: https://youtu.be/XFkzRNyygfk
       Creep:
+      =:
+         rel: 1993
+         white: no
+   =:
+      Creep:
+         flow: 28,719,100
+         link: https://youtu.be/XFkzRNyygfk
+      Daydreaming:
+         flow: 16,733,662
+         link: https://youtu.be/TTAU7lLDZYU
+      Fake Plastic Trees:
+         flow: 7,034,238
+         link: https://youtu.be/n5h0qHwNrHk
+      Jigsaw Falling Into Place:
+         flow: 1,436,309
+         link: https://youtu.be/GoLJJRIWCLU
+      Lotus Flower:
+         flow: 6,919,866
+         link: https://youtu.be/cfOa1a8hYP8
+      No Surprises:
+         flow: 8,829,048
+         link: https://youtu.be/u5CVsCnxyXg
 Rage Against the Machine:
    Evil Empire:
       <flow: 5,401,703
@@ -159,24 +180,24 @@ Ratatat:
       Black Heroes:
 Red Hot Chili Peppers:
    The Getaway:
-      <date: 2016
+      <rel: 2016
       <flow: 65,117,593
       <link: https://youtu.be/Q0oIoR9mLwc
       Dark Necessities:
    I’m With You:
-      <date: 2011
+      <rel: 2011
       <flow: 16,727,656
       <link: https://youtu.be/RtBbinpK5XI
       The Adventures of Rain Dance Maggie:
    Stadium Arcadium:
-      <date: 2006
+      <rel: 2006
       <flow: 20,412,833
       <link: https://youtu.be/Sb5aq5HcS1A
       Dani California:
       Snow:
       Tell Me Baby:
    By the Way:
-      <date: 2001
+      <rel: 2001
       <flow: 14,320,566
       <link: https://youtu.be/JnfyjwChuNU
       By the Way:
@@ -184,7 +205,7 @@ Red Hot Chili Peppers:
       The Zephyr Song:
       Venice Queen:
    Californication:
-      <date: 1999
+      <rel: 1999
       <flow: 60,368,783
       <link: https://youtu.be/YlUKcNNmywk
       Around the World:
@@ -192,7 +213,7 @@ Red Hot Chili Peppers:
       Otherside:
       Scar Tissue:
    One Hot Minute:
-      <date: 1995
+      <rel: 1995
       <flow: 3,776,176
       <link: https://youtu.be/0kT5w27YxyI
       Warped:
@@ -209,14 +230,14 @@ Red Hot Chili Peppers:
       Shallow Be Thy Game:
       Transcending:
    Blood Sugar Sex Magik:
-      <date: 1991
+      <rel: 1991
       <flow: 16,005,221
       <link: https://youtu.be/GLvohMXgcBo
       Give It Away:
       Under the Bridge:
 R.E.M.:
    Monster:
-      <date: 1994
+      <rel: 1994
       <<: &low
          <flow: 4,984,746
          <link: https://youtu.be/5rOiW_xY-kc
@@ -233,18 +254,18 @@ R.E.M.:
       Circus Envy:
       You:
    Automatic for the People:
-      <date: 1992
+      <rel: 1992
       <flow: 8,698,473
       <link: https://youtu.be/dLxpNiF0YKs
       Man on the Moon:
    Out of Time:
-      <date: 1991
+      <rel: 1991
       <flow: 69,706,118
       <link: https://youtu.be/xwtdhWltSIg
       Losing My Religion:
       Shiny Happy People:
    Green:
-      <date: 1988
+      <rel: 1988
       <<: *low
       Pop Song 89:
       Get Up: len
@@ -262,7 +283,7 @@ Richard D. James:
          <flow: 480,422
          <link: https://youtu.be/7MBaEEODzU0
    Syro:
-      <date: 2014
+      <rel: 2014
       <flow: low
       minipops 67 (source field mix): no
       XMAS_EVET10 (thanaton3 mix): no
@@ -277,7 +298,7 @@ Richard D. James:
       s950tx16wasr10 (earth portal mix):
       aisatsana:
    26 Mixes for Cash:
-      <date: 2003
+      <rel: 2003
       <flow: low
       Time to Find Me (AFX Fast mix): yes
       Raising the Titanic (Big Drum mix): yes
@@ -306,7 +327,7 @@ Richard D. James:
       Spotlight (Aphex Twin mix):
       Debase (Soft Palate):
    Drukqs:
-      <date: 2001
+      <rel: 2001
       <flow: low
       Jynweythek: len
       Vordhosbn:
@@ -339,13 +360,13 @@ Richard D. James:
       Beskhu3epnm: len
       Nanou 2: yes
    Windowlicker:
-      <date: 1999
+      <rel: 1999
       <flow: low
       Windowlicker: yes
       Formula:
       Nannou:
    Richard D. James Album:
-      <date: 1996
+      <rel: 1996
       <flow: low
       4: yes
       Cornish Acid: len
@@ -358,7 +379,7 @@ Richard D. James:
       Girl/Boy Song: yes
       Logan Rock Witch:
    I Care Because You Do:
-      <date: 1995
+      <rel: 1995
       <flow: low
       Acrid Avid Jam Shred: no
       The Waxen Pith: no
@@ -373,7 +394,7 @@ Richard D. James:
       Cow Cud Is a Twin:
       Next Heap With:
    Classics:
-      <date: 1994-12
+      <rel: 1994-12
       <flow: low
       Digeridoo:
       Flaphead:
@@ -389,7 +410,7 @@ Richard D. James:
       We Have Arrived (Aphex Twin TTQ mix):
       Digeridoo (live in Cornwall, 1990):
    Selected Ambient Works, Volume II:
-      <date: 1994-03
+      <rel: 1994-03
       <flow: low
       '[Cliffs]': yes
       '[Radiator]':
@@ -417,21 +438,21 @@ Richard D. James:
       '[White Blur 2]':
       '[Matchsticks]':
    On Remixes:
-      <date: 1993
+      <rel: 1993
       <flow: low
       On (D-Scape mix):
       On (Reload mix): yes
       On (μ-Ziq mix): yes
       On (28 mix):
    On:
-      <date: 1993
+      <rel: 1993
       <flow: low
       On: yes
       73-Yips:
       D-Scape:
       Xepha:
    Selected Ambient Works 85–92:
-      <date: 1992
+      <rel: 1992
       <flow: low
       Xtal: yes
       Tha: yes
@@ -462,7 +483,7 @@ Robin Guthrie:
       The Little Light Fades: len
 Róisín Murphy:
    Overpowered:
-      <date: 2007
+      <rel: 2007
       <<: &low
          <flow: 1,481,572
          <link: https://youtu.be/kl8mpAvTm_Y
@@ -479,7 +500,7 @@ Róisín Murphy:
       Scarlet Ribbons:
 Ronald Jenkees:
    Disorganized Fun:
-      <date: 2009
+      <rel: 2009
       <flow: 1,154,082
       <link: https://youtu.be/0O2aH4XLbto
       Disorganized Fun:
@@ -495,7 +516,7 @@ Ronald Jenkees:
       It’s Gettin Rowdy (rap):
 Roosevelt:
    Young Romance:
-      <date: 2018
+      <rel: 2018
       <<: &low
          <flow: 1,089,466
          <link: https://youtu.be/UBS6MM05KdY
@@ -512,7 +533,7 @@ Roosevelt:
       Forgive:
       Getaway:
    Roosevelt:
-      <date: 2016
+      <rel: 2016
       <<: *low
       Intro: len
       Wait Up:
@@ -527,7 +548,7 @@ Roosevelt:
       Hold On: yes
       Close:
    Elliot:
-      <date: 2013
+      <rel: 2013
       <<: *low
       Elliot: yes
       Around You:
@@ -565,7 +586,7 @@ Sade:
          <flow: 5,275,250
          <link: https://youtu.be/kcPc18SG6uA
    Soldier of Love:
-      <date: 2010
+      <rel: 2010
       <flow: low
       The Moon and the Sky:
       Soldier of Love: yes
@@ -578,18 +599,18 @@ Sade:
       Skin:
       The Safest Place: len
    Lovers Rock:
-      <date: 1999
+      <rel: 1999
       <flow: high
       By Your Side:
    Love Deluxe:
-      <date: 1992
+      <rel: 1992
       <flow: high
       Cherish the Day:
       Kiss of Life:
       No Ordinary Love:
       Pearls:
    Stronger Than Pride:
-      <date: 1988
+      <rel: 1988
       <flow: low
       Love Is Stronger Than Pride:
       Paradise: yes
@@ -602,7 +623,7 @@ Sade:
       I Never Thought I’d See the Day:
       Siempre Hay Esperanza:
    Promise:
-      <date: 1985
+      <rel: 1985
       <flow: low
       Is It a Crime: yes
       The Sweetest Taboo: yes
@@ -616,7 +637,7 @@ Sade:
       Tar Baby:
       Maureen:
    Diamond Life:
-      <date: 1984
+      <rel: 1984
       <flow: low
       Smooth Operator: yes
       Your Love Is King: yes
@@ -629,7 +650,7 @@ Sade:
       Why Can’t We Live Together?:
 Saint Etienne:
    Tales From Turnpike House:
-      <date: 2005
+      <rel: 2005
       <<: &low
          <flow: 412,330
          <link: https://youtu.be/vZAajrxvDs4
@@ -647,13 +668,13 @@ Saint Etienne:
       Teenage Winter:
       Goodnight: yes
    Finisterre:
-      <date: 2002
+      <rel: 2002
    Sound of Water:
-      <date: 2000
+      <rel: 2000
    Good Humor:
-      <date: 1998
+      <rel: 1998
    Tiger Bay:
-      <date: 1994
+      <rel: 1994
       <<: *low
       Urban Clearway:
       Former Lover: yes
@@ -668,7 +689,7 @@ Saint Etienne:
       Western Wind: len
       The Boy Scouts of America: len
    So Tough:
-      <date: 1993
+      <rel: 1993
       <<: *low
       Mario’s Cafe: no
       Railway Jam: no
@@ -688,7 +709,7 @@ Saint Etienne:
       Chicken Soup: len
       Join Our Club:
    Foxbase Alpha:
-      <date: 1991
+      <rel: 1991
       <<: *low
       This Is Radio Etienne: len
       Only Love Can Break Your Heart: yes
@@ -971,7 +992,7 @@ Spandau Ballet:
       True:
 Squarepusher:
    Solo Electric Bass 1:
-      <date: 2009
+      <rel: 2009
       <<: *low
       SEB-1.01: len
       SEB-1.09: yes
@@ -986,7 +1007,7 @@ Squarepusher:
       SEB-1.11: len
       SEB-1.12:
    Numbers Lucent:
-      <date: 2009
+      <rel: 2009
       <<: *low
       Zounds Perspex: no
       Paradise Garage: no
@@ -995,11 +1016,11 @@ Squarepusher:
       Arterial Fantasy: no
       Illegal Dustbin: no
    Just a Souvenir:
-      <date: 2008
+      <rel: 2008
    Hello Everything:
-      <date: 2006
+      <rel: 2006
    Ultravisitor:
-      <date: 2004
+      <rel: 2004
       <<: *low
       Ultravisitor:
       I Fulcrum:
@@ -1017,15 +1038,15 @@ Squarepusher:
       Tommib Help Buss: len
       Every Day I Love: len
    Do You Know Squarepusher:
-      <date: 2002
+      <rel: 2002
    Go Plastic:
-      <date: 2001
+      <rel: 2001
    Selection Sixteen:
-      <date: 1999
+      <rel: 1999
    Music Is Rotted One Note:
-      <date: 1998
+      <rel: 1998
    Hard Normal Daddy:
-      <date: 1997
+      <rel: 1997
       <<: &low
          <flow: 255,290
          <link: https://youtu.be/XvLAKrVbCBM
@@ -1098,7 +1119,7 @@ Stereo MCs:
       The End:
 Steve Roach:
    Desert Solitaire:
-      <date: 1989
+      <rel: 1989
       <flow: 23,686
       <link: https://youtu.be/QYJsKMvlujo
       Flatlands: no
@@ -1113,13 +1134,13 @@ Steve Roach:
       From the Heart of Darkness:
       Desert Solitaire:
    Dreamtime Return:
-      <date: 1988
+      <rel: 1988
    The Leaving Time:
-      <date: 1988
+      <rel: 1988
    Quiet Music 3:
-      <date: 1986
+      <rel: 1986
    Quiet Music 2:
-      <date: 1986
+      <rel: 1986
       <<: *low
       See Things:
       Towards the Blue:

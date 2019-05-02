@@ -1372,10 +1372,6 @@ Portugal. The Man:
          link: https://youtu.be/pBkHHoOIIn8
 Prefuse 73:
    Everything She Touched Turned Ampexian:
-      <rel: 2009
-      <<: &low
-         <flow: 55,940
-         <link: https://youtu.be/fJY7BMzx7Iw
       Periodic Measurements of Infrequent Smiles: len
       Hairy Faces (Stress): len
       Parachute Panador: len
@@ -1405,9 +1401,10 @@ Prefuse 73:
       Pitch Pipe: len
       Periodic Measurements of Infrequent Frowns: len
       Formal Dedications:
+      =:
+         rel: 2009
+         white: yes
    Preparations:
-      <rel: 2007
-      <white: yes
       From the East Intro: len
       Beaten Thursdays: no
       Aborted Hugs: len
@@ -1422,9 +1419,10 @@ Prefuse 73:
       Pomade Suite Version One:
       Spaced + Dissonant:
       Preparation Outro Version:
+      =:
+         rel: 2007
+         white: yes
    Security Screenings:
-      <rel: 2006
-      <white: yes
       The Letter "P": len
       With Dirt and Two Texts (Afternoon Version): no
       Illiterate Interlude: len
@@ -1443,9 +1441,10 @@ Prefuse 73:
       Breathe: len
       Matrimonioids..... (For Elivin + Susana Estela):
       We Leave You in a Cloud of Thick Smoke and Sleep Outro:
+      =:
+         rel: 2006
+         white: yes
    Surrounded by Silence:
-      <rel: 2005
-      <white: yes
       I’ve Said All I Need to Say About Them Intro:
       Hide Ya Face:
       Bad Memory Interlude One: len
@@ -1467,9 +1466,10 @@ Prefuse 73:
       Minutes Away Without You:
       Rain Edit Interlude: len
       And I’m Gone: len
+      =:
+         rel: 2005
+         white: yes
    One Word Extinguisher:
-      <rel: 2003
-      <white: yes
       The Wrong Side of Reflection (intro): len
       The End of Biters - International: len
       Plastic: len
@@ -1493,9 +1493,10 @@ Prefuse 73:
       Styles That Fade Away With a Collonade Reprise: yes
       Esta: len
       Pentagram: yes
+      =:
+         rel: 2003
+         white: yes
    Vocal Studies + Uprock Narratives:
-      <rel: 2001
-      <white: yes
       Radio Attack:
       Nuno:
       Life Death:
@@ -1511,14 +1512,15 @@ Prefuse 73:
       Black List:
       Afternoon Love In: yes
       7th Message:
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Perverted Undertone:
+         flow: 54,237
+         link: https://youtu.be/fJY7BMzx7Iw
 Primitive Radio Gods:
-   <low:
-      Standing Outside a Broken Phone Booth with Money in My Hand:
-         <flow: 604,212
-         <link: https://youtu.be/4XJxFAoiWSY
    Rocket:
-      <rel: 1996
-      <white: yes
       Women:
       Motherfucker:
       Standing Outside a Broken Phone Booth With Money in My Hand: yes
@@ -1529,8 +1531,19 @@ Primitive Radio Gods:
       Chain Reaction:
       Skin Turns Blue:
       Rocket:
+      =:
+         rel: 1996
+         white: yes
+   =:
+      Standing Outside a Broken Phone Booth with Money in My Hand:
+         flow: 604,212
+         link: https://youtu.be/4XJxFAoiWSY
 Queen:
    The Game:
-      <flow: 6,359,359
-      <link: https://youtu.be/NVIbCvfkO3E
       Another One Bites the Dust:
+      =:
+         white: no
+   =:
+      Another One Bites The Dust:
+         flow: 8,724,293
+         link: https://youtu.be/NVIbCvfkO3E
