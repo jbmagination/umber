@@ -668,9 +668,21 @@ Oneohtrix Point Never:
          flow: 103,714
          link: https://youtu.be/hiwi7d0f91Y
 OutKast:
+   Speakerboxxx / The Love Below:
+      Hey Ya!:
+      Roses:
+      The Way You Move:
+      =:
+         rel: 2003
+         white: no
+   Stankonia:
+      Ms. Jackson:
+      =:
+         rel: 2000
+         white: no
+   Aquemini:
+      rel: 1998
    ATLiens:
-      <flow: 4,413,491
-      <link: https://youtu.be/-JfEJq56IwI
       You May Die (intro): len
       Two Dope Boyz (in a Cadillac): len
       ATLiens:
@@ -685,20 +697,21 @@ OutKast:
       Millennium:
       E.T. (Extraterrestrial):
       13th Floor/Growing Old:
-   Speakerboxxx / The Love Below:
-      <flow: 41,677,231
-      <link: https://youtu.be/PWgvGjAhvIw
+      =:
+         rel: 1996
+         white: yes
+   =:
       Hey Ya!:
-      Roses:
-      The Way You Move:
-   Stankonia:
-      <flow: 35,006,106
-      <link: https://youtu.be/YSwT1uaMvUY
+         flow: 42,094,987
+         link: https://youtu.be/PWgvGjAhvIw
       Ms. Jackson:
+         flow: 32,944,721
+         link: https://youtu.be/YSwT1uaMvUY
+      So Fresh, So Clean:
+         flow: 4,398,743
+         link: https://youtu.be/-JfEJq56IwI
 Pastel Ghost:
    ABYSS:
-      <flow: 20,684
-      <link: https://youtu.be/qn2L9M7kfHE
       PRISM:
       EMBRACE:
       CLOUDS: yes
@@ -709,10 +722,14 @@ Pastel Ghost:
       LILACS:
       PULSE:
       ABYSS:
+      =:
+         white: yes
+   =:
+      CLOUDS:
+         flow: 24,003
+         link: https://youtu.be/qn2L9M7kfHE
 Paula Abdul:
    Forever Your Girl:
-      <flow: 1,994,831
-      <link: https://youtu.be/El1kgCqD7Xk
       The Way That You Love Me:
       Knocked Out:
       Opposites Attract: yes
@@ -723,11 +740,14 @@ Paula Abdul:
       Next to You:
       Cold Hearted:
       One or the Other:
+      =:
+         white: yes
+   =:
+      Straight Up:
+         flow: 2,182,196
+         link: https://youtu.be/El1kgCqD7Xk
 Paula Cole:
    This Fire:
-      <rel: 1996
-      <flow: 1,714,768
-      <link: https://youtu.be/JPR108kwNo4
       Tiger:
       Where Have All the Cowboys Gone?: yes
       Throwing Stones:
@@ -739,22 +759,15 @@ Paula Cole:
       Feelin’ Love:
       hush, hush, hush.:
       I Don’t Want to Wait:
+      =:
+         rel: 1996
+         white: yes
+   =:
+      I Don’t Want to Wait:
+         flow: 892,581
+         link: https://youtu.be/U0qdaTTS53M
 Pearl Jam:
-   Lightning Bolt:
-      <flow: 5,736,668
-      <link: https://youtu.be/qQXP6TDtW0w
-      Sirens:
-   Ten:
-      <flow: 10,544,365
-      <link: https://youtu.be/MS91knuzoOA
-      Alive:
-      Black:
-      Even Flow:
-      Jeremy:
-      Yellow Ledbetter:
-   Vs.:
-      <flow: 929,164
-      <link: https://youtu.be/RiqgTPmkfek
+   Vs:
       Go:
       Animal: len
       Daughter: yes
@@ -767,6 +780,25 @@ Pearl Jam:
       Elderly Woman Behind the Counter in a Small Town:
       Leash:
       Indifference:
+      =:
+         rel: 1993
+         white: yes
+   Ten:
+      Alive:
+      Black:
+      Even Flow:
+      Jeremy:
+      Yellow Ledbetter:
+      =:
+         rel: 1991
+         white: no
+   =:
+      Jeremy:
+         flow: 10,950,506
+         link: https://youtu.be/MS91knuzoOA
+      Sirens:
+         flow: 5,511,197
+         link: https://youtu.be/qQXP6TDtW0w
 Pendulum:
    In Silico:
       <rel: 2008
