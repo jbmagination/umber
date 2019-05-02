@@ -861,8 +861,6 @@ Samaris:
          link: https://youtu.be/_pKuzdMFE8k
 Savath & Savalas:
    Folk Songs for Trains, Trees and Honey:
-      <flow: 3,928
-      <link: https://youtu.be/p7WCGiM02KU
       Beginning: len
       Transportation Theme: yes
       Binoculars: yes
@@ -872,22 +870,14 @@ Savath & Savalas:
       Journey’s Homes: yes
       Paulo:
       Slabulas: yes
+      =:
+         white: yes
+   =:
+      La Llama:
+         flow: 3,763
+         link: https://youtu.be/p7WCGiM02KU
 Seal:
-   Seal:
-      <<: &low
-         <flow: 3,670,592
-         <link: https://youtu.be/AMD2TwRvuoU
-      The Beginning:
-      Deep Water:
-      Crazy: yes
-      Killer:
-      Whirlpool:
-      Future Love Paradise:
-      Wild:
-      Show Me:
-      Violet:
-   Seal II:
-      <white: yes
+   Seal (II):
       Bring It On:
       Prayer for the Dying:
       Dreaming in Metaphors:
@@ -899,10 +889,28 @@ Seal:
       If I Could:
       I’m Alive:
       Bring It On (reprise): len
+      =:
+         rel: 1994
+         white: yes
+   Seal:
+      The Beginning:
+      Deep Water:
+      Crazy: yes
+      Killer:
+      Whirlpool:
+      Future Love Paradise:
+      Wild:
+      Show Me:
+      Violet:
+      =:
+         rel: 1991
+         white: yes
+   =:
+      Kiss From a Rose:
+         flow: 3,898,704
+         link: https://youtu.be/AMD2TwRvuoU
 Secret Sun:
    Cold Coast:
-      <flow: 4,093
-      <link: https://youtu.be/WRLlc36hsoU
       Passing Cars:
       Cold Coast: yes
       Can’t You See:
@@ -913,10 +921,14 @@ Secret Sun:
       City:
       Stay Still:
       Crashing Waves:
+      =:
+         white: yes
+   =:
+      Passing Cars:
+         flow: 3,686
+         link: https://youtu.be/WRLlc36hsoU
 Shanice:
    Inner Child:
-      <flow: 601,350
-      <link: https://youtu.be/QGXxcSdsXJ4
       Keep Your Inner Child Alive (interlude): len
       I Love Your Smile: yes
       Forever in Your Love:
@@ -932,10 +944,14 @@ Shanice:
       You Were the One:
       I Love Your Smile (Hakeem’s mix):
       Goodnight (interlude): len
+      =:
+         white: yes
+   =:
+      I Love Your Smile:
+         flow: 620,952
+         link: https://youtu.be/QGXxcSdsXJ4
 She Keeps Bees:
    Minisink Hotel:
-      <flow: 85,364
-      <link: https://youtu.be/gyTKyFlos1w
       Stand Where I Can See You: len
       CageMatch: len
       Lucille: len
@@ -946,10 +962,14 @@ She Keeps Bees:
       Mercury: len
       Two Thousand Lights: len
       Revival: len
+      =:
+         white: yes
+   =:
+      Owl:
+         flow: 82,396
+         link: https://youtu.be/gyTKyFlos1w
 Sigur Rós:
    Ágætis byrjun:
-      <flow: 1,568,438
-      <link: https://youtu.be/8LeQN249Jqw
       Intro: len
       Svefn-g-englar: yes
       Starálfur: yes
@@ -960,11 +980,31 @@ Sigur Rós:
       Olsen Olsen: no
       Ágætis byrjun: yes
       Avalon:
+      =:
+         white: yes
+   =:
+      Olsen Olsen:
+         flow: 1,532,586
+         link: https://youtu.be/8LeQN249Jqw
 Simian Mobile Disco:
+   Unpatterns:
+      I Waited for You:
+      Cerulean:
+      Seraphim: yes
+      A Species Out of Control:
+      Interference:
+      Put Your Hands Together:
+      The Dream of the Fisherman’s Wife:
+      Your Love Ain’t Fair:
+      Pareidolia:
+      =:
+         rel: 2012
+         white: yes
+   Delicacies:
+      rel: 2010
+   Temporary Pleasure:
+      rel: 2009
    Attack Decay Sustain Release:
-      <<: &low
-         <flow: 292,223
-         <link: https://youtu.be/c0Bf6YGbc1c
       Sleep Deprivation:
       I Got This Down:
       It’s the Beat:
@@ -981,17 +1021,13 @@ Simian Mobile Disco:
       I Believe (SMD Space dub):
       Hot Dub:
       Wooden (uncut):
-   Unpatterns:
-      <white: yes
-      I Waited for You:
-      Cerulean:
-      Seraphim: yes
-      A Species Out of Control:
-      Interference:
-      Put Your Hands Together:
-      The Dream of the Fisherman’s Wife:
-      Your Love Ain’t Fair:
-      Pareidolia:
+      =:
+         rel: 2007
+         white: yes
+   =:
+      Hustler:
+         flow: 284,555
+         link: https://youtu.be/c0Bf6YGbc1c
 Simple Minds:
    Don’t You (Forget About Me):
       <flow: 14,148,335
