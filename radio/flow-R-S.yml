@@ -1164,8 +1164,6 @@ Spandau Ballet:
          link: https://youtu.be/AR8D2yqgQ1U
 Squarepusher:
    Solo Electric Bass 1:
-      <rel: 2009
-      <white: yes
       SEB-1.01: len
       SEB-1.09: yes
       SEB-1.10: len
@@ -1178,22 +1176,24 @@ Squarepusher:
       SEB-1.08:
       SEB-1.11: len
       SEB-1.12:
+      =:
+         rel: 2009-08-17
+         white: yes
    Numbers Lucent:
-      <rel: 2009
-      <white: yes
       Zounds Perspex: no
       Paradise Garage: no
       Heliacal Torch: no
       Star Time 1: no
       Arterial Fantasy: no
       Illegal Dustbin: no
+      =:
+         rel: 2009-01-19
+         white: yes
    Just a Souvenir:
-      <rel: 2008
+      rel: 2008
    Hello Everything:
-      <rel: 2006
+      rel: 2006
    Ultravisitor:
-      <rel: 2004
-      <white: yes
       Ultravisitor:
       I Fulcrum:
       Iambic 9 Poetry: yes
@@ -1209,19 +1209,18 @@ Squarepusher:
       Tetra-Sync:
       Tommib Help Buss: len
       Every Day I Love: len
+      =:
+         rel: 2004
+         white: yes
    Do You Know Squarepusher:
-      <rel: 2002
+      rel: 2002
    Go Plastic:
-      <rel: 2001
+      rel: 2001
    Selection Sixteen:
-      <rel: 1999
+      rel: 1999
    Music Is Rotted One Note:
-      <rel: 1998
+      rel: 1998
    Hard Normal Daddy:
-      <rel: 1997
-      <<: &low
-         <flow: 255,290
-         <link: https://youtu.be/XvLAKrVbCBM
       Coopers World:
       Beep Street: yes
       Rustic Raver:
@@ -1234,21 +1233,15 @@ Squarepusher:
       Male Pill Part 13:
       Rat/P’s and Q’s:
       Rebus: len
+      =:
+         rel: 1997
+         white: yes
+   =:
+      Dark Steering:
+         flow: 243,879
+         link: https://youtu.be/XvLAKrVbCBM
 St. Germain:
-   Boulevard The Complete Series:
-      <<: &low
-         <flow: 547,101
-         <link: https://youtu.be/H_F3FOcnQ3Y
-      Deep in It:
-      Thank U Mum (4 Everything You Did): yes
-      Street Scene (4 Shazz):
-      Easy to Remember:
-      Sentimental Mood:
-      What’s New?:
-      Dub Experience II:
-      Forget It:
    Tourist:
-      <white: yes
       Rose Rouge: yes
       Montego Bay Spleen:
       So Flute:
@@ -1258,10 +1251,27 @@ St. Germain:
       Pont des Arts:
       La Goutte d’Or:
       What You Think About:
+      =:
+         rel: 2000
+         white: yes
+   Boulevard the Complete Series:
+      Deep in It:
+      Thank U Mum (4 Everything You Did): yes
+      Street Scene (4 Shazz):
+      Easy to Remember:
+      Sentimental Mood:
+      What’s New?:
+      Dub Experience II:
+      Forget It:
+      =:
+         rel: 1995
+         white: yes
+   =:
+      Boulevard:
+         flow: 533,107
+         link: https://youtu.be/H_F3FOcnQ3Y
 St. Vincent:
    Actor:
-      <flow: 1,646,105
-      <link: https://youtu.be/mVAxUMuhz98
       The Strangers:
       Save Me From What I Want:
       The Neighbors:
@@ -1273,10 +1283,14 @@ St. Vincent:
       The Party: yes
       Just the Same but Brand New:
       The Sequel: len
+      =:
+         white: yes
+   =:
+      Digital Witness:
+         flow: 1,576,265
+         link: https://youtu.be/mVAxUMuhz98
 Stereo MCs:
    Connected:
-      <flow: 256,016
-      <link: https://youtu.be/LMGdRgtblmk
       Connected: yes
       Ground Level:
       Everything:
@@ -1289,6 +1303,12 @@ Stereo MCs:
       Chicken Shake:
       Creation:
       The End:
+      =:
+         white: yes
+   =:
+      Connected:
+         flow: 341,807
+         link: https://youtu.be/LMGdRgtblmk
 Steve Roach:
    Desert Solitaire:
       <rel: 1989
