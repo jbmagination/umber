@@ -1118,18 +1118,7 @@ The Rolling Stones:
          flow: 18,248,667
          link: https://youtu.be/nrIPxlFzDi0
 The Smiths:
-   <high:
-      This Charming Man:
-         <flow: 7,660,429
-         <link: https://youtu.be/cJRP3LRcUFg
-         <pub: 2014
-   <low:
-      How Soon Is Now?:
-         <flow: 2,538,862
-         <link: https://youtu.be/hnpILIIo9ek
    Strangeways, Here We Come:
-      <rel: 1987
-      <flow: low
       A Rush and a Push and the Land Is Ours: yes
       I Started Something I Couldn’t Finish:
       Death of a Disco Dancer:
@@ -1140,9 +1129,10 @@ The Smiths:
       Paint a Vulgar Picture:
       Death at One’s Elbow: len
       I Won’t Share You: len
+      =:
+         rel: 1987
+         white: yes
    The Queen Is Dead:
-      <rel: 1986
-      <flow: low
       The Queen Is Dead: no
       Frankly, Mr. Shankly: len
       I Know It’s Over: yes
@@ -1153,9 +1143,10 @@ The Smiths:
       Vicar in a Tutu: len
       There Is a Light That Never Goes Out:
       Some Girls Are Bigger Than Others:
+      =:
+         rel: 1986
+         white: yes
    Meat Is Murder:
-      <rel: 1985
-      <flow: low
       The Headmaster Ritual:
       Rusholme Ruffians:
       I Want the One I Can’t Have:
@@ -1166,14 +1157,23 @@ The Smiths:
       Well I Wonder: yes
       Barbarism Begins at Home: yes
       Meat Is Murder:
+      =:
+         rel: 1985
+         white: yes
    The Smiths:
-      <rel: 1984
-      <flow: high
       This Charming Man:
+      =:
+         rel: 1984
+         white: no
+   =:
+      How Soon Is Now?:
+         flow: 2,538,862
+         link: https://youtu.be/hnpILIIo9ek
+      This Charming Man:
+         flow: 7,660,429
+         link: https://youtu.be/cJRP3LRcUFg
 The Stranglers:
    La Folie:
-      <flow: 1,568,464
-      <link: https://youtu.be/AWAsI3U2EaE
       Non Stop: len
       Everybody Loves You When You’re Dead: len
       Tramp:
@@ -1185,12 +1185,14 @@ The Stranglers:
       Golden Brown: yes
       How to Find True Love and Happiness in the Present Day:
       La Folie:
+      =:
+         white: yes
+   =:
+      The Stranglers:
+         flow: 1,811,334
+         link: https://youtu.be/AWAsI3U2EaE
 The Sundays:
    Static & Silence:
-      <rel: 1997
-      <<: &low
-         <flow: 572,322
-         <link: https://youtu.be/BiyCkSOF1pc
       Summertime:
       Homeward:
       Folk Song: yes
@@ -1202,9 +1204,10 @@ The Sundays:
       Your Eyes: len
       Cry:
       Monochrome:
+      =:
+         rel: 1997
+         white: yes
    Blind:
-      <rel: 1992
-      <white: yes
       I Feel:
       Goodbye: yes
       Life & Soul: len
@@ -1217,9 +1220,10 @@ The Sundays:
       Blood on My Hands:
       Medicine:
       Wild Horses: yes
+      =:
+         rel: 1992
+         white: yes
    Reading, Writing and Arithmetic:
-      <rel: 1990
-      <white: yes
       Skin & Bones: no
       Here’s Where the Story Ends: yes
       Can’t Be Sure:
@@ -1230,22 +1234,30 @@ The Sundays:
       I Kicked a Boy: len
       My Finest Hour:
       Joy:
+      =:
+         rel: 1990
+         white: yes
+   =:
+      Wild Horses:
+         flow: 598,193
+         link: https://youtu.be/BiyCkSOF1pc
 The Wallflowers:
    Bringing Down the Horse:
-      <flow: 9,434,072
-      <link: https://youtu.be/Zzyfcys1aLM
       One Headlight:
+      =:
+         white: no
+   =:
+      One Headlight:
+         flow: 10,548,344
+         link: https://youtu.be/Zzyfcys1aLM
 The White Stripes:
    Elephant:
-      <rel: 2003
-      <flow: 23,087,384
-      <link: https://youtu.be/0J2QdDbelmY
       Ball and Biscuit:
       Seven Nation Army:
+      =:
+         rel: 2003
+         white: no
    White Blood Cells:
-      <rel: 2001
-      <flow: 1,249,489
-      <link: https://youtu.be/1OjTspCqvk8
       Dead Leaves and the Dirty Ground: yes
       Hotel Yorba: len
       I’m Finding It Harder to Be a Gentleman: len
@@ -1262,6 +1274,16 @@ The White Stripes:
       Now Mary: len
       I Can Learn:
       This Protector: len
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Icky Thump:
+         flow: 1,252,768
+         link: https://youtu.be/1OjTspCqvk8
+      Seven Nation Army:
+         flow: 23,256,250
+         link: https://youtu.be/0J2QdDbelmY
 The Who:
    Who’s Next:
       <flow: 2,572,860
@@ -1313,7 +1335,7 @@ Thievery Corporation:
          <link: https://youtu.be/uN9tulBHr8Y
    Culture of Fear:
       <rel: 2011
-      <flow: low
+      <white: yes
       Web of Deception:
       Culture of Fear:
       Take My Soul:
@@ -1329,7 +1351,7 @@ Thievery Corporation:
       Free:
    Radio Retaliation:
       <rel: 2008
-      <flow: low
+      <white: yes
       Sound the Alarm:
       Mandala:
       Radio Retaliation:
@@ -1347,7 +1369,7 @@ Thievery Corporation:
       Sweet Tides:
    The Cosmic Game:
       <rel: 2005
-      <flow: low
+      <white: yes
       Marching the Hate Machines (Into the Sun): yes
       Warning Shots:
       Revolution Solution:
@@ -1366,7 +1388,7 @@ Thievery Corporation:
       A Gentle Dissolve: len
    The Richest Man in Babylon:
       <rel: 2002
-      <flow: low
+      <white: yes
       Heaven’s Gonna Burn Your Eyes:
       Facing East:
       The Outernationalist:
@@ -1384,7 +1406,7 @@ Thievery Corporation:
       Resolution: yes
    The Mirror Conspiracy:
       <rel: 2000
-      <flow: low
+      <white: yes
       Treasures: len
       Le Monde: yes
       Indra: yes
@@ -1400,7 +1422,7 @@ Thievery Corporation:
       Tomorrow: yes
    Sounds From the Thievery Hi‐Fi:
       <rel: 1997
-      <flow: low
+      <white: yes
       A Warning (Dub): len
       2001 Spliff Odyssey: no
       Shaolin Satellite: no
