@@ -710,9 +710,6 @@ The Handsome Family:
          link: https://youtu.be/p4zluA60hjs
 The Kinks:
    Word of Mouth:
-      <rel: 1984
-      <flow: 4,504,328
-      <link: https://youtu.be/LemG0cvc4oU
       Do It Again:
       Word of Mouth:
       Good Day:
@@ -724,20 +721,15 @@ The Kinks:
       Missing Persons: len
       Summer’s Gone:
       Going Solo:
-   State of Confusion:
-      <rel: 1983
-   Give the People What They Want:
-      <rel: 1981
-   Low Budget:
-      <rel: 1979
-   Misfits:
-      <rel: 1978
+      =:
+         rel: 1984
+         white: yes
+   =:
+      Lola:
+         flow: 4,711,953
+         link: https://youtu.be/LemG0cvc4oU
 The Mars Volta:
    Noctourniquet:
-      <rel: 2012
-      <<: &low
-         <flow: 641,567
-         <link: https://youtu.be/VUBQLnEGHNk
       The Whip Hand: no
       Aegis: no
       Dyslexicon: no
@@ -751,9 +743,10 @@ The Mars Volta:
       Vedamalady:
       Noctourniquet:
       Zed and Two Naughts:
+      =:
+         rel: 2012
+         white: yes
    Octahedron:
-      <rel: 2009
-      <white: yes
       Since We’ve Been Wrong: yes
       Teflon: yes
       Halo of Nembutals: no
@@ -762,9 +755,10 @@ The Mars Volta:
       Desperate Graves:
       Copernicus: yes
       Luciforms:
+      =:
+         rel: 2009
+         white: yes
    The Bedlam in Goliath:
-      <rel: 2007
-      <white: yes
       Aberinkula:
       Metatron: yes
       Ilyena: yes
@@ -777,9 +771,10 @@ The Mars Volta:
       Ouroborous:
       Soothsayer: yes
       Conjugal Burns:
+      =:
+         rel: 2007
+         white: yes
    Amputechture:
-      <rel: 2006
-      <white: yes
       Vicarious Atonement: yes
       Tetragrammaton: yes
       Vermicide:
@@ -788,17 +783,19 @@ The Mars Volta:
       Viscera Eyes:
       Day of the Baphomets:
       El Ciervo Vulnerado:
+      =:
+         rel: 2006
+         white: yes
    Frances the Mute:
-      <rel: 2005
-      <white: yes
       Cygnus....Vismund Cygnus: yes
       The Widow: yes
       L’Via L’Viaquez:
       Miranda That Ghost Just Isn’t Holy Anymore:
       Cassandra Gemini: yes
+      =:
+         rel: 2005
+         white: yes
    De‐Loused in the Comatorium:
-      <rel: 2003
-      <white: yes
       Son et lumiere: len
       Inertiatic ESP: yes
       Roulette Dares (The Haunt Of):
@@ -809,25 +806,35 @@ The Mars Volta:
       This Apparatus Must Be Unearthed:
       Televators:
       Take the Veil Cerpin Taxt:
+      =:
+         rel: 2003
+         white: yes
    Tremulant EP:
-      <rel: 2002
-      <white: yes
       Cut That City: no
       Concertina: no
       Eunuch Provocateur: yes
+      =:
+         rel: 2002
+         white: yes
+   =:
+      The Widow:
+         flow: 638,261
+         link: https://youtu.be/VUBQLnEGHNk
 The Midnight:
-   Days of Thunder (the instrumentals):
-      <<: &low
-         <flow: 793,013
-         <link: https://youtu.be/_pUL7u-mYqA
-      The Years (prologue) (instrumental):
-      Gloria (instrumental):
-      WeMoveForward (instrumental):
-      Days of Thunder (instrumental): yes
-      Kick Drums & Red Wine (instrumental):
-      Los Angeles (instrumental):
+   Nocturnal:
+      Shadows:
+      Crystalline:
+      Collateral: yes
+      River of Darkness:
+      Nocturnal:
+      Light Years:
+      Tokyo Night Train:
+      =:
+         rel: 2017
+         white: yes
+   Endless Summer The Instrumentals:
+      rel: 2016
    Endless Summer:
-      <white: yes
       Endless Summer:
       Sunset: yes
       Daytona:
@@ -840,15 +847,23 @@ The Midnight:
       Nighthawks:
       Lonely City:
       Memories:
-   Nocturnal:
-      <white: yes
-      Shadows:
-      Crystalline:
-      Collateral: yes
-      River of Darkness:
-      Nocturnal:
-      Light Years:
-      Tokyo Night Train:
+      =:
+         rel: 2016
+         white: yes
+   Days of Thunder (the instrumentals):
+      The Years (prologue) (instrumental):
+      Gloria (instrumental):
+      WeMoveForward (instrumental):
+      Days of Thunder (instrumental): yes
+      Kick Drums & Red Wine (instrumental):
+      Los Angeles (instrumental):
+      =:
+         rel: 2016
+         white: yes
+   =:
+      Endless Summer:
+         flow: 742,368
+         link: https://youtu.be/_pUL7u-mYqA
 The Mighty Mighty Bosstones:
    Let’s Face It:
       <rel: 1997
