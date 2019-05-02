@@ -587,9 +587,6 @@ The Cure:
          link: https://youtu.be/hXCKLJGLENs
 The Dave Brubeck Quartet:
    Time Further Out:
-      <<: &low
-         <flow: 4,829,881
-         <link: https://youtu.be/vmDDOFXSgAs
       It’s a Raggy Waltz:
       Bluette:
       Charles Matthew Hallelujah: len
@@ -599,8 +596,20 @@ The Dave Brubeck Quartet:
       Unsquare Dance: len
       Bru’s Boogie Woogie: len
       Blue Shadows in the Street:
+      =:
+         rel: 1961
+         white: yes
+   The Riddle:
+      rel: 1961
+   Near-Myth:
+      rel: 1961
+   Bernstein Plays Brubeck Plays Bernstein:
+      rel: 1961
+   Tonight Only!:
+      rel: 1960
+   Southern Scene:
+      rel: 1960
    Time Out:
-      <white: yes
       Blue Rondo à la Turk:
       Strange Meadow Lark:
       Take Five: yes
@@ -608,10 +617,15 @@ The Dave Brubeck Quartet:
       Kathy’s Waltz:
       Everybody’s Jumpin’:
       Pick Up Sticks:
+      =:
+         rel: 1959
+         white: yes
+   =:
+      Take Five:
+         flow: 5,677,036
+         link: https://youtu.be/vmDDOFXSgAs
 The Doobie Brothers:
    The Captain and Me:
-      <flow: 2,753,547
-      <link: https://youtu.be/dJe1iUuAW4M
       Natural Thing:
       Long Train Runnin’: yes
       China Grove:
@@ -623,15 +637,20 @@ The Doobie Brothers:
       Busted Down Around O’Connelly Corners: len
       Ukiah:
       The Captain and Me:
+      =:
+         white: yes
+   =:
+      What a fool Believes:
+         flow: 3,167,012
+         link: https://youtu.be/dJe1iUuAW4M
 The Doors:
    L.A. Woman:
-      <flow: 13,590,760
-      <link: https://youtu.be/lS-af9Q-zvQ
       L.A. Woman:
       Riders on the Storm:
+      =:
+         rel: 1971
+         white: no
    Morrison Hotel:
-      <flow: 763,886
-      <link: https://youtu.be/BgQg3J7xU1k
       Roadhouse Blues: no
       Waiting for the Sun: no
       You Make Me Real: len
@@ -643,15 +662,33 @@ The Doors:
       Queen of the Highway: len
       Indian Summer: len
       Maggie M’Gill: no
+      =:
+         rel: 1970
+         white: yes
+   The Soft Parade:
+      rel: 1969
+   Waiting for the Sun:
+      rel: 1968
+   Strange Days:
+      rel: 1967
    The Doors:
-      <flow: 6,439,501
-      <link: https://youtu.be/deB_u-to-IE
       Light My Fire:
       The End:
+      =:
+         rel: 1967
+         white: no
+   =:
+      Riders on the Storm:
+         flow: 13,120,374
+         link: https://youtu.be/lS-af9Q-zvQ
+      Roadhouse Blues:
+         flow: 785,933
+         link: https://youtu.be/BgQg3J7xU1k
+      The End:
+         flow: 6,616,040
+         link: https://youtu.be/JSUIQgEVDM4
 The Handsome Family:
    Singing Bones:
-      <flow: 5,713,792
-      <link: https://youtu.be/p4zluA60hjs
       The Forgotten Lake:
       Gail With the Golden Hair:
       24-Hour Store:
@@ -665,6 +702,12 @@ The Handsome Family:
       Sleepy:
       The Song of a Hundred Toads: len
       If the World Should End in Ice: len
+      =:
+         white: yes
+   =:
+      Far From Any Road:
+         flow: 5,755,278
+         link: https://youtu.be/p4zluA60hjs
 The Kinks:
    Word of Mouth:
       <rel: 1984
