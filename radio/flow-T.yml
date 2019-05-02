@@ -866,9 +866,6 @@ The Midnight:
          link: https://youtu.be/_pUL7u-mYqA
 The Mighty Mighty Bosstones:
    Let’s Face It:
-      <rel: 1997
-      <flow: 2,255,041
-      <link: https://youtu.be/NIGMUAMevH0
       Noise Brigade: len
       The Rascal King: len
       Royal Oil: len
@@ -881,46 +878,32 @@ The Mighty Mighty Bosstones:
       Nevermind Me:
       Desensitized: len
       1‐2‐8: len
+      =:
+         rel: 1997
+         white: yes
+   =:
+      The Impression That I Get:
+         flow: 2,309,375
+         link: https://youtu.be/NIGMUAMevH0
 The Notorious B.I.G.:
-   The King & I:
-      <rel: 2017
-   Duets The Final Chapter:
-      <rel: 2005
-   Born Again:
-      <rel: 1999
    Life After Death:
-      <rel: 1997
-      <flow: 6,546,013
-      <link: https://youtu.be/gUhRKVIjJtw
       Mo Money Mo Problems:
-   Ready to Die:
-      <rel: 1994
+      =:
+         rel: 1997
+         white: no
+   =:
+      Mo Money Mo Problems:
+         flow: 6,564,343
+         link: https://youtu.be/gUhRKVIjJtw
 The Police:
-   Outlandos d’Amour:
-      <flow: 7,880,139
-      <link: https://youtu.be/3T1c7GkzRQQ
-      Roxanne:
-   Reggatta de Blanc:
-      <<: &low
-         <flow: 5,239,976
-         <link: https://youtu.be/MbXWrmQW-OE
-      Message in a Bottle: yes
-      Reggatta de Blanc:
-      It’s Alright for You:
-      Bring on the Night:
-      Deathwish:
-      Walking on the Moon:
-      On Any Other Day: len
-      The Bed’s Too Big Without You:
-      Contact: len
-      Does Everyone Stare:
-      No Time This Time:
    Synchronicity:
-      <flow: 66,446,987
-      <link: https://youtu.be/OMOGaugKpzs
       Every Breath You Take:
+      =:
+         rel: 1983
+         white: no
+   Ghost in the Machine:
+      rel: 1981
    Zenyattà Mondatta:
-      <white: yes
       Don’t Stand So Close to Me:
       Driven to Tears: yes
       When the World Is Running Down, You Make the Best of What’s Still Around:
@@ -932,6 +915,39 @@ The Police:
       Man in a Suitcase: len
       Shadows in the Rain:
       The Other Way of Stopping:
+      =:
+         rel: 1980
+         white: yes
+   Reggatta de Blanc:
+      Message in a Bottle: yes
+      Reggatta de Blanc:
+      It’s Alright for You:
+      Bring on the Night:
+      Deathwish:
+      Walking on the Moon:
+      On Any Other Day: len
+      The Bed’s Too Big Without You:
+      Contact: len
+      Does Everyone Stare:
+      No Time This Time:
+      =:
+         rel: 1979
+         white: yes
+   Outlandos d’Amour:
+      Roxanne:
+      =:
+         rel: 1978
+         white: no
+   =:
+      Every Breath You Take:
+         flow: 70,115,315
+         link: https://youtu.be/OMOGaugKpzs
+      Message In a Bottle Video:
+         flow: 5,572,785
+         link: https://youtu.be/MbXWrmQW-OE
+      Roxanne:
+         flow: 8,176,400
+         link: https://youtu.be/3T1c7GkzRQQ
 The Prodigy:
    Music for the Jilted Generation:
       <flow: 2,724,745
