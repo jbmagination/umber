@@ -528,8 +528,6 @@ Richard D. James:
          link: https://youtu.be/7MBaEEODzU0
 Robin Guthrie:
    Emeralds:
-      <flow: 21,402
-      <link: https://youtu.be/qngc--zwGxY
       Digging for Gold:
       Radiola:
       Wishing:
@@ -540,12 +538,14 @@ Robin Guthrie:
       Emeralds: no
       The Blue Book:
       The Little Light Fades: len
+      =:
+         white: yes
+   =:
+      Monument:
+         flow: 21,487
+         link: https://youtu.be/qngc--zwGxY
 Róisín Murphy:
    Overpowered:
-      <rel: 2007
-      <<: &low
-         <flow: 1,481,572
-         <link: https://youtu.be/kl8mpAvTm_Y
       Overpowered: yes
       You Know Me Better: yes
       Checkin’ on Me: yes
@@ -557,11 +557,15 @@ Róisín Murphy:
       Cry Baby:
       Tell Everybody:
       Scarlet Ribbons:
+      =:
+         rel: 2007
+         white: yes
+   =:
+      The Time Is Now:
+         flow: 1,493,016
+         link: https://youtu.be/kl8mpAvTm_Y
 Ronald Jenkees:
    Disorganized Fun:
-      <rel: 2009
-      <flow: 1,154,082
-      <link: https://youtu.be/0O2aH4XLbto
       Disorganized Fun:
       Fifteen Fifty:
       Guitar Sound:
@@ -573,12 +577,15 @@ Ronald Jenkees:
       Outer Space:
       Let’s Ride (rap):
       It’s Gettin Rowdy (rap):
+      =:
+         rel: 2009
+         white: yes
+   =:
+      Throwing Fire:
+         flow: 1,146,444
+         link: https://youtu.be/0O2aH4XLbto
 Roosevelt:
    Young Romance:
-      <rel: 2018
-      <<: &low
-         <flow: 1,089,466
-         <link: https://youtu.be/UBS6MM05KdY
       Take Me Back: len
       Under the Sun: no
       Yr Love: no
@@ -591,9 +598,10 @@ Roosevelt:
       Last to Know:
       Forgive:
       Getaway:
+      =:
+         rel: 2018
+         white: yes
    Roosevelt:
-      <rel: 2016
-      <<: *low
       Intro: len
       Wait Up:
       Night Moves: yes
@@ -606,17 +614,35 @@ Roosevelt:
       Fever: yes
       Hold On: yes
       Close:
+      =:
+         rel: 2016
+         white: yes
    Elliot:
-      <rel: 2013
-      <<: *low
       Elliot: yes
       Around You:
       Montreal:
       Sea:
+      =:
+         rel: 2013
+         white: yes
+   =:
+      Montreal:
+         flow: 1,249,261
+         link: https://youtu.be/UBS6MM05KdY
 Röyksopp:
+   The Inevitable End:
+      Here She Comes Again:
+      Monument:
+      =:
+         rel: 2014
+         white: no
+   Senior:
+      rel: 2010
+   Junior:
+      rel: 2009
+   The Understanding:
+      rel: 2005
    Melody A.M.:
-      <flow: 1,295,940
-      <link: https://youtu.be/KLpkXtM-VI8
       So Easy:
       Eple: yes
       Sparks: yes
@@ -627,11 +653,16 @@ Röyksopp:
       Remind Me:
       She’s So:
       40 Years Back\Come:
-   The Inevitable End:
-      <flow: 22,014,442
-      <link: https://youtu.be/rFI4JfbgOSY
+      =:
+         rel: 2001
+         white: yes
+   =:
       Here She Comes Again:
-      Monument:
+         flow: 20,864,611
+         link: https://youtu.be/rFI4JfbgOSY
+      What Else Is There?:
+         flow: 1,259,765
+         link: https://youtu.be/KLpkXtM-VI8
 Sade:
    <high:
       By Your Side:
@@ -734,7 +765,7 @@ Saint Etienne:
       <rel: 1998
    Tiger Bay:
       <rel: 1994
-      <<: *low
+      <white: yes
       Urban Clearway:
       Former Lover: yes
       Hug My Soul:
@@ -749,7 +780,7 @@ Saint Etienne:
       The Boy Scouts of America: len
    So Tough:
       <rel: 1993
-      <<: *low
+      <white: yes
       Mario’s Cafe: no
       Railway Jam: no
       Date With Spelman: len
@@ -769,7 +800,7 @@ Saint Etienne:
       Join Our Club:
    Foxbase Alpha:
       <rel: 1991
-      <<: *low
+      <white: yes
       This Is Radio Etienne: len
       Only Love Can Break Your Heart: yes
       Wilson: len
@@ -798,7 +829,7 @@ Samaris:
       T4ngled:
       In Deep: yes
    Silkidrangar:
-      <<: *low
+      <white: yes
       Nótt: yes
       Ég vildi fegin verða:
       Lífsins ólgusjór:
@@ -837,7 +868,7 @@ Seal:
       Show Me:
       Violet:
    Seal II:
-      <<: *low
+      <white: yes
       Bring It On:
       Prayer for the Dying:
       Dreaming in Metaphors:
@@ -932,7 +963,7 @@ Simian Mobile Disco:
       Hot Dub:
       Wooden (uncut):
    Unpatterns:
-      <<: *low
+      <white: yes
       I Waited for You:
       Cerulean:
       Seraphim: yes
@@ -977,7 +1008,7 @@ Solar Fields:
       The Sight Is White:
       Third Time (T version):
    Mirror’s Edge Catalyst:
-      <<: *low
+      <white: yes
       Faith:
       Release:
       Birdman: len
@@ -1052,7 +1083,7 @@ Spandau Ballet:
 Squarepusher:
    Solo Electric Bass 1:
       <rel: 2009
-      <<: *low
+      <white: yes
       SEB-1.01: len
       SEB-1.09: yes
       SEB-1.10: len
@@ -1067,7 +1098,7 @@ Squarepusher:
       SEB-1.12:
    Numbers Lucent:
       <rel: 2009
-      <<: *low
+      <white: yes
       Zounds Perspex: no
       Paradise Garage: no
       Heliacal Torch: no
@@ -1080,7 +1111,7 @@ Squarepusher:
       <rel: 2006
    Ultravisitor:
       <rel: 2004
-      <<: *low
+      <white: yes
       Ultravisitor:
       I Fulcrum:
       Iambic 9 Poetry: yes
@@ -1135,7 +1166,7 @@ St. Germain:
       Dub Experience II:
       Forget It:
    Tourist:
-      <<: *low
+      <white: yes
       Rose Rouge: yes
       Montego Bay Spleen:
       So Flute:
@@ -1200,7 +1231,7 @@ Steve Roach:
       <rel: 1986
    Quiet Music 2:
       <rel: 1986
-      <<: *low
+      <white: yes
       See Things:
       Towards the Blue:
       Something in Tears:
@@ -1224,7 +1255,7 @@ Stone Temple Pilots:
       Crackerman:
       Where the River Goes:
    Purple:
-      <<: *low
+      <white: yes
       Meatplow:
       Vasoline: len
       Lounge Fly:
@@ -1265,7 +1296,7 @@ Suzanne Vega:
       Fifty-Fifty Chance: len
       Pilgrimage: yes
    Suzanne Vega:
-      <<: *low
+      <white: yes
       Cracking: len
       Freeze Tag: len
       Marlene on the Wall: no
