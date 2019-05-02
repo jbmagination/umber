@@ -664,20 +664,7 @@ Röyksopp:
          flow: 1,259,765
          link: https://youtu.be/KLpkXtM-VI8
 Sade:
-   <high:
-      By Your Side:
-         <flow: 7,100,436
-         <link: https://youtu.be/C8QJmI_V3j4
-      No Ordinary Love:
-         <flow: 9,001,862
-         <link: https://youtu.be/_WcWHZc8s2I
-   <low:
-      The Sweetest Taboo:
-         <flow: 5,275,250
-         <link: https://youtu.be/kcPc18SG6uA
    Soldier of Love:
-      <rel: 2010
-      <white: yes
       The Moon and the Sky:
       Soldier of Love: yes
       Morning Bird:
@@ -688,20 +675,23 @@ Sade:
       In Another Time:
       Skin:
       The Safest Place: len
+      =:
+         rel: 2010
+         white: yes
    Lovers Rock:
-      <rel: 1999
-      <flow: high
       By Your Side:
+      =:
+         rel: 1999
+         white: no
    Love Deluxe:
-      <rel: 1992
-      <flow: high
       Cherish the Day:
       Kiss of Life:
       No Ordinary Love:
       Pearls:
+      =:
+         rel: 1992
+         white: no
    Stronger Than Pride:
-      <rel: 1988
-      <white: yes
       Love Is Stronger Than Pride:
       Paradise: yes
       Nothing Can Come Between Us: yes
@@ -712,9 +702,10 @@ Sade:
       Give It Up:
       I Never Thought I’d See the Day:
       Siempre Hay Esperanza:
+      =:
+         rel: 1988
+         white: yes
    Promise:
-      <rel: 1985
-      <white: yes
       Is It a Crime: yes
       The Sweetest Taboo: yes
       War of the Hearts:
@@ -726,9 +717,10 @@ Sade:
       Fear:
       Tar Baby:
       Maureen:
+      =:
+         rel: 1985
+         white: yes
    Diamond Life:
-      <rel: 1984
-      <white: yes
       Smooth Operator: yes
       Your Love Is King: yes
       Hang on to Your Love: no
@@ -738,12 +730,21 @@ Sade:
       Sally:
       I Will Be Your Friend:
       Why Can’t We Live Together?:
+      =:
+         rel: 1984
+         white: yes
+   =:
+      By Your Side:
+         flow: 7,100,436
+         link: https://youtu.be/C8QJmI_V3j4
+      No Ordinary Love:
+         flow: 9,001,862
+         link: https://youtu.be/_WcWHZc8s2I
+      The Sweetest Taboo:
+         flow: 5,275,250
+         link: https://youtu.be/kcPc18SG6uA
 Saint Etienne:
    Tales From Turnpike House:
-      <rel: 2005
-      <<: &low
-         <flow: 412,330
-         <link: https://youtu.be/vZAajrxvDs4
       Side Streets: len
       A Good Thing: no
       Sun in My Morning: len
@@ -757,15 +758,16 @@ Saint Etienne:
       Stars Above Us:
       Teenage Winter:
       Goodnight: yes
+      =:
+         rel: 2005
+         white: yes
    Finisterre:
-      <rel: 2002
+      rel: 2002
    Sound of Water:
-      <rel: 2000
+      rel: 2000
    Good Humor:
-      <rel: 1998
+      rel: 1998
    Tiger Bay:
-      <rel: 1994
-      <white: yes
       Urban Clearway:
       Former Lover: yes
       Hug My Soul:
@@ -778,9 +780,10 @@ Saint Etienne:
       Tankerville:
       Western Wind: len
       The Boy Scouts of America: len
+      =:
+         rel: 1994
+         white: yes
    So Tough:
-      <rel: 1993
-      <white: yes
       Mario’s Cafe: no
       Railway Jam: no
       Date With Spelman: len
@@ -798,9 +801,10 @@ Saint Etienne:
       Who Do You Think You Are:
       Chicken Soup: len
       Join Our Club:
+      =:
+         rel: 1993
+         white: yes
    Foxbase Alpha:
-      <rel: 1991
-      <white: yes
       This Is Radio Etienne: len
       Only Love Can Break Your Heart: yes
       Wilson: len
@@ -814,11 +818,15 @@ Saint Etienne:
       London Belongs to Me:
       Like the Swallow:
       Dilworth’s Theme: len
+      =:
+         rel: 1991
+         white: yes
+   =:
+      Saint Etienne:
+         flow: 418,786
+         link: https://youtu.be/vZAajrxvDs4
 Samaris:
    Black Lights:
-      <<: &low
-         <flow: 65,891
-         <link: https://youtu.be/_pKuzdMFE8k
       Wanted 2 Say:
       Black Lights:
       Gradient Sky: len
@@ -828,8 +836,12 @@ Samaris:
       3y3:
       T4ngled:
       In Deep: yes
+      =:
+         rel: 2016
+         white: yes
+   Silkidrangar Sessions:
+      rel: 2015
    Silkidrangar:
-      <white: yes
       Nótt: yes
       Ég vildi fegin verða:
       Lífsins ólgusjór:
@@ -840,6 +852,13 @@ Samaris:
       Hafið:
       Hrafnar:
       Vögguljóð:
+      =:
+         rel: 2014
+         white: yes
+   =:
+      goda tungl:
+         flow: 61,455
+         link: https://youtu.be/_pKuzdMFE8k
 Savath & Savalas:
    Folk Songs for Trains, Trees and Honey:
       <flow: 3,928
