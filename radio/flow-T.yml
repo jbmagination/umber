@@ -63,9 +63,6 @@ Tangerine Dream:
          link: https://youtu.be/2w8VsvJ40sM
 Tears for Fears:
    Raoul and the Kings of Spain:
-      <rel: 1995
-      <flow: 1,392,594
-      <link: https://youtu.be/aI9lo5BRJmg
       Raoul and the Kings of Spain: no
       Falling Down: no
       Secrets: no
@@ -78,21 +75,27 @@ Tears for Fears:
       Don’t Drink the Water: no
       Me and My Big Ideas: no
       Los reyes Católicos (reprise): no
+      =:
+         rel: 1995
+         white: yes
    Elemental:
-      <rel: 1993
+      rel: 1993
    The Seeds of Love:
-      <rel: 1989
+      rel: 1989
    Songs From the Big Chair:
-      <rel: 1985
-      <flow: 9,156,000
-      <link: https://youtu.be/ST86JM1RPl0
       Everybody Wants to Rule the World:
+      =:
+         rel: 1985
+         white: no
+   =:
+      Everybody Wants to Rule the World:
+         flow: 9,162,285
+         link: https://youtu.be/ST86JM1RPl0
+      Shout:
+         flow: 1,564,432
+         link: https://youtu.be/aI9lo5BRJmg
 The Black Dog:
    Further Vexations:
-      <rel: 2009
-      <<: &low
-         <flow: 12,602
-         <link: https://youtu.be/NZznxCVwzrk
       Biomantric L-if-e: yes
       0093:
       Phil Because Ov, Indeed: len
@@ -108,9 +111,10 @@ The Black Dog:
       Tunnels Ov Set:
       Later Vexations:
       Kissing Someone Else’s D.O.G:
+      =:
+         rel: 2009
+         white: yes
    Radio Scarecrow:
-      <rel: 2008
-      <white: yes
       Transmission Start: len
       Train by the Autobahn, Part 1: yes
       Train by the Autobahn, Part 2: yes
@@ -128,9 +132,10 @@ The Black Dog:
       Dials & Dialers 1: len
       Ghost Vexations: yes
       Dials & Dialers 2: len
+      =:
+         rel: 2008
+         white: yes
    Silenced:
-      <rel: 2005
-      <white: yes
       Trojan Horus, Part 1:
       Trojan Horus, Part 2: len
       Lam Vril:
@@ -149,19 +154,21 @@ The Black Dog:
       Sudden Intake: yes
       4 3s 555, Part 1: len
       4 3s 555, Part 2:
+      =:
+         rel: 2005
+         white: yes
    Unsavoury Products:
-      <rel: 2002
+      rel: 2002
    Peel Session:
-      <rel: 1999
-      <white: yes
       Shadehead: yes
       Rise Up:
       Simperton:
       Rue:
       Psycosyin:
+      =:
+         rel: 1999
+         white: yes
    Music for Adverts (and Short Films):
-      <rel: 1996
-      <white: yes
       Dumb & Dumber: len
       The Wind Spirit: len
       Jordan: len
@@ -188,9 +195,10 @@ The Black Dog:
       Mo:
       Wot: len
       Kheprit:
+      =:
+         rel: 1996
+         white: yes
    Spanners:
-      <rel: 1995
-      <white: yes
       Raxmus: yes
       Barbola Work: no
       Psil-Cosyin: no
@@ -203,9 +211,10 @@ The Black Dog:
       Utopian Dream: no
       Frisbee Skip: no
       Chesh: no
+      =:
+         rel: 1995
+         white: yes
    Temple of Transparent Balls:
-      <rel: 1993
-      <white: yes
       Cost I: no
       Cost II: no
       4.7.8.: no
@@ -217,14 +226,15 @@ The Black Dog:
       Cycle:
       In the Light of Grey:
       The Crete That Crete Made:
+      =:
+         rel: 1993
+         white: yes
+   =:
+      Spanners:
+         flow: 12,354
+         link: https://youtu.be/NZznxCVwzrk
 The Cardigans:
-   First Band on the Moon:
-      <flow: 6,913,705
-      <link: https://youtu.be/NI6aOFI7hms
-      Lovefool:
    Gran Turismo:
-      <flow: 3,905,638
-      <link: https://youtu.be/6Ll5y2hZdCI
       Paralyzed:
       Erase/Rewind: yes
       Explode:
@@ -236,6 +246,21 @@ The Cardigans:
       Do You Believe:
       Junk of the Hearts:
       Nil: len
+      =:
+         rel: 1998
+         white: yes
+   First Band on the Moon:
+      Lovefool:
+      =:
+         rel: 1996
+         white: no
+   =:
+      Lovefool:
+         flow: 8,086,193
+         link: https://youtu.be/NI6aOFI7hms
+      My Favourite Game:
+         flow: 4,707,718
+         link: https://youtu.be/6Ll5y2hZdCI
 The Cars:
    Heartbeat City:
       <flow: 6,780,975
