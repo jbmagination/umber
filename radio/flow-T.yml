@@ -263,12 +263,11 @@ The Cardigans:
          link: https://youtu.be/6Ll5y2hZdCI
 The Cars:
    Heartbeat City:
-      <flow: 6,780,975
-      <link: https://youtu.be/xuZA6qiJVfU
       Drive:
+      =:
+         rel: 1984
+         white: no
    Shake It Up:
-      <flow: 2,333,715
-      <link: https://youtu.be/Z5-rdr0qhWk
       Since You’re Gone: no
       Shake It Up: no
       I’m Not the One: no
@@ -278,8 +277,14 @@ The Cars:
       This Could Be Love: no
       Think It Over: no
       Maybe Baby: no
+      =:
+         rel: 1981
+         white: yes
+   Panorama:
+      rel: 1980
+   Candy‐O:
+      rel: 1979
    The Cars:
-      <white: yes
       Good Times Roll: no
       My Best Friend’s Girl: no
       Just What I Needed: no
@@ -289,12 +294,18 @@ The Cars:
       Bye Bye Love:
       Moving in Stereo:
       All Mixed Up:
+      =:
+         rel: 1978
+         white: yes
+   =:
+      Drive:
+         flow: 7,067,292
+         link: https://youtu.be/xuZA6qiJVfU
+      JUST WHAT I NEEDED:
+         flow: 2,477,612
+         link: https://youtu.be/Z5-rdr0qhWk
 The Cinematic Orchestra:
    To Believe:
-      <rel: 2019
-      <<: &low
-         <flow: 3,468,989
-         <link: https://youtu.be/QB0ordd2nOI
       To Believe: no
       A Caged Bird / Imitations of Life: no
       Lessons:
@@ -302,9 +313,10 @@ The Cinematic Orchestra:
       The Workers of Art:
       Zero One / This Fantasy:
       A Promise:
+      =:
+         rel: 2019
+         white: yes
    Live at the Royal Albert Hall:
-      <rel: 2008
-      <white: yes
       All That You Give:
       Child Song: yes
       Flite:
@@ -314,9 +326,10 @@ The Cinematic Orchestra:
       Breathe:
       Man With the Movie Camera:
       Time and Space: yes
+      =:
+         rel: 2008
+         white: yes
    Ma fleur:
-      <rel: 2007
-      <white: yes
       To Build a Home:
       Familiar Ground:
       Child Song:
@@ -328,9 +341,10 @@ The Cinematic Orchestra:
       Breathe:
       That Home: len
       Time & Space:
+      =:
+         rel: 2007
+         white: yes
    Man With a Movie Camera:
-      <rel: 2003
-      <white: yes
       The Projectionist: len
       Melody: len
       Dawn: yes
@@ -348,9 +362,10 @@ The Cinematic Orchestra:
       Drunken Tune: no
       The Animated Tripod: len
       All Things: yes
+      =:
+         rel: 2003
+         white: yes
    Every Day:
-      <rel: 2002
-      <white: yes
       All That You Give: yes
       Burn Out:
       Flite:
@@ -360,9 +375,10 @@ The Cinematic Orchestra:
       Everyday: yes
       Oregon: yes
       Semblance: len
+      =:
+         rel: 2002
+         white: yes
    Motion:
-      <rel: 1999
-      <white: yes
       Durian:
       Ode to the Big Sea:
       Night of the Iguana:
@@ -370,10 +386,15 @@ The Cinematic Orchestra:
       Bluebirds:
       And Relax!: yes
       Diabolus:
+      =:
+         rel: 1999
+         white: yes
+   =:
+      To Build a Home:
+         flow: 4,012,190
+         link: https://youtu.be/QB0ordd2nOI
 The Cinematics:
    A Strange Education:
-      <flow: 34,295
-      <link: https://youtu.be/IyOA2mYmZeI
       Race to the City: yes
       Break: yes
       A Strange Education:
@@ -386,15 +407,20 @@ The Cinematics:
       Maybe Someday:
       Alright:
       Asleep at the Wheel:
+      =:
+         white: yes
+   =:
+      Love And Terror:
+         flow: 32,705
+         link: https://youtu.be/IyOA2mYmZeI
 The Clash:
    Combat Rock:
-      <flow: 17,653,527
-      <link: https://youtu.be/BN1WwnEDWAM
       Rock the Casbah:
       Should I Stay or Should I Go:
+      =:
+         rel: 1982
+         white: no
    Sandinista!:
-      <flow: 462,372
-      <link: https://youtu.be/GcHL8efKKPE
       The Magnificent Seven: yes
       Hitsville U.K.:
       Junco Partner:
@@ -431,6 +457,16 @@ The Clash:
       Version Pardner:
       Career Opportunities: len
       Shepherds Delight:
+      =:
+         rel: 1980
+         white: yes
+   =:
+      Should I Stay or Should I Go:
+         flow: 18,807,531
+         link: https://youtu.be/BN1WwnEDWAM
+      The Magnificent Seven:
+         flow: 512,354
+         link: https://youtu.be/GcHL8efKKPE
 The Cranberries:
    Bury the Hatchet:
       <rel: 1999
