@@ -469,45 +469,56 @@ The Clash:
          link: https://youtu.be/GcHL8efKKPE
 The Cranberries:
    Bury the Hatchet:
-      <rel: 1999
-      <flow: 5,987,702
-      <link: https://youtu.be/ky4CdN0x58A
       Animal Instinct: no
-      Loud and Clear: len
-      Promises: no
-      You and Me: no
-      Just My Imagination: no
-      Shattered: no
-      Desperate Andy:
-      Saving Grace:
-      Copycat: len
-      What’s on My Mind:
-      Delilah:
-      Fee Fi Fo:
-      Dying in the Sun:
+      =:
+         rel: 1999
+         white: no
    To the Faithful Departed:
-      <rel: 1996
-      <flow: 7,345,848
-      <link: https://youtu.be/RUmdWdEgHgk
       When You’re Gone:
+      =:
+         rel: 1996
+         white: no
    No Need to Argue:
-      <rel: 1994
-      <flow: 88,466,995
-      <link: https://youtu.be/6Ejga4kJUts
       Ode To My Family:
       Zombie:
+      =:
+         rel: 1994
+         white: no
    Everybody Else Is Doing It, So Why Can’t We?:
-      <rel: 1993
-      <flow: 19,438,630
-      <link: https://youtu.be/G6Kspj3OO0s
       Dreams:
       I Still Do:
       Linger:
+      =:
+         rel: 1993
+         white: no
+   =:
+      Animal Instinct:
+         flow: 6,073,015
+         link: https://youtu.be/ky4CdN0x58A
+      Linger:
+         flow: 20,017,284
+         link: https://youtu.be/G6Kspj3OO0s
+      When You’re Gone:
+         flow: 7,514,918
+         link: https://youtu.be/RUmdWdEgHgk
+      Zombie:
+         flow: 90,951,005
+         link: https://youtu.be/6Ejga4kJUts
 The Crystal Method:
+   London Original Motion Picture Soundtrack:
+      London: len
+      Smoked:
+      Fire to Me:
+      Roboslut:
+      Defective:
+      Vice: yes
+      Onesixteen:
+      Glass Breaker:
+      I Luv U: len
+      =:
+         rel: 2005
+         white: yes
    Legion of Boom:
-      <<: &low
-         <flow: 296,927
-         <link: https://youtu.be/A12-KN5UijA
       Starting Over:
       Born Too Slow:
       True Grit: yes
@@ -520,19 +531,10 @@ The Crystal Method:
       Acetone: yes
       High and Low:
       Wide Open:
-   London Original Motion Picture Soundtrack:
-      <white: yes
-      London: len
-      Smoked:
-      Fire to Me:
-      Roboslut:
-      Defective:
-      Vice: yes
-      Onesixteen:
-      Glass Breaker:
-      I Luv U: len
+      =:
+         rel: 2004
+         white: yes
    Tweekend:
-      <white: yes
       PHD: yes
       Wild, Sweet and Cool: yes
       Roll It Up: yes
@@ -544,8 +546,10 @@ The Crystal Method:
       Over the Line:
       Blowout:
       Tough Guy:
+      =:
+         rel: 2001
+         white: yes
    Vegas:
-      <white: yes
       Trip Like I Do: yes
       Busy Child: yes
       Cherry Twist: yes
@@ -556,10 +560,15 @@ The Crystal Method:
       She’s My Pusher:
       Jaded: yes
       Bad Stone: yes
+      =:
+         rel: 1997
+         white: yes
+   =:
+      Name of the Game:
+         flow: 293,737
+         link: https://youtu.be/A12-KN5UijA
 The Cure:
    Disintegration:
-      <flow: 1,986,774
-      <link: https://youtu.be/hXCKLJGLENs
       Plainsong:
       Pictures of You: yes
       Closedown:
@@ -570,6 +579,12 @@ The Cure:
       The Same Deep Water as You:
       Disintegration:
       Untitled:
+      =:
+         white: yes
+   =:
+      Lovesong:
+         flow: 2,040,934
+         link: https://youtu.be/hXCKLJGLENs
 The Dave Brubeck Quartet:
    Time Further Out:
       <<: &low
