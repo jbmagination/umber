@@ -346,6 +346,37 @@ Van Halen:
          flow: 5,659,609
          link: https://youtu.be/SwYN7mTi6HM
 Van Morrison:
+   Poetic Champions Compose:
+      Someone Like You:
+      =:
+         rel: 1987
+         white: yes
+   No Guru, No Method, No Teacher:
+      rel: 1986
+   A Sense of Wonder:
+      rel: 1984
+   Inarticulate Speech of the Heart:
+      rel: 1983
+   Beautiful Vision:
+      rel: 1982
+   Common One:
+      rel: 1980
+   Into the Music:
+      rel: 1979
+   Wavelength:
+      rel: 1978
+   A Period of Transition:
+      rel: 1977
+   Veedon Fleece:
+      rel: 1974
+   Hard Nose the Highway:
+      rel: 1973
+   Saint Dominic’s Preview:
+      rel: 1972
+   Tupelo Honey:
+      rel: 1971
+   His Band and the Street Choir:
+      rel: 1970
    Moondance:
       And It Stoned Me:
       Moondance: yes
@@ -466,27 +497,12 @@ Wye Oak:
          flow: 1,076,903
          link: https://youtu.be/Mssm8Ml5sOo
 Yeah Yeah Yeahs:
-   Fever to Tell:
-      <<: &low
-         <flow: 5,214,766
-         <link: https://youtu.be/oIIxlgcuQRU
-      Rich: yes
-      Date With the Night: len
-      Man: len
-      Tick: len
-      Black Tongue:
-      Pin: len
-      Cold Light: len
-      No No No:
-      Maps: yes
-      Y Control:
-      Modern Romance / Poor Song:
    It’s Blitz!:
-      <flow: 14,100,164
-      <link: https://youtu.be/or3U2rXxvQw
       Heads Will Roll:
+      =:
+         rel: 2009
+         white: no
    Show Your Bones:
-      <white: yes
       Gold Lion:
       Way Out: len
       Fancy:
@@ -498,6 +514,31 @@ Yeah Yeah Yeahs:
       The Sweets:
       Warrior:
       Turn Into:
+      =:
+         rel: 2006
+         white: yes
+   Fever to Tell:
+      Rich: yes
+      Date With the Night: len
+      Man: len
+      Tick: len
+      Black Tongue:
+      Pin: len
+      Cold Light: len
+      No No No:
+      Maps: yes
+      Y Control:
+      Modern Romance / Poor Song:
+      =:
+         rel: 2003
+         white: yes
+   =:
+      Heads Will Roll:
+         flow: 16,143,630
+         link: https://youtu.be/or3U2rXxvQw
+      Maps:
+         flow: 5,403,883
+         link: https://youtu.be/oIIxlgcuQRU
 Yes:
    Fragile:
       <rel: 1971

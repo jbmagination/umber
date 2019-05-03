@@ -1,11 +1,28 @@
 YAML flow
 =========
 
+Listed songs
+------------
+
+Bar video is:
+
+https://youtu.be/kcPc18SG6uA
+
+Based on bar video, bar number is:
+
+6 million
+
+views per year. Any song with greater or equal views per year is blacklisted.
+Any album containing a blacklisted song is also blacklisted. All other songs
+are whitelisted. Document all blacklisted songs, and associated albums.
+Document whitelisted song with highest views per year, and associated album.
+
 Query
 -----
 
 We cannot sort by view count because it will introduce ambiguous results. We
-can check next page as long as current page has at least 1 true high.
+can check next page as long as current page has at least 1 true blacklisted
+song.
 
 Null type
 ---------
@@ -210,11 +227,6 @@ Goldfrapp:
 This creates an awkward gap between the albums and artist metadata, but it
 makes for better flow. It puts what is most important first, followed by
 extraneous data.
-
-White
------
-
-https://youtu.be/kcPc18SG6uA
 
 References
 ----------
