@@ -637,10 +637,6 @@ Yppah:
          link: https://youtu.be/NqfAj1C7rPc
 Zero 7:
    Yeah Ghost:
-      <rel: 2009
-      <<: &low
-         <flow: 544,309
-         <link: https://youtu.be/INn1C6ImJKg
       Count Me Out: len
       Mr McGee: no
       Swing: no
@@ -652,9 +648,10 @@ Zero 7:
       Solastalgia: len
       The Road:
       All of Us:
+      =:
+         rel: 2009
+         white: yes
    The Garden:
-      <rel: 2006
-      <white: yes
       Futures:
       Throw It All Away: yes
       Seeing Things:
@@ -667,9 +664,10 @@ Zero 7:
       If I Can’t Have You:
       Crosses: yes
       Waiting to Die:
+      =:
+         rel: 2006
+         white: yes
    When It Falls:
-      <rel: 2004
-      <white: yes
       Warm Sound:
       Home:
       Somersault:
@@ -681,9 +679,10 @@ Zero 7:
       Look Up: yes
       In Time:
       Morning Song:
+      =:
+         rel: 2004
+         white: yes
    Simple Things:
-      <rel: 2001
-      <white: yes
       I Have Seen: no
       Polaris: yes
       Destiny: yes
@@ -698,3 +697,10 @@ Zero 7:
       End Theme: no
       Spinning Dub: no
       Salt Water Sound: yes
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Destiny:
+         flow: 527,084
+         link: https://youtu.be/INn1C6ImJKg
