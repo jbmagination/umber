@@ -286,12 +286,7 @@ Toni Braxton:
          flow: 42,821,132
          link: https://youtu.be/p2Rch6WvPJE
 Tool:
-   10,000 Days:
-      <rel: 2006
    Lateralus:
-      <rel: 2001
-      <flow: 3,719,915
-      <link: https://youtu.be/_yNAABKD4IA
       The Grudge:
       Eon Blue Apocalypse: len
       The Patient: yes
@@ -305,16 +300,15 @@ Tool:
       Reflection: yes
       Triad:
       Faaip de Oiad: len
-   Ænima:
-      <rel: 1996
-   Undertow:
-      <rel: 1993
+      =:
+         rel: 2001
+         white: yes
+   =:
+      Schism:
+         flow: 5,112,577
+         link: https://youtu.be/_yNAABKD4IA
 Tori Amos:
    The Beekeeper:
-      <rel: 2005
-      <<: &low
-         <flow: 222,624
-         <link: https://youtu.be/_gZzkGvyqzc
       Parasol:
       Sweet the Sting: no
       The Power of Orange Knickers: no
@@ -334,15 +328,16 @@ Tori Amos:
       Goodbye Pisces: no
       Marys of the Sea: no
       Toast: yes
+      =:
+         rel: 2005
+         white: yes
    Scarlet’s Walk:
-      <rel: 2002
+      rel: 2002
    Strange Little Girls:
-      <rel: 2001
+      rel: 2001
    To Venus and Back:
-      <rel: 1999
+      rel: 1999
    From the Choirgirl Hotel:
-      <rel: 1998
-      <white: yes
       Spark: no
       Cruel: yes
       Black‐Dove (January):
@@ -355,9 +350,10 @@ Tori Amos:
       Hotel:
       Playboy Mommy:
       Pandora’s Aquarium:
+      =:
+         rel: 1998
+         white: yes
    Boys for Pele:
-      <rel: 1996
-      <white: yes
       Beauty Queen/Horses:
       Blood Roses:
       Father Lucifer:
@@ -376,9 +372,10 @@ Tori Amos:
       Doughnut Song:
       Putting the Damage On:
       Twinkle:
+      =:
+         rel: 1996
+         white: yes
    Under the Pink:
-      <rel: 1994
-      <white: yes
       Pretty Good Year: no
       God: no
       Bells for Her: yes
@@ -391,9 +388,10 @@ Tori Amos:
       Cloud on My Tongue: no
       Space Dog: no
       Yes, Anastasia: no
+      =:
+         rel: 1994
+         white: yes
    Little Earthquakes:
-      <rel: 1992
-      <white: yes
       Crucify: no
       Girl:
       Silent All These Years:
@@ -406,14 +404,15 @@ Tori Amos:
       Tear in Your Hand:
       Me and a Gun:
       Little Earthquakes:
+      =:
+         rel: 1992
+         white: yes
+   =:
+      Enjoy the Silence:
+         flow: 215,070
+         link: https://youtu.be/_gZzkGvyqzc
 Toro y Moi:
-   <low:
-      Freelance:
-         <flow: 4,402,441
-         <link: https://youtu.be/Jm6hDWBZXc4
    Boo Boo:
-      <rel: 2017
-      <flow: low
       Mirage: yes
       No Show: yes
       Mona Lisa:
@@ -426,9 +425,10 @@ Toro y Moi:
       Labyrinth:
       Inside My Head:
       W.I.W.W.T.W.:
+      =:
+         rel: 2017
+         white: yes
    What For?:
-      <rel: 2015
-      <flow: low
       What You Want: no
       Buffalo: no
       The Flight: no
@@ -439,9 +439,10 @@ Toro y Moi:
       Half Dome:
       Run Baby Run: len
       Yeah Right:
+      =:
+         rel: 2015
+         white: yes
    Anything in Return:
-      <rel: 2013
-      <flow: low
       Harm in Change:
       Say That: yes
       So Many Details: yes
@@ -455,9 +456,10 @@ Toro y Moi:
       Day One:
       Never Matter:
       How’s It Wrong:
+      =:
+         rel: 2013
+         white: yes
    Underneath the Pine:
-      <rel: 2011
-      <flow: low
       Intro / Chi Chi: len
       New Beat: no
       Go With You: no
@@ -469,11 +471,15 @@ Toro y Moi:
       Still Sound:
       Good Hold: len
       Elise:
+      =:
+         rel: 2011
+         white: yes
+   =:
+      Freelance:
+         flow: 4,402,441
+         link: https://youtu.be/Jm6hDWBZXc4
 Tosca:
    Dehli9:
-      <<: &low
-         <flow: 292,526
-         <link: https://youtu.be/mNk9cbJqtjs
       Oscar: yes
       Me & Yoko Ono:
       Gute Laune:
@@ -496,8 +502,10 @@ Tosca:
       Ping (Session 10):
       2504 / 1 (Session 11):
       Piano 1 (Session 12):
+      =:
+         rel: 2003
+         white: yes
    Suzuki:
-      <white: yes
       Pearl In: len
       Suzuki:
       Annanas:
@@ -510,6 +518,13 @@ Tosca:
       The Key:
       Doris Dub:
       Pearl Off:
+      =:
+         rel: 2000
+         white: yes
+   =:
+      Suzuki:
+         flow: 289,417
+         link: https://youtu.be/mNk9cbJqtjs
 Tricky:
    Maxinquaye:
       <rel: 1995
@@ -549,7 +564,7 @@ Tycho:
          <link: https://youtu.be/mehLx_Fjv_c
    Epoch:
       <rel: 2016
-      <flow: low
+      <white: yes
       Glider: no
       Horizon: no
       Slack: no
@@ -563,7 +578,7 @@ Tycho:
       Field: len
    Awake:
       <rel: 2014
-      <flow: low
+      <white: yes
       Awake: yes
       Montana:
       L:
@@ -574,7 +589,7 @@ Tycho:
       Plains:
    Dive:
       <rel: 2011
-      <flow: low
+      <white: yes
       A Walk: no
       Hours: no
       Daydream: yes
@@ -587,7 +602,7 @@ Tycho:
       Elegy: yes
    Past Is Prologue / Sunrise Projector:
       <rel: 2006
-      <flow: low
+      <white: yes
       A Circular Reeducation: yes
       Brother: len
       Cloud Generator: yes
@@ -604,7 +619,7 @@ Tycho:
       The Disconnect: no
    The Science of Patterns:
       <rel: 2002
-      <flow: low
+      <white: yes
       Dream as a Memory: no
       Human Condition: no
       Red Bridge: no
