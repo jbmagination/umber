@@ -108,10 +108,6 @@ U2:
          link: https://youtu.be/LHcP4MWABGY
 Ulrich Schnauss:
    Synthwaves:
-      <rel: 2017
-      <<: &low
-         <flow: 61,568
-         <link: https://youtu.be/yLNM-rJi1mM
       Main Theme:
       Rain on Dry Concrete:
       Slow Life: yes
@@ -120,9 +116,10 @@ Ulrich Schnauss:
       Thirst: yes
       Flare:
       Prism:
+      =:
+         rel: 2017
+         white: yes
    Passage:
-      <rel: 2017
-      <white: yes
       Amaris: no
       Genau Wie Damals: no
       Anywhere but Here: yes
@@ -134,23 +131,24 @@ Ulrich Schnauss:
       Caffeine Blues: no
       Intervention Måne: len
       Coastal Path: yes
+      =:
+         rel: 2017
+         white: yes
    No Further Ahead Than Today:
-      <rel: 2016
+      rel: 2016
    Tomorrow Is Another Day:
-      <rel: 2013
+      rel: 2013
    A Long Way to Fall:
-      <rel: 2013
+      rel: 2013
    Underrated Silence:
-      <rel: 2012
+      rel: 2012
    Ulrich Schnauss & Jonas Munk:
-      <rel: 2011
+      rel: 2011
    Frozen in Time:
-      <rel: 2011
+      rel: 2011
    Epic:
-      <rel: 2010
+      rel: 2010
    Goodbye:
-      <rel: 2007
-      <white: yes
       Never Be the Same: no
       Shine: no
       Stars: no
@@ -161,9 +159,10 @@ Ulrich Schnauss:
       Medusa: no
       Goodbye: yes
       For Good: no
+      =:
+         rel: 2007
+         white: yes
    Far Away Trains Passing By:
-      <rel: 2005
-      <white: yes
       Knuddelmaus: no
       Between Us and Them: no
       Passing By: no
@@ -176,9 +175,10 @@ Ulrich Schnauss:
       As If You’ve Never Been Away:
       Crazy for You:
       Wherever You Are:
+      =:
+         rel: 2005
+         white: yes
    A Strangely Isolated Place:
-      <rel: 2003
-      <white: yes
       Gone Forever: no
       On My Own: no
       A Letter From Home: no
@@ -187,12 +187,15 @@ Ulrich Schnauss:
       Blumenthal:
       In All the Wrong Places:
       A Strangely Isolated Place:
+      =:
+         rel: 2003
+         white: yes
+   =:
+      Goodbye:
+         flow: 60,659
+         link: https://youtu.be/yLNM-rJi1mM
 Underworld:
    A Hundred Days Off:
-      <rel: 2002
-      <<: &low
-         <flow: 1,501,433
-         <link: https://youtu.be/TlLWFa1b1Bc
       Mo Move: no
       Two Months Off: yes
       Twist:
@@ -203,9 +206,10 @@ Underworld:
       Dinosaur Adventure 3D:
       Ballet Lane:
       Luetin:
+      =:
+         rel: 2002
+         white: yes
    Beaucoup Fish:
-      <rel: 1999
-      <white: yes
       Cups: no
       Push Upstairs: no
       Jumbo: no
@@ -217,9 +221,10 @@ Underworld:
       Push Downstairs:
       Something Like a Mama:
       Moaner:
+      =:
+         rel: 1999
+         white: yes
    Second Toughest in the Infants:
-      <rel: 1996
-      <white: yes
       Juanita / Kiteless / To Dream of Love: no
       Banstyle / Sappys Curry: no
       Confusion the Waitress: no
@@ -228,9 +233,10 @@ Underworld:
       Air Towel: no
       Blueski: len
       Stagger: yes
+      =:
+         rel: 1996
+         white: yes
    Dubnobasswithmyheadman:
-      <rel: 1993
-      <white: yes
       Dark & Long: yes
       Mmm Skyscraper I Love You:
       Surfboy: no
@@ -240,9 +246,10 @@ Underworld:
       Cowgirl:
       River of Bass:
       M.E.:
+      =:
+         rel: 1993
+         white: yes
    Change the Weather:
-      <rel: 1988
-      <white: yes
       Change the Weather: no
       Stand Up: no
       Fever: no
@@ -253,10 +260,15 @@ Underworld:
       Thrash:
       Sole Survivor:
       Beach: len
+      =:
+         rel: 1988
+         white: yes
+   =:
+      Born Slippy:
+         flow: 1,457,850
+         link: https://youtu.be/TlLWFa1b1Bc
 Us3:
    Hand on the Torch:
-      <flow: 774,491
-      <link: https://youtu.be/JwBjhBL9G6U
       Cantaloop (Flip Fantasia): yes
       I Got It Goin’ On:
       Different Rhythms Different People: len
@@ -270,42 +282,50 @@ Us3:
       Eleven Long Years:
       Make Tracks:
       The Darkside:
+      =:
+         white: yes
+   =:
+      Cantaloop:
+         flow: 822,480
+         link: https://youtu.be/JwBjhBL9G6U
 Usher:
-   “A”:
-      <rel: 2018
-   Hard II Love:
-      <rel: 2016
    Looking 4 Myself:
-      <rel: 2012
-      <flow: 11,441,786
-      <link: https://youtu.be/nNTyfVh3nmU
       Climax:
+      =:
+         rel: 2012
+         white: no
    Versus:
-      <rel: 2010
+      rel: 2010
    Raymond v. Raymond:
-      <rel: 2010
+      rel: 2010
    Here I Stand:
-      <rel: 2008
+      rel: 2008
    You Make Me Wanna:
-      <rel: 2004
+      rel: 2004
    Sex Appeal:
-      <rel: 2004
+      rel: 2004
    Confessions:
-      <rel: 2004
-      <flow: 67,359,945
-      <link: https://youtu.be/GxBSyx85Kp8
       Burn:
       Confessions, Pt. II:
       Yeah!:
+      =:
+         rel: 2004
+         white: no
    8701:
-      <rel: 2001
-      <flow: 19,764,570
-      <link: https://youtu.be/o3IWTfcks4k
       U Got It Bad:
-   My Way:
-      <rel: 1997
-   Usher:
-      <rel: 1994
+      =:
+         rel: 2001
+         white: no
+   =:
+      Climax:
+         flow: 11,119,074
+         link: https://youtu.be/nNTyfVh3nmU
+      U Got It Bad:
+         flow: 20,097,223
+         link: https://youtu.be/o3IWTfcks4k
+      Yeah!:
+         flow: 73,694,050
+         link: https://youtu.be/GxBSyx85Kp8
 Van Halen:
    Van Halen:
       <flow: 4,541,679
