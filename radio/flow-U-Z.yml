@@ -540,10 +540,24 @@ Yeah Yeah Yeahs:
          flow: 5,403,883
          link: https://youtu.be/oIIxlgcuQRU
 Yes:
+   90125:
+      Owner of a Lonely Heart:
+      =:
+         rel: 1983
+         white: yes
+   Drama:
+      rel: 1980
+   Tormato:
+      rel: 1978
+   Going for the One:
+      rel: 1977
+   Relayer:
+      rel: 1974
+   Tales From Topographic Oceans:
+      rel: 1973
+   Close to the Edge:
+      rel: 1972
    Fragile:
-      <rel: 1971
-      <flow: 2,091,646
-      <link: https://youtu.be/SVOuYquXuuc
       Roundabout: yes
       Cans and Brahms: len
       We Have Heaven: len
@@ -553,11 +567,15 @@ Yes:
       The Fish (Schindleria Praematurus): len
       Mood for a Day:
       Heart of the Sunrise / We Have Heaven (reprise):
+      =:
+         rel: 1971
+         white: yes
+   =:
+      Owner of a Lonely Heart:
+         flow: 2,105,831
+         link: https://youtu.be/SVOuYquXuuc
 You Say Party:
    XXXX:
-      <rel: 2010
-      <flow: 50,305
-      <link: https://youtu.be/-IQKsrXDHrg
       There Is XXXX (Within My Heart):
       Glory: len
       Dark Days: yes
@@ -568,18 +586,36 @@ You Say Party:
       She’s Spoken For:
       XXXX/Loyalty:
       Heart of Gold:
+      =:
+         rel: 2010
+         white: yes
+   Lose All Time:
+      Monster:
+      =:
+         rel: 2007
+         white: yes
+   =:
+      Monster:
+         flow: 49,486
+         link: https://youtu.be/-IQKsrXDHrg
 Yppah:
+   Eighty One:
+      Never Mess With Sunday:
+      =:
+         rel: 2012
+         white: yes
+   They Know What Ghost Know:
+      rel: 2009
    Gumball Machine Weekend:
-      <<: &low
-         <flow: 90,286
-         <link: https://youtu.be/NqfAj1C7rPc
       Gumball Machine Weekend:
       Shutter Speed: yes
       They Know What Ghost Know:
       Gumball Machine Weekend (Pollination Remix):
       The Drag:
+      =:
+         rel: 2009
+         white: yes
    You Are Beautiful at All Times:
-      <white: yes
       Ending With You: no
       I’ll Hit the Breaks: no
       Again With the Subtitles: len
@@ -592,6 +628,13 @@ Yppah:
       Cannot See Straight: yes
       It’s Not the Same: len
       Longtime: no
+      =:
+         rel: 2006
+         white: yes
+   =:
+      Never Mess With Sunday:
+         flow: 93,586
+         link: https://youtu.be/NqfAj1C7rPc
 Zero 7:
    Yeah Ghost:
       <rel: 2009
