@@ -346,37 +346,6 @@ Van Halen:
          flow: 5,659,609
          link: https://youtu.be/SwYN7mTi6HM
 Van Morrison:
-   Poetic Champions Compose:
-      Someone Like You:
-      =:
-         rel: 1987
-         white: yes
-   No Guru, No Method, No Teacher:
-      rel: 1986
-   A Sense of Wonder:
-      rel: 1984
-   Inarticulate Speech of the Heart:
-      rel: 1983
-   Beautiful Vision:
-      rel: 1982
-   Common One:
-      rel: 1980
-   Into the Music:
-      rel: 1979
-   Wavelength:
-      rel: 1978
-   A Period of Transition:
-      rel: 1977
-   Veedon Fleece:
-      rel: 1974
-   Hard Nose the Highway:
-      rel: 1973
-   Saint Dominic’s Preview:
-      rel: 1972
-   Tupelo Honey:
-      rel: 1971
-   His Band and the Street Choir:
-      rel: 1970
    Moondance:
       And It Stoned Me:
       Moondance: yes
@@ -417,18 +386,24 @@ Van Morrison:
          link: https://youtu.be/UfmkgQRmmeE
 Warren G:
    Regulate... G Funk Era:
-      <flow: 18,226,663
-      <link: https://youtu.be/1plPyJdXKIY
       Regulate:
+      =:
+         white: no
+   =:
+      Regulate:
+         flow: 19,524,457
+         link: https://youtu.be/1plPyJdXKIY
 Weezer:
    Weezer (blue album):
-      <flow: 8,220,678
-      <link: https://youtu.be/ENXvZ9YRjbo
       Say It Ain’t So:
+      =:
+         white: no
+   =:
+      Say It Ain’t So:
+         flow: 8,507,855
+         link: https://youtu.be/ENXvZ9YRjbo
 Wilco:
    The Whole Love:
-      <flow: 256,564
-      <link: https://youtu.be/USjuOWLyWIQ
       Art of Almost:
       I Might:
       Sunloathe:
@@ -441,24 +416,24 @@ Wilco:
       Rising Red Lung:
       Whole Love:
       One Sunday Morning:
+      =:
+         white: yes
+   =:
+      you and i:
+         flow: 254,287
+         link: https://youtu.be/USjuOWLyWIQ
 Will Smith:
-   Lost and Found:
-      <rel: 2005
-   Born to Reign:
-      <rel: 2002
-   Willennium:
-      <rel: 1999
    Big Willie Style:
-      <rel: 1997
-      <flow: 6,208,236
-      <link: https://youtu.be/3JcmQONgXJM
       Gettin’ Jiggy Wit It:
+      =:
+         rel: 1997
+         white: no
+   =:
+      Gettin’ Jiggy Wit It:
+         flow: 6,326,024
+         link: https://youtu.be/3JcmQONgXJM
 Wye Oak:
    Civilian:
-      <rel: 2011
-      <<: &low
-         <flow: 1,087,111
-         <link: https://youtu.be/Mssm8Ml5sOo
       Two Small Deaths:
       The Alter:
       Holy Holy:
@@ -469,9 +444,10 @@ Wye Oak:
       Hot as Day:
       We Were Wealth:
       Doubt: len
+      =:
+         rel: 2011
+         white: yes
    The Knot:
-      <rel: 2009
-      <white: yes
       Milk and Honey: len
       For Prayer:
       Take It In:
@@ -482,6 +458,13 @@ Wye Oak:
       I Want for Nothing:
       That I Do:
       Sight, Flight:
+      =:
+         rel: 2009
+         white: yes
+   =:
+      Civilian:
+         flow: 1,076,903
+         link: https://youtu.be/Mssm8Ml5sOo
 Yeah Yeah Yeahs:
    Fever to Tell:
       <<: &low
