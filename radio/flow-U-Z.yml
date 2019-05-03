@@ -1,55 +1,49 @@
 U2:
    Songs of Experience:
-      <date: 2017
-      <flow: 9,436,108
-      <link: https://youtu.be/XC3ahd6Di3M
       Ordinary Love:
       You’re the Best Thing About Me:
+      =:
+         rel: 2017
+         white: no
    Songs of Innocence:
-      <date: 2014
+      rel: 2014
    No Line on the Horizon:
-      <date: 2009
+      rel: 2009
    How to Dismantle an Atomic Bomb:
-      <date: 2004
+      rel: 2004
    All That You Can’t Leave Behind:
-      <date: 2000
-      <flow: 13,487,759
-      <link: https://youtu.be/co6WMzDOh1o
       Beautiful Day:
       Stuck in a Moment You Can’t Get Out Of:
+      =:
+         rel: 2000
+         white: no
    Pop:
-      <date: 1997
-   Pop:
-      <date: 1997
+      rel: 1997
    Zooropa:
-      <date: 1993
+      rel: 1993
    Achtung Baby:
-      <date: 1991
-      <flow: 10,505,119
-      <link: https://youtu.be/ZpDQJnI4OhU
       One:
+      =:
+         rel: 1991
+         white: no
    Rattle and Hum:
-      <date: 1988
+      rel: 1988
    The Joshua Tree:
-      <date: 1987
-      <flow: 14,353,383
-      <link: https://youtu.be/e3-5YC_oHjE
       I Still Haven’t Found What I’m Looking For:
       In God’s Country:
       Sweetest Thing:
       Where the Streets Have No Name:
       With Or Without You:
+      =:
+         rel: 1987
+         white: no
    The Unforgettable Fire:
-      <date: 1984
-      <flow: 7,114,883
-      <link: https://youtu.be/LHcP4MWABGY
       Bad:
       Pride:
+      =:
+         rel: 1984
+         white: no
    War:
-      <date: 1983
-      <<: &low
-         <flow: 1,308,362
-         <link: https://youtu.be/vdLuk2Agamk
       Sunday Bloody Sunday:
       Seconds:
       New Year’s Day: yes
@@ -60,9 +54,10 @@ U2:
       Red Light:
       Surrender:
       40: len
+      =:
+         rel: 1983
+         white: yes
    October:
-      <date: 1981
-      <<: *low
       Gloria:
       I Fall Down:
       I Threw a Brick Through a Window:
@@ -74,9 +69,10 @@ U2:
       Stranger in a Strange Land:
       Scarlet: len
       Is That All?: len
+      =:
+         rel: 1981
+         white: yes
    Boy:
-      <date: 1980
-      <<: *low
       I Will Follow: yes
       Twilight:
       An Cat Dubh:
@@ -88,9 +84,31 @@ U2:
       Another Time, Another Place:
       The Electric Co.:
       Shadows and Tall Trees:
+      =:
+         rel: 1980
+         white: yes
+   =:
+      Beautiful Day:
+         flow: 13,389,398
+         link: https://youtu.be/co6WMzDOh1o
+      I Still Haven’t Found What I’m Looking For:
+         flow: 14,605,782
+         link: https://youtu.be/e3-5YC_oHjE
+      New Year’s Day:
+         flow: 1,904,620
+         link: https://youtu.be/vdLuk2Agamk
+      One:
+         flow: 11,486,273
+         link: https://youtu.be/ZpDQJnI4OhU
+      Ordinary Love:
+         flow: 8,936,989
+         link: https://youtu.be/XC3ahd6Di3M
+      Pride:
+         flow: 7,268,862
+         link: https://youtu.be/LHcP4MWABGY
 Ulrich Schnauss:
    Synthwaves:
-      <date: 2017
+      <rel: 2017
       <<: &low
          <flow: 61,568
          <link: https://youtu.be/yLNM-rJi1mM
@@ -103,8 +121,8 @@ Ulrich Schnauss:
       Flare:
       Prism:
    Passage:
-      <date: 2017
-      <<: *low
+      <rel: 2017
+      <white: yes
       Amaris: no
       Genau Wie Damals: no
       Anywhere but Here: yes
@@ -117,22 +135,22 @@ Ulrich Schnauss:
       Intervention Måne: len
       Coastal Path: yes
    No Further Ahead Than Today:
-      <date: 2016
+      <rel: 2016
    Tomorrow Is Another Day:
-      <date: 2013
+      <rel: 2013
    A Long Way to Fall:
-      <date: 2013
+      <rel: 2013
    Underrated Silence:
-      <date: 2012
+      <rel: 2012
    Ulrich Schnauss & Jonas Munk:
-      <date: 2011
+      <rel: 2011
    Frozen in Time:
-      <date: 2011
+      <rel: 2011
    Epic:
-      <date: 2010
+      <rel: 2010
    Goodbye:
-      <date: 2007
-      <<: *low
+      <rel: 2007
+      <white: yes
       Never Be the Same: no
       Shine: no
       Stars: no
@@ -144,8 +162,8 @@ Ulrich Schnauss:
       Goodbye: yes
       For Good: no
    Far Away Trains Passing By:
-      <date: 2005
-      <<: *low
+      <rel: 2005
+      <white: yes
       Knuddelmaus: no
       Between Us and Them: no
       Passing By: no
@@ -159,8 +177,8 @@ Ulrich Schnauss:
       Crazy for You:
       Wherever You Are:
    A Strangely Isolated Place:
-      <date: 2003
-      <<: *low
+      <rel: 2003
+      <white: yes
       Gone Forever: no
       On My Own: no
       A Letter From Home: no
@@ -171,7 +189,7 @@ Ulrich Schnauss:
       A Strangely Isolated Place:
 Underworld:
    A Hundred Days Off:
-      <date: 2002
+      <rel: 2002
       <<: &low
          <flow: 1,501,433
          <link: https://youtu.be/TlLWFa1b1Bc
@@ -186,8 +204,8 @@ Underworld:
       Ballet Lane:
       Luetin:
    Beaucoup Fish:
-      <date: 1999
-      <<: *low
+      <rel: 1999
+      <white: yes
       Cups: no
       Push Upstairs: no
       Jumbo: no
@@ -200,8 +218,8 @@ Underworld:
       Something Like a Mama:
       Moaner:
    Second Toughest in the Infants:
-      <date: 1996
-      <<: *low
+      <rel: 1996
+      <white: yes
       Juanita / Kiteless / To Dream of Love: no
       Banstyle / Sappys Curry: no
       Confusion the Waitress: no
@@ -211,8 +229,8 @@ Underworld:
       Blueski: len
       Stagger: yes
    Dubnobasswithmyheadman:
-      <date: 1993
-      <<: *low
+      <rel: 1993
+      <white: yes
       Dark & Long: yes
       Mmm Skyscraper I Love You:
       Surfboy: no
@@ -223,8 +241,8 @@ Underworld:
       River of Bass:
       M.E.:
    Change the Weather:
-      <date: 1988
-      <<: *low
+      <rel: 1988
+      <white: yes
       Change the Weather: no
       Stand Up: no
       Fever: no
@@ -254,40 +272,40 @@ Us3:
       The Darkside:
 Usher:
    “A”:
-      <date: 2018
+      <rel: 2018
    Hard II Love:
-      <date: 2016
+      <rel: 2016
    Looking 4 Myself:
-      <date: 2012
+      <rel: 2012
       <flow: 11,441,786
       <link: https://youtu.be/nNTyfVh3nmU
       Climax:
    Versus:
-      <date: 2010
+      <rel: 2010
    Raymond v. Raymond:
-      <date: 2010
+      <rel: 2010
    Here I Stand:
-      <date: 2008
+      <rel: 2008
    You Make Me Wanna:
-      <date: 2004
+      <rel: 2004
    Sex Appeal:
-      <date: 2004
+      <rel: 2004
    Confessions:
-      <date: 2004
+      <rel: 2004
       <flow: 67,359,945
       <link: https://youtu.be/GxBSyx85Kp8
       Burn:
       Confessions, Pt. II:
       Yeah!:
    8701:
-      <date: 2001
+      <rel: 2001
       <flow: 19,764,570
       <link: https://youtu.be/o3IWTfcks4k
       U Got It Bad:
    My Way:
-      <date: 1997
+      <rel: 1997
    Usher:
-      <date: 1994
+      <rel: 1994
 Van Halen:
    Van Halen:
       <flow: 4,541,679
@@ -317,7 +335,7 @@ Van Morrison:
       Ballerina:
       Slim Slow Slider: yes
    Moondance:
-      <<: *low
+      <white: yes
       And It Stoned Me:
       Moondance: yes
       Crazy Love: len
@@ -356,19 +374,19 @@ Wilco:
       One Sunday Morning:
 Will Smith:
    Lost and Found:
-      <date: 2005
+      <rel: 2005
    Born to Reign:
-      <date: 2002
+      <rel: 2002
    Willennium:
-      <date: 1999
+      <rel: 1999
    Big Willie Style:
-      <date: 1997
+      <rel: 1997
       <flow: 6,208,236
       <link: https://youtu.be/3JcmQONgXJM
       Gettin’ Jiggy Wit It:
 Wye Oak:
    Civilian:
-      <date: 2011
+      <rel: 2011
       <<: &low
          <flow: 1,087,111
          <link: https://youtu.be/Mssm8Ml5sOo
@@ -383,8 +401,8 @@ Wye Oak:
       We Were Wealth:
       Doubt: len
    The Knot:
-      <date: 2009
-      <<: *low
+      <rel: 2009
+      <white: yes
       Milk and Honey: len
       For Prayer:
       Take It In:
@@ -416,7 +434,7 @@ Yeah Yeah Yeahs:
       <link: https://youtu.be/or3U2rXxvQw
       Heads Will Roll:
    Show Your Bones:
-      <<: *low
+      <white: yes
       Gold Lion:
       Way Out: len
       Fancy:
@@ -430,7 +448,7 @@ Yeah Yeah Yeahs:
       Turn Into:
 Yes:
    Fragile:
-      <date: 1971
+      <rel: 1971
       <flow: 2,091,646
       <link: https://youtu.be/SVOuYquXuuc
       Roundabout: yes
@@ -444,7 +462,7 @@ Yes:
       Heart of the Sunrise / We Have Heaven (reprise):
 You Say Party:
    XXXX:
-      <date: 2010
+      <rel: 2010
       <flow: 50,305
       <link: https://youtu.be/-IQKsrXDHrg
       There Is XXXX (Within My Heart):
@@ -468,7 +486,7 @@ Yppah:
       Gumball Machine Weekend (Pollination Remix):
       The Drag:
    You Are Beautiful at All Times:
-      <<: *low
+      <white: yes
       Ending With You: no
       I’ll Hit the Breaks: no
       Again With the Subtitles: len
@@ -483,7 +501,7 @@ Yppah:
       Longtime: no
 Zero 7:
    Yeah Ghost:
-      <date: 2009
+      <rel: 2009
       <<: &low
          <flow: 544,309
          <link: https://youtu.be/INn1C6ImJKg
@@ -499,8 +517,8 @@ Zero 7:
       The Road:
       All of Us:
    The Garden:
-      <date: 2006
-      <<: *low
+      <rel: 2006
+      <white: yes
       Futures:
       Throw It All Away: yes
       Seeing Things:
@@ -514,8 +532,8 @@ Zero 7:
       Crosses: yes
       Waiting to Die:
    When It Falls:
-      <date: 2004
-      <<: *low
+      <rel: 2004
+      <white: yes
       Warm Sound:
       Home:
       Somersault:
@@ -528,8 +546,8 @@ Zero 7:
       In Time:
       Morning Song:
    Simple Things:
-      <date: 2001
-      <<: *low
+      <rel: 2001
+      <white: yes
       I Have Seen: no
       Polaris: yes
       Destiny: yes

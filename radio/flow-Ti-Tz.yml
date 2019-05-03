@@ -527,9 +527,6 @@ Tosca:
          link: https://youtu.be/mNk9cbJqtjs
 Tricky:
    Maxinquaye:
-      <rel: 1995
-      <flow: 662,037
-      <link: https://youtu.be/E3R_3h6zQEs
       Overcome: no
       Ponderosa: no
       Black Steel: no
@@ -542,10 +539,15 @@ Tricky:
       You Don’t:
       Strugglin’:
       Feed Me:
+      =:
+         rel: 1995
+         white: yes
+   =:
+      Hell Is Round the Corner:
+         flow: 661,976
+         link: https://youtu.be/E3R_3h6zQEs
 TV on the Radio:
    Dear Science:
-      <flow: 609,864
-      <link: https://youtu.be/j1-xRk6llh4
       Halfway Home:
       Crying:
       Dancing Choose: len
@@ -557,14 +559,14 @@ TV on the Radio:
       Shout Me Out:
       DLZ: yes
       Lover’s Day:
+      =:
+         white: yes
+   =:
+      Wolf Like Me:
+         flow: 613,197
+         link: https://youtu.be/j1-xRk6llh4
 Tycho:
-   <low:
-      A Walk:
-         <flow: 2,862,988
-         <link: https://youtu.be/mehLx_Fjv_c
    Epoch:
-      <rel: 2016
-      <white: yes
       Glider: no
       Horizon: no
       Slack: no
@@ -576,9 +578,10 @@ Tycho:
       Rings:
       Continuum: len
       Field: len
+      =:
+         rel: 2016
+         white: yes
    Awake:
-      <rel: 2014
-      <white: yes
       Awake: yes
       Montana:
       L:
@@ -587,9 +590,10 @@ Tycho:
       Apogee:
       Spectre:
       Plains:
+      =:
+         rel: 2014
+         white: yes
    Dive:
-      <rel: 2011
-      <white: yes
       A Walk: no
       Hours: no
       Daydream: yes
@@ -600,9 +604,10 @@ Tycho:
       Adrift:
       Epigram: len
       Elegy: yes
+      =:
+         rel: 2011
+         white: yes
    Past Is Prologue / Sunrise Projector:
-      <rel: 2006
-      <white: yes
       A Circular Reeducation: yes
       Brother: len
       Cloud Generator: yes
@@ -617,11 +622,19 @@ Tycho:
       Sunrise Calendar: no
       Sunrise Projector: no
       The Disconnect: no
+      =:
+         rel: 2006
+         white: yes
    The Science of Patterns:
-      <rel: 2002
-      <white: yes
       Dream as a Memory: no
       Human Condition: no
       Red Bridge: no
       Systems: yes
       In the End: no
+      =:
+         rel: 2002
+         white: yes
+   =:
+      A Walk:
+         flow: 2,862,988
+         link: https://youtu.be/mehLx_Fjv_c
