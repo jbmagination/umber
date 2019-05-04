@@ -12,12 +12,18 @@ var dh = [
 
 /* need variable so that we remove only old elements */
 var fk = cb('video');
+
 new Set(cb(dh.join()).map(ae => ae.href || ae.src)).forEach(ae => {
-   var np = document.createElement('p');
-   var oq = document.createElement('video');
-   oq.controls = oq.style.width = '600px';
-   np.textContent = oq.src = ae;
-   document.body.prepend(np, oq);
+   var e_fu = document.createElement('figure');
+   var e_v = document.createElement('video');
+   var e_fc = document.createElement('figcaption');
+
+   e_v.controls = e_v.style.width = '600px';
+   e_v.src = e_fc.textContent = ae;
+   e_fu.style.margin = '16px';
+
+   e_fu.append(e_v, e_fc);
+   document.body.prepend(e_fu);
 });
 
 fk.forEach(ae => ae.remove());
