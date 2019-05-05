@@ -7,10 +7,14 @@
    },
    "commands": {
       "windows": {
-         "suggested_key": {"default": "MediaPlayPause"}
+         "suggested_key": {
+            "default": "MediaPlayPause"
+         }
       },
       "mac": {
-         "suggested_key": {"default": "F8"}
+         "suggested_key": {
+            "default": "F8"
+         }
       }
    },
    "content_scripts": [{
