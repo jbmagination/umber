@@ -1,6 +1,6 @@
 'use strict';
 /* needs to work in playlist view */
-var vdeo = 'y/' + document.querySelector('[itemprop="videoId"]').content;
+var vdeo = 'y/' + ytplayer.config.args.video_id;
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
 var dscr = document.getElementById('eow-description').innerText;
