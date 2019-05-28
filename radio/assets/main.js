@@ -3,7 +3,7 @@
 function slug(txt) {
    // slug is not required, but it will allow for history search
    return [
-      [/\b(to|the) /gi, ''],
+      [/\b(of|the|to) /gi, ''],
       [/ ?[&,-] /g, '-'],
       [/[ /]/g, '-'],
       [/[%().]/g, '']
