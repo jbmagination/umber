@@ -6,7 +6,7 @@ function slug(txt) {
       [/\b(of|the|to) /gi, ''],
       [/ ?[&,-] /g, '-'],
       [/[ /]/g, '-'],
-      [/[%().]/g, '']
+      [/[%().’]/g, '']
    ].reduce((af, bd) => af.replace(...bd), txt).toLowerCase();
 }
 
