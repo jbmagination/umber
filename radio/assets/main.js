@@ -38,8 +38,10 @@ function fgr(vdeo) {
       // we need the trailing slash to maintain HTTPS
       url = new URL('/umber/listen/', location);
       url.searchParams.set('v', vdeo[0]);
+
       e_i.src = 'https://github.com/cup/umber/releases/download/' +
       attr.shift() + '/image.jpg';
+
       break;
    case 's':
       url = new URL('https://w.soundcloud.com/player');
@@ -52,24 +54,29 @@ function fgr(vdeo) {
       // these are not required, but it looks nicer
       url.searchParams.set('show_comments', false);
       url.searchParams.set('visual', true);
-      e_i.src = 'https://i1.sndcdn.com/artworks-' +
-      attr.shift() + '-t500x500.jpg';
+
+      e_i.src = 'https://i1.sndcdn.com/artworks-' + attr.shift() +
+      '-t500x500.jpg';
+
       break;
    case 'v':
       // player.vimeo.com/video/101914072: this video cannot be played here
       url = new URL('https://vimeo.com/' + attr.shift());
       url.hash = slug(vdeo[3]);
       url.searchParams.set('autoplay', 1);
-      e_i.src = 'https://i.vimeocdn.com/video/' +
-      attr.shift() + '_1280x720.jpg';
+
+      e_i.src = 'https://i.vimeocdn.com/video/' + attr.shift() +
+      '_1280x720.jpg';
+
       break;
    case 'y':
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       url = new URL('https://www.youtube.com/watch');
       url.searchParams.set('v', attr.shift());
       url.hash = slug(vdeo[3]);
-      e_i.src = 'https://i.ytimg.com/vi/' +
-      url.searchParams.get('v') + '/sd1.jpg';
+
+      e_i.src = 'https://i.ytimg.com/vi/' + url.searchParams.get('v') +
+      '/sd1.jpg';
    }
 
    if (attr.length) {
@@ -78,17 +85,20 @@ function fgr(vdeo) {
    else {
       e_d1.className = 'rect';
    }
+
    e_a.href = url.href;
    e_d2.textContent = vdeo[3];
-   e_fc.textContent = 'released ' + vdeo[1] + ' - posted ' +
-      new Date(vdeo[0] * 1000).toDateString();
+
+   e_fc.textContent = 'released ' + vdeo[1] +
+   ' - posted ' + new Date(vdeo[0] * 1000).toDateString();
+
    e_d1.append(e_i);
    e_a.append(e_d1, e_d2);
    e_fu.append(e_a, e_fc);
    return e_fu;
 }
 
-async function main() {
+(async () => {
    let step = 12;
    let spar = new URLSearchParams(location.search);
    let query = spar.get('q') || '';
@@ -97,12 +107,11 @@ async function main() {
    let end = begin + step;
 
    // both sides of the test can contain uppercase on mobile
-   let result = (await (
-      await fetch('/umber/radio/assets/data.json')
-   ).json()).filter(af => RegExp(query, 'i').test(af[1] + af[3]));
-   document.getElementById('figures').append(
-      ...result.slice(begin, end).map(af => fgr(af))
-   );
+   let result = (await (await fetch('/umber/radio/assets/data.json')).json())
+   .filter(af => RegExp(query, 'i').test(af[1] + af[3]));
+
+   document.getElementById('figures')
+   .append(...result.slice(begin, end).map(af => fgr(af)));
 
    if (result[end]) {
       spar.set('p', page + 1);
@@ -119,7 +128,4 @@ async function main() {
       spar.set('p', page - 1);
       document.getElementById('newer').href = '?' + spar;
    }
-
-}
-
-main();
+})();

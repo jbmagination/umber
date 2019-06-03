@@ -15,7 +15,7 @@ function qo(z) {
    return document.querySelector(z);
 }
 
-async function main() {
+(async () => {
    let vdeo = qo('[itemprop="videoId"]').content;
    let ifrm = document.createElement('iframe');
    ifrm.src = 'embed/' + vdeo + '?autoplay=1';
@@ -24,15 +24,22 @@ async function main() {
    qo('#player-api').append(ifrm);
    qo('#player-unavailable').style.display = 'none';
    qo('#player').className = 'content-alignment watch-small';
+
    qo('#watch7-sidebar-modules').innerHTML =
-      '<ul id="watch-related" class="video-list"></ul>';
-   let afet = await fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vdeo);
+   '<ul id="watch-related" class="video-list"></ul>';
+
+   let afet = await
+   fetch('get_video_info?asv=3&eurl=https://.&video_id=' + vdeo);
+
    let url1 = new URLSearchParams(await afet.text());
+
    url1.get('rvs').split(',').forEach(z => {
       let url2 = new URLSearchParams(z);
+
       if (url2.get('list')) {
          return;
       }
+
       qo('ul#watch-related').innerHTML +=
       `<li class="video-list-item">
          <a href="watch?v=${url2.get('id')}">
@@ -45,6 +52,4 @@ async function main() {
          </a>
       </li>`;
    });
-}
-
-main();
+})();

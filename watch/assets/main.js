@@ -1,9 +1,10 @@
 'use strict';
 
-async function main() {
+(async () => {
    let spar = new URLSearchParams(location.search);
-   let furl = new URL('https://www.googleapis.com/youtube/v3/playlistItems');
+   let furl = new URL('https://www.googleapis.com/youtube/v3/search');
    furl.searchParams.set('maxResults', 50);
+   furl.searchParams.set('order', 'date');
    furl.searchParams.set('part', 'snippet');
    furl.searchParams.set('key', 'AIzaSyCrNB6t8QVxyjXpTSXwpWGCu-kR35Ba8JQ');
 
@@ -11,23 +12,24 @@ async function main() {
       furl.searchParams.set('pageToken', spar.get('t'));
    }
 
-   if (!spar.get('p')) {
+   if (!spar.get('c')) {
       return;
    }
 
-   furl.searchParams.set('playlistId', spar.get('p'));
-   document.getElementById('playlistId').value = spar.get('p');
+   furl.searchParams.set('channelId', spar.get('c'));
+   document.getElementById('channelId').value = spar.get('c');
    let pitm = await (await fetch(furl)).json();
    document.title = pitm.items[0].snippet.channelTitle + ' - Umber Watch';
+
    pitm.items.forEach(ab => {
       let e_fu = document.createElement('figure');
       let e_a = document.createElement('a');
       let e_i = document.createElement('img');
       let e_d = document.createElement('div');
       let e_fc = document.createElement('figcaption');
-      e_a.href = 'https://www.youtube.com/watch?v=' +
-         ab.snippet.resourceId.videoId;
+      e_a.href = 'https://www.youtube.com/watch?v=' + ab.id.videoId;
       e_i.src = ab.snippet.thumbnails.medium.url;
+
       // needs to cover &#39;
       e_d.innerHTML = ab.snippet.title;
       e_fc.textContent = new Date(ab.snippet.publishedAt).toDateString();
@@ -47,7 +49,4 @@ async function main() {
       document.getElementById('newer').href = '?' + spar;
       document.getElementById('newer').textContent = 'newer';
    }
-
-}
-
-main();
+})();
