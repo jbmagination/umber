@@ -1,26 +1,27 @@
 'use strict';
 
-function slug(txt) {
-   // slug is not required, but it will allow for history search
-   return [
-      [/\b(of|the|to) /gi, ''],
-      [/ ?[&,-] /g, '-'],
-      [/[ /]/g, '-'],
-      [/[%().’]/g, '']
-   ].reduce((af, bd) => af.replace(...bd), txt).toLowerCase();
-}
+const gei = bb => document.getElementById(bb);
 
-function fgr(vdeo) {
-   let e_fu = document.createElement('figure');
-   let e_a = document.createElement('a');
-   let e_d1 = document.createElement('div');
-   let e_i = document.createElement('img');
-   let e_d2 = document.createElement('div');
-   let e_fc = document.createElement('figcaption');
+// slug is not required, but it will allow for history search
+const slug = txt => {
+   return txt.replace(/ ?[&,-] /g, '-')
+   .replace(/[ /]/g, '-')
+   .replace(/[%().’]/g, '')
+   .replace(/\b(of|the|to) /gi, '')
+   .toLowerCase();
+};
+
+const fgr = vdeo => {
+   const e_fu = document.createElement('figure');
+   const e_a = document.createElement('a');
+   const e_d1 = document.createElement('div');
+   const e_i = document.createElement('img');
+   const e_d2 = document.createElement('div');
+   const e_fc = document.createElement('figcaption');
+   const attr = vdeo[2].split('/');
 
    // need this else we get SyntaxError: redeclaration of let url
-   let url, attr = vdeo[2].split('/');
-
+   let url;
    switch (attr.shift()) {
    case 'b':
       // case sensitive
@@ -96,36 +97,33 @@ function fgr(vdeo) {
    e_a.append(e_d1, e_d2);
    e_fu.append(e_a, e_fc);
    return e_fu;
+};
+
+const step = 12;
+const spar = new URLSearchParams(location.search);
+const query = spar.get('q') || '';
+const page = +spar.get('p') || 1;
+const begin = (page - 1) * step;
+const end = begin + step;
+
+if (page == 1) {
+   gei('newer').remove();
+}
+else {
+   spar.set('p', page - 1);
+   gei('newer').href = '?' + spar;
 }
 
-(async () => {
-   let step = 12;
-   let spar = new URLSearchParams(location.search);
-   let query = spar.get('q') || '';
-   let page = +spar.get('p') || 1;
-   let begin = (page - 1) * step;
-   let end = begin + step;
-
+fetch('/umber/radio/assets/data.json').then(aa => aa.json()).then(bb => {
    // both sides of the test can contain uppercase on mobile
-   let result = (await (await fetch('/umber/radio/assets/data.json')).json())
-   .filter(af => RegExp(query, 'i').test(af[1] + af[3]));
-
-   document.getElementById('figures')
-   .append(...result.slice(begin, end).map(af => fgr(af)));
+   const result = bb.filter(cc => RegExp(query, 'i').test(cc[1] + cc[3]));
+   gei('figures').append(...result.slice(begin, end).map(aa => fgr(aa)));
 
    if (result[end]) {
       spar.set('p', page + 1);
-      document.getElementById('older').href = '?' + spar;
+      gei('older').href = '?' + spar;
    }
    else {
-      document.getElementById('older').remove();
+      gei('older').remove();
    }
-
-   if (page == 1) {
-      document.getElementById('newer').remove();
-   }
-   else {
-      spar.set('p', page - 1);
-      document.getElementById('newer').href = '?' + spar;
-   }
-})();
+});
