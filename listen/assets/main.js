@@ -1,22 +1,16 @@
 'use strict';
-let lstn = document.getElementById('listen');
+const gei = dd => document.getElementById(dd);
+const lstn = gei('listen');
+const path = 'https://github.com/cup/umber/releases/download';
 
-(async () => {
-   let vdeo = (await (await fetch('/umber/radio/assets/data.json')).json())
-   .find(trck => trck[0] == new URLSearchParams(location.search).get('v'));
+fetch('/umber/radio/assets/data.json').then(ee => ee.json()).then(ee => {
+   const vpar = new URLSearchParams(location.search).get('v');
+   const vdeo = ee.find(trck => trck[0] == vpar);
+   const dstr = new Date(vdeo[0] * 1000).toDateString();
 
-   let attr = vdeo[2].slice(2);
-
-   lstn.src = 'https://github.com/cup/umber/releases/download/' +
-   attr + '/' + vdeo[0];
-
-   lstn.poster = 'https://github.com/cup/umber/releases/download/' +
-   attr + '/image.jpg';
-
+   lstn.src = path + '/' + vdeo[2].slice(2) + '/' + vdeo[0];
+   lstn.poster = path + '/' + vdeo[2].slice(2) + '/image.jpg';
    document.title = vdeo[3] + ' - Umber Listen';
-   document.getElementById('artist').textContent = vdeo[3];
-
-   document.getElementById('date').textContent = 'released ' + vdeo[1] +
-   ' - posted ' + new Date(vdeo[0] * 1000).toDateString();
-})();
-
+   gei('artist').textContent = vdeo[3];
+   gei('date').textContent = 'released ' + vdeo[1] + ' - posted ' + dstr;
+});
