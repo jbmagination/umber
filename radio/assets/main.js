@@ -26,10 +26,11 @@ const bandcamp = function(rec) {
 };
 
 const fgr = function() {
-   const tstamp = arguments[0];
-   const year = arguments[1];
-   const [site, url1, url2] = arguments[2].split('/');
-   const title = arguments[3];
+   const song = {};
+   song.post = arguments[0];
+   song.rel = arguments[1];
+   [song.site, song.url1, song.url2] = arguments[2].split('/');
+   song.title = arguments[3];
    const e_fu = document.createElement('figure');
    const e_a = document.createElement('a');
    const e_d1 = document.createElement('div');
@@ -39,32 +40,32 @@ const fgr = function() {
 
    // need this else we get SyntaxError: redeclaration of let link
    let link;
-   switch (site) {
+   switch (song.site) {
    case 'b':
       // case sensitive
       link = new URL('https://bandcamp.com/EmbeddedPlayer');
-      link.hash = slug(title);
-      link.searchParams.set('track', url1);
+      link.hash = slug(song.title);
+      link.searchParams.set('track', song.url1);
       // required when protocol is not "file:"
       link.searchParams.set('ref', '');
       // these are not required, but they look nicer
       link.searchParams.set('artwork', 'small');
       link.searchParams.set('size', 'large');
-      e_i.src = 'https://f4.bcbits.com/img/' + url2 + '_16.jpg';
+      e_i.src = 'https://f4.bcbits.com/img/' + song.url2 + '_16.jpg';
       break;
    case 'g':
       // we need the trailing slash to maintain HTTPS
       link = new URL('/umber/listen/', location);
-      link.searchParams.set('v', tstamp);
+      link.searchParams.set('v', song.post);
 
-      e_i.src = 'https://github.com/cup/umber/releases/download/' + url1 +
-      '/image.jpg';
+      e_i.src = 'https://github.com/cup/umber/releases/download/' +
+      song.url1 + '/image.jpg';
 
       break;
    case 's':
       link = new URL('https://w.soundcloud.com/player');
-      link.hash = slug(title);
-      link.searchParams.set('url', 'api.soundcloud.com/tracks/' + url1);
+      link.hash = slug(song.title);
+      link.searchParams.set('url', 'api.soundcloud.com/tracks/' + song.url1);
       // ignored on mobile
       link.searchParams.set('auto_play', true);
       // accepts "true" but not "1"
@@ -72,30 +73,33 @@ const fgr = function() {
       // these are not required, but it looks nicer
       link.searchParams.set('show_comments', false);
       link.searchParams.set('visual', true);
-      e_i.src = 'https://i1.sndcdn.com/artworks-' + url2 + '-t500x500.jpg';
+
+      e_i.src = 'https://i1.sndcdn.com/artworks-' + song.url2 +
+      '-t500x500.jpg';
+
       break;
    case 'v':
       // player.vimeo.com/video/101914072: this video cannot be played here
-      link = new URL('https://vimeo.com/' + url1);
-      link.hash = slug(title);
+      link = new URL('https://vimeo.com/' + song.url1);
+      link.hash = slug(song.title);
       link.searchParams.set('autoplay', 1);
-      e_i.src = 'https://i.vimeocdn.com/video/' + url2 + '_1280x720.jpg';
+      e_i.src = 'https://i.vimeocdn.com/video/' + song.url2 + '_1280x720.jpg';
       break;
    case 'y':
       // video unavailable: youtube.com/embed/4Dcoz65iKQM
       link = new URL('https://www.youtube.com/watch');
-      link.searchParams.set('v', url1);
-      link.hash = slug(title);
+      link.searchParams.set('v', song.url1);
+      link.hash = slug(song.title);
 
       e_i.src = 'https://i.ytimg.com/vi/' + link.searchParams.get('v') +
       '/sd1.jpg';
    }
 
    e_a.href = link.href;
-   e_d2.textContent = title;
+   e_d2.textContent = song.title;
 
-   e_fc.textContent = 'released ' + year +
-   ' - posted ' + new Date(tstamp * 1000).toDateString();
+   e_fc.textContent = 'released ' + song.rel +
+   ' - posted ' + new Date(song.post * 1000).toDateString();
 
    e_d1.append(e_i);
    e_a.append(e_d1, e_d2);
