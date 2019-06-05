@@ -80,13 +80,6 @@ const fgr = vdeo => {
       '/sd1.jpg';
    }
 
-   if (attr.length) {
-      e_d1.className = 'squa';
-   }
-   else {
-      e_d1.className = 'rect';
-   }
-
    e_a.href = url.href;
    e_d2.textContent = vdeo[3];
 
@@ -117,7 +110,7 @@ else {
 fetch('/umber/radio/assets/data.json').then(aa => aa.json()).then(bb => {
    // both sides of the test can contain uppercase on mobile
    const result = bb.filter(cc => RegExp(query, 'i').test(cc[1] + cc[3]));
-   gei('figures').append(...result.slice(begin, end).map(aa => fgr(aa)));
+   gei('figures').append(...result.slice(begin, end).map(dd => fgr(dd)));
 
    if (result[end]) {
       spar.set('p', page + 1);
