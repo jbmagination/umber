@@ -1,17 +1,18 @@
 'use strict';
-var qo = (ae, df = document) => df.querySelector(ae);
-var qa = (ae, df = document) => df.querySelectorAll(ae);
+{
+   const qs = (bb, cc = document) => cc.querySelector(bb);
+   const qsa = (bb, cc = document) => [...cc.querySelectorAll(bb)];
 
-qa('.report-button').forEach(ae => {
-   var cf = new URL(qo('.bylink', ae.parentNode).href);
-   cf.hostname = 'www.reddit.com';
-   cf.searchParams.set('depth', 3);
-   cf.searchParams.set('sort', 'confidence');
-
-   var np = document.createElement('a');
-   np.href = cf.href;
-   np.style.color = '#BF1449';
-   np.style.fontWeight = 'bold';
-   np.textContent = 'depth';
-   ae.replaceWith(np);
-});
+   qsa('.report-button').forEach(ff => {
+      const gg = new URL(qs('.bylink', ff.parentNode).href);
+      gg.hostname = 'www.reddit.com';
+      gg.searchParams.set('depth', 3);
+      gg.searchParams.set('sort', 'confidence');
+      const hh = document.createElement('a');
+      hh.href = gg.href;
+      hh.style.color = '#BF1449';
+      hh.style.fontWeight = 'bold';
+      hh.textContent = 'depth';
+      ff.replaceWith(hh);
+   });
+}

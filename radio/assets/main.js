@@ -28,7 +28,6 @@ const bandcamp = function(song) {
 
 const github = function(song) {
    const aurl = new URL('https://cup.github.io');
-   // we need the trailing slash to maintain HTTPS
    aurl.pathname =  'umber/listen';
    aurl.searchParams.set('v', song.post);
    const iurl = new URL('https://github.com');

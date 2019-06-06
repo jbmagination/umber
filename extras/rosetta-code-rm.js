@@ -1,13 +1,16 @@
 'use strict';
-var cb = (ae, df = document) => [...df.querySelectorAll(ae)];
-var hk = [];
-cb('[title*="/Omit"]').forEach(np => np.remove());
+{
+   const qsa = bb => [...document.querySelectorAll(bb)];
+   const cc = [];
 
-cb('[title^="Category:"]').forEach(np => {
-   if (hk.includes(np.title)) {
-      np.remove();
-   }
-   else {
-      hk.push(np.title);
-   }
-});
+   qsa('[title*="/Omit"]').forEach(bb => bb.remove());
+
+   qsa('[title^="Category:"]').forEach(bb => {
+      if (cc.includes(bb.title)) {
+         bb.remove();
+      }
+      else {
+         cc.push(bb.title);
+      }
+   });
+}
