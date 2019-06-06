@@ -10,18 +10,68 @@ const slug = function(txt) {
    .toLowerCase();
 };
 
-const bandcamp = function(rec) {
+const bandcamp = function(song) {
    // case sensitive
    const aurl = new URL('https://bandcamp.com');
-   aurl.hash = slug(rec[3]);
-   aurl.searchParams.set('track', rec[2].split('/')[0]);
+   aurl.pathname = 'EmbeddedPlayer';
+   aurl.hash = slug(song.title);
+   aurl.searchParams.set('track', song.site);
    // required when protocol is not "file:"
    aurl.searchParams.set('ref', '');
    // these are not required, but they look nicer
    aurl.searchParams.set('artwork', 'small');
    aurl.searchParams.set('size', 'large');
    const iurl = new URL('https://f4.bcbits.com');
-   iurl.pathname = 'img/' + rec[2].split('/')[1] + '_16.jpg';
+   iurl.pathname = 'img/' + song.url1 + '_16.jpg';
+   return [aurl, iurl];
+};
+
+const github = function(song) {
+   const aurl = new URL('https://cup.github.io');
+   // we need the trailing slash to maintain HTTPS
+   aurl.pathname =  'umber/listen';
+   aurl.searchParams.set('v', song.post);
+   const iurl = new URL('https://github.com');
+   iurl.pathname = 'cup/umber/releases/download/' + song.url1 + '/image.jpg';
+   return [aurl, iurl];
+};
+
+const soundcloud = function(song) {
+   const aurl = new URL('https://w.soundcloud.com');
+   aurl.pathname = 'player';
+   aurl.hash = slug(song.title);
+   aurl.searchParams.set('url', 'api.soundcloud.com/tracks/' + song.url1);
+   // ignored on mobile
+   aurl.searchParams.set('auto_play', true);
+   // accepts "true" but not "1"
+   aurl.searchParams.set('hide_related', true);
+   // these are not required, but it looks nicer
+   aurl.searchParams.set('show_comments', false);
+   aurl.searchParams.set('visual', true);
+   const iurl = new URL('https://i1.sndcdn.com');
+   iurl.pathname =  'artworks-' + song.url2 + '-t500x500.jpg';
+   return [aurl, iurl];
+};
+
+const vimeo = function(song) {
+   // player.vimeo.com/video/101914072: this video cannot be played here
+   const aurl = new URL('https://vimeo.com');
+   aurl.pathname = song.url1;
+   aurl.hash = slug(song.title);
+   aurl.searchParams.set('autoplay', 1);
+   const iurl = new URL('https://i.vimeocdn.com');
+   iurl.pathname = 'video/' + song.url2 + '_1280x720.jpg';
+   return [aurl, iurl];
+};
+
+const youtube = function(song) {
+   const aurl = new URL('https://www.youtube.com');
+   // video unavailable: youtube.com/embed/4Dcoz65iKQM
+   aurl.pathname = 'watch';
+   aurl.searchParams.set('v', song.url1);
+   aurl.hash = slug(song.title);
+   const iurl = new URL('https://i.ytimg.com');
+   iurl.pathname = 'vi/' + song.url1 + '/sd1.jpg';
    return [aurl, iurl];
 };
 
