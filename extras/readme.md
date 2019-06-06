@@ -1,6 +1,15 @@
 Extras
 ======
 
+For bookmarklets, wrap like this:
+
+~~~js
+javascript: {
+   const aa = 2;
+   console.log(aa);
+} void 0;
+~~~
+
 Alternative to
 --------------
 
