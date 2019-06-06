@@ -11,18 +11,18 @@ const slug = function(txt) {
 };
 
 const bandcamp = function(song) {
-   // case sensitive
    const aurl = new URL('https://bandcamp.com');
+   // case sensitive
    aurl.pathname = 'EmbeddedPlayer';
    aurl.hash = slug(song.title);
-   aurl.searchParams.set('track', song.site);
+   aurl.searchParams.set('track', song.url1);
    // required when protocol is not "file:"
    aurl.searchParams.set('ref', '');
    // these are not required, but they look nicer
    aurl.searchParams.set('artwork', 'small');
    aurl.searchParams.set('size', 'large');
    const iurl = new URL('https://f4.bcbits.com');
-   iurl.pathname = 'img/' + song.url1 + '_16.jpg';
+   iurl.pathname = 'img/' + song.url2 + '_16.jpg';
    return [aurl, iurl];
 };
 
