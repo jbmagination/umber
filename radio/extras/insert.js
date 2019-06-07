@@ -1,17 +1,17 @@
 'use strict';
 /* needs to work in playlist view */
-var vdeo = 'y/' + ytplayer.config.args.video_id;
+const vdeo = 'y/' + ytplayer.config.args.video_id;
 
 /* innerHTML leaves HTML entities. textContent destroys breaks. */
-var dscr = document.getElementById('eow-description').innerText;
+const dscr = document.getElementById('eow-description').innerText;
 
 /* dont combine this with other variable declarations as it will be temping to
 alphabetize them. just because it has year doesnt mean its a "topic" video */
-var extras = dscr.split('\n').find(ae => ae.includes('·'));
+const extras = dscr.split('\n').find(ae => ae.includes('·'));
 
-var tmsp = Math.floor(new Date / 1000);
+const tmsp = Math.floor(new Date / 1000);
 
-var txar = document.createElement('textarea');
+const txar = document.createElement('textarea');
 txar.cols = 70;
 txar.style.font = 'medium Consolas';
 txar.style.position = 'fixed';
@@ -24,12 +24,12 @@ if (extras) {
    var entry = extras.split(' · ');
 
    /* this needs to be before artist */
-   var song = entry.shift();
-   var artist = entry.join(' & ');
+   const song = entry.shift();
+   const artist = entry.join(' & ');
 
    /* sometimes you will only have publication year,
    and sometimes you will only have release year */
-   var year = dscr.match(/\d{4}/)[0];
+   const year = dscr.match(/\d{4}/)[0];
    txar.textContent = `[${tmsp}, ${year}, "${vdeo}", "${artist} - ${song}"],`;
 }
 else {
