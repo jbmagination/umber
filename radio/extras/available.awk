@@ -5,24 +5,23 @@ BEGIN {
       exit 1
    }
 
-   while (getline ac < "/usr/share/umber/data.json" > 0) {
-      split(ac, bd, "\"")
+   while (getline aa < "/usr/local/share/umber/data.json" > 0) {
+      split(aa, bb, "\"")
 
-      if (tolower(bd[4]) ~ ARGV[1]) {
-         ef = "GOOD"
-         sub("^y/", "", bd[2])
+      if (tolower(bb[4]) ~ ARGV[1]) {
+         ee = "GOOD"
+         sub("^y/", "", bb[2])
 
-         while ("curl -s https://www.youtube.com/watch?v=" bd[2] | getline ac) {
-            if (index(ac, "uploader has not made this video available") ||
-            index(ac, "video is no longer available") ||
-            index(ac, "video is not available") ||
-            index(ac, "video is only available to Music Premium") ||
-            index(ac, "video is unlisted")) {
-               ef = "BAD"
+         while ("curl -s https://www.youtube.com/watch?v=" bb[2] | getline aa) {
+            if (index(aa, "uploader has not made this video available") ||
+            index(aa, "video is no longer available") ||
+            index(aa, "video is not available") ||
+            index(aa, "video is only available to Music Premium") ||
+            index(aa, "video is unlisted")) {
+               ee = "BAD"
             }
          }
-
-         print ef, bd[4]
+         print ee, bb[4]
       }
    }
 }

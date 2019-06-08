@@ -1,12 +1,13 @@
 'use strict';
 const gei = bb => document.getElementById(bb);
 
-// slug is not required, but it will allow for history search
+/* slug is not required, but it will allow for history search. make sure
+pattern "1" is replaced before pattern "2". */
 const slug = function(txt) {
    return txt.replace(/ ?[&,-] /g, '-')
-   .replace(/[ /]/g, '-')
+   .replace(/\b(of|the|to) /gi, '') // 1
+   .replace(/[ /]/g, '-') // 2
    .replace(/[%().’]/g, '')
-   .replace(/\b(of|the|to) /gi, '')
    .toLowerCase();
 };
 
