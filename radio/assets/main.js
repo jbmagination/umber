@@ -1,14 +1,13 @@
 'use strict';
 const gei = bb => document.getElementById(bb);
 
-/* slug is not required, but it will allow for history search. make sure
-pattern "1" is replaced before pattern "2". */
-const slug = function(txt) {
-   return txt.replace(/ ?[&,-] /g, '-')
-   .replace(/\b(of|the|to) /gi, '') // 1
-   .replace(/[ /]/g, '-') // 2
-   .replace(/[%().’]/g, '')
-   .toLowerCase();
+// slug is not required, but it will allow for history search
+const slug = aa => {
+   return aa.toLowerCase()
+   /* 1 */ .replace(/[%().’]/g, '')
+   /* 2 */ .replace(/\b(in|of|the|to) /g, '')
+   /* 3 */ .replace(/[ /]/g, '-')
+   /* 4 */ .replace(/ ?[&,-] /g, '-');
 };
 
 const bandcamp = function(song) {
@@ -92,24 +91,24 @@ const select = function(song) {
 
 const fgr = function() {
    const e_a = document.createElement('a');
-   const e_d1 = document.createElement('div');
-   const e_d2 = document.createElement('div');
+   const e_d = document.createElement('div');
    const e_fc = document.createElement('figcaption');
    const e_fu = document.createElement('figure');
    const e_i = document.createElement('img');
+   const e_s = document.createElement('span');
    const song = {};
    song.post = arguments[0];
    song.rel = arguments[1];
    [song.site, song.url1, song.url2] = arguments[2].split('/');
    song.title = arguments[3];
    [e_a.href, e_i.src] = select(song);
-   e_d2.textContent = song.title;
+   e_s.textContent = song.title;
 
    e_fc.textContent = 'released ' + song.rel + ' - posted ' +
    new Date(song.post * 1000).toDateString();
 
-   e_d1.append(e_i);
-   e_a.append(e_d1, e_d2);
+   e_d.append(e_i);
+   e_a.append(e_d, e_s);
    e_fu.append(e_a, e_fc);
    return e_fu;
 };
