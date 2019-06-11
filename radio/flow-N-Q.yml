@@ -552,7 +552,7 @@ Oneohtrix Point Never:
          rel: 2018
          white: yes
    Garden of Delete:
-      <rel: 2015
+      rel: 2015
    R Plus Seven:
       Boring Angel: no
       Americans: no
@@ -619,7 +619,7 @@ Oneohtrix Point Never:
       Physical Memory: dup
       Russian Mind: dup
       Sand Partina:
-      Ships Without Meaning:
+      Ships Without Meaning: yes
       Terminator Lake:
       The Trouble With Being Born:
       Time Decanted: dup

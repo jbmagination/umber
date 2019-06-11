@@ -6,8 +6,8 @@ const slug = aa => {
    return aa.toLowerCase()
    /* 1 */ .replace(/[%().’]/g, '')
    /* 2 */ .replace(/\b(in|of|the|to) /g, '')
-   /* 3 */ .replace(/[ /]/g, '-')
-   /* 4 */ .replace(/ ?[&,-] /g, '-');
+   /* 3 */ .replace(/ ?[&,-] /g, '-')
+   /* 4 */ .replace(/[ /]/g, '-');
 };
 
 const bandcamp = function(song) {
