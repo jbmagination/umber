@@ -5,7 +5,7 @@ const gei = bb => document.getElementById(bb);
 const slug = aa => {
    return aa.toLowerCase()
    /* 1 */ .replace(/[%().’]/g, '')
-   /* 2 */ .replace(/\b(in|of|the|to) /g, '')
+   /* 2 */ .replace(/\b(a|in|of|the|to) /g, '')
    /* 3 */ .replace(/ ?[&,-] /g, '-')
    /* 4 */ .replace(/[ /]/g, '-');
 };
