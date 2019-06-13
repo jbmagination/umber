@@ -4,8 +4,8 @@ const gei = bb => document.getElementById(bb);
 // slug is not required, but it will allow for history search
 const slug = aa => {
    return aa.toLowerCase()
-   /* 1 */ .replace(/[%().’]/g, '')
-   /* 2 */ .replace(/\b(a|in|of|the|to) /g, '')
+   /* 1 */ .replace(/[%().?’]/g, '')
+   /* 2 */ .replace(/\b(a|and|in|of|the|to) /g, '')
    /* 3 */ .replace(/ ?[&,-] /g, '-')
    /* 4 */ .replace(/[ /]/g, '-');
 };
